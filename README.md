@@ -18,6 +18,7 @@
 - Emerging Ability of Large Language Models
 - Rethinking the Role of Demonstrations What Makes incontext learning work?
 - Chain of Thought Prompting Elicits Reasoning in Large Language Models
+- Can Explanations Be Useful for Calibrating Black Box Models
 
 ### Tunning Free Prompt
 - GPT2:Language Models are Unsupervised Multitask Learners
@@ -26,10 +27,12 @@
 - AutoPrompt: Eliciting Knowledge from Language Models
 
 ### Fix-Prompt LM Tunning
-- PET-TC: Exploiting Cloze Questions for Few Shot Text Classification and Natural
+- T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+- PET-TC(a): Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference 
+- PET-TC(b): PETSGLUE It’s Not Just Size That Matters Small Language Models are also few-shot learners
 - PET-Gen: Few-Shot Text Generation with Natural Language Instructions
 - LM-BFF: Making Pre-trained Language Models Better Few-shot Learners
-
+- ADEPT: Improving and Simplifying Pattern Exploiting Training
 
 
 ## Resources
