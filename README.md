@@ -34,9 +34,20 @@
 - LM-BFF: Making Pre-trained Language Models Better Few-shot Learners
 - ADEPT: Improving and Simplifying Pattern Exploiting Training
 
+### Fix-LM Prompt Tunning 
+- Prefix-tuning: Optimizing continuous prompts for generation
+- Prompt-tunning: The power of scale for parameter-efficient prompt tuning.
+- WARP: Word-level Adversarial ReProgramming
+
+### LM + Prompt Tunning 
+- P-tunning: GPT Understands Too
+- PTR: Prompt Tuning with Rules for Text Classification
+- PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
+
 
 ## Resources
 - https://github.com/dongguanting/In-Context-Learning_PaperList
+
 
 
 
