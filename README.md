@@ -44,6 +44,12 @@
 - PTR: Prompt Tuning with Rules for Text Classification
 - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
 
+### Instruction-Finetune LLMs 
+- Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS
+- Flan-T5: Scaling Instruction-Finetuned Language Models
+- Instruct-GPT: Training language models to follow instructions with human feedback
+- T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
+- k-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
 
 ## Resources
 - https://github.com/dongguanting/In-Context-Learning_PaperList
