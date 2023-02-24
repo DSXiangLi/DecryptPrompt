@@ -30,7 +30,7 @@
 - T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
 - PET-TC(a): Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference 
 - PET-TC(b): PETSGLUE It’s Not Just Size That Matters Small Language Models are also few-shot learners
-- PET-Gen: Few-Shot Text Generation with Natural Language Instructions
+- GenPET: Few-Shot Text Generation with Natural Language Instructions
 - LM-BFF: Making Pre-trained Language Models Better Few-shot Learners
 - ADEPT: Improving and Simplifying Pattern Exploiting Training
 
@@ -41,6 +41,7 @@
 
 ### LM + Prompt Tunning 
 - P-tunning: GPT Understands Too
+- P-tunning v2: Prompt Tuning Can Be Comparable to Fine-tunning Universally Across Scales and Tasks
 - PTR: Prompt Tuning with Rules for Text Classification
 - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
 
@@ -53,6 +54,7 @@
 
 ## Resources
 - https://github.com/dongguanting/In-Context-Learning_PaperList
+- https://github.com/thunlp/PromptPapers
 
 
 
