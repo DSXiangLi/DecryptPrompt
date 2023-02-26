@@ -1,8 +1,8 @@
 # DecryptPrompt
 
-梳理Prompt范式相关模型~
+试(努)图(力)理解ChatGPT的超能力来源，顺手梳理下Prompt范式相关模型，持续更新中，有推荐paper和resources欢迎PR哟 ~~
 
-## Blogs
+## My blogs
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
 - [解密Prompt系列2. 冻结Prompt微调LM： T5 & PET & LM-BFF](https://cloud.tencent.com/developer/article/2223355?areaSource=&traceId=)
 
@@ -46,7 +46,7 @@
 - PTR: Prompt Tuning with Rules for Text Classification
 - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
 
-### Instruction-Tunning LLMs 
+### Instruction Tunning LLMs 
 - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS
 - Flan-T5: Scaling Instruction-Finetuned Language Models
 - Instruct-GPT: Training language models to follow instructions with human feedback
@@ -61,6 +61,7 @@
 ### paper
 - https://github.com/dongguanting/In-Context-Learning_PaperList
 - https://github.com/thunlp/PromptPapers
+- https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
 
 ### Blog
 - OpenAI ChatGPT Intro：https://openai.com/blog/chatgpt/
@@ -70,13 +71,11 @@
 - Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 
 ### Playground
-- [openAI Playground](https://openai.com/api/)
+- [openAI](https://openai.com/api/): openAI API
 - [WriteSonic](https://app.writesonic.com/library/88c3717f-1c78-4625-bc35-055e87f05f3d/all)：AI写作，广告文案，商品描述，公司Bio
 - [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown
-- [AI Topiah](ttps://www.ai-topia.com/): 聆心智能AI角色聊天，多少有点中二之魂在燃烧
+- [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，多少有点中二之魂在燃烧
 - [Moss](https://moss.fastnlp.top/#/): 复旦Moss，维护中但我从来没成功打开过网页。。。
-
-### OpenSource
 
 
 
