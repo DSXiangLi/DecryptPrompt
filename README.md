@@ -71,11 +71,18 @@
 - Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 
 ### Playground
-- [openAI](https://openai.com/api/): openAI API
-- [WriteSonic](https://app.writesonic.com/library/88c3717f-1c78-4625-bc35-055e87f05f3d/all)：AI写作，广告文案，商品描述，公司Bio
-- [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown
-- [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，多少有点中二之魂在燃烧
+- [openAI](https://openai.com/api/): openAI API各种访问教程请自寻~
+- [WriteSonic](https://app.writesonic.com/library/88c3717f-1c78-4625-bc35-055e87f05f3d/all)：AI写作，支持对话，自由创作和定向创作如广告文案，商品描述, 感觉和davinci-003效果较为相似，不过支持Web最新信息检索是亮点，支持中文
+- [copy.ai](https://www.copy.ai/): WriteSonic竞品，亮点是像论文引用一样每句话都有对应网站链接，可以一键复制到右边的创作Markdown，超级好用！
+- [copy.down](https://copyai.cn/): 中文的营销文案生成，只能定向创作，支持关键词到文案的生成
+- [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown，还在探索中
+- [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧
 - [Moss](https://moss.fastnlp.top/#/): 复旦Moss，维护中但我从来没成功打开过网页。。。
 
+### Opensource Model
+- Chatyuan: https://github.com/clue-ai/ChatYuan
+- PromptCLUE: https://github.com/clue-ai/PromptCLUE
+- 达摩院PLUG: https://www.alice-mind.com/portal#/
+- 智源CPM2.0：https://baai.ac.cn/
 
 
