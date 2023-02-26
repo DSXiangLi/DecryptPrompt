@@ -58,14 +58,14 @@
 - Sparrow: Improving alignment of dialogue agents via targeted human judgements
 
 ## Resources
-### paper
+### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
 - https://github.com/thunlp/PromptPapers
 - https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
 
-### Blog
+### Recommend Blog
 - OpenAI ChatGPT Intro：https://openai.com/blog/chatgpt/
-- OpenAI InstructGPT intro: https://openai.com/blog/instruction-following/#frog
+- OpenAI InstructGPT intro: https://openai.com/blog/instruction-following/
 - AllenAI ChatGPT能力解读：[How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)
 - Huggingface ChatGPT能力解读：[The techniques behind ChatGPT: RLHF, IFT, CoT, Red teaming, and more](https://huggingface.co/blog/dialog-agents)
 - Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
