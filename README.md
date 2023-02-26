@@ -46,18 +46,37 @@
 - PTR: Prompt Tuning with Rules for Text Classification
 - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
 
-### Instruction-Finetune LLMs 
+### Instruction-Tunning LLMs 
 - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS
 - Flan-T5: Scaling Instruction-Finetuned Language Models
 - Instruct-GPT: Training language models to follow instructions with human feedback
 - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
 - k-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
 
+### Train for Dialogue
+- LaMDA: Language Models for Dialog Applications
+- Sparrow: Improving alignment of dialogue agents via targeted human judgements
+
 ## Resources
+### paper
 - https://github.com/dongguanting/In-Context-Learning_PaperList
 - https://github.com/thunlp/PromptPapers
 
+### Blog
+- OpenAI ChatGPT Intro：https://openai.com/blog/chatgpt/
+- OpenAI InstructGPT intro: https://openai.com/blog/instruction-following/#frog
+- AllenAI ChatGPT能力解读：[How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)
+- Huggingface ChatGPT能力解读：[The techniques behind ChatGPT: RLHF, IFT, CoT, Red teaming, and more](https://huggingface.co/blog/dialog-agents)
+- Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 
+### Playground
+- [openAI Playground](https://openai.com/api/)
+- [WriteSonic](https://app.writesonic.com/library/88c3717f-1c78-4625-bc35-055e87f05f3d/all)：AI写作，广告文案，商品描述，公司Bio
+- [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown
+- [AI Topiah](ttps://www.ai-topia.com/): 聆心智能AI角色聊天，多少有点中二之魂在燃烧
+- [Moss](https://moss.fastnlp.top/#/): 复旦Moss，维护中但我从来没成功打开过网页。。。
+
+### OpenSource
 
 
 
