@@ -77,19 +77,46 @@
 - Huggingface ChatGPT能力解读：[The techniques behind ChatGPT: RLHF, IFT, CoT, Red teaming, and more](https://huggingface.co/blog/dialog-agents)
 - Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 
-### Playground
-- [openAI](https://openai.com/api/): openAI API各种访问教程请自寻~
-- [WriteSonic](https://app.writesonic.com/library/88c3717f-1c78-4625-bc35-055e87f05f3d/all)：AI写作，支持对话，自由创作和定向创作如广告文案，商品描述, 感觉和davinci-003效果较为相似，不过支持Web最新信息检索是亮点，支持中文
+### AIGC Playground
+#### Overall
+- [openAI](https://openai.com/api/): ChatGPT出API啦！各种访问教程请自寻~
+
+#### write helper
+- [WriteSonic](https://app.writesonic.com/)：AI写作，支持对话，自由创作和定向创作如广告文案，商品描述, 感觉和davinci-003效果较为相似，不过支持Web最新信息检索是亮点，支持中文
 - [copy.ai](https://www.copy.ai/): WriteSonic竞品，亮点是像论文引用一样每句话都有对应网站链接，可以一键复制到右边的创作Markdown，超级好用！ :star2::star2::star2::star2::star2:
+- [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown，适用真相！在创作中用command调用AI辅助润色，扩写，检索内容，给创意idea
+- [Jasper](https://www.jasper.ai/): 和以上都差不多，全是竞品哈哈
 - [copy.down](https://copyai.cn/): 中文的营销文案生成，只能定向创作，支持关键词到文案的生成
-- [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown，还在探索中
+
+#### chatbot
 - [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧
-- [Moss](https://moss.fastnlp.top/#/): 复旦Moss，维护中但我从来没成功打开过网页。。。
+- [chatbase](https://www.chatbase.co/): 情感角色聊天，还没尝试
+
+#### Search
+- New Bing：访问教程，需要申请waitlist, 申请教程https://zhuanlan.zhihu.com/p/608882456
+
+#### Coding 
+- [Copilot](https://github.com/features/copilot): 要付费哟
+- [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代
+- [CodeGex](http://codegeex.cn/zh-CN): 国内替代品，还没试过
+
+#### prompt绘画
+- [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota
+- [midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F): 开创者，艺术风格为主
+- [Dall.E](https://openai.com/product/dall-e-2): 三巨头这就凑齐了
 
 ### Opensource Model
+#### 国外
+- [OPT-IML](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/metaseq/tree/main/projects/OPT): Meta复刻GPT3，up to 175B,不过效果并不及GPT3
+- [Bloom](https://huggingface.co/bigscience/bloom)：BigScience复刻,up to 176B, 搂了一眼感觉应该对标text-davinci-002
+
+#### 国内
+- 国内开源模型魔塔社区：https://www.modelscope.cn/home
 - Chatyuan: https://github.com/clue-ai/ChatYuan
 - PromptCLUE: https://github.com/clue-ai/PromptCLUE
 - 达摩院PLUG: https://www.alice-mind.com/portal#/
 - 智源CPM2.0：https://baai.ac.cn/
+- Moss：https://moss.fastnlp.top/#/，我还没成功打开过网页。。
+
 
 
