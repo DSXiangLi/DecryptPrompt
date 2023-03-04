@@ -85,7 +85,6 @@
 - Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 
 ### AIGC Playground
- ![](https://img.shields.io/badge/AIGC-Chatbot-blue) ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen) ![](https://img.shields.io/badge/AIGC-Coder-blueviolet) ![](https://img.shields.io/badge/AIGC-Search-yellow) ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [openAI](https://openai.com/api/): ChatGPT出API啦, 价格下降10倍！ ![](https://img.shields.io/badge/AIGC-Chatbot-blue) 
 - [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
 - [chatbase](https://www.chatbase.co/): 情感角色聊天，还没尝试 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
