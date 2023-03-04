@@ -47,7 +47,7 @@
 - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
 
 ### Instruction Tunning LLMs 
-- Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS
+- Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star2::star2::star2::star2::star2:
 - Flan-T5: Scaling Instruction-Finetuned Language Models
 - Instruct-GPT: Training language models to follow instructions with human feedback
 - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
@@ -63,6 +63,13 @@
 - SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
 - Large Language Models are Zero-Shot Reasoners
 - PaLM: Scaling Language Modeling with Pathways
+
+### RLHF
+- Deep reinforcement learning from human preferences
+- PPO: Proximal Policy Optimization Algorithms :star2::star2::star2::star2::star2:
+- InstrutGPT序作：learning to summarize from human feedback
+- InstructGPT: Training language models to follow instructions with human feedback
+- RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
 
 ## Resources
 ### paper List
