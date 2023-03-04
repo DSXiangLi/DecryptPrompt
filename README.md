@@ -4,6 +4,8 @@
 
 每个方向推荐1-2篇五星好评的论文，没有推荐的方向就是我也还没看完哈哈哈~
 
+补充AIGC相关的应用
+
 ## My blogs
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
 - [解密Prompt系列2. 冻结Prompt微调LM： T5 & PET & LM-BFF](https://cloud.tencent.com/developer/article/2223355?areaSource=&traceId=)
