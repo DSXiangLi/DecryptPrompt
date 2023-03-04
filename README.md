@@ -85,32 +85,22 @@
 - Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 
 ### AIGC Playground
-#### Overall
-- [openAI](https://openai.com/api/): ChatGPT出API啦！各种访问教程请自寻~
-
-#### write helper
-- [WriteSonic](https://app.writesonic.com/)：AI写作，支持对话，自由创作和定向创作如广告文案，商品描述, 感觉和davinci-003效果较为相似，不过支持Web最新信息检索是亮点，支持中文
-- [copy.ai](https://www.copy.ai/): WriteSonic竞品，亮点是像论文引用一样每句话都有对应网站链接，可以一键复制到右边的创作Markdown，超级好用！ :star2::star2::star2::star2::star2:
-- [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown，适用真相！在创作中用command调用AI辅助润色，扩写，检索内容，给创意idea
-- [Jasper](https://www.jasper.ai/): 和以上都差不多，全是竞品哈哈
-- [copy.down](https://copyai.cn/): 中文的营销文案生成，只能定向创作，支持关键词到文案的生成
-
-#### chatbot
-- [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧
-- [chatbase](https://www.chatbase.co/): 情感角色聊天，还没尝试
-
-#### Search
-- New Bing：访问教程，需要申请waitlist, 申请教程https://zhuanlan.zhihu.com/p/608882456
-
-#### Coding 
-- [Copilot](https://github.com/features/copilot): 要付费哟
-- [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代
-- [CodeGex](http://codegeex.cn/zh-CN): 国内替代品，还没试过
-
-#### prompt绘画
-- [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota
-- [midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F): 开创者，艺术风格为主
-- [Dall.E](https://openai.com/product/dall-e-2): 三巨头这就凑齐了
+ ![](https://img.shields.io/badge/AIGC-Chatbot-blue) ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen) ![](https://img.shields.io/badge/AIGC-Coder-blueviolet) ![](https://img.shields.io/badge/AIGC-Search-yellow) ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
+- [openAI](https://openai.com/api/): ChatGPT出API啦, 价格下降10倍！ ![](https://img.shields.io/badge/AIGC-Chatbot-blue) 
+- [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
+- [chatbase](https://www.chatbase.co/): 情感角色聊天，还没尝试 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
+- [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow)
+- [WriteSonic](https://app.writesonic.com/)：AI写作，支持对话和定向创作如广告文案，商品描述, 支持Web检索是亮点，支持中文  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
+- [copy.ai](https://www.copy.ai/): WriteSonic竞品，亮点是像论文引用一样每句话都有对应网站链接，可以一键复制到右边的创作Markdown，超级好用！ ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
+- [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown，适用真相！在创作中用command调用AI辅助润色，扩写，检索内容，给创意idea ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
+- [Jasper](https://www.jasper.ai/): 同上，全是竞品哈哈  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
+- [copy.down](https://copyai.cn/): 中文的营销文案生成，只能定向创作，支持关键词到文案的生成  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
+- [Copilot](https://github.com/features/copilot): 要付费哟 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
+- [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
+- [CodeGex](http://codegeex.cn/zh-CN): 国内替代品，还没试过 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
+- [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
+- [midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F): 开创者，艺术风格为主 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
+- [Dall.E](https://openai.com/product/dall-e-2): 三巨头这就凑齐了 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 
 ### Opensource Model
 #### 国外
