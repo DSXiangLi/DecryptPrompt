@@ -58,6 +58,8 @@
 ### Train for Dialogue
 - LaMDA: Language Models for Dialog Applications
 - Sparrow: Improving alignment of dialogue agents via targeted human judgements
+- BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
+- How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
 
 ### Chain of Thought
 - Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star2::star2::star2::star2::star2:
