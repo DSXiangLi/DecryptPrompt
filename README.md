@@ -1,6 +1,8 @@
 # DecryptPrompt
 
-试(努)图(力)理解ChatGPT的超能力来源，顺手梳理下Prompt范式相关模型，持续更新中，有推荐paper和resources欢迎PR哟~~
+持续更新中~
+
+试(努)图(力)理解ChatGPT的超能力来源，顺手梳理下Prompt范式相关模型，有推荐paper和resources欢迎PR哟~~
 
 每个方向推荐1-2篇五星好评的论文，没有推荐的方向就是我也还没看完哈哈哈~
 
@@ -34,16 +36,16 @@
 - PET-TC(a): Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference  :star2::star2::star2::star2::star2:
 - PET-TC(b): PETSGLUE It’s Not Just Size That Matters Small Language Models are also few-shot learners
 - GenPET: Few-Shot Text Generation with Natural Language Instructions
-- LM-BFF: Making Pre-trained Language Models Better Few-shot Learners
+- LM-BFF: Making Pre-trained Language Models Better Few-shot Learners  :star2::star2::star2::star2:
 - ADEPT: Improving and Simplifying Pattern Exploiting Training
 
 ### Fix-LM Prompt Tunning 
-- Prefix-tuning: Optimizing continuous prompts for generation  :star2::star2::star2::star2::star2:
-- Prompt-tunning: The power of scale for parameter-efficient prompt tuning.
+- Prefix-tuning: Optimizing continuous prompts for generation  
+- Prompt-tunning: The power of scale for parameter-efficient prompt tuning :star2::star2::star2::star2::star2:
+- P-tunning: GPT Understands Too :star2::star2::star2::star2:
 - WARP: Word-level Adversarial ReProgramming
 
 ### LM + Prompt Tunning 
-- P-tunning: GPT Understands Too
 - P-tunning v2: Prompt Tuning Can Be Comparable to Fine-tunning Universally Across Scales and Tasks
 - PTR: Prompt Tuning with Rules for Text Classification
 - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
@@ -51,13 +53,13 @@
 ### Instruction Tunning LLMs 
 - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star2::star2::star2::star2::star2:
 - Flan-T5: Scaling Instruction-Finetuned Language Models
-- Instruct-GPT: Training language models to follow instructions with human feedback
+- Instruct-GPT: Training language models to follow instructions with human feedback star2::star2::star2::star2::star2:
 - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
 - k-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
 
 ### Train for Dialogue
 - LaMDA: Language Models for Dialog Applications
-- Sparrow: Improving alignment of dialogue agents via targeted human judgements
+- Sparrow: Improving alignment of dialogue agents via targeted human judgements star2::star2::star2::star2::star2:
 - BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
 - How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
 
@@ -72,7 +74,7 @@
 - Deep reinforcement learning from human preferences
 - PPO: Proximal Policy Optimization Algorithms :star2::star2::star2::star2::star2:
 - InstrutGPT序作：learning to summarize from human feedback
-- InstructGPT: Training language models to follow instructions with human feedback
+- InstructGPT: Training language models to follow instructions with human feedback star2::star2::star2::star2::star2:
 - RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
 
 ## Resources
@@ -117,7 +119,7 @@
 - PromptCLUE: https://github.com/clue-ai/PromptCLUE
 - 达摩院PLUG: https://www.alice-mind.com/portal#/
 - 智源CPM2.0：https://baai.ac.cn/
-- Moss：https://moss.fastnlp.top/#/，我还没成功打开过网页。。
+- Moss：https://moss.fastnlp.top/#/
 
 
 
