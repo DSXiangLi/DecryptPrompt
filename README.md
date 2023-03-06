@@ -87,7 +87,7 @@
 - AllenAI ChatGPT能力解读：[How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)  :star2::star2::star2::star2::star2:
 - Huggingface ChatGPT能力解读：[The techniques behind ChatGPT: RLHF, IFT, CoT, Red teaming, and more](https://huggingface.co/blog/dialog-agents)
 - Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
-- https://github.com/chenweiphd/ChatGPT-Hub: Chatgpt相关解读汇总
+- Chatgpt相关解读汇总: https://github.com/chenweiphd/ChatGPT-Hub
 
 ### AIGC Playground
 - [openAI](https://openai.com/api/): ChatGPT出API啦, 价格下降10倍！ ![](https://img.shields.io/badge/AIGC-Chatbot-blue) 
