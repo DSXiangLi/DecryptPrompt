@@ -98,9 +98,9 @@
 - [ClickPrompt](https://www.clickprompt.org/zh-CN/): 为各种prompt加持的工具生成指令包括Difussion，chatgpt 
 - [Prompt-Engineer-Guide]( https://github.com/dair-ai/Prompt-Engineering-Guide): 如何写prompt的系列教学指南  :star:
 - [ChatGPT ShortCut](https://newzone.top/chatgpt/)：提供各式场景下的Prompt范例，支持搜索 
+- [PromptPerfect](https://promptperfect.jinaai.cn/):用魔法打败魔法，输入关键词，模型创建条理清晰的最美提示词
 - [openAI](https://openai.com/api/): ChatGPT出API啦, 价格下降10倍！
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
-
 
 ### AIGC playground
 - [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
