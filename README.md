@@ -1,6 +1,6 @@
 # DecryptPrompt
 
-包括以下方向，持续更新中，有推荐paper和resources欢迎PR哟~~
+持续更新以下内容，Star to keep updated~
 1. Prompt和LLM相关论文按细分方向梳理
 2. AIGC相关应用
 3. Prompt指南和教程
