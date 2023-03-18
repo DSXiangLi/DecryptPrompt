@@ -13,22 +13,7 @@
 - [解密Prompt系列2. 冻结Prompt微调LM： T5 & PET & LM-BFF](https://cloud.tencent.com/developer/article/2223355?areaSource=&traceId=)
 - [解密Prompt系列3. 冻结LM微调Prompt: Prefix-tuning & Prompt-tuning & P-tuning](https://cloud.tencent.com/developer/article/2237259?areaSource=&traceId=)
 
-## Resources
-### paper List
-- https://github.com/dongguanting/In-Context-Learning_PaperList
-- https://github.com/thunlp/PromptPapers
-- https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
-
-### Recommend Blog
-- [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
-- [OpenAI InstructGPT intro](https://openai.com/blog/instruction-following/)
-- AllenAI ChatGPT能力解读：[How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)  :star:
-- Huggingface ChatGPT能力解读：[The techniques behind ChatGPT: RLHF, IFT, CoT, Red teaming, and more](https://huggingface.co/blog/dialog-agents)
-- Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
-- [Chatgpt相关解读汇总](https://github.com/chenweiphd/ChatGPT-Hub)
-- [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
-- [AGI历史与现状](https://www.jiqizhixin.com/articles/2018-11-15-6?from=timeline)
-
+## Resources 
 ### Tools & Tutorial
 - [openAI](https://openai.com/api/): ChatGPT出API啦, 价格下降10倍！
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
@@ -85,12 +70,27 @@
 - [CPM2.0](https://baai.ac.cn/): 智源发布CPM2.0
 - [GLM](https://github.com/THUDM/GLM-130B): 清华发布的中英双语130B大模型
 
+### Recommend Blog
+- [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
+- [OpenAI InstructGPT intro](https://openai.com/blog/instruction-following/)
+- AllenAI ChatGPT能力解读：[How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)  :star:
+- Huggingface ChatGPT能力解读：[The techniques behind ChatGPT: RLHF, IFT, CoT, Red teaming, and more](https://huggingface.co/blog/dialog-agents)
+- Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+- [Chatgpt相关解读汇总](https://github.com/chenweiphd/ChatGPT-Hub)
+- [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
+- [AGI历史与现状](https://www.jiqizhixin.com/articles/2018-11-15-6?from=timeline)
+
 ### ChatGPT 其他商用场景
 1. shopify：私人导购，情人节给女友买点啥？问它
 3. Instcart：私人营养师，搭配食谱，相关商品直接加购物车
 4. Quizlet：私人教辅，你来学习，它来出题，帮你答疑
 5. HSBC：使用大模型在财务信息汇总和分类
 6. Soul：塑造数字人，并为媒体和娱乐产品自动生成内容
+
+### paper List
+- https://github.com/dongguanting/In-Context-Learning_PaperList
+- https://github.com/thunlp/PromptPapers
+- https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
 
 ## Papers
 ### Survey
