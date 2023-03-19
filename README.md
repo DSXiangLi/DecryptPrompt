@@ -79,6 +79,8 @@
 - [Chatgpt相关解读汇总](https://github.com/chenweiphd/ChatGPT-Hub)
 - [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
 - [AGI历史与现状](https://www.jiqizhixin.com/articles/2018-11-15-6?from=timeline)
+- [张俊林 通向AGI之路：大型语言模型（LLM）技术精要](https://zhuanlan.zhihu.com/p/597586623)
+- [知乎回答 OpenAI 发布 GPT-4，有哪些技术上的优化或突破?](https://www.zhihu.com/question/589639535/answer/2936696161)
 
 ### ChatGPT 其他商用场景
 1. shopify：私人导购，情人节给女友买点啥？问它
