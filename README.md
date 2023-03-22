@@ -15,14 +15,16 @@
 
 ## Resources 
 ### Tools & Tutorial
+- [Langchain](https://github.com/hwchase17/langchain): 疯狂打call!!! 封装了OpenAI等多个模型的prompt链式处理能力，以及索引构建，prompt生成等集成能力。以下DocsGPT等多个应用都是基于langchain开发，虽然框架写的略显复杂，不过能力很完善！Demo很丰富！如果你想基于ChatGPT快速实现一些类似文档QA，Bing搜索一类的集成方案，它是你的不二选择 :star::star:
 - [openAI](https://openai.com/api/): ChatGPT出API啦, 价格下降10倍！
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
 - [OpenAI 接口被墙解决办法](https://github.com/riba2534/openai-scf-goproxy): 使用腾讯云搭建代理，亲测非常好用且手残党也可以轻松上手
-- [Prompt-Engineer-Guide]( https://github.com/dair-ai/Prompt-Engineering-Guide): 如何写prompt的系列教学指南  :star:
 - [PromptPerfect](https://promptperfect.jinaai.cn/):用魔法打败魔法，输入原始提示词，模型进行定向优化，试用后我有点沉默了，可以定向支持不同使用prompt的模型如Difussion，ChatGPT， Dalle等
-- [ClickPrompt](https://www.clickprompt.org/zh-CN/): 为各种prompt加持的工具生成指令包括Difussion，chatgptdeng, 需要OpenAI Key
-- [ChatGPT ShortCut](https://newzone.top/chatgpt/)：提供各式场景下的Prompt范例，支持搜索 
-- [learning Prompt](https://learnprompting.org/):  prompt engineering超全教程，和落地应用收藏
+- [ClickPrompt](https://www.clickprompt.org/zh-CN/): 为各种prompt加持的工具生成指令包括Difussion，chatgptdeng, 需要OpenAI Key 
+- [ChatGPT ShortCut](https://newzone.top/chatgpt/)：提供各式场景下的Prompt范例，范例很全，使用后可以点赞！  :star:
+- [learning Prompt](https://learnprompting.org/):  prompt engineering超全教程，和落地应用收藏，几乎包括以上内容，不过因为太全了，想要找到想要的内容有些难度。
+- [Prompt-Engineer-Guide]( https://github.com/dair-ai/Prompt-Engineering-Guide): 同learnig prompt类的集成教程，互相引用可还行？！ :star:
+
 
 ### AIGC playground
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
@@ -92,6 +94,9 @@
 4. Quizlet：私人教辅，你来学习，它来出题，帮你答疑
 5. HSBC：使用大模型在财务信息汇总和分类
 6. Soul：塑造数字人，并为媒体和娱乐产品自动生成内容
+7. Salesforce：旗下的 Slack宣布了一款新的人工智能应用程序，它将在几秒钟内回复同事消息，并进行会议总结
+8. 
+
 
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
