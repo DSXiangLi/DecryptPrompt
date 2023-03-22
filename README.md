@@ -67,7 +67,8 @@
 
 
 #### 国内
-- [文心一言](https://yiyan.baidu.com/welcome):已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！
+- [文心一言](https://yiyan.baidu.com/welcome):已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！3.31号API就开放使用了，期待ing
+- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): 清华个开源的、支持中英双语的对话语言模型，和以下GLM相同大小的130B的模型还在开发中。局限性是有的，不过这个模型大小很合适，准备改天试一下看看
 - [Moss](https://moss.fastnlp.top/#/): 复旦发布的大模型
 - https://www.modelscope.cn/home：国内开源模型魔塔社区
 - [PromptCLUE](https://github.com/clue-ai/PromptCLUE): 多任务Prompt语言模型
