@@ -23,8 +23,9 @@
 - [ClickPrompt](https://www.clickprompt.org/zh-CN/): 为各种prompt加持的工具生成指令包括Difussion，chatgptdeng, 需要OpenAI Key 
 - [ChatGPT ShortCut](https://newzone.top/chatgpt/)：提供各式场景下的Prompt范例，范例很全，使用后可以点赞！  :star:
 - [learning Prompt](https://learnprompting.org/):  prompt engineering超全教程，和落地应用收藏，几乎包括以上内容，不过因为太全了，想要找到想要的内容有些难度。
-- [Prompt-Engineer-Guide]( https://github.com/dair-ai/Prompt-Engineering-Guide): 同learnig prompt类的集成教程，互相引用可还行？！ :star:
-
+- [Prompt-Engineer-Guide]( https://github.com/dair-ai/Prompt-Engineering-Guide): 同learnig prompt类的集成教程，互相引用可还行？！分类索引做的更好些 :star:
+- [Full ChatGPT Prompts + Resources](https://enchanting-trader-463.notion.site/Full-ChatGPT-Prompts-Resources-8aa78bb226b7467ab59b70d2b27042e9): 同上同上，内容和以上略有差异，收藏起来作为候选资源
+- [OpenAI 应用汇总指南](https://www.mojidoc.com/05z7y-dd5pa7hu3zfmhnbngoeztyqcnq-00b): 纯应用类的汇总指南
 
 ### AIGC playground
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
@@ -88,6 +89,7 @@
 - [AGI历史与现状](https://www.jiqizhixin.com/articles/2018-11-15-6?from=timeline)
 - [张俊林 通向AGI之路：大型语言模型（LLM）技术精要](https://zhuanlan.zhihu.com/p/597586623)
 - [知乎回答 OpenAI 发布 GPT-4，有哪些技术上的优化或突破?](https://www.zhihu.com/question/589639535/answer/2936696161)
+- [追赶ChatGPT的难点与平替](https://zhuanlan.zhihu.com/p/609877277)
 
 ### ChatGPT 其他商用场景
 1. shopify：私人导购，情人节给女友买点啥？问它
@@ -96,7 +98,6 @@
 5. HSBC：使用大模型在财务信息汇总和分类
 6. Soul：塑造数字人，并为媒体和娱乐产品自动生成内容
 7. Salesforce：旗下的 Slack宣布了一款新的人工智能应用程序，它将在几秒钟内回复同事消息，并进行会议总结
-8. 
 
 
 ### paper List
