@@ -56,10 +56,11 @@
 - [GFPGAN](https://github.com/Nutlope/restorePhotos): 照片修复  ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [Visual ChatGPT](https://huggingface.co/spaces/microsoft/visual_chatgpt): 微软发布图像ChatGPT，对话方式进行图像生成编辑，问答 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange) :star:
 
-### 开源模型
+### 相关模型
 #### 国外
 - [LLaMA](https://github.com/facebookresearch/llama):Meta开源指令微调LLM，规模70 亿到 650 亿不等
 - [ChatLLaMA](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama): 基于RLHF微调了LLaMA 
+- [PaLM-E](https://palm-e.github.io): 谷歌多模态大模型，540B的PaLM语言模型和22B的ViT视觉模型相结合，得到562B的PaLM-E模型，在机器人应用场景有了新的突破
 - [MetaLM](https://github.com/microsoft/unilm): 微软开源的大规模自监督预训练模型
 - [Alpaca](https://github.com/tatsu-lab/stanford_alpaca): 斯坦福开源的使用52k数据在7B的LLaMA上微调得到，据说效果类似text-davinci-003, 模型不久后会发布
 - [OPT-IML](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/metaseq/tree/main/projects/OPT): Meta复刻GPT3，up to 175B, 不过效果并不及GPT3
@@ -69,7 +70,7 @@
 
 #### 国内
 - [文心一言](https://yiyan.baidu.com/welcome):已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！3.31号API就开放使用了，期待ing
-- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): 清华个开源的、支持中英双语的对话语言模型，和以下GLM相同大小的130B的模型还在开发中。局限性是有的，不过这个模型大小很合适，准备改天试一下看看
+- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。和以下GLM相同大小的130B的模型还在开发中。局限性是有的，不过这个模型大小很合适，准备改天试一下看看
 - [Moss](https://moss.fastnlp.top/#/): 复旦发布的大模型
 - https://www.modelscope.cn/home：国内开源模型魔塔社区
 - [PromptCLUE](https://github.com/clue-ai/PromptCLUE): 多任务Prompt语言模型
