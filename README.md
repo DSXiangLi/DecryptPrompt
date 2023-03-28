@@ -151,7 +151,7 @@
 - Flan-T5: Scaling Instruction-Finetuned Language Models
 - Instruct-GPT: Training language models to follow instructions with human feedback star:
 - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
-- k-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
+- Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
 
 ### Train for Dialogue
 - LaMDA: Language Models for Dialog Applications
@@ -173,3 +173,9 @@
 - InstructGPT: Training language models to follow instructions with human feedback :star:
 - RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
 
+### Agent: 让模型使用工具
+- Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools
+- MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning
+- ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS
+- Self: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS
+- PAL: Program-aided Language Models
