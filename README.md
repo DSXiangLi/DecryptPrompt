@@ -95,9 +95,11 @@
 1. self-instruct：GPT3生成&过滤得到指令集 https://github.com/yizhongw/self-instruct
 2. Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 https://github.com/tatsu-lab/stanford_alpaca
 3. 中文翻译Alpaca还有一些其他指令数据集：https://github.com/hikariming/alpaca_chinese_dataset
-4. Complex QA: 用于ChatGPT的评测指令集，https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT
-5. PromptCLUE多任务提示数据集：只包含标准NLP任务不包含自由生成任务 https://github.com/CLUEbenchmark/pCLUE
-6. Langchain开源评估数据集：https://huggingface.co/LangChainDatasets
+4. 中文翻译Alpaca：https://github.com/carbonz0/alpaca-chinese-dataset
+5. Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型 https://huggingface.co/datasets/JosephusCheung/GuanacoDataset
+6. Complex QA: 用于ChatGPT的评测指令集，https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT
+7. PromptCLUE多任务提示数据集：只包含标准NLP任务不包含自由生成任务 https://github.com/CLUEbenchmark/pCLUE
+8. Langchain开源评估数据集：https://huggingface.co/LangChainDatasets
 
 ### RLHF数据
 1. Anthropic：https://huggingface.co/datasets/Anthropic/hh-rlhf
