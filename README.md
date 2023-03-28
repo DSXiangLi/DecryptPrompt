@@ -6,6 +6,7 @@
 3. Prompt指南和教程
 4. ChatGPT及AGI相关解读
 5. 开源大模型
+6. 指令微调和RLHF的工具和数据
 6. ChatGPT相关商业应用 [WIP]
 
 ## My blogs
@@ -71,8 +72,8 @@
 
 
 #### 国内
+- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。和以下GLM相同大小的130B的模型还在开发中。试用了下超出预期！6B的模型对话条理性很好，虽然多轮对话逻辑性不太好，但是6B我用T4都能加载推理，还要啥自行车！对130B充满了期待！准备微调试试看
 - [文心一言](https://yiyan.baidu.com/welcome):已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！3.31号API就开放使用了，期待ing
-- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。和以下GLM相同大小的130B的模型还在开发中。局限性是有的，不过这个模型大小很合适，准备改天试一下看看
 - [Moss](https://moss.fastnlp.top/#/): 复旦发布的大模型
 - https://www.modelscope.cn/home：国内开源模型魔塔社区
 - [PromptCLUE](https://github.com/clue-ai/PromptCLUE): 多任务Prompt语言模型
@@ -80,6 +81,26 @@
 - [PLUG](https://www.alice-mind.com/portal#/): 阿里达摩院发布的大模型，提交申请会给下载链接
 - [CPM2.0](https://baai.ac.cn/): 智源发布CPM2.0
 - [GLM](https://github.com/THUDM/GLM-130B): 清华发布的中英双语130B大模型
+
+## 指令&RLHF数据和工具
+
+### 工具
+1. LoRA：Low-Rank指令微调方案 https://github.com/tloen/alpaca-lora
+2. RL4LMs：AllenAI的RL工具 https://github.com/allenai/RL4LMs
+3. trl：基于Transformer的强化训练框架 https://github.com/lvwerra/trl
+4. trlx：分布式训练trl https://github.com/CarperAI/trlx
+
+
+### 指令微调数据
+1. self-instruct：GPT3生成&过滤得到指令集 https://github.com/yizhongw/self-instruct
+2. Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 https://github.com/tatsu-lab/stanford_alpaca
+3. 中文翻译Alpaca还有一些其他指令数据集：https://github.com/hikariming/alpaca_chinese_dataset
+4. Complex QA: 用于ChatGPT的评测指令集，https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT
+5. PromptCLUE多任务提示数据集：只包含标准NLP任务不包含自由生成任务 https://github.com/CLUEbenchmark/pCLUE
+6. Langchain开源评估数据集：https://huggingface.co/LangChainDatasets
+
+### RLHF数据
+1. Anthropic：https://huggingface.co/datasets/Anthropic/hh-rlhf
 
 ### Recommend Blog
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
