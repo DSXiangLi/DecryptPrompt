@@ -167,11 +167,21 @@
 - PaLM: Scaling Language Modeling with Pathways
 
 ### RLHF
-- Deep reinforcement learning from human preferences
-- PPO: Proximal Policy Optimization Algorithms :star:
-- InstrutGPT序作：learning to summarize from human feedback
-- InstructGPT: Training language models to follow instructions with human feedback :star:
-- RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
+- Deepmind
+  - Teaching language models to support answers with verified quotes
+  - sparrow, Improving alignment of dialogue agents via targetd human judgements
+- openai
+  - PPO: Proximal Policy Optimization Algorithms :star:
+  - Deep Reinforcement Learning for Human Preference
+  - Fine-Tuning Language Models from Human Preferences
+  - learning to summarize from human feedback
+  - InstructGPT: Training language models to follow instructions with human feedback :star:
+- Anthropic
+  - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
+  - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
+  - Constitutional AI Harmlessness from AI Feedback :star:
+- AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
+
 
 ### Agent: 让模型使用工具
 - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools
