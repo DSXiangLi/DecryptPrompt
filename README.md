@@ -208,7 +208,15 @@
 
 ### Agent: 让模型使用工具
 - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools
-- MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning
-- ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS
+- MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning :star:
+- ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
 - Self: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS
 - PAL: Program-aided Language Models
+
+
+## 指令数据生成
+- APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  
+- iPrompt: Explaining Data Patterns in Natural Language via Interpretable Autoprompting  
+- Flipped Learning: Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners
+- SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
+- LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS
