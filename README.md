@@ -214,8 +214,8 @@
 - PAL: Program-aided Language Models
 
 
-## 指令数据生成
-- APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  
+### 指令数据生成
+- APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
 - iPrompt: Explaining Data Patterns in Natural Language via Interpretable Autoprompting  
 - Flipped Learning: Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners
 - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
