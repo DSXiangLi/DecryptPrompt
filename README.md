@@ -97,12 +97,15 @@
 3. 中文翻译Alpaca还有一些其他指令数据集：https://github.com/hikariming/alpaca_chinese_dataset
 4. 中文翻译Alpaca：https://github.com/carbonz0/alpaca-chinese-dataset
 5. Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型 https://huggingface.co/datasets/JosephusCheung/GuanacoDataset
-6. Complex QA: 用于ChatGPT的评测指令集，https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT
-7. PromptCLUE多任务提示数据集：只包含标准NLP任务不包含自由生成任务 https://github.com/CLUEbenchmark/pCLUE
-8. Langchain开源评估数据集：https://huggingface.co/LangChainDatasets
+6. PromptCLUE多任务提示数据集：只包含标准NLP任务不包含自由生成任务 https://github.com/CLUEbenchmark/pCLUE
+7. Langchain开源评估数据集：https://huggingface.co/LangChainDatasets
 
 ### RLHF数据
 1. Anthropic：https://huggingface.co/datasets/Anthropic/hh-rlhf
+
+### LLM评估数据
+1. BigBench(Beyond the Imitation Game Benchmark)，针对LLM评估的Benchmark, ttps://github.com/google/BIG-bench
+2. Complex QA：用于ChatGPT的评测指令集，https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT
 
 ### Recommend Blog
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -216,7 +219,6 @@
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
+- SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
 - iPrompt: Explaining Data Patterns in Natural Language via Interpretable Autoprompting  
 - Flipped Learning: Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners
-- SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
-- LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS
