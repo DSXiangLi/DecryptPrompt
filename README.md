@@ -1,19 +1,66 @@
 # DecryptPrompt
 
 持续更新以下内容，Star to keep updated~
-1. Prompt和LLM相关论文按细分方向梳理
-2. AIGC相关应用
-3. Prompt指南和教程
-4. ChatGPT及AGI相关解读
-5. 开源大模型
-6. 指令微调和RLHF的工具和数据
-6. ChatGPT相关商业应用 [WIP]
+1. 开源LLM
+2. 指令微调和RLHF数据以及训练框架
+3. Prompt和LLM相关论文按细分方向梳理
+4. AIGC相关应用
+5. Prompt指南和教程
+6. ChatGPT及AGI相关解读
+7. ChatGPT相关商业应用
 
 ## My blogs
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
 - [解密Prompt系列2. 冻结Prompt微调LM： T5 & PET & LM-BFF](https://cloud.tencent.com/developer/article/2223355?areaSource=&traceId=)
 - [解密Prompt系列3. 冻结LM微调Prompt: Prefix-tuning & Prompt-tuning & P-tuning](https://cloud.tencent.com/developer/article/2237259?areaSource=&traceId=)
 - [解密Prompt系列4. 升级Instruction Tuning：Flan/T0/InstructGPT/TKInstruct](https://cloud.tencent.com/developer/article/2245094?areaSource=&traceId=)
+
+
+## 模型和数据
+### 国外模型
+- [Google Bard](https://bard.google.com): 谷歌bard虽迟但到，可以申请waitlist了
+- [LLaMA](https://github.com/facebookresearch/llama):Meta开源指令微调LLM，规模70 亿到 650 亿不等
+- [ChatLLaMA](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama): 基于RLHF微调了LLaMA 
+- [PaLM-E](https://palm-e.github.io): 谷歌多模态大模型，540B的PaLM语言模型和22B的ViT视觉模型相结合，得到562B的PaLM-E模型，在机器人应用场景有了新的突破
+- [MetaLM](https://github.com/microsoft/unilm): 微软开源的大规模自监督预训练模型
+- [Alpaca](https://github.com/tatsu-lab/stanford_alpaca): 斯坦福开源的使用52k数据在7B的LLaMA上微调得到，据说效果类似text-davinci-003, 模型不久后会发布
+- [OPT-IML](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/metaseq/tree/main/projects/OPT): Meta复刻GPT3，up to 175B, 不过效果并不及GPT3
+- [Bloom](https://huggingface.co/bigscience/bloom)：BigScience出品，规模最大176B, 感觉应该对标text-davinci-002
+- [T0](https://github.com/bigscience-workshop/t-zero): BigScience出品，3B~11B的在T5进行指令微调的模型
+
+### 国内模型
+- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。和以下GLM相同大小的130B的模型还在开发中。试用了下超出预期！6B的模型对话条理性很好，虽然多轮对话逻辑性不太好，但是6B我用T4都能加载推理，还要啥自行车！对130B充满了期待！准备微调试试看
+- [文心一言](https://yiyan.baidu.com/welcome):已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！3.31号API就开放使用了，期待ing
+- [Moss](https://moss.fastnlp.top/#/): 复旦发布的大模型
+- https://www.modelscope.cn/home：国内开源模型魔塔社区
+- [PromptCLUE](https://github.com/clue-ai/PromptCLUE): 多任务Prompt语言模型
+- [Chatyuan](https://github.com/clue-ai/ChatYuan)：基于PromptCLUE训练的对话模型
+- [PLUG](https://www.alice-mind.com/portal#/): 阿里达摩院发布的大模型，提交申请会给下载链接
+- [CPM2.0](https://baai.ac.cn/): 智源发布CPM2.0
+- [GLM](https://github.com/THUDM/GLM-130B): 清华发布的中英双语130B大模型
+
+### 指令微调&RL工具
+1. LoRA：Low-Rank指令微调方案 https://github.com/tloen/alpaca-lora
+2. RL4LMs：AllenAI的RL工具 https://github.com/allenai/RL4LMs
+3. trl：基于Transformer的强化训练框架 https://github.com/lvwerra/trl
+4. trlx：分布式训练trl https://github.com/CarperAI/trlx
+
+### 指令微调数据
+1. self-instruct：GPT3生成&过滤得到指令集 https://github.com/yizhongw/self-instruct
+2. Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 https://github.com/tatsu-lab/stanford_alpaca
+3. 中文翻译Alpaca还有一些其他指令数据集：https://github.com/hikariming/alpaca_chinese_dataset
+4. 中文翻译Alpaca：https://github.com/carbonz0/alpaca-chinese-dataset
+5. Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型 https://huggingface.co/datasets/JosephusCheung/GuanacoDataset
+6. PromptCLUE多任务提示数据集：只包含标准NLP任务不包含自由生成任务 https://github.com/CLUEbenchmark/pCLUE
+7. Langchain开源评估数据集：https://huggingface.co/LangChainDatasets
+
+### RLHF数据
+1. Anthropic：https://huggingface.co/datasets/Anthropic/hh-rlhf
+
+### LLM评估数据
+1. BigBench(Beyond the Imitation Game Benchmark)，针对LLM评估的Benchmark, ttps://github.com/google/BIG-bench
+2. Complex QA：用于ChatGPT的评测指令集，https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT
+
 
 ## Resources 
 ### Tools & Tutorial
@@ -60,54 +107,6 @@
 - [GFPGAN](https://github.com/Nutlope/restorePhotos): 照片修复  ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [Visual ChatGPT](https://huggingface.co/spaces/microsoft/visual_chatgpt): 微软发布图像ChatGPT，对话方式进行图像生成编辑，问答 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange) :star:
 
-### 相关模型
-#### 国外
-- [Google Bard](https://bard.google.com): 谷歌bard虽迟但到，可以申请waitlist了
-- [LLaMA](https://github.com/facebookresearch/llama):Meta开源指令微调LLM，规模70 亿到 650 亿不等
-- [ChatLLaMA](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama): 基于RLHF微调了LLaMA 
-- [PaLM-E](https://palm-e.github.io): 谷歌多模态大模型，540B的PaLM语言模型和22B的ViT视觉模型相结合，得到562B的PaLM-E模型，在机器人应用场景有了新的突破
-- [MetaLM](https://github.com/microsoft/unilm): 微软开源的大规模自监督预训练模型
-- [Alpaca](https://github.com/tatsu-lab/stanford_alpaca): 斯坦福开源的使用52k数据在7B的LLaMA上微调得到，据说效果类似text-davinci-003, 模型不久后会发布
-- [OPT-IML](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/metaseq/tree/main/projects/OPT): Meta复刻GPT3，up to 175B, 不过效果并不及GPT3
-- [Bloom](https://huggingface.co/bigscience/bloom)：BigScience出品，规模最大176B, 感觉应该对标text-davinci-002
-- [T0](https://github.com/bigscience-workshop/t-zero): BigScience出品，3B~11B的在T5进行指令微调的模型
-
-
-#### 国内
-- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。和以下GLM相同大小的130B的模型还在开发中。试用了下超出预期！6B的模型对话条理性很好，虽然多轮对话逻辑性不太好，但是6B我用T4都能加载推理，还要啥自行车！对130B充满了期待！准备微调试试看
-- [文心一言](https://yiyan.baidu.com/welcome):已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！3.31号API就开放使用了，期待ing
-- [Moss](https://moss.fastnlp.top/#/): 复旦发布的大模型
-- https://www.modelscope.cn/home：国内开源模型魔塔社区
-- [PromptCLUE](https://github.com/clue-ai/PromptCLUE): 多任务Prompt语言模型
-- [Chatyuan](https://github.com/clue-ai/ChatYuan)：基于PromptCLUE训练的对话模型
-- [PLUG](https://www.alice-mind.com/portal#/): 阿里达摩院发布的大模型，提交申请会给下载链接
-- [CPM2.0](https://baai.ac.cn/): 智源发布CPM2.0
-- [GLM](https://github.com/THUDM/GLM-130B): 清华发布的中英双语130B大模型
-
-## 指令&RLHF数据和工具
-
-### 工具
-1. LoRA：Low-Rank指令微调方案 https://github.com/tloen/alpaca-lora
-2. RL4LMs：AllenAI的RL工具 https://github.com/allenai/RL4LMs
-3. trl：基于Transformer的强化训练框架 https://github.com/lvwerra/trl
-4. trlx：分布式训练trl https://github.com/CarperAI/trlx
-
-
-### 指令微调数据
-1. self-instruct：GPT3生成&过滤得到指令集 https://github.com/yizhongw/self-instruct
-2. Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 https://github.com/tatsu-lab/stanford_alpaca
-3. 中文翻译Alpaca还有一些其他指令数据集：https://github.com/hikariming/alpaca_chinese_dataset
-4. 中文翻译Alpaca：https://github.com/carbonz0/alpaca-chinese-dataset
-5. Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型 https://huggingface.co/datasets/JosephusCheung/GuanacoDataset
-6. PromptCLUE多任务提示数据集：只包含标准NLP任务不包含自由生成任务 https://github.com/CLUEbenchmark/pCLUE
-7. Langchain开源评估数据集：https://huggingface.co/LangChainDatasets
-
-### RLHF数据
-1. Anthropic：https://huggingface.co/datasets/Anthropic/hh-rlhf
-
-### LLM评估数据
-1. BigBench(Beyond the Imitation Game Benchmark)，针对LLM评估的Benchmark, ttps://github.com/google/BIG-bench
-2. Complex QA：用于ChatGPT的评测指令集，https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT
 
 ### Recommend Blog
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -131,12 +130,13 @@
 7. Salesforce：旗下的 Slack宣布了一款新的人工智能应用程序，它将在几秒钟内回复同事消息，并进行会议总结
 
 
+## Papers
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
 - https://github.com/thunlp/PromptPapers
 - https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
 
-## Papers
+
 ### Survey
 - Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
 - Paradigm Shift in Natural Language Processing
