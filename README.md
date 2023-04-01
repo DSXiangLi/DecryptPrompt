@@ -75,13 +75,17 @@
 - [learning Prompt](https://learnprompting.org/):  prompt engineering超全教程，和落地应用收藏，几乎包括以上内容，不过因为太全了，想要找到想要的内容有些难度。
 - [Prompt-Engineer-Guide]( https://github.com/dair-ai/Prompt-Engineering-Guide): 同learnig prompt类的集成教程，互相引用可还行？！分类索引做的更好些 :star:
 - [OpenAI 应用汇总指南](https://www.mojidoc.com/05z7y-dd5pa7hu3zfmhnbngoeztyqcnq-00b): 纯应用类的汇总指南
+- [AI 导航](https://www.ainavpro.com/#term-209): 包括但不限于ChatGPT的应用汇总网站，更新很快，发现了一些新大陆
+
 
 ### AIGC playground
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [DocsGPT](https://github.com/arc53/DocsGPT): 把ChatGPT开放域问答转化成封闭域问答的通用方案，试用垂类领域问答场景,可以试用定制的ChatBot  ![](https://img.shields.io/badge/Tool-Business-red) :star:
-- [ChatPDF/Chat2Doc](https://chat2doc.cn/): 国内的ChatPDF, 上传pdf后，会给出文章的Top5可能问题，然后对话式从文档中进行问答和检索，10s读3万字  ![](https://img.shields.io/badge/Tool-Business-red)
+- [ChatPDF](https://chat2doc.cn/): 国内的ChatPDF, 上传pdf后，会给出文章的Top5可能问题，然后对话式从文档中进行问答和检索，10s读3万字  ![](https://img.shields.io/badge/Tool-Business-red)
+- [ChatDoc](https://chatdoc.com/?viaurl=ainavpro.com):ChatPDF升级版，增加了表格类解析，和完善的索引引用加跳转加对应文章内容高亮，哈哈我准备自己整一个 ![](https://img.shields.io/badge/Tool-Business-red)
 - [ChatPaper](https://github.com/kaixindelele/ChatPaper): 根据输入关键词，自动在arxiv上下载最新的论文，并对论文进行摘要总结，可以在huggingface上试用！ ![](https://img.shields.io/badge/Tool-Business-red)
 - [researchgpt](https://github.com/mukulpatnaik/researchgpt): 和ChatPDF类似，支持arivx论文下载，加载后对话式获取论文重点  ![](https://img.shields.io/badge/Tool-Business-red)
+- [BriefGPT](https://briefgpt.xyz/?viaurl=ainavpro.com): 日更Arxiv论文，并对论文进行摘要，关键词抽取，帮助研究者了解最新动态, UI不错哟 ![](https://img.shields.io/badge/Tool-Business-red)
 - [feishu-chatgpt](https://github.com/Leizhenpeng/feishu-chatgpt): 飞书chatgpt，和365copilot相似也是多组件集成, 有点全！  ![](https://img.shields.io/badge/Tool-Business-red)
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，针对话题的生成还可以，但是针对某本书的就是瞎编了，但是感觉和检索式阅读方式结合效果会出彩~  ![](https://img.shields.io/badge/Tool-Business-red)
 - [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
@@ -121,13 +125,15 @@
 - [知乎回答 OpenAI 发布 GPT-4，有哪些技术上的优化或突破?](https://www.zhihu.com/question/589639535/answer/2936696161)
 - [追赶ChatGPT的难点与平替](https://zhuanlan.zhihu.com/p/609877277)
 
-### ChatGPT 其他商用场景
-1. shopify：私人导购，情人节给女友买点啥？问它
-3. Instcart：私人营养师，搭配食谱，相关商品直接加购物车
-4. Quizlet：私人教辅，你来学习，它来出题，帮你答疑
-5. HSBC：使用大模型在财务信息汇总和分类
-6. Soul：塑造数字人，并为媒体和娱乐产品自动生成内容
-7. Salesforce：旗下的 Slack宣布了一款新的人工智能应用程序，它将在几秒钟内回复同事消息，并进行会议总结
+### ChatGPT 商用场景
+1. 搜索：**Bing搜索**，所向披靡; **360搜索**，红孩儿，推理有限，支持国产
+2. 教育：**Quizlet**，私人教辅，你来学习，它来出题; **网易有道**，子曰，AI口语老师，作业批改
+3. 电商：**shopify**，私人导购，情人节给女友买点啥？问它; **Instcart**, 私人营养师，搭配食谱，相关商品直接加购物车
+4. 金融：**HSBC**，使用大模型在财务信息汇总和分类；MorganStanley，
+5. BI: **Salesforce**, Slack使用AI回复，会议总结; 
+6. 社交：**Soul**, 数字人，媒体内容自动生成；**腾讯**，QQ未来会融入ChatGPT
+7. 社区问答：**CSDN**, ChitGPT帮助提问者快速生成答案; Quora，接入了多个对话机器人进行问答
+8. 知识产权
 
 
 ## Papers
