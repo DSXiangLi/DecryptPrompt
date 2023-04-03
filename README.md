@@ -44,6 +44,7 @@
 2. RL4LMs：AllenAI的RL工具 https://github.com/allenai/RL4LMs
 3. trl：基于Transformer的强化训练框架 https://github.com/lvwerra/trl
 4. trlx：分布式训练trl https://github.com/CarperAI/trlx
+5. LMFlow：港科大实验室开源的大模型微调框架，支持以上多数开源模型的指令微调和RLHF https://github.com/OptimalScale/LMFlow
 
 ### 指令微调数据
 1. self-instruct：GPT3生成&过滤得到指令集 https://github.com/yizhongw/self-instruct
