@@ -21,6 +21,7 @@
 - [Google Bard](https://bard.google.com): 谷歌bard虽迟但到，可以申请waitlist了
 - [LLaMA](https://github.com/facebookresearch/llama):Meta开源指令微调LLM，规模70 亿到 650 亿不等
 - [ChatLLaMA](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama): 基于RLHF微调了LLaMA 
+- [Jarvis](https://github.com/microsoft/JARVIS): 大模型操控小模型
 - [PaLM-E](https://palm-e.github.io): 谷歌多模态大模型，540B的PaLM语言模型和22B的ViT视觉模型相结合，得到562B的PaLM-E模型，在机器人应用场景有了新的突破
 - [MetaLM](https://github.com/microsoft/unilm): 微软开源的大规模自监督预训练模型
 - [Alpaca](https://github.com/tatsu-lab/stanford_alpaca): 斯坦福开源的使用52k数据在7B的LLaMA上微调得到，据说效果类似text-davinci-003, 模型不久后会发布
@@ -128,6 +129,7 @@
 - [知乎回答 OpenAI 发布 GPT-4，有哪些技术上的优化或突破?](https://www.zhihu.com/question/589639535/answer/2936696161)
 - [追赶ChatGPT的难点与平替](https://zhuanlan.zhihu.com/p/609877277)
 - [压缩即泛化，泛化即智能](https://zhuanlan.zhihu.com/p/615554635)
+- [ChatGPT获得了Wolfram超能力](https://hub.baai.ac.cn/view/25031)
 
 ### ChatGPT 商用场景
 1. 搜索：**Bing搜索**，所向披靡; **360搜索**，红孩儿，推理有限，支持国产
