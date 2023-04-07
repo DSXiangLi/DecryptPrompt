@@ -15,7 +15,6 @@
 - [解密Prompt系列3. 冻结LM微调Prompt: Prefix-tuning & Prompt-tuning & P-tuning](https://cloud.tencent.com/developer/article/2237259?areaSource=&traceId=)
 - [解密Prompt系列4. 升级Instruction Tuning：Flan/T0/InstructGPT/TKInstruct](https://cloud.tencent.com/developer/article/2245094?areaSource=&traceId=)
 
-
 ## 模型和数据
 ### 国外模型
 - [Google Bard](https://bard.google.com): 谷歌bard虽迟但到，可以申请waitlist了
@@ -35,6 +34,7 @@
 - [文心一言](https://yiyan.baidu.com/welcome):已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！3.31号API就开放使用了，期待ing
 - [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca): 哈工大中文指令微调的LLaMA
 - [Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM): 中文指令微调的LLaMA，和ChatGLM
+- [Baize](https://github.com/project-baize/baize-chatbot): 使用100k对话数据微调的LLama
 - [Moss](https://moss.fastnlp.top/#/): 复旦发布的大模型
 - https://www.modelscope.cn/home：国内开源模型魔塔社区
 - [PromptCLUE](https://github.com/clue-ai/PromptCLUE): 多任务Prompt语言模型
@@ -240,3 +240,14 @@
 - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
 - iPrompt: Explaining Data Patterns in Natural Language via Interpretable Autoprompting  
 - Flipped Learning: Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners
+- Fairness-guided Few-shot Prompting for Large Language Models  
+- Instruction induction: From few examples to natural language task descriptions.
+
+### 领域模型
+- BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
+- Galactia：A Large Language Model for Science
+- PubMed GPT: A Domain-specific large language model for biomedical text
+- BloombergGPT： A Large Language Model for Finance  
+- ChatDoctor：Medical Chat Model Fine-tuned on LLaMA Model using Medical Domain
+Knowledge
+- Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2]
