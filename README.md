@@ -154,11 +154,13 @@
 
 
 ### Survey
+- A Survey of Large Language Models
 - Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
 - Paradigm Shift in Natural Language Processing
 - Pre-Trained Models: Past, Present and Future
 
 ### LLM Ability Analysis & Probing 
+- Sparks of Artificial General Intelligence: Early experiments with GPT-4
 - How does in-context learning work? A framework for understanding the differences from traditional supervised learning
 - Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers
 - Emerging Ability of Large Language Models
@@ -242,6 +244,7 @@
 - Flipped Learning: Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners
 - Fairness-guided Few-shot Prompting for Large Language Models  
 - Instruction induction: From few examples to natural language task descriptions.
+- Baize An Open-Source Chat Model with Parameter-Efficient Tuning on self-Chat Data
 
 ### 领域模型
 - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
