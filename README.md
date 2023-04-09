@@ -27,6 +27,7 @@
 - [MetaLM](https://github.com/microsoft/unilm): 微软开源的大规模自监督预训练模型
 - [OPT-IML](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/metaseq/tree/main/projects/OPT): Meta复刻GPT3，up to 175B, 不过效果并不及GPT3
 - [Bloom](https://huggingface.co/bigscience/bloom)：BigScience出品，规模最大176B, 感觉应该对标text-davinci-002
+- [BloomZ](https://huggingface.co/bigscience/bloomz): BigScience出品, 基于Bloom微调
 - [Galacia](https://github.com/paperswithcode/galai):和Bloom相似，更针对科研领域训练的模型
 - [T0](https://github.com/bigscience-workshop/t-zero): BigScience出品，3B~11B的在T5进行指令微调的模型
 
@@ -60,7 +61,16 @@
 5. Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型 https://huggingface.co/datasets/JosephusCheung/GuanacoDataset
 6. PromptCLUE多任务提示数据集：只包含标准NLP任务不包含自由生成任务 https://github.com/CLUEbenchmark/pCLUE
 7. Langchain开源评估数据集：https://huggingface.co/LangChainDatasets
-8. BELLE 100万中文指令集，没具体看效果，不过感觉在指令微调之块可能小而美>大而全: https://github.com/LianjiaTech/BELLE
+8. BELLE100万中文指令集，没具体看效果，不过感觉在指令微调之块可能小而美>大而全: https://github.com/LianjiaTech/BELLE
+9. TK-Instruct微调用的指令数据集, 全人工标注1600+NLP任务：https://instructions.apps.allenai.org/
+10. T0微调用的指令数据集（P3）：https://huggingface.co/datasets/bigscience/P3
+11. p3衍生的46种多语言数据集（xmtf）：https://github.com/bigscience-workshop/xmtf
+12. Unnatural Instruction使用GPT3生成后改写得到240k:https://github.com/orhonovich/unnatural-instructions
+
+### 对话数据
+1. FaceBook开源BlenderBot训练对话数据~6K：https://huggingface.co/datasets/blended_skill_talk 
+2. AllenAI开源38.5万个对话高质量数据集SODA：https://huggingface.co/datasets/allenai/soda
+3. InstructDial在单一对话任务类型上进行指令微调：https://github.com/prakharguptaz/Instructdial
 
 ### RLHF数据
 1. Anthropic：https://huggingface.co/datasets/Anthropic/hh-rlhf
