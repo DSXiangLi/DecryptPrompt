@@ -57,31 +57,26 @@
 5. LMFlow：港科大实验室开源的大模型微调框架，支持以上多数开源模型的指令微调和RLHF https://github.com/OptimalScale/LMFlow
 6. peft：parameter-efficient prompt tunnging工具集https://github.com/huggingface/peft
 
-### 指令微调数据
-1. self-instruct：GPT3生成&过滤得到指令集 https://github.com/yizhongw/self-instruct
-2. Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 https://github.com/tatsu-lab/stanford_alpaca
-3. 中文翻译Alpaca还有一些其他指令数据集：https://github.com/hikariming/alpaca_chinese_dataset
-4. 中文翻译Alpaca：https://github.com/carbonz0/alpaca-chinese-dataset
-5. Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型 https://huggingface.co/datasets/JosephusCheung/GuanacoDataset
-6. PromptCLUE多任务提示数据集：只包含标准NLP任务不包含自由生成任务 https://github.com/CLUEbenchmark/pCLUE
-7. Langchain开源评估数据集：https://huggingface.co/LangChainDatasets
-8. BELLE100万中文指令集，没具体看效果，不过感觉在指令微调之块可能小而美>大而全: https://github.com/LianjiaTech/BELLE
-9. TK-Instruct微调用的指令数据集, 全人工标注1600+NLP任务：https://instructions.apps.allenai.org/
-10. T0微调用的指令数据集（P3）：https://huggingface.co/datasets/bigscience/P3
-11. p3衍生的46种多语言数据集（xmtf）：https://github.com/bigscience-workshop/xmtf
-12. Unnatural Instruction使用GPT3生成后改写得到240k:https://github.com/orhonovich/unnatural-instructions
-
-### 对话数据
-1. FaceBook开源BlenderBot训练对话数据~6K：https://huggingface.co/datasets/blended_skill_talk 
-2. AllenAI开源38.5万个对话高质量数据集SODA：https://huggingface.co/datasets/allenai/soda
-3. InstructDial在单一对话任务类型上进行指令微调：https://github.com/prakharguptaz/Instructdial
-
-### RLHF数据
-1. Anthropic：https://huggingface.co/datasets/Anthropic/hh-rlhf
-
-### LLM评估数据
-1. BigBench(Beyond the Imitation Game Benchmark)，针对LLM评估的Benchmark, ttps://github.com/google/BIG-bench
-2. Complex QA：用于ChatGPT的评测指令集，https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT
+### 开源数据
+| 数据类型    | 数据描述    | 数据链接    |
+| --- | --- | --- |
+|  指令微调   |  self-instruct，GPT3自动生成&过滤得到指令集   |   https://github.com/yizhongw/self-instruct   |
+|  指令微调      |    Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 |  https://github.com/tatsu-lab/stanford_alpaca   |
+|  指令微调      | 中文翻译Alpaca还有一些其他指令数据集    |    https://github.com/hikariming/alpaca_chinese_dataset， https://github.com/carbonz0/alpaca-chinese-dataset|
+|  指令微调      |   Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型  | https://huggingface.co/datasets/JosephusCheung/GuanacoDataset    |
+|  指令微调      |  BELLE100万指令数据，参考Alpaca用ChatGPT生成   |   https://github.com/LianjiaTech/BELLE  |
+|  指令微调      | PromptCLUE多任务提示数据集：模板构建，只包含标准NLP任务     |  https://github.com/CLUEbenchmark/pCLUE   |
+|  指令微调      |  TK-Instruct微调用的指令数据集, 全人工标注1600+NLP任务   |   https://instructions.apps.allenai.org/  |
+|   指令微调     | T0微调用的指令数据集（P3）    |  https://huggingface.co/datasets/bigscience/P3   |
+|  指令微调   | p3衍生的46种多语言数据集（xmtf）    | https://github.com/bigscience-workshop/xmtf    |
+|  指令微调      |Unnatural Instruction使用GPT3生成后改写得到240k     |   https://github.com/orhonovich/unnatural-instructions  |
+|  对话指令      |FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
+|  对话指令      |  AllenAI开源38.5万个对话高质量数据集SODA   |   https://huggingface.co/datasets/allenai/soda  |
+|  对话指令      |  InstructDial在单一对话任务类型上进行指令微调   |  https://github.com/prakharguptaz/Instructdial   |
+|  RLHF     |  Anthropic hh-rlhf数据集   |   https://huggingface.co/datasets/Anthropic/hh-rlhf  |
+| 评估集     | BigBench(Beyond the Imitation Game Benchmark)    |  https://github.com/google/BIG-bench   |
+|   评估集       |   Complex QA：用于ChatGPT的评测指令集  |    https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT |
+|   评估集      |   Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
 
 
 ## Resources 
