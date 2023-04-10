@@ -9,39 +9,48 @@
 6. ChatGPT及AGI相关解读
 7. ChatGPT相关商业应用
 
-## My blogs
+## My blogs & ChatGPT应用
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
 - [解密Prompt系列2. 冻结Prompt微调LM： T5 & PET & LM-BFF](https://cloud.tencent.com/developer/article/2223355?areaSource=&traceId=)
 - [解密Prompt系列3. 冻结LM微调Prompt: Prefix-tuning & Prompt-tuning & P-tuning](https://cloud.tencent.com/developer/article/2237259?areaSource=&traceId=)
 - [解密Prompt系列4. 升级Instruction Tuning：Flan/T0/InstructGPT/TKInstruct](https://cloud.tencent.com/developer/article/2245094?areaSource=&traceId=)
+- [解密prompt系列5. APE+SELF=自动化指令集构建代码实现](https://cloud.tencent.com/developer/article/2260697?areaSource=&traceId=)
+- [ChatGPT应用1. MakeInstruction零人工指令样本构建](https://huggingface.co/spaces/xl2533/MakeInstruction)
+- [ChatGPT应用2. ChatPDF简单复现](https://huggingface.co/spaces/xl2533/FinDoc)
 
 ## 模型和数据
 ### 国外模型
-- [Google Bard](https://bard.google.com): 谷歌bard虽迟但到，可以申请waitlist了
-- [LLaMA](https://github.com/facebookresearch/llama):Meta开源指令微调LLM，规模70 亿到 650 亿不等
-- [ChatLLaMA](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama): 基于RLHF微调了LLaMA 
-- [Alpaca](https://github.com/tatsu-lab/stanford_alpaca): 斯坦福开源的使用52k数据在7B的LLaMA上微调得到，据说效果类似text-davinci-003, 模型不久后会发布
-- [Alpaca-lora](https://github.com/tloen/alpaca-lora): LORA微调的LLaMA
-- [PaLM-E](https://palm-e.github.io): 谷歌多模态大模型，540B的PaLM语言模型和22B的ViT视觉模型相结合，得到562B的PaLM-E模型，在机器人应用场景有了新的突破
-- [MetaLM](https://github.com/microsoft/unilm): 微软开源的大规模自监督预训练模型
-- [OPT-IML](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/metaseq/tree/main/projects/OPT): Meta复刻GPT3，up to 175B, 不过效果并不及GPT3
-- [Bloom](https://huggingface.co/bigscience/bloom)：BigScience出品，规模最大176B, 感觉应该对标text-davinci-002
-- [Galacia](https://github.com/paperswithcode/galai):和Bloom相似，更针对科研领域训练的模型
-- [T0](https://github.com/bigscience-workshop/t-zero): BigScience出品，3B~11B的在T5进行指令微调的模型
+|模型链接     | 模型描述    |
+| --- | --- |
+| [Google Bard](https://bard.google.com)   |    谷歌bard虽迟但到，可以申请waitlist了 |
+|  [Claude](https://www.anthropic.com/product)   |  ChatGPT最大竞争对手Claude也开放申请了   |
+| [LLaMA](https://github.com/facebookresearch/llama)    |  Meta开源指令微调LLM，规模70 亿到 650 亿不等  |
+|[ChatLLaMA](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)     | 基于RLHF微调了LLaMA     |
+| [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)    |  斯坦福开源的使用52k数据在7B的LLaMA上微调得到，   |
+|[Alpaca-lora](https://github.com/tloen/alpaca-lora)     |   LORA微调的LLaMA  |
+|[PaLM-E](https://palm-e.github.io)     |  谷歌多模态大模型，540B的PaLM语言模型和22B的ViT视觉模型相结合，得到562B的PaLM-E模型，在机器人应用场景有了新的突破   |
+|  [MetaLM](https://github.com/microsoft/unilm)    | 微软开源的大规模自监督预训练模型    |
+| [OPT-IML](https://link.zhihu.com/?target=https%3A//github.com/facebookresearch/metaseq/tree/main/projects/OPT)     |  Meta复刻GPT3，up to 175B, 不过效果并不及GPT3   |
+|[Bloom](https://huggingface.co/bigscience/bloom)|BigScience出品，规模最大176B|
+|[BloomZ](https://huggingface.co/bigscience/bloomz)|BigScience出品, 基于Bloom微调|
+|[Galacia](https://github.com/paperswithcode/galai)|和Bloom相似，更针对科研领域训练的模型|
+| [T0](https://github.com/bigscience-workshop/t-zero)|BigScience出品，3B~11B的在T5进行指令微调的模型|
 
 ### 国内模型
-- [ChatGLM](https://github.com/THUDM/ChatGLM-6B): 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。和以下GLM相同大小的130B的模型还在开发中。试用了下超出预期！6B的模型对话条理性很好，虽然多轮对话逻辑性不太好，但是6B我用T4都能加载推理，还要啥自行车！对130B充满了期待！准备微调试试看
-- [文心一言](https://yiyan.baidu.com/welcome):已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！3.31号API就开放使用了，期待ing
-- [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca): 哈工大中文指令微调的LLaMA
-- [Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM): 中文指令微调的LLaMA，和ChatGLM
-- [Baize](https://github.com/project-baize/baize-chatbot): 使用100k对话数据微调的LLama
-- [Moss](https://moss.fastnlp.top/#/): 复旦发布的大模型
-- https://www.modelscope.cn/home：国内开源模型魔塔社区
-- [PromptCLUE](https://github.com/clue-ai/PromptCLUE): 多任务Prompt语言模型
-- [Chatyuan](https://github.com/clue-ai/ChatYuan)：基于PromptCLUE训练的对话模型
-- [PLUG](https://www.alice-mind.com/portal#/): 阿里达摩院发布的大模型，提交申请会给下载链接
-- [CPM2.0](https://baai.ac.cn/): 智源发布CPM2.0
-- [GLM](https://github.com/THUDM/GLM-130B): 清华发布的中英双语130B大模型
+|模型链接     | 模型描述    |
+| --- | --- |
+|  [ChatGLM](https://github.com/THUDM/ChatGLM-6B)   |     清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。和以下GLM相同大小的130B的模型还在开发中。试用了下超出预期！|
+| [文心一言](https://yiyan.baidu.com/welcome)    |  已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！不过商业化霸王条款确实不少   |
+|[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
+|  [Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM)   |  中文指令微调的LLaMA，和ChatGLM   |
+| [Baize](https://github.com/project-baize/baize-chatbot)    | 使用100k self-chat对话数据微调的LLama    |
+| [BELLE](https://github.com/LianjiaTech/BELLE)    |使用ChatGPT生成数据对开源模型进行中文优化  |
+|  [Moss](https://moss.fastnlp.top/#/)   |  复旦发布的大模型预计4月中旬开源   |
+| [PromptCLUE](https://github.com/clue-ai/PromptCLUE)    | 多任务Prompt语言模型    |
+| [PLUG](https://www.alice-mind.com/portal#/)    |   阿里达摩院发布的大模型，提交申请会给下载链接  |
+|[CPM2.0](https://baai.ac.cn/)     |  智源发布CPM2.0    |
+|[GLM](https://github.com/THUDM/GLM-130B) |   清华发布的中英双语130B预训练模型 |
+
 
 ### 指令微调&RL工具
 1. LoRA：Low-Rank指令微调方案 https://github.com/tloen/alpaca-lora
@@ -51,22 +60,27 @@
 5. LMFlow：港科大实验室开源的大模型微调框架，支持以上多数开源模型的指令微调和RLHF https://github.com/OptimalScale/LMFlow
 6. peft：parameter-efficient prompt tunnging工具集https://github.com/huggingface/peft
 
-### 指令微调数据
-1. self-instruct：GPT3生成&过滤得到指令集 https://github.com/yizhongw/self-instruct
-2. Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 https://github.com/tatsu-lab/stanford_alpaca
-3. 中文翻译Alpaca还有一些其他指令数据集：https://github.com/hikariming/alpaca_chinese_dataset
-4. 中文翻译Alpaca：https://github.com/carbonz0/alpaca-chinese-dataset
-5. Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型 https://huggingface.co/datasets/JosephusCheung/GuanacoDataset
-6. PromptCLUE多任务提示数据集：只包含标准NLP任务不包含自由生成任务 https://github.com/CLUEbenchmark/pCLUE
-7. Langchain开源评估数据集：https://huggingface.co/LangChainDatasets
-8. BELLE 100万中文指令集，没具体看效果，不过感觉在指令微调之块可能小而美>大而全: https://github.com/LianjiaTech/BELLE
-
-### RLHF数据
-1. Anthropic：https://huggingface.co/datasets/Anthropic/hh-rlhf
-
-### LLM评估数据
-1. BigBench(Beyond the Imitation Game Benchmark)，针对LLM评估的Benchmark, ttps://github.com/google/BIG-bench
-2. Complex QA：用于ChatGPT的评测指令集，https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT
+### 开源数据
+| 数据类型    | 数据描述    | 数据链接    |
+| --- | --- | --- |
+|  指令微调   |  self-instruct，GPT3自动生成&过滤得到指令集   |   https://github.com/yizhongw/self-instruct   |
+|  指令微调      |    Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 |  https://github.com/tatsu-lab/stanford_alpaca   |
+|  指令微调      | 中文翻译Alpaca还有一些其他指令数据集    |    https://github.com/hikariming/alpaca_chinese_dataset， https://github.com/carbonz0/alpaca-chinese-dataset|
+|  指令微调      |   Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型  | https://huggingface.co/datasets/JosephusCheung/GuanacoDataset    |
+|  指令微调      |  BELLE100万指令数据，参考Alpaca用ChatGPT生成   |   https://github.com/LianjiaTech/BELLE  |
+|  指令微调      | PromptCLUE多任务提示数据集：模板构建，只包含标准NLP任务     |  https://github.com/CLUEbenchmark/pCLUE   |
+|  指令微调      |  TK-Instruct微调用的指令数据集, 全人工标注1600+NLP任务   |   https://instructions.apps.allenai.org/  |
+|   指令微调     | T0微调用的指令数据集（P3）    |  https://huggingface.co/datasets/bigscience/P3   |
+|  指令微调   | p3衍生的46种多语言数据集（xmtf）    | https://github.com/bigscience-workshop/xmtf    |
+|  指令微调      |Unnatural Instruction使用GPT3生成后改写得到240k     |   https://github.com/orhonovich/unnatural-instructions  |
+|  对话指令      |Baize基于Chat GPT构建的self-chat数据    |   https://github.com/project-baize/baize-chatbot/tree/main/data   |
+|  对话指令      |FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
+|  对话指令      |AllenAI开源38.5万个对话高质量数据集SODA   |   https://huggingface.co/datasets/allenai/soda  |
+|  对话指令      |InstructDial在单一对话任务类型上进行指令微调   |  https://github.com/prakharguptaz/Instructdial   |
+|  RLHF     |  Anthropic hh-rlhf数据集   |   https://huggingface.co/datasets/Anthropic/hh-rlhf  |
+| 评估集     | BigBench(Beyond the Imitation Game Benchmark)    |  https://github.com/google/BIG-bench   |
+|   评估集       |   Complex QA：用于ChatGPT的评测指令集  |    https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT |
+|   评估集      |   Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
 
 
 ## Resources 
@@ -87,10 +101,12 @@
 
 ### AIGC playground
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
+- [BingGPT](https://github.com/dice2o/BingGPT): NewBing开源桌面客户端，可以将聊天记录导出  ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [DocsGPT](https://github.com/arc53/DocsGPT): 把ChatGPT开放域问答转化成封闭域问答的通用方案，试用垂类领域问答场景,可以试用定制的ChatBot  ![](https://img.shields.io/badge/Tool-Business-red) :star:
 - [ChatPDF](https://chat2doc.cn/): 国内的ChatPDF, 上传pdf后，会给出文章的Top5可能问题，然后对话式从文档中进行问答和检索，10s读3万字  ![](https://img.shields.io/badge/Tool-Business-red)
 - [ChatDoc](https://chatdoc.com/?viaurl=ainavpro.com):ChatPDF升级版，增加了表格类解析，和完善的索引引用加跳转加对应文章内容高亮，哈哈我准备自己整一个 ![](https://img.shields.io/badge/Tool-Business-red)
 - [ChatPaper](https://github.com/kaixindelele/ChatPaper): 根据输入关键词，自动在arxiv上下载最新的论文，并对论文进行摘要总结，可以在huggingface上试用！ ![](https://img.shields.io/badge/Tool-Business-red)
+- [OpenRead](https://www.openread.academy/home): 面向论文写作，阅读场景，可以帮助生成文献综述，以及提供和NotionAI相似的智能Markdown用于写作 ![](https://img.shields.io/badge/Tool-Business-red)
 - [researchgpt](https://github.com/mukulpatnaik/researchgpt): 和ChatPDF类似，支持arivx论文下载，加载后对话式获取论文重点  ![](https://img.shields.io/badge/Tool-Business-red)
 - [BriefGPT](https://briefgpt.xyz/?viaurl=ainavpro.com): 日更Arxiv论文，并对论文进行摘要，关键词抽取，帮助研究者了解最新动态, UI不错哟 ![](https://img.shields.io/badge/Tool-Business-red)
 - [ChatGPT-academic](https://github.com/binary-husky/chatgpt_academic): 又是一个基于gradio实现的paper润色，摘要等功能打包的实现 ![](https://img.shields.io/badge/Tool-Business-red)
@@ -119,7 +135,7 @@
 - [ControlNet](https://huggingface.co/spaces/hysts/ControlNet): 为绘画创作加持可控性 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [GFPGAN](https://github.com/Nutlope/restorePhotos): 照片修复  ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [Visual ChatGPT](https://huggingface.co/spaces/microsoft/visual_chatgpt): 微软发布图像ChatGPT，对话方式进行图像生成编辑，问答 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange) :star:
-
+- [gemo.ai](https://www.genmo.ai/): 多模态聊天机器人，包括文本，图像，视频生成
 
 ### Recommend Blog
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -154,11 +170,13 @@
 
 
 ### Survey
+- A Survey of Large Language Models
 - Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
 - Paradigm Shift in Natural Language Processing
 - Pre-Trained Models: Past, Present and Future
 
 ### LLM Ability Analysis & Probing 
+- Sparks of Artificial General Intelligence: Early experiments with GPT-4
 - How does in-context learning work? A framework for understanding the differences from traditional supervised learning
 - Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers
 - Emerging Ability of Large Language Models
@@ -196,6 +214,7 @@
 - Instruct-GPT: Training language models to follow instructions with human feedback star:
 - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
 - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
+- Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
 
 ### Train for Dialogue
 - LaMDA: Language Models for Dialog Applications
@@ -220,6 +239,7 @@
   - Fine-Tuning Language Models from Human Preferences
   - learning to summarize from human feedback
   - InstructGPT: Training language models to follow instructions with human feedback :star:
+  - Scaling Laws for Reward Model Over optimization
 - Anthropic
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
   - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
@@ -242,6 +262,7 @@
 - Flipped Learning: Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners
 - Fairness-guided Few-shot Prompting for Large Language Models  
 - Instruction induction: From few examples to natural language task descriptions.
+- Baize An Open-Source Chat Model with Parameter-Efficient Tuning on self-Chat Data
 
 ### 领域模型
 - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
