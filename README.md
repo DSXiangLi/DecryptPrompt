@@ -214,6 +214,7 @@
 - Instruct-GPT: Training language models to follow instructions with human feedback star:
 - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
 - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
+- Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
 
 ### Train for Dialogue
 - LaMDA: Language Models for Dialog Applications
@@ -238,6 +239,7 @@
   - Fine-Tuning Language Models from Human Preferences
   - learning to summarize from human feedback
   - InstructGPT: Training language models to follow instructions with human feedback :star:
+  - Scaling Laws for Reward Model Over optimization
 - Anthropic
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
   - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
