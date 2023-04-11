@@ -213,8 +213,11 @@
 - Flan-T5: Scaling Instruction-Finetuned Language Models
 - Instruct-GPT: Training language models to follow instructions with human feedback star:
 - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
+- Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
 - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
 - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
+- BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
+- Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
 
 ### Train for Dialogue
 - LaMDA: Language Models for Dialog Applications
