@@ -53,12 +53,16 @@
 
 
 ### 指令微调&RL工具
-1. LoRA：Low-Rank指令微调方案 https://github.com/tloen/alpaca-lora
-2. RL4LMs：AllenAI的RL工具 https://github.com/allenai/RL4LMs
-3. trl：基于Transformer的强化训练框架 https://github.com/lvwerra/trl
-4. trlx：分布式训练trl https://github.com/CarperAI/trlx
-5. LMFlow：港科大实验室开源的大模型微调框架，支持以上多数开源模型的指令微调和RLHF https://github.com/OptimalScale/LMFlow
-6. peft：parameter-efficient prompt tunnging工具集https://github.com/huggingface/peft
+| 工具描述   | 链接   | 
+| --- | --- | 
+|LoRA：Low-Rank指令微调方案|https://github.com/tloen/alpaca-lora|
+|peft：parameter-efficient prompt tunnging工具集|https://github.com/huggingface/peft|
+|RL4LMs：AllenAI的RL工具|https://github.com/allenai/RL4LMs|
+|trl：基于Transformer的强化训练框架|https://github.com/lvwerra/trl|
+|trlx：分布式训练trl | https://github.com/CarperAI/trlx|
+|RL4LMs：AllenAI的RL工具|https://github.com/allenai/RL4LMs|
+|LMFlow：港科大实验室开源的大模型微调框架，支持以上多数开源模型的指令微调和RLHF|https://github.com/OptimalScale/LMFlow|
+
 
 ### 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
@@ -246,6 +250,7 @@
   - InstructGPT: Training language models to follow instructions with human feedback :star:
   - Scaling Laws for Reward Model Over optimization
 - Anthropic
+  - A General Language Assistant as a Laboratory for Alignmen
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
   - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
   - Constitutional AI Harmlessness from AI Feedback :star:
