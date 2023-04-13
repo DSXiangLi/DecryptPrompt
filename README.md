@@ -62,7 +62,7 @@
 |trlx：分布式训练trl | https://github.com/CarperAI/trlx|
 |RL4LMs：AllenAI的RL工具|https://github.com/allenai/RL4LMs|
 |LMFlow：港科大实验室开源的大模型微调框架，支持以上多数开源模型的指令微调和RLHF|https://github.com/OptimalScale/LMFlow|
-
+|Deepspeed：针对RL训练和推理的整合优化|https://github.com/microsoft/DeepSpeed|
 
 ### 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
