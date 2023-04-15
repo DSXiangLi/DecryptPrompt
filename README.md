@@ -72,7 +72,7 @@
 | --- | --- | --- |
 |  指令微调   |  self-instruct，GPT3自动生成&过滤得到指令集   |   https://github.com/yizhongw/self-instruct   |
 |  指令微调      |    Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 |  https://github.com/tatsu-lab/stanford_alpaca   |
-|  指令微调      | 中文翻译Alpaca还有一些其他指令数据集    |    https://github.com/hikariming/alpaca_chinese_dataset， https://github.com/carbonz0/alpaca-chinese-dataset|
+|  指令微调      | 中文翻译Alpaca还有一些其他指令数据集    |    https://github.com/hikariming/alpaca_chinese_dataset https://github.com/carbonz0/alpaca-chinese-dataset|
 |  指令微调      |   Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型  | https://huggingface.co/datasets/JosephusCheung/GuanacoDataset    |
 |  指令微调      |  BELLE100万指令数据，参考Alpaca用ChatGPT生成   |   https://github.com/LianjiaTech/BELLE  |
 |  指令微调      | PromptCLUE多任务提示数据集：模板构建，只包含标准NLP任务     |  https://github.com/CLUEbenchmark/pCLUE   |
@@ -142,6 +142,7 @@
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [CodeGex](http://codegeex.cn/zh-CN): 国内替代品，还没试过 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [Codeium](https://codeium.com/): Copilot替代品，有免费版本支持各种plugin ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
+- [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F): 开创者，艺术风格为主 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [Dall.E](https://openai.com/product/dall-e-2): 三巨头这就凑齐了 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
@@ -248,14 +249,14 @@
 ### RLHF
 - Deepmind
   - Teaching language models to support answers with verified quotes
-  - sparrow, Improving alignment of dialogue agents via targetd human judgements
+  - sparrow, Improving alignment of dialogue agents via targetd human judgements :star:
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
   - Fine-Tuning Language Models from Human Preferences
   - learning to summarize from human feedback
   - InstructGPT: Training language models to follow instructions with human feedback :star:
-  - Scaling Laws for Reward Model Over optimization
+  - Scaling Laws for Reward Model Over optimization :star:
 - Anthropic
   - A General Language Assistant as a Laboratory for Alignmen
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
@@ -288,4 +289,4 @@
 - BloombergGPT： A Large Language Model for Finance  
 - ChatDoctor：Medical Chat Model Fine-tuned on LLaMA Model using Medical Domain
 Knowledge
-- Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2]
+- Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2] :star:
