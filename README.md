@@ -87,6 +87,7 @@
 |  RLHF     |  Anthropic hh-rlhf数据集   |   https://huggingface.co/datasets/Anthropic/hh-rlhf  |
 |  RLHF     | Facebook Bot Adversarial Dialogues数据集5K   |  https://github.com/facebookresearch/ParlAI  |
 |  RLHF     | AllenAI Real Toxicity prompts   |  https://github.com/facebookresearch/ParlAI  |
+|RLHF|OpenAssistant Conversations 160K消息，13500人工生成, 英文为主|https://huggingface.co/datasets/OpenAssistant/oasst1|
 | 评估集     | BigBench(Beyond the Imitation Game Benchmark)    |  https://github.com/google/BIG-bench   |
 |   评估集       |   Complex QA：用于ChatGPT的评测指令集  |    https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT |
 |   评估集      |   Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
