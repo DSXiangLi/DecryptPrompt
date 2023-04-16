@@ -28,6 +28,7 @@
 |[ChatLLaMA](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)     | 基于RLHF微调了LLaMA     |
 | [Alpaca](https://github.com/tatsu-lab/stanford_alpaca)    |  斯坦福开源的使用52k数据在7B的LLaMA上微调得到，   |
 |[Alpaca-lora](https://github.com/tloen/alpaca-lora)     |   LORA微调的LLaMA  |
+|[Vicuna](https://github.com/lm-sys/FastChat)|Alpaca前成员等开源以LLama13B为基础使用ShareGPT指令微调的模型，提出了用GPT4来评测模型效果|
 |[PaLM-E](https://palm-e.github.io)     |  谷歌多模态大模型，540B的PaLM语言模型和22B的ViT视觉模型相结合，得到562B的PaLM-E模型，在机器人应用场景有了新的突破   |
 |  [MetaLM](https://github.com/microsoft/unilm)    | 微软开源的大规模自监督预训练模型    |
 |[Amazon Titan](https://aws.amazon.com/cn/bedrock/titan/)|亚马逊在aws上增加自家大模型|
@@ -46,6 +47,9 @@
 |  [Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM)   |  中文指令微调的LLaMA，和ChatGLM   |
 | [文心一言](https://yiyan.baidu.com/welcome)    |  已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！不过商业化霸王条款确实不少   |
 |[通义千问](https://tongyi.aliyun.com/)|阿里系LLM开放申请，还没拿到邀请码，等待ing|
+|[Phoenix](https://github.com/FreedomIntelligence/LLMZoo)|港中文开源凤凰和奇美拉LLM，Bloom基座，40+语言支持|
+|[Guanaco](https://huggingface.co/KBlueLeaf/guanaco-7B-leh)|LLama 7B基座，在alpaca52K数据上加入534K多语言指令数据微调|
+|[Chinese Vincuna](https://github.com/Facico/Chinese-Vicuna)|LLama 7B基座，使用Belle+Guanaco数据训练|
 | [Baize](https://github.com/project-baize/baize-chatbot)    | 使用100k self-chat对话数据微调的LLama    |
 | [BELLE](https://github.com/LianjiaTech/BELLE)    |使用ChatGPT生成数据对开源模型进行中文优化  |
 |  [Moss](https://moss.fastnlp.top/#/)   |  复旦发布的大模型预计4月中旬开源   |
