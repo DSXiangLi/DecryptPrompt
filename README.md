@@ -235,6 +235,12 @@
 - PTR: Prompt Tuning with Rules for Text Classification
 - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
 
+### Fix-LM Adapter Tunning
+- LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS :star:
+- LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning
+- Parameter-Efficient Transfer Learning for NLP
+- INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
+
 ### Instruction Tunning LLMs 
 - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
 - Flan-T5: Scaling Instruction-Finetuned Language Models
