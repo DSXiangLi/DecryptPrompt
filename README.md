@@ -80,6 +80,7 @@
 |  指令微调      |    Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 |  https://github.com/tatsu-lab/stanford_alpaca   |
 |  指令微调      | 中文翻译Alpaca还有一些其他指令数据集    |    https://github.com/hikariming/alpaca_chinese_dataset https://github.com/carbonz0/alpaca-chinese-dataset|
 |  指令微调      |   Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型  | https://huggingface.co/datasets/JosephusCheung/GuanacoDataset    |
+|指令微调|InstructWild数据：直接用中文种子Self-Instruct生成|https://github.com/XueFuzhao/InstructionWild/tree/main/data|
 |  指令微调      |  BELLE100万指令数据，参考Alpaca用ChatGPT生成   |   https://github.com/LianjiaTech/BELLE  |
 |  指令微调      | PromptCLUE多任务提示数据集：模板构建，只包含标准NLP任务     |  https://github.com/CLUEbenchmark/pCLUE   |
 |  指令微调      |  TK-Instruct微调用的指令数据集, 全人工标注1600+NLP任务   |   https://instructions.apps.allenai.org/  |
