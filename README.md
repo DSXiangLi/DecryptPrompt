@@ -76,6 +76,7 @@
 |BMTTools: 清华出品类似langchain|https://github.com/OpenBMB/BMTools|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
+|Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 
 ### 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
@@ -124,6 +125,9 @@
 - [AI Alignment Forum](https://www.alignmentforum.org/): RLHF等对齐相关最新论文和观点的讨论论坛
 
 ### AIGC playground
+- [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT ![](https://img.shields.io/badge/Auto-Agent-white)
+- [godmode](https://godmode.space/)：需要人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
+- [agentgpt](https://agentgpt.reworkd.ai/): 基础AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问 :star:
 - [BingGPT](https://github.com/dice2o/BingGPT): NewBing开源桌面客户端，可以将聊天记录导出  ![](https://img.shields.io/badge/AIGC-Search-yellow)
