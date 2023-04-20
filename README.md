@@ -72,6 +72,10 @@
 |RL4LMs：AllenAI的RL工具|https://github.com/allenai/RL4LMs|
 |LMFlow：港科大实验室开源的大模型微调框架，支持以上多数开源模型的指令微调和RLHF|https://github.com/OptimalScale/LMFlow|
 |Deepspeed：针对RL训练和推理的整合优化|https://github.com/microsoft/DeepSpeed|
+|langchain：LLM工具集|https://github.com/hwchase17/langchain|
+|BMTTools: 清华出品类似langchain|https://github.com/OpenBMB/BMTools|
+|BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
+|AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
 
 ### 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
@@ -106,8 +110,6 @@
 
 ## Resources 
 ### Tools & Tutorial
-- [Langchain](https://github.com/hwchase17/langchain): 疯狂打call!!! 封装了OpenAI等多个模型的prompt链式处理能力，以及索引构建，prompt生成等集成能力。以下DocsGPT等多个应用都是基于langchain开发，虽然框架写的略显复杂，不过能力很完善！Demo很丰富！如果你想基于ChatGPT快速实现一些类似文档QA，Bing搜索一类的集成方案，它是你的不二选择 :star::star:
-- [openAI](https://openai.com/api/): ChatGPT出API啦, 价格下降10倍！
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
 - [OpenAI 接口被墙解决办法](https://github.com/riba2534/openai-scf-goproxy): 使用腾讯云搭建代理，亲测非常好用且手残党也可以轻松上手
 - [PromptPerfect](https://promptperfect.jinaai.cn/):用魔法打败魔法，输入原始提示词，模型进行定向优化，试用后我有点沉默了，可以定向支持不同使用prompt的模型如Difussion，ChatGPT， Dalle等
@@ -122,7 +124,6 @@
 - [AI Alignment Forum](https://www.alignmentforum.org/): RLHF等对齐相关最新论文和观点的讨论论坛
 
 ### AIGC playground
-- [AutoGPT](https://github.com/Torantulino/Auto-GPT): GPT4升级AI智能体，以LLM指令理解为基础，GPT4理解并执行用户指令，例如3分钟建立了一个网站无人工干预，就无敌！！![](https://img.shields.io/badge/%E6%97%A0%E6%95%8C-%E6%97%A0%E6%95%8C-white)
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问 :star:
 - [BingGPT](https://github.com/dice2o/BingGPT): NewBing开源桌面客户端，可以将聊天记录导出  ![](https://img.shields.io/badge/AIGC-Search-yellow)
