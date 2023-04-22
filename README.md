@@ -80,6 +80,7 @@
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 
 ### 开源数据
+无敌：https://github.com/PhoebusSi/Alpaca-CoT，分类归纳整理了众多数据集并统一了数据格式，附Huggingface Data, 无脑点赞！
 | 数据类型    | 数据描述    | 数据链接    |
 | --- | --- | --- |
 |  指令微调   |  self-instruct，GPT3自动生成&过滤得到指令集   |   https://github.com/yizhongw/self-instruct   |
