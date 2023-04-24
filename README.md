@@ -46,6 +46,7 @@
 |模型链接     | 模型描述    |
 | --- | --- |
 |  [ChatGLM](https://github.com/THUDM/ChatGLM-6B)   |     清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。和以下GLM相同大小的130B的模型还在开发中。试用了下超出预期！|
+|  [Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型  |
 |[Wombat-7B](https://huggingface.co/GanjinZero/wombat-7b-delta)|达摩院开源无需强化学习使用RRHF对齐的语言模型|
 |[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
 |  [Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM)   |  中文指令微调的LLaMA，和ChatGLM   |
@@ -56,7 +57,6 @@
 |[Chinese Vincuna](https://github.com/Facico/Chinese-Vicuna)|LLama 7B基座，使用Belle+Guanaco数据训练|
 | [Baize](https://github.com/project-baize/baize-chatbot)    | 使用100k self-chat对话数据微调的LLama    |
 | [BELLE](https://github.com/LianjiaTech/BELLE)    |使用ChatGPT生成数据对开源模型进行中文优化  |
-|  [Moss](https://moss.fastnlp.top/#/)   |  复旦发布的大模型预计4月中旬开源   |
 | [PromptCLUE](https://github.com/clue-ai/PromptCLUE)    | 多任务Prompt语言模型    |
 | [PLUG](https://www.alice-mind.com/portal#/)    |   阿里达摩院发布的大模型，提交申请会给下载链接  |
 |[CPM2.0](https://baai.ac.cn/)     |  智源发布CPM2.0    |
