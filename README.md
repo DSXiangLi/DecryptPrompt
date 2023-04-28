@@ -46,7 +46,7 @@
 |模型链接     | 模型描述    |
 | --- | --- |
 |  [ChatGLM](https://github.com/THUDM/ChatGLM-6B)   |     清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。和以下GLM相同大小的130B的模型还在开发中。试用了下超出预期！|
-|  [Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型  |
+|  [Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型。可商用 |
 |[Wombat-7B](https://huggingface.co/GanjinZero/wombat-7b-delta)|达摩院开源无需强化学习使用RRHF对齐的语言模型|
 |[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
 |  [Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM)   |  中文指令微调的LLaMA，和ChatGLM   |
@@ -81,23 +81,28 @@
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 
 ### 开源数据
-无敌：https://github.com/PhoebusSi/Alpaca-CoT 分类归纳整理了众多数据集并统一了数据格式，附Huggingface Data, 无脑点赞！
 | 数据类型    | 数据描述    | 数据链接    |
 | --- | --- | --- |
 |  指令微调   |  self-instruct，GPT3自动生成&过滤得到指令集   |   https://github.com/yizhongw/self-instruct   |
 |  指令微调      |    Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 |  https://github.com/tatsu-lab/stanford_alpaca   |
 |  指令微调      | 中文翻译Alpaca还有一些其他指令数据集    |    https://github.com/hikariming/alpaca_chinese_dataset https://github.com/carbonz0/alpaca-chinese-dataset|
-|  指令微调      |   Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型  | https://huggingface.co/datasets/JosephusCheung/GuanacoDataset    |
-|指令微调|InstructWild数据：直接用中文种子Self-Instruct生成|https://github.com/XueFuzhao/InstructionWild/tree/main/data|
-|  指令微调      |  BELLE100万指令数据，参考Alpaca用ChatGPT生成   |   https://github.com/LianjiaTech/BELLE  |
+|指令微调|alpaca指令GPT4生成，和以上几版对比显著质量更高，回复更长|https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/tree/main|
+|  指令微调      |   Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型，还有补充的QA生成样本  | https://huggingface.co/datasets/JosephusCheung/GuanacoDataset    |
+|指令微调|OIG中文指令包括翻译alpaca+natural+unnatural，多轮对话，考试，leetcode指令|https://github.com/BAAI-Zlab/COIG|
+|指令微调|Vicuna训练使用的样本，用API获取了sharegpt上用户和chatgpt对话历史，部分网友整理到了HF|https://github.com/domeccleston/sharegpt https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/tree/main|
+|指令微调|HC3指令数据中英文，包括金融，开放QA，百科，DBQA，医学等包含人工回复|https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese/tree/main|
+|指令微调|MOSS开源的SFT数据包含使用plugin的对话数据|https://huggingface.co/datasets/Hello-SimpleAI/HC3-Chinese/tree/main|
+|指令微调|InstructWild数据：用四处爬取的chatgpt指令作为种子self-instruct扩充生成|https://github.com/XueFuzhao/InstructionWild/tree/main/data|
+|  指令微调      |  BELLE100万指令数据，参考Alpaca用ChatGPT生成，有数学，多轮对话，校色对话等等   |   https://github.com/LianjiaTech/BELLE  |
 |  指令微调      | PromptCLUE多任务提示数据集：模板构建，只包含标准NLP任务     |  https://github.com/CLUEbenchmark/pCLUE   |
 |  指令微调      |  TK-Instruct微调用的指令数据集, 全人工标注1600+NLP任务   |   https://instructions.apps.allenai.org/  |
 |   指令微调     | T0微调用的指令数据集（P3）    |  https://huggingface.co/datasets/bigscience/P3   |
 |  指令微调   | p3衍生的46种多语言数据集（xmtf）    | https://github.com/bigscience-workshop/xmtf    |
 |  指令微调      |Unnatural Instruction使用GPT3生成后改写得到240k     |   https://github.com/orhonovich/unnatural-instructions  |
-|指令微调|中文指令微调数据集包括翻译alpaca，多轮对话，考试指令|https://github.com/BAAI-Zlab/COIG|
+|指令微调|alpaca COT对多个数据源进行了清理并统一格式放到的了HF|https://github.com/PhoebusSi/Alpaca-CoT|
+|指令微调|人工编写包含23种常见的中文NLP任务的指令数据，中文写作方向|https://github.com/yangjianxin1/Firefly|
+|指令微调|Amazon COT指令样本包括各类QA，bigbench，math等|https://github.com/amazon-science/auto-cot|
 |对话指令|LAION 策划的开放指令通用数据集中手动选择的组件子集 已开源40M 3万个,100M在路上 |https://github.com/LAION-AI/Open-Instruction-Generalist|
-|对话指令|Vicuna训练使用的样本，用API获取了sharegpt上用户和chatgpt对话历史|https://github.com/domeccleston/sharegpt https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/tree/main|
 |  对话指令      |Baize基于Chat GPT构建的self-chat数据    |   https://github.com/project-baize/baize-chatbot/tree/main/data   |
 |  对话指令      |FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
 |  对话指令      |AllenAI开源38.5万个对话高质量数据集SODA   |   https://realtoxicityprompts.apps.allenai.org/ |
@@ -111,6 +116,7 @@
 | 评估集     | BigBench(Beyond the Imitation Game Benchmark)    |  https://github.com/google/BIG-bench   |
 |   评估集       |   Complex QA：用于ChatGPT的评测指令集  |    https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT |
 |   评估集      |   Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
+|评估集|2010-2022年全国高考卷的题目|https://github.com/OpenLMLab/GAOKAO-Bench|
 |预训练|RedPajama开源的复刻llama的预训练数据集|https://github.com/togethercomputer/RedPajama-Data|
 |多源数据集整合|opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
 
