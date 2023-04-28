@@ -97,7 +97,7 @@
 |  指令微调      |Unnatural Instruction使用GPT3生成后改写得到240k     |   https://github.com/orhonovich/unnatural-instructions  |
 |指令微调|中文指令微调数据集包括翻译alpaca，多轮对话，考试指令|https://github.com/BAAI-Zlab/COIG|
 |对话指令|LAION 策划的开放指令通用数据集中手动选择的组件子集 已开源40M 3万个,100M在路上 |https://github.com/LAION-AI/Open-Instruction-Generalist|
-|对话指令|Vicuna训练使用的样本，用API获取了sharegpt上用户和chatgpt对话历史|https://github.com/domeccleston/sharegpt|
+|对话指令|Vicuna训练使用的样本，用API获取了sharegpt上用户和chatgpt对话历史|https://github.com/domeccleston/sharegpt https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered/tree/main|
 |  对话指令      |Baize基于Chat GPT构建的self-chat数据    |   https://github.com/project-baize/baize-chatbot/tree/main/data   |
 |  对话指令      |FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
 |  对话指令      |AllenAI开源38.5万个对话高质量数据集SODA   |   https://realtoxicityprompts.apps.allenai.org/ |
