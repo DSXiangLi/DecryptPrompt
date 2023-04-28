@@ -7,7 +7,6 @@
 4. AIGC相关应用
 5. Prompt指南和教程
 6. ChatGPT及AGI相关解读
-7. ChatGPT相关商业应用
 
 ## My blogs & ChatGPT应用
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
@@ -194,23 +193,12 @@
 - [追赶ChatGPT的难点与平替](https://zhuanlan.zhihu.com/p/609877277)
 - [压缩即泛化，泛化即智能](https://zhuanlan.zhihu.com/p/615554635)
 
-### ChatGPT 商用场景
-1. 搜索：**Bing搜索**，所向披靡; **360搜索**，红孩儿，推理有限，支持国产
-2. 教育：**Quizlet**，私人教辅，你来学习，它来出题; **网易有道**，子曰，AI口语老师，作业批改
-3. 电商：**shopify**，私人导购，情人节给女友买点啥？问它; **Instcart**, 私人营养师，搭配食谱，相关商品直接加购物车
-4. 金融：**HSBC**，使用大模型在财务信息汇总和分类；MorganStanley，
-5. BI: **Salesforce**, Slack使用AI回复，会议总结; 
-6. 社交：**Soul**, 数字人，媒体内容自动生成；**腾讯**，QQ未来会融入ChatGPT
-7. 社区问答：**CSDN**, ChitGPT帮助提问者快速生成答案; Quora，接入了多个对话机器人进行问答
-8. 知识产权
-
 
 ## Papers
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
 - https://github.com/thunlp/PromptPapers
 - https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
-
 
 ### Survey
 - A Survey of Large Language Models
