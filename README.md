@@ -99,7 +99,7 @@
 |   指令微调     | T0微调用的指令数据集（P3）    |  https://huggingface.co/datasets/bigscience/P3   |
 |  指令微调   | p3衍生的46种多语言数据集（xmtf）    | https://github.com/bigscience-workshop/xmtf    |
 |  指令微调      |Unnatural Instruction使用GPT3生成后改写得到240k     |   https://github.com/orhonovich/unnatural-instructions  |
-|指令微调|alpaca COT对多个数据源进行了清理并统一格式放到的了HF|https://github.com/PhoebusSi/Alpaca-CoT|
+|指令微调|alpaca COT对多个数据源进行了清理并统一格式放到的了HF, 重点是人工整理的COT数据|https://github.com/PhoebusSi/Alpaca-CoT|
 |指令微调|人工编写包含23种常见的中文NLP任务的指令数据，中文写作方向|https://github.com/yangjianxin1/Firefly|
 |指令微调|Amazon COT指令样本包括各类QA，bigbench，math等|https://github.com/amazon-science/auto-cot|
 |指令微调|CSL包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）可做预训练可构建NLP指令任务|https://github.com/ydli-ai/CSL|
