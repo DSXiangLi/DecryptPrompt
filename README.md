@@ -79,6 +79,7 @@
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
+|lamini: 整合指令数据生成，SFT，RLHF的工具库|https://github.com/lamini-ai/lamini/|
 
 ### 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
