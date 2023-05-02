@@ -268,8 +268,6 @@
 - Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
 - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
 - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
-- BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
-- Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
 
 ### Train for Dialogue
 - LaMDA: Language Models for Dialog Applications
@@ -283,6 +281,7 @@
 - SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
 - Large Language Models are Zero-Shot Reasoners
 - PaLM: Scaling Language Modeling with Pathways
+- AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
 
 ### RLHF
 - Deepmind
@@ -301,7 +300,6 @@
   - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
   - Constitutional AI Harmlessness from AI Feedback :star:
 - AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
-
 
 ### Agent: 让模型使用工具
 - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools
@@ -328,3 +326,11 @@
 - ChatDoctor：Medical Chat Model Fine-tuned on LLaMA Model using Medical Domain
 Knowledge
 - Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2] :star:
+
+
+### LLM Tunning Practice/Report
+- BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
+- Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
+- A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
+- Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
+- Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
