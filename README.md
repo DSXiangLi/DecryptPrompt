@@ -301,6 +301,7 @@
   - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
   - Constitutional AI Harmlessness from AI Feedback :star:
 - AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
+- RRHF: Rank Responses to Align Language Models with Human Feedback without tears
 
 ### Agent: 让模型使用工具
 - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools
