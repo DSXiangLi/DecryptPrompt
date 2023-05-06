@@ -1,5 +1,5 @@
 # DecryptPrompt
-
+> 如果LLM的突然到来让你感到沮丧，不妨读下主目录的Choose Your Weapon Survival Strategies for Depressed AI Academics
 持续更新以下内容，Star to keep updated~
 1. 开源LLM
 2. 指令微调和RLHF数据以及训练框架
@@ -99,6 +99,7 @@
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 |lamini: 整合指令数据生成，SFT，RLHF的工具库|https://github.com/lamini-ai/lamini/|
 |wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
+|Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
 
 ### 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
@@ -230,6 +231,7 @@
 - Paradigm Shift in Natural Language Processing
 - Pre-Trained Models: Past, Present and Future
 
+
 ### LLM Ability Analysis & Probing 
 - Sparks of Artificial General Intelligence: Early experiments with GPT-4
 - How does in-context learning work? A framework for understanding the differences from traditional supervised learning
@@ -285,12 +287,22 @@
 - How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
 
 ### Chain of Thought
-- Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
-- COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
-- SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
-- Large Language Models are Zero-Shot Reasoners
-- PaLM: Scaling Language Modeling with Pathways
-- AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
+- 能力产生和分析
+  - AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
+  - Large Language Models are Zero-Shot Reasoners
+  - Solving Quantitative Reasoning Problems with Language Models
+  - Specializing Smaller Language Models towards Multi-Step Reasoning
+  - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters
+  - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
+- Prompt Engingger 
+  - SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
+  - Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
+  - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
+  - LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS
+  - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
+- RL 
+  - Solving math word problems with processand outcome-based feedback
+  - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
 
 ### RLHF
 - Deepmind
