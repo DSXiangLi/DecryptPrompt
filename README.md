@@ -96,6 +96,8 @@
 |LMFlow：港科大实验室开源的大模型微调框架，支持以上多数开源模型的指令微调和RLHF|https://github.com/OptimalScale/LMFlow|
 |hugNLP:基于Huggingface开发继承Prompt技术，预训练和是指输入等多种方案|https://github.com/wjn1996/HugNLP|
 |Deepspeed：针对RL训练和推理的整合优化|https://github.com/microsoft/DeepSpeed|
+|Uerpy:预训练框架支持lm,mlm,unilm等|https://github.com/dbiir/UER-py|
+|TecentPretrain: Uerpy的重构版本支持llama预训练|https://github.com/Tencent/TencentPretrain/tree/main|
 |langchain：LLM工具集|https://github.com/hwchase17/langchain|
 |BMTTools: 清华出品类似langchain|https://github.com/OpenBMB/BMTools|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
@@ -144,8 +146,11 @@
 |   评估集       |   Complex QA：用于ChatGPT的评测指令集  |    https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT |
 |   评估集      |   Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
 |评估集|2010-2022年全国高考卷的题目|https://github.com/OpenLMLab/GAOKAO-Bench|
+|评估集|中文通用大模型综合性评测基准SuperCLUE|https://github.com/CLUEbenchmark/SuperCLUE|
 |预训练|RedPajama开源的复刻llama的预训练数据集|https://github.com/togethercomputer/RedPajama-Data|
 |预训练|UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
+|预训练|智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
+
 |多源数据集整合|opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
 
 ## Resources 
