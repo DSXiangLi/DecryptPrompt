@@ -339,7 +339,6 @@
 - Self: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS
 - PAL: Program-aided Language Models
 
-
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
 - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
@@ -365,3 +364,14 @@ Knowledge
 - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
 - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
 - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
+
+
+### Other Prompt Engineer 
+- Generated Knowledge Prompting for Commonsense Reasoning
+- In-Context Instruction Learning
+- PROMPTING GPT-3 TO BE RELIABLE
+
+### Multimodal
+- InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
+- Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
+- PaLM-E: An Embodied Multimodal Language Model
