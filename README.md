@@ -226,7 +226,7 @@
 - [知乎回答 OpenAI 发布 GPT-4，有哪些技术上的优化或突破?](https://www.zhihu.com/question/589639535/answer/2936696161)
 - [追赶ChatGPT的难点与平替](https://zhuanlan.zhihu.com/p/609877277)
 - [压缩即泛化，泛化即智能](https://zhuanlan.zhihu.com/p/615554635)
-
+- [陆奇最新演讲实录：我的大模型世界观｜第十四期](https://new.qq.com/rain/a/20230423A08J7400)
 
 ## Papers
 ### paper List
@@ -357,7 +357,7 @@
 - ChatDoctor：Medical Chat Model Fine-tuned on LLaMA Model using Medical Domain
 Knowledge
 - Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2] :star:
-
+- Augmented Large Language Models with Parametric Knowledge Guiding
 
 ### LLM Tunning Practice/Report
 - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
