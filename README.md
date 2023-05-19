@@ -61,6 +61,7 @@
 |[通义千问](https://tongyi.aliyun.com/)|阿里系LLM开放申请，还没拿到邀请码，等待ing|
 |[Phoenix](https://github.com/FreedomIntelligence/LLMZoo)|港中文开源凤凰和奇美拉LLM，Bloom基座，40+语言支持|
 |[Guanaco](https://huggingface.co/KBlueLeaf/guanaco-7B-leh)|LLama 7B基座，在alpaca52K数据上加入534K多语言指令数据微调|
+|[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
 |[Chinese Vincuna](https://github.com/Facico/Chinese-Vicuna)|LLama 7B基座，使用Belle+Guanaco数据训练|
 |[Linly](https://github.com/CVI-SZU/Linly)|Llama 7B基座，使用belle+guanaco+pclue+firefly+CSL+newscommentary等7个指令微调数据集训练|
 |[Firefly](https://github.com/yangjianxin1/Firefly)| 中文2.6B模型，提升模型中文写作，古文能力，待开源全部训练代码，当前只有模型|
@@ -82,9 +83,12 @@
 |[OpenBioMed](https://github.com/BioFM/OpenBioMed)|清华AIR开源轻量版BioMedGPT, 知识图谱&20+生物研究领域多模态预训练模型|
 |[DoctorGLM](https://github.com/xionghonglin/DoctorGLM)|ChatDoctor+MedDialog+CMD 多轮对话+单轮指令样本微调GLM|
 |[MedicalGPT-zh](https://github.com/MediaBrain-SJTU/MedicalGPT-zh)|自建的医学数据库ChatGPT生成QA+16个情境下SELF构建情景对话|
+|[PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA)|医疗论文微调Llama|
+|[ NHS-LLM](https://github.com/CogStack/OpenGPT/tree/main)|Chatgpt生成的医疗问答，对话，微调模型|
 |[LawGPT-zh](https://github.com/LiuHC0428/LAW-GPT)|利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答+我们根据中华人民共和国法律手册上最核心的9k法律条文，利用ChatGPT联想生成具体的情景问答+知识问答使用ChatGPT基于文本构建QA对|
 |[FinChat.io](https://finchat.io/)|使用最新的财务数据，电话会议记录，季度和年度报告，投资书籍等进行训练|
 |[OpenGPT](https://github.com/CogStack/OpenGPT)|领域LLM指令样本生成+微调框架|
+
 ### 指令微调&RL工具
 | 工具描述   | 链接   | 
 | --- | --- | 
@@ -339,7 +343,6 @@
 - Self: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS
 - PAL: Program-aided Language Models
 
-
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
 - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
@@ -365,3 +368,14 @@ Knowledge
 - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
 - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
 - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
+
+
+### Other Prompt Engineer 
+- Generated Knowledge Prompting for Commonsense Reasoning
+- In-Context Instruction Learning
+- PROMPTING GPT-3 TO BE RELIABLE
+
+### Multimodal
+- InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
+- Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
+- PaLM-E: An Embodied Multimodal Language Model
