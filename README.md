@@ -333,6 +333,7 @@
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
   - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
   - Constitutional AI Harmlessness from AI Feedback :star:
+  - Pretraining Language Models with Human Preferences
 - AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
 - RRHF: Rank Responses to Align Language Models with Human Feedback without tears
 
