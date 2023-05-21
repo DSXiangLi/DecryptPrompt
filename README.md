@@ -98,6 +98,7 @@
 |RL4LMs：AllenAI的RL工具|https://github.com/allenai/RL4LMs|
 |trl：基于Transformer的强化训练框架|https://github.com/lvwerra/trl|
 |trlx：分布式训练trl | https://github.com/CarperAI/trlx|
+|北大开源河狸项目可复现RLHF，支持多数LLM，提供RLHF数据|https://github.com/PKU-Alignment/safe-rlhf|
 |RL4LMs：AllenAI的RL工具|https://github.com/allenai/RL4LMs|
 |LMFlow：港科大实验室开源的大模型微调框架，支持以上多数开源模型的指令微调和RLHF|https://github.com/OptimalScale/LMFlow|
 |hugNLP:基于Huggingface开发继承Prompt技术，预训练和是指输入等多种方案|https://github.com/wjn1996/HugNLP|
@@ -143,6 +144,7 @@
 |  对话指令      |InstructDial在单一对话任务类型上进行指令微调   |  https://github.com/prakharguptaz/Instructdial   |
 | 对话指令 |Ultra Chat 两个独立的 ChatGPT Turbo API 进行对话，从而生成多轮对话数据|https://github.com/thunlp/UltraChat|
 |对话指令|Awesome Open-domain Dialogue Models提供多个开放域对话数据|https://github.com/cingtiye/Awesome-Open-domain-Dialogue-Models#%E4%B8%AD%E6%96%87%E5%BC%80%E6%94%BE%E5%9F%9F%E5%AF%B9%E8%AF%9D%E6%95%B0%E6%8D%AE%E9%9B%86|
+|RLFH|北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF-10K|
 |  RLHF     |  Anthropic hh-rlhf数据集   |   https://huggingface.co/datasets/Anthropic/hh-rlhf  |
 |RLHF|Stack-exchange上问题对应多个答案，每个答案有打分|https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences/tree/main|
 |  RLHF     | Facebook Bot Adversarial Dialogues数据集5K   |  https://github.com/facebookresearch/ParlAI  |
