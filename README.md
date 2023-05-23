@@ -23,6 +23,9 @@
 ## 模型和数据
 - [高星中文「类Alpaca」项目对比测评](https://zhuanlan.zhihu.com/p/625195238)
 - [可商用LLM列表](https://github.com/eugeneyan/open-llms)
+- [CMU开源聊天机器人评测应用](https://github.com/zeno-ml/zeno-build): ChatGPT>Vicuna>others；在对话场景中训练可能很重要
+- [Berkley出品大模型排位赛榜有准中文榜单](https://lmsys.org/blog/2023-05-03-arena/): GPT4自然是稳居第一，GPT4>Claude>GPT3.5>Vicuna>others
+
 ### 国外模型
 |模型链接     | 模型描述    |
 | --- | --- |
@@ -115,7 +118,7 @@
 |lamini: 整合指令数据生成，SFT，RLHF的工具库|https://github.com/lamini-ai/lamini/|
 |wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
 |Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
-
+|FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
 ### 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
 | --- | --- | --- |
