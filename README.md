@@ -254,6 +254,8 @@
 
 
 ### LLM Ability Analysis & Probing 
+- LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
+- Evidence of Meaning in Language Models Trained on Programs
 - Sparks of Artificial General Intelligence: Early experiments with GPT-4
 - How does in-context learning work? A framework for understanding the differences from traditional supervised learning
 - Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers
@@ -308,22 +310,18 @@
 - How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
 
 ### Chain of Thought
-- 能力产生和分析
-  - AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
-  - Large Language Models are Zero-Shot Reasoners
-  - Solving Quantitative Reasoning Problems with Language Models
-  - Specializing Smaller Language Models towards Multi-Step Reasoning
-  - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters
-  - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
-- Prompt Engingger 
-  - SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
-  - Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
-  - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
-  - LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS
-  - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
-- RL 
-  - Solving math word problems with processand outcome-based feedback
-  - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
+- [zero-shot-COT] Large Language Models are Zero-Shot Reasoners :star:
+- [Manual COT] Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
+- SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
+- COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
+- LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS
+- Solving Quantitative Reasoning Problems with Language Models
+- Specializing Smaller Language Models towards Multi-Step Reasoning
+- Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters
+- TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
+- Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
+- Solving math word problems with processand outcome-based feedback
+- CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
 
 ### RLHF
 - Deepmind
@@ -337,9 +335,9 @@
   - InstructGPT: Training language models to follow instructions with human feedback :star:
   - Scaling Laws for Reward Model Over optimization :star:
 - Anthropic
-  - A General Language Assistant as a Laboratory for Alignmen
+  - A General Language Assistant as a Laboratory for Alignmen 
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
-  - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback
+  - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback  :star:
   - Constitutional AI Harmlessness from AI Feedback :star:
   - Pretraining Language Models with Human Preferences
 - AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
@@ -349,8 +347,11 @@
 - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools
 - MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning :star:
 - ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
-- Self: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS
+- Self-ask: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS
 - PAL: Program-aided Language Models
+- HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
+- OpenAGI: When LLM Meets Domain Experts
+- Tool Learning with Foundation Models
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
@@ -366,8 +367,7 @@
 - Galactia：A Large Language Model for Science
 - PubMed GPT: A Domain-specific large language model for biomedical text
 - BloombergGPT： A Large Language Model for Finance  
-- ChatDoctor：Medical Chat Model Fine-tuned on LLaMA Model using Medical Domain
-Knowledge
+- ChatDoctor：Medical Chat Model Fine-tuned on LLaMA Model using Medical Domain Knowledge
 - Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2] :star:
 - Augmented Large Language Models with Parametric Knowledge Guiding
 
