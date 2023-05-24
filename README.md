@@ -39,6 +39,7 @@
 |[Alpaca-lora](https://github.com/tloen/alpaca-lora)     |   LORA微调的LLaMA  |
 |[Dromedary](https://github.com/IBM/Dromedary)|IBM self-aligned model with the LLaMA base|
 |[Vicuna](https://github.com/lm-sys/FastChat)|Alpaca前成员等开源以LLama13B为基础使用ShareGPT指令微调的模型，提出了用GPT4来评测模型效果|
+|[koala](https://bair.berkeley.edu/blog/2023/04/03/koala/)|使用alpaca，HC3等开源指令集+ ShareGPT等ChatGPT数据微调llama，在榜单上排名较高|
 |[ColossalChat](https://github.com/hpcaitech/ColossalAI)|HPC-AI Tech开源的Llama+RLHF微调|
 |[MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4)|Vicuna+BLIP2 文本视觉融合|
 |[StackLLama](https://huggingface.co/trl-lib/llama-7b-se-rl-peft)|LLama使用Stackexchange数据+SFT+RL|
