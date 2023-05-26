@@ -374,13 +374,20 @@
 - Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2] :star:
 - Augmented Large Language Models with Parametric Knowledge Guiding
 
+### LLM超长文本处理
+- Parallel Context Windows for Large Language Models
+- Structured Prompting: Scaling In-Context Learning to 1,000 Examples
+- [苏剑林, NBCE：使用朴素贝叶斯扩展LLM的Context处理长度](https://spaces.ac.cn/archives/9617)
+- Vcc: Scaling Transformers to 128K Tokens or More by Prioritizing Important Tokens
+- Unlimiformer: Long-Range Transformers with Unlimited Length Input
+- Scaling Transformer to 1M tokens and beyond with RMT
+
 ### LLM Tunning Practice/Report
 - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
 - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
 - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
 - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
 - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
-
 
 ### Other Prompt Engineer 
 - Generated Knowledge Prompting for Commonsense Reasoning
