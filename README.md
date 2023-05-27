@@ -123,6 +123,7 @@
 |Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
 |FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
 ### 开源数据
+
 | 数据类型    | 数据描述    | 数据链接    |
 | --- | --- | --- |
 |  指令微调   |  self-instruct，GPT3自动生成&过滤得到指令集   |   https://github.com/yizhongw/self-instruct   |
@@ -145,6 +146,12 @@
 |指令微调|人工编写包含23种常见的中文NLP任务的指令数据，中文写作方向|https://github.com/yangjianxin1/Firefly|
 |指令微调|Amazon COT指令样本包括各类QA，bigbench，math等|https://github.com/amazon-science/auto-cot|
 |指令微调|CSL包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）可做预训练可构建NLP指令任务|https://github.com/ydli-ai/CSL|
+|数学MWP|腾讯人工智能实验室发布网上爬取的数学问题APE210k|https://github.com/Chenny0808/ape210k|
+|数学MWP|猿辅导 AI Lab开源小学应用题Math23K|https://github.com/SCNU203/Math23k/tree/main|
+|数学MWP|grade school math把OpenAI的高中数学题有改造成指令样本有2-8步推理过程|https://huggingface.co/datasets/qwedsacf/grade-school-math-instructions|
+|数学MWP|数学问答数据集有推理过程和多项选择|https://huggingface.co/datasets/math_qa/viewer/default/test?row=2|
+|数学MWP|AMC竞赛数学题|https://huggingface.co/datasets/competition_math|
+|数学MWP|线性代数等纯数学计算题|https://huggingface.co/datasets/math_dataset|
 |对话指令|LAION 策划的开放指令通用数据集中手动选择的组件子集 已开源40M 3万个,100M在路上 |https://github.com/LAION-AI/Open-Instruction-Generalist|
 |  对话指令      |Baize基于Chat GPT构建的self-chat数据    |   https://github.com/project-baize/baize-chatbot/tree/main/data   |
 |  对话指令      |FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
