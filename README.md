@@ -130,6 +130,8 @@
 | --- | --- | --- |
 |  指令微调   |  self-instruct，GPT3自动生成&过滤得到指令集   |   https://github.com/yizhongw/self-instruct   |
 |  指令微调      |    Standford Alpaca：52K text-davinci-003生成的self-instruct指令数据集 |  https://github.com/tatsu-lab/stanford_alpaca   |
+|  指令微调      |   GPT4-for-LLM 中文+英文+对比指令| https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM|
+|  指令微调      |    GPTTeacher更多样的通用指令，角色扮演和代码指令| https://github.com/teknium1/GPTeacher/tree/main  |
 |  指令微调      | 中文翻译Alpaca还有一些其他指令数据集    |    https://github.com/hikariming/alpaca_chinese_dataset https://github.com/carbonz0/alpaca-chinese-dataset|
 |指令微调|alpaca指令GPT4生成，和以上几版对比显著质量更高，回复更长|https://github.com/Instruction-Tuning-with-GPT-4/GPT-4-LLM/tree/main|
 |  指令微调      |   Guanaco数据：对Alphca指令重写后以不同语言生成总共534K，有对话和非对话类型，还有补充的QA生成样本  | https://huggingface.co/datasets/JosephusCheung/GuanacoDataset    |
@@ -157,6 +159,9 @@
 |数学MWP|数学问答数据集有推理过程和多项选择|https://huggingface.co/datasets/math_qa/viewer/default/test?row=2|
 |数学MWP|AMC竞赛数学题|https://huggingface.co/datasets/competition_math|
 |数学MWP|线性代数等纯数学计算题|https://huggingface.co/datasets/math_dataset|
+|代码|从不同的开放访问编码网站Codeforces、Kattis 等收集的问题|https://opendatalab.org.cn/APPS|
+|代码|代码由带有嵌入式 SQL 的 Python 代码组成，经过仔细注释的数据库操作程序，配有中文评论和英文评论。|https://opendatalab.org.cn/Lyra|
+|代码|来自StackOverflow问题,手动注释3k，英文|https://opendatalab.org.cn/CoNaLa/download|
 |对话指令|LAION 策划的开放指令通用数据集中手动选择的组件子集 已开源40M 3万个,100M在路上 |https://github.com/LAION-AI/Open-Instruction-Generalist|
 |  对话指令      |Baize基于Chat GPT构建的self-chat数据    |   https://github.com/project-baize/baize-chatbot/tree/main/data   |
 |  对话指令      |FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
