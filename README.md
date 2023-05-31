@@ -386,19 +386,22 @@
 ### 领域模型
 - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
 - Galactia：A Large Language Model for Science
-- PubMed GPT: A Domain-specific large language model for biomedical text
+- PubMed GPT: A Domain-specific large language model for biomedical text :star:
 - BloombergGPT： A Large Language Model for Finance  
 - ChatDoctor：Medical Chat Model Fine-tuned on LLaMA Model using Medical Domain Knowledge
 - Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2] :star:
 - Augmented Large Language Models with Parametric Knowledge Guiding
+- XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
 
 ### LLM超长文本处理
 - Parallel Context Windows for Large Language Models
 - Structured Prompting: Scaling In-Context Learning to 1,000 Examples
-- [苏剑林, NBCE：使用朴素贝叶斯扩展LLM的Context处理长度](https://spaces.ac.cn/archives/9617)
+- [苏剑林, NBCE：使用朴素贝叶斯扩展LLM的Context处理长度](https://spaces.ac.cn/archives/9617) :star:
 - Vcc: Scaling Transformers to 128K Tokens or More by Prioritizing Important Tokens
 - Unlimiformer: Long-Range Transformers with Unlimited Length Input
 - Scaling Transformer to 1M tokens and beyond with RMT
+- RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
+- TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION :star:
 
 ### LLM Tunning Practice/Report
 - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
@@ -406,6 +409,7 @@
 - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
 - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
 - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
+- LIMA: Less Is More for Alignment :star:
 
 ### Other Prompt Engineer 
 - Generated Knowledge Prompting for Commonsense Reasoning
