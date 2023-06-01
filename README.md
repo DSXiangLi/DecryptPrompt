@@ -272,7 +272,7 @@
 - Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
 - Paradigm Shift in Natural Language Processing
 - Pre-Trained Models: Past, Present and Future
-
+- What Language Model Architecture and Pretraining objects work best for zero shot generalization 
 
 ### LLM Ability Analysis & Probing 
 - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
@@ -382,6 +382,7 @@
 - Fairness-guided Few-shot Prompting for Large Language Models  
 - Instruction induction: From few examples to natural language task descriptions.
 - Baize An Open-Source Chat Model with Parameter-Efficient Tuning on self-Chat Data
+- SELF-QA Unsupervised Knowledge Guided alignment.
 
 ### 领域模型
 - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
@@ -410,6 +411,7 @@
 - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
 - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
 - LIMA: Less Is More for Alignment :star:
+
 
 ### Other Prompt Engineer 
 - Generated Knowledge Prompting for Commonsense Reasoning
