@@ -154,15 +154,16 @@
 |指令微调|alpaca code 20K代码指令数据|https://github.com/sahil280114/codealpaca#data-release|
 |指令微调|GPT4Tools 71K GPT4指令样本|https://github.com/StevenGrove/GPT4Tools|
 |指令微调|GPT4指令+角色扮演+代码指令|https://github.com/teknium1/GPTeacher|
-|数学MWP|腾讯人工智能实验室发布网上爬取的数学问题APE210k|https://github.com/Chenny0808/ape210k|
-|数学MWP|猿辅导 AI Lab开源小学应用题Math23K|https://github.com/SCNU203/Math23k/tree/main|
-|数学MWP|grade school math把OpenAI的高中数学题有改造成指令样本有2-8步推理过程|https://huggingface.co/datasets/qwedsacf/grade-school-math-instructions|
-|数学MWP|数学问答数据集有推理过程和多项选择|https://huggingface.co/datasets/math_qa/viewer/default/test?row=2|
-|数学MWP|AMC竞赛数学题|https://huggingface.co/datasets/competition_math|
-|数学MWP|线性代数等纯数学计算题|https://huggingface.co/datasets/math_dataset|
-|代码|从不同的开放访问编码网站Codeforces、Kattis 等收集的问题|https://opendatalab.org.cn/APPS|
-|代码|代码由带有嵌入式 SQL 的 Python 代码组成，经过仔细注释的数据库操作程序，配有中文评论和英文评论。|https://opendatalab.org.cn/Lyra|
-|代码|来自StackOverflow问题,手动注释3k，英文|https://opendatalab.org.cn/CoNaLa/download|
+|数学|腾讯人工智能实验室发布网上爬取的数学问题APE210k|https://github.com/Chenny0808/ape210k|
+|数学|猿辅导 AI Lab开源小学应用题Math23K|https://github.com/SCNU203/Math23k/tree/main|
+|数学|grade school math把OpenAI的高中数学题有改造成指令样本有2-8步推理过程|https://huggingface.co/datasets/qwedsacf/grade-school-math-instructions|
+|数学|数学问答数据集有推理过程和多项选择|https://huggingface.co/datasets/math_qa/viewer/default/test?row=2|
+|数学|AMC竞赛数学题|https://huggingface.co/datasets/competition_math|
+|数学|线性代数等纯数学计算题|https://huggingface.co/datasets/math_dataset|
+|代码|APPS从不同的开放访问编码网站Codeforces、Kattis 等收集的问题|https://opendatalab.org.cn/APPS|
+|代码|Lyra代码由带有嵌入式 SQL 的 Python 代码组成，经过仔细注释的数据库操作程序，配有中文评论和英文评论。|https://opendatalab.org.cn/Lyra|
+|代码|Conala来自StackOverflow问题,手动注释3k，英文|https://opendatalab.org.cn/CoNaLa/download|
+|代码|code-alpaca ChatGPT生成20K代码指令样本|https://github.com/sahil280114/codealpaca.git|
 |对话指令|LAION 策划的开放指令通用数据集中手动选择的组件子集 已开源40M 3万个,100M在路上 |https://github.com/LAION-AI/Open-Instruction-Generalist|
 |  对话指令      |Baize基于Chat GPT构建的self-chat数据    |   https://github.com/project-baize/baize-chatbot/tree/main/data   |
 |  对话指令      |FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
@@ -182,6 +183,7 @@
 |评估集|2010-2022年全国高考卷的题目|https://github.com/OpenLMLab/GAOKAO-Bench|
 |评估集|中文通用大模型综合性评测基准SuperCLUE|https://github.com/CLUEbenchmark/SuperCLUE|
 |预训练|RedPajama开源的复刻llama的预训练数据集|https://github.com/togethercomputer/RedPajama-Data|
+|预训练|Pile 22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
 |预训练|UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
 |预训练|智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
 |多源数据集整合|opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
