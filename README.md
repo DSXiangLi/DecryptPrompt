@@ -31,6 +31,7 @@
 | --- | --- |
 | [Google Bard](https://bard.google.com)   |    谷歌bard虽迟但到，可以申请waitlist了 |
 |  [Claude](https://www.anthropic.com/product)   |  ChatGPT最大竞争对手Claude也开放申请了，slack中无限试用   |
+|  [Falcon](https://huggingface.co/tiiuae/falcon-40b)   |  Falcon由阿联酋技术研究所在超高质量1万亿Token上训练得到1B，7B，40B开源，免费商用！土豪们表示钱什么的格局小了 |
 | [LLaMA](https://github.com/facebookresearch/llama)    |  Meta开源指令微调LLM，规模70 亿到 650 亿不等  |
 |[MPT](https://huggingface.co/mosaicml/mpt-7b-chat)|MosaicML开源的预训练+指令微调的新模型，可商用，支持84k tokens超长输入|
 |[RedPajama](https://huggingface.co/togethercomputer/RedPajama-INCITE-Instruct-3B-v1)|RedPajama项目既开源预训练数据后开源3B，7B的预训练+指令微调模型|
@@ -124,6 +125,8 @@
 |wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
 |Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
 |FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
+|LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
+|Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
 
 ### 开源数据
 
@@ -345,6 +348,8 @@
 - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
 - Solving math word problems with processand outcome-based feedback
 - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
+- Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
+- OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
 
 ### RLHF
 - Deepmind
@@ -365,6 +370,7 @@
   - Pretraining Language Models with Human Preferences
 - AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
 - RRHF: Rank Responses to Align Language Models with Human Feedback without tears
+- PRM：Let's verify step by step 
 
 ### Agent: 让模型使用工具
 - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools
@@ -375,6 +381,8 @@
 - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
 - OpenAGI: When LLM Meets Domain Experts
 - Tool Learning with Foundation Models
+- Tool Maker： Large Language Models as Tool Maker
+- Gorilla： Large Language Model Connected with Massive APIs
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
