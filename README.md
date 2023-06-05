@@ -25,7 +25,7 @@
 - [可商用LLM列表](https://github.com/eugeneyan/open-llms)
 - [CMU开源聊天机器人评测应用](https://github.com/zeno-ml/zeno-build): ChatGPT>Vicuna>others；在对话场景中训练可能很重要
 - [Berkley出品大模型排位赛榜有准中文榜单](https://lmsys.org/blog/2023-05-03-arena/): GPT4自然是稳居第一，GPT4>Claude>GPT3.5>Vicuna>others
-
+- [Z-Bench中文真格基金评测](https://github.com/zhenbench/z-bench): 国产中文模型的编程可用性还相对较低，大家水平差不太多，两版ChatGLM提升明显
 ### 国外模型
 |模型链接     | 模型描述    |
 | --- | --- |
