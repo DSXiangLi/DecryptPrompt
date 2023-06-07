@@ -21,11 +21,12 @@
 
 
 ## 模型和数据
-- [高星中文「类Alpaca」项目对比测评](https://zhuanlan.zhihu.com/p/625195238)
 - [可商用LLM列表](https://github.com/eugeneyan/open-llms)
 - [CMU开源聊天机器人评测应用](https://github.com/zeno-ml/zeno-build): ChatGPT>Vicuna>others；在对话场景中训练可能很重要
 - [Berkley出品大模型排位赛榜有准中文榜单](https://lmsys.org/blog/2023-05-03-arena/): GPT4自然是稳居第一，GPT4>Claude>GPT3.5>Vicuna>others
 - [Z-Bench中文真格基金评测](https://github.com/zhenbench/z-bench): 国产中文模型的编程可用性还相对较低，大家水平差不太多，两版ChatGLM提升明显
+- [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): 在Eleuther AI4个评估集上评估的LLM模型榜单
+
 ### 国外模型
 |模型链接     | 模型描述    |
 | --- | --- |
@@ -323,7 +324,7 @@
 ### Instruction Tunning LLMs 
 - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
 - Flan-T5: Scaling Instruction-Finetuned Language Models
-- Instruct-GPT: Training language models to follow instructions with human feedback star:
+- Instruct-GPT: Training language models to follow instructions with human feedback :star:
 - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
 - Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
 - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
@@ -331,7 +332,7 @@
 
 ### Train for Dialogue
 - LaMDA: Language Models for Dialog Applications
-- Sparrow: Improving alignment of dialogue agents via targeted human judgements star:
+- Sparrow: Improving alignment of dialogue agents via targeted human judgements :star:
 - BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
 - How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
 
@@ -373,10 +374,10 @@
 - PRM：Let's verify step by step 
 
 ### Agent: 让模型使用工具
-- Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools
-- MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning :star:
+- Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools :star:
+- MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning
 - ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
-- Self-ask: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS
+- Self-ask: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS :star:
 - PAL: Program-aided Language Models
 - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
 - OpenAGI: When LLM Meets Domain Experts
