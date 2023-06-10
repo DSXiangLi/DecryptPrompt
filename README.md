@@ -278,6 +278,8 @@
 - Paradigm Shift in Natural Language Processing
 - Pre-Trained Models: Past, Present and Future
 - What Language Model Architecture and Pretraining objects work best for zero shot generalization 
+- Towards Reasoning in Large Language Models: A Survey
+- Reasoning with Language Model Prompting: A Survey
 
 ### LLM Ability Analysis & Probing 
 - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
@@ -288,6 +290,7 @@
 - Emerging Ability of Large Language Models
 - Rethinking the Role of Demonstrations What Makes incontext learning work?
 - Can Explanations Be Useful for Calibrating Black Box Models
+- IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
 
 ### Tunning Free Prompt
 - GPT2: Language Models are Unsupervised Multitask Learners
@@ -423,10 +426,18 @@
 - LIMA: Less Is More for Alignment :star:
 
 
+### Reliability
+-  Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
+- SELF-REFINE:ITERATIVE REFINEMENT WITH SELF-FEEDBACK  :star:
+- SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS  :star:
+- PROMPTING GPT-3 TO BE RELIABLE
+- Enhancing Self-Consistency and Performance of Pre-Trained Language Models through Natural Language Inference
+
+
 ### Other Prompt Engineer 
 - Generated Knowledge Prompting for Commonsense Reasoning
 - In-Context Instruction Learning
-- PROMPTING GPT-3 TO BE RELIABLE
+
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
