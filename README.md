@@ -16,6 +16,7 @@
 - [解密prompt系列5. APE+SELF=自动化指令集构建代码实现](https://cloud.tencent.com/developer/article/2260697?areaSource=&traceId=)
 - [解密Prompt系列6. lora指令微调扣细节-请冷静,1个小时真不够~](https://cloud.tencent.com/developer/article/2276508)
 - [解密Prompt系列7. 偏好对齐RLHF-OpenAI·DeepMind·Anthropic对比分析](https://cloud.tencent.com/developer/article/old/2289566?areaSource=&traceId=)
+- [解密Prompt系列8. 无需训练让LLM支持超长输入:知识库 & Unlimiformer & PCW & NBCE ](https://cloud.tencent.com/developer/article/old/2295783?areaSource=&traceId=)
 - [ChatGPT应用1. MakeInstruction零人工指令样本构建](https://huggingface.co/spaces/xl2533/MakeInstruction)
 - [ChatGPT应用2. ChatPDF简单复现](https://huggingface.co/spaces/xl2533/FinDoc)
 
@@ -341,20 +342,30 @@
 - How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
 
 ### Chain of Thought
-- [zero-shot-COT] Large Language Models are Zero-Shot Reasoners :star:
-- [Manual COT] Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
-- SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
-- COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
-- LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS
-- Solving Quantitative Reasoning Problems with Language Models
-- Specializing Smaller Language Models towards Multi-Step Reasoning
-- Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters
-- TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
-- Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
-- Solving math word problems with processand outcome-based feedback
-- CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
-- Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
-- OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
+- 基础&进阶用法
+    - [zero-shot-COT] Large Language Models are Zero-Shot Reasoners :star:
+    - [few-shot COT] Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
+    - SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
+    - LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS
+- 分领域COT
+    - Solving Quantitative Reasoning Problems with Language Models
+    - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
+    - Solving math word problems with processand outcome-based feedback
+    - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
+    - T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering
+- 原理分析
+    - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters
+    - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
+    - Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
+- others
+    - Specializing Smaller Language Models towards Multi-Step Reasoning
+    - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
+    - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
+    - Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions 
+    - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
+    - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS 
+    - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning  
+    - AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
 
 ### RLHF
 - Deepmind
@@ -388,6 +399,8 @@
 - Tool Learning with Foundation Models
 - Tool Maker： Large Language Models as Tool Maker
 - Gorilla： Large Language Model Connected with Massive APIs
+- Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models
+- Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
