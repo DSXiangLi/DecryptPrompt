@@ -27,7 +27,7 @@
 - [Berkley出品大模型排位赛榜有准中文榜单](https://lmsys.org/blog/2023-05-03-arena/): GPT4自然是稳居第一，GPT4>Claude>GPT3.5>Vicuna>others
 - [Z-Bench中文真格基金评测](https://github.com/zhenbench/z-bench): 国产中文模型的编程可用性还相对较低，大家水平差不太多，两版ChatGLM提升明显
 - [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): 在Eleuther AI4个评估集上评估的LLM模型榜单
-
+- [Chain-of-thought评估](https://github.com/FranxYao/chain-of-thought-hub):GSM8k, MATH等复杂问题排行榜
 ### 国外模型
 |模型链接     | 模型描述    |
 | --- | --- |
@@ -357,8 +357,11 @@
     - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters
     - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
     - Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
-- others
+- 小模型COT蒸馏
     - Specializing Smaller Language Models towards Multi-Step Reasoning
+    - Teaching Small Language Models to Reason 
+    - Large Language Models are Reasoning Teachers
+- others
     - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions 
