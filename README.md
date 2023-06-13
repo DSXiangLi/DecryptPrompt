@@ -361,6 +361,7 @@
     - Specializing Smaller Language Models towards Multi-Step Reasoning
     - Teaching Small Language Models to Reason 
     - Large Language Models are Reasoning Teachers
+    - Distilling Reasoning Capabilities into Smaller Language Models
 - others
     - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
@@ -369,7 +370,7 @@
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS 
     - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning  
     - AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
-
+    - Large Language Models Can Self-Improve
 ### RLHF
 - Deepmind
   - Teaching language models to support answers with verified quotes
