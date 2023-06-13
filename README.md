@@ -17,6 +17,7 @@
 - [解密Prompt系列6. lora指令微调扣细节-请冷静,1个小时真不够~](https://cloud.tencent.com/developer/article/2276508)
 - [解密Prompt系列7. 偏好对齐RLHF-OpenAI·DeepMind·Anthropic对比分析](https://cloud.tencent.com/developer/article/old/2289566?areaSource=&traceId=)
 - [解密Prompt系列8. 无需训练让LLM支持超长输入:知识库 & Unlimiformer & PCW & NBCE ](https://cloud.tencent.com/developer/article/old/2295783?areaSource=&traceId=)
+- [解密Prompt系列9. 模型复杂推理-思维链基础和进阶玩法](https://cloud.tencent.com/developer/article/old/2296079?areaSource=&traceId=)
 - [ChatGPT应用1. MakeInstruction零人工指令样本构建](https://huggingface.co/spaces/xl2533/MakeInstruction)
 - [ChatGPT应用2. ChatPDF简单复现](https://huggingface.co/spaces/xl2533/FinDoc)
 
@@ -275,25 +276,27 @@
 - https://github.com/thunlp/PromptPapers
 - https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
 
-### Survey
+### 综述
 - A Survey of Large Language Models
 - Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
 - Paradigm Shift in Natural Language Processing
 - Pre-Trained Models: Past, Present and Future
-- What Language Model Architecture and Pretraining objects work best for zero shot generalization 
+- What Language Model Architecture and Pretraining objects work best for zero shot generalization  :star:
 - Towards Reasoning in Large Language Models: A Survey
-- Reasoning with Language Model Prompting: A Survey
+- Reasoning with Language Model Prompting: A Survey :star:
 
-### LLM Ability Analysis & Probing 
+### 大模型能力探究
 - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
 - Evidence of Meaning in Language Models Trained on Programs
 - Sparks of Artificial General Intelligence: Early experiments with GPT-4
 - How does in-context learning work? A framework for understanding the differences from traditional supervised learning
-- Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers
-- Emerging Ability of Large Language Models
-- Rethinking the Role of Demonstrations What Makes incontext learning work?
+- Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers :star:
+- Emerging Ability of Large Language Models :star:
+- Rethinking the Role of Demonstrations What Makes incontext learning work? :star:
 - Can Explanations Be Useful for Calibrating Black Box Models
 - IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
+- Can Large Language Models Infer Causation from Correlation?
+- Holistic Evaluation of Language Model
 
 ### Tunning Free Prompt
 - GPT2: Language Models are Unsupervised Multitask Learners
@@ -326,7 +329,7 @@
 - Parameter-Efficient Transfer Learning for NLP
 - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
 
-### Instruction Tunning LLMs 
+###  指令微调
 - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
 - Flan-T5: Scaling Instruction-Finetuned Language Models
 - Instruct-GPT: Training language models to follow instructions with human feedback :star:
@@ -334,8 +337,9 @@
 - Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
 - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
 - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
+- INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
 
-### Train for Dialogue
+### 对话模型
 - LaMDA: Language Models for Dialog Applications
 - Sparrow: Improving alignment of dialogue agents via targeted human judgements :star:
 - BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
@@ -371,6 +375,7 @@
     - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning  
     - AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
     - Large Language Models Can Self-Improve
+
 ### RLHF
 - Deepmind
   - Teaching language models to support answers with verified quotes
