@@ -351,12 +351,14 @@
     - [few-shot COT] Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
     - SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
     - LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS
+    - Tree of Thoughts: Deliberate Problem Solving with Large Language Models
 - 分领域COT
     - Solving Quantitative Reasoning Problems with Language Models
     - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
     - Solving math word problems with processand outcome-based feedback
     - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
     - T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering
+    - LEARNING PERFORMANCE-IMPROVING CODE EDITS
 - 原理分析
     - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters
     - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
@@ -375,7 +377,7 @@
     - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning  
     - AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
     - Large Language Models Can Self-Improve
-
+    - Active Prompting with Chain-of-Thought for Large Language Models
 ### RLHF
 - Deepmind
   - Teaching language models to support answers with verified quotes
@@ -410,6 +412,8 @@
 - Gorilla： Large Language Model Connected with Massive APIs
 - Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models
 - Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
+- ART: Automatic multi-step reasoning and tool-use for large language models
+- Generated Knowledge Prompting for Commonsense Reasoning
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
