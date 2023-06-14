@@ -414,6 +414,7 @@
 - Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
 - ART: Automatic multi-step reasoning and tool-use for large language models
 - Generated Knowledge Prompting for Commonsense Reasoning
+- Evaluating Verifiability in Generative Search Engines
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
@@ -454,19 +455,20 @@
 - LIMA: Less Is More for Alignment :star:
 
 
-### Reliability
--  Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
+### 提高事实性和解码准确率
+- Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
 - SELF-REFINE:ITERATIVE REFINEMENT WITH SELF-FEEDBACK  :star:
-- SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS  :star:
 - PROMPTING GPT-3 TO BE RELIABLE
 - Enhancing Self-Consistency and Performance of Pre-Trained Language Models through Natural Language Inference
-
+- On the Advance of Making Language Models Better Reasoners
+- Progressive-Hint Prompting Improves Reasoning in Large Language Models
+- ASK ME ANYTHING: A SIMPLE STRATEGY FOR PROMPTING LANGUAGE MODELS  :star:
 
 ### Other Prompt Engineer 
-- Generated Knowledge Prompting for Commonsense Reasoning
+- Calibrate Before Use: Improving Few-Shot Performance of Language Models
 - In-Context Instruction Learning
-
-
+- LEARNING PERFORMANCE-IMPROVING CODE EDITS
+- Boosting Theory-of-Mind Performance in Large Language Models via Prompting
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
