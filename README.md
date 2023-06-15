@@ -71,6 +71,8 @@
 | [文心一言](https://yiyan.baidu.com/welcome)    |  已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！不过商业化霸王条款确实不少   |
 |[通义千问](https://tongyi.aliyun.com/)|阿里系LLM开放申请|
 |[星火](https://passport.xfyun.cn/login)|科大讯飞星火，数学是真的厉害|
+|[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
+|[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[BiLLa](https://github.com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
 |[Phoenix](https://github.com/FreedomIntelligence/LLMZoo)|港中文开源凤凰和奇美拉LLM，Bloom基座，40+语言支持|
 |[OpenBuddy](https://github.com/OpenBuddy/OpenBuddy)|Llama 多语言对话微调模型|
@@ -100,6 +102,9 @@
 |[PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA)|医疗论文微调Llama|
 |[ NHS-LLM](https://github.com/CogStack/OpenGPT/tree/main)|Chatgpt生成的医疗问答，对话，微调模型|
 |[LawGPT-zh](https://github.com/LiuHC0428/LAW-GPT)|利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答+我们根据中华人民共和国法律手册上最核心的9k法律条文，利用ChatGPT联想生成具体的情景问答+知识问答使用ChatGPT基于文本构建QA对|
+|[LawGPT](https://github.com/pengxiao-song/LaWGPT)|基于llama+扩充词表二次预训练+基于法律条款构建QA指令微调|
+|[Lawyer Llama](https://github.com/AndrewZhe/lawyer-llama)|法律指令微调数据集：咨询+法律考试+对话进行指令微调|
+|[LexiLaw](https://github.com/CSHaitao/LexiLaw)|法律指令微调数据集：问答+书籍概念解释，法条内容进行指令微调|
 |[FinChat.io](https://finchat.io/)|使用最新的财务数据，电话会议记录，季度和年度报告，投资书籍等进行训练|
 |[OpenGPT](https://github.com/CogStack/OpenGPT)|领域LLM指令样本生成+微调框架|
 |[乾元BigBang金融2亿模型](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main)|金融领域预训练+任务微调|
@@ -131,6 +136,7 @@
 |FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
 |Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
+|Mind||
 
 ### 开源数据
 
@@ -415,6 +421,7 @@
 - ART: Automatic multi-step reasoning and tool-use for large language models
 - Generated Knowledge Prompting for Commonsense Reasoning
 - Evaluating Verifiability in Generative Search Engines
+- Mind2Web: Towards a Generalist Agent for the Web
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
