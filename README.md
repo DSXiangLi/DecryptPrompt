@@ -422,6 +422,7 @@
 - Generated Knowledge Prompting for Commonsense Reasoning
 - Evaluating Verifiability in Generative Search Engines
 - Mind2Web: Towards a Generalist Agent for the Web
+- ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
