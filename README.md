@@ -430,6 +430,8 @@
 - Evaluating Verifiability in Generative Search Engines
 - Mind2Web: Towards a Generalist Agent for the Web
 - ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models
+- REPLUG: Retrieval-Augmented Black-Box Language Models
+- TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
@@ -468,7 +470,7 @@
 - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
 - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
 - LIMA: Less Is More for Alignment :star:
-
+- Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
 
 ### 提高事实性和解码准确率
 - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
@@ -484,6 +486,7 @@
 - In-Context Instruction Learning
 - LEARNING PERFORMANCE-IMPROVING CODE EDITS
 - Boosting Theory-of-Mind Performance in Large Language Models via Prompting
+
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
