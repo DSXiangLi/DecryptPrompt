@@ -125,18 +125,22 @@
 |Deepspeed：针对RL训练和推理的整合优化|https://github.com/microsoft/DeepSpeed|
 |Uerpy:预训练框架支持lm,mlm,unilm等|https://github.com/dbiir/UER-py|
 |TecentPretrain: Uerpy的重构版本支持llama预训练|https://github.com/Tencent/TencentPretrain/tree/main|
+|lamini: 整合指令数据生成，SFT，RLHF的工具库|https://github.com/lamini-ai/lamini/|
+|Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
+|FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
+
+
+### LLM Agent工具
+| 工具描述   | 链接   | 
+| --- | --- | 
 |langchain：LLM工具集|https://github.com/hwchase17/langchain|
 |BMTTools: 清华出品类似langchain|https://github.com/OpenBMB/BMTools|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
-|lamini: 整合指令数据生成，SFT，RLHF的工具库|https://github.com/lamini-ai/lamini/|
-|wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
-|Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
-|FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
 |Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
-|Mind||
+|wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
 
 ### 开源数据
 
@@ -195,10 +199,13 @@
 |   评估集      |   Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
 |评估集|2010-2022年全国高考卷的题目|https://github.com/OpenLMLab/GAOKAO-Bench|
 |评估集|中文通用大模型综合性评测基准SuperCLUE|https://github.com/CLUEbenchmark/SuperCLUE|
-|预训练|RedPajama开源的复刻llama的预训练数据集|https://github.com/togethercomputer/RedPajama-Data|
-|预训练|Pile 22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
-|预训练|UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
-|预训练|智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
+|通用预训练|RedPajama开源的复刻llama的预训练数据集|https://github.com/togethercomputer/RedPajama-Data|
+|通用预训练|Pile 22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
+|通用预训练|UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
+|通用预训练|智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
+|通用预训练|里屋社区发起开源力量收集中文互联网语料集MNBVC目标是对标ChatGPT的40T|https://github.com/esbatmop/MNBVC|
+|领域预训练|首个中文科学文献数据集CSL,也有多种NLP任务数据 |https://github.com/ydli-ai/CSL|
+|平行语料|news-commentary中英平行语料，用于中英间知识迁移|https://data.statmt.org/news-commentary/v15/training/|
 |多源数据集整合|opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
 
 ## Resources 
