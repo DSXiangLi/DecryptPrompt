@@ -422,7 +422,7 @@
 - OpenAGI: When LLM Meets Domain Experts
 - Tool Learning with Foundation Models
 - Tool Maker： Large Language Models as Tool Maker
-- Gorilla： Large Language Model Connected with Massive APIs
+- Gorilla： Large Language Model Connected with Massive APIs  :star:
 - Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models
 - Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
 - ART: Automatic multi-step reasoning and tool-use for large language models
@@ -432,6 +432,8 @@
 - ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models
 - REPLUG: Retrieval-Augmented Black-Box Language Models
 - TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
+- WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences  :star:
+- WebGPT：Browser-assisted question-answering with human feedback
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
@@ -442,6 +444,7 @@
 - Instruction induction: From few examples to natural language task descriptions.
 - Baize An Open-Source Chat Model with Parameter-Efficient Tuning on self-Chat Data
 - SELF-QA Unsupervised Knowledge Guided alignment.
+- GPT Self-Supervision for a Better Data Annotator
 
 ### 领域模型
 - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
