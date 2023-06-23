@@ -89,7 +89,7 @@
 |[CPM2.0](https://baai.ac.cn/)     |  智源发布CPM2.0    |
 |[GLM](https://github.com/THUDM/GLM-130B) |   清华发布的中英双语130B预训练模型 |
 
-### 垂直领域模型
+### 垂直领域模型&进展
 |模型链接     | 模型描述  
 | --- | --- | 
 |MedPalm|Google在Faln-PaLM的基础上通过多种类型的医疗QA数据进行prompt-tuning指令微调得到，同时构建了MultiMedQA|
@@ -109,6 +109,8 @@
 |[OpenGPT](https://github.com/CogStack/OpenGPT)|领域LLM指令样本生成+微调框架|
 |[乾元BigBang金融2亿模型](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main)|金融领域预训练+任务微调|
 |[度小满千亿金融大模型](https://huggingface.co/xyz-nlp/XuanYuan2.0)|在Bloom-176B的基础上进行金融+中文预训练和微调|
+|[bondGPT](https://www.ltxtrading.com/bondgpt)|GPT4在细分债券市场的应用开放申请中|
+|[IndexGPT](https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html)|JPMorgan在研的生成式投资顾问|
 
 ### 指令微调&RL工具
 | 工具描述   | 链接   | 
@@ -297,6 +299,7 @@
 - What Language Model Architecture and Pretraining objects work best for zero shot generalization  :star:
 - Towards Reasoning in Large Language Models: A Survey
 - Reasoning with Language Model Prompting: A Survey :star:
+- An Overview on Language Models: Recent Developments and Outlook  :star:
 
 ### 大模型能力探究
 - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
@@ -310,6 +313,7 @@
 - IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
 - Can Large Language Models Infer Causation from Correlation?
 - Holistic Evaluation of Language Model
+- Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond
 
 ### Tunning Free Prompt
 - GPT2: Language Models are Unsupervised Multitask Learners
@@ -341,6 +345,13 @@
 - LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning
 - Parameter-Efficient Transfer Learning for NLP
 - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
+
+### 当前主流LLMS
+- GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
+- LLaMA: Open and Efficient Foundation Language Models
+- PaLM: Scaling Language Modeling with Pathways
+- PaLM 2 Technical Report
+- GPT-4 Technical Report
 
 ###  指令微调
 - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
