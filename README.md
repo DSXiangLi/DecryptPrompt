@@ -143,7 +143,8 @@
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
 |Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
 |wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
-
+|WorkGPT：类似AutoGPT|https://github.com/team-openpm/workgpt|
+|Deep-KE：基于LLM对数据进行智能解析实现知识抽取|https://github.com/zjunlp/DeepKE|
 ### 开源数据
 
 | 数据类型    | 数据描述    | 数据链接    |
@@ -201,7 +202,8 @@
 |   评估集      |   Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
 |评估集|2010-2022年全国高考卷的题目|https://github.com/OpenLMLab/GAOKAO-Bench|
 |评估集|中文通用大模型综合性评测基准SuperCLUE|https://github.com/CLUEbenchmark/SuperCLUE|
-|通用预训练|RedPajama开源的复刻llama的预训练数据集|https://github.com/togethercomputer/RedPajama-Data|
+|通用预训练|RedPajama开源的复刻llama的预训练数据集，1.21万亿Token|https://github.com/togethercomputer/RedPajama-Data|
+|通用预训练|Cerebras基于RedPajama进行清洗去重后得到的高质量数据集, 6270亿Token||https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main/train|
 |通用预训练|Pile 22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
 |通用预训练|UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
 |通用预训练|智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
@@ -374,8 +376,9 @@
     - [zero-shot-COT] Large Language Models are Zero-Shot Reasoners :star:
     - [few-shot COT] Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
     - SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
-    - LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS
+    - LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS :star:
     - Tree of Thoughts: Deliberate Problem Solving with Large Language Models
+    - Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
 - 分领域COT
     - Solving Quantitative Reasoning Problems with Language Models
     - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
@@ -384,11 +387,11 @@
     - T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering
     - LEARNING PERFORMANCE-IMPROVING CODE EDITS
 - 原理分析
-    - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters
+    - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters  :star:
     - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
     - Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
 - 小模型COT蒸馏
-    - Specializing Smaller Language Models towards Multi-Step Reasoning
+    - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
     - Teaching Small Language Models to Reason 
     - Large Language Models are Reasoning Teachers
     - Distilling Reasoning Capabilities into Smaller Language Models
@@ -435,7 +438,6 @@
 - Tool Maker： Large Language Models as Tool Maker
 - Gorilla： Large Language Model Connected with Massive APIs  :star:
 - Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models
-- Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
 - ART: Automatic multi-step reasoning and tool-use for large language models
 - Generated Knowledge Prompting for Commonsense Reasoning
 - Evaluating Verifiability in Generative Search Engines
@@ -477,14 +479,18 @@
 - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
 - TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION :star:
 
+
 ### LLM Tunning Practice/Report
-- BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
-- Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
-- A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
-- Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
-- Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
-- LIMA: Less Is More for Alignment :star:
-- Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
+- 更少，质量更高的数据带来质变
+    - LIMA: Less Is More for Alignment :star:
+    - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
+    -Textbooks Are All You Need
+- 其他
+    - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
+    - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
+    - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
+    - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
+    - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
 
 ### 提高事实性和解码准确率
 - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
