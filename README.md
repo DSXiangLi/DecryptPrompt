@@ -203,7 +203,7 @@
 |评估集|2010-2022年全国高考卷的题目|https://github.com/OpenLMLab/GAOKAO-Bench|
 |评估集|中文通用大模型综合性评测基准SuperCLUE|https://github.com/CLUEbenchmark/SuperCLUE|
 |通用预训练|RedPajama开源的复刻llama的预训练数据集，1.21万亿Token|https://github.com/togethercomputer/RedPajama-Data|
-|通用预训练|Cerebras基于RedPajama进行清洗去重后得到的高质量数据集, 6270亿Token||https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main/train|
+|通用预训练|Cerebras基于RedPajama进行清洗去重后得到的高质量数据集, 6270亿Token|https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main/train|
 |通用预训练|Pile 22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
 |通用预训练|UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
 |通用预训练|智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
@@ -348,12 +348,13 @@
 - Parameter-Efficient Transfer Learning for NLP
 - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
 
-### 当前主流LLMS
+### 主流LLMS
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
 - LLaMA: Open and Efficient Foundation Language Models
 - PaLM: Scaling Language Modeling with Pathways
 - PaLM 2 Technical Report
 - GPT-4 Technical Report
+- Backpack Language Models
 
 ###  指令微调
 - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
@@ -397,8 +398,6 @@
     - Distilling Reasoning Capabilities into Smaller Language Models
 - others
     - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
-    - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
-    - Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions 
     - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS 
     - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning  
@@ -427,26 +426,31 @@
 - PRM：Let's verify step by step 
 
 ### Agent: 让模型使用工具
-- Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools :star:
-- MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning
-- ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
-- Self-ask: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS :star:
-- PAL: Program-aided Language Models
-- HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
-- OpenAGI: When LLM Meets Domain Experts
-- Tool Learning with Foundation Models
-- Tool Maker： Large Language Models as Tool Maker
-- Gorilla： Large Language Model Connected with Massive APIs  :star:
-- Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models
-- ART: Automatic multi-step reasoning and tool-use for large language models
-- Generated Knowledge Prompting for Commonsense Reasoning
-- Evaluating Verifiability in Generative Search Engines
-- Mind2Web: Towards a Generalist Agent for the Web
-- ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models
-- REPLUG: Retrieval-Augmented Black-Box Language Models
-- TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
-- WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences  :star:
-- WebGPT：Browser-assisted question-answering with human feedback
+- Prompt方案
+  - ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
+  - Self-ask: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS :star:
+  - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
+  - PAL: Program-aided Language Models
+  - ART: Automatic multi-step reasoning and tool-use for large language models
+  - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
+  - Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions 
+  - Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models
+  - ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models
+- 工具微调方案
+  - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools :star:
+  - Tool Learning with Foundation Models
+  - Tool Maker： Large Language Models as Tool Maker
+  - OpenAGI: When LLM Meets Domain Experts
+  - Gorilla： Large Language Model Connected with Massive APIs  :star:
+  - WebGPT：Browser-assisted question-answering with human feedback
+  - REPLUG: Retrieval-Augmented Black-Box Language Models
+- 系统设计
+  - MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning
+  - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences  :star:
+  - TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
+- 评估
+  - Evaluating Verifiability in Generative Search Engines
+  - Mind2Web: Towards a Generalist Agent for the Web
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
@@ -506,7 +510,7 @@
 - In-Context Instruction Learning
 - LEARNING PERFORMANCE-IMPROVING CODE EDITS
 - Boosting Theory-of-Mind Performance in Large Language Models via Prompting
-
+- Generated Knowledge Prompting for Commonsense Reasoning
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
