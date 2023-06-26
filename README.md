@@ -387,15 +387,19 @@
     - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
     - T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering
     - LEARNING PERFORMANCE-IMPROVING CODE EDITS
+    - Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning 
+    - Tab-CoT: Zero-shot Tabular Chain of Thought
 - 原理分析
     - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters  :star:
     - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
     - Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
+    - Large Language Models Can Be Easily Distracted by Irrelevant Context
 - 小模型COT蒸馏
     - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
     - Teaching Small Language Models to Reason 
     - Large Language Models are Reasoning Teachers
     - Distilling Reasoning Capabilities into Smaller Language Models
+    - The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning
 - others
     - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
     - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
@@ -436,6 +440,7 @@
   - Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions 
   - Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models
   - ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models
+  - Faithful Chain-of-Thought Reasoning
 - 工具微调方案
   - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools :star:
   - Tool Learning with Foundation Models
@@ -511,6 +516,7 @@
 - LEARNING PERFORMANCE-IMPROVING CODE EDITS
 - Boosting Theory-of-Mind Performance in Large Language Models via Prompting
 - Generated Knowledge Prompting for Commonsense Reasoning
+
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
