@@ -18,6 +18,7 @@
 - [解密Prompt系列7. 偏好对齐RLHF-OpenAI·DeepMind·Anthropic对比分析](https://cloud.tencent.com/developer/article/old/2289566?areaSource=&traceId=)
 - [解密Prompt系列8. 无需训练让LLM支持超长输入:知识库 & Unlimiformer & PCW & NBCE ](https://cloud.tencent.com/developer/article/old/2295783?areaSource=&traceId=)
 - [解密Prompt系列9. 模型复杂推理-思维链基础和进阶玩法](https://cloud.tencent.com/developer/article/old/2296079?areaSource=&traceId=)
+- [解密Prompt系列10. 思维链COT原理探究](https://cloud.tencent.com/developer/article/old/2298660)
 - [ChatGPT应用1. MakeInstruction零人工指令样本构建](https://huggingface.co/spaces/xl2533/MakeInstruction)
 - [ChatGPT应用2. ChatPDF简单复现](https://huggingface.co/spaces/xl2533/FinDoc)
 
@@ -316,6 +317,9 @@
 - Can Large Language Models Infer Causation from Correlation?
 - Holistic Evaluation of Language Model
 - Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond
+- Theory of Mind May Have Spontaneously Emerged in Large Language Models
+- Beyond The Imitation Game: Quantifying And Extrapolating The Capabilities Of Language Models
+- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective
 
 ### Tunning Free Prompt
 - GPT2: Language Models are Unsupervised Multitask Learners
@@ -408,6 +412,8 @@
     - AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
     - Large Language Models Can Self-Improve
     - Active Prompting with Chain-of-Thought for Large Language Models
+    - Large Language Models are Better Reasoners with Self-Verification
+
 ### RLHF
 - Deepmind
   - Teaching language models to support answers with verified quotes
@@ -456,6 +462,10 @@
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
+- others
+  - Query Rewriting for Retrieval-Augmented Large Language Models
+  - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
+  - Inference with Reference: Lossless Acceleration of Large Language Models
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
@@ -487,7 +497,7 @@
 - Scaling Transformer to 1M tokens and beyond with RMT
 - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
 - TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION :star:
-
+- FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
 
 ### LLM Tunning Practice/Report
 - 更少，质量更高的数据带来质变
@@ -516,6 +526,7 @@
 - LEARNING PERFORMANCE-IMPROVING CODE EDITS
 - Boosting Theory-of-Mind Performance in Large Language Models via Prompting
 - Generated Knowledge Prompting for Commonsense Reasoning
+- RECITATION-AUGMENTED LANGUAGE MODELS
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
