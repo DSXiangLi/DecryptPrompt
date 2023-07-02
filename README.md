@@ -131,7 +131,7 @@
 |lamini: 整合指令数据生成，SFT，RLHF的工具库|https://github.com/lamini-ai/lamini/|
 |Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
 |FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
-
+|VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍|https://github.com/vllm-project/vllm|
 
 ### LLM Agent工具
 | 工具描述   | 链接   | 
@@ -462,6 +462,7 @@
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
+  - Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions
 - others
   - Query Rewriting for Retrieval-Augmented Large Language Models
   - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
@@ -519,6 +520,7 @@
 - On the Advance of Making Language Models Better Reasoners
 - Progressive-Hint Prompting Improves Reasoning in Large Language Models
 - ASK ME ANYTHING: A SIMPLE STRATEGY FOR PROMPTING LANGUAGE MODELS  :star:
+- Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
 
 ### Other Prompt Engineer 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
