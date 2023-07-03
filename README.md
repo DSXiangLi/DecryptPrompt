@@ -435,8 +435,10 @@
   - Constitutional AI Harmlessness from AI Feedback :star:
   - Pretraining Language Models with Human Preferences
 - AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
-- RRHF: Rank Responses to Align Language Models with Human Feedback without tears
-- PRM：Let's verify step by step 
+- 改良方案 
+  - RRHF: Rank Responses to Align Language Models with Human Feedback without tears
+  - PRM：Let's verify step by step 
+  - Chain of Hindsight Aligns Language Models with Feedback
 
 ### Agent: 让模型使用工具
 - Prompt方案
