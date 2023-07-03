@@ -134,18 +134,21 @@
 |VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍|https://github.com/vllm-project/vllm|
 
 ### LLM Agent工具
+
 | 工具描述   | 链接   | 
 | --- | --- | 
 |langchain：LLM工具集|https://github.com/hwchase17/langchain|
 |BMTTools: 清华出品类似langchain|https://github.com/OpenBMB/BMTools|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
+|GPTEngineer：自动工具构建和代码生成|https://github.com/AntonOsika/gpt-engineer|
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
 |Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
 |wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
 |WorkGPT：类似AutoGPT|https://github.com/team-openpm/workgpt|
 |Deep-KE：基于LLM对数据进行智能解析实现知识抽取|https://github.com/zjunlp/DeepKE|
+
 ### 开源数据
 
 | 数据类型    | 数据描述    | 数据链接    |
@@ -287,7 +290,7 @@
 - [追赶ChatGPT的难点与平替](https://zhuanlan.zhihu.com/p/609877277)
 - [压缩即泛化，泛化即智能](https://zhuanlan.zhihu.com/p/615554635)
 - [陆奇最新演讲实录：我的大模型世界观｜第十四期](https://new.qq.com/rain/a/20230423A08J7400)
-
+- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
 ## Papers
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
@@ -447,10 +450,14 @@
   - Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models
   - ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models
   - Faithful Chain-of-Thought Reasoning
+  - ChemCrow Augmenting large language models with chemistry tools
+  - Reflexion: Language Agents with Verbal Reinforcement Learning
+  - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
 - 工具微调方案
   - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools :star:
   - Tool Learning with Foundation Models
   - Tool Maker： Large Language Models as Tool Maker
+  - TALM: Tool Augmented Language Models
   - OpenAGI: When LLM Meets Domain Experts
   - Gorilla： Large Language Model Connected with Massive APIs  :star:
   - WebGPT：Browser-assisted question-answering with human feedback
@@ -463,10 +470,12 @@
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
   - Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions
+  - API-Bank: A Benchmark for Tool-Augmented LLMs
 - others
   - Query Rewriting for Retrieval-Augmented Large Language Models
   - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
   - Inference with Reference: Lossless Acceleration of Large Language Models
+  - Generative Agents: Interactive Simulacra of Human Behavior
 
 ### 指令数据生成
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
@@ -521,6 +530,7 @@
 - Progressive-Hint Prompting Improves Reasoning in Large Language Models
 - ASK ME ANYTHING: A SIMPLE STRATEGY FOR PROMPTING LANGUAGE MODELS  :star:
 - Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
+- Reflexion: an autonomous agent with dynamic memory and self-reflection
 
 ### Other Prompt Engineer 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
