@@ -288,9 +288,9 @@
 - [张俊林 通向AGI之路：大型语言模型（LLM）技术精要](https://zhuanlan.zhihu.com/p/597586623)
 - [知乎回答 OpenAI 发布 GPT-4，有哪些技术上的优化或突破?](https://www.zhihu.com/question/589639535/answer/2936696161)
 - [追赶ChatGPT的难点与平替](https://zhuanlan.zhihu.com/p/609877277)
-- [压缩即泛化，泛化即智能](https://zhuanlan.zhihu.com/p/615554635)
+- [压缩即泛化，泛化即智能](https://zhuanlan.zhihu.com/p/615554635)  :star:
 - [陆奇最新演讲实录：我的大模型世界观｜第十四期](https://new.qq.com/rain/a/20230423A08J7400)
-- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)
+- [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)  :star:
 ## Papers
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
@@ -453,7 +453,7 @@
   - ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models
   - Faithful Chain-of-Thought Reasoning
   - ChemCrow Augmenting large language models with chemistry tools
-  - Reflexion: Language Agents with Verbal Reinforcement Learning
+  - Reflexion: Language Agents with Verbal Reinforcement Learning  :star:
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
 - 工具微调方案
   - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools :star:
