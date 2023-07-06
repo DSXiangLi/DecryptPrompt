@@ -500,6 +500,7 @@
 - Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2] :star:
 - Augmented Large Language Models with Parametric Knowledge Guiding
 - XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
+- ChatLaw Open-Source Legal Large Language Model
 
 ### LLM超长文本处理
 - Parallel Context Windows for Large Language Models
@@ -511,6 +512,7 @@
 - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
 - TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION :star:
 - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
+- Extending Context Window of Large Language Models via Positional Interpolation
 
 ### LLM Tunning Practice/Report
 - 更少，质量更高的数据带来质变
