@@ -30,6 +30,7 @@
 - [Z-Bench中文真格基金评测](https://github.com/zhenbench/z-bench): 国产中文模型的编程可用性还相对较低，大家水平差不太多，两版ChatGLM提升明显
 - [Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard): 在Eleuther AI4个评估集上评估的LLM模型榜单
 - [Chain-of-thought评估](https://github.com/FranxYao/chain-of-thought-hub):GSM8k, MATH等复杂问题排行榜
+
 ### 国外模型
 |模型链接     | 模型描述    |
 | --- | --- |
@@ -113,6 +114,8 @@
 |[度小满千亿金融大模型](https://huggingface.co/xyz-nlp/XuanYuan2.0)|在Bloom-176B的基础上进行金融+中文预训练和微调|
 |[bondGPT](https://www.ltxtrading.com/bondgpt)|GPT4在细分债券市场的应用开放申请中|
 |[IndexGPT](https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html)|JPMorgan在研的生成式投资顾问|
+|[恒生LightGPT](https://mp.weixin.qq.com/s/vLvxvi2nOywkjt7ppiFC2g)|金融领域继续预训练+插件化设计|
+|[知彼阿尔法](https://finance.sina.com.cn/jjxw/2023-07-03/doc-imyzmaut2132017.shtml)|企查查商查大模型|
 
 ### 指令微调&RL工具
 | 工具描述   | 链接   | 
@@ -231,6 +234,8 @@
 - [OpenAI 应用汇总指南](https://www.mojidoc.com/05z7y-dd5pa7hu3zfmhnbngoeztyqcnq-00b): 纯应用类的汇总指南
 - [AI 导航](https://www.ainavpro.com/#term-209): 包括但不限于ChatGPT的应用汇总网站，更新很快，发现了一些新大陆
 - [AI Alignment Forum](https://www.alignmentforum.org/): RLHF等对齐相关最新论文和观点的讨论论坛
+- [Langchain: Chat with your data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/):吴恩达LLM实践课程
+- [构筑大语言模型应用：应用开发与架构设计](https://github.com/phodal/aigc): 一本关于 LLM 在真实世界应用的开源电子书
 
 ### AIGC playground
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
@@ -276,6 +281,7 @@
 - [GFPGAN](https://github.com/Nutlope/restorePhotos): 照片修复  ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [Visual ChatGPT](https://huggingface.co/spaces/microsoft/visual_chatgpt): 微软发布图像ChatGPT，对话方式进行图像生成编辑，问答 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange) :star:
 - [gemo.ai](https://www.genmo.ai/): 多模态聊天机器人，包括文本，图像，视频生成
+- [storybird](https://storybird.com/): 根据提示词生成股市绘本，还可以售卖
 
 ### Recommend Blog
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -292,6 +298,8 @@
 - [压缩即泛化，泛化即智能](https://zhuanlan.zhihu.com/p/615554635)  :star:
 - [陆奇最新演讲实录：我的大模型世界观｜第十四期](https://new.qq.com/rain/a/20230423A08J7400)
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)  :star:
+- [All You Need to Know to Build Your First LLM App](https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac)  :star:
+
 ## Papers
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
@@ -373,7 +381,7 @@
 - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
 - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
 - INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
-
+- Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
 ### 对话模型
 - LaMDA: Language Models for Dialog Applications
 - Sparrow: Improving alignment of dialogue agents via targeted human judgements :star:
@@ -513,6 +521,9 @@
 - TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION :star:
 - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
 - Extending Context Window of Large Language Models via Positional Interpolation
+- LongNet: Scaling Transformers to 1,000,000,000 Tokens
+- [https://kaiokendev.github.io/til#extending-context-to-8k]
+- [苏剑林,Transformer升级之路：10、RoPE是一种β进制编码](https://spaces.ac.cn/archives/9675)
 
 ### LLM Tunning Practice/Report
 - 更少，质量更高的数据带来质变
@@ -549,3 +560,9 @@
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
 - PaLM-E: An Embodied Multimodal Language Model
+
+
+### Others
+- Learnware: Small Models Do Big
+- The economic potential of generative AI
+- A PhD Student’s Perspective on Research in NLP in the Era of Very Large Language Models
