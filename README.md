@@ -236,6 +236,7 @@
 - [AI Alignment Forum](https://www.alignmentforum.org/): RLHF等对齐相关最新论文和观点的讨论论坛
 - [Langchain: Chat with your data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/):吴恩达LLM实践课程
 - [构筑大语言模型应用：应用开发与架构设计](https://github.com/phodal/aigc): 一本关于 LLM 在真实世界应用的开源电子书
+- [为什么伟大不能被计划](https://weread.qq.com/web/bookDetail/93832630811e7e827g0173ca): OpenAI研究员出书
 
 ### AIGC playground
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
@@ -315,6 +316,8 @@
 - Towards Reasoning in Large Language Models: A Survey
 - Reasoning with Language Model Prompting: A Survey :star:
 - An Overview on Language Models: Recent Developments and Outlook  :star:
+- A Survey of Large Language Models[6.29更新版]
+- Unifying Large Language Models and Knowledge Graphs: A Roadmap
 
 ### 大模型能力探究
 - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
@@ -332,6 +335,7 @@
 - Theory of Mind May Have Spontaneously Emerged in Large Language Models
 - Beyond The Imitation Game: Quantifying And Extrapolating The Capabilities Of Language Models
 - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective
+- Demystifying GPT Self-Repair for Code Generation
 
 ### Tunning Free Prompt
 - GPT2: Language Models are Unsupervised Multitask Learners
