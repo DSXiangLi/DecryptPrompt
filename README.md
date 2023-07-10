@@ -528,6 +528,8 @@
 - LongNet: Scaling Transformers to 1,000,000,000 Tokens
 - [https://kaiokendev.github.io/til#extending-context-to-8k]
 - [苏剑林,Transformer升级之路：10、RoPE是一种β进制编码](https://spaces.ac.cn/archives/9675)
+- Focused Transformer: Contrastive Training for Context Scaling
+- Lost in the Middle: How Language Models Use Long Contexts
 
 ### LLM Tunning Practice/Report
 - 更少，质量更高的数据带来质变
