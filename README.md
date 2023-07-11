@@ -94,6 +94,7 @@
 ### 垂直领域模型&进展
 |模型链接     | 模型描述  
 | --- | --- | 
+|[MedGPT](https://medgpt.co/home/zh)|医联发布的|
 |MedPalm|Google在Faln-PaLM的基础上通过多种类型的医疗QA数据进行prompt-tuning指令微调得到，同时构建了MultiMedQA|
 |[ChatDoctor](https://github.com/Kent0n-Li/ChatDoctor)|110K真实医患对话样本+5KChatGPT生成数据进行指令微调|
 |[Huatuo](https://github.com/SCIR-HI/Huatuo-Llama-Med-Chinese) [Med-ChatGLM](https://github.com/SCIR-HI/Med-ChatGLM)|医学知识图谱和chatgpt构建中文医学指令数据集+医学文献和chatgpt构建多轮问答数据|
@@ -300,6 +301,7 @@
 - [陆奇最新演讲实录：我的大模型世界观｜第十四期](https://new.qq.com/rain/a/20230423A08J7400)
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)  :star:
 - [All You Need to Know to Build Your First LLM App](https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac)  :star:
+- [GPT-4 Architecture, Infrastructure, Training Dataset, Costs, Vision, MoE](https://www.semianalysis.com/p/gpt-4-architecture-infrastructure)
 
 ## Papers
 ### paper List
@@ -504,6 +506,7 @@
 - GPT Self-Supervision for a Better Data Annotator
 
 ### 领域模型
+- MedGPT: Medical Concept Prediction from Clinical Narratives
 - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
 - Galactia：A Large Language Model for Science
 - PubMed GPT: A Domain-specific large language model for biomedical text :star:
@@ -566,7 +569,8 @@
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
 - PaLM-E: An Embodied Multimodal Language Model
-
+- LLava Visual Instruction Tuning
+- MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models
 
 ### Others
 - Learnware: Small Models Do Big
