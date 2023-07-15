@@ -19,6 +19,7 @@
 - [解密Prompt系列8. 无需训练让LLM支持超长输入:知识库 & Unlimiformer & PCW & NBCE ](https://cloud.tencent.com/developer/article/old/2295783?areaSource=&traceId=)
 - [解密Prompt系列9. 模型复杂推理-思维链基础和进阶玩法](https://cloud.tencent.com/developer/article/old/2296079?areaSource=&traceId=)
 - [解密Prompt系列10. 思维链COT原理探究](https://cloud.tencent.com/developer/article/old/2298660)
+- [解密Prompt系列11. 小模型也能思维链推理](https://cloud.tencent.com/developer/article/old/2301999)
 - [ChatGPT应用1. MakeInstruction零人工指令样本构建](https://huggingface.co/spaces/xl2533/MakeInstruction)
 - [ChatGPT应用2. ChatPDF简单复现](https://huggingface.co/spaces/xl2533/FinDoc)
 
