@@ -19,7 +19,7 @@
 - [解密Prompt系列8. 无需训练让LLM支持超长输入:知识库 & Unlimiformer & PCW & NBCE ](https://cloud.tencent.com/developer/article/old/2295783?areaSource=&traceId=)
 - [解密Prompt系列9. 模型复杂推理-思维链基础和进阶玩法](https://cloud.tencent.com/developer/article/old/2296079?areaSource=&traceId=)
 - [解密Prompt系列10. 思维链COT原理探究](https://cloud.tencent.com/developer/article/old/2298660)
-- [解密Prompt系列11. 小模型也能思维链推理](https://cloud.tencent.com/developer/article/old/2301999)
+- [解密Prompt系列11. 小模型也能COT，先天不足后天补][](https://cloud.tencent.com/developer/article/old/2301999)
 - [ChatGPT应用1. MakeInstruction零人工指令样本构建](https://huggingface.co/spaces/xl2533/MakeInstruction)
 - [ChatGPT应用2. ChatPDF简单复现](https://huggingface.co/spaces/xl2533/FinDoc)
 
@@ -27,6 +27,8 @@
 ## 模型和数据
 
 ### 模型评测
+> 大模型评估尚未出现北极星指标，整体上全面性有余，泛化性不足，类perplexity的指标还未出现，期待ing ~
+
 |榜单|结果|
 |----|-----|
 | [Huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)|只评估开源模型，Falcon夺冠，在Eleuther AI4个评估集上评估的LLM模型榜单,vicuna夺冠| 
@@ -95,6 +97,7 @@
 | [PLUG](https://www.alice-mind.com/portal#/)    |   阿里达摩院发布的大模型，提交申请会给下载链接  |
 |[CPM2.0](https://baai.ac.cn/)     |  智源发布CPM2.0    |
 |[GLM](https://github.com/THUDM/GLM-130B) |   清华发布的中英双语130B预训练模型 |
+|[BayLing](https://github.com/ictnlp/BayLing)|基于LLama7B/13B，增强的语言对齐的英语/中文大语言模型|
 
 ### 垂直领域模型&进展
 |模型链接     | 模型描述  
@@ -123,6 +126,7 @@
 |[IndexGPT](https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html)|JPMorgan在研的生成式投资顾问|
 |[恒生LightGPT](https://mp.weixin.qq.com/s/vLvxvi2nOywkjt7ppiFC2g)|金融领域继续预训练+插件化设计|
 |[知彼阿尔法](https://finance.sina.com.cn/jjxw/2023-07-03/doc-imyzmaut2132017.shtml)|企查查商查大模型|
+|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 
 ### 指令微调&RL工具
 | 工具描述   | 链接   | 
@@ -152,6 +156,7 @@
 |BMTTools: 清华出品类似langchain|https://github.com/OpenBMB/BMTools|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
+|MiniAGI： 自执行LLM Agent|https://github.com/muellerberndt/mini-agi|
 |GPTEngineer：自动工具构建和代码生成|https://github.com/AntonOsika/gpt-engineer|
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
@@ -246,6 +251,7 @@
 - [为什么伟大不能被计划](https://weread.qq.com/web/bookDetail/93832630811e7e827g0173ca): OpenAI研究员出书
 - [拾象投研机构对LLM的调研报告（文中有两次PPT的申请链接）](https://mp.weixin.qq.com/s?__biz=MjM5ODY2OTQyNg==&mid=2649769138&idx=1&sn=2c408b73f66a52e43ea991b957729519&chksm=bec3d9af89b450b95e6432dc33f4f32ae7a29cc8e2916369aad6156c5817927d1f73a0c84e82&scene=21#wechat_redirect): 对大模型应用给出了很全面的总结梳理
 - [启明创投State of Generative AI 2023](https://www.guotaixia.com/post/5336.html): 最近发现应用落地才是LLM真正产生价值的核心，开始更多关注一些投研的分析报告
+
 ### AIGC playground
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
 - [godmode](https://godmode.space/)：需要人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
@@ -478,12 +484,12 @@
   - Reflexion: Language Agents with Verbal Reinforcement Learning  :star:
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
 - 工具微调方案
-  - Tool Former: Toolformer: Language Models Can Teach Themselves to Use Tools :star:
+  - Toolformer: Language Models Can Teach Themselves to Use Tools :star:
   - Tool Learning with Foundation Models
   - Tool Maker： Large Language Models as Tool Maker
   - TALM: Tool Augmented Language Models
   - OpenAGI: When LLM Meets Domain Experts
-  - Gorilla： Large Language Model Connected with Massive APIs  :star:
+  - Gorilla：Large Language Model Connected with Massive APIs  :star:
   - WebGPT：Browser-assisted question-answering with human feedback
   - REPLUG: Retrieval-Augmented Black-Box Language Models
 - 系统设计
