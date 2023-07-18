@@ -118,7 +118,7 @@
 |[Lawyer Llama](https://github.com/AndrewZhe/lawyer-llama)|法律指令微调数据集：咨询+法律考试+对话进行指令微调|
 |[LexiLaw](https://github.com/CSHaitao/LexiLaw)|法律指令微调数据集：问答+书籍概念解释，法条内容进行指令微调
 |[ChatLaw](https://chatlaw.cloud/)|北大推出的法律大模型，应用形式很新颖类似频道内流一切功能皆融合在对话形式内|
-||[FinChat.io](https://finchat.io/)|使用最新的财务数据，电话会议记录，季度和年度报告，投资书籍等进行训练|
+|[FinChat.io](https://finchat.io/)|使用最新的财务数据，电话会议记录，季度和年度报告，投资书籍等进行训练|
 |[OpenGPT](https://github.com/CogStack/OpenGPT)|领域LLM指令样本生成+微调框架|
 |[乾元BigBang金融2亿模型](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main)|金融领域预训练+任务微调|
 |[度小满千亿金融大模型](https://huggingface.co/xyz-nlp/XuanYuan2.0)|在Bloom-176B的基础上进行金融+中文预训练和微调|
@@ -233,26 +233,7 @@
 |多源数据集整合|opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
 
 ## Resources 
-### Tools & Tutorial
-- [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
-- [OpenAI 接口被墙解决办法](https://github.com/riba2534/openai-scf-goproxy): 使用腾讯云搭建代理，亲测非常好用且手残党也可以轻松上手
-- [PromptPerfect](https://promptperfect.jinaai.cn/):用魔法打败魔法，输入原始提示词，模型进行定向优化，试用后我有点沉默了，可以定向支持不同使用prompt的模型如Difussion，ChatGPT， Dalle等
-- [ClickPrompt](https://www.clickprompt.org/zh-CN/): 为各种prompt加持的工具生成指令包括Difussion，chatgptdeng, 需要OpenAI Key 
-- [ChatGPT ShortCut](https://newzone.top/chatgpt/)：提供各式场景下的Prompt范例，范例很全，使用后可以点赞！  :star:
-- [Full ChatGPT Prompts + Resources](https://enchanting-trader-463.notion.site/Full-ChatGPT-Prompts-Resources-8aa78bb226b7467ab59b70d2b27042e9): 各种尝尽的prompt范例，和以上场景有所不同
-- [learning Prompt](https://learnprompting.org/):  prompt engineering超全教程，和落地应用收藏，包括很多LLM调用Agent的高级场景 :star:
-- [The art of asking chatgpt for high quality answers](https://github.com/ORDINAND/The-Art-of-Asking-ChatGPT-for-High-Quality-Answers-A-complete-Guide-to-Prompt-Engineering-Technique): 如何写Prompt指令出书了，链接是中文翻译的版本，比较偏基础使用
-- [Prompt-Engineer-Guide]( https://github.com/dair-ai/Prompt-Engineering-Guide): 同learnig prompt类的集成教程，互相引用可还行？！分类索引做的更好些 :star:
-- [OpenAI 应用汇总指南](https://www.mojidoc.com/05z7y-dd5pa7hu3zfmhnbngoeztyqcnq-00b): 纯应用类的汇总指南
-- [AI 导航](https://www.ainavpro.com/#term-209): 包括但不限于ChatGPT的应用汇总网站，更新很快，发现了一些新大陆
-- [AI Alignment Forum](https://www.alignmentforum.org/): RLHF等对齐相关最新论文和观点的讨论论坛
-- [Langchain: Chat with your data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/):吴恩达LLM实践课程
-- [构筑大语言模型应用：应用开发与架构设计](https://github.com/phodal/aigc): 一本关于 LLM 在真实世界应用的开源电子书
-- [为什么伟大不能被计划](https://weread.qq.com/web/bookDetail/93832630811e7e827g0173ca): OpenAI研究员出书
-- [拾象投研机构对LLM的调研报告（文中有两次PPT的申请链接）](https://mp.weixin.qq.com/s?__biz=MjM5ODY2OTQyNg==&mid=2649769138&idx=1&sn=2c408b73f66a52e43ea991b957729519&chksm=bec3d9af89b450b95e6432dc33f4f32ae7a29cc8e2916369aad6156c5817927d1f73a0c84e82&scene=21#wechat_redirect): 对大模型应用给出了很全面的总结梳理
-- [启明创投State of Generative AI 2023](https://www.guotaixia.com/post/5336.html): 最近发现应用落地才是LLM真正产生价值的核心，开始更多关注一些投研的分析报告
-
-### AIGC playground
+### 应用类
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
 - [godmode](https://godmode.space/)：需要人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
 - [agentgpt](https://agentgpt.reworkd.ai/): 基础AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
@@ -270,7 +251,6 @@
 - [ChatGPT-academic](https://github.com/binary-husky/chatgpt_academic): 又是一个基于gradio实现的paper润色，摘要等功能打包的实现 ![](https://img.shields.io/badge/Tool-Business-red)
 - [feishu-chatgpt](https://github.com/Leizhenpeng/feishu-chatgpt): 飞书chatgpt，和365copilot相似也是多组件集成, 有点全！  ![](https://img.shields.io/badge/Tool-Business-red)
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，针对话题的生成还可以，但是针对某本书的就是瞎编了，但是感觉和检索式阅读方式结合效果会出彩~  ![](https://img.shields.io/badge/Tool-Business-red)
-- [Shell](): 基于ChatGPT的AI英语聊天工具，口语练习助手
 - [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
 - [chatbase](https://www.chatbase.co/): 情感角色聊天，还没尝试 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
 - [Vana](https://gptme.vana.com/login): virtual DNA, 通过聊天创建虚拟自己！概念很炫  ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
@@ -296,9 +276,26 @@
 - [GFPGAN](https://github.com/Nutlope/restorePhotos): 照片修复  ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [Visual ChatGPT](https://huggingface.co/spaces/microsoft/visual_chatgpt): 微软发布图像ChatGPT，对话方式进行图像生成编辑，问答 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange) :star:
 - [gemo.ai](https://www.genmo.ai/): 多模态聊天机器人，包括文本，图像，视频生成
-- [storybird](https://storybird.com/): 根据提示词生成股市绘本，还可以售卖
+- [storybird](https://storybird.com/): 根据提示词生成故事绘本，还可以售卖
 
-### Recommend Blog
+### 教程类
+- [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
+- [OpenAI 接口被墙解决办法](https://github.com/riba2534/openai-scf-goproxy): 使用腾讯云搭建代理，亲测非常好用且手残党也可以轻松上手
+- [PromptPerfect](https://promptperfect.jinaai.cn/):用魔法打败魔法，输入原始提示词，模型进行定向优化，试用后我有点沉默了，可以定向支持不同使用prompt的模型如Difussion，ChatGPT， Dalle等
+- [ClickPrompt](https://www.clickprompt.org/zh-CN/): 为各种prompt加持的工具生成指令包括Difussion，chatgptdeng, 需要OpenAI Key 
+- [ChatGPT ShortCut](https://newzone.top/chatgpt/)：提供各式场景下的Prompt范例，范例很全，使用后可以点赞！  :star:
+- [Full ChatGPT Prompts + Resources](https://enchanting-trader-463.notion.site/Full-ChatGPT-Prompts-Resources-8aa78bb226b7467ab59b70d2b27042e9): 各种尝尽的prompt范例，和以上场景有所不同
+- [learning Prompt](https://learnprompting.org/):  prompt engineering超全教程，和落地应用收藏，包括很多LLM调用Agent的高级场景 :star:
+- [The art of asking chatgpt for high quality answers](https://github.com/ORDINAND/The-Art-of-Asking-ChatGPT-for-High-Quality-Answers-A-complete-Guide-to-Prompt-Engineering-Technique): 如何写Prompt指令出书了，链接是中文翻译的版本，比较偏基础使用
+- [Prompt-Engineer-Guide]( https://github.com/dair-ai/Prompt-Engineering-Guide): 同learnig prompt类的集成教程，互相引用可还行？！分类索引做的更好些 :star:
+- [OpenAI 应用汇总指南](https://www.mojidoc.com/05z7y-dd5pa7hu3zfmhnbngoeztyqcnq-00b): 纯应用类的汇总指南
+- [AI 导航](https://www.ainavpro.com/#term-209): 包括但不限于ChatGPT的应用汇总网站，更新很快，发现了一些新大陆
+- [AI Alignment Forum](https://www.alignmentforum.org/): RLHF等对齐相关最新论文和观点的讨论论坛
+- [Langchain: Chat with your data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/):吴恩达LLM实践课程
+- [构筑大语言模型应用：应用开发与架构设计](https://github.com/phodal/aigc): 一本关于 LLM 在真实世界应用的开源电子书
+- [Large Language Models: Application through Production](https://github.com/databricks-academy/large-language-models): 大模型应用Edx出品的课程
+
+### 书籍博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
 - [OpenAI InstructGPT intro](https://openai.com/blog/instruction-following/)
 - AllenAI ChatGPT能力解读：[How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)  :star:
@@ -315,6 +312,10 @@
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)  :star:
 - [All You Need to Know to Build Your First LLM App](https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac)  :star:
 - [GPT-4 Architecture, Infrastructure, Training Dataset, Costs, Vision, MoE](https://www.semianalysis.com/p/gpt-4-architecture-infrastructure)
+- [为什么伟大不能被计划](https://weread.qq.com/web/bookDetail/93832630811e7e827g0173ca): OpenAI研究员出书
+- [拾象投研机构对LLM的调研报告（文中有两次PPT的申请链接）](https://mp.weixin.qq.com/s?__biz=MjM5ODY2OTQyNg==&mid=2649769138&idx=1&sn=2c408b73f66a52e43ea991b957729519&chksm=bec3d9af89b450b95e6432dc33f4f32ae7a29cc8e2916369aad6156c5817927d1f73a0c84e82&scene=21#wechat_redirect): 对大模型应用给出了很全面的总结梳理
+- [启明创投State of Generative AI 2023](https://www.guotaixia.com/post/5336.html): 最近发现应用落地才是LLM真正产生价值的核心，开始更多关注一些投研的分析报告
+- [How to Use AI to Do Stuff: An Opinionated Guide](https://www.oneusefulthing.org/p/how-to-use-ai-to-do-stuff-an-opinionated)
 
 ## Papers
 ### paper List
@@ -462,6 +463,7 @@
   - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback  :star:
   - Constitutional AI Harmlessness from AI Feedback :star:
   - Pretraining Language Models with Human Preferences
+  - The Capacity for Moral Self-Correction in Large Language Models
 - AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
 - 改良方案 
   - RRHF: Rank Responses to Align Language Models with Human Feedback without tears
@@ -483,6 +485,7 @@
   - ChemCrow Augmenting large language models with chemistry tools
   - Reflexion: Language Agents with Verbal Reinforcement Learning  :star:
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
+  - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks
 - 工具微调方案
   - Toolformer: Language Models Can Teach Themselves to Use Tools :star:
   - Tool Learning with Foundation Models
@@ -496,6 +499,7 @@
   - MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning
   - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences  :star:
   - TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
+  - WebCPM: Interactive Web Search for Chinese Long-form Question Answering
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
@@ -517,6 +521,7 @@
 - Baize An Open-Source Chat Model with Parameter-Efficient Tuning on self-Chat Data
 - SELF-QA Unsupervised Knowledge Guided alignment.
 - GPT Self-Supervision for a Better Data Annotator
+- Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
 
 ### 领域模型
 - MedGPT: Medical Concept Prediction from Clinical Narratives
@@ -569,6 +574,7 @@
 - ASK ME ANYTHING: A SIMPLE STRATEGY FOR PROMPTING LANGUAGE MODELS  :star:
 - Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
 - Reflexion: an autonomous agent with dynamic memory and self-reflection
+- Self-consistency for open-ended generations
 
 ### Other Prompt Engineer 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
