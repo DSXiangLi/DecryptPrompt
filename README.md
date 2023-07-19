@@ -469,6 +469,7 @@
   - RRHF: Rank Responses to Align Language Models with Human Feedback without tears
   - PRM：Let's verify step by step 
   - Chain of Hindsight Aligns Language Models with Feedback
+  - AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback
 
 ### Agent: 让模型使用工具
 - Prompt方案
