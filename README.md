@@ -41,6 +41,7 @@
 ### 国外模型
 |模型链接     | 模型描述    |
 | --- | --- |
+|[LLama2](https://ai.meta.com/llama/)|Open Meta带着可商用开源的羊驼2模型来了~|
 | [Google Bard](https://bard.google.com)   |    谷歌bard支持中文了 |
 |  [Claude](https://www.anthropic.com/product)   |  ChatGPT最大竞争对手Claude也开放申请了，slack中无限试用   |
 |  [Falcon](https://huggingface.co/tiiuae/falcon-40b)   |  Falcon由阿联酋技术研究所在超高质量1万亿Token上训练得到1B，7B，40B开源，免费商用！土豪们表示钱什么的格局小了 |
@@ -67,6 +68,7 @@
 |[BloomZ](https://huggingface.co/bigscience/bloomz)|BigScience出品, 基于Bloom微调|
 |[Galacia](https://github.com/paperswithcode/galai)|和Bloom相似，更针对科研领域训练的模型|
 | [T0](https://github.com/bigscience-workshop/t-zero)|BigScience出品，3B~11B的在T5进行指令微调的模型|
+|[EXLLama](https://github.com/turboderp/exllama)|Python/C++/CUDA implementation of Llama for use with 4-bit GPTQ weight|
 
 ### 国内模型
 |模型链接     | 模型描述    |
@@ -127,6 +129,7 @@
 |[恒生LightGPT](https://mp.weixin.qq.com/s/vLvxvi2nOywkjt7ppiFC2g)|金融领域继续预训练+插件化设计|
 |[知彼阿尔法](https://finance.sina.com.cn/jjxw/2023-07-03/doc-imyzmaut2132017.shtml)|企查查商查大模型|
 |[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
+|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 
 ### 指令微调&RL工具
 | 工具描述   | 链接   | 
@@ -334,7 +337,8 @@
 - An Overview on Language Models: Recent Developments and Outlook  :star:
 - A Survey of Large Language Models[6.29更新版]
 - Unifying Large Language Models and Knowledge Graphs: A Roadmap
-
+- Augmented Language Models: a Survey
+- Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
 ### 大模型能力探究
 - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
 - Evidence of Meaning in Language Models Trained on Programs
@@ -496,6 +500,7 @@
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
   - WebGPT：Browser-assisted question-answering with human feedback
   - REPLUG: Retrieval-Augmented Black-Box Language Models
+  - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
 - 系统设计
   - MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning
   - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences  :star:
