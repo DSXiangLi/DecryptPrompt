@@ -69,6 +69,8 @@
 |[Galacia](https://github.com/paperswithcode/galai)|和Bloom相似，更针对科研领域训练的模型|
 | [T0](https://github.com/bigscience-workshop/t-zero)|BigScience出品，3B~11B的在T5进行指令微调的模型|
 |[EXLLama](https://github.com/turboderp/exllama)|Python/C++/CUDA implementation of Llama for use with 4-bit GPTQ weight|
+|[LongChat](https://huggingface.co/lmsys/longchat-13b-16k)| llama-13b使用condensing rotary embedding technique微调的长文本模型|
+|[MPT-30B](https://huggingface.co/mosaicml/mpt-30b)|MosaicML开源的在8Ktoken上训练的大模型|
 
 ### 国内模型
 |模型链接     | 模型描述    |
@@ -339,6 +341,7 @@
 - Unifying Large Language Models and Knowledge Graphs: A Roadmap
 - Augmented Language Models: a Survey
 - Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
+
 ### 大模型能力探究
 - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
 - Evidence of Meaning in Language Models Trained on Programs
@@ -356,6 +359,7 @@
 - Beyond The Imitation Game: Quantifying And Extrapolating The Capabilities Of Language Models
 - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective
 - Demystifying GPT Self-Repair for Code Generation
+- Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations
 
 ### Tunning Free Prompt
 - GPT2: Language Models are Unsupervised Multitask Learners
@@ -406,6 +410,7 @@
 - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
 - INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
 - Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
+
 ### 对话模型
 - LaMDA: Language Models for Dialog Applications
 - Sparrow: Improving alignment of dialogue agents via targeted human judgements :star:
@@ -420,6 +425,7 @@
     - LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS :star:
     - Tree of Thoughts: Deliberate Problem Solving with Large Language Models
     - Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
+    - Successive Prompting for Decomposing Complex Questions
 - 分领域COT
     - Solving Quantitative Reasoning Problems with Language Models
     - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
@@ -449,6 +455,7 @@
     - Large Language Models Can Self-Improve
     - Active Prompting with Chain-of-Thought for Large Language Models
     - Large Language Models are Better Reasoners with Self-Verification
+    - ThoughtSource A central hub for large language model reasoning data
 
 ### RLHF
 - Deepmind
@@ -528,6 +535,7 @@
 - SELF-QA Unsupervised Knowledge Guided alignment.
 - GPT Self-Supervision for a Better Data Annotator
 - Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
+- The Flan Collection Designing Data and Methods
 
 ### 领域模型
 - MedGPT: Medical Concept Prediction from Clinical Narratives
@@ -553,7 +561,7 @@
 - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
 - Extending Context Window of Large Language Models via Positional Interpolation
 - LongNet: Scaling Transformers to 1,000,000,000 Tokens
-- [https://kaiokendev.github.io/til#extending-context-to-8k]
+- https://kaiokendev.github.io/til#extending-context-to-8k
 - [苏剑林,Transformer升级之路：10、RoPE是一种β进制编码](https://spaces.ac.cn/archives/9675)
 - Focused Transformer: Contrastive Training for Context Scaling
 - Lost in the Middle: How Language Models Use Long Contexts
