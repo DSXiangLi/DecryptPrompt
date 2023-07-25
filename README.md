@@ -170,6 +170,7 @@
 |wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
 |WorkGPT：类似AutoGPT|https://github.com/team-openpm/workgpt|
 |Deep-KE：基于LLM对数据进行智能解析实现知识抽取|https://github.com/zjunlp/DeepKE|
+|Vectra：平台化的LLM Agent搭建方案，从索引构建，内容召回排序，到事实检查的LLM生成|https://vectara.com/tour-vectara/|
 
 ### 开源数据
 
@@ -343,6 +344,7 @@
 - Augmented Language Models: a Survey
 - Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
 - Challenges and Applications of Large Language Models
+- Survey of Hallucination in Natural Language Generation
 
 ### 大模型能力探究
 - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
@@ -494,7 +496,7 @@
   - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
   - Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions 
   - Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models
-  - ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models
+  - ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models :star:
   - Faithful Chain-of-Thought Reasoning
   - ChemCrow Augmenting large language models with chemistry tools
   - Reflexion: Language Agents with Verbal Reinforcement Learning  :star:
@@ -549,7 +551,7 @@
 - Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2] :star:
 - Augmented Large Language Models with Parametric Knowledge Guiding
 - XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
-- ChatLaw Open-Source Legal Large Language Model
+- ChatLaw Open-Source Legal Large Language Model :star:
 
 ### LLM超长文本处理
 - Parallel Context Windows for Large Language Models
@@ -564,9 +566,9 @@
 - Extending Context Window of Large Language Models via Positional Interpolation
 - LongNet: Scaling Transformers to 1,000,000,000 Tokens
 - https://kaiokendev.github.io/til#extending-context-to-8k
-- [苏剑林,Transformer升级之路：10、RoPE是一种β进制编码](https://spaces.ac.cn/archives/9675)
+- [苏剑林,Transformer升级之路：10、RoPE是一种β进制编码](https://spaces.ac.cn/archives/9675) :star:
 - Focused Transformer: Contrastive Training for Context Scaling
-- Lost in the Middle: How Language Models Use Long Contexts
+- Lost in the Middle: How Language Models Use Long Contexts :star:
 
 ### LLM Tunning Practice/Report
 - 更少，质量更高的数据带来质变
@@ -591,6 +593,9 @@
 - Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
 - Reflexion: an autonomous agent with dynamic memory and self-reflection
 - Self-consistency for open-ended generations
+- Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback
+- Factuality Enhanced Language Models for Open-Ended Text Generation
+- Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
 
 ### Other Prompt Engineer 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
