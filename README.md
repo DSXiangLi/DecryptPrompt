@@ -201,6 +201,7 @@
 |指令微调|alpaca code 20K代码指令数据|https://github.com/sahil280114/codealpaca#data-release|
 |指令微调|GPT4Tools 71K GPT4指令样本|https://github.com/StevenGrove/GPT4Tools|
 |指令微调|GPT4指令+角色扮演+代码指令|https://github.com/teknium1/GPTeacher|
+|指令微调|Mol-Instructions 2043K 分子+蛋白质+生物分子文本指令，覆盖分子设计、蛋白质功能预测、蛋白质设计等任务| https://github.com/zjunlp/Mol-Instructions|
 |数学|腾讯人工智能实验室发布网上爬取的数学问题APE210k|https://github.com/Chenny0808/ape210k|
 |数学|猿辅导 AI Lab开源小学应用题Math23K|https://github.com/SCNU203/Math23k/tree/main|
 |数学|grade school math把OpenAI的高中数学题有改造成指令样本有2-8步推理过程|https://huggingface.co/datasets/qwedsacf/grade-school-math-instructions|
