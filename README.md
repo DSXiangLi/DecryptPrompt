@@ -133,7 +133,7 @@
 |[知彼阿尔法](https://finance.sina.com.cn/jjxw/2023-07-03/doc-imyzmaut2132017.shtml)|企查查商查大模型|
 |[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
-
+|[阅文-网文大模型介绍](https://www.zhihu.com/question/613058630)|签约作者内测中，主打的内容为打斗场景，剧情切换，环境描写，人设，世界观等辅助片段的生成|
 ### 指令微调&RL工具
 | 工具描述   | 链接   | 
 | --- | --- | 
@@ -342,7 +342,7 @@
 - An Overview on Language Models: Recent Developments and Outlook  :star:
 - A Survey of Large Language Models[6.29更新版]
 - Unifying Large Language Models and Knowledge Graphs: A Roadmap
-- Augmented Language Models: a Survey
+- Augmented Language Models: a Survey :star:
 - Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
 - Challenges and Applications of Large Language Models
 - Survey of Hallucination in Natural Language Generation
@@ -405,7 +405,7 @@
 - GPT-4 Technical Report
 - Backpack Language Models
 
-###  指令微调
+###  指令微调 (instruction_tunning)
 - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
 - Flan-T5: Scaling Instruction-Finetuned Language Models
 - Instruct-GPT: Training language models to follow instructions with human feedback :star:
@@ -422,7 +422,7 @@
 - BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
 - How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
 
-### Chain of Thought
+### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
     - [zero-shot-COT] Large Language Models are Zero-Shot Reasoners :star:
     - [few-shot COT] Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
@@ -487,7 +487,7 @@
   - Chain of Hindsight Aligns Language Models with Feedback
   - AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback
 
-### Agent: 让模型使用工具
+### LLM Agent 让模型使用工具 (llm_agent)
 - Prompt方案
   - ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
   - Self-ask: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS :star:
@@ -529,7 +529,7 @@
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - Generative Agents: Interactive Simulacra of Human Behavior
 
-### 指令数据生成
+### 指令数据生成 (instruction_data_gen)
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
 - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
 - iPrompt: Explaining Data Patterns in Natural Language via Interpretable Autoprompting  
@@ -542,7 +542,7 @@
 - Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
 - The Flan Collection Designing Data and Methods
 
-### 领域模型
+### 领域模型 (domain_llms)
 - MedGPT: Medical Concept Prediction from Clinical Narratives
 - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
 - Galactia：A Large Language Model for Science
@@ -554,7 +554,7 @@
 - XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
 - ChatLaw Open-Source Legal Large Language Model :star:
 
-### LLM超长文本处理
+### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
 - Structured Prompting: Scaling In-Context Learning to 1,000 Examples
 - [苏剑林, NBCE：使用朴素贝叶斯扩展LLM的Context处理长度](https://spaces.ac.cn/archives/9617) :star:
@@ -571,7 +571,7 @@
 - Focused Transformer: Contrastive Training for Context Scaling
 - Lost in the Middle: How Language Models Use Long Contexts :star:
 
-### LLM Tunning Practice/Report
+### LLM微调经验 (tune_practice_report)
 - 更少，质量更高的数据带来质变
     - LIMA: Less Is More for Alignment :star:
     - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
@@ -583,7 +583,7 @@
     - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
     - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
 
-### 提高事实性和解码准确率
+### 降低模型幻觉 (reliability)
 - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
 - SELF-REFINE:ITERATIVE REFINEMENT WITH SELF-FEEDBACK  :star:
 - PROMPTING GPT-3 TO BE RELIABLE
@@ -598,13 +598,14 @@
 - Factuality Enhanced Language Models for Open-Ended Text Generation
 - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
 
-### Other Prompt Engineer 
+### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
 - In-Context Instruction Learning
 - LEARNING PERFORMANCE-IMPROVING CODE EDITS
 - Boosting Theory-of-Mind Performance in Large Language Models via Prompting
 - Generated Knowledge Prompting for Commonsense Reasoning
 - RECITATION-AUGMENTED LANGUAGE MODELS
+- kNN PROMPTING: BEYOND-CONTEXT LEARNING WITH CALIBRATION-FREE NEAREST NEIGHBOR INFERENCE
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
@@ -612,6 +613,7 @@
 - PaLM-E: An Embodied Multimodal Language Model
 - LLava Visual Instruction Tuning
 - MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models
+- TabLLM: Few-shot Classification of Tabular Data with Large Language Models
 
 ### Others
 - Learnware: Small Models Do Big
