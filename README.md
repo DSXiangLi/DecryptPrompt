@@ -435,9 +435,10 @@
     - Tree of Thoughts: Deliberate Problem Solving with Large Language Models
     - Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
     - Successive Prompting for Decomposing Complex Questions
-- 分领域COT
-    - Solving Quantitative Reasoning Problems with Language Models
     - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
+- 分领域COT [Math, Code, Tabular, QA]
+    - Solving Quantitative Reasoning Problems with Language Models
+    - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
     - Solving math word problems with processand outcome-based feedback
     - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
     - T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering
@@ -455,14 +456,14 @@
     - Large Language Models are Reasoning Teachers
     - Distilling Reasoning Capabilities into Smaller Language Models
     - The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning
-- others
-    - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
-    - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
-    - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS 
+- COT样本自动构建/选择
     - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning  
     - AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
     - Large Language Models Can Self-Improve
     - Active Prompting with Chain-of-Thought for Large Language Models
+- others
+    - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
+    - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
     - Large Language Models are Better Reasoners with Self-Verification
     - ThoughtSource A central hub for large language model reasoning data
 
