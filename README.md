@@ -20,6 +20,7 @@
 - [解密Prompt系列9. 模型复杂推理-思维链基础和进阶玩法](https://cloud.tencent.com/developer/article/old/2296079?areaSource=&traceId=)
 - [解密Prompt系列10. 思维链COT原理探究](https://cloud.tencent.com/developer/article/old/2298660)
 - [解密Prompt系列11. 小模型也能COT，先天不足后天补](https://cloud.tencent.com/developer/article/old/2301999)
+- [解密Prompt系列12. LLM Agent零微调范式 ReAct & Self Ask](https://cloud.tencent.com/developer/article/2305421)
 - [ChatGPT应用1. MakeInstruction零人工指令样本构建](https://huggingface.co/spaces/xl2533/MakeInstruction)
 - [ChatGPT应用2. ChatPDF简单复现](https://huggingface.co/spaces/xl2533/FinDoc)
 
@@ -134,6 +135,7 @@
 |[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |[阅文-网文大模型介绍](https://www.zhihu.com/question/613058630)|签约作者内测中，主打的内容为打斗场景，剧情切换，环境描写，人设，世界观等辅助片段的生成|
+
 ### 指令微调&RL工具
 | 工具描述   | 链接   | 
 | --- | --- | 
@@ -155,7 +157,6 @@
 |VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍|https://github.com/vllm-project/vllm|
 
 ### LLM Agent工具
-
 | 工具描述   | 链接   | 
 | --- | --- | 
 |langchain：LLM工具集|https://github.com/hwchase17/langchain|
@@ -163,6 +164,8 @@
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
 |MiniAGI： 自执行LLM Agent|https://github.com/muellerberndt/mini-agi|
+|AL Legion： 自执行LLM Agent|https://github.com/eumemic/ai-legion|
+|GPTRPG：RPG环境 AI Agent游戏化|https://github.com/dzoba/gptrpg|
 |GPTEngineer：自动工具构建和代码生成|https://github.com/AntonOsika/gpt-engineer|
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
@@ -245,6 +248,8 @@
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
 - [godmode](https://godmode.space/)：需要人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
 - [agentgpt](https://agentgpt.reworkd.ai/): 基础AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
+- [do Anything](https://www.doanythingmachine.com/): AutoGPT Like的to Do List生成器  ![](https://img.shields.io/badge/Auto-Agent-white)
+- [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了~  ![](https://img.shields.io/badge/Tool-Business-red)  :star:
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问 :star:
 - [BingGPT](https://github.com/dice2o/BingGPT): NewBing开源桌面客户端，可以将聊天记录导出  ![](https://img.shields.io/badge/AIGC-Search-yellow)
@@ -258,7 +263,6 @@
 - [BriefGPT](https://briefgpt.xyz/?viaurl=ainavpro.com): 日更Arxiv论文，并对论文进行摘要，关键词抽取，帮助研究者了解最新动态, UI不错哟 ![](https://img.shields.io/badge/Tool-Business-red)
 - [ChatGPT-academic](https://github.com/binary-husky/chatgpt_academic): 又是一个基于gradio实现的paper润色，摘要等功能打包的实现 ![](https://img.shields.io/badge/Tool-Business-red)
 - [feishu-chatgpt](https://github.com/Leizhenpeng/feishu-chatgpt): 飞书chatgpt，和365copilot相似也是多组件集成, 有点全！  ![](https://img.shields.io/badge/Tool-Business-red)
-- [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，针对话题的生成还可以，但是针对某本书的就是瞎编了，但是感觉和检索式阅读方式结合效果会出彩~  ![](https://img.shields.io/badge/Tool-Business-red)
 - [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
 - [chatbase](https://www.chatbase.co/): 情感角色聊天，还没尝试 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
 - [Vana](https://gptme.vana.com/login): virtual DNA, 通过聊天创建虚拟自己！概念很炫  ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
