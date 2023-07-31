@@ -616,6 +616,7 @@
 ### 推理速度优化
 - Fast Transformer Decoding: One Write-Head is All You Need
 - Fast Inference from Transformers via Speculative Decoding
+- GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
