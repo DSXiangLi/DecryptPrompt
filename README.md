@@ -586,18 +586,6 @@
 - Focused Transformer: Contrastive Training for Context Scaling
 - Lost in the Middle: How Language Models Use Long Contexts :star:
 
-### LLM微调经验 (tune_practice_report)
-- 更少，质量更高的数据带来质变
-    - LIMA: Less Is More for Alignment :star:
-    - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
-    -Textbooks Are All You Need
-- 其他
-    - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
-    - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
-    - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
-    - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
-    - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
-
 ### 降低模型幻觉 (reliability)
 - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
 - SELF-REFINE:ITERATIVE REFINEMENT WITH SELF-FEEDBACK  :star:
@@ -613,10 +601,28 @@
 - Factuality Enhanced Language Models for Open-Ended Text Generation
 - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
 
-### 推理速度优化
+### 推理速度优化(fast_inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
 - Fast Inference from Transformers via Speculative Decoding
 - GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints
+- Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding
+
+### 模型知识编辑黑科技(model_edit)
+- Locating and Editing Factual Associations in GPT
+- Transformer Feed-Forward Layers Are Key-Value Memories
+- Mass-Editing Memory in a Transformer
+
+### LLM微调经验 (tune_practice_report)
+- 更少，质量更高的数据带来质变
+    - LIMA: Less Is More for Alignment :star:
+    - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
+    -Textbooks Are All You Need
+- 其他
+    - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
+    - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
+    - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
+    - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
+    - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
