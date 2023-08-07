@@ -144,12 +144,13 @@
 |金融|[知彼阿尔法](https://finance.sina.com.cn/jjxw/2023-07-03/doc-imyzmaut2132017.shtml)|企查查商查大模型|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
-|编程|codegeex[](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
+|编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
+|编程|[codegeex2](https://github.com/THUDM/CodeGeeX2)|Chatglm2的基础上CodeGeeX2-6B 进一步经过了 600B 代码数据预训练|
 |交通|[TransGPT](https://github.com/DUOMO/TransGPT)|LLama-7B+34.6万领域预训练+5.8万条领域指令对话微调（来自文档问答）|
 |科技|[Mozi](https://github.com/gmftbyGMFTBY/science-llm)|红睡衣预训练+论文QA数据集 + ChatGPT扩充科研对话数据|
 |天文|[StarGLM](https://github.com/Yu-Yang-Li/StarGLM)|天文知识指令微调，项目进行中后期考虑天文二次预训练+KG|
 |写作|[阅文-网文大模型介绍](https://www.zhihu.com/question/613058630)|签约作者内测中，主打的内容为打斗场景，剧情切换，环境描写，人设，世界观等辅助片段的生成|
-
+|写作|[MediaGPT](https://github.com/search?q=MediaGPT&type=repositories)|LLama-7B扩充词表+指令微调，指令来自国内媒体专家给出的在新闻创作上的80个子任务|
 
 ### 指令微调&RL工具
 | 工具描述   | 链接   | 
@@ -175,11 +176,12 @@
 | 工具描述   | 链接   | 
 | --- | --- | 
 |langchain：LLM工具集|https://github.com/hwchase17/langchain|
-|BMTTools: 清华出品类似langchain|https://github.com/OpenBMB/BMTools|
+|BMTTools: 清华出品多工具调用开源库，提供微调数据和评估ToolBench|https://github.com/OpenBMB/BMTools|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
-|MiniAGI： 自执行LLM Agent|https://github.com/muellerberndt/mini-agi|
+|MiniAGI：自执行LLM Agent|https://github.com/muellerberndt/mini-agi|
 |AL Legion： 自执行LLM Agent|https://github.com/eumemic/ai-legion|
+|AgentVerse：多模型交互环境 |https://github.com/OpenBMB/AgentVerse|
 |GPTRPG：RPG环境 AI Agent游戏化|https://github.com/dzoba/gptrpg|
 |GPTEngineer：自动工具构建和代码生成|https://github.com/AntonOsika/gpt-engineer|
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
@@ -230,13 +232,14 @@
 |代码| Lyra代码由带有嵌入式 SQL 的 Python 代码组成，经过仔细注释的数据库操作程序，配有中文评论和英文评论。|https://opendatalab.org.cn/Lyra|
 |代码| Conala来自StackOverflow问题,手动注释3k，英文|https://opendatalab.org.cn/CoNaLa/download|
 |代码| code-alpaca ChatGPT生成20K代码指令样本|https://github.com/sahil280114/codealpaca.git|
-|对话指令| LAION 策划的开放指令通用数据集中手动选择的组件子集 已开源40M 3万个,100M在路上 |https://github.com/LAION-AI/Open-Instruction-Generalist|
-|对话指令| Baize基于Chat GPT构建的self-chat数据    |   https://github.com/project-baize/baize-chatbot/tree/main/data   |
-|对话指令| FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
-|对话指令| AllenAI开源38.5万个对话高质量数据集SODA   |   https://realtoxicityprompts.apps.allenai.org/ |
-|对话指令| InstructDial在单一对话任务类型上进行指令微调   |  https://github.com/prakharguptaz/Instructdial   |
-|对话指令| Ultra Chat 两个独立的 ChatGPT Turbo API 进行对话，从而生成多轮对话数据|https://github.com/thunlp/UltraChat|
-|对话指令| Awesome Open-domain Dialogue Models提供多个开放域对话数据|https://github.com/cingtiye/Awesome-Open-domain-Dialogue-Models#%E4%B8%AD%E6%96%87%E5%BC%80%E6%94%BE%E5%9F%9F%E5%AF%B9%E8%AF%9D%E6%95%B0%E6%8D%AE%E9%9B%86|
+|对话| LAION 策划的开放指令通用数据集中手动选择的组件子集 已开源40M 3万个,100M在路上 |https://github.com/LAION-AI/Open-Instruction-Generalist|
+|对话| Baize基于Chat GPT构建的self-chat数据    |   https://github.com/project-baize/baize-chatbot/tree/main/data   |
+|对话| FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
+|对话| AllenAI开源38.5万个对话高质量数据集SODA   |   https://realtoxicityprompts.apps.allenai.org/ |
+|对话| InstructDial在单一对话任务类型上进行指令微调   |  https://github.com/prakharguptaz/Instructdial   |
+|对话| Ultra Chat 两个独立的 ChatGPT Turbo API 进行对话，从而生成多轮对话数据|https://github.com/thunlp/UltraChat|
+|对话| Awesome Open-domain Dialogue Models提供多个开放域对话数据|https://github.com/cingtiye/Awesome-Open-domain-Dialogue-Models#%E4%B8%AD%E6%96%87%E5%BC%80%E6%94%BE%E5%9F%9F%E5%AF%B9%E8%AF%9D%E6%95%B0%E6%8D%AE%E9%9B%86|
+|对话| |https://github.com/salesforce/DialogStudio|
 |RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF-10K|
 |RLHF| Anthropic hh-rlhf数据集   |   https://huggingface.co/datasets/Anthropic/hh-rlhf  |
 |RLHF| Stack-exchange上问题对应多个答案，每个答案有打分|https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences/tree/main|
@@ -259,6 +262,8 @@
 |领域预训练| 首个中文科学文献数据集CSL,也有多种NLP任务数据 |https://github.com/ydli-ai/CSL|
 |平行语料| news-commentary中英平行语料，用于中英间知识迁移|https://data.statmt.org/news-commentary/v15/training/|
 |多源数据集整合| opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
+|Tool-搜索增强| webCPM开源的和搜索工具进行交互问答的数据集，包括网页抽取式摘要，多事实内容回答等人工标注数据|https://github.com/thunlp/WebCPM|
+|Tool-多工具| BmTools开源的多工具调用指令数据集| https://github.com/OpenBMB/BMTools|
 
 ## Resources 
 ### 应用类
@@ -353,6 +358,7 @@
 - https://github.com/dongguanting/In-Context-Learning_PaperList
 - https://github.com/thunlp/PromptPapers
 - https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
+- https://github.com/thunlp/ToolLearningPapers
 
 ### 综述
 - A Survey of Large Language Models
@@ -389,6 +395,7 @@
 - Demystifying GPT Self-Repair for Code Generation
 - Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations
 - Language acquisition: do children and language models follow similar learning stages?
+- Trained Transformers Learn Linear Models In-Context
 
 ### Tunning Free Prompt
 - GPT2: Language Models are Unsupervised Multitask Learners
@@ -446,6 +453,8 @@
 - Sparrow: Improving alignment of dialogue agents via targeted human judgements :star:
 - BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
 - How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
+- DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI
+- Enhancing Chat Language Models by Scaling High-quality Instructional Conversations
 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
@@ -595,6 +604,7 @@
 - Augmented Large Language Models with Parametric Knowledge Guiding
 - XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
 - ChatLaw Open-Source Legal Large Language Model :star:
+- MediaGPT : A Large Language Model For Chinese Media
 
 ### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
@@ -610,6 +620,8 @@
 - LongNet: Scaling Transformers to 1,000,000,000 Tokens
 - https://kaiokendev.github.io/til#extending-context-to-8k
 - [苏剑林,Transformer升级之路：10、RoPE是一种β进制编码](https://spaces.ac.cn/archives/9675) :star:
+- [苏剑林,Transformer升级之路：11、将β进制位置进行到底](https://spaces.ac.cn/archives/9706)
+- [苏剑林,Transformer升级之路：12、无限外推的ReRoPE？](https://spaces.ac.cn/archives/9708)
 - Focused Transformer: Contrastive Training for Context Scaling
 - Lost in the Middle: How Language Models Use Long Contexts :star:
 
