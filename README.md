@@ -39,7 +39,7 @@
 |[Z-Bench中文真格基金评测](https://github.com/zhenbench/z-bench)|国产中文模型的编程可用性还相对较低，大家水平差不太多，两版ChatGLM提升明显|
 |[Chain-of-thought评估](https://github.com/FranxYao/chain-of-thought-hub)|GSM8k, MATH等复杂问题排行榜|
 |[InfoQ 大模型综合能力评估](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651170429&idx=1&sn=b98af3bd14c9f97f1aa07f0f839bb3ec&scene=21#wechat_redirect)|面向中文，ChatGPT>文心一言> Claude>星火|
-
+|[ToolBench: 工具调用评估榜单]（https://github.com/OpenBMB/ToolBench）|工具微调模型和ChatGPT进行对比，提供评测脚本|
 
 ### 国外模型
 |模型链接     | 模型描述    |
@@ -192,6 +192,7 @@
 |Deep-KE：基于LLM对数据进行智能解析实现知识抽取|https://github.com/zjunlp/DeepKE|
 |Vectra：平台化的LLM Agent搭建方案，从索引构建，内容召回排序，到事实检查的LLM生成|https://vectara.com/tour-vectara/|
 |Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
+|RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
 
 ### 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
@@ -302,6 +303,7 @@
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [CodeGex](http://codegeex.cn/zh-CN): 国内替代品，还没试过 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [Codeium](https://codeium.com/): Copilot替代品，有免费版本支持各种plugin ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
+- [sql translate](https://www.sqltranslate.app/): text2sql  ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F): 开创者，艺术风格为主 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
@@ -549,6 +551,7 @@
   - WebGPT：Browser-assisted question-answering with human feedback
   - REPLUG: Retrieval-Augmented Black-Box Language Models
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
+  - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
 - 系统设计
   - MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning
   - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences  :star:
@@ -559,6 +562,7 @@
   - Mind2Web: Towards a Generalist Agent for the Web
   - Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions
   - API-Bank: A Benchmark for Tool-Augmented LLMs
+  - ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs
 - others
   - Query Rewriting for Retrieval-Augmented Large Language Models
   - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
