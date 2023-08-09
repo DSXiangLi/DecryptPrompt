@@ -193,6 +193,8 @@
 |Vectra：平台化的LLM Agent搭建方案，从索引构建，内容召回排序，到事实检查的LLM生成|https://vectara.com/tour-vectara/|
 |Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
 |RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
+|Data-Copilot：时间序列等结构化数据分析领域的Agent解决方案|https://github.com/zwq2018/Data-Copilot|
+|DB-GPT: 以数据库为基础的GPT实验项目，使用本地化的GPT大模型与您的数据和环境进行交互|https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/index.html|
 
 ### 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
@@ -265,6 +267,7 @@
 |多源数据集整合| opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
 |Tool-搜索增强| webCPM开源的和搜索工具进行交互问答的数据集，包括网页抽取式摘要，多事实内容回答等人工标注数据|https://github.com/thunlp/WebCPM|
 |Tool-多工具| BmTools开源的多工具调用指令数据集| https://github.com/OpenBMB/BMTools|
+|NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
 
 ## Resources 
 ### 应用类
@@ -541,6 +544,7 @@
   - Reflexion: Language Agents with Verbal Reinforcement Learning  :star:
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks
+  - Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow
 - 工具微调方案
   - Toolformer: Language Models Can Teach Themselves to Use Tools :star:
   - Tool Learning with Foundation Models
@@ -629,6 +633,15 @@
 - Focused Transformer: Contrastive Training for Context Scaling
 - Lost in the Middle: How Language Models Use Long Contexts :star:
 
+### NL2SQL
+- A Case-Based Reasoning Framework for Adaptive Prompting in Cross-Domain Text-to-SQL
+- DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction
+- ChatDB: AUGMENTING LLMS WITH DATABASES AS THEIR SYMBOLIC MEMORY
+- A comprehensive evaluation of ChatGPT’s zero-shot Text-to-SQL capability
+- C3: Zero-shot Text-to-SQL with ChatGPT
+- SQL-PALM: IMPROVED LARGE LANGUAGE MODEL ADAPTATION FOR TEXT-TO-SQL
+- MIGA: A Unified Multi-task Generation Framework for Conversational Text-to-SQL
+
 ### 降低模型幻觉 (reliability)
 - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
 - SELF-REFINE:ITERATIVE REFINEMENT WITH SELF-FEEDBACK  :star:
@@ -663,6 +676,7 @@
 - Generated Knowledge Prompting for Commonsense Reasoning
 - RECITATION-AUGMENTED LANGUAGE MODELS
 - kNN PROMPTING: BEYOND-CONTEXT LEARNING WITH CALIBRATION-FREE NEAREST NEIGHBOR INFERENCE
+- EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
