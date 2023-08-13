@@ -39,7 +39,7 @@
 |[Z-Bench中文真格基金评测](https://github.com/zhenbench/z-bench)|国产中文模型的编程可用性还相对较低，大家水平差不太多，两版ChatGLM提升明显|
 |[Chain-of-thought评估](https://github.com/FranxYao/chain-of-thought-hub)|GSM8k, MATH等复杂问题排行榜|
 |[InfoQ 大模型综合能力评估](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651170429&idx=1&sn=b98af3bd14c9f97f1aa07f0f839bb3ec&scene=21#wechat_redirect)|面向中文，ChatGPT>文心一言> Claude>星火|
-|[ToolBench: 工具调用评估榜单]（https://github.com/OpenBMB/ToolBench）|工具微调模型和ChatGPT进行对比，提供评测脚本|
+|[ToolBench: 工具调用评估榜单](https://github.com/OpenBMB/ToolBench)|工具微调模型和ChatGPT进行对比，提供评测脚本|
 
 ### 国外模型
 |模型链接     | 模型描述    |
@@ -129,6 +129,7 @@
 |医疗|[ NHS-LLM](https://github.com/CogStack/OpenGPT/tree/main)|Chatgpt生成的医疗问答，对话，微调模型|
 |医疗|[神农医疗大模型](https://github.com/michael-wzhu/ShenNong-TCM-LLM)|以中医知识图谱的实体为中心生成的中医知识指令数据集微调LLama-7B|
 |医疗|岐黄问道大模型|3个子模型构成，已确诊疾病的临床治疗模型+基于症状的临床诊疗模型+中医养生条理模型，看起来是要ToB落地|
+|医疗|[MeChat](https://github.com/qiuhuachuan/smile)|心理咨询领域，通过chatgpt改写多轮对话56k|
 |法律|[LawGPT-zh](https://github.com/LiuHC0428/LAW-GPT)|利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答+我们根据中华人民共和国法律手册上最核心的9k法律条文，利用ChatGPT联想生成具体的情景问答+知识问答使用ChatGPT基于文本构建QA对|
 |法律|[LawGPT](https://github.com/pengxiao-song/LaWGPT)|基于llama+扩充词表二次预训练+基于法律条款构建QA指令微调|
 |法律|[Lawyer Llama](https://github.com/AndrewZhe/lawyer-llama)|法律指令微调数据集：咨询+法律考试+对话进行指令微调|
@@ -146,6 +147,7 @@
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
 |编程|[codegeex2](https://github.com/THUDM/CodeGeeX2)|Chatglm2的基础上CodeGeeX2-6B 进一步经过了 600B 代码数据预训练|
+|编程|[stabelcode](https://stability.ai/blog/stablecode-llm-generative-ai-coding)| 560B token多语言预训练+ 120,000 个 Alpaca指令对齐|
 |交通|[TransGPT](https://github.com/DUOMO/TransGPT)|LLama-7B+34.6万领域预训练+5.8万条领域指令对话微调（来自文档问答）|
 |科技|[Mozi](https://github.com/gmftbyGMFTBY/science-llm)|红睡衣预训练+论文QA数据集 + ChatGPT扩充科研对话数据|
 |天文|[StarGLM](https://github.com/Yu-Yang-Li/StarGLM)|天文知识指令微调，项目进行中后期考虑天文二次预训练+KG|
@@ -235,6 +237,7 @@
 |代码| Lyra代码由带有嵌入式 SQL 的 Python 代码组成，经过仔细注释的数据库操作程序，配有中文评论和英文评论。|https://opendatalab.org.cn/Lyra|
 |代码| Conala来自StackOverflow问题,手动注释3k，英文|https://opendatalab.org.cn/CoNaLa/download|
 |代码| code-alpaca ChatGPT生成20K代码指令样本|https://github.com/sahil280114/codealpaca.git|
+|代码||32K, 四种不同类型、不同难度的代码相关中文对话数据，有大模型生成，|https://github.com/zxx000728/CodeGPT|
 |对话| LAION 策划的开放指令通用数据集中手动选择的组件子集 已开源40M 3万个,100M在路上 |https://github.com/LAION-AI/Open-Instruction-Generalist|
 |对话| Baize基于Chat GPT构建的self-chat数据    |   https://github.com/project-baize/baize-chatbot/tree/main/data   |
 |对话| FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
@@ -243,7 +246,8 @@
 |对话| Ultra Chat 两个独立的 ChatGPT Turbo API 进行对话，从而生成多轮对话数据|https://github.com/thunlp/UltraChat|
 |对话| Awesome Open-domain Dialogue Models提供多个开放域对话数据|https://github.com/cingtiye/Awesome-Open-domain-Dialogue-Models#%E4%B8%AD%E6%96%87%E5%BC%80%E6%94%BE%E5%9F%9F%E5%AF%B9%E8%AF%9D%E6%95%B0%E6%8D%AE%E9%9B%86|
 |对话| |https://github.com/salesforce/DialogStudio|
-|RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF-10K|
+|对话|基于事实Reference的多轮问答中文数据，已开源5万，之后会开源更多|https://github.com/sufengniu/RefGPT|
+RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF-10K|
 |RLHF| Anthropic hh-rlhf数据集   |   https://huggingface.co/datasets/Anthropic/hh-rlhf  |
 |RLHF| Stack-exchange上问题对应多个答案，每个答案有打分|https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences/tree/main|
 |RLHF| Facebook Bot Adversarial Dialogues数据集5K   |  https://github.com/facebookresearch/ParlAI  |
@@ -256,12 +260,13 @@
 |评估集| Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
 |评估集| 2010-2022年全国高考卷的题目|https://github.com/OpenLMLab/GAOKAO-Bench|
 |评估集| 中文通用大模型综合性评测基准SuperCLUE|https://github.com/CLUEbenchmark/SuperCLUE|
-|通用预训练| RedPajama开源的复刻llama的预训练数据集，1.21万亿Token|https://github.com/togethercomputer/RedPajama-Data|
-|通用预训练| Cerebras基于RedPajama进行清洗去重后得到的高质量数据集, 6270亿Token|https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main/train|
-|通用预训练| Pile 22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
+|英文预训练| RedPajama开源的复刻llama的预训练数据集，1.21万亿Token|https://github.com/togethercomputer/RedPajama-Data|
+|英文预训练| Cerebras基于RedPajama进行清洗去重后得到的高质量数据集, 6270亿Token|https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main/train|
+|英文预训练| Pile 22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
 |通用预训练| UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
-|通用预训练| 智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
-|通用预训练| 里屋社区发起开源力量收集中文互联网语料集MNBVC目标是对标ChatGPT的40T|https://github.com/esbatmop/MNBVC|
+|中文预训练| 智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
+|中文预训练| 里屋社区发起开源力量收集中文互联网语料集MNBVC目标是对标ChatGPT的40T|https://github.com/esbatmop/MNBVC|
+|中文预训练|复旦开源15万中文图书下载和抽取方案|https://github.com/FudanNLPLAB/CBook-150K|
 |领域预训练| 首个中文科学文献数据集CSL,也有多种NLP任务数据 |https://github.com/ydli-ai/CSL|
 |平行语料| news-commentary中英平行语料，用于中英间知识迁移|https://data.statmt.org/news-commentary/v15/training/|
 |多源数据集整合| opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
@@ -357,7 +362,8 @@
 - [How to Use AI to Do Stuff: An Opinionated Guide](https://www.oneusefulthing.org/p/how-to-use-ai-to-do-stuff-an-opinionated)
 - [Llama 2: an incredible open LLM](https://www.interconnects.ai/p/llama-2-from-meta)
 - [Wolfram语言之父新书：这就是ChatGPT](https://book.douban.com/subject/36449803/?icn=index-latestbook-subject)
-
+- [谷歌出品：对大模型领悟能力的一些探索很有一意思
+Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/explorables/grokking/)
 ## Papers
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
@@ -613,6 +619,7 @@
 - XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
 - ChatLaw Open-Source Legal Large Language Model :star:
 - MediaGPT : A Large Language Model For Chinese Media
+- SMILE: Single-turn to Multi-turn Inclusive Language Expansion via ChatGPT for Mental Health Support
 
 ### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
