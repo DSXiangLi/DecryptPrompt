@@ -21,6 +21,7 @@
 - [解密Prompt系列10. 思维链COT原理探究](https://cloud.tencent.com/developer/article/old/2298660)
 - [解密Prompt系列11. 小模型也能COT，先天不足后天补](https://cloud.tencent.com/developer/article/old/2301999)
 - [解密Prompt系列12. LLM Agent零微调范式 ReAct & Self Ask](https://cloud.tencent.com/developer/article/2305421)
+- [解密Prompt系列13. LLM Agent指令微调方案: Toolformer & Gorilla](https://cloud.tencent.com/developer/article/2312674)
 - [ChatGPT应用1. MakeInstruction零人工指令样本构建](https://huggingface.co/spaces/xl2533/MakeInstruction)
 - [ChatGPT应用2. ChatPDF简单复现](https://huggingface.co/spaces/xl2533/FinDoc)
 
@@ -90,13 +91,11 @@
 |[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
 |[Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型。可商用 |
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
+|[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
 |[BiLLa](https://github.com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
 |[Phoenix](https://github.com/FreedomIntelligence/LLMZoo)|港中文开源凤凰和奇美拉LLM，Bloom基座，40+语言支持|
 |[Wombat-7B](https://huggingface.co/GanjinZero/wombat-7b-delta)|达摩院开源无需强化学习使用RRHF对齐的语言模型, alpaca基座|
 |[TigerBot](https://github.com/TigerResearch/TigerBot)|虎博开源了7B 180B的模型以及预训练和微调语料|
-|[文心一言](https://yiyan.baidu.com/welcome)    |  已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！不过商业化霸王条款确实不少   |
-|[通义千问](https://tongyi.aliyun.com/)|阿里系LLM开放申请|
-|[星火](https://passport.xfyun.cn/login)|科大讯飞星火，数学是真的厉害|
 |[Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM)   |  中文指令微调的LLaMA，和ChatGLM   |
 |[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[OpenBuddy](https://github.com/OpenBuddy/OpenBuddy)|Llama 多语言对话微调模型|
@@ -111,7 +110,9 @@
 |[CPM2.0](https://baai.ac.cn/)     |  智源发布CPM2.0|
 |[GLM](https://github.com/THUDM/GLM-130B) |   清华发布的中英双语130B预训练模型 |
 |[BayLing](https://github.com/ictnlp/BayLing)|基于LLama7B/13B，增强的语言对齐的英语/中文大语言模型|
-
+|[文心一言](https://yiyan.baidu.com/welcome)    |  已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！不过商业化霸王条款确实不少   |
+|[通义千问](https://tongyi.aliyun.com/)|阿里系LLM开放申请|
+|[星火](https://passport.xfyun.cn/login)|科大讯飞星火，数学是真的厉害|
 
 ### 垂直领域模型&进展
 |领域|模型链接     | 模型描述  
@@ -143,6 +144,7 @@
 |金融|[IndexGPT](https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html)|JPMorgan在研的生成式投资顾问|
 |金融|[恒生LightGPT](https://mp.weixin.qq.com/s/vLvxvi2nOywkjt7ppiFC2g)|金融领域继续预训练+插件化设计|
 |金融|[知彼阿尔法](https://finance.sina.com.cn/jjxw/2023-07-03/doc-imyzmaut2132017.shtml)|企查查商查大模型|
+|金融|[AlphaBox](https://www.alphabox.top)|熵简科技发布大模型金融应用，多文档问答+会议转录+文档编辑|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -237,7 +239,7 @@
 |代码| Lyra代码由带有嵌入式 SQL 的 Python 代码组成，经过仔细注释的数据库操作程序，配有中文评论和英文评论。|https://opendatalab.org.cn/Lyra|
 |代码| Conala来自StackOverflow问题,手动注释3k，英文|https://opendatalab.org.cn/CoNaLa/download|
 |代码| code-alpaca ChatGPT生成20K代码指令样本|https://github.com/sahil280114/codealpaca.git|
-|代码||32K, 四种不同类型、不同难度的代码相关中文对话数据，有大模型生成，|https://github.com/zxx000728/CodeGPT|
+|代码| 32K, 四种不同类型、不同难度的代码相关中文对话数据，有大模型生成，|https://github.com/zxx000728/CodeGPT|
 |对话| LAION 策划的开放指令通用数据集中手动选择的组件子集 已开源40M 3万个,100M在路上 |https://github.com/LAION-AI/Open-Instruction-Generalist|
 |对话| Baize基于Chat GPT构建的self-chat数据    |   https://github.com/project-baize/baize-chatbot/tree/main/data   |
 |对话| FaceBook开源BlenderBot训练对话数据~6K     |   https://huggingface.co/datasets/blended_skill_talk   |
@@ -245,7 +247,7 @@
 |对话| InstructDial在单一对话任务类型上进行指令微调   |  https://github.com/prakharguptaz/Instructdial   |
 |对话| Ultra Chat 两个独立的 ChatGPT Turbo API 进行对话，从而生成多轮对话数据|https://github.com/thunlp/UltraChat|
 |对话| Awesome Open-domain Dialogue Models提供多个开放域对话数据|https://github.com/cingtiye/Awesome-Open-domain-Dialogue-Models#%E4%B8%AD%E6%96%87%E5%BC%80%E6%94%BE%E5%9F%9F%E5%AF%B9%E8%AF%9D%E6%95%B0%E6%8D%AE%E9%9B%86|
-|对话| |https://github.com/salesforce/DialogStudio|
+|对话| Salesforce开源超全DialogStudio |https://github.com/salesforce/DialogStudio|
 |对话|基于事实Reference的多轮问答中文数据，已开源5万，之后会开源更多|https://github.com/sufengniu/RefGPT|
 RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF-10K|
 |RLHF| Anthropic hh-rlhf数据集   |   https://huggingface.co/datasets/Anthropic/hh-rlhf  |
@@ -362,8 +364,9 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [How to Use AI to Do Stuff: An Opinionated Guide](https://www.oneusefulthing.org/p/how-to-use-ai-to-do-stuff-an-opinionated)
 - [Llama 2: an incredible open LLM](https://www.interconnects.ai/p/llama-2-from-meta)
 - [Wolfram语言之父新书：这就是ChatGPT](https://book.douban.com/subject/36449803/?icn=index-latestbook-subject)
-- [谷歌出品：对大模型领悟能力的一些探索很有一意思
+- [谷歌出品：对大模型领悟能力的一些探索很有意思
 Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/explorables/grokking/)
+
 ## Papers
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
@@ -620,6 +623,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - ChatLaw Open-Source Legal Large Language Model :star:
 - MediaGPT : A Large Language Model For Chinese Media
 - SMILE: Single-turn to Multi-turn Inclusive Language Expansion via ChatGPT for Mental Health Support
+- KITLM: Domain-Specific Knowledge InTegration into Language Models for Question Answering
+- FinVis-GPT: A Multimodal Large Language Model for Financial Chart Analysis
 
 ### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
