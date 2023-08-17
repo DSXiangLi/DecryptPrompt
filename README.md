@@ -41,6 +41,7 @@
 |[Chain-of-thought评估](https://github.com/FranxYao/chain-of-thought-hub)|GSM8k, MATH等复杂问题排行榜|
 |[InfoQ 大模型综合能力评估](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651170429&idx=1&sn=b98af3bd14c9f97f1aa07f0f839bb3ec&scene=21#wechat_redirect)|面向中文，ChatGPT>文心一言> Claude>星火|
 |[ToolBench: 工具调用评估榜单](https://github.com/OpenBMB/ToolBench)|工具微调模型和ChatGPT进行对比，提供评测脚本|
+|[FlagEval](https://flageval.baai.ac.cn/#/home)|智源出品主观+客观LLM评分榜单|
 
 ### 国外模型
 |模型链接     | 模型描述    |
@@ -91,6 +92,7 @@
 |[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
 |[Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型。可商用 |
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
+|[Qwen-7B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B模型|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
 |[BiLLa](https://github.com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
 |[Phoenix](https://github.com/FreedomIntelligence/LLMZoo)|港中文开源凤凰和奇美拉LLM，Bloom基座，40+语言支持|
@@ -127,10 +129,12 @@
 |医疗|[MedicalGPT-zh](https://github.com/MediaBrain-SJTU/MedicalGPT-zh)|自建的医学数据库ChatGPT生成QA+16个情境下SELF构建情景对话|
 |医疗|[PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA)|医疗论文微调Llama|
 |医疗|[PULSE](https://github.com/openmedlab/PULSE)|Bloom微调+继续预训练|
-|医疗|[ NHS-LLM](https://github.com/CogStack/OpenGPT/tree/main)|Chatgpt生成的医疗问答，对话，微调模型|
+|医疗|[NHS-LLM](https://github.com/CogStack/OpenGPT/tree/main)|Chatgpt生成的医疗问答，对话，微调模型|
 |医疗|[神农医疗大模型](https://github.com/michael-wzhu/ShenNong-TCM-LLM)|以中医知识图谱的实体为中心生成的中医知识指令数据集微调LLama-7B|
 |医疗|岐黄问道大模型|3个子模型构成，已确诊疾病的临床治疗模型+基于症状的临床诊疗模型+中医养生条理模型，看起来是要ToB落地|
 |医疗|[MeChat](https://github.com/qiuhuachuan/smile)|心理咨询领域，通过chatgpt改写多轮对话56k|
+|医疗|[SoulChat](https://github.com/scutcyr/SoulChat)|心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调 ChatGLM-6B |
+|医疗|[MindChat](https://github.com/X-D-Lab/MindChat)|MindChat-Baichuan-13B,Qwen-7B,MindChat-InternLM-7B使用不同基座在模型安全，共情，人类价值观对其上进行了强化|
 |法律|[LawGPT-zh](https://github.com/LiuHC0428/LAW-GPT)|利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答+我们根据中华人民共和国法律手册上最核心的9k法律条文，利用ChatGPT联想生成具体的情景问答+知识问答使用ChatGPT基于文本构建QA对|
 |法律|[LawGPT](https://github.com/pengxiao-song/LaWGPT)|基于llama+扩充词表二次预训练+基于法律条款构建QA指令微调|
 |法律|[Lawyer Llama](https://github.com/AndrewZhe/lawyer-llama)|法律指令微调数据集：咨询+法律考试+对话进行指令微调|
@@ -145,6 +149,8 @@
 |金融|[恒生LightGPT](https://mp.weixin.qq.com/s/vLvxvi2nOywkjt7ppiFC2g)|金融领域继续预训练+插件化设计|
 |金融|[知彼阿尔法](https://finance.sina.com.cn/jjxw/2023-07-03/doc-imyzmaut2132017.shtml)|企查查商查大模型|
 |金融|[AlphaBox](https://www.alphabox.top)|熵简科技发布大模型金融应用，多文档问答+会议转录+文档编辑|
+|金融|[曹植](http://www.datagrand.com/products/aigc/)|达观发布金融大模型融合data2text等金融任务，赋能报告写作|
+|金融|[聚宝盆](https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese)|基于 LLaMA 系基模型经过中文金融知识指令精调/指令微调(Instruct-tuning) 的微调模型|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -461,6 +467,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
 - INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
 - Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
+- Self-Alignment with Instruction Backtranslation :star:
 
 ### 对话模型
 - LaMDA: Language Models for Dialog Applications
