@@ -286,11 +286,11 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 ### 应用类
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
 - [godmode](https://godmode.space/)：需要人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
-- [agentgpt](https://agentgpt.reworkd.ai/): 基础AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
+- [agentgpt](https://agentgpt.reworkd.ai/): 基础AutoGPT![](https://img.shields.io/badge/Auto-Agent-white) :star:
 - [do Anything](https://www.doanythingmachine.com/): AutoGPT Like的to Do List生成器  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了~  ![](https://img.shields.io/badge/Tool-Business-red)  :star:
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
-- [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问 :star:
+- [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问  ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [BingGPT](https://github.com/dice2o/BingGPT): NewBing开源桌面客户端，可以将聊天记录导出  ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [DocsGPT](https://github.com/arc53/DocsGPT): 把ChatGPT开放域问答转化成封闭域问答的通用方案，试用垂类领域问答场景,可以试用定制的ChatBot  ![](https://img.shields.io/badge/Tool-Business-red) :star:
 - [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM): 基于ChatGLM的本地知识问答，和上面的DocsGPT相似，不过可以本地部署:star:
@@ -313,13 +313,14 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [ChatExcel](https://chatexcel.com/convert): 指令控制excel计算，对熟悉excel的有些鸡肋，对不熟悉的有点用  ![](https://img.shields.io/badge/Tool-Business-red)
 - [ChatPPT](https://github.com/williamfzc/chat-gpt-ppt): 使用ChatGPT进行PPT制作 ![](https://img.shields.io/badge/Tool-Business-red)
 - [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档  ![](https://img.shields.io/badge/Tool-Business-red)
-- Microsoft 365 Copilot：微软Office全面接入GPT4，智能PPT，Excel，Word，暂无链接。其实就是上面开源创意的全家桶套餐 ![](https://img.shields.io/badge/Tool-Business-red)
-- Google Workspace: 谷歌推出的搭载各种AI服务的办公场景全覆盖，暂无使用方案。![](https://img.shields.io/badge/Tool-Business-red)
 - [Copilot](https://github.com/features/copilot): 要付费哟 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [CodeGex](http://codegeex.cn/zh-CN): 国内替代品，还没试过 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [Codeium](https://codeium.com/): Copilot替代品，有免费版本支持各种plugin ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [sql translate](https://www.sqltranslate.app/): text2sql  ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
+- [sql translate](https://www.sqltranslate.app/): text2sql，利用 OpenAI 的 API 实现的一个很简单的工具，sql到文字，文字到sql  ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
+- [ai2sql](https://www.ai2sql.io/): text2sql老牌公司，相比sqltranslate功能更全面，支持SQL 语法检查、格式化和生成公式  ![](https://img.shields.io/badge/AIGC-Coder-blueviolet) 
+- [chat2query](https://www.pingcap.com/chat2query-an-innovative-ai-powered-sql-generator-for-faster-insights/): text2sql  相比以上两位支持更自然的文本指令，以及更复杂的数据分析类的sql生成 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet) :star:
+- [OuterBase](https://outerbase.com/): text2sql 设计风格很吸睛！电子表格结合mysql和dashboard，更适合数据分析宝宝 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
 - [midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F): 开创者，艺术风格为主 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
