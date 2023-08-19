@@ -488,6 +488,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Successive Prompting for Decomposing Complex Questions
+    - Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -519,6 +520,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
     - Large Language Models are Better Reasoners with Self-Verification
     - ThoughtSource A central hub for large language model reasoning data
+    - Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs
 
 ### RLHF
 - Deepmind
@@ -547,49 +549,54 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
 
 ### LLM Agent 让模型使用工具 (llm_agent)
-- Prompt方案
+- 基于prompt通用方案
   - ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
   - Self-ask: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS :star:
-  - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
+  - MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning
   - PAL: Program-aided Language Models
   - ART: Automatic multi-step reasoning and tool-use for large language models
+  - ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models  :star:
   - Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions 
-  - Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models
-  - ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models :star:
+  - Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models   :star:
   - Faithful Chain-of-Thought Reasoning
-  - ChemCrow Augmenting large language models with chemistry tools
   - Reflexion: Language Agents with Verbal Reinforcement Learning  :star:
-  - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks
-  - Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow
-- 工具微调方案
-  - Toolformer: Language Models Can Teach Themselves to Use Tools :star:
-  - Tool Learning with Foundation Models
-  - Tool Maker： Large Language Models as Tool Maker
+  - Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework
+- 基于微调通用方案
   - TALM: Tool Augmented Language Models
-  - OpenAGI: When LLM Meets Domain Experts
-  - Gorilla：Large Language Model Connected with Massive APIs  :star:
-  - WebGPT：Browser-assisted question-answering with human feedback
-  - REPLUG: Retrieval-Augmented Black-Box Language Models
-  - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
-  - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
-- 系统设计
-  - MRKL SystemsA modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning
-  - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences  :star:
+  - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
+  - Tool Learning with Foundation Models
+  - Tool Maker：Large Language Models as Tool Maker
   - TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
-  - WebCPM: Interactive Web Search for Chinese Long-form Question Answering
+- 调用搜索工具
+  - WebGPT：Browser-assisted question-answering with human feedback
+  - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
+  - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
+  - REPLUG: Retrieval-Augmented Black-Box Language Models
+  - Query Rewriting for Retrieval-Augmented Large Language Models
+- 调用模型
+  - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
+  - Gorilla：Large Language Model Connected with Massive APIs  :star:
+  - OpenAGI: When LLM Meets Domain Experts
+- 垂直领域
+  - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
+  - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
+  - ChemCrow Augmenting large language models with chemistry tools
+  - Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow
+  - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
   - Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions
   - API-Bank: A Benchmark for Tool-Augmented LLMs
   - ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs
+  - FACTSCORE: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
 - others
-  - Query Rewriting for Retrieval-Augmented Large Language Models
   - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - Generative Agents: Interactive Simulacra of Human Behavior
   - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society
+  - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
 
 ### LLM微调经验 (tune_practice_report)
 - 更少，质量更高、更复杂的指令数据带来质变
@@ -676,6 +683,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback
 - Factuality Enhanced Language Models for Open-Ended Text Generation
 - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
+- Rethinking with Retrieval: Faithful Large Language Model Inference
 
 ### 推理速度优化(fast_inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
