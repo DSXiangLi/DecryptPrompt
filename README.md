@@ -189,6 +189,7 @@
 |BMTTools: 清华出品多工具调用开源库，提供微调数据和评估ToolBench|https://github.com/OpenBMB/BMTools|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
+|MetaGPT: 覆盖软件公司全生命流程，例如产品经理等各个职业的AutoGPT|https://github.com/geekan/MetaGPT|
 |MiniAGI：自执行LLM Agent|https://github.com/muellerberndt/mini-agi|
 |AL Legion： 自执行LLM Agent|https://github.com/eumemic/ai-legion|
 |AgentVerse：多模型交互环境 |https://github.com/OpenBMB/AgentVerse|
@@ -477,6 +478,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
 - DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI
 - Enhancing Chat Language Models by Scaling High-quality Instructional Conversations
+- DiagGPT: An LLM-based Chatbot with Automatic Topic Management for Task-Oriented Dialogue
 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
@@ -604,6 +606,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
     -Textbooks Are All You Need
     - WizardLM: Empowering Large Language Models to Follow Complex Instructions
+    - MAYBE ONLY 0.5% DATA IS NEEDED: A PRELIMINARY EXPLORATION OF LOW TRAINING DATA INSTRUCTION TUNING
+    - AlpaGasus: Training A Better Alpaca with Fewer Data
 - 其他
     - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
     - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
