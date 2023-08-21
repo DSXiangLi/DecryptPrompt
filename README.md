@@ -186,6 +186,7 @@
 | 工具描述   | 链接   | 
 | --- | --- | 
 |langchain：LLM工具集|https://github.com/hwchase17/langchain|
+|semantic-kernel：整合大模型和编程语言的SDK|https://github.com/microsoft/semantic-kernel|
 |BMTTools: 清华出品多工具调用开源库，提供微调数据和评估ToolBench|https://github.com/OpenBMB/BMTools|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
@@ -374,6 +375,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Wolfram语言之父新书：这就是ChatGPT](https://book.douban.com/subject/36449803/?icn=index-latestbook-subject)
 - [谷歌出品：对大模型领悟能力的一些探索很有意思
 Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/explorables/grokking/)
+- [OpenAI首席科学家最新讲座解读LM无监督预训练学了啥 An observation on Generalization](https://simons.berkeley.edu/talks/ilya-sutskever-openai-2023-08-14)
 
 ## Papers
 ### paper List
@@ -628,6 +630,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
 - The Flan Collection Designing Data and Methods
 - Self-Consuming Generative Models Go MAD
+- InstructEval: Systematic Evaluation of Instruction Selection Methods
 
 ### 领域模型 (domain_llms)
 - MedGPT: Medical Concept Prediction from Clinical Narratives
