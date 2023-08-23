@@ -207,6 +207,8 @@
 |RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
 |Data-Copilot：时间序列等结构化数据分析领域的Agent解决方案|https://github.com/zwq2018/Data-Copilot|
 |DB-GPT: 以数据库为基础的GPT实验项目，使用本地化的GPT大模型与您的数据和环境进行交互|https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/index.html|
+|guardrails：降低模型幻觉的python框架，promp模板+validation+修正|https://github.com/shreyar/guardrails|
+|guidance：微软新开源框架，同样是降低模型幻觉的框架，prompt+chain的升级版加入逐步生成和思维链路|https://github.com/guidance-ai/guidance|
 
 ### 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
@@ -611,6 +613,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - MAYBE ONLY 0.5% DATA IS NEEDED: A PRELIMINARY EXPLORATION OF LOW TRAINING DATA INSTRUCTION TUNING
     - AlpaGasus: Training A Better Alpaca with Fewer Data
 - 其他
+    - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
     - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
     - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
     - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
