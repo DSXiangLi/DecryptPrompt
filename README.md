@@ -181,6 +181,7 @@
 |Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
 |FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
 |VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍|https://github.com/vllm-project/vllm|
+|EasyEdit：浙大开源支持多种模型，多种方案的模型知识精准编辑器|https://github.com/zjunlp/EasyEdit|
 
 ### LLM Agent工具
 | 工具描述   | 链接   | 
@@ -376,8 +377,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Llama 2: an incredible open LLM](https://www.interconnects.ai/p/llama-2-from-meta)
 - [Wolfram语言之父新书：这就是ChatGPT](https://book.douban.com/subject/36449803/?icn=index-latestbook-subject)
 - [谷歌出品：对大模型领悟能力的一些探索很有意思
-Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/explorables/grokking/)
-- [OpenAI首席科学家最新讲座解读LM无监督预训练学了啥 An observation on Generalization](https://simons.berkeley.edu/talks/ilya-sutskever-openai-2023-08-14)
+Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/explorables/grokking/) :star:
+- [OpenAI首席科学家最新讲座解读LM无监督预训练学了啥 An observation on Generalization](https://simons.berkeley.edu/talks/ilya-sutskever-openai-2023-08-14) :star:
 
 ## Papers
 ### paper List
@@ -702,9 +703,11 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding
 
 ### 模型知识编辑黑科技(model_edit)
-- Locating and Editing Factual Associations in GPT
+- ROME：Locating and Editing Factual Associations in GPT
 - Transformer Feed-Forward Layers Are Key-Value Memories
-- Mass-Editing Memory in a Transformer
+- MEMIT: Mass-Editing Memory in a Transformer
+- MEND：Fast Model Editing at Scale
+- Editing Large Language Models: Problems, Methods, and Opportunities
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
