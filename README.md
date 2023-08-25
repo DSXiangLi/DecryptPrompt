@@ -186,7 +186,8 @@
 ### LLM Agent工具
 | 工具描述   | 链接   | 
 | --- | --- | 
-|langchain：LLM工具集|https://github.com/hwchase17/langchain|
+|langchain：LLM Agent框架|https://github.com/hwchase17/langchain|
+|llama index：LLM Agent框架|https://github.com/jerryjliu/llama_index|
 |semantic-kernel：整合大模型和编程语言的SDK|https://github.com/microsoft/semantic-kernel|
 |BMTTools: 清华出品多工具调用开源库，提供微调数据和评估ToolBench|https://github.com/OpenBMB/BMTools|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
