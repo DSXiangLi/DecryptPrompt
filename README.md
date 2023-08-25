@@ -726,6 +726,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - LLava Visual Instruction Tuning
 - MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models
 - TabLLM: Few-shot Classification of Tabular Data with Large Language Models
+- BLIVA: A Simple Multimodal LLM for Better Handling of Text-Rich Visual Questions
 
 ### Others
 - Learnware: Small Models Do Big
