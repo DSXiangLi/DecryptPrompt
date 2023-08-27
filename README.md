@@ -3,12 +3,12 @@
 持续更新以下内容，Star to keep updated~
 
 目录顺序如下
-1. [国内外，垂直领域大模型](## 大模型们)
-2. [Agent和指令微调等训练框架](## 工具&框架)
-3. [开源指令，预训练，rlhf，对话，agent训练数据梳理](## 开源数据)
-4. [AIGC相关应用](## AIGC)
-5. [prompt写作指南和5星博客等资源梳理](## 资源)
-6. [Prompt和LLM论文细分方向梳理](## Papers)
+1. [国内外，垂直领域大模型](##大模型们)
+2. [Agent和指令微调等训练框架](##工具&框架)
+3. [开源指令，预训练，rlhf，对话，agent训练数据梳理](##开源数据)
+4. [AIGC相关应用](##AIGC)
+5. [prompt写作指南和5星博客等资源梳理](##资源)
+6. [Prompt和LLM论文细分方向梳理](##Papers)
 
 ## My blogs & ChatGPT应用
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
