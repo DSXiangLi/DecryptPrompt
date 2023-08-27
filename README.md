@@ -3,12 +3,12 @@
 持续更新以下内容，Star to keep updated~
 
 目录顺序如下
-1. [国内外，垂直领域大模型](##大模型们)
-2. [Agent和指令微调等训练框架](##工具&框架)
-3. [开源指令，预训练，rlhf，对话，agent训练数据梳理](##开源数据)
-4. [AIGC相关应用](##AIGC)
-5. [prompt写作指南和5星博客等资源梳理](##资源)
-6. [Prompt和LLM论文细分方向梳理](##Papers)
+1. [国内外，垂直领域大模型](##llms)
+2. [Agent和指令微调等训练框架](##tool-and-library)
+3. [开源指令，预训练，rlhf，对话，agent训练数据梳理](##training-data)
+4. [AIGC相关应用](##aigc)
+5. [prompt写作指南和5星博客等资源梳理](##resources)
+6. [Prompt和LLM论文细分方向梳理](##papers)
 
 ## My blogs & ChatGPT应用
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
@@ -25,7 +25,7 @@
 - [解密Prompt系列12. LLM Agent零微调范式 ReAct & Self Ask](https://cloud.tencent.com/developer/article/2305421)
 - [解密Prompt系列13. LLM Agent指令微调方案: Toolformer & Gorilla](https://cloud.tencent.com/developer/article/2312674)
 
-## 大模型们
+## LLMS
 ### 模型评测
 > 大模型评估尚未出现北极星指标，整体上全面性有余，泛化性不足，类perplexity的指标还未出现，期待ing ~
 
@@ -39,6 +39,7 @@
 |[Chain-of-thought评估](https://github.com/FranxYao/chain-of-thought-hub)|GSM8k, MATH等复杂问题排行榜|
 |[InfoQ 大模型综合能力评估](https://mp.weixin.qq.com/s?__biz=MjM5MDE0Mjc4MA==&mid=2651170429&idx=1&sn=b98af3bd14c9f97f1aa07f0f839bb3ec&scene=21#wechat_redirect)|面向中文，ChatGPT>文心一言> Claude>星火|
 |[ToolBench: 工具调用评估榜单](https://github.com/OpenBMB/ToolBench)|工具微调模型和ChatGPT进行对比，提供评测脚本|
+|[AgentBench: 推理决策评估榜单](https://github.com/THUDM/AgentBench)|清华联合多高校推出不同任务环境，例如购物，家居，操作系统等场景下模型推理决策能力|
 |[FlagEval](https://flageval.baai.ac.cn/#/home)|智源出品主观+客观LLM评分榜单|
 
 ### 国外模型
@@ -138,6 +139,7 @@
 |法律|[Lawyer Llama](https://github.com/AndrewZhe/lawyer-llama)|法律指令微调数据集：咨询+法律考试+对话进行指令微调|
 |法律|[LexiLaw](https://github.com/CSHaitao/LexiLaw)|法律指令微调数据集：问答+书籍概念解释，法条内容进行指令微调
 |法律|[ChatLaw](https://chatlaw.cloud/)|北大推出的法律大模型，应用形式很新颖类似频道内流一切功能皆融合在对话形式内|
+|法律|[录问模型](https://github.com/zhihaiLLM/wisdomInterrogatory)|在baichuan基础上40G二次预训练+100K指令微调，在知识库构建上采用了Emb+意图+关键词联想结合的方案|
 |金融|[FinChat.io](https://finchat.io/)|使用最新的财务数据，电话会议记录，季度和年度报告，投资书籍等进行训练|
 |金融|[OpenGPT](https://github.com/CogStack/OpenGPT)|领域LLM指令样本生成+微调框架|
 |金融|[乾元BigBang金融2亿模型](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main)|金融领域预训练+任务微调|
@@ -154,13 +156,15 @@
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
 |编程|[codegeex2](https://github.com/THUDM/CodeGeeX2)|Chatglm2的基础上CodeGeeX2-6B 进一步经过了 600B 代码数据预训练|
 |编程|[stabelcode](https://stability.ai/blog/stablecode-llm-generative-ai-coding)| 560B token多语言预训练+ 120,000 个 Alpaca指令对齐|
+|编程|[SQLCoder](https://github.com/defog-ai/sqlcoder)|在StarCoder的基础上微调15B超越gpt3.5|
+|数学|[MathGPT](https://www.mathgpt.com/)|是好未来自主研发的，面向全球数学爱好者和科研机构，以解题和讲题算法为核心的大模型。|
 |交通|[TransGPT](https://github.com/DUOMO/TransGPT)|LLama-7B+34.6万领域预训练+5.8万条领域指令对话微调（来自文档问答）|
 |科技|[Mozi](https://github.com/gmftbyGMFTBY/science-llm)|红睡衣预训练+论文QA数据集 + ChatGPT扩充科研对话数据|
 |天文|[StarGLM](https://github.com/Yu-Yang-Li/StarGLM)|天文知识指令微调，项目进行中后期考虑天文二次预训练+KG|
 |写作|[阅文-网文大模型介绍](https://www.zhihu.com/question/613058630)|签约作者内测中，主打的内容为打斗场景，剧情切换，环境描写，人设，世界观等辅助片段的生成|
 |写作|[MediaGPT](https://github.com/search?q=MediaGPT&type=repositories)|LLama-7B扩充词表+指令微调，指令来自国内媒体专家给出的在新闻创作上的80个子任务|
 
-## 工具&框架
+## Tool and Library
 ### 指令微调，预训练，rlhf框架
 | 工具描述   | 链接   | 
 | --- | --- | 
@@ -211,7 +215,7 @@
 |guardrails：降低模型幻觉的python框架，promp模板+validation+修正|https://github.com/shreyar/guardrails|
 |guidance：微软新开源框架，同样是降低模型幻觉的框架，prompt+chain的升级版加入逐步生成和思维链路|https://github.com/guidance-ai/guidance|
 
-## 开源数据
+## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
 | --- | --- | --- |
 |指令微调| self-instruct，GPT3自动生成&过滤得到指令集   |   https://github.com/yizhongw/self-instruct   |
@@ -335,7 +339,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [gemo.ai](https://www.genmo.ai/): 多模态聊天机器人，包括文本，图像，视频生成
 - [storybird](https://storybird.com/): 根据提示词生成故事绘本，还可以售卖
 
-## 资源
+## Resources
 ### 教程类
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
 - [OpenAI 接口被墙解决办法](https://github.com/riba2534/openai-scf-goproxy): 使用腾讯云搭建代理，亲测非常好用且手残党也可以轻松上手
@@ -484,6 +488,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
    - Self-Alignment with Instruction Backtranslation :star:
    - Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
+   - Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks
 - 微调经验/实验报告
     - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
     - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
@@ -511,6 +516,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Successive Prompting for Decomposing Complex Questions
     - Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework
+    - Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models
+    - Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -717,6 +724,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - RECITATION-AUGMENTED LANGUAGE MODELS
 - kNN PROMPTING: BEYOND-CONTEXT LEARNING WITH CALIBRATION-FREE NEAREST NEIGHBOR INFERENCE
 - EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus
+- Causality-aware Concept Extraction based on Knowledge-guided Prompting
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
