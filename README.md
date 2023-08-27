@@ -1,12 +1,14 @@
 # DecryptPrompt
 > 如果LLM的突然到来让你感到沮丧，不妨读下主目录的Choose Your Weapon Survival Strategies for Depressed AI Academics
 持续更新以下内容，Star to keep updated~
-1. 开源LLM
-2. 指令微调和RLHF数据以及训练框架
-3. Prompt和LLM相关论文按细分方向梳理
-4. AIGC相关应用
-5. Prompt指南和教程
-6. ChatGPT及AGI相关解读
+
+目录顺序如下
+1. [国内外，垂直领域大模型](## 大模型们)
+2. [Agent和指令微调等训练框架](## 工具&框架)
+3. [开源指令，预训练，rlhf，对话，agent训练数据梳理](## 开源数据)
+4. [AIGC相关应用](## AIGC)
+5. [prompt写作指南和5星博客等资源梳理](## 资源)
+6. [Prompt和LLM论文细分方向梳理](## Papers)
 
 ## My blogs & ChatGPT应用
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
@@ -22,12 +24,8 @@
 - [解密Prompt系列11. 小模型也能COT，先天不足后天补](https://cloud.tencent.com/developer/article/old/2301999)
 - [解密Prompt系列12. LLM Agent零微调范式 ReAct & Self Ask](https://cloud.tencent.com/developer/article/2305421)
 - [解密Prompt系列13. LLM Agent指令微调方案: Toolformer & Gorilla](https://cloud.tencent.com/developer/article/2312674)
-- [ChatGPT应用1. MakeInstruction零人工指令样本构建](https://huggingface.co/spaces/xl2533/MakeInstruction)
-- [ChatGPT应用2. ChatPDF简单复现](https://huggingface.co/spaces/xl2533/FinDoc)
 
-
-## 模型和数据
-
+## 大模型们
 ### 模型评测
 > 大模型评估尚未出现北极星指标，整体上全面性有余，泛化性不足，类perplexity的指标还未出现，期待ing ~
 
@@ -162,7 +160,8 @@
 |写作|[阅文-网文大模型介绍](https://www.zhihu.com/question/613058630)|签约作者内测中，主打的内容为打斗场景，剧情切换，环境描写，人设，世界观等辅助片段的生成|
 |写作|[MediaGPT](https://github.com/search?q=MediaGPT&type=repositories)|LLama-7B扩充词表+指令微调，指令来自国内媒体专家给出的在新闻创作上的80个子任务|
 
-### 指令微调&RL工具
+## 工具&框架
+### 指令微调，预训练，rlhf框架
 | 工具描述   | 链接   | 
 | --- | --- | 
 |LoRA：Low-Rank指令微调方案|https://github.com/tloen/alpaca-lora|
@@ -212,7 +211,7 @@
 |guardrails：降低模型幻觉的python框架，promp模板+validation+修正|https://github.com/shreyar/guardrails|
 |guidance：微软新开源框架，同样是降低模型幻觉的框架，prompt+chain的升级版加入逐步生成和思维链路|https://github.com/guidance-ai/guidance|
 
-### 开源数据
+## 开源数据
 | 数据类型    | 数据描述    | 数据链接    |
 | --- | --- | --- |
 |指令微调| self-instruct，GPT3自动生成&过滤得到指令集   |   https://github.com/yizhongw/self-instruct   |
@@ -288,8 +287,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |Tool-多工具| BmTools开源的多工具调用指令数据集| https://github.com/OpenBMB/BMTools|
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
 
-## Resources 
-### 应用类
+## AIGC
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
 - [godmode](https://godmode.space/)：需要人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
 - [agentgpt](https://agentgpt.reworkd.ai/): 基础AutoGPT![](https://img.shields.io/badge/Auto-Agent-white) :star:
@@ -337,6 +335,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [gemo.ai](https://www.genmo.ai/): 多模态聊天机器人，包括文本，图像，视频生成
 - [storybird](https://storybird.com/): 根据提示词生成故事绘本，还可以售卖
 
+## 资源
 ### 教程类
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
 - [OpenAI 接口被墙解决办法](https://github.com/riba2534/openai-scf-goproxy): 使用腾讯云搭建代理，亲测非常好用且手残党也可以轻松上手
@@ -478,7 +477,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - 更少，质量更高、更复杂的指令数据带来质变
     - LIMA: Less Is More for Alignment :star:
     - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
-    -Textbooks Are All You Need
+    - Textbooks Are All You Need
     - AlpaGasus: Training A Better Alpaca with Fewer Data
 - 新对齐/微调方案
    - WizardLM: Empowering Large Language Models to Follow Complex Instructions
