@@ -405,56 +405,56 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Survey of Hallucination in Natural Language Generation
 
 ### 大模型能力探究
-- LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
-- Evidence of Meaning in Language Models Trained on Programs
-- Sparks of Artificial General Intelligence: Early experiments with GPT-4
-- How does in-context learning work? A framework for understanding the differences from traditional supervised learning
-- Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers :star:
-- Emerging Ability of Large Language Models :star:
-- Rethinking the Role of Demonstrations What Makes incontext learning work? :star:
-- Can Explanations Be Useful for Calibrating Black Box Models
-- IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
-- Can Large Language Models Infer Causation from Correlation?
-- Holistic Evaluation of Language Model
-- Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond
-- Theory of Mind May Have Spontaneously Emerged in Large Language Models
-- Beyond The Imitation Game: Quantifying And Extrapolating The Capabilities Of Language Models
-- On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective
-- Demystifying GPT Self-Repair for Code Generation
-- Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations
-- Language acquisition: do children and language models follow similar learning stages?
-- Trained Transformers Learn Linear Models In-Context
+- In Context Learning 
+  - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
+  - How does in-context learning work? A framework for understanding the differences from traditional supervised learning
+  - Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers :star:
+  - Rethinking the Role of Demonstrations What Makes incontext learning work? :star:
+  - Trained Transformers Learn Linear Models In-Context
+- 涌现能力
+  - Sparks of Artificial General Intelligence: Early experiments with GPT-4
+  - Emerging Ability of Large Language Models :star:
+- 能力评估
+  - IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
+  - Can Large Language Models Infer Causation from Correlation?
+  - Holistic Evaluation of Language Model
+  - Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond
+  - Theory of Mind May Have Spontaneously Emerged in Large Language Models
+  - Beyond The Imitation Game: Quantifying And Extrapolating The Capabilities Of Language Models
+  - Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations
+  - Demystifying GPT Self-Repair for Code Generation
+  - Evidence of Meaning in Language Models Trained on Programs
+  - Can Explanations Be Useful for Calibrating Black Box Models
+  - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective 
+  - Language acquisition: do children and language models follow similar learning stages?
 
-### Tunning Free Prompt
-- GPT2: Language Models are Unsupervised Multitask Learners
-- GPT3: Language Models are Few-Shot Learners   :star:
-- LAMA: Language Models as Knowledge Bases?
-- AutoPrompt: Eliciting Knowledge from Language Models
-
-### Fix-Prompt LM Tunning
-- T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
-- PET-TC(a): Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference  :star:
-- PET-TC(b): PETSGLUE It’s Not Just Size That Matters Small Language Models are also few-shot learners
-- GenPET: Few-Shot Text Generation with Natural Language Instructions
-- LM-BFF: Making Pre-trained Language Models Better Few-shot Learners  :star:
-- ADEPT: Improving and Simplifying Pattern Exploiting Training
-
-### Fix-LM Prompt Tunning 
-- Prefix-tuning: Optimizing continuous prompts for generation  
-- Prompt-tunning: The power of scale for parameter-efficient prompt tuning :star:
-- P-tunning: GPT Understands Too :star:
-- WARP: Word-level Adversarial ReProgramming
-
-### LM + Prompt Tunning 
-- P-tunning v2: Prompt Tuning Can Be Comparable to Fine-tunning Universally Across Scales and Tasks
-- PTR: Prompt Tuning with Rules for Text Classification
-- PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
-
-### Fix-LM Adapter Tunning
-- LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS :star:
-- LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning
-- Parameter-Efficient Transfer Learning for NLP
-- INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
+### Prompt Tunning范式
+- Tunning Free Prompt
+  - GPT2: Language Models are Unsupervised Multitask Learners
+  - GPT3: Language Models are Few-Shot Learners   :star:
+  - LAMA: Language Models as Knowledge Bases?
+  - AutoPrompt: Eliciting Knowledge from Language Models
+- Fix-Prompt LM Tunning
+  - T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+  - PET-TC(a): Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference  :star:
+  - PET-TC(b): PETSGLUE It’s Not Just Size That Matters Small Language Models are also few-shot learners
+  - GenPET: Few-Shot Text Generation with Natural Language Instructions
+  - LM-BFF: Making Pre-trained Language Models Better Few-shot Learners  :star:
+  - ADEPT: Improving and Simplifying Pattern Exploiting Training
+- Fix-LM Prompt Tunning 
+  - Prefix-tuning: Optimizing continuous prompts for generation  
+  - Prompt-tunning: The power of scale for parameter-efficient prompt tuning :star:
+  - P-tunning: GPT Understands Too :star:
+  - WARP: Word-level Adversarial ReProgramming
+- LM + Prompt Tunning 
+  - P-tunning v2: Prompt Tuning Can Be Comparable to Fine-tunning Universally Across Scales and Tasks
+  - PTR: Prompt Tuning with Rules for Text Classification
+  - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
+- Fix-LM Adapter Tunning
+  - LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS :star:
+  - LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning
+  - Parameter-Efficient Transfer Learning for NLP
+  - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
 
 ### 主流LLMS
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -465,17 +465,32 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Backpack Language Models
 - Llama 2: Open Foundation and Fine-Tuned Chat Models
 
-###  指令微调 (instruction_tunning)
-- Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
-- Flan-T5: Scaling Instruction-Finetuned Language Models
-- Instruct-GPT: Training language models to follow instructions with human feedback :star:
-- T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
-- Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
-- Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
-- Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
-- INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
-- Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
-- Self-Alignment with Instruction Backtranslation :star:
+###  指令微调&对齐 (instruction_tunning)
+- 经典方案
+  - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
+  - Flan-T5: Scaling Instruction-Finetuned Language Models
+  - Instruct-GPT: Training language models to follow instructions with human feedback :star:
+  - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
+  - Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
+  - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
+  - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
+  - INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
+- 更少，质量更高、更复杂的指令数据带来质变
+    - LIMA: Less Is More for Alignment :star:
+    - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
+    -Textbooks Are All You Need
+    - AlpaGasus: Training A Better Alpaca with Fewer Data
+- 新对齐/微调方案
+   - WizardLM: Empowering Large Language Models to Follow Complex Instructions
+   - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
+   - Self-Alignment with Instruction Backtranslation :star:
+   - Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
+- 微调经验/实验报告
+    - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
+    - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
+    - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
+    - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
+    - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
 
 ### 对话模型
 - LaMDA: Language Models for Dialog Applications
@@ -605,22 +620,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Generative Agents: Interactive Simulacra of Human Behavior
   - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
-
-### LLM微调经验 (tune_practice_report)
-- 更少，质量更高、更复杂的指令数据带来质变
-    - LIMA: Less Is More for Alignment :star:
-    - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
-    -Textbooks Are All You Need
-    - WizardLM: Empowering Large Language Models to Follow Complex Instructions
-    - MAYBE ONLY 0.5% DATA IS NEEDED: A PRELIMINARY EXPLORATION OF LOW TRAINING DATA INSTRUCTION TUNING
-    - AlpaGasus: Training A Better Alpaca with Fewer Data
-- 其他
-    - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
-    - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
-    - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
-    - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
-    - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
-    - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
 
 ### 指令数据生成 (instruction_data_gen)
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
