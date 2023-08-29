@@ -3,12 +3,12 @@
 持续更新以下内容，Star to keep updated~
 
 目录顺序如下
-1. [国内外，垂直领域大模型](##llms)
-2. [Agent和指令微调等训练框架](##tool-and-library)
-3. [开源指令，预训练，rlhf，对话，agent训练数据梳理](##training-data)
-4. [AIGC相关应用](##aigc)
-5. [prompt写作指南和5星博客等资源梳理](##resources)
-6. [Prompt和LLM论文细分方向梳理](##papers)
+1. 国内外，垂直领域大模型
+2. Agent和指令微调等训练框架
+3. 开源指令，预训练，rlhf，对话，agent训练数据梳理
+4. AIGC相关应用
+5. prompt写作指南和5星博客等资源梳理
+6. Prompt和LLM论文细分方向梳理
 
 ## My blogs & ChatGPT应用
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
@@ -41,6 +41,7 @@
 |[ToolBench: 工具调用评估榜单](https://github.com/OpenBMB/ToolBench)|工具微调模型和ChatGPT进行对比，提供评测脚本|
 |[AgentBench: 推理决策评估榜单](https://github.com/THUDM/AgentBench)|清华联合多高校推出不同任务环境，例如购物，家居，操作系统等场景下模型推理决策能力|
 |[FlagEval](https://flageval.baai.ac.cn/#/home)|智源出品主观+客观LLM评分榜单|
+|[Bird-Bench](https://bird-bench.github.io/)|更贴合真实世界应用的超大数据库，需要领域知识的NL2SQL榜单，模型追赶人类尚有时日|
 
 ### 国外模型
 |模型链接     | 模型描述    |
@@ -489,6 +490,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Self-Alignment with Instruction Backtranslation :star:
    - Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
    - Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks
+   - PROMPT2MODEL: Generating Deployable Models from Natural Language Instructions
 - 微调经验/实验报告
     - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
     - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
@@ -626,6 +628,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Generative Agents: Interactive Simulacra of Human Behavior
   - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
+  - RecallM: An Architecture for Temporal Context Understanding and Question Answering
 
 ### 指令数据生成 (instruction_data_gen)
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
@@ -685,6 +688,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - C3: Zero-shot Text-to-SQL with ChatGPT
 - SQL-PALM: IMPROVED LARGE LANGUAGE MODEL ADAPTATION FOR TEXT-TO-SQL
 - MIGA: A Unified Multi-task Generation Framework for Conversational Text-to-SQL
+- RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
+- Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
+- Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQL
 
 ### 降低模型幻觉 (reliability)
 - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
