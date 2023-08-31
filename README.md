@@ -153,6 +153,7 @@
 |金融|[AlphaBox](https://www.alphabox.top)|熵简科技发布大模型金融应用，多文档问答+会议转录+文档编辑|
 |金融|[曹植](http://www.datagrand.com/products/aigc/)|达观发布金融大模型融合data2text等金融任务，赋能报告写作|
 |金融|[聚宝盆](https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese)|基于 LLaMA 系基模型经过中文金融知识指令精调/指令微调(Instruct-tuning) 的微调模型|
+|金融|[PIXIU](https://github.com/chancefocus/PIXIU)|整理了多个金融任务数据集加入了时间序列数据进行指令微调|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -682,16 +683,23 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Lost in the Middle: How Language Models Use Long Contexts :star:
 
 ### NL2SQL
-- A Case-Based Reasoning Framework for Adaptive Prompting in Cross-Domain Text-to-SQL
-- DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction
-- ChatDB: AUGMENTING LLMS WITH DATABASES AS THEIR SYMBOLIC MEMORY
-- A comprehensive evaluation of ChatGPT’s zero-shot Text-to-SQL capability
-- C3: Zero-shot Text-to-SQL with ChatGPT
-- SQL-PALM: IMPROVED LARGE LANGUAGE MODEL ADAPTATION FOR TEXT-TO-SQL
-- MIGA: A Unified Multi-task Generation Framework for Conversational Text-to-SQL
-- RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
-- Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
-- Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQL
+- 大模型方案
+  - DIN-SQL: Decomposed In-Context Learning of Text-to-SQL with Self-Correction :star:
+  - C3: Zero-shot Text-to-SQL with ChatGPT  :star:
+  - SQL-PALM: IMPROVED LARGE LANGUAGE MODEL ADAPTATION FOR TEXT-TO-SQL
+  - BIRD Can LLM Already Serve as A Database Interface? A BIg Bench for Large-Scale Database Grounded Text-to-SQL :star:
+  - A Case-Based Reasoning Framework for Adaptive Prompting in Cross-Domain Text-to-SQL
+  - ChatDB: AUGMENTING LLMS WITH DATABASES AS THEIR SYMBOLIC MEMORY
+  - A comprehensive evaluation of ChatGPT’s zero-shot Text-to-SQL capability
+  - Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
+- Domain Knowledge Intensive
+  - Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge
+  - Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion
+  - Towards Robustness of Text-to-SQL Models against Synonym Substitution
+  - FinQA: A Dataset of Numerical Reasoning over Financial Data
+- others
+  - RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
+  - MIGA: A Unified Multi-task Generation Framework for Conversational Text-to-SQL
 
 ### 降低模型幻觉 (reliability)
 - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
@@ -741,6 +749,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models
 - TabLLM: Few-shot Classification of Tabular Data with Large Language Models
 - BLIVA: A Simple Multimodal LLM for Better Handling of Text-Rich Visual Questions
+- mPLUG-Owl : Modularization Empowers Large Language Models with Multimodality
 
 ### Others
 - Learnware: Small Models Do Big
