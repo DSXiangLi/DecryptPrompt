@@ -155,6 +155,7 @@
 |金融|[曹植](http://www.datagrand.com/products/aigc/)|达观发布金融大模型融合data2text等金融任务，赋能报告写作|
 |金融|[聚宝盆](https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese)|基于 LLaMA 系基模型经过中文金融知识指令精调/指令微调(Instruct-tuning) 的微调模型|
 |金融|[PIXIU](https://github.com/chancefocus/PIXIU)|整理了多个金融任务数据集加入了时间序列数据进行指令微调|
+|金融|[ChatFund](https://chat.funddb.cn/)|韭圈儿发布的第一个基金大模型，看起来是做了多任务指令微调，和APP已有的数据功能进行了全方位的打通，从选基，到持仓分析等等|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -524,6 +525,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework
     - Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models
     - Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning
+    - LAMBADA: Backward Chaining for Automated Reasoning in Natural Language
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
