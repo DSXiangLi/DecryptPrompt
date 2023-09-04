@@ -131,11 +131,12 @@
 |医疗|[PMC-LLaMA](https://github.com/chaoyi-wu/PMC-LLaMA)|医疗论文微调Llama|
 |医疗|[PULSE](https://github.com/openmedlab/PULSE)|Bloom微调+继续预训练|
 |医疗|[NHS-LLM](https://github.com/CogStack/OpenGPT/tree/main)|Chatgpt生成的医疗问答，对话，微调模型|
-|医疗|[神农医疗大模型](https://github.com/michael-wzhu/ShenNong-TCM-LLM)|以中医知识图谱的实体为中心生成的中医知识指令数据集微调LLama-7B|
+|医疗|[神农医疗大模型](https://github.com/michael-wzhu/ShenNong-TCM-LLM)|以中医知识图谱的实体为中心生成的中医知识指令数据集11w+，微调LLama-7B|
 |医疗|岐黄问道大模型|3个子模型构成，已确诊疾病的临床治疗模型+基于症状的临床诊疗模型+中医养生条理模型，看起来是要ToB落地|
 |医疗|[MeChat](https://github.com/qiuhuachuan/smile)|心理咨询领域，通过chatgpt改写多轮对话56k|
 |医疗|[SoulChat](https://github.com/scutcyr/SoulChat)|心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调 ChatGLM-6B |
 |医疗|[MindChat](https://github.com/X-D-Lab/MindChat)|MindChat-Baichuan-13B,Qwen-7B,MindChat-InternLM-7B使用不同基座在模型安全，共情，人类价值观对其上进行了强化|
+|医疗|[DISC-MedLLM](https://github.com/FudanDISC/DISC-MedLLM)|疾病知识图谱构建QA对+QA对转化成单论对话+真实世界数据重构+人类偏好数据筛选，SFT微调baichuan|
 |法律|[LawGPT-zh](https://github.com/LiuHC0428/LAW-GPT)|利用ChatGPT清洗CrimeKgAssitant数据集得到52k单轮问答+我们根据中华人民共和国法律手册上最核心的9k法律条文，利用ChatGPT联想生成具体的情景问答+知识问答使用ChatGPT基于文本构建QA对|
 |法律|[LawGPT](https://github.com/pengxiao-song/LaWGPT)|基于llama+扩充词表二次预训练+基于法律条款构建QA指令微调|
 |法律|[Lawyer Llama](https://github.com/AndrewZhe/lawyer-llama)|法律指令微调数据集：咨询+法律考试+对话进行指令微调|
@@ -486,6 +487,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
     - Textbooks Are All You Need
     - AlpaGasus: Training A Better Alpaca with Fewer Data
+    - InstructionGPT-4: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4
 - 新对齐/微调方案
    - WizardLM: Empowering Large Language Models to Follow Complex Instructions
    - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
@@ -750,6 +752,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - TabLLM: Few-shot Classification of Tabular Data with Large Language Models
 - BLIVA: A Simple Multimodal LLM for Better Handling of Text-Rich Visual Questions
 - mPLUG-Owl : Modularization Empowers Large Language Models with Multimodality
+- LVLM eHub: A Comprehensive Evaluation Benchmark for Large VisionLanguage Models
 
 ### Others
 - Learnware: Small Models Do Big
