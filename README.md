@@ -43,6 +43,8 @@
 |[AgentBench: 推理决策评估榜单](https://github.com/THUDM/AgentBench)|清华联合多高校推出不同任务环境，例如购物，家居，操作系统等场景下模型推理决策能力|
 |[FlagEval](https://flageval.baai.ac.cn/#/home)|智源出品主观+客观LLM评分榜单|
 |[Bird-Bench](https://bird-bench.github.io/)|更贴合真实世界应用的超大数据库，需要领域知识的NL2SQL榜单，模型追赶人类尚有时日|
+|[kola](http://103.238.162.37:31622/LeaderBoard)|以世界知识为核心的评价基准，包括已知的百科知识和未知的近90天网络发布内容，评价知识记忆，理解，应用和创造能力|
+
 
 ### 国外模型
 |模型链接     | 模型描述    |
@@ -168,6 +170,7 @@
 |天文|[StarGLM](https://github.com/Yu-Yang-Li/StarGLM)|天文知识指令微调，项目进行中后期考虑天文二次预训练+KG|
 |写作|[阅文-网文大模型介绍](https://www.zhihu.com/question/613058630)|签约作者内测中，主打的内容为打斗场景，剧情切换，环境描写，人设，世界观等辅助片段的生成|
 |写作|[MediaGPT](https://github.com/search?q=MediaGPT&type=repositories)|LLama-7B扩充词表+指令微调，指令来自国内媒体专家给出的在新闻创作上的80个子任务|
+|电商|[EcomGPT](https://github.com/Alibaba-NLP/EcomGPT)|电商领域任务指令微调大模型，指令样本250万，基座模型是Bloomz|
 
 ## Tool and Library
 ### 指令微调，预训练，rlhf框架
@@ -666,6 +669,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - SMILE: Single-turn to Multi-turn Inclusive Language Expansion via ChatGPT for Mental Health Support
 - KITLM: Domain-Specific Knowledge InTegration into Language Models for Question Answering
 - FinVis-GPT: A Multimodal Large Language Model for Financial Chart Analysis
+- EcomGPT: Instruction-tuning Large Language Models with Chain-of-Task Tasks for E-commerce 
 
 ### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
@@ -720,6 +724,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Factuality Enhanced Language Models for Open-Ended Text Generation
 - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
 - Rethinking with Retrieval: Faithful Large Language Model Inference
+- KoLA: Carefully Benchmarking World Knowledge of Large Language Models
+- RefGPT: Reference → Truthful & Customized Dialogues Generation by GPTs and for GPTs
 
 ### 推理速度优化(fast_inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
