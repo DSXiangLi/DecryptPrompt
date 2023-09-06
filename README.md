@@ -193,6 +193,7 @@
 |FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
 |VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍|https://github.com/vllm-project/vllm|
 |EasyEdit：浙大开源支持多种模型，多种方案的模型知识精准编辑器|https://github.com/zjunlp/EasyEdit|
+|FlexFlow：同大模型部署推理框架|https://github.com/flexflow/FlexFlow|
 
 ### LLM Agent工具
 | 工具描述   | 链接   | 
@@ -204,6 +205,7 @@
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
 |MetaGPT: 覆盖软件公司全生命流程，例如产品经理等各个职业的AutoGPT|https://github.com/geekan/MetaGPT|
+|ResearchGPT: 论文写作领域的AutoGPT，融合论文拆解+网络爬虫|https://github.com/assafelovic/gpt-researcher|
 |MiniAGI：自执行LLM Agent|https://github.com/muellerberndt/mini-agi|
 |AL Legion： 自执行LLM Agent|https://github.com/eumemic/ai-legion|
 |AgentVerse：多模型交互环境 |https://github.com/OpenBMB/AgentVerse|
@@ -222,6 +224,7 @@
 |DB-GPT: 以数据库为基础的GPT实验项目，使用本地化的GPT大模型与您的数据和环境进行交互|https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/index.html|
 |guardrails：降低模型幻觉的python框架，promp模板+validation+修正|https://github.com/shreyar/guardrails|
 |guidance：微软新开源框架，同样是降低模型幻觉的框架，prompt+chain的升级版加入逐步生成和思维链路|https://github.com/guidance-ai/guidance|
+|Ragas: 评估检索增强LLM效果的框架，基于大模型prompt评估事实性，召回相关性，召回内容质量，回答相关性等|https://github.com/explodinggradients/ragas#fire-quickstart|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
