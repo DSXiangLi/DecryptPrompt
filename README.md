@@ -209,6 +209,7 @@
 |MiniAGI：自执行LLM Agent|https://github.com/muellerberndt/mini-agi|
 |AL Legion： 自执行LLM Agent|https://github.com/eumemic/ai-legion|
 |AgentVerse：多模型交互环境 |https://github.com/OpenBMB/AgentVerse|
+|AgentSims: 给定一个社会环境，评估LLM作为智能体的预定任务目标完成能力的沙盒环境||
 |GPTRPG：RPG环境 AI Agent游戏化|https://github.com/dzoba/gptrpg|
 |GPTEngineer：自动工具构建和代码生成|https://github.com/AntonOsika/gpt-engineer|
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
@@ -303,9 +304,10 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
 
 ## AIGC
+- [NexusGPT](https://nexus.snikpic.io/): ![](https://img.shields.io/badge/Auto-Agent-white): AutoGPT可以出来工作了，第一个全AI Freelance平台
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
-- [godmode](https://godmode.space/)：需要人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
-- [agentgpt](https://agentgpt.reworkd.ai/): 基础AutoGPT![](https://img.shields.io/badge/Auto-Agent-white) :star:
+- [godmode](https://godmode.space/)：可以进行人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
+- [agentgpt](https://agentgpt.reworkd.ai/): 基础版AutoGPT![](https://img.shields.io/badge/Auto-Agent-white) :star:
 - [do Anything](https://www.doanythingmachine.com/): AutoGPT Like的to Do List生成器  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了~  ![](https://img.shields.io/badge/Tool-Business-red)  :star:
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
@@ -394,6 +396,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [谷歌出品：对大模型领悟能力的一些探索很有意思
 Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/explorables/grokking/) :star:
 - [OpenAI首席科学家最新讲座解读LM无监督预训练学了啥 An observation on Generalization](https://simons.berkeley.edu/talks/ilya-sutskever-openai-2023-08-14) :star:
+- [The Complete Beginners Guide To Autonomous Agents](https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents): Octane AI创始人 Matt Schlicht发表的关于人工智能代理的一些思考
 
 ## Papers
 ### paper List
@@ -617,6 +620,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
   - REPLUG: Retrieval-Augmented Black-Box Language Models
   - Query Rewriting for Retrieval-Augmented Large Language Models
+  - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
+  - Atlas: Few-shot Learning with Retrieval Augmented Language Models
 - 调用模型
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -634,12 +639,12 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - API-Bank: A Benchmark for Tool-Augmented LLMs
   - ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs
   - FACTSCORE: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
-- others
-  - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
-  - Inference with Reference: Lossless Acceleration of Large Language Models
+- 智能体
   - Generative Agents: Interactive Simulacra of Human Behavior
   - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
+- 其他
+  - Inference with Reference: Lossless Acceleration of Large Language Models
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
 
 ### 指令数据生成 (instruction_data_gen)
