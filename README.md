@@ -498,6 +498,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Textbooks Are All You Need
     - AlpaGasus: Training A Better Alpaca with Fewer Data
     - InstructionGPT-4: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4
+    - Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
+    - Visual Instruction Tuning with Polite Flamingo
 - 新对齐/微调方案
    - WizardLM: Empowering Large Language Models to Follow Complex Instructions
    - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
