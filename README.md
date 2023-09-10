@@ -397,6 +397,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/explorables/grokking/) :star:
 - [OpenAI首席科学家最新讲座解读LM无监督预训练学了啥 An observation on Generalization](https://simons.berkeley.edu/talks/ilya-sutskever-openai-2023-08-14) :star:
 - [The Complete Beginners Guide To Autonomous Agents](https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents): Octane AI创始人 Matt Schlicht发表的关于人工智能代理的一些思考
+- [An Initial Exploration of Theoretical Support for Language Model Data Engineering. Part 1: Pretraining](https://yaofu.notion.site/An-Initial-Exploration-of-Theoretical-Support-for-Language-Model-Data-Engineering-Part-1-Pretraini-dc480d9bf7ff4659afd8c9fb738086eb): 符尧大佬系列新作，通过了解大模型背后的数据工程来了解模型本质，第一篇预训练数据
 
 ## Papers
 ### paper List
@@ -495,7 +496,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - 更少，质量更高、更复杂的指令数据带来质变
     - LIMA: Less Is More for Alignment :star:
     - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
-    - Textbooks Are All You Need
+    - Textbooks Are All You Need  :star:
     - AlpaGasus: Training A Better Alpaca with Fewer Data
     - InstructionGPT-4: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4
     - Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
@@ -659,10 +660,10 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Baize An Open-Source Chat Model with Parameter-Efficient Tuning on self-Chat Data
 - SELF-QA Unsupervised Knowledge Guided alignment.
 - GPT Self-Supervision for a Better Data Annotator
-- Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
 - The Flan Collection Designing Data and Methods
 - Self-Consuming Generative Models Go MAD
 - InstructEval: Systematic Evaluation of Instruction Selection Methods
+- Overwriting Pretrained Bias with Finetuning Data
 
 ### 领域模型 (domain_llms)
 - MedGPT: Medical Concept Prediction from Clinical Narratives
@@ -742,6 +743,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Fast Inference from Transformers via Speculative Decoding
 - GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints
 - Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding
+- SkipDecode: Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inference
 
 ### 模型知识编辑黑科技(model_edit)
 - ROME：Locating and Editing Factual Associations in GPT
