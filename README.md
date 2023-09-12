@@ -596,6 +596,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Chain of Hindsight Aligns Language Models with Feedback
   - AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback
   - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
+  - RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
@@ -664,6 +665,11 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Self-Consuming Generative Models Go MAD
 - InstructEval: Systematic Evaluation of Instruction Selection Methods
 - Overwriting Pretrained Bias with Finetuning Data
+
+### 预训练数据(pretrain_data)
+- DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining
+- The Pile: An 800GB Dataset of Diverse Text for Language Modeling
+- CCNet: Extracting High Quality Monolingual Datasets fromWeb Crawl Data
 
 ### 领域模型 (domain_llms)
 - MedGPT: Medical Concept Prediction from Clinical Narratives
