@@ -296,6 +296,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |中文预训练| 智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
 |中文预训练| 里屋社区发起开源力量收集中文互联网语料集MNBVC目标是对标ChatGPT的40T|https://github.com/esbatmop/MNBVC|
 |中文预训练|复旦开源15万中文图书下载和抽取方案|https://github.com/FudanNLPLAB/CBook-150K|
+|中文预训练|书生万卷数据集来自公开网页多模态数据集，包括文本，图文和视频，其中文本1T，图文150G|https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0|
 |领域预训练| 首个中文科学文献数据集CSL,也有多种NLP任务数据 |https://github.com/ydli-ai/CSL|
 |平行语料| news-commentary中英平行语料，用于中英间知识迁移|https://data.statmt.org/news-commentary/v15/training/|
 |多源数据集整合| opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
@@ -420,7 +421,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Augmented Language Models: a Survey :star:
 - Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
 - Challenges and Applications of Large Language Models
-- Survey of Hallucination in Natural Language Generation
 
 ### 大模型能力探究
 - In Context Learning 
@@ -670,6 +670,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining
 - The Pile: An 800GB Dataset of Diverse Text for Language Modeling
 - CCNet: Extracting High Quality Monolingual Datasets fromWeb Crawl Data
+- WanJuan: A Comprehensive Multimodal Dataset for Advancing English and Chinese Large Models
+- CLUECorpus2020: A Large-scale Chinese Corpus for Pre-training Language Model
 
 ### 领域模型 (domain_llms)
 - MedGPT: Medical Concept Prediction from Clinical Narratives
@@ -727,6 +729,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - MIGA: A Unified Multi-task Generation Framework for Conversational Text-to-SQL
 
 ### 降低模型幻觉 (reliability)
+- Survey of Hallucination in Natural Language Generation
 - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
 - SELF-REFINE:ITERATIVE REFINEMENT WITH SELF-FEEDBACK  :star:
 - PROMPTING GPT-3 TO BE RELIABLE
