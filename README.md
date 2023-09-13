@@ -612,6 +612,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Reflexion: Language Agents with Verbal Reinforcement Learning  :star:
   - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks
   - Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework
+  - RestGPT: Connecting Large Language Models with Real-World RESTful APIs
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -636,6 +637,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ChemCrow Augmenting large language models with chemistry tools
   - Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow
   - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
+  - PointLLM: Empowering Large Language Models to Understand Point Clouds
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
