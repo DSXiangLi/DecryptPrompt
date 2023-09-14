@@ -25,6 +25,7 @@
 - [解密Prompt系列12. LLM Agent零微调范式 ReAct & Self Ask](https://cloud.tencent.com/developer/article/2305421)
 - [解密Prompt系列13. LLM Agent指令微调方案: Toolformer & Gorilla](https://cloud.tencent.com/developer/article/2312674)
 - [解密Prompt系列14. LLM Agent之搜索应用设计：WebGPT & WebGLM & WebCPM](https://cloud.tencent.com/developer/article/2319879)
+- [解密Prompt系列15. LLM Agent之数据库应用设计：DIN & C3 & SQL-Palm & BIRD](https://cloud.tencent.com/developer/article/2328749)
 
 ## LLMS
 ### 模型评测
@@ -193,7 +194,8 @@
 |FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
 |VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍|https://github.com/vllm-project/vllm|
 |EasyEdit：浙大开源支持多种模型，多种方案的模型知识精准编辑器|https://github.com/zjunlp/EasyEdit|
-|FlexFlow：同大模型部署推理框架|https://github.com/flexflow/FlexFlow|
+|FlexFlow：模型部署推理框架|https://github.com/flexflow/FlexFlow|
+|Medusa：针对采样解码的推理加速框架，可以和其他策略结合|https://github.com/FasterDecoding/Medusa|
 
 ### LLM Agent工具
 | 工具描述   | 链接   | 
@@ -487,13 +489,15 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - 经典方案
   - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
   - Flan-T5: Scaling Instruction-Finetuned Language Models
+  - ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning
   - Instruct-GPT: Training language models to follow instructions with human feedback :star:
   - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
   - Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
   - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
+  - ZeroPrompt: Scaling Prompt-Based Pretraining to 1,000 Tasks Improves Zero-shot Generalization
   - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
   - INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
-- 更少，质量更高、更复杂的指令数据带来质变
+- 更少，质量更高、更多样的指令数据带来质变
     - LIMA: Less Is More for Alignment :star:
     - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
     - Textbooks Are All You Need  :star:
