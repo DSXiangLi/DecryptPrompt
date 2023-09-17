@@ -93,6 +93,8 @@
 |[LLama2-chinese](https://github.com/FlagAlpha/Llama2-Chinese)|没等太久中文预训练微调后的llama2它来了~|
 |[YuLan-chat2](https://github.com/RUC-GSAI/YuLan-Chat)|高瓴人工智能基于Llama-2中英双语继续预训练+指令微调/对话微调|
 |[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
+|[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
+|[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代，提供了7B/13B Base和chat的版本|
 |[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
 |[Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型。可商用 |
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
@@ -103,7 +105,6 @@
 |[Wombat-7B](https://huggingface.co/GanjinZero/wombat-7b-delta)|达摩院开源无需强化学习使用RRHF对齐的语言模型, alpaca基座|
 |[TigerBot](https://github.com/TigerResearch/TigerBot)|虎博开源了7B 180B的模型以及预训练和微调语料|
 |[Luotuo](https://github.com/LC1332/Luotuo-Chinese-LLM)   |  中文指令微调的LLaMA，和ChatGLM   |
-|[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[OpenBuddy](https://github.com/OpenBuddy/OpenBuddy)|Llama 多语言对话微调模型|
 |[Chinese Vincuna](https://github.com/Facico/Chinese-Vicuna)|LLama 7B基座，使用Belle+Guanaco数据训练|
 |[Linly](https://github.com/CVI-SZU/Linly)|Llama 7B基座，使用belle+guanaco+pclue+firefly+CSL+newscommentary等7个指令微调数据集训练|
@@ -228,6 +229,7 @@
 |guardrails：降低模型幻觉的python框架，promp模板+validation+修正|https://github.com/shreyar/guardrails|
 |guidance：微软新开源框架，同样是降低模型幻觉的框架，prompt+chain的升级版加入逐步生成和思维链路|https://github.com/guidance-ai/guidance|
 |Ragas: 评估检索增强LLM效果的框架，基于大模型prompt评估事实性，召回相关性，召回内容质量，回答相关性等|https://github.com/explodinggradients/ragas#fire-quickstart|
+|langflow：把langchain等agent组件做成了可拖拽式的UI|https://github.com/logspace-ai/langflow|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -512,6 +514,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
    - Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks
    - PROMPT2MODEL: Generating Deployable Models from Natural Language Instructions
+   - OpinionGPT: Modelling Explicit Biases in Instruction-Tuned LLMs
 - 微调经验/实验报告
     - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
     - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
@@ -623,7 +626,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Tool Learning with Foundation Models
   - Tool Maker：Large Language Models as Tool Maker
   - TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
-- 调用搜索工具
+- 检索增强方案
   - WebGPT：Browser-assisted question-answering with human feedback
   - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
   - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
@@ -631,7 +634,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Query Rewriting for Retrieval-Augmented Large Language Models
   - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
   - Atlas: Few-shot Learning with Retrieval Augmented Language Models
-- 调用模型
+  - RRAML: Reinforced Retrieval Augmented Machine Learning
+- 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
   - OpenAGI: When LLM Meets Domain Experts
