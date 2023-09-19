@@ -46,7 +46,7 @@
 |[Bird-Bench](https://bird-bench.github.io/)|更贴合真实世界应用的超大数据库，需要领域知识的NL2SQL榜单，模型追赶人类尚有时日|
 |[kola](http://103.238.162.37:31622/LeaderBoard)|以世界知识为核心的评价基准，包括已知的百科知识和未知的近90天网络发布内容，评价知识记忆，理解，应用和创造能力|
 |[CEVAL](https://cevalbenchmark.com/index.html#home)|中文知识评估，覆盖52个学科，机器评价主要为多项选择|
-|[CMMLU](https://cevalbenchmark.com/index.html#home)|67个主题中文知识和推理能力评估，多项选择机器评估|
+|[CMMLU](https://github.com/haonan-li/CMMLU)|67个主题中文知识和推理能力评估，多项选择机器评估|
 
 ### 国外模型
 |模型链接     | 模型描述    |
