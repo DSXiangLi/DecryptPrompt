@@ -34,7 +34,7 @@
 |榜单|结果|
 |----|-----|
 |[AlpacaEval：LLM-based automatic evaluation ](https://tatsu-lab.github.io/alpaca_eval/)| 开源模型王者vicuna,openchat, wizardlm|
-|[Huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)|只评估开源模型，Falcon夺冠，在Eleuther AI4个评估集上评估的LLM模型榜单,vicuna夺冠| 
+|[Huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)|MMLU只评估开源模型，Falcon夺冠，在Eleuther AI4个评估集上评估的LLM模型榜单,vicuna夺冠| 
 |[Berkley出品大模型排位赛榜有准中文榜单](https://lmsys.org/blog/2023-05-03-arena/)|Elo评分机制，GPT4自然是稳居第一，GPT4>Claude>GPT3.5>Vicuna>others|
 |[CMU开源聊天机器人评测应用](https://github.com/zeno-ml/zeno-build)|ChatGPT>Vicuna>others；在对话场景中训练可能很重要|
 |[Z-Bench中文真格基金评测](https://github.com/zhenbench/z-bench)|国产中文模型的编程可用性还相对较低，大家水平差不太多，两版ChatGLM提升明显|
@@ -45,7 +45,8 @@
 |[FlagEval](https://flageval.baai.ac.cn/#/home)|智源出品主观+客观LLM评分榜单|
 |[Bird-Bench](https://bird-bench.github.io/)|更贴合真实世界应用的超大数据库，需要领域知识的NL2SQL榜单，模型追赶人类尚有时日|
 |[kola](http://103.238.162.37:31622/LeaderBoard)|以世界知识为核心的评价基准，包括已知的百科知识和未知的近90天网络发布内容，评价知识记忆，理解，应用和创造能力|
-
+|[CEVAL](https://cevalbenchmark.com/index.html#home)|中文知识评估，覆盖52个学科，机器评价主要为多项选择|
+|[CMMLU](https://cevalbenchmark.com/index.html#home)|67个主题中文知识和推理能力评估，多项选择机器评估|
 
 ### 国外模型
 |模型链接     | 模型描述    |
@@ -160,6 +161,7 @@
 |金融|[聚宝盆](https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese)|基于 LLaMA 系基模型经过中文金融知识指令精调/指令微调(Instruct-tuning) 的微调模型|
 |金融|[PIXIU](https://github.com/chancefocus/PIXIU)|整理了多个金融任务数据集加入了时间序列数据进行指令微调|
 |金融|[ChatFund](https://chat.funddb.cn/)|韭圈儿发布的第一个基金大模型，看起来是做了多任务指令微调，和APP已有的数据功能进行了全方位的打通，从选基，到持仓分析等等|
+|金融|[FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)|金融传统任务微调 or chatgpt生成金融工具调用|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -168,6 +170,7 @@
 |编程|[SQLCoder](https://github.com/defog-ai/sqlcoder)|在StarCoder的基础上微调15B超越gpt3.5|
 |数学|[MathGPT](https://www.mathgpt.com/)|是好未来自主研发的，面向全球数学爱好者和科研机构，以解题和讲题算法为核心的大模型。|
 |交通|[TransGPT](https://github.com/DUOMO/TransGPT)|LLama-7B+34.6万领域预训练+5.8万条领域指令对话微调（来自文档问答）|
+|交通|[TrafficGPT](https://github.com/lijlansg/TrafficGPT/tree/main)|ChatGPT+Prompt实现规划，调用交通流量领域专业TFM模型，TFM负责数据分析，任务执行，可视化等操作|
 |科技|[Mozi](https://github.com/gmftbyGMFTBY/science-llm)|红睡衣预训练+论文QA数据集 + ChatGPT扩充科研对话数据|
 |天文|[StarGLM](https://github.com/Yu-Yang-Li/StarGLM)|天文知识指令微调，项目进行中后期考虑天文二次预训练+KG|
 |写作|[阅文-网文大模型介绍](https://www.zhihu.com/question/613058630)|签约作者内测中，主打的内容为打斗场景，剧情切换，环境描写，人设，世界观等辅助片段的生成|
@@ -410,6 +413,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - https://github.com/thunlp/PromptPapers
 - https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
 - https://github.com/thunlp/ToolLearningPapers
+- https://github.com/MLGroupJLU/LLM-eval-survey
+
 
 ### 综述
 - A Survey of Large Language Models
@@ -652,11 +657,11 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions
   - API-Bank: A Benchmark for Tool-Augmented LLMs
   - ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs
-  - FACTSCORE: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
 - 智能体
   - Generative Agents: Interactive Simulacra of Human Behavior
   - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
+  - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
 - 其他
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
@@ -699,6 +704,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - KITLM: Domain-Specific Knowledge InTegration into Language Models for Question Answering
 - FinVis-GPT: A Multimodal Large Language Model for Financial Chart Analysis
 - EcomGPT: Instruction-tuning Large Language Models with Chain-of-Task Tasks for E-commerce 
+- FinGPT: Open-Source Financial Large Language Models
 
 ### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
@@ -754,8 +760,18 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Factuality Enhanced Language Models for Open-Ended Text Generation
 - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
 - Rethinking with Retrieval: Faithful Large Language Model Inference
-- KoLA: Carefully Benchmarking World Knowledge of Large Language Models
 - RefGPT: Reference → Truthful & Customized Dialogues Generation by GPTs and for GPTs
+- Enabling Large Language Models to Generate Text with Citations
+
+### 大模型评估（evaluation）
+- 事实性评估
+  - TRUSTWORTHY LLMS: A SURVEY AND GUIDELINE FOR EVALUATING LARGE LANGUAGE MODELS’ ALIGNMENT
+  - TrueTeacher: Learning Factual Consistency Evaluation with Large Language Models
+  - TRUE: Re-evaluating Factual Consistency Evaluation
+  - SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models
+  - FACTSCORE: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
+  - KoLA: Carefully Benchmarking World Knowledge of Large Language Models
+
 
 ### 推理速度优化(fast_inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
@@ -781,6 +797,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - kNN PROMPTING: BEYOND-CONTEXT LEARNING WITH CALIBRATION-FREE NEAREST NEIGHBOR INFERENCE
 - EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus
 - Causality-aware Concept Extraction based on Knowledge-guided Prompting
+- LARGE LANGUAGE MODELS AS OPTIMIZERS
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
