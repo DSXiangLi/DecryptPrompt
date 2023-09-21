@@ -29,7 +29,7 @@
 
 ## LLMS
 ### 模型评测
-> 大模型评估尚未出现北极星指标，整体上全面性有余，泛化性不足，类perplexity的指标还未出现，期待ing ~
+> 大模型评估尚未出现北极星指标，榜单排名往往和实际使用能力存在较大差异，几天没看感觉有的榜单快被玩坏了......
 
 |榜单|结果|
 |----|-----|
@@ -321,6 +321,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问  ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [BingGPT](https://github.com/dice2o/BingGPT): NewBing开源桌面客户端，可以将聊天记录导出  ![](https://img.shields.io/badge/AIGC-Search-yellow)
+- [AutoLabel](https://github.com/refuel-ai/autolabel): AutoLabel标注方案 ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
 - [DocsGPT](https://github.com/arc53/DocsGPT): 把ChatGPT开放域问答转化成封闭域问答的通用方案，试用垂类领域问答场景,可以试用定制的ChatBot  ![](https://img.shields.io/badge/Tool-Business-red) :star:
 - [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM): 基于ChatGLM的本地知识问答，和上面的DocsGPT相似，不过可以本地部署:star:
 - [ChatPDF](https://chat2doc.cn/): 国内的ChatPDF, 上传pdf后，会给出文章的Top5可能问题，然后对话式从文档中进行问答和检索，10s读3万字  ![](https://img.shields.io/badge/Tool-Business-red)
@@ -520,6 +521,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks
    - PROMPT2MODEL: Generating Deployable Models from Natural Language Instructions
    - OpinionGPT: Modelling Explicit Biases in Instruction-Tuned LLMs
+   - Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
+   - Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback
 - 微调经验/实验报告
     - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
     - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
@@ -609,6 +612,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback
   - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
   - RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment
+ - Training Socially Aligned Language Models in Simulated Human Society
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
