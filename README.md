@@ -101,7 +101,7 @@
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
 |[Qwen-7B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B模型|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
-|[BiLLa](https://github.com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
+|[BiLLa](https://github. com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
 |[Phoenix](https://github.com/FreedomIntelligence/LLMZoo)|港中文开源凤凰和奇美拉LLM，Bloom基座，40+语言支持|
 |[Wombat-7B](https://huggingface.co/GanjinZero/wombat-7b-delta)|达摩院开源无需强化学习使用RRHF对齐的语言模型, alpaca基座|
 |[TigerBot](https://github.com/TigerResearch/TigerBot)|虎博开源了7B 180B的模型以及预训练和微调语料|
@@ -217,10 +217,12 @@
 |AgentVerse：多模型交互环境 |https://github.com/OpenBMB/AgentVerse|
 |AgentSims: 给定一个社会环境，评估LLM作为智能体的预定任务目标完成能力的沙盒环境||
 |GPTRPG：RPG环境 AI Agent游戏化|https://github.com/dzoba/gptrpg|
+|Generative Agents:斯坦福AI小镇的开源代码|https://github.com/joonspk-research/generative_agents|
 |GPTEngineer：自动工具构建和代码生成|https://github.com/AntonOsika/gpt-engineer|
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
 |Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
+|IncarnaMind：多文档RAG方案，动态chunking的方案可以借鉴|https://github.com/junruxiong/IncarnaMind|
 |wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
 |WorkGPT：类似AutoGPT|https://github.com/team-openpm/workgpt|
 |Deep-KE：基于LLM对数据进行智能解析实现知识抽取|https://github.com/zjunlp/DeepKE|
@@ -431,6 +433,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Augmented Language Models: a Survey :star:
 - Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
 - Challenges and Applications of Large Language Models
+- The Rise and Potential of Large Language Model Based Agents: A Survey
 
 ### 大模型能力探究
 - In Context Learning 
@@ -492,6 +495,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - GPT-4 Technical Report
 - Backpack Language Models
 - Llama 2: Open Foundation and Fine-Tuned Chat Models
+- OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -629,6 +633,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks
   - Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework
   - RestGPT: Connecting Large Language Models with Real-World RESTful APIs
+  - ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -684,6 +689,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Self-Consuming Generative Models Go MAD
 - InstructEval: Systematic Evaluation of Instruction Selection Methods
 - Overwriting Pretrained Bias with Finetuning Data
+- WizardLM: Empowering Large Language Models to Follow Complex Instructions
 
 ### 预训练数据(pretrain_data)
 - DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining
@@ -709,6 +715,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - FinVis-GPT: A Multimodal Large Language Model for Financial Chart Analysis
 - EcomGPT: Instruction-tuning Large Language Models with Chain-of-Task Tasks for E-commerce 
 - FinGPT: Open-Source Financial Large Language Models
+- TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT
 
 ### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
