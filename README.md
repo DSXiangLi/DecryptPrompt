@@ -195,10 +195,11 @@
 |lamini: 整合指令数据生成，SFT，RLHF的工具库|https://github.com/lamini-ai/lamini/|
 |Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
 |FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
-|VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍|https://github.com/vllm-project/vllm|
+|VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍，支持很多基座模型|https://github.com/vllm-project/vllm|
 |EasyEdit：浙大开源支持多种模型，多种方案的模型知识精准编辑器|https://github.com/zjunlp/EasyEdit|
 |FlexFlow：模型部署推理框架|https://github.com/flexflow/FlexFlow|
 |Medusa：针对采样解码的推理加速框架，可以和其他策略结合|https://github.com/FasterDecoding/Medusa|
+
 
 ### LLM Agent工具
 | 工具描述   | 链接   | 
@@ -234,6 +235,7 @@
 |guidance：微软新开源框架，同样是降低模型幻觉的框架，prompt+chain的升级版加入逐步生成和思维链路|https://github.com/guidance-ai/guidance|
 |Ragas: 评估检索增强LLM效果的框架，基于大模型prompt评估事实性，召回相关性，召回内容质量，回答相关性等|https://github.com/explodinggradients/ragas#fire-quickstart|
 |langflow：把langchain等agent组件做成了可拖拽式的UI|https://github.com/logspace-ai/langflow|
+|Haystack: LLM Agent 框架，pipeline的设计模式个人感觉比langchain更灵活更简洁 |https://github.com/deepset-ai/haystack|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
