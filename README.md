@@ -48,7 +48,7 @@
 |[CEVAL](https://cevalbenchmark.com/index.html#home)|中文知识评估，覆盖52个学科，机器评价主要为多项选择|
 |[CMMLU](https://github.com/haonan-li/CMMLU)|67个主题中文知识和推理能力评估，多项选择机器评估|
 
-### 国外模型
+### 国外开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
 |[LLama2](https://ai.meta.com/llama/)|Open Meta带着可商用开源的羊驼2模型来了~|
@@ -56,8 +56,6 @@
 |[WizardLM](https://github.com/nlpxucan/WizardLM)|微软新发布13B，登顶AlpacaEval开源模型Top3，使用ChatGPT对指令进行复杂度进化微调LLama2|
 |[OpenChat](https://github.com/imoneoi/openchat)|80k ShareGPT对话微调LLama-2 13B开源模型中的战斗机|
 |[Guanaco](https://huggingface.co/KBlueLeaf/guanaco-7B-leh)|LLama 7B基座，在alpaca52K数据上加入534K多语言指令数据微调|
-|[Google Bard](https://bard.google.com)   |    谷歌bard支持中文了 |
-|[Claude](https://www.anthropic.com/product)   |  ChatGPT最大竞争对手Claude也开放申请了，slack中无限试用   |
 |[LLaMA](https://github.com/facebookresearch/llama)    |  Meta开源指令微调LLM，规模70 亿到 650 亿不等  |
 |[MPT](https://huggingface.co/mosaicml/mpt-7b-chat)|MosaicML开源的预训练+指令微调的新模型，可商用，支持84k tokens超长输入|
 |[Falcon](https://huggingface.co/tiiuae/falcon-40b)   |  Falcon由阿联酋技术研究所在超高质量1万亿Token上训练得到1B，7B，40B开源，免费商用！土豪们表示钱什么的格局小了 |
@@ -86,7 +84,7 @@
 |[MPT-30B](https://huggingface.co/mosaicml/mpt-30b)|MosaicML开源的在8Ktoken上训练的大模型|
 
 
-### 国内模型
+### 国内开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
 |[ChatGLM2](https://github.com/thudm/chatglm2-6b)|32K长文本，FlashAttention+Multi-Query Attenion的显存优化，更强推理能力，哈哈不过很多简单问题也硬要COT，中英平行能力似乎略有下降的ChatGLM2，但是免费商用！|
@@ -98,6 +96,7 @@
 |[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代，提供了7B/13B Base和chat的版本|
 |[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
 |[Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型。可商用 |
+|[IntenrLM](https://github.com/InternLM/InternLM)| 书生浦语在过万亿 token 数据上训练的多语千亿参数基座模型|
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
 |[Qwen-7B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B模型|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
@@ -118,9 +117,7 @@
 |[CPM2.0](https://baai.ac.cn/)     |  智源发布CPM2.0|
 |[GLM](https://github.com/THUDM/GLM-130B) |   清华发布的中英双语130B预训练模型 |
 |[BayLing](https://github.com/ictnlp/BayLing)|基于LLama7B/13B，增强的语言对齐的英语/中文大语言模型|
-|[文心一言](https://yiyan.baidu.com/welcome)    |  已经拿到邀请码并试用，虽然人格化程度显著低，但效果上并没有很拉胯，国产YYDS！不过商业化霸王条款确实不少   |
-|[通义千问](https://tongyi.aliyun.com/)|阿里系LLM开放申请|
-|[星火](https://passport.xfyun.cn/login)|科大讯飞星火，数学是真的厉害|
+
 
 ### 垂直领域模型&进展
 |领域|模型链接     | 模型描述  
@@ -162,6 +159,7 @@
 |金融|[PIXIU](https://github.com/chancefocus/PIXIU)|整理了多个金融任务数据集加入了时间序列数据进行指令微调|
 |金融|[ChatFund](https://chat.funddb.cn/)|韭圈儿发布的第一个基金大模型，看起来是做了多任务指令微调，和APP已有的数据功能进行了全方位的打通，从选基，到持仓分析等等|
 |金融|[FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)|金融传统任务微调 or chatgpt生成金融工具调用|
+|金融|[CFGPT](https://github.com/TongjiFinLab/CFGPT)|金融预训练+指令微调+RAG等检索任务增强|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -716,6 +714,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - EcomGPT: Instruction-tuning Large Language Models with Chain-of-Task Tasks for E-commerce 
 - FinGPT: Open-Source Financial Large Language Models
 - TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT
+- CFGPT: Chinese Financial Assistant with Large Language Model
 
 ### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
