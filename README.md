@@ -135,6 +135,7 @@
 |医疗|[NHS-LLM](https://github.com/CogStack/OpenGPT/tree/main)|Chatgpt生成的医疗问答，对话，微调模型|
 |医疗|[神农医疗大模型](https://github.com/michael-wzhu/ShenNong-TCM-LLM)|以中医知识图谱的实体为中心生成的中医知识指令数据集11w+，微调LLama-7B|
 |医疗|岐黄问道大模型|3个子模型构成，已确诊疾病的临床治疗模型+基于症状的临床诊疗模型+中医养生条理模型，看起来是要ToB落地|
+|医疗|基于Ziya-LLama+医疗预训练+SFT+RLHF的中文医学大模型|https://github.com/SupritYoung/Zhongjing|
 |医疗|[MeChat](https://github.com/qiuhuachuan/smile)|心理咨询领域，通过chatgpt改写多轮对话56k|
 |医疗|[SoulChat](https://github.com/scutcyr/SoulChat)|心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调 ChatGLM-6B |
 |医疗|[MindChat](https://github.com/X-D-Lab/MindChat)|MindChat-Baichuan-13B,Qwen-7B,MindChat-InternLM-7B使用不同基座在模型安全，共情，人类价值观对其上进行了强化|
@@ -647,6 +648,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
   - Atlas: Few-shot Learning with Retrieval Augmented Language Models
   - RRAML: Reinforced Retrieval Augmented Machine Learning
+  - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -715,6 +717,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - FinGPT: Open-Source Financial Large Language Models
 - TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT
 - CFGPT: Chinese Financial Assistant with Large Language Model
+- Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue
 
 ### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
