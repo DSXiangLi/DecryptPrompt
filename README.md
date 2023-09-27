@@ -26,6 +26,7 @@
 - [解密Prompt系列13. LLM Agent指令微调方案: Toolformer & Gorilla](https://cloud.tencent.com/developer/article/2312674)
 - [解密Prompt系列14. LLM Agent之搜索应用设计：WebGPT & WebGLM & WebCPM](https://cloud.tencent.com/developer/article/2319879)
 - [解密Prompt系列15. LLM Agent之数据库应用设计：DIN & C3 & SQL-Palm & BIRD](https://cloud.tencent.com/developer/article/2328749)
+- [解密Prompt系列16. LLM对齐经验之数据越少越好？LTD & LIMA & AlpaGasus](https://cloud.tencent.com/developer/article/2333495)
 
 ## LLMS
 ### 模型评测
@@ -99,6 +100,7 @@
 |[IntenrLM](https://github.com/InternLM/InternLM)| 书生浦语在过万亿 token 数据上训练的多语千亿参数基座模型|
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
 |[Qwen-7B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B模型|
+|[PandaLLM](https://github.com/dandelionsllm/pandallm)|LLAMA2上中文wiki继续预训练+COIG指令微调|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
 |[BiLLa](https://github. com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
 |[Phoenix](https://github.com/FreedomIntelligence/LLMZoo)|港中文开源凤凰和奇美拉LLM，Bloom基座，40+语言支持|
@@ -199,7 +201,7 @@
 |EasyEdit：浙大开源支持多种模型，多种方案的模型知识精准编辑器|https://github.com/zjunlp/EasyEdit|
 |FlexFlow：模型部署推理框架|https://github.com/flexflow/FlexFlow|
 |Medusa：针对采样解码的推理加速框架，可以和其他策略结合|https://github.com/FasterDecoding/Medusa|
-
+|OpenDelta：集成了各种增量微调方案的开源实现|https://github.com/thunlp/OpenDelta|
 
 ### LLM Agent工具
 | 工具描述   | 链接   | 
