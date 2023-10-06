@@ -179,6 +179,15 @@
 |电商|[EcomGPT](https://github.com/Alibaba-NLP/EcomGPT)|电商领域任务指令微调大模型，指令样本250万，基座模型是Bloomz|
 
 ## Tool and Library
+### 推理框架
+| 工具描述   | 链接   | 
+| --- | --- | 
+|FlexFlow：模型部署推理框架|https://github.com/flexflow/FlexFlow|
+|Medusa：针对采样解码的推理加速框架，可以和其他策略结合|https://github.com/FasterDecoding/Medusa|
+|FlexGen: LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
+|VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍，支持很多基座模型|https://github.com/vllm-project/vllm|
+|Streamingllm: |https://github.com/mit-han-lab/streaming-llm|
+
 ### 指令微调，预训练，rlhf框架
 | 工具描述   | 链接   | 
 | --- | --- | 
@@ -196,11 +205,7 @@
 |TecentPretrain: Uerpy的重构版本支持llama预训练|https://github.com/Tencent/TencentPretrain/tree/main|
 |lamini: 整合指令数据生成，SFT，RLHF的工具库|https://github.com/lamini-ai/lamini/|
 |Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
-|FlexGen:LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
-|VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍，支持很多基座模型|https://github.com/vllm-project/vllm|
 |EasyEdit：浙大开源支持多种模型，多种方案的模型知识精准编辑器|https://github.com/zjunlp/EasyEdit|
-|FlexFlow：模型部署推理框架|https://github.com/flexflow/FlexFlow|
-|Medusa：针对采样解码的推理加速框架，可以和其他策略结合|https://github.com/FasterDecoding/Medusa|
 |OpenDelta：集成了各种增量微调方案的开源实现|https://github.com/thunlp/OpenDelta|
 
 ### LLM Agent工具
@@ -238,6 +243,7 @@
 |Ragas: 评估检索增强LLM效果的框架，基于大模型prompt评估事实性，召回相关性，召回内容质量，回答相关性等|https://github.com/explodinggradients/ragas#fire-quickstart|
 |langflow：把langchain等agent组件做成了可拖拽式的UI|https://github.com/logspace-ai/langflow|
 |Haystack: LLM Agent 框架，pipeline的设计模式个人感觉比langchain更灵活更简洁 |https://github.com/deepset-ai/haystack|
+|EdgeChain: 通过Jsonnet配置文件实现LLM Agent| https://github.com/arakoodev/EdgeChains/tree/main|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -448,6 +454,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - 涌现能力
   - Sparks of Artificial General Intelligence: Early experiments with GPT-4
   - Emerging Ability of Large Language Models :star:
+  - LANGUAGE MODELS REPRESENT SPACE AND TIME
 - 能力评估
   - IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
   - Can Large Language Models Infer Causation from Correlation?
@@ -560,6 +567,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models
     - Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning
     - LAMBADA: Backward Chaining for Automated Reasoning in Natural Language
+    - Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models
+    - Graph of Thoughts: Solving Elaborate Problems with Large Language Models
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -790,12 +799,14 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - KoLA: Carefully Benchmarking World Knowledge of Large Language Models
 
 
-### 推理速度优化(fast_inference)
+### 推理优化(inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
 - Fast Inference from Transformers via Speculative Decoding
 - GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints
 - Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding
 - SkipDecode: Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inference
+- EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
+- BatchPrompt: Accomplish more with less
 
 ### 模型知识编辑黑科技(model_edit)
 - ROME：Locating and Editing Factual Associations in GPT
@@ -828,6 +839,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - LVLM eHub: A Comprehensive Evaluation Benchmark for Large VisionLanguage Models
 
 ### Others
+- Pretraining on the Test Set Is All You Need 哈哈作者你是懂讽刺文学的
 - Learnware: Small Models Do Big
 - The economic potential of generative AI
 - A PhD Student’s Perspective on Research in NLP in the Era of Very Large Language Models
