@@ -102,7 +102,7 @@
 |[Qwen-7B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B模型|
 |[PandaLLM](https://github.com/dandelionsllm/pandallm)|LLAMA2上中文wiki继续预训练+COIG指令微调|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
-|[BiLLa](https://github. com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
+|[BiLLa](https://github.com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
 |[Phoenix](https://github.com/FreedomIntelligence/LLMZoo)|港中文开源凤凰和奇美拉LLM，Bloom基座，40+语言支持|
 |[Wombat-7B](https://huggingface.co/GanjinZero/wombat-7b-delta)|达摩院开源无需强化学习使用RRHF对齐的语言模型, alpaca基座|
 |[TigerBot](https://github.com/TigerResearch/TigerBot)|虎博开源了7B 180B的模型以及预训练和微调语料|
@@ -137,7 +137,7 @@
 |医疗|[NHS-LLM](https://github.com/CogStack/OpenGPT/tree/main)|Chatgpt生成的医疗问答，对话，微调模型|
 |医疗|[神农医疗大模型](https://github.com/michael-wzhu/ShenNong-TCM-LLM)|以中医知识图谱的实体为中心生成的中医知识指令数据集11w+，微调LLama-7B|
 |医疗|岐黄问道大模型|3个子模型构成，已确诊疾病的临床治疗模型+基于症状的临床诊疗模型+中医养生条理模型，看起来是要ToB落地|
-|医疗|基于Ziya-LLama+医疗预训练+SFT+RLHF的中文医学大模型|https://github.com/SupritYoung/Zhongjing|
+|医疗|[Zhongjing](https://github.com/SupritYoung/Zhongjing)|基于Ziya-LLama+医疗预训练+SFT+RLHF的中文医学大模型|
 |医疗|[MeChat](https://github.com/qiuhuachuan/smile)|心理咨询领域，通过chatgpt改写多轮对话56k|
 |医疗|[SoulChat](https://github.com/scutcyr/SoulChat)|心理咨询领域中文长文本指令与多轮共情对话数据联合指令微调 ChatGLM-6B |
 |医疗|[MindChat](https://github.com/X-D-Lab/MindChat)|MindChat-Baichuan-13B,Qwen-7B,MindChat-InternLM-7B使用不同基座在模型安全，共情，人类价值观对其上进行了强化|
@@ -222,9 +222,10 @@
 |MiniAGI：自执行LLM Agent|https://github.com/muellerberndt/mini-agi|
 |AL Legion： 自执行LLM Agent|https://github.com/eumemic/ai-legion|
 |AgentVerse：多模型交互环境 |https://github.com/OpenBMB/AgentVerse|
-|AgentSims: 给定一个社会环境，评估LLM作为智能体的预定任务目标完成能力的沙盒环境||
+|AgentSims: 给定一个社会环境，评估LLM作为智能体的预定任务目标完成能力的沙盒环境|https://github.com/py499372727/AgentSims/|
 |GPTRPG：RPG环境 AI Agent游戏化|https://github.com/dzoba/gptrpg|
 |Generative Agents:斯坦福AI小镇的开源代码|https://github.com/joonspk-research/generative_agents|
+|GPTeam：多智能体交互|https://github.com/101dotxyz/GPTeam|
 |GPTEngineer：自动工具构建和代码生成|https://github.com/AntonOsika/gpt-engineer|
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
