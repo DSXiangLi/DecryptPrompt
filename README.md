@@ -95,11 +95,12 @@
 |[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
 |[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代，提供了7B/13B Base和chat的版本|
+|[XWin-LM](https://github.com/Xwin-LM/Xwin-LM)|llama2 + SFT + RLHF|
 |[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
 |[Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型。可商用 |
+|[Qwen-7B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B模型|
 |[IntenrLM](https://github.com/InternLM/InternLM)| 书生浦语在过万亿 token 数据上训练的多语千亿参数基座模型|
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
-|[Qwen-7B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B模型|
 |[PandaLLM](https://github.com/dandelionsllm/pandallm)|LLAMA2上中文wiki继续预训练+COIG指令微调|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
 |[BiLLa](https://github.com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
@@ -170,6 +171,7 @@
 |编程|[stabelcode](https://stability.ai/blog/stablecode-llm-generative-ai-coding)| 560B token多语言预训练+ 120,000 个 Alpaca指令对齐|
 |编程|[SQLCoder](https://github.com/defog-ai/sqlcoder)|在StarCoder的基础上微调15B超越gpt3.5|
 |数学|[MathGPT](https://www.mathgpt.com/)|是好未来自主研发的，面向全球数学爱好者和科研机构，以解题和讲题算法为核心的大模型。|
+|数学|[MammoTH](https://tiger-ai-lab.github.io/MAmmoTH/)|通过COT+POT构建了MathInstruct数据集微调llama在OOD数据集上超越了WizardLM|
 |交通|[TransGPT](https://github.com/DUOMO/TransGPT)|LLama-7B+34.6万领域预训练+5.8万条领域指令对话微调（来自文档问答）|
 |交通|[TrafficGPT](https://github.com/lijlansg/TrafficGPT/tree/main)|ChatGPT+Prompt实现规划，调用交通流量领域专业TFM模型，TFM负责数据分析，任务执行，可视化等操作|
 |科技|[Mozi](https://github.com/gmftbyGMFTBY/science-llm)|红睡衣预训练+论文QA数据集 + ChatGPT扩充科研对话数据|
@@ -186,7 +188,7 @@
 |Medusa：针对采样解码的推理加速框架，可以和其他策略结合|https://github.com/FasterDecoding/Medusa|
 |FlexGen: LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
 |VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍，支持很多基座模型|https://github.com/vllm-project/vllm|
-|Streamingllm: |https://github.com/mit-han-lab/streaming-llm|
+|Streamingllm: 新注意力池Attention方案，无需微调拓展模型推理长度，同时为推理提速|https://github.com/mit-han-lab/streaming-llm|
 
 ### 指令微调，预训练，rlhf框架
 | 工具描述   | 链接   | 
@@ -663,6 +665,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Atlas: Few-shot Learning with Retrieval Augmented Language Models
   - RRAML: Reinforced Retrieval Augmented Machine Learning
   - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
+  - PDFTriage: Question Answering over Long, Structured Documents
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -751,6 +754,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [苏剑林,Transformer升级之路：12、无限外推的ReRoPE？](https://spaces.ac.cn/archives/9708)
 - Focused Transformer: Contrastive Training for Context Scaling
 - Lost in the Middle: How Language Models Use Long Contexts :star:
+- EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
 
 ### NL2SQL
 - 大模型方案
@@ -806,7 +810,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - GQA: Training Generalized Multi-Query Transformer Models from Multi-Head Checkpoints
 - Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding
 - SkipDecode: Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inference
-- EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
 - BatchPrompt: Accomplish more with less
 
 ### 模型知识编辑黑科技(model_edit)
