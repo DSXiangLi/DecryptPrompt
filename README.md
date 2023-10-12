@@ -100,7 +100,9 @@
 |[Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型。可商用 |
 |[Qwen-7B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B模型|
 |[IntenrLM](https://github.com/InternLM/InternLM)| 书生浦语在过万亿 token 数据上训练的多语千亿参数基座模型|
+|[Aquila2](https://github.com/FlagAI-Open/Aquila2/blob/main/README_CN.md)|智源更新Aquila2模型系列包括全新34B|
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
+|[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot上线超长文本LLM 可输入20W上文需要申请试用 |
 |[PandaLLM](https://github.com/dandelionsllm/pandallm)|LLAMA2上中文wiki继续预训练+COIG指令微调|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
 |[BiLLa](https://github.com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
@@ -196,6 +198,7 @@
 |LoRA：Low-Rank指令微调方案|https://github.com/tloen/alpaca-lora|
 |peft：parameter-efficient prompt tunnging工具集|https://github.com/huggingface/peft|
 |RL4LMs：AllenAI的RL工具|https://github.com/allenai/RL4LMs|
+|RLLTE：港大，大疆等联合开源RLLTE开源学习框架|https://github.com/RLE-Foundation/rllte|
 |trl：基于Transformer的强化训练框架|https://github.com/lvwerra/trl|
 |trlx：分布式训练trl | https://github.com/CarperAI/trlx|
 |北大开源河狸项目可复现RLHF，支持多数LLM，提供RLHF数据|https://github.com/PKU-Alignment/safe-rlhf|
@@ -509,6 +512,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Backpack Language Models
 - Llama 2: Open Foundation and Fine-Tuned Chat Models
 - OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
+- Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -683,12 +687,13 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions
   - API-Bank: A Benchmark for Tool-Augmented LLMs
   - ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs
-- 智能体
+- MultiAgent
   - Generative Agents: Interactive Simulacra of Human Behavior
+  - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents
   - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society
-  - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
 - 其他
+  - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
 
@@ -755,6 +760,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Focused Transformer: Contrastive Training for Context Scaling
 - Lost in the Middle: How Language Models Use Long Contexts :star:
 - EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
+- Ring Attention with Blockwise Transformers for Near-Infinite Context
 
 ### NL2SQL
 - 大模型方案
