@@ -251,7 +251,7 @@
 |langflow：把langchain等agent组件做成了可拖拽式的UI|https://github.com/logspace-ai/langflow|
 |Haystack: LLM Agent 框架，pipeline的设计模式个人感觉比langchain更灵活更简洁 |https://github.com/deepset-ai/haystack|
 |EdgeChain: 通过Jsonnet配置文件实现LLM Agent| https://github.com/arakoodev/EdgeChains/tree/main|
-
+|YiVal:调整和评估prompts、配置和模型参数的开源GenAI-Ops工具| https://github.com/YiVal/YiVal|
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
 | --- | --- | --- |
