@@ -214,13 +214,11 @@
 |EasyEdit：浙大开源支持多种模型，多种方案的模型知识精准编辑器|https://github.com/zjunlp/EasyEdit|
 |OpenDelta：集成了各种增量微调方案的开源实现|https://github.com/thunlp/OpenDelta|
 
-### LLM Agent工具
+### Auto/Multi Agent
 | 工具描述   | 链接   | 
 | --- | --- | 
-|langchain：LLM Agent框架|https://github.com/hwchase17/langchain|
-|llama index：LLM Agent框架|https://github.com/jerryjliu/llama_index|
-|semantic-kernel：整合大模型和编程语言的SDK|https://github.com/microsoft/semantic-kernel|
-|BMTTools: 清华出品多工具调用开源库，提供微调数据和评估ToolBench|https://github.com/OpenBMB/BMTools|
+|ChatDev: 面壁智能开源多智能体协作的虚拟软件公司|https://github.com/OpenBMB/ChatDev|
+|Generative Agents:斯坦福AI小镇的开源代码|https://github.com/joonspk-research/generative_agents|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
 |MetaGPT: 覆盖软件公司全生命流程，例如产品经理等各个职业的AutoGPT|https://github.com/geekan/MetaGPT|
@@ -230,27 +228,38 @@
 |AgentVerse：多模型交互环境 |https://github.com/OpenBMB/AgentVerse|
 |AgentSims: 给定一个社会环境，评估LLM作为智能体的预定任务目标完成能力的沙盒环境|https://github.com/py499372727/AgentSims/|
 |GPTRPG：RPG环境 AI Agent游戏化|https://github.com/dzoba/gptrpg|
-|Generative Agents:斯坦福AI小镇的开源代码|https://github.com/joonspk-research/generative_agents|
 |GPTeam：多智能体交互|https://github.com/101dotxyz/GPTeam|
 |GPTEngineer：自动工具构建和代码生成|https://github.com/AntonOsika/gpt-engineer|
-|Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
-|LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
-|Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
-|IncarnaMind：多文档RAG方案，动态chunking的方案可以借鉴|https://github.com/junruxiong/IncarnaMind|
-|wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
 |WorkGPT：类似AutoGPT|https://github.com/team-openpm/workgpt|
-|Deep-KE：基于LLM对数据进行智能解析实现知识抽取|https://github.com/zjunlp/DeepKE|
-|Vectra：平台化的LLM Agent搭建方案，从索引构建，内容召回排序，到事实检查的LLM生成|https://vectara.com/tour-vectara/|
-|Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
-|RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
-|Data-Copilot：时间序列等结构化数据分析领域的Agent解决方案|https://github.com/zwq2018/Data-Copilot|
-|DB-GPT: 以数据库为基础的GPT实验项目，使用本地化的GPT大模型与您的数据和环境进行交互|https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/index.html|
-|guardrails：降低模型幻觉的python框架，promp模板+validation+修正|https://github.com/shreyar/guardrails|
-|guidance：微软新开源框架，同样是降低模型幻觉的框架，prompt+chain的升级版加入逐步生成和思维链路|https://github.com/guidance-ai/guidance|
+
+### Agent工具框架类
+| 工具描述   | 链接   | 
+| --- | --- | 
+|langchain：LLM Agent框架|https://github.com/hwchase17/langchain|
+|llama index：LLM Agent框架|https://github.com/jerryjliu/llama_index|
 |Ragas: 评估检索增强LLM效果的框架，基于大模型prompt评估事实性，召回相关性，召回内容质量，回答相关性等|https://github.com/explodinggradients/ragas#fire-quickstart|
 |langflow：把langchain等agent组件做成了可拖拽式的UI|https://github.com/logspace-ai/langflow|
 |Haystack: LLM Agent 框架，pipeline的设计模式个人感觉比langchain更灵活更简洁 |https://github.com/deepset-ai/haystack|
 |EdgeChain: 通过Jsonnet配置文件实现LLM Agent| https://github.com/arakoodev/EdgeChains/tree/main|
+|semantic-kernel：整合大模型和编程语言的SDK|https://github.com/microsoft/semantic-kernel|
+|BMTTools: 清华出品多工具调用开源库，提供微调数据和评估ToolBench|https://github.com/OpenBMB/BMTools|
+|Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
+|LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
+|Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
+|wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
+|Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
+|RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
+
+### 其他垂直领域Agent
+| 工具描述   | 链接   | 
+| --- | --- | 
+|Deep-KE：基于LLM对数据进行智能解析实现知识抽取|https://github.com/zjunlp/DeepKE|
+|IncarnaMind：多文档RAG方案，动态chunking的方案可以借鉴|https://github.com/junruxiong/IncarnaMind|
+|Vectra：平台化的LLM Agent搭建方案，从索引构建，内容召回排序，到事实检查的LLM生成|https://vectara.com/tour-vectara/|
+|Data-Copilot：时间序列等结构化数据分析领域的Agent解决方案|https://github.com/zwq2018/Data-Copilot|
+|DB-GPT: 以数据库为基础的GPT实验项目，使用本地化的GPT大模型与您的数据和环境进行交互|https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/index.html|
+|guardrails：降低模型幻觉的python框架，promp模板+validation+修正|https://github.com/shreyar/guardrails|
+|guidance：微软新开源框架，同样是降低模型幻觉的框架，prompt+chain的升级版加入逐步生成和思维链路|https://github.com/guidance-ai/guidance|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -693,6 +702,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents
   - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society
   - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
+  - Communicative Agents for Software Development
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
