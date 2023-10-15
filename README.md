@@ -175,6 +175,7 @@
 |编程|[SQLCoder](https://github.com/defog-ai/sqlcoder)|在StarCoder的基础上微调15B超越gpt3.5|
 |数学|[MathGPT](https://www.mathgpt.com/)|是好未来自主研发的，面向全球数学爱好者和科研机构，以解题和讲题算法为核心的大模型。|
 |数学|[MammoTH](https://tiger-ai-lab.github.io/MAmmoTH/)|通过COT+POT构建了MathInstruct数据集微调llama在OOD数据集上超越了WizardLM|
+|数学|[MetaMath](https://github.com/meta-math/MetaMath)|模型逆向思维解决数学问题，构建了新的MetaMathQA微调llama2|
 |交通|[TransGPT](https://github.com/DUOMO/TransGPT)|LLama-7B+34.6万领域预训练+5.8万条领域指令对话微调（来自文档问答）|
 |交通|[TrafficGPT](https://github.com/lijlansg/TrafficGPT/tree/main)|ChatGPT+Prompt实现规划，调用交通流量领域专业TFM模型，TFM负责数据分析，任务执行，可视化等操作|
 |科技|[Mozi](https://github.com/gmftbyGMFTBY/science-llm)|红睡衣预训练+论文QA数据集 + ChatGPT扩充科研对话数据|
@@ -205,11 +206,13 @@
 |北大开源河狸项目可复现RLHF，支持多数LLM，提供RLHF数据|https://github.com/PKU-Alignment/safe-rlhf|
 |RL4LMs：AllenAI的RL工具|https://github.com/allenai/RL4LMs|
 |LMFlow：港科大实验室开源的大模型微调框架，支持以上多数开源模型的指令微调和RLHF|https://github.com/OptimalScale/LMFlow|
-|hugNLP:基于Huggingface开发继承Prompt技术，预训练等多种方案|https://github.com/wjn1996/HugNLP|
+|hugNLP:基于Huggingface开发继承Prompt技术，预训练和是指输入等多种方案|https://github.com/wjn1996/HugNLP|
 |Deepspeed：针对RL训练和推理的整合优化|https://github.com/microsoft/DeepSpeed|
 |Uerpy:预训练框架支持lm,mlm,unilm等|https://github.com/dbiir/UER-py|
 |TecentPretrain: Uerpy的重构版本支持llama预训练|https://github.com/Tencent/TencentPretrain/tree/main|
 |lamini: 整合指令数据生成，SFT，RLHF的工具库|https://github.com/lamini-ai/lamini/|
+|Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
+|EasyEdit：浙大开源支持多种模型，多种方案的模型知识精准编辑器|https://github.com/zjunlp/EasyEdit|
 |OpenDelta：集成了各种增量微调方案的开源实现|https://github.com/thunlp/OpenDelta|
 
 ### Auto/Multi Agent
@@ -235,11 +238,13 @@
 | --- | --- | 
 |langchain：LLM Agent框架|https://github.com/hwchase17/langchain|
 |llama index：LLM Agent框架|https://github.com/jerryjliu/llama_index|
+|Ragas: 评估检索增强LLM效果的框架，基于大模型prompt评估事实性，召回相关性，召回内容质量，回答相关性等|https://github.com/explodinggradients/ragas#fire-quickstart|
 |langflow：把langchain等agent组件做成了可拖拽式的UI|https://github.com/logspace-ai/langflow|
 |Haystack: LLM Agent 框架，pipeline的设计模式个人感觉比langchain更灵活更简洁 |https://github.com/deepset-ai/haystack|
 |EdgeChain: 通过Jsonnet配置文件实现LLM Agent| https://github.com/arakoodev/EdgeChains/tree/main|
 |semantic-kernel：整合大模型和编程语言的SDK|https://github.com/microsoft/semantic-kernel|
 |BMTTools: 清华出品多工具调用开源库，提供微调数据和评估ToolBench|https://github.com/OpenBMB/BMTools|
+|Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
 |Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
 |wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
@@ -249,23 +254,14 @@
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
 | --- | --- | 
-|Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 |Deep-KE：基于LLM对数据进行智能解析实现知识抽取|https://github.com/zjunlp/DeepKE|
 |IncarnaMind：多文档RAG方案，动态chunking的方案可以借鉴|https://github.com/junruxiong/IncarnaMind|
 |Vectra：平台化的LLM Agent搭建方案，从索引构建，内容召回排序，到事实检查的LLM生成|https://vectara.com/tour-vectara/|
 |Data-Copilot：时间序列等结构化数据分析领域的Agent解决方案|https://github.com/zwq2018/Data-Copilot|
 |DB-GPT: 以数据库为基础的GPT实验项目，使用本地化的GPT大模型与您的数据和环境进行交互|https://db-gpt.readthedocs.io/projects/db-gpt-docs-zh-cn/zh_CN/latest/index.html|
-
-
-### 评估，幻觉等其他框架
-| 工具描述   | 链接   | 
-| --- | --- | 
-|Ragas: 评估检索增强LLM效果的框架，基于大模型prompt评估事实性，召回相关性，召回内容质量，回答相关性等|https://github.com/explodinggradients/ragas#fire-quickstart|
 |guardrails：降低模型幻觉的python框架，promp模板+validation+修正|https://github.com/shreyar/guardrails|
 |guidance：微软新开源框架，同样是降低模型幻觉的框架，prompt+chain的升级版加入逐步生成和思维链路|https://github.com/guidance-ai/guidance|
-|YiVal:调整和评估prompts、配置和模型参数的开源GenAI-Ops工具| https://github.com/YiVal/YiVal|
-|Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
-|EasyEdit：浙大开源支持多种模型，多种方案的模型知识精准编辑器|https://github.com/zjunlp/EasyEdit|
+|SolidGPT: 上传个人数据，通过命令交互创建项目PRD等|https://github.com/AI-Citizen/SolidGPT|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -355,6 +351,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问  ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [BingGPT](https://github.com/dice2o/BingGPT): NewBing开源桌面客户端，可以将聊天记录导出  ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [AutoLabel](https://github.com/refuel-ai/autolabel): AutoLabel标注方案 ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
+- [Mem](https://get.mem.ai/): 笔记类产品，可以构建个人知识AI管家例如知识图谱，已获openai融资 ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
 - [DocsGPT](https://github.com/arc53/DocsGPT): 把ChatGPT开放域问答转化成封闭域问答的通用方案，试用垂类领域问答场景,可以试用定制的ChatBot  ![](https://img.shields.io/badge/Tool-Business-red) :star:
 - [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM): 基于ChatGLM的本地知识问答，和上面的DocsGPT相似，不过可以本地部署:star:
 - [ChatPDF](https://chat2doc.cn/): 国内的ChatPDF, 上传pdf后，会给出文章的Top5可能问题，然后对话式从文档中进行问答和检索，10s读3万字  ![](https://img.shields.io/badge/Tool-Business-red)
