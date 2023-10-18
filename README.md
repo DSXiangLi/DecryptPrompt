@@ -56,6 +56,7 @@
 |[LLama2](https://ai.meta.com/llama/)|Open Meta带着可商用开源的羊驼2模型来了~|
 |[Vicuna](https://github.com/lm-sys/FastChat)|Alpaca前成员等开源以LLama13B为基础使用ShareGPT指令微调的模型，提出了用GPT4来评测模型效果|
 |[WizardLM](https://github.com/nlpxucan/WizardLM)|微软新发布13B，登顶AlpacaEval开源模型Top3，使用ChatGPT对指令进行复杂度进化微调LLama2|
+|[Mistral7B](https://mistral.ai/news/announcing-mistral-7b/)|法国“openai”开源，超过llama2当前最好7B模型|
 |[OpenChat](https://github.com/imoneoi/openchat)|80k ShareGPT对话微调LLama-2 13B开源模型中的战斗机|
 |[Guanaco](https://huggingface.co/KBlueLeaf/guanaco-7B-leh)|LLama 7B基座，在alpaca52K数据上加入534K多语言指令数据微调|
 |[LLaMA](https://github.com/facebookresearch/llama)    |  Meta开源指令微调LLM，规模70 亿到 650 亿不等  |
@@ -96,6 +97,7 @@
 |[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
 |[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代，提供了7B/13B Base和chat的版本|
+|[zephyr-7B](https://ollama.ai/library/zephyr)|HuggingFace 团队基于 UltraChat 和 UltraFeedback 训练了 Zephyr-7B 模型|
 |[XWin-LM](https://github.com/Xwin-LM/Xwin-LM)|llama2 + SFT + RLHF|
 |[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
 |[Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型。可商用 |
@@ -103,6 +105,7 @@
 |[IntenrLM](https://github.com/InternLM/InternLM)| 书生浦语在过万亿 token 数据上训练的多语千亿参数基座模型|
 |[Aquila2](https://github.com/FlagAI-Open/Aquila2/blob/main/README_CN.md)|智源更新Aquila2模型系列包括全新34B|
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
+|[UltraLM系列](https://github.com/thunlp/UltraChat)|面壁智能开源UltraLM13B，奖励模型UltraRM，和批评模型UltraCM|
 |[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot上线超长文本LLM 可输入20W上文需要申请试用 |
 |[PandaLLM](https://github.com/dandelionsllm/pandallm)|LLAMA2上中文wiki继续预训练+COIG指令微调|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
@@ -320,6 +323,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |RLHF| OpenAssistant Conversations 160K消息，13500人工生成, 英文为主|https://huggingface.co/datasets/OpenAssistant/oasst1|
 |RLHF| 知乎问答偏好数据集|https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k|
 |RLHF| hh-rlhf中文翻译偏好数据|https://huggingface.co/datasets/liswei/rm-static-zhTW|
+|RLHF|面壁智能开源大规模偏好数据，基于64Kprompt使用不同模型生成4个回答使用GPT-4评估|https://github.com/OpenBMB/UltraFeedback|
 |评估集| BigBench(Beyond the Imitation Game Benchmark)    |  https://github.com/google/BIG-bench   |
 |评估集| Complex QA：用于ChatGPT的评测指令集  |    https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT |
 |评估集| Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
@@ -526,6 +530,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Llama 2: Open Foundation and Fine-Tuned Chat Models
 - OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
 - Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
+- Mistral 7B
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
