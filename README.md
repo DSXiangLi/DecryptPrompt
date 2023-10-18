@@ -671,6 +671,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework
   - RestGPT: Connecting Large Language Models with Real-World RESTful APIs
   - ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models
+  - InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -699,6 +700,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow
   - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
   - PointLLM: Empowering Large Language Models to Understand Point Clouds
+  - Interpretable Long-Form Legal Question Answering with Retrieval-Augmented Large Language Models
+  - Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
+  - CarExpert: Leveraging Large Language Models for In-Car Conversational Question Answering
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
@@ -818,6 +822,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Rethinking with Retrieval: Faithful Large Language Model Inference
 - RefGPT: Reference → Truthful & Customized Dialogues Generation by GPTs and for GPTs
 - Enabling Large Language Models to Generate Text with Citations
+- Large language models and the perils of their hallucinations
 
 ### 大模型评估（evaluation）
 - 事实性评估
