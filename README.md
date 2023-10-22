@@ -49,6 +49,7 @@
 |[kola](http://103.238.162.37:31622/LeaderBoard)|以世界知识为核心的评价基准，包括已知的百科知识和未知的近90天网络发布内容，评价知识记忆，理解，应用和创造能力|
 |[CEVAL](https://cevalbenchmark.com/index.html#home)|中文知识评估，覆盖52个学科，机器评价主要为多项选择|
 |[CMMLU](https://github.com/haonan-li/CMMLU)|67个主题中文知识和推理能力评估，多项选择机器评估|
+|[LLMEval3](http://llmeval.com/)|复旦推出的知识问答榜单，涵盖大学作业和考题，题库尽可能来自非互联网避免模型作弊|
 
 ### 国外开源模型
 |模型链接     | 模型描述    |
@@ -225,6 +226,7 @@
 |Generative Agents:斯坦福AI小镇的开源代码|https://github.com/joonspk-research/generative_agents|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
+|XAgent: 面壁智能开源双循环AutoGPT|https://github.com/OpenBMB/XAgent|
 |MetaGPT: 覆盖软件公司全生命流程，例如产品经理等各个职业的AutoGPT|https://github.com/geekan/MetaGPT|
 |ResearchGPT: 论文写作领域的AutoGPT，融合论文拆解+网络爬虫|https://github.com/assafelovic/gpt-researcher|
 |MiniAGI：自执行LLM Agent|https://github.com/muellerberndt/mini-agi|
@@ -342,6 +344,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |多源数据集整合| opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
 |Tool-搜索增强| webCPM开源的和搜索工具进行交互问答的数据集，包括网页抽取式摘要，多事实内容回答等人工标注数据|https://github.com/thunlp/WebCPM|
 |Tool-多工具| BmTools开源的多工具调用指令数据集| https://github.com/OpenBMB/BMTools|
+|Tool-多工具| AgentInstruct包含6项Agent任务，包括REACT式COT标注| https://thudm.github.io/AgentTuning/|
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
 
 ## AIGC
@@ -655,6 +658,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
   - RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment
  - Training Socially Aligned Language Models in Simulated Human Society
+ - RAIN: Your Language Models Can Align Themselves without Finetuning
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
@@ -673,12 +677,14 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - RestGPT: Connecting Large Language Models with Real-World RESTful APIs
   - ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models
   - InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems
+  - TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
   - Tool Learning with Foundation Models
   - Tool Maker：Large Language Models as Tool Maker
   - TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
+  - AgentTuning: Enabling Generalized Agent Abilities for LLMs
 - 检索增强方案
   - WebGPT：Browser-assisted question-answering with human feedback
   - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
