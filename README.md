@@ -380,6 +380,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [ChatExcel](https://chatexcel.com/convert): 指令控制excel计算，对熟悉excel的有些鸡肋，对不熟悉的有点用  ![](https://img.shields.io/badge/Tool-Business-red)
 - [ChatPPT](https://github.com/williamfzc/chat-gpt-ppt): 使用ChatGPT进行PPT制作 ![](https://img.shields.io/badge/Tool-Business-red)
 - [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档  ![](https://img.shields.io/badge/Tool-Business-red)
+- [AutoDev](https://ide.unitmesh.cc/):  AI编程辅助工具![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [Copilot](https://github.com/features/copilot): 要付费哟 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [CodeGex](http://codegeex.cn/zh-CN): 国内替代品，还没试过 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
@@ -685,7 +686,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Tool Maker：Large Language Models as Tool Maker
   - TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
   - AgentTuning: Enabling Generalized Agent Abilities for LLMs
-- 检索增强方案
+- 检索增强方案（RAG）
   - WebGPT：Browser-assisted question-answering with human feedback
   - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
   - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
@@ -696,6 +697,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - RRAML: Reinforced Retrieval Augmented Machine Learning
   - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
   - PDFTriage: Question Answering over Long, Structured Documents
+  - SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -726,6 +728,10 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
+
+### Humanoid Agents
+- HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS
+- Humanoid Agents: Platform for Simulating Human-like Generative Agents
 
 ### 指令数据生成 (instruction_data_gen)
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
@@ -884,3 +890,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Learnware: Small Models Do Big
 - The economic potential of generative AI
 - A PhD Student’s Perspective on Research in NLP in the Era of Very Large Language Models
+
+
+
