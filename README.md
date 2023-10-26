@@ -28,6 +28,7 @@
 - [解密Prompt系列15. LLM Agent之数据库应用设计：DIN & C3 & SQL-Palm & BIRD](https://cloud.tencent.com/developer/article/2328749)
 - [解密Prompt系列16. LLM对齐经验之数据越少越好？LTD & LIMA & AlpaGasus](https://cloud.tencent.com/developer/article/2333495)
 - [解密Prompt系列17. LLM对齐方案再升级 WizardLM & BackTranslation & SELF-ALIGN](https://cloud.tencent.com/developer/article/2338592)
+- [解密Prompt系列18. LLM Agent之只有智能体的世界](https://cloud.tencent.com/developer/article/2351540)
 
 ## LLMS
 ### 模型评测
@@ -724,6 +725,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society
   - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
   - Communicative Agents for Software Development
+  - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE GENERATIVE AGENTS
+  - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
