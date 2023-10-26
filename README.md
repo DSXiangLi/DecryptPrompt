@@ -172,6 +172,7 @@
 |金融|[ChatFund](https://chat.funddb.cn/)|韭圈儿发布的第一个基金大模型，看起来是做了多任务指令微调，和APP已有的数据功能进行了全方位的打通，从选基，到持仓分析等等|
 |金融|[FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)|金融传统任务微调 or chatgpt生成金融工具调用|
 |金融|[CFGPT](https://github.com/TongjiFinLab/CFGPT)|金融预训练+指令微调+RAG等检索任务增强|
+|金融|[DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)|复旦发布多微调模型组合金融系统，包括金融知识问答,金融NLP任务，金融计算，金融检索问答|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -691,14 +692,15 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - WebGPT：Browser-assisted question-answering with human feedback
   - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
   - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
-  - REPLUG: Retrieval-Augmented Black-Box Language Models
+  - REPLUG: Retrieval-Augmented Black-Box Language Models :star:
   - Query Rewriting for Retrieval-Augmented Large Language Models
   - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
   - Atlas: Few-shot Learning with Retrieval Augmented Language Models
   - RRAML: Reinforced Retrieval Augmented Machine Learning
   - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
   - PDFTriage: Question Answering over Long, Structured Documents
-  - SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION
+  - SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
+  - Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -720,11 +722,11 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - API-Bank: A Benchmark for Tool-Augmented LLMs
   - ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs
 - MultiAgent
-  - Generative Agents: Interactive Simulacra of Human Behavior
+  - Generative Agents: Interactive Simulacra of Human Behavior  :star:
   - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents
-  - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society
+  - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society  :star:
   - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
-  - Communicative Agents for Software Development
+  - Communicative Agents for Software Development  :star:
   - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE GENERATIVE AGENTS
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
 - 其他
