@@ -473,6 +473,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
 - Challenges and Applications of Large Language Models
 - The Rise and Potential of Large Language Model Based Agents: A Survey
+- Large Language Models for Information Retrieval: A Survey
 
 ### 大模型能力探究
 - In Context Learning 
@@ -701,6 +702,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - PDFTriage: Question Answering over Long, Structured Documents
   - SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
   - Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
+  - Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
