@@ -474,6 +474,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Challenges and Applications of Large Language Models
 - The Rise and Potential of Large Language Model Based Agents: A Survey
 - Large Language Models for Information Retrieval: A Survey
+- AI Alignment: A Comprehensive Survey
 
 ### 大模型能力探究
 - In Context Learning 
@@ -482,6 +483,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers :star:
   - Rethinking the Role of Demonstrations What Makes incontext learning work? :star:
   - Trained Transformers Learn Linear Models In-Context
+  - In-Context Learning Creates Task Vectors
 - 涌现能力
   - Sparks of Artificial General Intelligence: Early experiments with GPT-4
   - Emerging Ability of Large Language Models :star:
@@ -570,6 +572,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - OpinionGPT: Modelling Explicit Biases in Instruction-Tuned LLMs
    - Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
    - Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback
+   - Human-like systematic generalization through a meta-learning neural network
 - 微调经验/实验报告
     - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
     - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
@@ -661,8 +664,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback
   - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
   - RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment
- - Training Socially Aligned Language Models in Simulated Human Society
- - RAIN: Your Language Models Can Align Themselves without Finetuning
+  - Training Socially Aligned Language Models in Simulated Human Society
+  - RAIN: Your Language Models Can Align Themselves without Finetuning
+  - Generative Judge for Evaluating Alignment
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
@@ -676,12 +680,12 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models   :star:
   - Faithful Chain-of-Thought Reasoning
   - Reflexion: Language Agents with Verbal Reinforcement Learning  :star:
-  - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks
   - Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework
   - RestGPT: Connecting Large Language Models with Real-World RESTful APIs
   - ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models
   - InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems
   - TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents
+  - ControlLLM: Augment Language Models with Tools by Searching on Graphs
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -689,20 +693,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Tool Maker：Large Language Models as Tool Maker
   - TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
   - AgentTuning: Enabling Generalized Agent Abilities for LLMs
-- 检索增强方案（RAG）
-  - WebGPT：Browser-assisted question-answering with human feedback
-  - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
-  - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
-  - REPLUG: Retrieval-Augmented Black-Box Language Models :star:
-  - Query Rewriting for Retrieval-Augmented Large Language Models
-  - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
-  - Atlas: Few-shot Learning with Retrieval Augmented Language Models
-  - RRAML: Reinforced Retrieval Augmented Machine Learning
-  - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
-  - PDFTriage: Question Answering over Long, Structured Documents
-  - SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
-  - Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
-  - Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -735,6 +725,23 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
+
+### 检索增强(RAG)
+- WebGPT：Browser-assisted question-answering with human feedback
+- WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
+- WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
+- REPLUG: Retrieval-Augmented Black-Box Language Models :star:
+- Query Rewriting for Retrieval-Augmented Large Language Models
+- RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
+- Atlas: Few-shot Learning with Retrieval Augmented Language Models
+- RRAML: Reinforced Retrieval Augmented Machine Learning
+- Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
+- PDFTriage: Question Answering over Long, Structured Documents
+- SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
+- Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
+- Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
+- Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks
+
 
 ### Humanoid Agents
 - HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS
@@ -783,6 +790,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT
 - CFGPT: Chinese Financial Assistant with Large Language Model
 - Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue
+- LLEMMA: AN OPEN LANGUAGE MODEL FOR MATHEMATICS
 
 ### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
@@ -843,6 +851,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - RefGPT: Reference → Truthful & Customized Dialogues Generation by GPTs and for GPTs
 - Enabling Large Language Models to Generate Text with Citations
 - Large language models and the perils of their hallucinations
+- Woodpecker: Hallucination Correction for Multimodal Large Language Models
 
 ### 大模型评估（evaluation）
 - 事实性评估
@@ -852,6 +861,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models
   - FACTSCORE: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
   - KoLA: Carefully Benchmarking World Knowledge of Large Language Models
+  - When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories
 
 
 ### 推理优化(inference)
