@@ -697,6 +697,21 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
   - OpenAGI: When LLM Meets Domain Experts
+- 检索增强RAG
+  - WebGPT：Browser-assisted question-answering with human feedback
+  - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
+  - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
+  - REPLUG: Retrieval-Augmented Black-Box Language Models :star:
+  - Query Rewriting for Retrieval-Augmented Large Language Models
+  - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
+  - Atlas: Few-shot Learning with Retrieval Augmented Language Models
+  - RRAML: Reinforced Retrieval Augmented Machine Learning
+  - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
+  - PDFTriage: Question Answering over Long, Structured Documents
+  - SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
+  - Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
+  - Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
+  - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks
 - 垂直领域
   - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -725,22 +740,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
-
-### 检索增强(RAG)
-- WebGPT：Browser-assisted question-answering with human feedback
-- WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
-- WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
-- REPLUG: Retrieval-Augmented Black-Box Language Models :star:
-- Query Rewriting for Retrieval-Augmented Large Language Models
-- RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
-- Atlas: Few-shot Learning with Retrieval Augmented Language Models
-- RRAML: Reinforced Retrieval Augmented Machine Learning
-- Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
-- PDFTriage: Question Answering over Long, Structured Documents
-- SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
-- Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
-- Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
-- Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks
 
 
 ### Humanoid Agents
