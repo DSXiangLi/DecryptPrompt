@@ -544,16 +544,16 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
-  - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
-  - Flan-T5: Scaling Instruction-Finetuned Language Models
-  - ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning
-  - Instruct-GPT: Training language models to follow instructions with human feedback :star:
-  - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
-  - Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
-  - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
-  - ZeroPrompt: Scaling Prompt-Based Pretraining to 1,000 Tasks Improves Zero-shot Generalization
-  - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
-  - INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
+   - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
+   - Flan-T5: Scaling Instruction-Finetuned Language Models
+   - ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning
+   - Instruct-GPT: Training language models to follow instructions with human feedback :star:
+   - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
+   - Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
+   - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
+   - ZeroPrompt: Scaling Prompt-Based Pretraining to 1,000 Tasks Improves Zero-shot Generalization
+   - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
+   - INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
 - 更少，质量更高、更多样的指令数据带来质变
     - LIMA: Less Is More for Alignment :star:
     - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
@@ -562,6 +562,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - InstructionGPT-4: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4
     - Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
     - Visual Instruction Tuning with Polite Flamingo
+    - Exploring the Impact of Instruction Data Scaling on Large Language Models:  An Empirical Study on Real-World Use Cases
 - 新对齐/微调方案
    - WizardLM: Empowering Large Language Models to Follow Complex Instructions
    - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
@@ -579,6 +580,11 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
     - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
     - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
+- Others
+   - Crosslingual Generalization through Multitask Finetuning
+   - Cross-Task Generalization via Natural Language Crowdsourcing Instructions
+   - UNIFIEDSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models
+   - PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts
 
 ### 对话模型
 - LaMDA: Language Models for Dialog Applications
