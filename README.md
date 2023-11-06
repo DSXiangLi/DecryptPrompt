@@ -730,6 +730,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Active Retrieval Augmented Generation
   - kNN-LM Does Not Improve Open-ended Text Generation
   - Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
+  - Query2doc: Query Expansion with Large Language Models
 - 垂直领域
   - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
