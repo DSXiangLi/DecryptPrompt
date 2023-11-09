@@ -203,6 +203,7 @@
 |FlexGen: LLM推理 CPU Offload计算架构|https://github.com/FMInference/FlexGen|
 |VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍，支持很多基座模型|https://github.com/vllm-project/vllm|
 |Streamingllm: 新注意力池Attention方案，无需微调拓展模型推理长度，同时为推理提速|https://github.com/mit-han-lab/streaming-llm|
+|llama2.c: llama2 纯C语言的推理框架|https://github.com/karpathy/llama2.c|
 
 ### 指令微调，预训练，rlhf框架
 | 工具描述   | 链接   | 
@@ -232,6 +233,7 @@
 |Generative Agents:斯坦福AI小镇的开源代码|https://github.com/joonspk-research/generative_agents|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
 |AutoGPT：自执行LLM Agent|https://github.com/Torantulino/Auto-GPT|
+|AutoGPT-Plugins：提供众多Auo-GPT官方和第三方的插件|https://github.com/Significant-Gravitas/Auto-GPT-Plugins|
 |XAgent: 面壁智能开源双循环AutoGPT|https://github.com/OpenBMB/XAgent|
 |MetaGPT: 覆盖软件公司全生命流程，例如产品经理等各个职业的AutoGPT|https://github.com/geekan/MetaGPT|
 |ResearchGPT: 论文写作领域的AutoGPT，融合论文拆解+网络爬虫|https://github.com/assafelovic/gpt-researcher|
@@ -243,12 +245,14 @@
 |GPTeam：多智能体交互|https://github.com/101dotxyz/GPTeam|
 |GPTEngineer：自动工具构建和代码生成|https://github.com/AntonOsika/gpt-engineer|
 |WorkGPT：类似AutoGPT|https://github.com/team-openpm/workgpt|
+|AI-Town: 虚拟世界模拟器|https://github.com/a16z-infra/ai-town|
 
 ### Agent工具框架类
 | 工具描述   | 链接   | 
 | --- | --- | 
 |langchain：LLM Agent框架|https://github.com/hwchase17/langchain|
 |llama index：LLM Agent框架|https://github.com/jerryjliu/llama_index|
+|Langroid: LLM Agent框架|https://github.com/langroid/langroid|
 |Ragas: 评估检索增强LLM效果的框架，基于大模型prompt评估事实性，召回相关性，召回内容质量，回答相关性等|https://github.com/explodinggradients/ragas#fire-quickstart|
 |langflow：把langchain等agent组件做成了可拖拽式的UI|https://github.com/logspace-ai/langflow|
 |Haystack: LLM Agent 框架，pipeline的设计模式个人感觉比langchain更灵活更简洁 |https://github.com/deepset-ai/haystack|
@@ -736,6 +740,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
   - ChemCrow Augmenting large language models with chemistry tools
   - Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow
+  - Demonstration of InsightPilot: An LLM-Empowered Automated Data Exploration System
   - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
   - PointLLM: Empowering Large Language Models to Understand Point Clouds
   - Interpretable Long-Form Legal Question Answering with Retrieval-Augmented Large Language Models
@@ -760,11 +765,12 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
-
+  - LLaMA Rider: Spurring Large Language Models to Explore the Open World
 
 ### Humanoid Agents
 - HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS
 - Humanoid Agents: Platform for Simulating Human-like Generative Agents
+- Voyager: An Open-Ended Embodied Agent with Large Language Models
 
 ### 指令数据生成 (instruction_data_gen)
 - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
@@ -882,7 +888,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - FACTSCORE: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
   - KoLA: Carefully Benchmarking World Knowledge of Large Language Models
   - When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories
-
+- 探针任务
+  - Detecting Pretraining Data from Large Language Models
 
 ### 推理优化(inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
