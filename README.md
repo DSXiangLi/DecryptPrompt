@@ -598,6 +598,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Cross-Task Generalization via Natural Language Crowdsourcing Instructions
    - UNIFIEDSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models
    - PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts
+   - ROLELLM: BENCHMARKING, ELICITING, AND ENHANCING ROLE-PLAYING ABILITIES OF LARGE LANGUAGE MODELS
 
 ### 对话模型
 - LaMDA: Language Models for Dialog Applications
@@ -686,7 +687,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Training Socially Aligned Language Models in Simulated Human Society
   - RAIN: Your Language Models Can Align Themselves without Finetuning
   - Generative Judge for Evaluating Alignment
-
+  
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
   - ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
@@ -735,6 +736,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - kNN-LM Does Not Improve Open-ended Text Generation
   - Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
   - Query2doc: Query Expansion with Large Language Models
+  - RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
 - 垂直领域
   - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
