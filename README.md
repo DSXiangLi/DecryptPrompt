@@ -772,10 +772,18 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 
 
 ### LLM+KG
-- [知识图谱与大模型融合实践研究报告2023](https://blog.csdn.net/m0_37586850/article/details/132463508)
-- Unifying Large Language Models and Knowledge Graphs: A Roadmap
-
-
+- 综述类
+  - Unifying Large Language Models and Knowledge Graphs: A Roadmap
+  - Large Language Models and Knowledge Graphs: Opportunities and Challenges
+  - [知识图谱与大模型融合实践研究报告2023](https://blog.csdn.net/m0_37586850/article/details/132463508)
+- KG用于大模型推理
+  - MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models
+  - Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering
+  - Domain Specific Question Answering Over Knowledge Graphs Using Logical Programming and Large Language Models
+- 大模型用于KG构建
+  - LLM-assisted Knowledge Graph Engineering: Experiments with ChatGPT
+  - ITERATIVE ZERO-SHOT LLM PROMPTING FOR KNOWLEDGE GRAPH CONSTRUCTION
+  - Exploring Large Language Models for Knowledge Graph Completion
 ### Humanoid Agents
 - HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS
 - Humanoid Agents: Platform for Simulating Human-like Generative Agents
