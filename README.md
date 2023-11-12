@@ -755,6 +755,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - API-Bank: A Benchmark for Tool-Augmented LLMs
   - ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs
   - Automatic Evaluation of Attribution by Large Language Models
+  - Benchmarking Large Language Models in Retrieval-Augmented Generation
 - MultiAgent
   - Generative Agents: Interactive Simulacra of Human Behavior  :star:
   - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents
@@ -768,6 +769,12 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
   - LLaMA Rider: Spurring Large Language Models to Explore the Open World
+
+
+### LLM+KG
+- [知识图谱与大模型融合实践研究报告2023](https://blog.csdn.net/m0_37586850/article/details/132463508)
+- Unifying Large Language Models and Knowledge Graphs: A Roadmap
+
 
 ### Humanoid Agents
 - HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS
