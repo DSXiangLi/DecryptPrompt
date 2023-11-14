@@ -687,7 +687,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Training Socially Aligned Language Models in Simulated Human Society
   - RAIN: Your Language Models Can Align Themselves without Finetuning
   - Generative Judge for Evaluating Alignment
-  
+  - PEERING THROUGH PREFERENCES: UNRAVELING FEEDBACK ACQUISITION FOR ALIGNING LARGE LANGUAGE MODELS
+  - SALMON: SELF-ALIGNMENT WITH PRINCIPLE-FOLLOWING REWARD MODELS
+
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
   - ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
