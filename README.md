@@ -29,6 +29,7 @@
 - [解密Prompt系列16. LLM对齐经验之数据越少越好？LTD & LIMA & AlpaGasus](https://cloud.tencent.com/developer/article/2333495)
 - [解密Prompt系列17. LLM对齐方案再升级 WizardLM & BackTranslation & SELF-ALIGN](https://cloud.tencent.com/developer/article/2338592)
 - [解密Prompt系列18. LLM Agent之只有智能体的世界](https://cloud.tencent.com/developer/article/2351540)
+- [解密Prompt系列19. LLM Agent之数据分析领域的应用：Data-Copilot & InsightPilot](https://cloud.tencent.com/developer/article/2358413)
 
 ## LLMS
 ### 模型评测
@@ -175,6 +176,7 @@
 |金融|[ChatFund](https://chat.funddb.cn/)|韭圈儿发布的第一个基金大模型，看起来是做了多任务指令微调，和APP已有的数据功能进行了全方位的打通，从选基，到持仓分析等等|
 |金融|[FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)|金融传统任务微调 or chatgpt生成金融工具调用|
 |金融|[CFGPT](https://github.com/TongjiFinLab/CFGPT)|金融预训练+指令微调+RAG等检索任务增强|
+|金融|况客FOF智能投顾|微信小程序的基金大模型应用，基金投顾，支持nl2sql类的数据查询，和基金信息对比查询等|
 |金融|[DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)|复旦发布多微调模型组合金融系统，包括金融知识问答,金融NLP任务，金融计算，金融检索问答|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
@@ -193,6 +195,7 @@
 |写作|[MediaGPT](https://github.com/search?q=MediaGPT&type=repositories)|LLama-7B扩充词表+指令微调，指令来自国内媒体专家给出的在新闻创作上的80个子任务|
 |电商|[EcomGPT](https://github.com/Alibaba-NLP/EcomGPT)|电商领域任务指令微调大模型，指令样本250万，基座模型是Bloomz|
 |评估|[Auto-J](https://modelscope.cn/models/lockonlvange/autoj-13b-fp16/summary)|上交开源了价值评估对齐13B模型|
+|评估|[JudgeLM](https://github.com/baaivision/JudgeLM)|智源开源了 JudgeLM 的裁判模型，可以高效准确地评判各类大模型|
 
 ## Tool and Library
 ### 推理框架
@@ -229,6 +232,7 @@
 ### Auto/Multi Agent
 | 工具描述   | 链接   | 
 | --- | --- | 
+|AtuoGen：微软开源多Agent顶层框架|https://github.com/microsoft/autogen|
 |ChatDev: 面壁智能开源多智能体协作的虚拟软件公司|https://github.com/OpenBMB/ChatDev|
 |Generative Agents:斯坦福AI小镇的开源代码|https://github.com/joonspk-research/generative_agents|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
@@ -739,6 +743,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
   - Query2doc: Query Expansion with Large Language Models
   - RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
+  - Augmented Embeddings for Custom Retrievals
+  - DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
 - 垂直领域
   - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -779,13 +785,16 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Large Language Models and Knowledge Graphs: Opportunities and Challenges
   - [知识图谱与大模型融合实践研究报告2023](https://blog.csdn.net/m0_37586850/article/details/132463508)
 - KG用于大模型推理
+  - Using Large Language Models for Zero-Shot Natural Language Generation from Knowledge Graphs
   - MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models
   - Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering
   - Domain Specific Question Answering Over Knowledge Graphs Using Logical Programming and Large Language Models
 - 大模型用于KG构建
+  - Enhancing Knowledge Graph Construction Using Large Language Models 
   - LLM-assisted Knowledge Graph Engineering: Experiments with ChatGPT
   - ITERATIVE ZERO-SHOT LLM PROMPTING FOR KNOWLEDGE GRAPH CONSTRUCTION
   - Exploring Large Language Models for Knowledge Graph Completion
+
 ### Humanoid Agents
 - HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS
 - Humanoid Agents: Platform for Simulating Human-like Generative Agents
@@ -857,6 +866,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Lost in the Middle: How Language Models Use Long Contexts :star:
 - EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
 - Ring Attention with Blockwise Transformers for Near-Infinite Context
+- HyperAttention: Long-context Attention in Near-Linear Time
+- Never Lost in the Middle: Improving Large Language Models via Attention Strengthening Question Answering
 
 ### NL2SQL
 - 大模型方案
