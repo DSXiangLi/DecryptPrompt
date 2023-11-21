@@ -745,6 +745,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
   - Augmented Embeddings for Custom Retrievals
   - DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
+  - Learning to Filter Context for Retrieval-Augmented Generation
 - 垂直领域
   - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -868,6 +869,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Ring Attention with Blockwise Transformers for Near-Infinite Context
 - HyperAttention: Long-context Attention in Near-Linear Time
 - Never Lost in the Middle: Improving Large Language Models via Attention Strengthening Question Answering
+- LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models
 
 ### NL2SQL
 - 大模型方案
