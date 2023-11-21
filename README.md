@@ -93,12 +93,13 @@
 ### 国内开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
-|[ChatGLM3](https://github.com/THUDM/ChatGLM3)|ChatGLM3发布，支持工具调用等更多功能|
+|[ChatGLM3](https://github.com/THUDM/ChatGLM3)|ChatGLM3发布，支持工具调用等更多功能，不过泛化性有待评估|
 |[ChatGLM2](https://github.com/thudm/chatglm2-6b)|32K长文本，FlashAttention+Multi-Query Attenion的显存优化，更强推理能力，哈哈不过很多简单问题也硬要COT，中英平行能力似乎略有下降的ChatGLM2，但是免费商用！|
 |[ChatGLM](https://github.com/THUDM/ChatGLM-6B)   | 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。chatglm2支持超长文本，可免费商用啦！|
+|[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
+|[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
 |[LLama2-chinese](https://github.com/FlagAlpha/Llama2-Chinese)|没等太久中文预训练微调后的llama2它来了~|
 |[YuLan-chat2](https://github.com/RUC-GSAI/YuLan-Chat)|高瓴人工智能基于Llama-2中英双语继续预训练+指令微调/对话微调|
-|[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
 |[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代，提供了7B/13B Base和chat的版本|
 |[zephyr-7B](https://ollama.ai/library/zephyr)|HuggingFace 团队基于 UltraChat 和 UltraFeedback 训练了 Zephyr-7B 模型|
@@ -107,7 +108,7 @@
 |[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
 |[Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型。可商用 |
 |[Qwen-7B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B模型|
-|[IntenrLM](https://github.com/InternLM/InternLM)| 书生浦语在过万亿 token 数据上训练的多语千亿参数基座模型|
+|[InternLM](https://github.com/InternLM/InternLM)| 书生浦语在过万亿 token 数据上训练的多语千亿参数基座模型|
 |[Aquila2](https://github.com/FlagAI-Open/Aquila2/blob/main/README_CN.md)|智源更新Aquila2模型系列包括全新34B|
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
 |[UltraLM系列](https://github.com/thunlp/UltraChat)|面壁智能开源UltraLM13B，奖励模型UltraRM，和批评模型UltraCM|
@@ -254,6 +255,7 @@
 ### Agent工具框架类
 | 工具描述   | 链接   | 
 | --- | --- | 
+|OpenAgents: 开源版ChatGPT-Plus搭建框架|https://github.com/xlang-ai/OpenAgents|
 |langchain：LLM Agent框架|https://github.com/hwchase17/langchain|
 |llama index：LLM Agent框架|https://github.com/jerryjliu/llama_index|
 |Langroid: LLM Agent框架|https://github.com/langroid/langroid|
@@ -351,10 +353,11 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |通用预训练| UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
 |中文预训练| 智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
 |中文预训练| 里屋社区发起开源力量收集中文互联网语料集MNBVC目标是对标ChatGPT的40T|https://github.com/esbatmop/MNBVC|
-|中文预训练|复旦开源15万中文图书下载和抽取方案|https://github.com/FudanNLPLAB/CBook-150K|
-|中文预训练|书生万卷数据集来自公开网页多模态数据集，包括文本，图文和视频，其中文本1T，图文150G|https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0|
-|中文预训练|昆仑天工开源3.2TB中英语料|https://github.com/SkyworkAI/Skywork|
-|领域预训练|度小满开源60G金融预训练语料|https://github.com/Duxiaoman-DI/XuanYuan|
+|中文预训练| 复旦开源15万中文图书下载和抽取方案|https://github.com/FudanNLPLAB/CBook-150K|
+|中文预训练| 书生万卷数据集来自公开网页多模态数据集，包括文本，图文和视频，其中文本1T，图文150G|https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0|
+|中文预训练| 昆仑天工开源3.2TB中英语料|https://github.com/SkyworkAI/Skywork|
+|中文预训练| 浪潮开源的用于Yuan1.0训练的预训练中文语料|https://www.airyuan.cn/home|
+|领域预训练| 度小满开源60G金融预训练语料|https://github.com/Duxiaoman-DI/XuanYuan|
 |领域预训练| 首个中文科学文献数据集CSL,也有多种NLP任务数据 |https://github.com/ydli-ai/CSL|
 |平行语料| news-commentary中英平行语料，用于中英间知识迁移|https://data.statmt.org/news-commentary/v15/training/|
 |多源数据集整合| opendatalab整合了预训练阶段的多个数据源|https://opendatalab.org.cn/?industry=9821&source=JUU3JTlGJUE1JUU0JUI5JThF|
@@ -364,7 +367,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
 
 ## AIGC
-- [NexusGPT](https://nexus.snikpic.io/): ![](https://img.shields.io/badge/Auto-Agent-white): AutoGPT可以出来工作了，第一个全AI Freelance平台
+- [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作  ![](https://img.shields.io/badge/Auto-Agent-white):
+- [NexusGPT](https://nexus.snikpic.io/): AutoGPT可以出来工作了，第一个全AI Freelance平台  ![](https://img.shields.io/badge/Auto-Agent-white):
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
 - [godmode](https://godmode.space/)：可以进行人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
 - [agentgpt](https://agentgpt.reworkd.ai/): 基础版AutoGPT![](https://img.shields.io/badge/Auto-Agent-white) :star:
@@ -558,6 +562,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
 - Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
 - Mistral 7B
+- Ziya2: Data-centric Learning is All LLMs Need
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -746,6 +751,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Augmented Embeddings for Custom Retrievals
   - DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
   - Learning to Filter Context for Retrieval-Augmented Generation
+  - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASON- ING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
 - 垂直领域
   - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -790,6 +796,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - MindMap: Knowledge Graph Prompting Sparks Graph of Thoughts in Large Language Models
   - Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering
   - Domain Specific Question Answering Over Knowledge Graphs Using Logical Programming and Large Language Models
+  - BRING YOUR OWN KG: Self-Supervised Program Synthesis for Zero-Shot KGQA
 - 大模型用于KG构建
   - Enhancing Knowledge Graph Construction Using Large Language Models 
   - LLM-assisted Knowledge Graph Engineering: Experiments with ChatGPT
