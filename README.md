@@ -862,6 +862,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - CFGPT: Chinese Financial Assistant with Large Language Model
 - Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue
 - LLEMMA: AN OPEN LANGUAGE MODEL FOR MATHEMATICS
+- CFBenchmark: Chinese Financial Assistant Benchmark for Large Language Model
 
 ### LLM超长文本处理 (long_input)
 - Parallel Context Windows for Large Language Models
