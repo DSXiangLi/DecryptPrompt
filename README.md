@@ -758,6 +758,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Learning to Filter Context for Retrieval-Augmented Generation
   - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASON- ING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
   - RA-DIT: RETRIEVAL-AUGMENTED DUAL INSTRUCTION TUNING
+  - Query Expansion by Prompting Large Language Models
+  - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
+  - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
 - 垂直领域
   - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
