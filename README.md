@@ -93,21 +93,22 @@
 ### 国内开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
+|[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代，提供了7B/13B Base和chat的版本|
+|[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
+|[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
+|[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
 |[ChatGLM3](https://github.com/THUDM/ChatGLM3)|ChatGLM3发布，支持工具调用等更多功能，不过泛化性有待评估|
 |[ChatGLM2](https://github.com/thudm/chatglm2-6b)|32K长文本，FlashAttention+Multi-Query Attenion的显存优化，更强推理能力，哈哈不过很多简单问题也硬要COT，中英平行能力似乎略有下降的ChatGLM2，但是免费商用！|
 |[ChatGLM](https://github.com/THUDM/ChatGLM-6B)   | 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。chatglm2支持超长文本，可免费商用啦！|
-|[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
-|[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
+|[Qwen-7B+14B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B,14B Base和chat模型|
 |[LLama2-chinese](https://github.com/FlagAlpha/Llama2-Chinese)|没等太久中文预训练微调后的llama2它来了~|
 |[YuLan-chat2](https://github.com/RUC-GSAI/YuLan-Chat)|高瓴人工智能基于Llama-2中英双语继续预训练+指令微调/对话微调|
-|[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
-|[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代，提供了7B/13B Base和chat的版本|
+|[BlueLM](https://github.com/vivo-ai-lab/BlueLM)|Vivo人工智能实验室开源大模型|
 |[zephyr-7B](https://ollama.ai/library/zephyr)|HuggingFace 团队基于 UltraChat 和 UltraFeedback 训练了 Zephyr-7B 模型|
 |[XWin-LM](https://github.com/Xwin-LM/Xwin-LM)|llama2 + SFT + RLHF|
 |[Skywork](https://github.com/SkyworkAI/Skywork)|昆仑万维集团·天工团队开源13B大模型可商用|
 |[Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)     |   哈工大中文指令微调的LLaMA  |
 |[Moss](https://github.com/OpenLMLab/MOSS)   |  为复旦正名！开源了预训练，指令微调的全部数据和模型。可商用 |
-|[Qwen-7B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B模型|
 |[InternLM](https://github.com/InternLM/InternLM)| 书生浦语在过万亿 token 数据上训练的多语千亿参数基座模型|
 |[Aquila2](https://github.com/FlagAI-Open/Aquila2/blob/main/README_CN.md)|智源更新Aquila2模型系列包括全新34B|
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
@@ -780,6 +781,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs
   - Automatic Evaluation of Attribution by Large Language Models
   - Benchmarking Large Language Models in Retrieval-Augmented Generation
+  - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems
 - MultiAgent
   - Generative Agents: Interactive Simulacra of Human Behavior  :star:
   - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents
@@ -806,6 +808,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Knowledge-Augmented Language Model Prompting for Zero-Shot Knowledge Graph Question Answering
   - Domain Specific Question Answering Over Knowledge Graphs Using Logical Programming and Large Language Models
   - BRING YOUR OWN KG: Self-Supervised Program Synthesis for Zero-Shot KGQA
+  - StructGPT: A General Framework for Large Language Model to Reason over Structured Data
 - 大模型用于KG构建
   - Enhancing Knowledge Graph Construction Using Large Language Models 
   - LLM-assisted Knowledge Graph Engineering: Experiments with ChatGPT
@@ -927,6 +930,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Enabling Large Language Models to Generate Text with Citations
 - Large language models and the perils of their hallucinations
 - Woodpecker: Hallucination Correction for Multimodal Large Language Models
+- R-Tuning: Teaching Large Language Models to Refuse Unknown Questions
 
 ### 大模型评估（evaluation）
 - 事实性评估
@@ -983,6 +987,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Learnware: Small Models Do Big
 - The economic potential of generative AI
 - A PhD Student’s Perspective on Research in NLP in the Era of Very Large Language Models
-
+- DETECTING PRETRAINING DATA FROM LARGE LANGUAGE MODELS
 
 
