@@ -60,6 +60,7 @@
 |[Vicuna](https://github.com/lm-sys/FastChat)|Alpaca前成员等开源以LLama13B为基础使用ShareGPT指令微调的模型，提出了用GPT4来评测模型效果|
 |[WizardLM](https://github.com/nlpxucan/WizardLM)|微软新发布13B，登顶AlpacaEval开源模型Top3，使用ChatGPT对指令进行复杂度进化微调LLama2|
 |[Mistral7B](https://mistral.ai/news/announcing-mistral-7b/)|法国“openai”开源，超过llama2当前最好7B模型|
+|[Dolphin-2.2.1-Mistral-7B](https://opencompass.org.cn/model-detail/Dolphin-2.2.1-Mistral-7B)|基于Mistral7B使用dolphin数据集微调|
 |[OpenChat](https://github.com/imoneoi/openchat)|80k ShareGPT对话微调LLama-2 13B开源模型中的战斗机|
 |[Guanaco](https://huggingface.co/KBlueLeaf/guanaco-7B-leh)|LLama 7B基座，在alpaca52K数据上加入534K多语言指令数据微调|
 |[LLaMA](https://github.com/facebookresearch/llama)    |  Meta开源指令微调LLM，规模70 亿到 650 亿不等  |
@@ -101,6 +102,8 @@
 |[ChatGLM2](https://github.com/thudm/chatglm2-6b)|32K长文本，FlashAttention+Multi-Query Attenion的显存优化，更强推理能力，哈哈不过很多简单问题也硬要COT，中英平行能力似乎略有下降的ChatGLM2，但是免费商用！|
 |[ChatGLM](https://github.com/THUDM/ChatGLM-6B)   | 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。chatglm2支持超长文本，可免费商用啦！|
 |[Qwen-7B+14B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B,14B Base和chat模型|
+|[Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)|浪潮发布Yuan2.0 2B，51B，102B|
+|[XVERSE](https://github.com/xverse-ai/XVERSE-65B)|元象发布13B免费商用大模型|
 |[LLama2-chinese](https://github.com/FlagAlpha/Llama2-Chinese)|没等太久中文预训练微调后的llama2它来了~|
 |[YuLan-chat2](https://github.com/RUC-GSAI/YuLan-Chat)|高瓴人工智能基于Llama-2中英双语继续预训练+指令微调/对话微调|
 |[BlueLM](https://github.com/vivo-ai-lab/BlueLM)|Vivo人工智能实验室开源大模型|
@@ -234,7 +237,7 @@
 ### Auto/Multi Agent
 | 工具描述   | 链接   | 
 | --- | --- | 
-|AtuoGen：微软开源多Agent顶层框架|https://github.com/microsoft/autogen|
+|AutoGen：微软开源多Agent顶层框架|https://github.com/microsoft/autogen|
 |ChatDev: 面壁智能开源多智能体协作的虚拟软件公司|https://github.com/OpenBMB/ChatDev|
 |Generative Agents:斯坦福AI小镇的开源代码|https://github.com/joonspk-research/generative_agents|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
@@ -273,6 +276,8 @@
 |wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
 |Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
 |RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
+|Open-Interpreter：命令行聊天框架|https://github.com/KillianLucas/open-interpreter|
+
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
@@ -398,6 +403,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [WriteSonic](https://app.writesonic.com/)：AI写作，支持对话和定向创作如广告文案，商品描述, 支持Web检索是亮点，支持中文  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
 - [copy.ai](https://www.copy.ai/): WriteSonic竞品，亮点是像论文引用一样每句话都有对应网站链接，可以一键复制到右边的创作Markdown，超级好用！ ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen) :star:
 - [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown，适用真相！在创作中用command调用AI辅助润色，扩写，检索内容，给创意idea ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
+- [Quivar](https://www.quivr.app/): 一键上传各种文档，和卡片笔记进行对话的app，基于openai向量+langchain+chatgpt搭建
 - [Jasper](https://www.jasper.ai/): 同上，全是竞品哈哈  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
 - [copy.down](https://copyai.cn/): 中文的营销文案生成，只能定向创作，支持关键词到文案的生成  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
 - [ChatExcel](https://chatexcel.com/convert): 指令控制excel计算，对熟悉excel的有些鸡肋，对不熟悉的有点用  ![](https://img.shields.io/badge/Tool-Business-red)
@@ -752,16 +758,18 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Active Retrieval Augmented Generation
   - kNN-LM Does Not Improve Open-ended Text Generation
   - Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
-  - Query2doc: Query Expansion with Large Language Models
+  - Query2doc: Query Expansion with Large Language Models  :star:
   - RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
   - Augmented Embeddings for Custom Retrievals
   - DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
   - Learning to Filter Context for Retrieval-Augmented Generation
   - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASON- ING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
   - RA-DIT: RETRIEVAL-AUGMENTED DUAL INSTRUCTION TUNING
-  - Query Expansion by Prompting Large Language Models
+  - Query Expansion by Prompting Large Language Models  :star:
+  - CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
   - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
+  - Learning to Rewrite Queries [传统方案参考]
 - 垂直领域
   - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
