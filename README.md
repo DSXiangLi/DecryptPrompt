@@ -403,6 +403,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [WriteSonic](https://app.writesonic.com/)：AI写作，支持对话和定向创作如广告文案，商品描述, 支持Web检索是亮点，支持中文  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
 - [copy.ai](https://www.copy.ai/): WriteSonic竞品，亮点是像论文引用一样每句话都有对应网站链接，可以一键复制到右边的创作Markdown，超级好用！ ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen) :star:
 - [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown，适用真相！在创作中用command调用AI辅助润色，扩写，检索内容，给创意idea ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
+- [cal.ai](https://cal.com/ai): 自动化日程调度app
 - [Quivar](https://www.quivr.app/): 一键上传各种文档，和卡片笔记进行对话的app，基于openai向量+langchain+chatgpt搭建
 - [Jasper](https://www.jasper.ai/): 同上，全是竞品哈哈  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
 - [copy.down](https://copyai.cn/): 中文的营销文案生成，只能定向创作，支持关键词到文案的生成  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
@@ -798,6 +799,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Communicative Agents for Software Development  :star:
   - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE GENERATIVE AGENTS
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
+  - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -939,6 +941,10 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Large language models and the perils of their hallucinations
 - Woodpecker: Hallucination Correction for Multimodal Large Language Models
 - R-Tuning: Teaching Large Language Models to Refuse Unknown Questions
+- Do Language Models Know When They’re Hallucinating References?
+- LM vs LM: Detecting Factual Errors via Cross Examination
+- Truth-o-meter: Collaborating with llm in fighting its hallucinations
+- RARR: Researching and Revising What Language Models Say, Using Language Models
 
 ### 大模型评估（evaluation）
 - 事实性评估
@@ -949,9 +955,10 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - FACTSCORE: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
   - KoLA: Carefully Benchmarking World Knowledge of Large Language Models
   - When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories
-- 探针任务
+  - FACTOOL: Factuality Detection in Generative AI A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios
+- 检测任务
   - Detecting Pretraining Data from Large Language Models
-
+	
 ### 推理优化(inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
 - Fast Inference from Transformers via Speculative Decoding
@@ -989,12 +996,11 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - BLIVA: A Simple Multimodal LLM for Better Handling of Text-Rich Visual Questions
 - mPLUG-Owl : Modularization Empowers Large Language Models with Multimodality
 - LVLM eHub: A Comprehensive Evaluation Benchmark for Large VisionLanguage Models
+- Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities
 
 ### Others
 - Pretraining on the Test Set Is All You Need 哈哈作者你是懂讽刺文学的
 - Learnware: Small Models Do Big
 - The economic potential of generative AI
 - A PhD Student’s Perspective on Research in NLP in the Era of Very Large Language Models
-- DETECTING PRETRAINING DATA FROM LARGE LANGUAGE MODELS
-
 
