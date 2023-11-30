@@ -255,6 +255,8 @@
 |GPTEngineer：自动工具构建和代码生成|https://github.com/AntonOsika/gpt-engineer|
 |WorkGPT：类似AutoGPT|https://github.com/team-openpm/workgpt|
 |AI-Town: 虚拟世界模拟器|https://github.com/a16z-infra/ai-town|
+|webarena:网络拟真环境，可用于自主智能体的测试，支持在线购物，论坛，代码仓库etc |https://github.com/web-arena-x/webarena|
+|MiniWoB++：100+web交互操作的拟真环境 |https://github.com/Farama-Foundation/miniwob-plusplus|
 
 ### Agent工具框架类
 | 工具描述   | 链接   | 
@@ -371,6 +373,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |Tool-搜索增强| webCPM开源的和搜索工具进行交互问答的数据集，包括网页抽取式摘要，多事实内容回答等人工标注数据|https://github.com/thunlp/WebCPM|
 |Tool-多工具| BmTools开源的多工具调用指令数据集| https://github.com/OpenBMB/BMTools|
 |Tool-多工具| AgentInstruct包含6项Agent任务，包括REACT式COT标注| https://thudm.github.io/AgentTuning/|
+|Tool-多工具| MSAgent-Bench 大模型调用数据集 598k训练数据| https://modelscope.cn/datasets/damo/MSAgent-Bench/summary|
+|Tool-多工具| MOSS开源的知识搜索，文生图，计算器，解方程等4个插件的30万条多轮对话数据| https://github.com/OpenLMLab/MOSS#%E6%95%B0%E6%8D%AE|
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
 
 ## AIGC
@@ -878,28 +882,36 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - CFBenchmark: Chinese Financial Assistant Benchmark for Large Language Model
 
 ### LLM超长文本处理 (long_input)
-- Parallel Context Windows for Large Language Models
-- Structured Prompting: Scaling In-Context Learning to 1,000 Examples
-- [苏剑林, NBCE：使用朴素贝叶斯扩展LLM的Context处理长度](https://spaces.ac.cn/archives/9617) :star:
-- Vcc: Scaling Transformers to 128K Tokens or More by Prioritizing Important Tokens
-- Unlimiformer: Long-Range Transformers with Unlimited Length Input
-- Scaling Transformer to 1M tokens and beyond with RMT
-- RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
-- TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION :star:
-- FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
-- Extending Context Window of Large Language Models via Positional Interpolation
-- LongNet: Scaling Transformers to 1,000,000,000 Tokens
-- https://kaiokendev.github.io/til#extending-context-to-8k
-- [苏剑林,Transformer升级之路：10、RoPE是一种β进制编码](https://spaces.ac.cn/archives/9675) :star:
-- [苏剑林,Transformer升级之路：11、将β进制位置进行到底](https://spaces.ac.cn/archives/9706)
-- [苏剑林,Transformer升级之路：12、无限外推的ReRoPE？](https://spaces.ac.cn/archives/9708)
-- Focused Transformer: Contrastive Training for Context Scaling
-- Lost in the Middle: How Language Models Use Long Contexts :star:
-- EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
-- Ring Attention with Blockwise Transformers for Near-Infinite Context
-- HyperAttention: Long-context Attention in Near-Linear Time
-- Never Lost in the Middle: Improving Large Language Models via Attention Strengthening Question Answering
-- LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models
+- 位置编码、注意力机制优化
+  - Unlimiformer: Long-Range Transformers with Unlimited Length Input
+  - Parallel Context Windows for Large Language Models
+  - [苏剑林, NBCE：使用朴素贝叶斯扩展LLM的Context处理长度](https://spaces.ac.cn/archives/9617) :star:
+  - Structured Prompting: Scaling In-Context Learning to 1,000 Examples
+  - Vcc: Scaling Transformers to 128K Tokens or More by Prioritizing Important Tokens
+  - Scaling Transformer to 1M tokens and beyond with RMT
+  - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
+  - TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION :star:
+  - Extending Context Window of Large Language Models via Positional Interpolation
+  - LongNet: Scaling Transformers to 1,000,000,000 Tokens
+  - https://kaiokendev.github.io/til#extending-context-to-8k
+  - [苏剑林,Transformer升级之路：10、RoPE是一种β进制编码](https://spaces.ac.cn/archives/9675) :star:
+  - [苏剑林,Transformer升级之路：11、将β进制位置进行到底](https://spaces.ac.cn/archives/9706)
+  - [苏剑林,Transformer升级之路：12、无限外推的ReRoPE？](https://spaces.ac.cn/archives/9708)
+  - [苏剑林,Transformer升级之路：15、Key归一化助力长度外推](https://spaces.ac.cn/archives/9859)
+  - EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
+  - Ring Attention with Blockwise Transformers for Near-Infinite Context
+- 上文压缩排序方案
+  - Lost in the Middle: How Language Models Use Long Contexts :star:
+  - LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models
+  - LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
+  - Learning to Compress Prompts with Gist Tokens
+  - Unlocking Context Constraints of LLMs: Enhancing Context Efficiency of LLMs with Self-Information-Based Content Filtering
+- 微调方案
+  - Never Lost in the Middle: Improving Large Language Models via Attention Strengthening Question Answering
+  - Focused Transformer: Contrastive Training for Context Scaling
+- 效率优化
+  - HyperAttention: Long-context Attention in Near-Linear Time
+  - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
 
 ### NL2SQL
 - 大模型方案
@@ -958,6 +970,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - FACTOOL: Factuality Detection in Generative AI A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios
 - 检测任务
   - Detecting Pretraining Data from Large Language Models
+  - Scalable Extraction of Training Data from (Production) Language Models
+  - Rethinking Benchmark and Contamination for Language Models with Rephrased Samples
+
 	
 ### 推理优化(inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
