@@ -10,7 +10,7 @@
 5. prompt写作指南和5星博客等资源梳理
 6. Prompt和LLM论文细分方向梳理
 
-## My blogs & ChatGPT应用
+## My blogs
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
 - [解密Prompt系列2. 冻结Prompt微调LM： T5 & PET & LM-BFF](https://cloud.tencent.com/developer/article/2223355?areaSource=&traceId=)
 - [解密Prompt系列3. 冻结LM微调Prompt: Prefix-tuning & Prompt-tuning & P-tuning](https://cloud.tencent.com/developer/article/2237259?areaSource=&traceId=)
@@ -30,6 +30,7 @@
 - [解密Prompt系列17. LLM对齐方案再升级 WizardLM & BackTranslation & SELF-ALIGN](https://cloud.tencent.com/developer/article/2338592)
 - [解密Prompt系列18. LLM Agent之只有智能体的世界](https://cloud.tencent.com/developer/article/2351540)
 - [解密Prompt系列19. LLM Agent之数据分析领域的应用：Data-Copilot & InsightPilot](https://cloud.tencent.com/developer/article/2358413)
+- [解密Prompt系列20. LLM Agent 之再谈RAG的召回多样性优化](https://cloud.tencent.com/developer/article/2365050)
 
 ## LLMS
 ### 模型评测
