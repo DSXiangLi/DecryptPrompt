@@ -808,6 +808,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE GENERATIVE AGENTS
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
   - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
+  - War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -1016,6 +1017,11 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - mPLUG-Owl : Modularization Empowers Large Language Models with Multimodality
 - LVLM eHub: A Comprehensive Evaluation Benchmark for Large VisionLanguage Models
 - Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities
+
+### Adversarial Attacking 
+- Curiosity-driven Red-teaming for Large Language Models
+- Red Teaming Language Models with Language Models
+- EXPLORE, ESTABLISH, EXPLOIT: RED-TEAMING LANGUAGE MODELS FROM SCRATCH
 
 ### Others
 - Pretraining on the Test Set Is All You Need 哈哈作者你是懂讽刺文学的
