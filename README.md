@@ -911,9 +911,11 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
   - Learning to Compress Prompts with Gist Tokens
   - Unlocking Context Constraints of LLMs: Enhancing Context Efficiency of LLMs with Self-Information-Based Content Filtering
-- 微调方案
+  - TOKEN MERGING: YOUR VIT BUT FASTER
+- 训练方案
   - Never Lost in the Middle: Improving Large Language Models via Attention Strengthening Question Answering
   - Focused Transformer: Contrastive Training for Context Scaling
+  - Effective Long-Context Scaling of Foundation Models
 - 效率优化
   - HyperAttention: Long-context Attention in Near-Linear Time
   - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
