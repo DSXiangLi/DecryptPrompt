@@ -379,7 +379,10 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
 
 ## AIGC
+- [Alpha](https://public.com/alpha?ref=supertools.therundown.ai): ChatGPT加持的金融app，支持个股信息查询，资产分析诊断，财报汇总etc 
+- [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作  ![](https://img.shields.io/badge/Auto-Agent-white):
+- [Mr.-Ranedeer-](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor):  基于prompt和GPT-4的强大能力提供个性化学习环境，个性化出题+模型解答
 - [NexusGPT](https://nexus.snikpic.io/): AutoGPT可以出来工作了，第一个全AI Freelance平台  ![](https://img.shields.io/badge/Auto-Agent-white):
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
 - [godmode](https://godmode.space/)：可以进行人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
@@ -392,6 +395,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [BingGPT](https://github.com/dice2o/BingGPT): NewBing开源桌面客户端，可以将聊天记录导出  ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [AutoLabel](https://github.com/refuel-ai/autolabel): AutoLabel标注方案 ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
 - [Mem](https://get.mem.ai/): 笔记类产品，可以构建个人知识AI管家例如知识图谱，已获openai融资 ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
+- [AskyourPdf](https://askyourpdf.com/zh): 同样是上传pdf进行问答和摘要的应用 ![](https://img.shields.io/badge/Tool-Business-red) 
 - [DocsGPT](https://github.com/arc53/DocsGPT): 把ChatGPT开放域问答转化成封闭域问答的通用方案，试用垂类领域问答场景,可以试用定制的ChatBot  ![](https://img.shields.io/badge/Tool-Business-red) :star:
 - [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM): 基于ChatGLM的本地知识问答，和上面的DocsGPT相似，不过可以本地部署:star:
 - [ChatPDF](https://chat2doc.cn/): 国内的ChatPDF, 上传pdf后，会给出文章的Top5可能问题，然后对话式从文档中进行问答和检索，10s读3万字  ![](https://img.shields.io/badge/Tool-Business-red)
@@ -457,6 +461,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [构筑大语言模型应用：应用开发与架构设计](https://github.com/phodal/aigc): 一本关于 LLM 在真实世界应用的开源电子书
 - [Large Language Models: Application through Production](https://github.com/databricks-academy/large-language-models): 大模型应用Edx出品的课程
 - [GPTSeek](https://www.gptseek.com/): 大家投票得出的最有价值的GPT应用
+- [TheRunDown](https://supertools.therundown.ai/): 可订阅AI新闻的网站，也收藏了众多宝藏GPTS应用
 
 ### 书籍博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -779,6 +784,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
   - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
   - Learning to Rewrite Queries [传统方案参考]
+  - Managing Diversity in Airbnb Search[传统方案参考]
 - 垂直领域
   - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -911,7 +917,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
   - Learning to Compress Prompts with Gist Tokens
   - Unlocking Context Constraints of LLMs: Enhancing Context Efficiency of LLMs with Self-Information-Based Content Filtering
-  - TOKEN MERGING: YOUR VIT BUT FASTER
 - 训练方案
   - Never Lost in the Middle: Improving Large Language Models via Attention Strengthening Question Answering
   - Focused Transformer: Contrastive Training for Context Scaling
