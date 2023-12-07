@@ -381,14 +381,15 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 ## AIGC
 - [Alpha](https://public.com/alpha?ref=supertools.therundown.ai): ChatGPT加持的金融app，支持个股信息查询，资产分析诊断，财报汇总etc 
 - [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
-- [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作  ![](https://img.shields.io/badge/Auto-Agent-white):
+- [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [Mr.-Ranedeer-](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor):  基于prompt和GPT-4的强大能力提供个性化学习环境，个性化出题+模型解答
-- [NexusGPT](https://nexus.snikpic.io/): AutoGPT可以出来工作了，第一个全AI Freelance平台  ![](https://img.shields.io/badge/Auto-Agent-white):
+- [NexusGPT](https://nexus.snikpic.io/): AutoGPT可以出来工作了，第一个全AI Freelance平台  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
 - [godmode](https://godmode.space/)：可以进行人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
 - [agentgpt](https://agentgpt.reworkd.ai/): 基础版AutoGPT![](https://img.shields.io/badge/Auto-Agent-white) :star:
 - [do Anything](https://www.doanythingmachine.com/): AutoGPT Like的to Do List生成器  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了~  ![](https://img.shields.io/badge/Tool-Business-red)  :star:
+- [Consensus](https://consensus.app/search/): AI加持的论文搜素工具，支持多观点正负面对比 ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问  ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎   ![](https://img.shields.io/badge/AIGC-Search-yellow)
