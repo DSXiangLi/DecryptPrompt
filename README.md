@@ -60,7 +60,8 @@
 |[LLama2](https://ai.meta.com/llama/)|Open Meta带着可商用开源的羊驼2模型来了~|
 |[Vicuna](https://github.com/lm-sys/FastChat)|Alpaca前成员等开源以LLama13B为基础使用ShareGPT指令微调的模型，提出了用GPT4来评测模型效果|
 |[WizardLM](https://github.com/nlpxucan/WizardLM)|微软新发布13B，登顶AlpacaEval开源模型Top3，使用ChatGPT对指令进行复杂度进化微调LLama2|
-|[Mistral7B](https://mistral.ai/news/announcing-mistral-7b/)|法国“openai”开源，超过llama2当前最好7B模型|
+|[Mixtral](https://twitter.com/MistralAI/status/1733150512395038967)|法国“openai”开源基于MegaBlocks训练的MOE模型|
+|[Mistral7B](https://mistral.ai/news/announcing-mistral-7b/)|法国“openai”开源Mistral，超过llama2当前最好7B模型|
 |[Dolphin-2.2.1-Mistral-7B](https://opencompass.org.cn/model-detail/Dolphin-2.2.1-Mistral-7B)|基于Mistral7B使用dolphin数据集微调|
 |[OpenChat](https://github.com/imoneoi/openchat)|80k ShareGPT对话微调LLama-2 13B开源模型中的战斗机|
 |[Guanaco](https://huggingface.co/KBlueLeaf/guanaco-7B-leh)|LLama 7B基座，在alpaca52K数据上加入534K多语言指令数据微调|
@@ -234,6 +235,8 @@
 |Chain-of-thought-hub：模型推理能力评估平台|https://github.com/FranxYao/chain-of-thought-hub|
 |EasyEdit：浙大开源支持多种模型，多种方案的模型知识精准编辑器|https://github.com/zjunlp/EasyEdit|
 |OpenDelta：集成了各种增量微调方案的开源实现|https://github.com/thunlp/OpenDelta|
+|Megablocks：MOE训练框架|https://github.com/stanford-futuredata/megablocks|
+|Tutel：MOE训练框架|https://github.com/microsoft/tutel|
 
 ### Auto/Multi Agent
 | 工具描述   | 链接   | 
@@ -590,6 +593,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
 - Mistral 7B
 - Ziya2: Data-centric Learning is All LLMs Need
+- MEGABLOCKS: EFFICIENT SPARSE TRAINING WITH MIXTURE-OF-EXPERTS
+- TUTEL: ADAPTIVE MIXTURE-OF-EXPERTS AT SCALE
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -769,7 +774,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
   - Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
   - Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
-  - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive Tasks
+  - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive 
+ Tasks
   - Active Retrieval Augmented Generation
   - kNN-LM Does Not Improve Open-ended Text Generation
   - Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
@@ -782,6 +788,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - RA-DIT: RETRIEVAL-AUGMENTED DUAL INSTRUCTION TUNING
   - Query Expansion by Prompting Large Language Models  :star:
   - CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
+  - IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
   - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
   - Learning to Rewrite Queries [传统方案参考]
