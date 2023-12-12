@@ -60,7 +60,7 @@
 |[LLama2](https://ai.meta.com/llama/)|Open Meta带着可商用开源的羊驼2模型来了~|
 |[Vicuna](https://github.com/lm-sys/FastChat)|Alpaca前成员等开源以LLama13B为基础使用ShareGPT指令微调的模型，提出了用GPT4来评测模型效果|
 |[WizardLM](https://github.com/nlpxucan/WizardLM)|微软新发布13B，登顶AlpacaEval开源模型Top3，使用ChatGPT对指令进行复杂度进化微调LLama2|
-|[Mixtral](https://twitter.com/MistralAI/status/1733150512395038967)|法国“openai”开源基于MegaBlocks训练的MOE模型|
+|[Mixtral](https://twitter.com/MistralAI/status/1733150512395038967)|法国“openai”开源基于MegaBlocks训练的MOE模型8*7B 32K|
 |[Mistral7B](https://mistral.ai/news/announcing-mistral-7b/)|法国“openai”开源Mistral，超过llama2当前最好7B模型|
 |[Dolphin-2.2.1-Mistral-7B](https://opencompass.org.cn/model-detail/Dolphin-2.2.1-Mistral-7B)|基于Mistral7B使用dolphin数据集微调|
 |[OpenChat](https://github.com/imoneoi/openchat)|80k ShareGPT对话微调LLama-2 13B开源模型中的战斗机|
@@ -922,7 +922,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - 上文压缩排序方案
   - Lost in the Middle: How Language Models Use Long Contexts :star:
   - LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models
-  - LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression
+  - LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression  :star:
   - Learning to Compress Prompts with Gist Tokens
   - Unlocking Context Constraints of LLMs: Enhancing Context Efficiency of LLMs with Self-Information-Based Content Filtering
 - 训练方案
@@ -977,6 +977,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - LM vs LM: Detecting Factual Errors via Cross Examination
 - Truth-o-meter: Collaborating with llm in fighting its hallucinations
 - RARR: Researching and Revising What Language Models Say, Using Language Models
+- VALIDATING LARGE LANGUAGE MODELS WITH RELM
+- Language Models (Mostly) Know What They Know  :star:
 
 ### 大模型评估（evaluation）
 - 事实性评估
@@ -992,6 +994,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Detecting Pretraining Data from Large Language Models
   - Scalable Extraction of Training Data from (Production) Language Models
   - Rethinking Benchmark and Contamination for Language Models with Rephrased Samples
+
 
 	
 ### 推理优化(inference)
