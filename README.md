@@ -203,6 +203,7 @@
 |电商|[EcomGPT](https://github.com/Alibaba-NLP/EcomGPT)|电商领域任务指令微调大模型，指令样本250万，基座模型是Bloomz|
 |评估|[Auto-J](https://modelscope.cn/models/lockonlvange/autoj-13b-fp16/summary)|上交开源了价值评估对齐13B模型|
 |评估|[JudgeLM](https://github.com/baaivision/JudgeLM)|智源开源了 JudgeLM 的裁判模型，可以高效准确地评判各类大模型|
+|评估|[CritiqueLLM](https://github.com/thu-coai/CritiqueLLM)||智谱AI发布评分模型CritiqueLLM,支持含参考文本/无参考文本的评估打分|
 
 ## Tool and Library
 ### 推理框架
@@ -283,7 +284,8 @@
 |Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
 |RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
 |Open-Interpreter：命令行聊天框架|https://github.com/KillianLucas/open-interpreter|
-
+|AnythingLLM: langchain推出的支持本地部署开源模型的框架|https://github.com/Mintplex-Labs/anything-llm|
+|PromptFlow：微软推出的大模型应用框架|https://github.com/microsoft/promptflow|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
@@ -730,6 +732,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Generative Judge for Evaluating Alignment
   - PEERING THROUGH PREFERENCES: UNRAVELING FEEDBACK ACQUISITION FOR ALIGNING LARGE LANGUAGE MODELS
   - SALMON: SELF-ALIGNMENT WITH PRINCIPLE-FOLLOWING REWARD MODELS
+  - Large Language Model Unlearning
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
@@ -789,6 +792,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Query Expansion by Prompting Large Language Models  :star:
   - CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
   - IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions
+  - T2Ranking: A large-scale Chinese Benchmark for Passage Ranking
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
   - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
   - Learning to Rewrite Queries [传统方案参考]
