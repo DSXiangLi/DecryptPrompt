@@ -58,17 +58,18 @@
 ### 国外开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
-|[LLama2](https://ai.meta.com/llama/)|Open Meta带着可商用开源的羊驼2模型来了~|
-|[Vicuna](https://github.com/lm-sys/FastChat)|Alpaca前成员等开源以LLama13B为基础使用ShareGPT指令微调的模型，提出了用GPT4来评测模型效果|
-|[WizardLM](https://github.com/nlpxucan/WizardLM)|微软新发布13B，登顶AlpacaEval开源模型Top3，使用ChatGPT对指令进行复杂度进化微调LLama2|
+|[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai发布的自研模型，可以通过API和preplexity lab访问和RAG更搭配的LLM，在幻觉之外还对时效性推理进行了优化|
 |[Mixtral](https://twitter.com/MistralAI/status/1733150512395038967)|法国“openai”开源基于MegaBlocks训练的MOE模型8*7B 32K|
 |[Mistral7B](https://mistral.ai/news/announcing-mistral-7b/)|法国“openai”开源Mistral，超过llama2当前最好7B模型|
 |[Dolphin-2.2.1-Mistral-7B](https://opencompass.org.cn/model-detail/Dolphin-2.2.1-Mistral-7B)|基于Mistral7B使用dolphin数据集微调|
+|[LLama2](https://ai.meta.com/llama/)|Open Meta带着可商用开源的羊驼2模型来了~|
+|[LLaMA](https://github.com/facebookresearch/llama)    |  Meta开源指令微调LLM，规模70 亿到 650 亿不等  |
+|[WizardLM](https://github.com/nlpxucan/WizardLM)|微软新发布13B，登顶AlpacaEval开源模型Top3，使用ChatGPT对指令进行复杂度进化微调LLama2|
+|[Falcon](https://huggingface.co/tiiuae/falcon-40b)   |  Falcon由阿联酋技术研究所在超高质量1万亿Token上训练得到1B，7B，40B开源，免费商用！土豪们表示钱什么的格局小了 |
+|[Vicuna](https://github.com/lm-sys/FastChat)|Alpaca前成员等开源以LLama13B为基础使用ShareGPT指令微调的模型，提出了用GPT4来评测模型效果|
 |[OpenChat](https://github.com/imoneoi/openchat)|80k ShareGPT对话微调LLama-2 13B开源模型中的战斗机|
 |[Guanaco](https://huggingface.co/KBlueLeaf/guanaco-7B-leh)|LLama 7B基座，在alpaca52K数据上加入534K多语言指令数据微调|
-|[LLaMA](https://github.com/facebookresearch/llama)    |  Meta开源指令微调LLM，规模70 亿到 650 亿不等  |
 |[MPT](https://huggingface.co/mosaicml/mpt-7b-chat)|MosaicML开源的预训练+指令微调的新模型，可商用，支持84k tokens超长输入|
-|[Falcon](https://huggingface.co/tiiuae/falcon-40b)   |  Falcon由阿联酋技术研究所在超高质量1万亿Token上训练得到1B，7B，40B开源，免费商用！土豪们表示钱什么的格局小了 |
 |[RedPajama](https://huggingface.co/togethercomputer/RedPajama-INCITE-Instruct-3B-v1)|RedPajama项目既开源预训练数据后开源3B，7B的预训练+指令微调模型|
 |[koala](https://bair.berkeley.edu/blog/2023/04/03/koala/)|使用alpaca，HC3等开源指令集+ ShareGPT等ChatGPT数据微调llama，在榜单上排名较高|
 |[ChatLLaMA](https://github.com/nebuly-ai/nebullvm/tree/main/apps/accelerate/chatllama)     | 基于RLHF微调了LLaMA     |
@@ -79,7 +80,6 @@
 |[MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4)|Vicuna+BLIP2 文本视觉融合|
 |[StackLLama](https://huggingface.co/trl-lib/llama-7b-se-rl-peft)|LLama使用Stackexchange数据+SFT+RL|
 |[Cerebras](https://huggingface.co/cerebras/Cerebras-GPT-13B)|Cerebras开源了1亿到130亿的7个模型，从预训练数据到参数全开源|
-|[PaLM-E](https://palm-e.github.io)     |  谷歌多模态大模型，540B的PaLM语言模型和22B的ViT视觉模型相结合，得到562B的PaLM-E模型，在机器人应用场景有了新的突破   |
 |[Dolly-v2](https://huggingface.co/databricks/dolly-v2-7b)|可商用 7b指令微调开源模型在GPT-J-6B上微调|
 |[OpenChatKit](https://github.com/togethercomputer/OpenChatKit)|openai研究员打造GPT-NoX-20B微调+6B审核模型过滤|
 |[MetaLM](https://github.com/microsoft/unilm)    | 微软开源的大规模自监督预训练模型    |
@@ -101,11 +101,13 @@
 |[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
 |[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
+|[Qwen-7B+14B+70B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B,14B,70B Base和chat模型|
 |[ChatGLM3](https://github.com/THUDM/ChatGLM3)|ChatGLM3发布，支持工具调用等更多功能，不过泛化性有待评估|
 |[ChatGLM2](https://github.com/thudm/chatglm2-6b)|32K长文本，FlashAttention+Multi-Query Attenion的显存优化，更强推理能力，哈哈不过很多简单问题也硬要COT，中英平行能力似乎略有下降的ChatGLM2，但是免费商用！|
 |[ChatGLM](https://github.com/THUDM/ChatGLM-6B)   | 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。chatglm2支持超长文本，可免费商用啦！|
-|[Qwen-7B+14B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B,14B Base和chat模型|
 |[Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)|浪潮发布Yuan2.0 2B，51B，102B|
+|[YI](https://www.modelscope.cn/models/01ai/Yi-34B-Chat/summary)|元一智能开源34B，6B模型|
+|[DeepSeek](https://github.com/deepseek-ai/DeepSeek-LLM)|深度求索发布的7B，67B大模型|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-65B)|元象发布13B免费商用大模型|
 |[LLama2-chinese](https://github.com/FlagAlpha/Llama2-Chinese)|没等太久中文预训练微调后的llama2它来了~|
 |[YuLan-chat2](https://github.com/RUC-GSAI/YuLan-Chat)|高瓴人工智能基于Llama-2中英双语继续预训练+指令微调/对话微调|
@@ -586,18 +588,20 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 
 ### 主流LLMS
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
-- LLaMA: Open and Efficient Foundation Language Models
 - PaLM: Scaling Language Modeling with Pathways
 - PaLM 2 Technical Report
 - GPT-4 Technical Report
 - Backpack Language Models
+- LLaMA: Open and Efficient Foundation Language Models
 - Llama 2: Open Foundation and Fine-Tuned Chat Models
-- OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
 - Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
+- OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
 - Mistral 7B
 - Ziya2: Data-centric Learning is All LLMs Need
 - MEGABLOCKS: EFFICIENT SPARSE TRAINING WITH MIXTURE-OF-EXPERTS
 - TUTEL: ADAPTIVE MIXTURE-OF-EXPERTS AT SCALE
+- Phi1- Textbooks Are All You Need  :star:
+- Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -614,7 +618,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - 更少，质量更高、更多样的指令数据带来质变
     - LIMA: Less Is More for Alignment :star:
     - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
-    - Textbooks Are All You Need  :star:
     - AlpaGasus: Training A Better Alpaca with Fewer Data
     - InstructionGPT-4: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4
     - Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
