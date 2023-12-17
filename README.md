@@ -634,6 +634,20 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
    - Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback
    - Human-like systematic generalization through a meta-learning neural network
+   - Magicoder: Source Code Is All You Need
+- 指令数据生成
+  - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
+  - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
+  - iPrompt: Explaining Data Patterns in Natural Language via Interpretable Autoprompting  
+  - Flipped Learning: Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners
+  - Fairness-guided Few-shot Prompting for Large Language Models  
+  - Instruction induction: From few examples to natural language task descriptions .
+  - SELF-QA Unsupervised Knowledge Guided alignment.
+  - GPT Self-Supervision for a Better Data Annotator  
+  - The Flan Collection Designing Data and Methods
+  - Self-Consuming Generative Models Go MAD
+  - InstructEval: Systematic Evaluation of Instruction Selection Methods
+  - Overwriting Pretrained Bias with Finetuning Data
 - 微调经验/实验报告
     - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
     - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
@@ -797,6 +811,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
   - IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions
   - T2Ranking: A large-scale Chinese Benchmark for Passage Ranking
+  - FRESHLLMS: REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
   - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
   - Learning to Rewrite Queries [传统方案参考]
@@ -861,21 +876,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Humanoid Agents: Platform for Simulating Human-like Generative Agents
 - Voyager: An Open-Ended Embodied Agent with Large Language Models
 
-### 指令数据生成 (instruction_data_gen)
-- APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
-- SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
-- iPrompt: Explaining Data Patterns in Natural Language via Interpretable Autoprompting  
-- Flipped Learning: Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners
-- Fairness-guided Few-shot Prompting for Large Language Models  
-- Instruction induction: From few examples to natural language task descriptions.
-- Baize An Open-Source Chat Model with Parameter-Efficient Tuning on self-Chat Data
-- SELF-QA Unsupervised Knowledge Guided alignment.
-- GPT Self-Supervision for a Better Data Annotator
-- The Flan Collection Designing Data and Methods
-- Self-Consuming Generative Models Go MAD
-- InstructEval: Systematic Evaluation of Instruction Selection Methods
-- Overwriting Pretrained Bias with Finetuning Data
-- WizardLM: Empowering Large Language Models to Follow Complex Instructions
 
 ### 预训练数据(pretrain_data)
 - DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining
