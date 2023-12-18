@@ -186,7 +186,7 @@
 |金融|[ChatFund](https://chat.funddb.cn/)|韭圈儿发布的第一个基金大模型，看起来是做了多任务指令微调，和APP已有的数据功能进行了全方位的打通，从选基，到持仓分析等等|
 |金融|[FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)|金融传统任务微调 or chatgpt生成金融工具调用|
 |金融|[CFGPT](https://github.com/TongjiFinLab/CFGPT)|金融预训练+指令微调+RAG等检索任务增强|
-|金融|况客FOF智能投顾|微信小程序的基金大模型应用，基金投顾，支持nl2sql类的数据查询，和基金信息对比查询等|
+|金融|[况客FOF智能投顾](https://pro.fofinvesting.com/workbench/home)|基金大模型应用，基金投顾，支持nl2sql类的数据查询，和基金信息对比查询等|
 |金融|[DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)|复旦发布多微调模型组合金融系统，包括金融知识问答,金融NLP任务，金融计算，金融检索问答|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
@@ -503,6 +503,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [Large Language Models (in 2023)](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650893355&idx=1&sn=5911ccc05abf5177bb71a47ea5a748c8&chksm=84e4a855b39321434a2a386c9f359979da99dd441e6cf8f88062f1e909ad8f5b9b24198d1edb&scene=0&xtrack=1) OpenAI科学家最新大模型演讲
 - [OpenAI闭门会议DevDay视频 - A survey of  Techniques for Maximizing LLM performance，无法翻墙可搜标题找笔记](https://www.youtube.com/watch?v=ahnGLM-RC1Y)
 - [奇绩创坛2023秋季路演日上创新LLM项目一览](https://zhuanlan.zhihu.com/p/669015906)
+- [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
+
 
 ## Papers
 ### paper List
@@ -635,6 +637,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback
    - Human-like systematic generalization through a meta-learning neural network
    - Magicoder: Source Code Is All You Need
+   - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
 - 指令数据生成
   - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
   - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
