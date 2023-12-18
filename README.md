@@ -281,7 +281,7 @@
 |semantic-kernel：整合大模型和编程语言的SDK|https://github.com/microsoft/semantic-kernel|
 |BMTTools: 清华出品多工具调用开源库，提供微调数据和评估ToolBench|https://github.com/OpenBMB/BMTools|
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
-|LLM-ToolMaker:让LLM自己制造Agent|https://github.com/FMInference/FlexGen|
+|LLM-ToolMaker:让LLM自己制造Agent|https://github.com/ctlllll/LLM-ToolMaker|
 |Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
 |wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
 |Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
