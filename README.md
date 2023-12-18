@@ -206,7 +206,7 @@
 |电商|[EcomGPT](https://github.com/Alibaba-NLP/EcomGPT)|电商领域任务指令微调大模型，指令样本250万，基座模型是Bloomz|
 |评估|[Auto-J](https://modelscope.cn/models/lockonlvange/autoj-13b-fp16/summary)|上交开源了价值评估对齐13B模型|
 |评估|[JudgeLM](https://github.com/baaivision/JudgeLM)|智源开源了 JudgeLM 的裁判模型，可以高效准确地评判各类大模型|
-|评估|[CritiqueLLM](https://github.com/thu-coai/CritiqueLLM)||智谱AI发布评分模型CritiqueLLM,支持含参考文本/无参考文本的评估打分|
+|评估|[CritiqueLLM](https://github.com/thu-coai/CritiqueLLM)|智谱AI发布评分模型CritiqueLLM,支持含参考文本/无参考文本的评估打分|
 
 ## Tool and Library
 ### 推理框架
