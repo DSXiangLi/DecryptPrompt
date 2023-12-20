@@ -689,6 +689,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - LAMBADA: Backward Chaining for Automated Reasoning in Natural Language
     - Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models
     - Graph of Thoughts: Solving Elaborate Problems with Large Language Models
+    - Progressive-Hint Prompting Improves Reasoning in Large Language Models
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -733,6 +734,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - learning to summarize from human feedback
   - InstructGPT: Training language models to follow instructions with human feedback :star:
   - Scaling Laws for Reward Model Over optimization :star:
+  - WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION  :star:
 - Anthropic
   - A General Language Assistant as a Laboratory for Alignmen 
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
@@ -753,7 +755,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Generative Judge for Evaluating Alignment
   - PEERING THROUGH PREFERENCES: UNRAVELING FEEDBACK ACQUISITION FOR ALIGNING LARGE LANGUAGE MODELS
   - SALMON: SELF-ALIGNMENT WITH PRINCIPLE-FOLLOWING REWARD MODELS
-  - Large Language Model Unlearning
+  - Large Language Model Unlearning :star:
+  :star:
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
@@ -773,6 +776,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - InstructTODS: Large Language Models for End-to-End Task-Oriented Dialogue Systems
   - TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents
   - ControlLLM: Augment Language Models with Tools by Searching on Graphs
+  - Reflexion: an autonomous agent with dynamic memory and self-reflection
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -814,6 +818,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
   - IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions
   - T2Ranking: A large-scale Chinese Benchmark for Passage Ranking
+  - Factuality Enhanced Language Models for Open-Ended Text Generation
   - FRESHLLMS: REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
   - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
@@ -964,32 +969,40 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - MIGA: A Unified Multi-task Generation Framework for Conversational Text-to-SQL
 
 ### 降低模型幻觉 (reliability)
-- Survey of Hallucination in Natural Language Generation
-- Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
-- SELF-REFINE:ITERATIVE REFINEMENT WITH SELF-FEEDBACK  :star:
-- PROMPTING GPT-3 TO BE RELIABLE
-- Enhancing Self-Consistency and Performance of Pre-Trained Language Models through Natural Language Inference
-- On the Advance of Making Language Models Better Reasoners
-- Progressive-Hint Prompting Improves Reasoning in Large Language Models
-- ASK ME ANYTHING: A SIMPLE STRATEGY FOR PROMPTING LANGUAGE MODELS  :star:
-- Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
-- Reflexion: an autonomous agent with dynamic memory and self-reflection
-- Self-consistency for open-ended generations
-- Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback
-- Factuality Enhanced Language Models for Open-Ended Text Generation
-- Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
-- Rethinking with Retrieval: Faithful Large Language Model Inference
-- RefGPT: Reference → Truthful & Customized Dialogues Generation by GPTs and for GPTs
-- Enabling Large Language Models to Generate Text with Citations
-- Large language models and the perils of their hallucinations
-- Woodpecker: Hallucination Correction for Multimodal Large Language Models
-- R-Tuning: Teaching Large Language Models to Refuse Unknown Questions
-- Do Language Models Know When They’re Hallucinating References?
-- LM vs LM: Detecting Factual Errors via Cross Examination
-- Truth-o-meter: Collaborating with llm in fighting its hallucinations
-- RARR: Researching and Revising What Language Models Say, Using Language Models
-- VALIDATING LARGE LANGUAGE MODELS WITH RELM
-- Language Models (Mostly) Know What They Know  :star:
+- Survey 
+  - Large language models and the perils of their hallucinations
+  - Survey of Hallucination in Natural Language Generation
+- Prompt or Tunning
+  - R-Tuning: Teaching Large Language Models to Refuse Unknown Questions
+  - PROMPTING GPT-3 TO BE RELIABLE
+  - ASK ME ANYTHING: A SIMPLE STRATEGY FOR PROMPTING LANGUAGE MODELS  :star:
+  - On the Advance of Making Language Models Better Reasoners
+  - Self-consistency for open-ended generations
+  - RefGPT: Reference → Truthful & Customized Dialogues Generation by GPTs and for GPTs
+  - Rethinking with Retrieval: Faithful Large Language Model Inference
+- Decoding Strategy
+  - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
+  - SELF-REFINE:ITERATIVE REFINEMENT WITH SELF-FEEDBACK  :star:
+  - Enhancing Self-Consistency and Performance of Pre-Trained Language Models through Natural Language Inference
+  - Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
+  - Enabling Large Language Models to Generate Text with Citations
+- Probing and Detection
+  - Language Models (Mostly) Know What They Know  :star:
+  - LM vs LM: Detecting Factual Errors via Cross Examination
+  - Do Language Models Know When They’re Hallucinating References?
+  - SELFCHECKGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models
+  - SELF-CONTRADICTORY HALLUCINATIONS OF LLMS: EVALUATION, DETECTION AND MITIGATION
+  - Improving Factuality and Reasoning in Language Models through Multiagent Debate
+- Reviewing and Calibration
+  - Truth-o-meter: Collaborating with llm in fighting its hallucinations
+  - RARR: Researching and Revising What Language Models Say, Using Language Models
+  - CRITIC: LARGE LANGUAGE MODELS CAN SELFCORRECT WITH TOOL-INTERACTIVE CRITIQUING
+  - VALIDATING LARGE LANGUAGE MODELS WITH RELM
+  - PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions
+  - Factuality Enhanced Language Models for Open-Ended Text Generation
+  - PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions
+  - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
+  - Woodpecker: Hallucination Correction for Multimodal Large Language Models 
 
 ### 大模型评估（evaluation）
 - 事实性评估
@@ -1005,8 +1018,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Detecting Pretraining Data from Large Language Models
   - Scalable Extraction of Training Data from (Production) Language Models
   - Rethinking Benchmark and Contamination for Language Models with Rephrased Samples
-
-
 	
 ### 推理优化(inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
