@@ -2,7 +2,7 @@
 > 如果LLM的突然到来让你感到沮丧，不妨读下主目录的Choose Your Weapon Survival Strategies for Depressed AI Academics
 持续更新以下内容，Star to keep updated~
 
-[掘金年度作者投票开始啦，如果你也喜欢我的博客，就帮我来投上一票吧](https://activity.juejin.cn/rank/2023/writer/3060648218472728?utm_campaign=annual_2023&utm_medium=self_web_share&utm_source=%E9%A3%8E%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%B0%8F%E4%B8%83)
+[**掘金年度作者投票开始啦，如果你也喜欢我的博客，就帮我来投上一票吧 (・ω< )★**](https://activity.juejin.cn/rank/2023/writer/3060648218472728?utm_campaign=annual_2023&utm_medium=self_web_share&utm_source=%E9%A3%8E%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%B0%8F%E4%B8%83)
 
 目录顺序如下
 1. 国内外，垂直领域大模型
