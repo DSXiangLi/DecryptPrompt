@@ -2,6 +2,8 @@
 > 如果LLM的突然到来让你感到沮丧，不妨读下主目录的Choose Your Weapon Survival Strategies for Depressed AI Academics
 持续更新以下内容，Star to keep updated~
 
+[掘金年度作者投票开始啦，如果你也喜欢我的博客，就帮我来投上一票吧](https://activity.juejin.cn/rank/2023/writer/3060648218472728?utm_campaign=annual_2023&utm_medium=self_web_share&utm_source=%E9%A3%8E%E9%9B%A8%E4%B8%AD%E7%9A%84%E5%B0%8F%E4%B8%83)
+
 目录顺序如下
 1. 国内外，垂直领域大模型
 2. Agent和指令微调等训练框架
@@ -289,6 +291,7 @@
 |Open-Interpreter：命令行聊天框架|https://github.com/KillianLucas/open-interpreter|
 |AnythingLLM: langchain推出的支持本地部署开源模型的框架|https://github.com/Mintplex-Labs/anything-llm|
 |PromptFlow：微软推出的大模型应用框架|https://github.com/microsoft/promptflow|
+|Coze:字节跳动推出的个性化Agent定制应用支持多个大模型丰富插件集使用| https://www.coze.com/username?redirect=/explore|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
@@ -471,6 +474,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Large Language Models: Application through Production](https://github.com/databricks-academy/large-language-models): 大模型应用Edx出品的课程
 - [GPTSeek](https://www.gptseek.com/): 大家投票得出的最有价值的GPT应用
 - [TheRunDown](https://supertools.therundown.ai/): 可订阅AI新闻的网站，也收藏了众多宝藏GPTS应用
+- [AI-Bot](https://ai-bot.cn/#term-15): AI工具导航软件
 
 ### 书籍博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -980,6 +984,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Self-consistency for open-ended generations
   - RefGPT: Reference → Truthful & Customized Dialogues Generation by GPTs and for GPTs
   - Rethinking with Retrieval: Faithful Large Language Model Inference
+  - GENERATE RATHER THAN RETRIEVE: LARGE LANGUAGE MODELS ARE STRONG CONTEXT GENERATORS
 - Decoding Strategy
   - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
   - SELF-REFINE:ITERATIVE REFINEMENT WITH SELF-FEEDBACK  :star:
@@ -1000,7 +1005,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - VALIDATING LARGE LANGUAGE MODELS WITH RELM
   - PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions
   - Factuality Enhanced Language Models for Open-Ended Text Generation
-  - PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions
   - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
   - Woodpecker: Hallucination Correction for Multimodal Large Language Models 
 
