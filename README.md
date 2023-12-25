@@ -760,7 +760,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - PEERING THROUGH PREFERENCES: UNRAVELING FEEDBACK ACQUISITION FOR ALIGNING LARGE LANGUAGE MODELS
   - SALMON: SELF-ALIGNMENT WITH PRINCIPLE-FOLLOWING REWARD MODELS
   - Large Language Model Unlearning :star:
-  :star:
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
@@ -981,7 +980,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - PROMPTING GPT-3 TO BE RELIABLE
   - ASK ME ANYTHING: A SIMPLE STRATEGY FOR PROMPTING LANGUAGE MODELS  :star:
   - On the Advance of Making Language Models Better Reasoners
-  - Self-consistency for open-ended generations
   - RefGPT: Reference → Truthful & Customized Dialogues Generation by GPTs and for GPTs
   - Rethinking with Retrieval: Faithful Large Language Model Inference
   - GENERATE RATHER THAN RETRIEVE: LARGE LANGUAGE MODELS ARE STRONG CONTEXT GENERATORS
@@ -991,20 +989,23 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Enhancing Self-Consistency and Performance of Pre-Trained Language Models through Natural Language Inference
   - Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
   - Enabling Large Language Models to Generate Text with Citations
+  - Factuality Enhanced Language Models for Open-Ended Text Generation
 - Probing and Detection
   - Language Models (Mostly) Know What They Know  :star:
   - LM vs LM: Detecting Factual Errors via Cross Examination
   - Do Language Models Know When They’re Hallucinating References?
   - SELFCHECKGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models
   - SELF-CONTRADICTORY HALLUCINATIONS OF LLMS: EVALUATION, DETECTION AND MITIGATION
+  - Self-consistency for open-ended generations
   - Improving Factuality and Reasoning in Language Models through Multiagent Debate
+  - Selective-LAMA: Selective Prediction for Confidence-Aware Evaluation of Language Models
 - Reviewing and Calibration
   - Truth-o-meter: Collaborating with llm in fighting its hallucinations
   - RARR: Researching and Revising What Language Models Say, Using Language Models
   - CRITIC: LARGE LANGUAGE MODELS CAN SELFCORRECT WITH TOOL-INTERACTIVE CRITIQUING
   - VALIDATING LARGE LANGUAGE MODELS WITH RELM
   - PURR: Efficiently Editing Language Model Hallucinations by Denoising Language Model Corruptions
-  - Factuality Enhanced Language Models for Open-Ended Text Generation
+  - Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback
   - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
   - Woodpecker: Hallucination Correction for Multimodal Large Language Models 
 
@@ -1013,7 +1014,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - TRUSTWORTHY LLMS: A SURVEY AND GUIDELINE FOR EVALUATING LARGE LANGUAGE MODELS’ ALIGNMENT
   - TrueTeacher: Learning Factual Consistency Evaluation with Large Language Models
   - TRUE: Re-evaluating Factual Consistency Evaluation
-  - SelfCheckGPT: Zero-Resource Black-Box Hallucination Detection for Generative Large Language Models
   - FACTSCORE: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
   - KoLA: Carefully Benchmarking World Knowledge of Large Language Models
   - When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories
