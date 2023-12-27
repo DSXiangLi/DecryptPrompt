@@ -608,6 +608,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - TUTEL: ADAPTIVE MIXTURE-OF-EXPERTS AT SCALE
 - Phi1- Textbooks Are All You Need  :star:
 - Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
+- Gemini: A Family of Highly Capable Multimodal Models
+
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -1008,6 +1010,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Check Your Facts and Try Again: Improving Large Language Models with External Knowledge and Automated Feedback
   - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
   - Woodpecker: Hallucination Correction for Multimodal Large Language Models 
+  - Zero-shot Faithful Factual Error Correction
 
 ### 大模型评估（evaluation）
 - 事实性评估
