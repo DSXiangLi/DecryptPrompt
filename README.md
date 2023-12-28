@@ -34,6 +34,7 @@
 - [解密Prompt系列19. LLM Agent之数据分析领域的应用：Data-Copilot & InsightPilot](https://cloud.tencent.com/developer/article/2358413)
 - [解密Prompt系列20. LLM Agent 之再谈RAG的召回多样性优化](https://cloud.tencent.com/developer/article/2365050)
 - [解密Prompt系列21. LLM Agent之再谈RAG的召回信息密度和质量](https://cloud.tencent.com/developer/article/2369977)
+- [​解密Prompt系列22. LLM Agent之RAG的反思：放弃了压缩还是智能么？](https://cloud.tencent.com/developer/article/2375066)
 
 ## LLMS
 ### 模型评测
