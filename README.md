@@ -790,6 +790,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Tool Maker：Large Language Models as Tool Maker
   - TaskMatrix.AI: Completing Tasks by Connecting Foundation Models with Millions of APIs
   - AgentTuning: Enabling Generalized Agent Abilities for LLMs
+  - SWIFTSAGE: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks
+  - FireAct: Toward Language Agent Fine-tuning
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -978,6 +980,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Survey 
   - Large language models and the perils of their hallucinations
   - Survey of Hallucination in Natural Language Generation
+  - Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models
+  - A Survey of Hallucination in Large Foundation Models
+  - A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions
 - Prompt or Tunning
   - R-Tuning: Teaching Large Language Models to Refuse Unknown Questions
   - PROMPTING GPT-3 TO BE RELIABLE
