@@ -191,6 +191,7 @@
 |金融|[CFGPT](https://github.com/TongjiFinLab/CFGPT)|金融预训练+指令微调+RAG等检索任务增强|
 |金融|[况客FOF智能投顾](https://pro.fofinvesting.com/workbench/home)|基金大模型应用，基金投顾，支持nl2sql类的数据查询，和基金信息对比查询等|
 |金融|[DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)|复旦发布多微调模型组合金融系统，包括金融知识问答,金融NLP任务，金融计算，金融检索问答|
+|金融|[InvestLM](https://github.com/AbaciNLP/InvestLM)|CFA考试，SEC， StackExchange投资问题等构建的金融指令微调LLaMA-65|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -244,6 +245,7 @@
 |OpenDelta：集成了各种增量微调方案的开源实现|https://github.com/thunlp/OpenDelta|
 |Megablocks：MOE训练框架|https://github.com/stanford-futuredata/megablocks|
 |Tutel：MOE训练框架|https://github.com/microsoft/tutel|
+|TradingGym：参考openai gym的股票交易强化学习模拟器|https://github.com/astrologos/tradinggym|
 
 ### Auto/Multi Agent
 | 工具描述   | 链接   | 
@@ -391,6 +393,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
 
 ## AIGC
+- [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！
+- [webpilot.ai](https://www.webpilot.ai/signin?return-path=/) 比ChatGPT 自带的 Web Browsing更好用的浏览器检索插件，更适用于复杂搜索场景，也开通api调用了
 - [Alpha](https://public.com/alpha?ref=supertools.therundown.ai): ChatGPT加持的金融app，支持个股信息查询，资产分析诊断，财报汇总etc 
 - [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作  ![](https://img.shields.io/badge/Auto-Agent-white)
@@ -792,6 +796,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - AgentTuning: Enabling Generalized Agent Abilities for LLMs
   - SWIFTSAGE: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks
   - FireAct: Toward Language Agent Fine-tuning
+  - Pangu-Agent: A Fine-Tunable Generalist Agent with Structured Reasoning
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -828,6 +833,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - T2Ranking: A large-scale Chinese Benchmark for Passage Ranking
   - Factuality Enhanced Language Models for Open-Ended Text Generation
   - FRESHLLMS: REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION
+  - KwaiAgents: Generalized Information-seeking Agent System with Large Language Models
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
   - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
   - Learning to Rewrite Queries [传统方案参考]
@@ -923,6 +929,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue
 - LLEMMA: AN OPEN LANGUAGE MODEL FOR MATHEMATICS
 - CFBenchmark: Chinese Financial Assistant Benchmark for Large Language Model
+- InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning
+- WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
+
 
 ### LLM超长文本处理 (long_input)
 - 位置编码、注意力机制优化
