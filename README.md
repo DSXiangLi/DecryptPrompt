@@ -542,6 +542,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Large Language Models for Information Retrieval: A Survey
 - AI Alignment: A Comprehensive Survey
 - Trends in Integration of Knowledge and Large Language Models: A Survey and Taxonomy of Methods, Benchmarks, and Applications
+- Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook
+
 
 ### 大模型能力探究
 - In Context Learning 
@@ -710,6 +712,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - LEARNING PERFORMANCE-IMPROVING CODE EDITS
     - Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning 
     - Tab-CoT: Zero-shot Tabular Chain of Thought
+    - Chain of Code: Reasoning with a Language Model-Augmented Code Emulator
 - 原理分析
     - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters  :star:
     - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
@@ -1079,6 +1082,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - mPLUG-Owl : Modularization Empowers Large Language Models with Multimodality
 - LVLM eHub: A Comprehensive Evaluation Benchmark for Large VisionLanguage Models
 - Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities
+- Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
 
 ### Adversarial Attacking 
 - Curiosity-driven Red-teaming for Large Language Models
