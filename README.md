@@ -1010,6 +1010,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Enabling Large Language Models to Generate Text with Citations
   - Factuality Enhanced Language Models for Open-Ended Text Generation
 - Probing and Detection
+  - QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization
+  - Zero-Resource Hallucination Prevention for Large Language Models
+  - LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples
   - Language Models (Mostly) Know What They Know  :star:
   - LM vs LM: Detecting Factual Errors via Cross Examination
   - Do Language Models Know When They’re Hallucinating References?
