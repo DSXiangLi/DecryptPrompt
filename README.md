@@ -994,6 +994,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Siren's Song in the AI Ocean: A Survey on Hallucination in Large Language Models
   - A Survey of Hallucination in Large Foundation Models
   - A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions
+  - Calibrated Language Models Must Hallucinate
 - Prompt or Tunning
   - R-Tuning: Teaching Large Language Models to Refuse Unknown Questions
   - PROMPTING GPT-3 TO BE RELIABLE
@@ -1009,7 +1010,11 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Inference-Time Intervention: Eliciting Truthful Answers from a Language Model
   - Enabling Large Language Models to Generate Text with Citations
   - Factuality Enhanced Language Models for Open-Ended Text Generation
+  - KL-Divergence Guided Temperature Sampling
+  - KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection
+  - CONTRASTIVE DECODING IMPROVES REASONING IN LARGE LANGUAGE MODEL
 - Probing and Detection
+  - Automatic Evaluation of Attribution by Large Language Models
   - QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization
   - Zero-Resource Hallucination Prevention for Large Language Models
   - LLM Lies: Hallucinations are not Bugs, but Features as Adversarial Examples
