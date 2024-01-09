@@ -598,7 +598,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Parameter-Efficient Transfer Learning for NLP
   - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
 
-### 主流LLMS
+### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
 - PaLM: Scaling Language Modeling with Pathways
 - PaLM 2 Technical Report
@@ -615,7 +615,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Phi1- Textbooks Are All You Need  :star:
 - Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
 - Gemini: A Family of Highly Capable Multimodal Models
-
+- In-Context Pretraining: Language Modeling Beyond Document Boundaries
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -995,6 +995,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - A Survey of Hallucination in Large Foundation Models
   - A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions
   - Calibrated Language Models Must Hallucinate
+  - Why Does ChatGPT Fall Short in Providing Truthful Answers?
 - Prompt or Tunning
   - R-Tuning: Teaching Large Language Models to Refuse Unknown Questions
   - PROMPTING GPT-3 TO BE RELIABLE
@@ -1003,6 +1004,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - RefGPT: Reference → Truthful & Customized Dialogues Generation by GPTs and for GPTs
   - Rethinking with Retrieval: Faithful Large Language Model Inference
   - GENERATE RATHER THAN RETRIEVE: LARGE LANGUAGE MODELS ARE STRONG CONTEXT GENERATORS
+  - Large Language Models Struggle to Learn Long-Tail Knowledge
 - Decoding Strategy
   - Trusting Your Evidence: Hallucinate Less with Context-aware Decoding  :star:
   - SELF-REFINE:ITERATIVE REFINEMENT WITH SELF-FEEDBACK  :star:
@@ -1013,6 +1015,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - KL-Divergence Guided Temperature Sampling
   - KCTS: Knowledge-Constrained Tree Search Decoding with Token-Level Hallucination Detection
   - CONTRASTIVE DECODING IMPROVES REASONING IN LARGE LANGUAGE MODEL
+  - Contrastive Decoding: Open-ended Text Generation as Optimization
 - Probing and Detection
   - Automatic Evaluation of Attribution by Large Language Models
   - QAFactEval: Improved QA-Based Factual Consistency Evaluation for Summarization
