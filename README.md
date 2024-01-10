@@ -172,7 +172,6 @@
 |法律|[ChatLaw](https://chatlaw.cloud/)|北大推出的法律大模型，应用形式很新颖类似频道内流一切功能皆融合在对话形式内|
 |法律|[录问模型](https://github.com/zhihaiLLM/wisdomInterrogatory)|在baichuan基础上40G二次预训练+100K指令微调，在知识库构建上采用了Emb+意图+关键词联想结合的方案|
 |金融|[FinChat.io](https://finchat.io/)|使用最新的财务数据，电话会议记录，季度和年度报告，投资书籍等进行训练|
-|金融|[FinChat.io](https://finchat.io/)|使用最新的财务数据，电话会议记录，季度和年度报告，投资书籍等进行训练|
 |金融|[OpenGPT](https://github.com/CogStack/OpenGPT)|领域LLM指令样本生成+微调框架|
 |金融|[乾元BigBang金融2亿模型](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main)|金融领域预训练+任务微调|
 |金融|[度小满千亿金融大模型](https://huggingface.co/xyz-nlp/XuanYuan2.0)|在Bloom-176B的基础上进行金融+中文预训练和微调|
@@ -189,7 +188,9 @@
 |金融|[CFGPT](https://github.com/TongjiFinLab/CFGPT)|金融预训练+指令微调+RAG等检索任务增强|
 |金融|[况客FOF智能投顾](https://pro.fofinvesting.com/workbench/home)|基金大模型应用，基金投顾，支持nl2sql类的数据查询，和基金信息对比查询等|
 |金融|[DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)|复旦发布多微调模型组合金融系统，包括金融知识问答,金融NLP任务，金融计算，金融检索问答|
-|金融|[InvestLM](https://github.com/AbaciNLP/InvestLM)|CFA考试，SEC， StackExchange投资问题等构建的金融指令微调LLaMA-65|
+|金融|[InvestLM](https://github.com/AbaciNLP/InvestLM)|CFA考试，SEC， StackExchange投资问题等构建的金融指令微调LLaMA-65+|
+|金融|[HithinkGPT](https://news.10jqka.com.cn/20240102/c653710580.shtml)|同花顺发布金融大模型问财，覆盖查询，分析，对比，解读，预测等多个问题领域|
+|金融|[无涯Infinity](https://www.transwarp.cn/product/infinity)|星环科技发布的金融大模型|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -403,6 +404,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [do Anything](https://www.doanythingmachine.com/): AutoGPT Like的to Do List生成器  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了~  ![](https://img.shields.io/badge/Tool-Business-red)  :star:
 - [Consensus](https://consensus.app/search/): AI加持的论文搜素工具，支持多观点正负面对比 ![](https://img.shields.io/badge/AIGC-Search-yellow)
+- [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站 ![](https://img.shields.io/badge/AIGC-Search-yellow)
+- [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式  ![](https://img.shields.io/badge/AIGC-Search-yellow) 
 - [webpilot.ai](https://www.webpilot.ai/signin?return-path=/) 比ChatGPT 自带的 Web Browsing更好用的浏览器检索插件，更适用于复杂搜索场景，也开通api调用了  ![](https://img.shields.io/badge/AIGC-Search-yellow) 
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问  ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
@@ -616,6 +619,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
 - Gemini: A Family of Highly Capable Multimodal Models
 - In-Context Pretraining: Language Modeling Beyond Document Boundaries
+- LLAMA PRO: Progressive LLaMA with Block Expansion
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -663,6 +667,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Self-Consuming Generative Models Go MAD
   - InstructEval: Systematic Evaluation of Instruction Selection Methods
   - Overwriting Pretrained Bias with Finetuning Data
+  - Improving Text Embeddings with Large Language Models
 - 微调经验/实验报告
     - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
     - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
@@ -702,6 +707,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models
     - Graph of Thoughts: Solving Elaborate Problems with Large Language Models
     - Progressive-Hint Prompting Improves Reasoning in Large Language Models
+    - LARGE LANGUAGE MODELS CAN LEARN RULES
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -933,7 +939,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - CFBenchmark: Chinese Financial Assistant Benchmark for Large Language Model
 - InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning
 - WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
-
+- FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design
 
 ### LLM超长文本处理 (long_input)
 - 位置编码、注意力机制优化
