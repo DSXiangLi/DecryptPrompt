@@ -396,6 +396,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Alpha](https://public.com/alpha?ref=supertools.therundown.ai): ChatGPT加持的金融app，支持个股信息查询，资产分析诊断，财报汇总etc 
 - [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作  ![](https://img.shields.io/badge/Auto-Agent-white)
+- [Miracleplus](https://news.miracleplus.com/feeds?tab=hot): 全AI Agent负责运营的Hacker News网站
 - [Mr.-Ranedeer-](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor):  基于prompt和GPT-4的强大能力提供个性化学习环境，个性化出题+模型解答
 - [NexusGPT](https://nexus.snikpic.io/): AutoGPT可以出来工作了，第一个全AI Freelance平台  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
@@ -940,6 +941,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning
 - WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
 - FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design
+- ME D ITA B: SCALING MEDICAL TABULAR DATA PREDICTORS VIA DATA CONSOLIDATION, ENRICHMENT, AND REFINEMENT
 
 ### LLM超长文本处理 (long_input)
 - 位置编码、注意力机制优化
@@ -1099,6 +1101,10 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - LVLM eHub: A Comprehensive Evaluation Benchmark for Large VisionLanguage Models
 - Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities
 - Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
+
+### Timeseries 
+- TIME-LLM: TIME SERIES FORECASTING BY REPROGRAMMING LARGE LANGUAGE MODELS
+- Large Language Models Are Zero-Shot Time Series Forecasters
 
 ### Adversarial Attacking 
 - Curiosity-driven Red-teaming for Large Language Models
