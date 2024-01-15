@@ -33,6 +33,7 @@
 - [解密Prompt系列20. LLM Agent 之再谈RAG的召回多样性优化](https://cloud.tencent.com/developer/article/2365050)
 - [解密Prompt系列21. LLM Agent之再谈RAG的召回信息密度和质量](https://cloud.tencent.com/developer/article/2369977)
 - [​解密Prompt系列22. LLM Agent之RAG的反思：放弃了压缩还是智能么？](https://cloud.tencent.com/developer/article/2375066)
+- [解密Prompt系列23.大模型幻觉分类&归因&检测&缓解方案脑图全梳理](https://cloud.tencent.com/developer/article/2378383)
 
 ## LLMS
 ### 模型评测
@@ -98,6 +99,7 @@
 ### 国内开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
+|[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot上线超长文本LLM 可输入20W上文需要申请试用 |
 |[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代，提供了7B/13B Base和chat的版本|
 |[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
@@ -109,6 +111,7 @@
 |[Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)|浪潮发布Yuan2.0 2B，51B，102B|
 |[YI](https://www.modelscope.cn/models/01ai/Yi-34B-Chat/summary)|元一智能开源34B，6B模型|
 |[DeepSeek](https://github.com/deepseek-ai/DeepSeek-LLM)|深度求索发布的7B，67B大模型|
+|[DeepSeek-MOE](https://github.com/deepseek-ai/DeepSeek-MoE)|深度求索发布的DeepSeekMoE 16B Base和caht模型|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-65B)|元象发布13B免费商用大模型|
 |[LLama2-chinese](https://github.com/FlagAlpha/Llama2-Chinese)|没等太久中文预训练微调后的llama2它来了~|
 |[YuLan-chat2](https://github.com/RUC-GSAI/YuLan-Chat)|高瓴人工智能基于Llama-2中英双语继续预训练+指令微调/对话微调|
@@ -122,7 +125,6 @@
 |[Aquila2](https://github.com/FlagAI-Open/Aquila2/blob/main/README_CN.md)|智源更新Aquila2模型系列包括全新34B|
 |[Aquila](https://github.com/FlagAI-Open/FlagAI/tree/master/examples/Aquila)|智源开源7B大模型可商用免费|
 |[UltraLM系列](https://github.com/thunlp/UltraChat)|面壁智能开源UltraLM13B，奖励模型UltraRM，和批评模型UltraCM|
-|[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot上线超长文本LLM 可输入20W上文需要申请试用 |
 |[PandaLLM](https://github.com/dandelionsllm/pandallm)|LLAMA2上中文wiki继续预训练+COIG指令微调|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
 |[BiLLa](https://github.com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
