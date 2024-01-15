@@ -968,13 +968,20 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression  :star:
   - Learning to Compress Prompts with Gist Tokens
   - Unlocking Context Constraints of LLMs: Enhancing Context Efficiency of LLMs with Self-Information-Based Content Filtering
-- 训练方案
+- 训练和模型架构方案
+  - Never Train from Scratch: FAIR COMPARISON OF LONGSEQUENCE MODELS REQUIRES DATA-DRIVEN PRIORS
+  - Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon
   - Never Lost in the Middle: Improving Large Language Models via Attention Strengthening Question Answering
   - Focused Transformer: Contrastive Training for Context Scaling
   - Effective Long-Context Scaling of Foundation Models
+  - ON THE LONG RANGE ABILITIES OF TRANSFORMERS
+  - Efficient Long-Range Transformers: You Need to Attend More, but Not Necessarily at Every Layer
 - 效率优化
+  - Efficient Attention: Attention with Linear Complexities
+  - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
   - HyperAttention: Long-context Attention in Near-Linear Time
   - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
+
 
 ### NL2SQL
 - 大模型方案
@@ -1102,9 +1109,15 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities
 - Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
 
-### Timeseries 
+### Timeseries LLM
+- TimeGPT-1
+- Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook
 - TIME-LLM: TIME SERIES FORECASTING BY REPROGRAMMING LARGE LANGUAGE MODELS
 - Large Language Models Are Zero-Shot Time Series Forecasters
+- TEMPO: PROMPT-BASED GENERATIVE PRE-TRAINED TRANSFORMER FOR TIME SERIES FORECASTING
+- Generative Pre-Training of Time-Series Data for Unsupervised Fault Detection in Semiconductor Manufacturing
+- Lag-Llama: Towards Foundation Models for Time Series Forecasting
+- PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting
 
 ### Adversarial Attacking 
 - Curiosity-driven Red-teaming for Large Language Models
