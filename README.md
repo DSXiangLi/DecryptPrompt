@@ -562,6 +562,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Sparks of Artificial General Intelligence: Early experiments with GPT-4
   - Emerging Ability of Large Language Models :star:
   - LANGUAGE MODELS REPRESENT SPACE AND TIME
+  - Are Emergent Abilities of Large Language Models a Mirage?
 - 能力评估
   - IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
   - Can Large Language Models Infer Causation from Correlation?
@@ -652,7 +653,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks
    - PROMPT2MODEL: Generating Deployable Models from Natural Language Instructions
    - OpinionGPT: Modelling Explicit Biases in Instruction-Tuned LLMs
-   - Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
    - Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback
    - Human-like systematic generalization through a meta-learning neural network
    - Magicoder: Source Code Is All You Need
@@ -711,6 +711,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Graph of Thoughts: Solving Elaborate Problems with Large Language Models
     - Progressive-Hint Prompting Improves Reasoning in Large Language Models
     - LARGE LANGUAGE MODELS CAN LEARN RULES
+    - From Complex to Simple: Unraveling the Cognitive Tree for Reasoning with Small Language Models
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -749,6 +750,10 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Deepmind
   - Teaching language models to support answers with verified quotes
   - sparrow, Improving alignment of dialogue agents via targetd human judgements :star:
+  - STATISTICAL REJECTION SAMPLING IMPROVES PREFERENCE OPTIMIZATION
+  - Reinforced Self-Training (ReST) for Language Modeling
+  - SLiC-HF: Sequence Likelihood Calibration with Human Feedback
+  - REWARD DESIGN WITH LANGUAGE MODELS
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
@@ -770,14 +775,33 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - PRM：Let's verify step by step 
   - Chain of Hindsight Aligns Language Models with Feedback
   - AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback
-  - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
   - RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment
+  - RLAIF: Scaling Reinforcement Learning from Human Feedback with AI Feedback
   - Training Socially Aligned Language Models in Simulated Human Society
   - RAIN: Your Language Models Can Align Themselves without Finetuning
   - Generative Judge for Evaluating Alignment
   - PEERING THROUGH PREFERENCES: UNRAVELING FEEDBACK ACQUISITION FOR ALIGNING LARGE LANGUAGE MODELS
   - SALMON: SELF-ALIGNMENT WITH PRINCIPLE-FOLLOWING REWARD MODELS
   - Large Language Model Unlearning :star:
+  - ADVERSARIAL PREFERENCE OPTIMIZATION :star:
+  - Preference Ranking Optimization for Human Alignment
+  - A Long Way to Go: Investigating Length Correlations in RLHF
+  - ENABLE LANGUAGE MODELS TO IMPLICITLY LEARN SELF-IMPROVEMENT FROM DATA
+  - REWARD MODEL ENSEMBLES HELP MITIGATE OVEROPTIMIZATION
+  - LEARNING OPTIMAL ADVANTAGE FROM PREFERENCES AND MISTAKING IT FOR REWARD
+  - ULTRAFEEDBACK: BOOSTING LANGUAGE MODELS WITH HIGH-QUALITY FEEDBACK
+  - MOTIF: INTRINSIC MOTIVATION FROM ARTIFICIAL INTELLIGENCE FEEDBACK
+  - STABILIZING RLHF THROUGH ADVANTAGE MODEL AND SELECTIVE REHEARSAL
+  - Shepherd: A Critic for Language Model Generation
+  - LEARNING TO GENERATE BETTER THAN YOUR LLM
+  - Fine-Grained Human Feedback Gives Better Rewards for Language Model Training
+  - Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
+- RL探究
+  - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
+  - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
+  - THE TRICKLE-DOWN IMPACT OF REWARD (IN-)CONSISTENCY ON RLHF
+  - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
+  - HUMAN FEEDBACK IS NOT GOLD STANDARD
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
