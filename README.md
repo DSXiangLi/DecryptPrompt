@@ -712,6 +712,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Progressive-Hint Prompting Improves Reasoning in Large Language Models
     - LARGE LANGUAGE MODELS CAN LEARN RULES
     - From Complex to Simple: Unraveling the Cognitive Tree for Reasoning with Small Language Models
+    - Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -753,6 +754,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - STATISTICAL REJECTION SAMPLING IMPROVES PREFERENCE OPTIMIZATION
   - Reinforced Self-Training (ReST) for Language Modeling
   - SLiC-HF: Sequence Likelihood Calibration with Human Feedback
+  - CALIBRATING SEQUENCE LIKELIHOOD IMPROVES CONDITIONAL LANGUAGE GENERATION
   - REWARD DESIGN WITH LANGUAGE MODELS
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
@@ -796,6 +798,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LEARNING TO GENERATE BETTER THAN YOUR LLM
   - Fine-Grained Human Feedback Gives Better Rewards for Language Model Training
   - Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
+  - Direct Preference Optimization: Your Language Model is Secretly a Reward Model
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -1109,6 +1112,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - MEMIT: Mass-Editing Memory in a Transformer
 - MEND：Fast Model Editing at Scale
 - Editing Large Language Models: Problems, Methods, and Opportunities
+- Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
