@@ -148,6 +148,7 @@
 
 ### 国内可直接使用的大模型应用
 |模型链接     | 模型描述    |
+| --- | --- |
 |[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot超长文本LLM 可输入20W上文, 文档总结无敌 |
 |[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
 |[文心一言](https://yiyan.baidu.com/welcome)|百度|
