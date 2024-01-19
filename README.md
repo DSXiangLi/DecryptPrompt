@@ -99,20 +99,21 @@
 ### 国内开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
-|[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot上线超长文本LLM 可输入20W上文需要申请试用 |
 |[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代，提供了7B/13B Base和chat的版本|
 |[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
 |[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
+|[XVERSE-256K](https://modelscope.cn/models/xverse/XVERSE-13B-256K/summary)|元象发布13B免费商用大模型|
+|[XVERSE](https://github.com/xverse-ai/XVERSE-65B)|元象发布13B免费商用大模型|
 |[Qwen-7B+14B+70B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B,14B,70B Base和chat模型|
 |[ChatGLM3](https://github.com/THUDM/ChatGLM3)|ChatGLM3发布，支持工具调用等更多功能，不过泛化性有待评估|
 |[ChatGLM2](https://github.com/thudm/chatglm2-6b)|32K长文本，FlashAttention+Multi-Query Attenion的显存优化，更强推理能力，哈哈不过很多简单问题也硬要COT，中英平行能力似乎略有下降的ChatGLM2，但是免费商用！|
 |[ChatGLM](https://github.com/THUDM/ChatGLM-6B)   | 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。chatglm2支持超长文本，可免费商用啦！|
 |[Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)|浪潮发布Yuan2.0 2B，51B，102B|
+|[YI-200K](https://www.modelscope.cn/models/01ai/Yi-6B-200k/summary)|元一智能开源超长200K的6B，34B模型|
 |[YI](https://www.modelscope.cn/models/01ai/Yi-34B-Chat/summary)|元一智能开源34B，6B模型|
-|[DeepSeek](https://github.com/deepseek-ai/DeepSeek-LLM)|深度求索发布的7B，67B大模型|
 |[DeepSeek-MOE](https://github.com/deepseek-ai/DeepSeek-MoE)|深度求索发布的DeepSeekMoE 16B Base和caht模型|
-|[XVERSE](https://github.com/xverse-ai/XVERSE-65B)|元象发布13B免费商用大模型|
+|[DeepSeek](https://github.com/deepseek-ai/DeepSeek-LLM)|深度求索发布的7B，67B大模型|
 |[LLama2-chinese](https://github.com/FlagAlpha/Llama2-Chinese)|没等太久中文预训练微调后的llama2它来了~|
 |[YuLan-chat2](https://github.com/RUC-GSAI/YuLan-Chat)|高瓴人工智能基于Llama-2中英双语继续预训练+指令微调/对话微调|
 |[BlueLM](https://github.com/vivo-ai-lab/BlueLM)|Vivo人工智能实验室开源大模型|
@@ -144,6 +145,18 @@
 |[CPM2.0](https://baai.ac.cn/)     |  智源发布CPM2.0|
 |[GLM](https://github.com/THUDM/GLM-130B) |   清华发布的中英双语130B预训练模型 |
 |[BayLing](https://github.com/ictnlp/BayLing)|基于LLama7B/13B，增强的语言对齐的英语/中文大语言模型|
+
+### 国内可直接使用的大模型应用
+|模型链接     | 模型描述    |
+|[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot超长文本LLM 可输入20W上文, 文档总结无敌 |
+|[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
+|[文心一言](https://yiyan.baidu.com/welcome)|百度|
+|[通义千问](https://tongyi.aliyun.com/qianwen/)|阿里 |
+|[百川](https://www.baichuan-ai.com/chat)|百川|
+|[GLM-3](https://chatglm.cn/main/detail)|智谱轻言|
+|[DeepSeek](https://chat.deepseek.com/sign_in)|深度求索 |
+|[360智脑](https://chat.360.com/?src=ai_360_com)|360 |
+|[悟空](https://wukong.com/tool)|字节跳动|
 
 
 ### 垂直领域模型&进展
