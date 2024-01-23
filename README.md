@@ -43,6 +43,7 @@
 |----|-----|
 |[AlpacaEval：LLM-based automatic evaluation ](https://tatsu-lab.github.io/alpaca_eval/)| 开源模型王者vicuna,openchat, wizardlm|
 |[Huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)|MMLU只评估开源模型，Falcon夺冠，在Eleuther AI4个评估集上评估的LLM模型榜单,vicuna夺冠| 
+|[https://opencompass.org.cn/](https://opencompass.org.cn/)|上海人工智能实验室推出的开源榜单|
 |[Berkley出品大模型排位赛榜有准中文榜单](https://lmsys.org/blog/2023-05-03-arena/)|Elo评分机制，GPT4自然是稳居第一，GPT4>Claude>GPT3.5>Vicuna>others|
 |[CMU开源聊天机器人评测应用](https://github.com/zeno-ml/zeno-build)|ChatGPT>Vicuna>others；在对话场景中训练可能很重要|
 |[Z-Bench中文真格基金评测](https://github.com/zhenbench/z-bench)|国产中文模型的编程可用性还相对较低，大家水平差不太多，两版ChatGLM提升明显|
@@ -322,6 +323,8 @@
 |guardrails：降低模型幻觉的python框架，promp模板+validation+修正|https://github.com/shreyar/guardrails|
 |guidance：微软新开源框架，同样是降低模型幻觉的框架，prompt+chain的升级版加入逐步生成和思维链路|https://github.com/guidance-ai/guidance|
 |SolidGPT: 上传个人数据，通过命令交互创建项目PRD等|https://github.com/AI-Citizen/SolidGPT|
+|HR-Agent: 类似HR和员工交互，支持多工具调用| https://github.com/stepanogil/autonomous-hr-chatbot|
+|BambooAI：数据分析Agent|https://github.com/pgalko/BambooAI|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -423,6 +426,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Consensus](https://consensus.app/search/): AI加持的论文搜素工具，支持多观点正负面对比 ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站 ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式  ![](https://img.shields.io/badge/AIGC-Search-yellow) 
+- [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎 ![](https://img.shields.io/badge/AIGC-Search-yellow) 
 - [webpilot.ai](https://www.webpilot.ai/signin?return-path=/) 比ChatGPT 自带的 Web Browsing更好用的浏览器检索插件，更适用于复杂搜索场景，也开通api调用了  ![](https://img.shields.io/badge/AIGC-Search-yellow) 
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问  ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
@@ -886,6 +890,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Factuality Enhanced Language Models for Open-Ended Text Generation
   - FRESHLLMS: REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION
   - KwaiAgents: Generalized Information-seeking Agent System with Large Language Models
+  - Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence
+  - Complex Claim Verification with Evidence Retrieved in the Wild
+  - Retrieval-Augmented Generation for Large Language Models: A Survey
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
   - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
   - Learning to Rewrite Queries [传统方案参考]
