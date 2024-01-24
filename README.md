@@ -503,6 +503,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [GPTSeek](https://www.gptseek.com/): 大家投票得出的最有价值的GPT应用
 - [TheRunDown](https://supertools.therundown.ai/): 可订阅AI新闻的网站，也收藏了众多宝藏GPTS应用
 - [AI-Bot](https://ai-bot.cn/#term-15): AI工具导航软件
+- [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file): LLM  Agent应用列表
 
 ### 书籍博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -843,6 +844,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - TPTU: Task Planning and Tool Usage of Large Language Model-based AI Agents
   - ControlLLM: Augment Language Models with Tools by Searching on Graphs
   - Reflexion: an autonomous agent with dynamic memory and self-reflection
+  - AutoAgents: A Framework for Automatic Agent Generation
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -893,6 +895,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence
   - Complex Claim Verification with Evidence Retrieved in the Wild
   - Retrieval-Augmented Generation for Large Language Models: A Survey
+  - Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
   - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
   - Learning to Rewrite Queries [传统方案参考]
