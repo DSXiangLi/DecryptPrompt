@@ -104,15 +104,17 @@
 |[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
 |[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
-|[XVERSE-256K](https://modelscope.cn/models/xverse/XVERSE-13B-256K/summary)|元象发布13B免费商用大模型|
-|[XVERSE](https://github.com/xverse-ai/XVERSE-65B)|元象发布13B免费商用大模型|
 |[Qwen-7B+14B+70B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B,14B,70B Base和chat模型|
+|[InternLM2 7B+20B](https://github.com/InternLM/InternLM)|商汤的书生模型2支持200K|
+|[Orion-14B-LongChat](https://github.com/OrionStarAI/Orion)|猎户星空多语言模型支持320K|
 |[ChatGLM3](https://github.com/THUDM/ChatGLM3)|ChatGLM3发布，支持工具调用等更多功能，不过泛化性有待评估|
 |[ChatGLM2](https://github.com/thudm/chatglm2-6b)|32K长文本，FlashAttention+Multi-Query Attenion的显存优化，更强推理能力，哈哈不过很多简单问题也硬要COT，中英平行能力似乎略有下降的ChatGLM2，但是免费商用！|
 |[ChatGLM](https://github.com/THUDM/ChatGLM-6B)   | 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。chatglm2支持超长文本，可免费商用啦！|
 |[Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)|浪潮发布Yuan2.0 2B，51B，102B|
 |[YI-200K](https://www.modelscope.cn/models/01ai/Yi-6B-200k/summary)|元一智能开源超长200K的6B，34B模型|
 |[YI](https://www.modelscope.cn/models/01ai/Yi-34B-Chat/summary)|元一智能开源34B，6B模型|
+|[XVERSE-256K](https://modelscope.cn/models/xverse/XVERSE-13B-256K/summary)|元象发布13B免费商用大模型，虽然很长|
+|[XVERSE](https://github.com/xverse-ai/XVERSE-65B)|元象发布13B免费商用大模型|
 |[DeepSeek-MOE](https://github.com/deepseek-ai/DeepSeek-MoE)|深度求索发布的DeepSeekMoE 16B Base和caht模型|
 |[DeepSeek](https://github.com/deepseek-ai/DeepSeek-LLM)|深度求索发布的7B，67B大模型|
 |[LLama2-chinese](https://github.com/FlagAlpha/Llama2-Chinese)|没等太久中文预训练微调后的llama2它来了~|
@@ -208,6 +210,7 @@
 |金融|[InvestLM](https://github.com/AbaciNLP/InvestLM)|CFA考试，SEC， StackExchange投资问题等构建的金融指令微调LLaMA-65+|
 |金融|[HithinkGPT](https://news.10jqka.com.cn/20240102/c653710580.shtml)|同花顺发布金融大模型问财，覆盖查询，分析，对比，解读，预测等多个问题领域|
 |金融|[无涯Infinity](https://www.transwarp.cn/product/infinity)|星环科技发布的金融大模型|
+|金融|[妙想](https://ai.eastmoney.com/welcome)|东方财富自研金融大模型开放试用|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -824,6 +827,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - THE TRICKLE-DOWN IMPACT OF REWARD (IN-)CONSISTENCY ON RLHF
   - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
   - HUMAN FEEDBACK IS NOT GOLD STANDARD
+  - CONTRASTIVE POST-TRAINING LARGE LANGUAGE MODELS ON DATA CURRICULUM
+
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - 基于prompt通用方案
@@ -896,6 +901,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Complex Claim Verification with Evidence Retrieved in the Wild
   - Retrieval-Augmented Generation for Large Language Models: A Survey
   - Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy
+  - ChatQA: Building GPT-4 Level Conversational QA Models
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
   - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
   - Learning to Rewrite Queries [传统方案参考]
