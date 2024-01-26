@@ -852,6 +852,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ControlLLM: Augment Language Models with Tools by Searching on Graphs
   - Reflexion: an autonomous agent with dynamic memory and self-reflection
   - AutoAgents: A Framework for Automatic Agent Generation
+  - AppAgent: Multimodal Agents as Smartphone Users
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
