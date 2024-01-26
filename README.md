@@ -426,6 +426,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [agentgpt](https://agentgpt.reworkd.ai/): 基础版AutoGPT![](https://img.shields.io/badge/Auto-Agent-white) :star:
 - [do Anything](https://www.doanythingmachine.com/): AutoGPT Like的to Do List生成器  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了~  ![](https://img.shields.io/badge/Tool-Business-red)  :star:
+- [Reportify](https://reportify.cc/): 金融领域公司公告，新闻，电话会的问答和摘要总结   ![](https://img.shields.io/badge/Tool-Business-red)  :star:
 - [Consensus](https://consensus.app/search/): AI加持的论文搜素工具，支持多观点正负面对比 ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站 ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式  ![](https://img.shields.io/badge/AIGC-Search-yellow) 
@@ -646,6 +647,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Gemini: A Family of Highly Capable Multimodal Models
 - In-Context Pretraining: Language Modeling Beyond Document Boundaries
 - LLAMA PRO: Progressive LLaMA with Block Expansion
+- QWEN TECHNICAL REPORT
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -1021,6 +1023,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - [苏剑林,Transformer升级之路：15、Key归一化助力长度外推](https://spaces.ac.cn/archives/9859)
   - EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
   - Ring Attention with Blockwise Transformers for Near-Infinite Context
+
 - 上文压缩排序方案
   - Lost in the Middle: How Language Models Use Long Contexts :star:
   - LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models
@@ -1035,11 +1038,13 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Effective Long-Context Scaling of Foundation Models
   - ON THE LONG RANGE ABILITIES OF TRANSFORMERS
   - Efficient Long-Range Transformers: You Need to Attend More, but Not Necessarily at Every Layer
+  - POSE: EFFICIENT CONTEXT WINDOW EXTENSION OF LLMS VIA POSITIONAL SKIP-WISE TRAINING
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
   - HyperAttention: Long-context Attention in Near-Linear Time
   - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
+  - With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation
 
 
 ### NL2SQL
