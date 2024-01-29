@@ -227,6 +227,7 @@
 |写作|[阅文-网文大模型介绍](https://www.zhihu.com/question/613058630)|签约作者内测中，主打的内容为打斗场景，剧情切换，环境描写，人设，世界观等辅助片段的生成|
 |写作|[MediaGPT](https://github.com/search?q=MediaGPT&type=repositories)|LLama-7B扩充词表+指令微调，指令来自国内媒体专家给出的在新闻创作上的80个子任务|
 |电商|[EcomGPT](https://github.com/Alibaba-NLP/EcomGPT)|电商领域任务指令微调大模型，指令样本250万，基座模型是Bloomz|
+|植物科学|[PLLaMa](https://www.aminer.cn/pub/6596236b939a5f408292e52a/pllama-an-open-source-large-language-model-for-plant-science)|基于Llama使用植物科学领域学术论文继续预训练+sft扩展的领域模型|
 |评估|[Auto-J](https://modelscope.cn/models/lockonlvange/autoj-13b-fp16/summary)|上交开源了价值评估对齐13B模型|
 |评估|[JudgeLM](https://github.com/baaivision/JudgeLM)|智源开源了 JudgeLM 的裁判模型，可以高效准确地评判各类大模型|
 |评估|[CritiqueLLM](https://github.com/thu-coai/CritiqueLLM)|智谱AI发布评分模型CritiqueLLM,支持含参考文本/无参考文本的评估打分|
@@ -571,7 +572,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - AI Alignment: A Comprehensive Survey
 - Trends in Integration of Knowledge and Large Language Models: A Survey and Taxonomy of Methods, Benchmarks, and Applications
 - Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook
-
+- A Survey on Language Models for Code
+- Model-as-a-Service (MaaS): A Survey
 
 ### 大模型能力探究
 - In Context Learning 
@@ -795,6 +797,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Constitutional AI Harmlessness from AI Feedback :star:
   - Pretraining Language Models with Human Preferences
   - The Capacity for Moral Self-Correction in Large Language Models
+  - Sleeper Agents: Training Deceptive LLMs that Persist Through Safety Trainin
 - AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
 - 改良方案 
   - RRHF: Rank Responses to Align Language Models with Human Feedback without tears
@@ -833,6 +836,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 
 
 ### LLM Agent 让模型使用工具 (llm_agent)
+- A Survey on Large Language Model based Autonomous Agents
 - 基于prompt通用方案
   - ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
   - Self-ask: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS :star:
@@ -863,6 +867,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - SWIFTSAGE: A Generative Agent with Fast and Slow Thinking for Complex Interactive Tasks
   - FireAct: Toward Language Agent Fine-tuning
   - Pangu-Agent: A Fine-Tunable Generalist Agent with Structured Reasoning
+  - REST MEETS REACT: SELF-IMPROVEMENT FOR MULTI-STEP REASONING LLM AGENT
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -1003,7 +1008,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning
 - WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
 - FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design
-- ME D ITA B: SCALING MEDICAL TABULAR DATA PREDICTORS VIA DATA CONSOLIDATION, ENRICHMENT, AND REFINEMENT
+- MEDITAB: SCALING MEDICAL TABULAR DATA PREDICTORS VIA DATA CONSOLIDATION, ENRICHMENT, AND REFINEMENT
+- PLLaMa: An Open-source Large Language Model for Plant Science
 
 ### LLM超长文本处理 (long_input)
 - 位置编码、注意力机制优化
@@ -1149,6 +1155,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - MEND：Fast Model Editing at Scale
 - Editing Large Language Models: Problems, Methods, and Opportunities
 - Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
+
+
+### 模型合并黑科技(model_merge)
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
