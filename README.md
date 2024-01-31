@@ -266,6 +266,7 @@
 |Megablocks：MOE训练框架|https://github.com/stanford-futuredata/megablocks|
 |Tutel：MOE训练框架|https://github.com/microsoft/tutel|
 |TradingGym：参考openai gym的股票交易强化学习模拟器|https://github.com/astrologos/tradinggym|
+|LongLora: 长文本微调框架|https://github.com/dvlab-research/LongLoRA|
 
 ### Auto/Multi Agent
 | 工具描述   | 链接   | 
@@ -418,6 +419,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！  :star:
 - [Alpha](https://public.com/alpha?ref=supertools.therundown.ai): ChatGPT加持的金融app，支持个股信息查询，资产分析诊断，财报汇总etc 
 - [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
+- [Finalle.ai](https://finalle.ai/?ref=supertools.therundown.ai): 实时金融数据流接入大模型
+- [Reportify](https://reportify.cc/): 金融领域公司公告，新闻，电话会的问答和摘要总结   ![](https://img.shields.io/badge/Tool-Business-red)  :star:
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [Miracleplus](https://news.miracleplus.com/feeds?tab=hot): 全AI Agent负责运营的Hacker News网站
 - [Mr.-Ranedeer-](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor):  基于prompt和GPT-4的强大能力提供个性化学习环境，个性化出题+模型解答
@@ -427,7 +430,6 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [agentgpt](https://agentgpt.reworkd.ai/): 基础版AutoGPT![](https://img.shields.io/badge/Auto-Agent-white) :star:
 - [do Anything](https://www.doanythingmachine.com/): AutoGPT Like的to Do List生成器  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了~  ![](https://img.shields.io/badge/Tool-Business-red)  :star:
-- [Reportify](https://reportify.cc/): 金融领域公司公告，新闻，电话会的问答和摘要总结   ![](https://img.shields.io/badge/Tool-Business-red)  :star:
 - [Consensus](https://consensus.app/search/): AI加持的论文搜素工具，支持多观点正负面对比 ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站 ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式  ![](https://img.shields.io/badge/AIGC-Search-yellow) 
@@ -1030,7 +1032,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - [苏剑林,Transformer升级之路：15、Key归一化助力长度外推](https://spaces.ac.cn/archives/9859)
   - EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
   - Ring Attention with Blockwise Transformers for Near-Infinite Context
-
+  - YaRN: Efficient Context Window Extension of Large Language Models
+  - LM-INFINITE: SIMPLE ON-THE-FLY LENGTH GENERALIZATION FOR LARGE LANGUAGE MODELS
+  - EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
 - 上文压缩排序方案
   - Lost in the Middle: How Language Models Use Long Contexts :star:
   - LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models
@@ -1046,6 +1050,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ON THE LONG RANGE ABILITIES OF TRANSFORMERS
   - Efficient Long-Range Transformers: You Need to Attend More, but Not Necessarily at Every Layer
   - POSE: EFFICIENT CONTEXT WINDOW EXTENSION OF LLMS VIA POSITIONAL SKIP-WISE TRAINING
+  - LONGLORA: EFFICIENT FINE-TUNING OF LONGCONTEXT LARGE LANGUAGE MODELS
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
@@ -1158,6 +1163,11 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 
 
 ### 模型合并黑科技(model_merge)
+- Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM
+- DARE Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
+- EDITING MODELS WITH TASK ARITHMETIC
+- TIES-Merging: Resolving Interference When Merging Models
+- LM-Cocktail: Resilient Tuning of Language Models via Model Merging
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
