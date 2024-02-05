@@ -330,6 +330,7 @@
 |SolidGPT: 上传个人数据，通过命令交互创建项目PRD等|https://github.com/AI-Citizen/SolidGPT|
 |HR-Agent: 类似HR和员工交互，支持多工具调用| https://github.com/stepanogil/autonomous-hr-chatbot|
 |BambooAI：数据分析Agent|https://github.com/pgalko/BambooAI|
+|AlphaCodium：通过Flow Engineering完成代码任务|https://github.com/Codium-ai/AlphaCodium|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -469,6 +470,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Eightify](https://eightify.app/zh): chrome插件，节省观看长视频的时间，立即获取关键思想，分模块总结+时间戳摘要  ![](https://img.shields.io/badge/Tool-Business-red)
 - [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档  ![](https://img.shields.io/badge/Tool-Business-red)
 - [AutoDev](https://ide.unitmesh.cc/):  AI编程辅助工具![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
+- [Codium](https://www.codium.ai/): 开源的编程Copilot来啦  ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [Copilot](https://github.com/features/copilot): 要付费哟 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
 - [CodeGex](http://codegeex.cn/zh-CN): 国内替代品，还没试过 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
@@ -544,6 +546,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [OpenAI闭门会议DevDay视频 - A survey of  Techniques for Maximizing LLM performance，无法翻墙可搜标题找笔记](https://www.youtube.com/watch?v=ahnGLM-RC1Y)
 - [奇绩创坛2023秋季路演日上创新LLM项目一览](https://zhuanlan.zhihu.com/p/669015906)
 - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
+- [The Power of Prompting微软首席科学家对prompt在垂直领域使用的观点](https://www.microsoft.com/en-us/research/blog/the-power-of-prompting/)
 
 
 ## Papers
@@ -603,6 +606,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Can Explanations Be Useful for Calibrating Black Box Models
   - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective 
   - Language acquisition: do children and language models follow similar learning stages?
+- 领域能力
+  - Capabilities of GPT-4 on Medical Challenge Problems
+  - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 
 ### Prompt Tunning范式
 - Tunning Free Prompt
@@ -1077,6 +1083,13 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - others
   - RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
   - MIGA: A Unified Multi-task Generation Framework for Conversational Text-to-SQL
+
+
+### Code Generation
+- Code Generation with AlphaCodium: From Prompt Engineering to Flow Engineering
+- Codeforces as an Educational Platform for Learning Programming in Digitalization
+- Competition-Level Code Generation with AlphaCode
+- CODECHAIN: TOWARDS MODULAR CODE GENERATION THROUGH CHAIN OF SELF-REVISIONS WITH REPRESENTATIVE SUB-MODULES
 
 ### 降低模型幻觉 (reliability)
 - Survey 
