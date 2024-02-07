@@ -513,6 +513,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [TheRunDown](https://supertools.therundown.ai/): 可订阅AI新闻的网站，也收藏了众多宝藏GPTS应用
 - [AI-Bot](https://ai-bot.cn/#term-15): AI工具导航软件
 - [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file): LLM  Agent应用列表
+- [GPT Demo](https://gpt4demo.com/): 各种类型的gpt demo 
 
 ### 书籍博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -790,6 +791,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - SLiC-HF: Sequence Likelihood Calibration with Human Feedback
   - CALIBRATING SEQUENCE LIKELIHOOD IMPROVES CONDITIONAL LANGUAGE GENERATION
   - REWARD DESIGN WITH LANGUAGE MODELS
+  - Final-Answer RL Solving math word problems with processand outcome-based feedback
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
@@ -798,6 +800,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - InstructGPT: Training language models to follow instructions with human feedback :star:
   - Scaling Laws for Reward Model Over optimization :star:
   - WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION  :star:
+  - PRM：Let's verify step by step 
 - Anthropic
   - A General Language Assistant as a Laboratory for Alignmen 
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
@@ -809,7 +812,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - AllenAI, RL4LM：IS REINFORCEMENT LEARNING (NOT) FOR NATURAL LANGUAGE PROCESSING BENCHMARKS
 - 改良方案 
   - RRHF: Rank Responses to Align Language Models with Human Feedback without tears
-  - PRM：Let's verify step by step 
   - Chain of Hindsight Aligns Language Models with Feedback
   - AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback
   - RAFT: Reward rAnked FineTuning for Generative Foundation Model Alignment
@@ -834,6 +836,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Fine-Grained Human Feedback Gives Better Rewards for Language Model Training
   - Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
   - Direct Preference Optimization: Your Language Model is Secretly a Reward Model
+  - HIR The Wisdom of Hindsight Makes Language Models Better Instruction Followers
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
