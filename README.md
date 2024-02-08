@@ -557,7 +557,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
 - https://github.com/thunlp/ToolLearningPapers
 - https://github.com/MLGroupJLU/LLM-eval-survey
-
+- https://github.com/thu-coai/PaperForONLG
 
 ### 综述
 - A Survey of Large Language Models
@@ -1030,7 +1030,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Structured Prompting: Scaling In-Context Learning to 1,000 Examples
   - Vcc: Scaling Transformers to 128K Tokens or More by Prioritizing Important Tokens
   - Scaling Transformer to 1M tokens and beyond with RMT
-  - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
   - TRAIN SHORT, TEST LONG: ATTENTION WITH LINEAR BIASES ENABLES INPUT LENGTH EXTRAPOLATION :star:
   - Extending Context Window of Large Language Models via Positional Interpolation
   - LongNet: Scaling Transformers to 1,000,000,000 Tokens
@@ -1067,6 +1066,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
   - With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation
 
+### LLM长文本生成（long_output）
+- Re3 : Generating Longer Stories With Recursive Reprompting and Revision
+- RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
 
 ### NL2SQL
 - 大模型方案
