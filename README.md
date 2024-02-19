@@ -302,6 +302,7 @@
 |Ragas: 评估检索增强LLM效果的框架，基于大模型prompt评估事实性，召回相关性，召回内容质量，回答相关性等|https://github.com/explodinggradients/ragas#fire-quickstart|
 |fastRAG：检索框架，包括多索引检索，KG构建等基础功能|https://github.com/IntelLabs/fastRAG/tree/main|
 |langflow：把langchain等agent组件做成了可拖拽式的UI|https://github.com/logspace-ai/langflow|
+|PhiData：把工具调用抽象成function call的Agent框架|https://github.com/phidatahq/phidata|
 |Haystack: LLM Agent 框架，pipeline的设计模式个人感觉比langchain更灵活更简洁 |https://github.com/deepset-ai/haystack|
 |EdgeChain: 通过Jsonnet配置文件实现LLM Agent| https://github.com/arakoodev/EdgeChains/tree/main|
 |semantic-kernel：整合大模型和编程语言的SDK|https://github.com/microsoft/semantic-kernel|
@@ -514,6 +515,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [AI-Bot](https://ai-bot.cn/#term-15): AI工具导航软件
 - [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file): LLM  Agent应用列表
 - [GPT Demo](https://gpt4demo.com/): 各种类型的gpt demo 
+- [Minbpe](https://github.com/karpathy/minbpe): Karpathy大佬离职openai后整了个分词器的教学代码
 
 ### 书籍博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -548,7 +550,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [奇绩创坛2023秋季路演日上创新LLM项目一览](https://zhuanlan.zhihu.com/p/669015906)
 - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
 - [The Power of Prompting微软首席科学家对prompt在垂直领域使用的观点](https://www.microsoft.com/en-us/research/blog/the-power-of-prompting/)
-
+- [Sora tech report](https://openai.com/research/video-generation-models-as-world-simulators)
 
 ## Papers
 ### paper List
@@ -883,48 +885,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
   - OpenAGI: When LLM Meets Domain Experts
-- 检索增强RAG
-  - WebGPT：Browser-assisted question-answering with human feedback
-  - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
-  - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
-  - REPLUG: Retrieval-Augmented Black-Box Language Models :star:
-  - Query Rewriting for Retrieval-Augmented Large Language Models
-  - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
-  - Atlas: Few-shot Learning with Retrieval Augmented Language Models
-  - RRAML: Reinforced Retrieval Augmented Machine Learning
-  - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
-  - PDFTriage: Question Answering over Long, Structured Documents
-  - SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
-  - Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
-  - Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
-  - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive 
- Tasks
-  - Active Retrieval Augmented Generation
-  - kNN-LM Does Not Improve Open-ended Text Generation
-  - Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
-  - Query2doc: Query Expansion with Large Language Models  :star:
-  - RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
-  - Augmented Embeddings for Custom Retrievals
-  - DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
-  - Learning to Filter Context for Retrieval-Augmented Generation
-  - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASON- ING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
-  - RA-DIT: RETRIEVAL-AUGMENTED DUAL INSTRUCTION TUNING
-  - Query Expansion by Prompting Large Language Models  :star:
-  - CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
-  - IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions
-  - T2Ranking: A large-scale Chinese Benchmark for Passage Ranking
-  - Factuality Enhanced Language Models for Open-Ended Text Generation
-  - FRESHLLMS: REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION
-  - KwaiAgents: Generalized Information-seeking Agent System with Large Language Models
-  - Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence
-  - Complex Claim Verification with Evidence Retrieved in the Wild
-  - Retrieval-Augmented Generation for Large Language Models: A Survey
-  - Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy
-  - ChatQA: Building GPT-4 Level Conversational QA Models
-  - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
-  - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
-  - Learning to Rewrite Queries [传统方案参考]
-  - Managing Diversity in Airbnb Search[传统方案参考]
 - 垂直领域
   - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
   - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -961,6 +921,48 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
   - LLaMA Rider: Spurring Large Language Models to Explore the Open World
 
+### RAG
+- WebGPT：Browser-assisted question-answering with human feedback 
+- WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
+- WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
+- REPLUG: Retrieval-Augmented Black-Box Language Models :star:
+- Query Rewriting for Retrieval-Augmented Large Language Models
+- RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
+- Atlas: Few-shot Learning with Retrieval Augmented Language Models
+- RRAML: Reinforced Retrieval Augmented Machine Learning
+- Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
+- PDFTriage: Question Answering over Long, Structured Documents
+- SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
+- Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
+- Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
+- Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive  Tasks
+- Active Retrieval Augmented Generation
+- kNN-LM Does Not Improve Open-ended Text Generation
+- Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
+- Query2doc: Query Expansion with Large Language Models  :star:
+- RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
+- Augmented Embeddings for Custom Retrievals
+- DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
+- Learning to Filter Context for Retrieval-Augmented Generation
+- THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASON- ING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
+- RA-DIT: RETRIEVAL-AUGMENTED DUAL INSTRUCTION TUNING
+- Query Expansion by Prompting Large Language Models  :star:
+- CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
+- IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions
+- T2Ranking: A large-scale Chinese Benchmark for Passage Ranking
+- Factuality Enhanced Language Models for Open-Ended Text Generation
+- FRESHLLMS: REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION
+- KwaiAgents: Generalized Information-seeking Agent System with Large Language Models
+- Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence
+- Complex Claim Verification with Evidence Retrieved in the Wild
+- Retrieval-Augmented Generation for Large Language Models: A Survey
+- Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy
+- ChatQA: Building GPT-4 Level Conversational QA Models
+- RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
+- ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
+- Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
+- Learning to Rewrite Queries [传统方案参考]
+- Managing Diversity in Airbnb Search[传统方案参考]
 
 ### LLM+KG
 - 综述类
@@ -1069,6 +1071,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 ### LLM长文本生成（long_output）
 - Re3 : Generating Longer Stories With Recursive Reprompting and Revision
 - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
+- DOC: Improving Long Story Coherence With Detailed Outline Control
 
 ### NL2SQL
 - 大模型方案
