@@ -871,7 +871,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ControlLLM: Augment Language Models with Tools by Searching on Graphs
   - Reflexion: an autonomous agent with dynamic memory and self-reflection
   - AutoAgents: A Framework for Automatic Agent Generation
-
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -965,6 +964,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy
 - ChatQA: Building GPT-4 Level Conversational QA Models
 - RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
+- Benchmarking Large Language Models in Retrieval-Augmented Generation
 - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
 - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
 - Learning to Rewrite Queries [传统方案参考]
