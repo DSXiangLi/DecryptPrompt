@@ -272,6 +272,7 @@
 | 工具描述   | 链接   | 
 | --- | --- | 
 |AutoGen：微软开源多Agent顶层框架|https://github.com/microsoft/autogen|
+|CrewAI: 比chatDev流程定义更灵活的多智能体框架|https://github.com/joaomdmoura/CrewAI|
 |ChatDev: 面壁智能开源多智能体协作的虚拟软件公司|https://github.com/OpenBMB/ChatDev|
 |Generative Agents:斯坦福AI小镇的开源代码|https://github.com/joonspk-research/generative_agents|
 |BabyAGI：自执行LLM Agent|https://github.com/yoheinakajima/babyagi|
@@ -416,6 +417,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |Tool-多工具| MSAgent-Bench 大模型调用数据集 598k训练数据| https://modelscope.cn/datasets/damo/MSAgent-Bench/summary|
 |Tool-多工具| MOSS开源的知识搜索，文生图，计算器，解方程等4个插件的30万条多轮对话数据| https://github.com/OpenLMLab/MOSS#%E6%95%B0%E6%8D%AE|
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
+|清华开源的长文本对齐数据集LongAlign-10k|https://huggingface.co/datasets/THUDM/LongAlign-10k|
 
 ## AIGC
 - [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！  :star:
@@ -869,7 +871,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ControlLLM: Augment Language Models with Tools by Searching on Graphs
   - Reflexion: an autonomous agent with dynamic memory and self-reflection
   - AutoAgents: A Framework for Automatic Agent Generation
-  - AppAgent: Multimodal Agents as Smartphone Users
+
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -915,6 +917,10 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
   - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
   - War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars
+- 自主学习和探索
+  - AppAgent: Multimodal Agents as Smartphone Users
+  - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
+  - https://blog.x-agent.net/blog/xagent/
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -1061,6 +1067,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Efficient Long-Range Transformers: You Need to Attend More, but Not Necessarily at Every Layer
   - POSE: EFFICIENT CONTEXT WINDOW EXTENSION OF LLMS VIA POSITIONAL SKIP-WISE TRAINING
   - LONGLORA: EFFICIENT FINE-TUNING OF LONGCONTEXT LARGE LANGUAGE MODELS
+  - LongAlign: A Recipe for Long Context Alignment of Large Language Models
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
