@@ -34,6 +34,7 @@
 - [解密Prompt系列21. LLM Agent之再谈RAG的召回信息密度和质量](https://cloud.tencent.com/developer/article/2369977)
 - [​解密Prompt系列22. LLM Agent之RAG的反思：放弃了压缩还是智能么？](https://cloud.tencent.com/developer/article/2375066)
 - [解密Prompt系列23.大模型幻觉分类&归因&检测&缓解方案脑图全梳理](https://cloud.tencent.com/developer/article/2378383)
+- [解密prompt系列24.RLHF新方案之训练策略：SLiC-HF & DPO & RRHF & RSO](https://cloud.tencent.com/developer/article/2389619)
 
 ## LLMS
 ### 模型评测
@@ -104,7 +105,8 @@
 |[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
 |[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
-|[Qwen-7B+14B+70B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千文7B,14B,70B Base和chat模型|
+|[Qwen1.5](https://github.com/QwenLM/Qwen1.5)|通义千问升级1.5，支持32K上文|
+|[Qwen1-7B+14B+70B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千问7B,14B,70B Base和chat模型|
 |[InternLM2 7B+20B](https://github.com/InternLM/InternLM)|商汤的书生模型2支持200K|
 |[Orion-14B-LongChat](https://github.com/OrionStarAI/Orion)|猎户星空多语言模型支持320K|
 |[ChatGLM3](https://github.com/THUDM/ChatGLM3)|ChatGLM3发布，支持工具调用等更多功能，不过泛化性有待评估|
@@ -113,7 +115,7 @@
 |[Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)|浪潮发布Yuan2.0 2B，51B，102B|
 |[YI-200K](https://www.modelscope.cn/models/01ai/Yi-6B-200k/summary)|元一智能开源超长200K的6B，34B模型|
 |[YI](https://www.modelscope.cn/models/01ai/Yi-34B-Chat/summary)|元一智能开源34B，6B模型|
-|[XVERSE-256K](https://modelscope.cn/models/xverse/XVERSE-13B-256K/summary)|元象发布13B免费商用大模型，虽然很长|
+|[XVERSE-256K](https://modelscope.cn/models/xverse/XVERSE-13B-256K/summary)|元象发布13B免费商用大模型，虽然很长但是|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-65B)|元象发布13B免费商用大模型|
 |[DeepSeek-MOE](https://github.com/deepseek-ai/DeepSeek-MoE)|深度求索发布的DeepSeekMoE 16B Base和caht模型|
 |[DeepSeek](https://github.com/deepseek-ai/DeepSeek-LLM)|深度求索发布的7B，67B大模型|
@@ -131,7 +133,7 @@
 |[UltraLM系列](https://github.com/thunlp/UltraChat)|面壁智能开源UltraLM13B，奖励模型UltraRM，和批评模型UltraCM|
 |[PandaLLM](https://github.com/dandelionsllm/pandallm)|LLAMA2上中文wiki继续预训练+COIG指令微调|
 |[XVERSE](https://github.com/xverse-ai/XVERSE-13B)|据说中文超越llama2的元象开源模型13B模型|
-|[BiLLa](https://github.com/Neutralzz/BiLLa)|LLama词表扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
+|[BiLLa](https://github.com/Neutralzz/BiLLa)|LLama词表·扩充预训练+预训练和任务1比1混合SFT+指令样本SFT三阶段训练|
 |[Phoenix](https://github.com/FreedomIntelligence/LLMZoo)|港中文开源凤凰和奇美拉LLM，Bloom基座，40+语言支持|
 |[Wombat-7B](https://huggingface.co/GanjinZero/wombat-7b-delta)|达摩院开源无需强化学习使用RRHF对齐的语言模型, alpaca基座|
 |[TigerBot](https://github.com/TigerResearch/TigerBot)|虎博开源了7B 180B的模型以及预训练和微调语料|
@@ -149,7 +151,7 @@
 |[GLM](https://github.com/THUDM/GLM-130B) |   清华发布的中英双语130B预训练模型 |
 |[BayLing](https://github.com/ictnlp/BayLing)|基于LLama7B/13B，增强的语言对齐的英语/中文大语言模型|
 
-### 国内可直接使用的大模型应用
+### 国内效果不错的大模型应用
 |模型链接     | 模型描述    |
 | --- | --- |
 |[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot超长文本LLM 可输入20W上文, 文档总结无敌 |
@@ -157,7 +159,7 @@
 |[文心一言](https://yiyan.baidu.com/welcome)|百度|
 |[通义千问](https://tongyi.aliyun.com/qianwen/)|阿里 |
 |[百川](https://www.baichuan-ai.com/chat)|百川|
-|[GLM-3](https://chatglm.cn/main/detail)|智谱轻言|
+|[ChatGLM](https://chatglm.cn/main/detail)|智谱轻言|
 |[DeepSeek](https://chat.deepseek.com/sign_in)|深度求索 |
 |[360智脑](https://chat.360.com/?src=ai_360_com)|360 |
 |[悟空](https://wukong.com/tool)|字节跳动|
@@ -468,6 +470,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Quivar](https://www.quivr.app/): 一键上传各种文档，和卡片笔记进行对话的app，基于openai向量+langchain+chatgpt搭建
 - [Jasper](https://www.jasper.ai/): 同上，全是竞品哈哈  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
 - [copy.down](https://copyai.cn/): 中文的营销文案生成，只能定向创作，支持关键词到文案的生成  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
+- [Weaver AI](https://www.aiwaves.cn/): 波形智能开发的内容创作app，支持多场景写作
 - [ChatExcel](https://chatexcel.com/convert): 指令控制excel计算，对熟悉excel的有些鸡肋，对不熟悉的有点用  ![](https://img.shields.io/badge/Tool-Business-red)
 - [ChatPPT](https://github.com/williamfzc/chat-gpt-ppt): 使用ChatGPT进行PPT制作 ![](https://img.shields.io/badge/Tool-Business-red)
 - [Eightify](https://eightify.app/zh): chrome插件，节省观看长视频的时间，立即获取关键思想，分模块总结+时间戳摘要  ![](https://img.shields.io/badge/Tool-Business-red)
@@ -518,6 +521,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file): LLM  Agent应用列表
 - [GPT Demo](https://gpt4demo.com/): 各种类型的gpt demo 
 - [Minbpe](https://github.com/karpathy/minbpe): Karpathy大佬离职openai后整了个分词器的教学代码
+- [LLM-VIZ](https://github.com/bbycroft/llm-viz):  大模型结构可视化支持GPT系列
 
 ### 书籍博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -750,6 +754,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Graph of Thoughts: Solving Elaborate Problems with Large Language Models
     - Progressive-Hint Prompting Improves Reasoning in Large Language Models
     - LARGE LANGUAGE MODELS CAN LEARN RULES
+    - DIVERSITY OF THOUGHT IMPROVES REASONING ABILITIES OF LARGE LANGUAGE MODELS
     - From Complex to Simple: Unraveling the Cognitive Tree for Reasoning with Small Language Models
     - Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models
 - 分领域COT [Math, Code, Tabular, QA]
@@ -852,6 +857,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - A Survey on Large Language Model based Autonomous Agents
+- PERSONAL LLM AGENTS: INSIGHTS AND SURVEY ABOUT THE CAPABILITY, EFFICIENCY AND SECURITY
 - 基于prompt通用方案
   - ReAct: SYNERGIZING REASONING AND ACTING IN LANGUAGE MODELS  :star:
   - Self-ask: MEASURING AND NARROWING THE COMPOSITIONALITY GAP IN LANGUAGE MODELS :star:
@@ -871,6 +877,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ControlLLM: Augment Language Models with Tools by Searching on Graphs
   - Reflexion: an autonomous agent with dynamic memory and self-reflection
   - AutoAgents: A Framework for Automatic Agent Generation
+  - GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -965,6 +972,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - ChatQA: Building GPT-4 Level Conversational QA Models
 - RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
 - Benchmarking Large Language Models in Retrieval-Augmented Generation
+- HyDE：Precise Zero-Shot Dense Retrieval without Relevance Labels
 - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
 - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
 - Learning to Rewrite Queries [传统方案参考]
@@ -992,7 +1000,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - HABITAT 3.0: A CO-HABITAT FOR HUMANS, AVATARS AND ROBOTS
 - Humanoid Agents: Platform for Simulating Human-like Generative Agents
 - Voyager: An Open-Ended Embodied Agent with Large Language Models
-
+- [Shaping the future of advanced robotics](https://deepmind.google/discover/blog/shaping-the-future-of-advanced-robotics/)
+- AUTORT: EMBODIED FOUNDATION MODELS FOR LARGE SCALE ORCHESTRATION OF ROBOTIC AGENTS
+- ROBOTIC TASK GENERALIZATION VIA HINDSIGHT TRAJECTORY SKETCHES
 
 ### 预训练数据(pretrain_data)
 - DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining
@@ -1079,6 +1089,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Re3 : Generating Longer Stories With Recursive Reprompting and Revision
 - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
 - DOC: Improving Long Story Coherence With Detailed Outline Control
+- Weaver: Foundation Models for Creative Writing
 
 ### NL2SQL
 - 大模型方案
