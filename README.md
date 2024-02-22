@@ -214,6 +214,7 @@
 |金融|[HithinkGPT](https://news.10jqka.com.cn/20240102/c653710580.shtml)|同花顺发布金融大模型问财，覆盖查询，分析，对比，解读，预测等多个问题领域|
 |金融|[无涯Infinity](https://www.transwarp.cn/product/infinity)|星环科技发布的金融大模型|
 |金融|[妙想](https://ai.eastmoney.com/welcome)|东方财富自研金融大模型开放试用|
+|金融|[DeepMoney](https://sota.jiqizhixin.com/project/deepmoney)|基于yi-34b-200k使用金融研报进行微调|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
 |编程|[codegeex](http://keg.cs.tsinghua.edu.cn/codegeex/index_zh.html)|13B预训练+微调多语言变成大模型|
@@ -977,6 +978,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - HyDE：Precise Zero-Shot Dense Retrieval without Relevance Labels
 - PROMPTAGATOR : FEW-SHOT DENSE RETRIEVAL FROM 8 EXAMPLES
 - SYNERGISTIC INTERPLAY BETWEEN SEARCH AND LARGE LANGUAGE MODELS FOR INFORMATION RETRIEVAL
+- T-RAG: Lessons from the LLM Trenches
 - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
 - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
 - Learning to Rewrite Queries [传统方案参考]
@@ -1166,6 +1168,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Self-consistency for open-ended generations
   - Improving Factuality and Reasoning in Language Models through Multiagent Debate
   - Selective-LAMA: Selective Prediction for Confidence-Aware Evaluation of Language Models
+  - Can LLMs Express Their Uncertainty? An Empirical Evaluation of Confidence Elicitation in LLMs
 - Reviewing and Calibration
   - Truth-o-meter: Collaborating with llm in fighting its hallucinations
   - RARR: Researching and Revising What Language Models Say, Using Language Models
