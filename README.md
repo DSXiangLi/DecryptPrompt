@@ -62,7 +62,7 @@
 ### 国外开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
-|[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai发布的自研模型，可以通过API和preplexity lab访问和RAG更搭配的LLM，在幻觉之外还对时效性推理进行了优化|
+|[Gemma](https://github.com/google/gemma_pytorch)|谷歌商场开源模型2B，7B免费商用，开源第一易主了|
 |[Mixtral](https://twitter.com/MistralAI/status/1733150512395038967)|法国“openai”开源基于MegaBlocks训练的MOE模型8*7B 32K|
 |[Mistral7B](https://mistral.ai/news/announcing-mistral-7b/)|法国“openai”开源Mistral，超过llama2当前最好7B模型|
 |[Dolphin-2.2.1-Mistral-7B](https://opencompass.org.cn/model-detail/Dolphin-2.2.1-Mistral-7B)|基于Mistral7B使用dolphin数据集微调|
@@ -151,9 +151,10 @@
 |[GLM](https://github.com/THUDM/GLM-130B) |   清华发布的中英双语130B预训练模型 |
 |[BayLing](https://github.com/ictnlp/BayLing)|基于LLama7B/13B，增强的语言对齐的英语/中文大语言模型|
 
-### 国内效果不错的大模型应用
+### 国内外免费试用的大模型应用
 |模型链接     | 模型描述    |
 | --- | --- |
+|[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai的Playground支持他们自家的PPLX模型和众多SOTA大模型，Gemma也支持了|
 |[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot超长文本LLM 可输入20W上文, 文档总结无敌 |
 |[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
 |[文心一言](https://yiyan.baidu.com/welcome)|百度|
@@ -757,6 +758,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - DIVERSITY OF THOUGHT IMPROVES REASONING ABILITIES OF LARGE LANGUAGE MODELS
     - From Complex to Simple: Unraveling the Cognitive Tree for Reasoning with Small Language Models
     - Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models
+    - LARGE LANGUAGE MODELS AS OPTIMIZERS
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -973,10 +975,15 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
 - Benchmarking Large Language Models in Retrieval-Augmented Generation
 - HyDE：Precise Zero-Shot Dense Retrieval without Relevance Labels
+- PROMPTAGATOR : FEW-SHOT DENSE RETRIEVAL FROM 8 EXAMPLES
+- SYNERGISTIC INTERPLAY BETWEEN SEARCH AND LARGE LANGUAGE MODELS FOR INFORMATION RETRIEVAL
 - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
 - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
 - Learning to Rewrite Queries [传统方案参考]
 - Managing Diversity in Airbnb Search[传统方案参考]
+- 新向量模型用于Recall和Ranking
+  - BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation
+  - [网易为RAG设计的BCE Embedding技术报告](https://zhuanlan.zhihu.com/p/681370855)
 
 ### LLM+KG
 - 综述类
