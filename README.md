@@ -1242,6 +1242,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - LVLM eHub: A Comprehensive Evaluation Benchmark for Large VisionLanguage Models
 - Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities
 - Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
+- AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling
 
 ### Timeseries LLM
 - TimeGPT-1
