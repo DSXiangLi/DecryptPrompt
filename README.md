@@ -559,6 +559,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
 - [The Power of Prompting微软首席科学家对prompt在垂直领域使用的观点](https://www.microsoft.com/en-us/research/blog/the-power-of-prompting/)
 - [Sora tech report](https://openai.com/research/video-generation-models-as-world-simulators)
+- [The Bitter Lesson 强化学习之父总结的AI研究的经验教训](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
 ## Papers
 ### paper List
@@ -1087,6 +1088,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - POSE: EFFICIENT CONTEXT WINDOW EXTENSION OF LLMS VIA POSITIONAL SKIP-WISE TRAINING
   - LONGLORA: EFFICIENT FINE-TUNING OF LONGCONTEXT LARGE LANGUAGE MODELS
   - LongAlign: A Recipe for Long Context Alignment of Large Language Models
+  - Data Engineering for Scaling Language Models to 128K Context
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
