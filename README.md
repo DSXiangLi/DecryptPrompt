@@ -1101,6 +1101,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
 - DOC: Improving Long Story Coherence With Detailed Outline Control
 - Weaver: Foundation Models for Creative Writing
+- Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models
 
 ### NL2SQL
 - 大模型方案
