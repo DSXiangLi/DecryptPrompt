@@ -236,6 +236,14 @@
 |评估|[JudgeLM](https://github.com/baaivision/JudgeLM)|智源开源了 JudgeLM 的裁判模型，可以高效准确地评判各类大模型|
 |评估|[CritiqueLLM](https://github.com/thu-coai/CritiqueLLM)|智谱AI发布评分模型CritiqueLLM,支持含参考文本/无参考文本的评估打分|
 
+### 新时代RAG Embedding模型
+|模型链接| 模型描述|
+| --- | --- | 
+|[Jina-Cobert](https://link.zhihu.com/?target=https%3A//huggingface.co/jinaai/jina-embeddings-v2-base-zh)|Jian AI开源中英德，8192 Token长文本Embedding|
+|[BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/README.md)|智源开源多语言，稀疏+稠密表征，8192 Token长文本Embedding|
+|[BCE](https://github.com/netease-youdao/BCEmbedding/blob/master/README_zh.md)|网易开源更适配RAG任务的Embedding模型|
+
+
 ## Tool and Library
 ### 推理框架
 | 工具描述   | 链接   | 
@@ -421,7 +429,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |Tool-多工具| MSAgent-Bench 大模型调用数据集 598k训练数据| https://modelscope.cn/datasets/damo/MSAgent-Bench/summary|
 |Tool-多工具| MOSS开源的知识搜索，文生图，计算器，解方程等4个插件的30万条多轮对话数据| https://github.com/OpenLMLab/MOSS#%E6%95%B0%E6%8D%AE|
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
-|清华开源的长文本对齐数据集LongAlign-10k|https://huggingface.co/datasets/THUDM/LongAlign-10k|
+|长文本|清华开源的长文本对齐数据集LongAlign-10k|https://huggingface.co/datasets/THUDM/LongAlign-10k|
 
 ## AIGC
 - [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！  :star:
@@ -442,6 +450,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站 ![](https://img.shields.io/badge/AIGC-Search-yellow)
 - [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式  ![](https://img.shields.io/badge/AIGC-Search-yellow) 
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎 ![](https://img.shields.io/badge/AIGC-Search-yellow) 
+- [Walles.AI](https://walles.ai): 融合了图像聊天，文本聊天，chatpdf，web-copilot等多种功能的智能助手 ![](https://img.shields.io/badge/AIGC-Search-yellow) 
 - [webpilot.ai](https://www.webpilot.ai/signin?return-path=/) 比ChatGPT 自带的 Web Browsing更好用的浏览器检索插件，更适用于复杂搜索场景，也开通api调用了  ![](https://img.shields.io/badge/AIGC-Search-yellow) 
 - [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问  ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
@@ -718,6 +727,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - InstructEval: Systematic Evaluation of Instruction Selection Methods
   - Overwriting Pretrained Bias with Finetuning Data
   - Improving Text Embeddings with Large Language Models
+- 如何降低通用能力损失
+  - How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition
+  - TWO-STAGE LLM FINE-TUNING WITH LESS SPECIALIZATION AND MORE GENERALIZATION
 - 微调经验/实验报告
     - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
     - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
