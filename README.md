@@ -703,6 +703,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Human-like systematic generalization through a meta-learning neural network
    - Magicoder: Source Code Is All You Need
    - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
+   - Generative Representational Instruction Tuning
 - 指令数据生成
   - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
   - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
@@ -776,6 +777,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
     - Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
     - Large Language Models Can Be Easily Distracted by Irrelevant Context
+    - Chain-of-Thought Reasoning Without Prompting
 - 小模型COT蒸馏
     - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
     - Teaching Small Language Models to Reason 
