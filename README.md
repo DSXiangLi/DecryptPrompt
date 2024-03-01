@@ -508,6 +508,9 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Visual ChatGPT](https://huggingface.co/spaces/microsoft/visual_chatgpt): 微软发布图像ChatGPT，对话方式进行图像生成编辑，问答 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange) :star:
 - [gemo.ai](https://www.genmo.ai/): 多模态聊天机器人，包括文本，图像，视频生成
 - [storybird](https://storybird.com/): 根据提示词生成故事绘本，还可以售卖
+- [Magnific.ai](https://magnific.ai/): 两个人的团队做出的AI图片精修师
+- [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
+
 
 ## Resources
 ### 教程类
@@ -907,6 +910,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - FireAct: Toward Language Agent Fine-tuning
   - Pangu-Agent: A Fine-Tunable Generalist Agent with Structured Reasoning
   - REST MEETS REACT: SELF-IMPROVEMENT FOR MULTI-STEP REASONING LLM AGENT
+  - Efficient Tool Use with Chain-of-Abstraction Reasoning
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -941,6 +945,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
   - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
   - War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars
+  - More Agents Is All You Need
 - 自主学习和探索
   - AppAgent: Multimodal Agents as Smartphone Users
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
@@ -1270,6 +1275,12 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Generative Pre-Training of Time-Series Data for Unsupervised Fault Detection in Semiconductor Manufacturing
 - Lag-Llama: Towards Foundation Models for Time Series Forecasting
 - PromptCast: A New Prompt-based Learning Paradigm for Time Series Forecasting
+
+### Quanization
+- AWQ: Activation-aware Weight Quantization for LLM Compression and Acceleration
+- LLM-QAT: Data-Free Quantization Aware Training for Large Language Models
+- LLM.int8() 8-bit Matrix Multiplication for Transformers at Scale
+- SmoothQuant Accurate and Efficient Post-Training Quantization for Large Language Models
 
 ### Adversarial Attacking 
 - Curiosity-driven Red-teaming for Large Language Models
