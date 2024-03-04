@@ -436,6 +436,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Alpha](https://public.com/alpha?ref=supertools.therundown.ai): ChatGPT加持的金融app，支持个股信息查询，资产分析诊断，财报汇总etc 
 - [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
 - [Finalle.ai](https://finalle.ai/?ref=supertools.therundown.ai): 实时金融数据流接入大模型
+- [ScopeChat](https://ai.0xscope.com/home):虚拟币应用，整个对话类似ChatLaw把工具组件嵌入了对话中
+- [AInvest](https://www.ainvest.com/chat?ref=producthunt)：个股投资，融合BI分析，广场讨论区（有演变成雪球热度指数的赶脚)
 - [Reportify](https://reportify.cc/): 金融领域公司公告，新闻，电话会的问答和摘要总结   ![](https://img.shields.io/badge/Tool-Business-red)  :star:
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作  ![](https://img.shields.io/badge/Auto-Agent-white)
 - [Miracleplus](https://news.miracleplus.com/feeds?tab=hot): 全AI Agent负责运营的Hacker News网站
@@ -572,6 +574,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [The Power of Prompting微软首席科学家对prompt在垂直领域使用的观点](https://www.microsoft.com/en-us/research/blog/the-power-of-prompting/)
 - [Sora tech report](https://openai.com/research/video-generation-models-as-world-simulators)
 - [The Bitter Lesson 强化学习之父总结的AI研究的经验教训](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+- [月之暗面杨植麟专访,值得细读](https://mp.weixin.qq.com/s/KWMvsvI85QI-GIXeXizDsA)
 
 ## Papers
 ### paper List
