@@ -432,7 +432,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |长文本|清华开源的长文本对齐数据集LongAlign-10k|https://huggingface.co/datasets/THUDM/LongAlign-10k|
 
 ## AIGC
-### 搜索和研究类
+### 搜索
 #### 通用搜索
 - [秘塔搜索](https://metaso.cn/about-us): 融合了脑图，表格多模态问答的搜索应用
 - [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式
@@ -444,7 +444,6 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
 
-
 ### ChatDoc
 - [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！
 - [ChatDoc](https://chatdoc.com/?viaurl=ainavpro.com):ChatPDF升级版，需要科学上网，增加了表格类解析，支持选择区域的问答，在PDF识别上做的很厉害
@@ -453,16 +452,17 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [ChatPDF](https://chat2doc.cn/): 国内的ChatPDF, 上传pdf后，会给出文章的Top5可能问题，然后对话式从文档中进行问答和检索，10s读3万字
 - [AlphaBox](https://www.alphabox.top/): 从个人文件夹管理出发的文档问答工具
 
-### 论文研究
-- [Consensus](https://consensus.app/search/): AI加持的论文搜素工具，支持多观点正负面对比
-- [Aminer](https://www.aminer.cn/search/pub?q=Transformer&t=b): 论文搜索，摘要，问答，搜索关键词符号化改写；但论文知识库问答一版感觉幻觉比较严重
-- [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站
-- [BriefGPT](https://briefgpt.xyz/?viaurl=ainavpro.com): 日更Arxiv论文，并对论文进行摘要，关键词抽取，帮助研究者了解最新动态, UI不错哟
-- [ChatPaper](https://github.com/kaixindelele/ChatPaper): 根据输入关键词，自动在arxiv上下载最新的论文，并对论文进行摘要总结，可以在huggingface上试用
-- [OpenRead](https://www.openread.academy/home): 面向论文写作，阅读场景，可以帮助生成文献综述，以及提供和NotionAI相似的智能Markdown用于写作
-- [researchgpt](https://github.com/mukulpatnaik/researchgpt): 和ChatPDF类似，支持arivx论文下载，加载后对话式获取论文重点 
-- [ChatGPT-academic](https://github.com/binary-husky/chatgpt_academic): 又是一个基于gradio实现的paper润色，摘要等功能打包的实现
+### 论文研究: 日度更新，观点总结，
+- [SCISPACE](https://typeset.io/): 论文研究的白月光，融合了全库搜索问答，以及个人上传PDF构建知识库问答。同样支持相关论文发现，和论文划词解读。并且解读内容可以保存到notebook中方便后续查找，可以说是产品和算法强强联合了。
+- [Consensus](https://consensus.app/search/): AI加持的论文搜素，多论文总结，观点对比工具。产品排名巨高，但个人感觉搜索做的有提升空间
+- [Aminer](https://www.aminer.cn/search/pub?q=Transformer&t=b): 论文搜索，摘要，问答，搜索关键词符号化改写；但论文知识库问答有些幻觉严重
 
+- [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站
+- [OpenRead](https://www.openread.academy/home): 国内产品，面向论文写作，阅读场景，可以帮助生成文献综述，以及提供和NotionAI相似的智能Markdown用于写作
+- [ChatPaper](https://github.com/kaixindelele/ChatPaper): 根据输入关键词，自动在arxiv上下载最新的论文，并对论文进行摘要总结，可以在huggingface上试用
+- [researchgpt](https://github.com/mukulpatnaik/researchgpt): 和ChatPDF类似，支持arivx论文下载，加载后对话式获取论文重点 
+- [ChatGPT-academic](https://github.com/binary-husky/chatgpt_academic): 又是一个基于gradio实现的paper润色，摘要等功能打包的实现,不少功能可以借鉴
+- [BriefGPT](https://briefgpt.xyz/?viaurl=ainavpro.com): 日更Arxiv论文，并对论文进行摘要，关键词抽取，帮助研究者了解最新动态, UI不错哟
 
 ### 写作效率工具类
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作 
@@ -497,7 +497,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 
 ### Agent
 - [NexusGPT](https://nexus.snikpic.io/): AutoGPT可以出来工作了，第一个全AI Freelance平台 
-- [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道(https://img.shields.io/badge/Auto-Agent-white)
+- [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道
 - [godmode](https://godmode.space/)：可以进行人为每一步交互的的AutoGPT
 - [agentgpt](https://agentgpt.reworkd.ai/): 基础版AutoGPT
 
@@ -507,6 +507,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 
 ### 代码copilot & BI工具
 - [AutoDev](https://ide.unitmesh.cc/):  AI编程辅助工具
+- [AlphaCodium](https://www.codium.ai/products/alpha-codium/): Flow Engineering提高代码整体通过率
 - [Codium](https://www.codium.ai/): 开源的编程Copilot来啦
 - [Copilot](https://github.com/features/copilot): 要付费哟
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 
@@ -531,12 +532,13 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 
 ## Resources
 ### GPTs应用导航
-- [SimilarGPTs](https://similargpts.com/store-ranks/sorted-by-total-chats)
+- [SimilarGPTs：全网AI产品流量大全](https://similargpts.com/store-ranks/sorted-by-total-chats)： 
 - [GPTSeek: 大家投票得出的最有价值的GPT应用](https://www.gptseek.com/)
+- [ProductHunt: 技术产品网站，各类热门AI技术产品的集散地](https://www.producthunt.com/)
 - [AI-Product-Index](https://github.com/dair-ai/AI-Product-Index)
 - [AI-Products-All-In-One](https://github.com/TheExplainthis/AI-Products-All-In-One)
 - [TheRunDown: GPT应用分类](https://supertools.therundown.ai/)
-- [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file)
+- [Awesome AI Agents：Agent应用收藏](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file)
 - [GPT Demo](https://gpt4demo.com/)
 - [AI-Bot各类工具导航](https://ai-bot.cn/#term-15)
 
