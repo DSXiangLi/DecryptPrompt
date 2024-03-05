@@ -432,92 +432,116 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |长文本|清华开源的长文本对齐数据集LongAlign-10k|https://huggingface.co/datasets/THUDM/LongAlign-10k|
 
 ## AIGC
-- [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！  :star:
+### 搜索和研究类
+#### 通用搜索
+- [秘塔搜索](https://metaso.cn/about-us): 融合了脑图，表格多模态问答的搜索应用
+- [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式
+- [Walles.AI](https://walles.ai): 融合了图像聊天，文本聊天，chatpdf，web-copilot等多种功能的智能助手
+- [webpilot.ai](https://www.webpilot.ai/signin?return-path=/) 比ChatGPT 自带的 Web Browsing更好用的浏览器检索插件，更适用于复杂搜索场景，也开通api调用了
+- [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist 
+- [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问 
+#### 代码搜索
+- [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
+- [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
+
+
+### ChatDoc
+- [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！
+- [ChatDoc](https://chatdoc.com/?viaurl=ainavpro.com):ChatPDF升级版，需要科学上网，增加了表格类解析，支持选择区域的问答，在PDF识别上做的很厉害
+- [AskyourPdf](https://askyourpdf.com/zh): 同样是上传pdf进行问答和摘要的应用 
+- [DocsGPT](https://github.com/arc53/DocsGPT): 比较早出来的Chat DOC通用方案
+- [ChatPDF](https://chat2doc.cn/): 国内的ChatPDF, 上传pdf后，会给出文章的Top5可能问题，然后对话式从文档中进行问答和检索，10s读3万字
+- [AlphaBox](https://www.alphabox.top/): 从个人文件夹管理出发的文档问答工具
+
+### 论文研究
+- [Consensus](https://consensus.app/search/): AI加持的论文搜素工具，支持多观点正负面对比
+- [Aminer](https://www.aminer.cn/search/pub?q=Transformer&t=b): 论文搜索，摘要，问答，搜索关键词符号化改写；但论文知识库问答一版感觉幻觉比较严重
+- [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站
+- [BriefGPT](https://briefgpt.xyz/?viaurl=ainavpro.com): 日更Arxiv论文，并对论文进行摘要，关键词抽取，帮助研究者了解最新动态, UI不错哟
+- [ChatPaper](https://github.com/kaixindelele/ChatPaper): 根据输入关键词，自动在arxiv上下载最新的论文，并对论文进行摘要总结，可以在huggingface上试用
+- [OpenRead](https://www.openread.academy/home): 面向论文写作，阅读场景，可以帮助生成文献综述，以及提供和NotionAI相似的智能Markdown用于写作
+- [researchgpt](https://github.com/mukulpatnaik/researchgpt): 和ChatPDF类似，支持arivx论文下载，加载后对话式获取论文重点 
+- [ChatGPT-academic](https://github.com/binary-husky/chatgpt_academic): 又是一个基于gradio实现的paper润色，摘要等功能打包的实现
+
+
+### 写作效率工具类
+- [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作 
+- [Miracleplus](https://news.miracleplus.com/feeds?tab=hot): 全AI Agent负责运营的Hacker News网站
+- [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了
+- [范文喵写作](https://ai.wolian.chat/openmao/#/): 范文喵写作工具，选题，大纲，写作全流程 
+- [WriteSonic](https://app.writesonic.com/)：AI写作，支持对话和定向创作如广告文案，商品描述, 支持Web检索是亮点，支持中文 
+- [copy.ai](https://www.copy.ai/): WriteSonic竞品，亮点是像论文引用一样每句话都有对应网站链接，可以一键复制到右边的创作Markdown，超级好用！
+- [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown，适用真相！在创作中用command调用AI辅助润色，扩写，检索内容，给创意idea
+- [Hix-AI](https://hix.ai/app/ai-writer/dashboard): 同时提供copilot模式和综合写作模式
+- [AI-Write](https://ai-writer.com/?via=therundown)： 个人使用感较好的流程化写作工具
+- [Jasper](https://www.jasper.ai/): 同上，全是竞品哈哈 
+- [copy.down](https://copyai.cn/): 中文的营销文案生成，只能定向创作，支持关键词到文案的生成
+- [Weaver AI](https://www.aiwaves.cn/): 波形智能开发的内容创作app，支持多场景写作
+- [ChatExcel](https://chatexcel.com/convert): 指令控制excel计算，对熟悉excel的有些鸡肋，对不熟悉的有点用  
+- [mindShow](https://www.mindshow.fun/#/folder/slides)：免费+付费的PPT制作工具，自定义PPT模板还不够好
+
+### 金融垂直领域
 - [Alpha](https://public.com/alpha?ref=supertools.therundown.ai): ChatGPT加持的金融app，支持个股信息查询，资产分析诊断，财报汇总etc 
 - [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
 - [Finalle.ai](https://finalle.ai/?ref=supertools.therundown.ai): 实时金融数据流接入大模型
 - [ScopeChat](https://ai.0xscope.com/home):虚拟币应用，整个对话类似ChatLaw把工具组件嵌入了对话中
 - [AInvest](https://www.ainvest.com/chat?ref=producthunt)：个股投资，融合BI分析，广场讨论区（有演变成雪球热度指数的赶脚)
-- [Reportify](https://reportify.cc/): 金融领域公司公告，新闻，电话会的问答和摘要总结   ![](https://img.shields.io/badge/Tool-Business-red)  :star:
-- [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作  ![](https://img.shields.io/badge/Auto-Agent-white)
-- [Miracleplus](https://news.miracleplus.com/feeds?tab=hot): 全AI Agent负责运营的Hacker News网站
+- [Reportify](https://reportify.cc/): 金融领域公司公告，新闻，电话会的问答和摘要总结 
+
+### 私人助理&聊天
 - [Mr.-Ranedeer-](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor):  基于prompt和GPT-4的强大能力提供个性化学习环境，个性化出题+模型解答
-- [NexusGPT](https://nexus.snikpic.io/): AutoGPT可以出来工作了，第一个全AI Freelance平台  ![](https://img.shields.io/badge/Auto-Agent-white)
-- [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道 ![](https://img.shields.io/badge/Auto-Agent-white)
-- [godmode](https://godmode.space/)：可以进行人为每一步交互的的AutoGPT![](https://img.shields.io/badge/Auto-Agent-white)
-- [agentgpt](https://agentgpt.reworkd.ai/): 基础版AutoGPT![](https://img.shields.io/badge/Auto-Agent-white) :star:
-- [do Anything](https://www.doanythingmachine.com/): AutoGPT Like的to Do List生成器  ![](https://img.shields.io/badge/Auto-Agent-white)
-- [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了~  ![](https://img.shields.io/badge/Tool-Business-red)  :star:
-- [Consensus](https://consensus.app/search/): AI加持的论文搜素工具，支持多观点正负面对比 ![](https://img.shields.io/badge/AIGC-Search-yellow)
-- [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站 ![](https://img.shields.io/badge/AIGC-Search-yellow)
-- [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式  ![](https://img.shields.io/badge/AIGC-Search-yellow) 
-- [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎 ![](https://img.shields.io/badge/AIGC-Search-yellow) 
-- [Walles.AI](https://walles.ai): 融合了图像聊天，文本聊天，chatpdf，web-copilot等多种功能的智能助手 ![](https://img.shields.io/badge/AIGC-Search-yellow) 
-- [webpilot.ai](https://www.webpilot.ai/signin?return-path=/) 比ChatGPT 自带的 Web Browsing更好用的浏览器检索插件，更适用于复杂搜索场景，也开通api调用了  ![](https://img.shields.io/badge/AIGC-Search-yellow) 
-- [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
-- [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问  ![](https://img.shields.io/badge/AIGC-Search-yellow) :star:
-- [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎   ![](https://img.shields.io/badge/AIGC-Search-yellow)
-- [BingGPT](https://github.com/dice2o/BingGPT): NewBing开源桌面客户端，可以将聊天记录导出  ![](https://img.shields.io/badge/AIGC-Search-yellow)
-- [AutoLabel](https://github.com/refuel-ai/autolabel): AutoLabel标注方案 ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
-- [Mem](https://get.mem.ai/): 笔记类产品，可以构建个人知识AI管家例如知识图谱，已获openai融资 ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
-- [AskyourPdf](https://askyourpdf.com/zh): 同样是上传pdf进行问答和摘要的应用 ![](https://img.shields.io/badge/Tool-Business-red) 
-- [DocsGPT](https://github.com/arc53/DocsGPT): 把ChatGPT开放域问答转化成封闭域问答的通用方案，试用垂类领域问答场景,可以试用定制的ChatBot  ![](https://img.shields.io/badge/Tool-Business-red) :star:
-- [langchain-ChatGLM](https://github.com/imClumsyPanda/langchain-ChatGLM): 基于ChatGLM的本地知识问答，和上面的DocsGPT相似，不过可以本地部署:star:
-- [ChatPDF](https://chat2doc.cn/): 国内的ChatPDF, 上传pdf后，会给出文章的Top5可能问题，然后对话式从文档中进行问答和检索，10s读3万字  ![](https://img.shields.io/badge/Tool-Business-red)
-- [ChatDoc](https://chatdoc.com/?viaurl=ainavpro.com):ChatPDF升级版，增加了表格类解析，和完善的索引引用加跳转加对应文章内容高亮，哈哈我准备自己整一个 ![](https://img.shields.io/badge/Tool-Business-red)
-- [ChatPaper](https://github.com/kaixindelele/ChatPaper): 根据输入关键词，自动在arxiv上下载最新的论文，并对论文进行摘要总结，可以在huggingface上试用！ ![](https://img.shields.io/badge/Tool-Business-red)
-- [OpenRead](https://www.openread.academy/home): 面向论文写作，阅读场景，可以帮助生成文献综述，以及提供和NotionAI相似的智能Markdown用于写作 ![](https://img.shields.io/badge/Tool-Business-red)
-- [Aminer](https://www.aminer.cn/search/pub?q=Transformer&t=b): 论文搜索，摘要，问答，搜索关键词符号化改写，论文溯源，论文主题趋势分析 ![](https://img.shields.io/badge/Tool-Business-red)
-- [researchgpt](https://github.com/mukulpatnaik/researchgpt): 和ChatPDF类似，支持arivx论文下载，加载后对话式获取论文重点  ![](https://img.shields.io/badge/Tool-Business-red)
-- [BriefGPT](https://briefgpt.xyz/?viaurl=ainavpro.com): 日更Arxiv论文，并对论文进行摘要，关键词抽取，帮助研究者了解最新动态, UI不错哟 ![](https://img.shields.io/badge/Tool-Business-red)
-- [ChatGPT-academic](https://github.com/binary-husky/chatgpt_academic): 又是一个基于gradio实现的paper润色，摘要等功能打包的实现 ![](https://img.shields.io/badge/Tool-Business-red)
-- [feishu-chatgpt](https://github.com/Leizhenpeng/feishu-chatgpt): 飞书chatgpt，和365copilot相似也是多组件集成, 有点全！  ![](https://img.shields.io/badge/Tool-Business-red)
-- [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
-- [chatbase](https://www.chatbase.co/): 情感角色聊天，还没尝试 ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
-- [Vana](https://gptme.vana.com/login): virtual DNA, 通过聊天创建虚拟自己！概念很炫  ![](https://img.shields.io/badge/AIGC-Chatbot-blue)
-- [范文喵写作](https://ai.wolian.chat/openmao/#/): 范文喵写作工具，选题，大纲，写作全流程  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
-- [WriteSonic](https://app.writesonic.com/)：AI写作，支持对话和定向创作如广告文案，商品描述, 支持Web检索是亮点，支持中文  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
-- [copy.ai](https://www.copy.ai/): WriteSonic竞品，亮点是像论文引用一样每句话都有对应网站链接，可以一键复制到右边的创作Markdown，超级好用！ ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen) :star:
-- [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown，适用真相！在创作中用command调用AI辅助润色，扩写，检索内容，给创意idea ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
-- [cal.ai](https://cal.com/ai): 自动化日程调度app
-- [Quivar](https://www.quivr.app/): 一键上传各种文档，和卡片笔记进行对话的app，基于openai向量+langchain+chatgpt搭建
-- [Jasper](https://www.jasper.ai/): 同上，全是竞品哈哈  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
-- [copy.down](https://copyai.cn/): 中文的营销文案生成，只能定向创作，支持关键词到文案的生成  ![](https://img.shields.io/badge/AIGC-AI%20wirter%20tools-brightgreen)
-- [Weaver AI](https://www.aiwaves.cn/): 波形智能开发的内容创作app，支持多场景写作
-- [ChatExcel](https://chatexcel.com/convert): 指令控制excel计算，对熟悉excel的有些鸡肋，对不熟悉的有点用  ![](https://img.shields.io/badge/Tool-Business-red)
-- [ChatPPT](https://github.com/williamfzc/chat-gpt-ppt): 使用ChatGPT进行PPT制作 ![](https://img.shields.io/badge/Tool-Business-red)
-- [Eightify](https://eightify.app/zh): chrome插件，节省观看长视频的时间，立即获取关键思想，分模块总结+时间戳摘要  ![](https://img.shields.io/badge/Tool-Business-red)
-- [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档  ![](https://img.shields.io/badge/Tool-Business-red)
-- [AutoDev](https://ide.unitmesh.cc/):  AI编程辅助工具![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [Codium](https://www.codium.ai/): 开源的编程Copilot来啦  ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [Copilot](https://github.com/features/copilot): 要付费哟 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [CodeGex](http://codegeex.cn/zh-CN): 国内替代品，还没试过 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [Codeium](https://codeium.com/): Copilot替代品，有免费版本支持各种plugin ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [sql translate](https://www.sqltranslate.app/): text2sql，利用 OpenAI 的 API 实现的一个很简单的工具，sql到文字，文字到sql  ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [ai2sql](https://www.ai2sql.io/): text2sql老牌公司，相比sqltranslate功能更全面，支持SQL 语法检查、格式化和生成公式  ![](https://img.shields.io/badge/AIGC-Coder-blueviolet) 
-- [chat2query](https://www.pingcap.com/chat2query-an-innovative-ai-powered-sql-generator-for-faster-insights/): text2sql  相比以上两位支持更自然的文本指令，以及更复杂的数据分析类的sql生成 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet) :star:
-- [OuterBase](https://outerbase.com/): text2sql 设计风格很吸睛！电子表格结合mysql和dashboard，更适合数据分析宝宝 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [Chat2DB](https://github.com/chat2db/Chat2DB):智能的通用数据库SQL客户端和报表工具  ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [ChatBI](https://sf.163.com/about#event):网易数帆发布ChatBI对话数据分析平台 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [Kyligence Copilot](https://cn.kyligence.io/copilot/):Kyligence发布一站式指标平台的 AI 数智助理,支持对话式指标搜索，异动归因等等 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 ![](https://img.shields.io/badge/AIGC-Coder-blueviolet)
-- [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
-- [midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F): 开创者，艺术风格为主 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
-- [Dall.E](https://openai.com/product/dall-e-2): 三巨头这就凑齐了 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
-- [ControlNet](https://huggingface.co/spaces/hysts/ControlNet): 为绘画创作加持可控性 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
-- [GFPGAN](https://github.com/Nutlope/restorePhotos): 照片修复  ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange)
-- [Visual ChatGPT](https://huggingface.co/spaces/microsoft/visual_chatgpt): 微软发布图像ChatGPT，对话方式进行图像生成编辑，问答 ![](https://img.shields.io/badge/AIGC-AI%20Artist-orange) :star:
+- [Mem](https://get.mem.ai/): 笔记类产品，可以构建个人知识AI管家例如知识图谱，已获openai融资
+- [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧
+- [chatbase](https://www.chatbase.co/): 情感角色聊天，还没尝试
+- [Vana](https://gptme.vana.com/login): virtual DNA, 通过聊天创建虚拟自己！概念很炫
+
+### Agent
+- [NexusGPT](https://nexus.snikpic.io/): AutoGPT可以出来工作了，第一个全AI Freelance平台 
+- [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道(https://img.shields.io/badge/Auto-Agent-white)
+- [godmode](https://godmode.space/)：可以进行人为每一步交互的的AutoGPT
+- [agentgpt](https://agentgpt.reworkd.ai/): 基础版AutoGPT
+
+### 视频拆条总结
+- [Eightify](https://eightify.app/zh): chrome插件，节省观看长视频的时间，立即获取关键思想，分模块总结+时间戳摘要
+- [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档 
+
+### 代码copilot & BI工具
+- [AutoDev](https://ide.unitmesh.cc/):  AI编程辅助工具
+- [Codium](https://www.codium.ai/): 开源的编程Copilot来啦
+- [Copilot](https://github.com/features/copilot): 要付费哟
+- [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 
+- [Codeium](https://codeium.com/): Copilot替代品，有免费版本支持各种plugin !
+- [ai2sql](https://www.ai2sql.io/): text2sql老牌公司，相比sqltranslate功能更全面，支持SQL 语法检查、格式化和生成公式 
+- [chat2query](https://www.pingcap.com/chat2query-an-innovative-ai-powered-sql-generator-for-faster-insights/): text2sql  相比以上两位支持更自然的文本指令，以及更复杂的数据分析类的sql生成
+- [OuterBase](https://outerbase.com/): text2sql 设计风格很吸睛！电子表格结合mysql和dashboard，更适合数据分析宝宝
+- [Chat2DB](https://github.com/chat2db/Chat2DB):智能的通用数据库SQL客户端和报表工具
+- [ChatBI](https://sf.163.com/about#event):网易数帆发布ChatBI对话数据分析平台
+- [Kyligence Copilot](https://cn.kyligence.io/copilot/):Kyligence发布一站式指标平台的 AI 数智助理,支持对话式指标搜索，异动归因等等
+- [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 
+
+### 多模态生成
+- [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota 
+- [midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F): 开创者，艺术风格为主
+- [Dall.E](https://openai.com/product/dall-e-2): 三巨头这就凑齐了 
+- [ControlNet](https://huggingface.co/spaces/hysts/ControlNet): 为绘画创作加持可控性 
 - [gemo.ai](https://www.genmo.ai/): 多模态聊天机器人，包括文本，图像，视频生成
 - [storybird](https://storybird.com/): 根据提示词生成故事绘本，还可以售卖
 - [Magnific.ai](https://magnific.ai/): 两个人的团队做出的AI图片精修师
 - [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
 
-
 ## Resources
-### 教程类
+### GPTs应用导航
+- [SimilarGPTs](https://similargpts.com/store-ranks/sorted-by-total-chats)
+- [GPTSeek: 大家投票得出的最有价值的GPT应用](https://www.gptseek.com/)
+- [AI-Product-Index](https://github.com/dair-ai/AI-Product-Index)
+- [AI-Products-All-In-One](https://github.com/TheExplainthis/AI-Products-All-In-One)
+- [TheRunDown: GPT应用分类](https://supertools.therundown.ai/)
+- [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file)
+- [GPT Demo](https://gpt4demo.com/)
+- [AI-Bot各类工具导航](https://ai-bot.cn/#term-15)
+
+### Prompt和其他教程类
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
-- [OpenAI 接口被墙解决办法](https://github.com/riba2534/openai-scf-goproxy): 使用腾讯云搭建代理，亲测非常好用且手残党也可以轻松上手
 - [PromptPerfect](https://promptperfect.jinaai.cn/):用魔法打败魔法，输入原始提示词，模型进行定向优化，试用后我有点沉默了，可以定向支持不同使用prompt的模型如Difussion，ChatGPT， Dalle等
 - [ClickPrompt](https://www.clickprompt.org/zh-CN/): 为各种prompt加持的工具生成指令包括Difussion，chatgptdeng, 需要OpenAI Key 
 - [ChatGPT ShortCut](https://newzone.top/chatgpt/)：提供各式场景下的Prompt范例，范例很全，使用后可以点赞！  :star:
@@ -525,55 +549,49 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [learning Prompt](https://learnprompting.org/):  prompt engineering超全教程，和落地应用收藏，包括很多LLM调用Agent的高级场景 :star:
 - [The art of asking chatgpt for high quality answers](https://github.com/ORDINAND/The-Art-of-Asking-ChatGPT-for-High-Quality-Answers-A-complete-Guide-to-Prompt-Engineering-Technique): 如何写Prompt指令出书了，链接是中文翻译的版本，比较偏基础使用
 - [Prompt-Engineer-Guide]( https://github.com/dair-ai/Prompt-Engineering-Guide): 同learnig prompt类的集成教程，互相引用可还行？！分类索引做的更好些 :star:
-- [OpenAI 应用汇总指南](https://www.mojidoc.com/05z7y-dd5pa7hu3zfmhnbngoeztyqcnq-00b): 纯应用类的汇总指南
-- [AI 导航](https://www.ainavpro.com/#term-209): 包括但不限于ChatGPT的应用汇总网站，更新很快，发现了一些新大陆
 - [AI Alignment Forum](https://www.alignmentforum.org/): RLHF等对齐相关最新论文和观点的讨论论坛
 - [Langchain: Chat with your data](https://www.deeplearning.ai/short-courses/langchain-chat-with-your-data/):吴恩达LLM实践课程
 - [构筑大语言模型应用：应用开发与架构设计](https://github.com/phodal/aigc): 一本关于 LLM 在真实世界应用的开源电子书
 - [Large Language Models: Application through Production](https://github.com/databricks-academy/large-language-models): 大模型应用Edx出品的课程
-- [GPTSeek](https://www.gptseek.com/): 大家投票得出的最有价值的GPT应用
-- [TheRunDown](https://supertools.therundown.ai/): 可订阅AI新闻的网站，也收藏了众多宝藏GPTS应用
-- [AI-Bot](https://ai-bot.cn/#term-15): AI工具导航软件
-- [Awesome AI Agents](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file): LLM  Agent应用列表
-- [GPT Demo](https://gpt4demo.com/): 各种类型的gpt demo 
 - [Minbpe](https://github.com/karpathy/minbpe): Karpathy大佬离职openai后整了个分词器的教学代码
 - [LLM-VIZ](https://github.com/bbycroft/llm-viz):  大模型结构可视化支持GPT系列
 
-### 书籍博客类
+### 书籍和博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
 - [OpenAI InstructGPT intro](https://openai.com/blog/instruction-following/)
-- AllenAI ChatGPT能力解读：[How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)  :star:
-- Huggingface ChatGPT能力解读：[The techniques behind ChatGPT: RLHF, IFT, CoT, Red teaming, and more](https://huggingface.co/blog/dialog-agents)
-- Stephen Wolfram ChatGPT能力解读: [What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
+- [ AllenAI ChatGPT能力解读：How does GPT Obtain its Ability? Tracing Emergent Abilities of Language Models to their Sources](https://yaofu.notion.site/How-does-GPT-Obtain-its-Ability-Tracing-Emergent-Abilities-of-Language-Models-to-their-Sources-b9a57ac0fcf74f30a1ab9e3e36fa1dc1)  :star:
+- [Huggingface ChatGPT能力解读：The techniques behind ChatGPT: RLHF, IFT, CoT, Red teaming, and more](https://huggingface.co/blog/dialog-agents)
+- [Stephen Wolfram ChatGPT能力解读: What Is ChatGPT Doing and Why Does It Work?](https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/)
 - [Chatgpt相关解读汇总](https://github.com/chenweiphd/ChatGPT-Hub)
-- [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
 - [AGI历史与现状](https://www.jiqizhixin.com/articles/2018-11-15-6?from=timeline)
 - [张俊林 通向AGI之路：大型语言模型（LLM）技术精要](https://zhuanlan.zhihu.com/p/597586623)
 - [知乎回答 OpenAI 发布 GPT-4，有哪些技术上的优化或突破?](https://www.zhihu.com/question/589639535/answer/2936696161)
 - [追赶ChatGPT的难点与平替](https://zhuanlan.zhihu.com/p/609877277)
 - [压缩即泛化，泛化即智能](https://zhuanlan.zhihu.com/p/615554635)  :star:
-- [陆奇最新演讲实录：我的大模型世界观｜第十四期](https://new.qq.com/rain/a/20230423A08J7400)
 - [LLM Powered Autonomous Agents](https://lilianweng.github.io/posts/2023-06-23-agent/)  :star:
 - [All You Need to Know to Build Your First LLM App](https://towardsdatascience.com/all-you-need-to-know-to-build-your-first-llm-app-eb982c78ffac)  :star:
 - [GPT-4 Architecture, Infrastructure, Training Dataset, Costs, Vision, MoE](https://www.semianalysis.com/p/gpt-4-architecture-infrastructure)
-- [为什么伟大不能被计划](https://weread.qq.com/web/bookDetail/93832630811e7e827g0173ca): OpenAI研究员出书
-- [拾象投研机构对LLM的调研报告（文中有两次PPT的申请链接）](https://mp.weixin.qq.com/s?__biz=MjM5ODY2OTQyNg==&mid=2649769138&idx=1&sn=2c408b73f66a52e43ea991b957729519&chksm=bec3d9af89b450b95e6432dc33f4f32ae7a29cc8e2916369aad6156c5817927d1f73a0c84e82&scene=21#wechat_redirect): 对大模型应用给出了很全面的总结梳理
-- [启明创投State of Generative AI 2023](https://www.guotaixia.com/post/5336.html): 最近发现应用落地才是LLM真正产生价值的核心，开始更多关注一些投研的分析报告
+- [OpenAI研究员出书：为什么伟大不能被计划](https://weread.qq.com/web/bookDetail/93832630811e7e827g0173ca):
+- [拾象投研机构对LLM的调研报告（文中有两次PPT的申请链接）](https://mp.weixin.qq.com/s?__biz=MjM5ODY2OTQyNg==&mid=2649769138&idx=1&sn=2c408b73f66a52e43ea991b957729519&chksm=bec3d9af89b450b95e6432dc33f4f32ae7a29cc8e2916369aad6156c5817927d1f73a0c84e82&scene=21#wechat_redirect):
+- [启明创投State of Generative AI 2023](https://www.guotaixia.com/post/5336.html)
 - [How to Use AI to Do Stuff: An Opinionated Guide](https://www.oneusefulthing.org/p/how-to-use-ai-to-do-stuff-an-opinionated)
 - [Llama 2: an incredible open LLM](https://www.interconnects.ai/p/llama-2-from-meta)
 - [Wolfram语言之父新书：这就是ChatGPT](https://book.douban.com/subject/36449803/?icn=index-latestbook-subject)
 - [谷歌出品：对大模型领悟能力的一些探索很有意思
 Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/explorables/grokking/) :star:
+- [符尧大佬系列新作 An Initial Exploration of Theoretical Support for Language Model Data Engineering. Part 1: Pretraining](https://yaofu.notion.site/An-Initial-Exploration-of-Theoretical-Support-for-Language-Model-Data-Engineering-Part-1-Pretraini-dc480d9bf7ff4659afd8c9fb738086eb)
+- [奇绩创坛2023秋季路演日上创新LLM项目一览](https://zhuanlan.zhihu.com/p/669015906)
+- [The Power of Prompting微软首席科学家对prompt在垂直领域使用的观点](https://www.microsoft.com/en-us/research/blog/the-power-of-prompting/)
+- [The Bitter Lesson 强化学习之父总结的AI研究的经验教训](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
+
+
+### 会议&访谈类
+- [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
+- [陆奇最新演讲实录：我的大模型世界观｜第十四期](https://new.qq.com/rain/a/20230423A08J7400)
 - [OpenAI首席科学家最新讲座解读LM无监督预训练学了啥 An observation on Generalization](https://simons.berkeley.edu/talks/ilya-sutskever-openai-2023-08-14) :star:
 - [The Complete Beginners Guide To Autonomous Agents](https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents): Octane AI创始人 Matt Schlicht发表的关于人工智能代理的一些思考
-- [An Initial Exploration of Theoretical Support for Language Model Data Engineering. Part 1: Pretraining](https://yaofu.notion.site/An-Initial-Exploration-of-Theoretical-Support-for-Language-Model-Data-Engineering-Part-1-Pretraini-dc480d9bf7ff4659afd8c9fb738086eb): 符尧大佬系列新作，通过了解大模型背后的数据工程来了解模型本质，第一篇预训练数据
 - [Large Language Models (in 2023)](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650893355&idx=1&sn=5911ccc05abf5177bb71a47ea5a748c8&chksm=84e4a855b39321434a2a386c9f359979da99dd441e6cf8f88062f1e909ad8f5b9b24198d1edb&scene=0&xtrack=1) OpenAI科学家最新大模型演讲
 - [OpenAI闭门会议DevDay视频 - A survey of  Techniques for Maximizing LLM performance，无法翻墙可搜标题找笔记](https://www.youtube.com/watch?v=ahnGLM-RC1Y)
-- [奇绩创坛2023秋季路演日上创新LLM项目一览](https://zhuanlan.zhihu.com/p/669015906)
-- [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
-- [The Power of Prompting微软首席科学家对prompt在垂直领域使用的观点](https://www.microsoft.com/en-us/research/blog/the-power-of-prompting/)
-- [Sora tech report](https://openai.com/research/video-generation-models-as-world-simulators)
-- [The Bitter Lesson 强化学习之父总结的AI研究的经验教训](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 - [月之暗面杨植麟专访,值得细读](https://mp.weixin.qq.com/s/KWMvsvI85QI-GIXeXizDsA)
 
 ## Papers
@@ -833,7 +851,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - InstructGPT: Training language models to follow instructions with human feedback :star:
   - Scaling Laws for Reward Model Over optimization :star:
   - WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION  :star:
-  - PRM：Let's verify step by step 
+  - PRM：Let's verify step by step
+  - - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
 - Anthropic
   - A General Language Assistant as a Laboratory for Alignmen 
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
@@ -1268,6 +1287,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities
 - Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
 - AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling
+- [Sora tech report](https://openai.com/research/video-generation-models-as-world-simulators)
 
 ### Timeseries LLM
 - TimeGPT-1
