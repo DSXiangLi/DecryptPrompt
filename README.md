@@ -438,11 +438,14 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式
 - [Walles.AI](https://walles.ai): 融合了图像聊天，文本聊天，chatpdf，web-copilot等多种功能的智能助手
 - [webpilot.ai](https://www.webpilot.ai/signin?return-path=/) 比ChatGPT 自带的 Web Browsing更好用的浏览器检索插件，更适用于复杂搜索场景，也开通api调用了
-- [New Bing](https://www.bing.com/)：需要连外网否则会重定向到bing中国，需要申请waitlist 
+- [New Bing](https://www.bing.com/)：需要科学上网哦
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问 
 #### 代码搜索
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
+#### 知识管理
+- [glean](https://www.glean.com/): 企业知识搜索和项目管理类的搜索初创公司，帮助员工快速定位信息，帮助公司整合信息
+- [Mem](https://get.mem.ai/): 个人知识管理，例如知识图谱，已获openai融资
 
 ### ChatDoc
 - [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！
@@ -456,7 +459,6 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [SCISPACE](https://typeset.io/): 论文研究的白月光，融合了全库搜索问答，以及个人上传PDF构建知识库问答。同样支持相关论文发现，和论文划词解读。并且解读内容可以保存到notebook中方便后续查找，可以说是产品和算法强强联合了。
 - [Consensus](https://consensus.app/search/): AI加持的论文搜素，多论文总结，观点对比工具。产品排名巨高，但个人感觉搜索做的有提升空间
 - [Aminer](https://www.aminer.cn/search/pub?q=Transformer&t=b): 论文搜索，摘要，问答，搜索关键词符号化改写；但论文知识库问答有些幻觉严重
-
 - [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站
 - [OpenRead](https://www.openread.academy/home): 国内产品，面向论文写作，阅读场景，可以帮助生成文献综述，以及提供和NotionAI相似的智能Markdown用于写作
 - [ChatPaper](https://github.com/kaixindelele/ChatPaper): 根据输入关键词，自动在arxiv上下载最新的论文，并对论文进行摘要总结，可以在huggingface上试用
@@ -490,7 +492,6 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 
 ### 私人助理&聊天
 - [Mr.-Ranedeer-](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor):  基于prompt和GPT-4的强大能力提供个性化学习环境，个性化出题+模型解答
-- [Mem](https://get.mem.ai/): 笔记类产品，可以构建个人知识AI管家例如知识图谱，已获openai融资
 - [AI Topiah](https://www.ai-topia.com/): 聆心智能AI角色聊天，和路飞唠了两句，多少有点中二之魂在燃烧
 - [chatbase](https://www.chatbase.co/): 情感角色聊天，还没尝试
 - [Vana](https://gptme.vana.com/login): virtual DNA, 通过聊天创建虚拟自己！概念很炫
@@ -529,6 +530,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [storybird](https://storybird.com/): 根据提示词生成故事绘本，还可以售卖
 - [Magnific.ai](https://magnific.ai/): 两个人的团队做出的AI图片精修师
 - [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
+- [Gamma](https://gamma.app/create/generate): PPT制作神器，ProductHunt月度排名Number1
 
 ## Resources
 ### GPTs应用导航
@@ -726,6 +728,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
     - Visual Instruction Tuning with Polite Flamingo
     - Exploring the Impact of Instruction Data Scaling on Large Language Models:  An Empirical Study on Real-World Use Cases
+    - Scaling Relationship on Learning Mathematical Reasoning with Large Language Models
 - 新对齐/微调方案
    - WizardLM: Empowering Large Language Models to Follow Complex Instructions
    - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
@@ -950,6 +953,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Interpretable Long-Form Legal Question Answering with Retrieval-Augmented Large Language Models
   - Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
   - CarExpert: Leveraging Large Language Models for In-Car Conversational Question Answering
+  - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
@@ -1120,6 +1124,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression  :star:
   - Learning to Compress Prompts with Gist Tokens
   - Unlocking Context Constraints of LLMs: Enhancing Context Efficiency of LLMs with Self-Information-Based Content Filtering
+  - LongAgent: Scaling Language Models to 128k Context through Multi-Agent Collaboration
 - 训练和模型架构方案
   - Never Train from Scratch: FAIR COMPARISON OF LONGSEQUENCE MODELS REQUIRES DATA-DRIVEN PRIORS
   - Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon
