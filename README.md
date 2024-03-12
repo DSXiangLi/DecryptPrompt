@@ -35,6 +35,7 @@
 - [​解密Prompt系列22. LLM Agent之RAG的反思：放弃了压缩还是智能么？](https://cloud.tencent.com/developer/article/2375066)
 - [解密Prompt系列23.大模型幻觉分类&归因&检测&缓解方案脑图全梳理](https://cloud.tencent.com/developer/article/2378383)
 - [解密prompt系列24.RLHF新方案之训练策略：SLiC-HF & DPO & RRHF & RSO](https://cloud.tencent.com/developer/article/2389619)
+- [解密prompt系列26. 人类思考vs模型思考：抽象和发散思维](https://cloud.tencent.com/developer/article/2394120)
 
 ## LLMS
 ### 模型评测
@@ -279,6 +280,7 @@
 |Tutel：MOE训练框架|https://github.com/microsoft/tutel|
 |TradingGym：参考openai gym的股票交易强化学习模拟器|https://github.com/astrologos/tradinggym|
 |LongLora: 长文本微调框架|https://github.com/dvlab-research/LongLoRA|
+|LlamaGym：在线RL微调框架|https://github.com/KhoomeiK/LlamaGym|
 
 ### Auto/Multi Agent
 | 工具描述   | 链接   | 
@@ -330,6 +332,8 @@
 |AnythingLLM: langchain推出的支持本地部署开源模型的框架|https://github.com/Mintplex-Labs/anything-llm|
 |PromptFlow：微软推出的大模型应用框架|https://github.com/microsoft/promptflow|
 |Coze:字节跳动推出的个性化Agent定制应用支持多个大模型丰富插件集使用| https://www.coze.com/username?redirect=/explore|
+|Anakin：和Coze类似的Agent定制应用，插件支持较少但workflow使用起来更简洁| https://app.anakin.ai/discover|
+|TaskingAI：API-Oriented的类似langchain的大模型应用框架|https://www.tasking.ai/|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
@@ -926,6 +930,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Reflexion: an autonomous agent with dynamic memory and self-reflection
   - AutoAgents: A Framework for Automatic Agent Generation
   - GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension
+  - PreAct: Predicting Future in ReAct Enhances Agent's Planning Ability
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -1262,12 +1267,13 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
 
 
-### 模型合并黑科技(model_merge)
+### 模型合并和剪枝(model_merge)
 - Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM
 - DARE Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
 - EDITING MODELS WITH TASK ARITHMETIC
 - TIES-Merging: Resolving Interference When Merging Models
 - LM-Cocktail: Resilient Tuning of Language Models via Model Merging
+- SLICEGPT: COMPRESS LARGE LANGUAGE MODELS BY DELETING ROWS AND COLUMNS
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
