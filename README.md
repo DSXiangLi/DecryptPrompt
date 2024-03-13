@@ -59,6 +59,7 @@
 |[CEVAL](https://cevalbenchmark.com/index.html#home)|中文知识评估，覆盖52个学科，机器评价主要为多项选择|
 |[CMMLU](https://github.com/haonan-li/CMMLU)|67个主题中文知识和推理能力评估，多项选择机器评估|
 |[LLMEval3](http://llmeval.com/)|复旦推出的知识问答榜单，涵盖大学作业和考题，题库尽可能来自非互联网避免模型作弊|
+|[QuantBench]()|AI驱动投资的量化榜单|
 
 ### 国外开源模型
 |模型链接     | 模型描述    |
@@ -982,7 +983,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - 自主学习和探索
   - AppAgent: Multimodal Agents as Smartphone Users
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
-  - https://blog.x-agent.net/blog/xagent/
+  - LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
