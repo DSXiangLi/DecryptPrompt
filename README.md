@@ -64,6 +64,8 @@
 ### 国外开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
+|[OpenSora](https://github.com/hpcaitech/Open-Sora)|没等来OpenAI却等来了OpenSora这个梗不错哦|
+|[GROK](https://x.ai/blog/grok-os)|马斯克开源Grok-1：3140亿参数迄今最大，权重架构全开放|
 |[Gemma](https://github.com/google/gemma_pytorch)|谷歌商场开源模型2B，7B免费商用，开源第一易主了|
 |[Mixtral](https://twitter.com/MistralAI/status/1733150512395038967)|法国“openai”开源基于MegaBlocks训练的MOE模型8*7B 32K|
 |[Mistral7B](https://mistral.ai/news/announcing-mistral-7b/)|法国“openai”开源Mistral，超过llama2当前最好7B模型|
@@ -445,6 +447,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [webpilot.ai](https://www.webpilot.ai/signin?return-path=/) 比ChatGPT 自带的 Web Browsing更好用的浏览器检索插件，更适用于复杂搜索场景，也开通api调用了
 - [New Bing](https://www.bing.com/)：需要科学上网哦
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问 
+- [sider.ai](https://sider.ai/download): 支持多模型浏览器插件对话和多模态交互操作
 #### 代码搜索
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
@@ -932,6 +935,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - AutoAgents: A Framework for Automatic Agent Generation
   - GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension
   - PreAct: Predicting Future in ReAct Enhances Agent's Planning Ability
+  - TOOLLLM: FACILITATING LARGE LANGUAGE MODELS TO MASTER 16000+ REAL-WORLD APIS
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -1033,6 +1037,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - PROMPTAGATOR : FEW-SHOT DENSE RETRIEVAL FROM 8 EXAMPLES
 - SYNERGISTIC INTERPLAY BETWEEN SEARCH AND LARGE LANGUAGE MODELS FOR INFORMATION RETRIEVAL
 - T-RAG: Lessons from the LLM Trenches
+- RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
 - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
 - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
 - Learning to Rewrite Queries [传统方案参考]
