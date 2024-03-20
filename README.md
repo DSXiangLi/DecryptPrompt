@@ -35,12 +35,11 @@
 - [​解密Prompt系列22. LLM Agent之RAG的反思：放弃了压缩还是智能么？](https://cloud.tencent.com/developer/article/2375066)
 - [解密Prompt系列23.大模型幻觉分类&归因&检测&缓解方案脑图全梳理](https://cloud.tencent.com/developer/article/2378383)
 - [解密prompt系列24.RLHF新方案之训练策略：SLiC-HF & DPO & RRHF & RSO](https://cloud.tencent.com/developer/article/2389619)
+- [解密prompt25. RLHF改良方案之样本标注：RLAIF & SALMON](https://cloud.tencent.com/developer/article/2398654)
 - [解密prompt系列26. 人类思考vs模型思考：抽象和发散思维](https://cloud.tencent.com/developer/article/2394120)
 
 ## LLMS
 ### 模型评测
-> 大模型评估尚未出现北极星指标，榜单排名往往和实际使用能力存在较大差异，几天没看感觉有的榜单快被玩坏了......
-
 |榜单|结果|
 |----|-----|
 |[AlpacaEval：LLM-based automatic evaluation ](https://tatsu-lab.github.io/alpaca_eval/)| 开源模型王者vicuna,openchat, wizardlm|
@@ -856,6 +855,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - CALIBRATING SEQUENCE LIKELIHOOD IMPROVES CONDITIONAL LANGUAGE GENERATION
   - REWARD DESIGN WITH LANGUAGE MODELS
   - Final-Answer RL Solving math word problems with processand outcome-based feedback
+  - Solving math word problems with process- and outcome-based feedback
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
