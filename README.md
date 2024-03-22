@@ -35,7 +35,7 @@
 - [​解密Prompt系列22. LLM Agent之RAG的反思：放弃了压缩还是智能么？](https://cloud.tencent.com/developer/article/2375066)
 - [解密Prompt系列23.大模型幻觉分类&归因&检测&缓解方案脑图全梳理](https://cloud.tencent.com/developer/article/2378383)
 - [解密prompt系列24.RLHF新方案之训练策略：SLiC-HF & DPO & RRHF & RSO](https://cloud.tencent.com/developer/article/2389619)
-- [解密prompt25. RLHF改良方案之样本标注：RLAIF & SALMON](https://cloud.tencent.com/developer/article/2398654)
+- [解密prompt系列25. RLHF改良方案之样本标注：RLAIF & SALMON](https://cloud.tencent.com/developer/article/2398654)
 - [解密prompt系列26. 人类思考vs模型思考：抽象和发散思维](https://cloud.tencent.com/developer/article/2394120)
 
 ## LLMS
@@ -856,6 +856,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - REWARD DESIGN WITH LANGUAGE MODELS
   - Final-Answer RL Solving math word problems with processand outcome-based feedback
   - Solving math word problems with process- and outcome-based feedback
+  - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
@@ -865,7 +866,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Scaling Laws for Reward Model Over optimization :star:
   - WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION  :star:
   - PRM：Let's verify step by step
-  - - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
+  - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
 - Anthropic
   - A General Language Assistant as a Laboratory for Alignmen 
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
@@ -902,6 +903,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision
   - Direct Preference Optimization: Your Language Model is Secretly a Reward Model
   - HIR The Wisdom of Hindsight Makes Language Models Better Instruction Followers
+  - Aligner: Achieving Efficient Alignment through Weak-to-Strong Correction
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -1107,6 +1109,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design
 - MEDITAB: SCALING MEDICAL TABULAR DATA PREDICTORS VIA DATA CONSOLIDATION, ENRICHMENT, AND REFINEMENT
 - PLLaMa: An Open-source Large Language Model for Plant Science
+- AlphaFin：使用检索增强股票链框架对财务分析进行基准测试
 
 ### LLM超长文本处理 (long_input)
 - 位置编码、注意力机制优化
