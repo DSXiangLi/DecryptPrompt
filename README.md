@@ -159,6 +159,7 @@
 | --- | --- |
 |[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai的Playground支持他们自家的PPLX模型和众多SOTA大模型，Gemma也支持了|
 |[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot超长文本LLM 可输入20W上文, 文档总结无敌 |
+|[Coze](https://www.coze.com/username?redirect=/explore)|字节跳动推出的个性化Agent定制应用支持多个大模型丰富插件集使用，建议用海外版本 |
 |[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
 |[文心一言](https://yiyan.baidu.com/welcome)|百度|
 |[通义千问](https://tongyi.aliyun.com/qianwen/)|阿里 |
@@ -327,15 +328,14 @@
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/ctlllll/LLM-ToolMaker|
 |Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
-|wenda:闻达小模型整合搜索用于知识融入|https://github.com/l15y/wenda|
 |Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
 |RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
 |Open-Interpreter：命令行聊天框架|https://github.com/KillianLucas/open-interpreter|
 |AnythingLLM: langchain推出的支持本地部署开源模型的框架|https://github.com/Mintplex-Labs/anything-llm|
 |PromptFlow：微软推出的大模型应用框架|https://github.com/microsoft/promptflow|
-|Coze:字节跳动推出的个性化Agent定制应用支持多个大模型丰富插件集使用| https://www.coze.com/username?redirect=/explore|
 |Anakin：和Coze类似的Agent定制应用，插件支持较少但workflow使用起来更简洁| https://app.anakin.ai/discover|
 |TaskingAI：API-Oriented的类似langchain的大模型应用框架|https://www.tasking.ai/|
+|TypeChat：微软推出的Schema Engineering风格的应用框架|https://github.com/microsoft/TypeChat|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
@@ -475,6 +475,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 
 ### 写作效率工具类
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作 
+- [研墨AI](https://www.yanmoai.com/): 面向咨询领域的内容创作应用
 - [Miracleplus](https://news.miracleplus.com/feeds?tab=hot): 全AI Agent负责运营的Hacker News网站
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了
 - [范文喵写作](https://ai.wolian.chat/openmao/#/): 范文喵写作工具，选题，大纲，写作全流程 
