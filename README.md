@@ -281,9 +281,12 @@
 |OpenDelta：集成了各种增量微调方案的开源实现|https://github.com/thunlp/OpenDelta|
 |Megablocks：MOE训练框架|https://github.com/stanford-futuredata/megablocks|
 |Tutel：MOE训练框架|https://github.com/microsoft/tutel|
-|TradingGym：参考openai gym的股票交易强化学习模拟器|https://github.com/astrologos/tradinggym|
 |LongLora: 长文本微调框架|https://github.com/dvlab-research/LongLoRA|
 |LlamaGym：在线RL微调框架|https://github.com/KhoomeiK/LlamaGym|
+|Megatron-LM：主流LLM预训练框架|https://github.com/NVIDIA/Megatron-LM|
+|TradingGym：参考openai gym的股票交易强化学习模拟器|https://github.com/astrologos/tradinggym|
+|TradeMaster: 量化交易RL训练框架|https://github.com/TradeMaster-NTU/TradeMaster|
+
 
 ### Auto/Multi Agent
 | 工具描述   | 链接   | 
@@ -614,6 +617,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - https://github.com/thunlp/ToolLearningPapers
 - https://github.com/MLGroupJLU/LLM-eval-survey
 - https://github.com/thu-coai/PaperForONLG
+- https://github.com/khuangaf/Awesome-Chart-Understanding
 
 ### 综述
 - A Survey of Large Language Models
