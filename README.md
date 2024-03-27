@@ -866,6 +866,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Scaling Laws for Reward Model Over optimization :star:
   - WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION  :star:
   - PRM：Let's verify step by step
+  - Training Verifiers to Solve Math Word Problems [PRM的前置依赖]
   - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
 - Anthropic
   - A General Language Assistant as a Laboratory for Alignmen 
