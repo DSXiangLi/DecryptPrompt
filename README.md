@@ -159,6 +159,7 @@
 | --- | --- |
 |[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai的Playground支持他们自家的PPLX模型和众多SOTA大模型，Gemma也支持了|
 |[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot超长文本LLM 可输入20W上文, 文档总结无敌 |
+|[跃问](https://stepchat.cn/chats/new)|阶跃星辰推出的同样擅长长文本的大模型|
 |[Coze](https://www.coze.com/username?redirect=/explore)|字节跳动推出的个性化Agent定制应用支持多个大模型丰富插件集使用，建议用海外版本 |
 |[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
 |[文心一言](https://yiyan.baidu.com/welcome)|百度|
@@ -456,7 +457,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 #### 知识管理
 - [glean](https://www.glean.com/): 企业知识搜索和项目管理类的搜索初创公司，帮助员工快速定位信息，帮助公司整合信息
 - [Mem](https://get.mem.ai/): 个人知识管理，例如知识图谱，已获openai融资
-
+- [GPT-Crawler](https://github.com/BuilderIO/gpt-crawler): 通过简单配置，即可自行提取网页的文本信息构建知识库，并进一步自定义GPTs
 ### ChatDoc
 - [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！
 - [ChatDoc](https://chatdoc.com/?viaurl=ainavpro.com):ChatPDF升级版，需要科学上网，增加了表格类解析，支持选择区域的问答，在PDF识别上做的很厉害
@@ -531,6 +532,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [ChatBI](https://sf.163.com/about#event):网易数帆发布ChatBI对话数据分析平台
 - [Kyligence Copilot](https://cn.kyligence.io/copilot/):Kyligence发布一站式指标平台的 AI 数智助理,支持对话式指标搜索，异动归因等等
 - [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 
+- [DataHerald](https://www.dataherald.com/): Text2SQL
 
 ### 多模态生成
 - [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota 
@@ -542,6 +544,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Magnific.ai](https://magnific.ai/): 两个人的团队做出的AI图片精修师
 - [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
 - [Gamma](https://gamma.app/create/generate): PPT制作神器，ProductHunt月度排名Number1
+
+### 爬虫
 
 ## Resources
 ### GPTs应用导航
@@ -944,6 +948,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension
   - PreAct: Predicting Future in ReAct Enhances Agent's Planning Ability
   - TOOLLLM: FACILITATING LARGE LANGUAGE MODELS TO MASTER 16000+ REAL-WORLD APIS
+   -AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls
+  - AIOS: LLM Agent Operating System
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -972,6 +978,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
   - CarExpert: Leveraging Large Language Models for In-Car Conversational Question Answering
   - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist
+  - DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
@@ -996,11 +1003,14 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - AppAgent: Multimodal Agents as Smartphone Users
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
   - LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error
+  - Empowering Large Language Model Agents through Action Learning
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
   - LLaMA Rider: Spurring Large Language Models to Explore the Open World
+  - LLMs Can’t Plan, But Can Help Planning in LLM-Modulo Frameworks
+
 
 ### RAG
 - WebGPT：Browser-assisted question-answering with human feedback 
@@ -1053,6 +1063,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - 新向量模型用于Recall和Ranking
   - BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation
   - [网易为RAG设计的BCE Embedding技术报告](https://zhuanlan.zhihu.com/p/681370855)
+- [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
 
 ### LLM+KG
 - 综述类
@@ -1316,6 +1327,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
 - AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling
 - [Sora tech report](https://openai.com/research/video-generation-models-as-world-simulators)
+- Towards General Computer Control: A Multimodal Agent for Red Dead Redemption II as a Case Study
 
 ### Timeseries LLM
 - TimeGPT-1
