@@ -104,10 +104,11 @@
 ### 国内开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
-|[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代，提供了7B/13B Base和chat的版本|
+|[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代也出第二个版本了，提供了7B/13B Base和chat的版本|
 |[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
 |[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
+|[Qwen1.5-MoE-A2.7B](https://modelscope.cn/models/qwen/Qwen1.5-MoE-A2.7B/summary)|Qwen推出MOE版本，推理更快|
 |[Qwen1.5](https://github.com/QwenLM/Qwen1.5)|通义千问升级1.5，支持32K上文|
 |[Qwen1-7B+14B+70B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千问7B,14B,70B Base和chat模型|
 |[InternLM2 7B+20B](https://github.com/InternLM/InternLM)|商汤的书生模型2支持200K|
@@ -154,13 +155,12 @@
 |[GLM](https://github.com/THUDM/GLM-130B) |   清华发布的中英双语130B预训练模型 |
 |[BayLing](https://github.com/ictnlp/BayLing)|基于LLama7B/13B，增强的语言对齐的英语/中文大语言模型|
 
-### 国内外免费试用的大模型应用
+### LLM免费应用
 |模型链接     | 模型描述    |
 | --- | --- |
 |[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai的Playground支持他们自家的PPLX模型和众多SOTA大模型，Gemma也支持了|
 |[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot超长文本LLM 可输入20W上文, 文档总结无敌 |
 |[跃问](https://stepchat.cn/chats/new)|阶跃星辰推出的同样擅长长文本的大模型|
-|[Coze](https://www.coze.com/username?redirect=/explore)|字节跳动推出的个性化Agent定制应用支持多个大模型丰富插件集使用，建议用海外版本 |
 |[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
 |[文心一言](https://yiyan.baidu.com/welcome)|百度|
 |[通义千问](https://tongyi.aliyun.com/qianwen/)|阿里 |
@@ -169,7 +169,6 @@
 |[DeepSeek](https://chat.deepseek.com/sign_in)|深度求索 |
 |[360智脑](https://chat.360.com/?src=ai_360_com)|360 |
 |[悟空](https://wukong.com/tool)|字节跳动|
-
 
 ### 垂直领域模型&进展
 |领域|模型链接     | 模型描述  
@@ -241,14 +240,6 @@
 |评估|[JudgeLM](https://github.com/baaivision/JudgeLM)|智源开源了 JudgeLM 的裁判模型，可以高效准确地评判各类大模型|
 |评估|[CritiqueLLM](https://github.com/thu-coai/CritiqueLLM)|智谱AI发布评分模型CritiqueLLM,支持含参考文本/无参考文本的评估打分|
 
-### 新时代RAG Embedding模型
-|模型链接| 模型描述|
-| --- | --- | 
-|[Jina-Cobert](https://link.zhihu.com/?target=https%3A//huggingface.co/jinaai/jina-embeddings-v2-base-zh)|Jian AI开源中英德，8192 Token长文本Embedding|
-|[BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/README.md)|智源开源多语言，稀疏+稠密表征，8192 Token长文本Embedding|
-|[BCE](https://github.com/netease-youdao/BCEmbedding/blob/master/README_zh.md)|网易开源更适配RAG任务的Embedding模型|
-
-
 ## Tool and Library
 ### 推理框架
 | 工具描述   | 链接   | 
@@ -313,6 +304,7 @@
 |AI-Town: 虚拟世界模拟器|https://github.com/a16z-infra/ai-town|
 |webarena:网络拟真环境，可用于自主智能体的测试，支持在线购物，论坛，代码仓库etc |https://github.com/web-arena-x/webarena|
 |MiniWoB++：100+web交互操作的拟真环境 |https://github.com/Farama-Foundation/miniwob-plusplus|
+|VIRL:虚拟世界模拟器|https://github.com/VIRL-Platform/VIRL|
 
 ### Agent工具框架类
 | 工具描述   | 链接   | 
@@ -332,14 +324,29 @@
 |Jarvis: 大模型调用小模型框架，给小模型一个未来！|https://github.com/search?q=jarvis|
 |LLM-ToolMaker:让LLM自己制造Agent|https://github.com/ctlllll/LLM-ToolMaker|
 |Gorilla: LLM调用大量API|https://github.com/ShishirPatil/gorilla|
-|Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
-|RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
 |Open-Interpreter：命令行聊天框架|https://github.com/KillianLucas/open-interpreter|
 |AnythingLLM: langchain推出的支持本地部署开源模型的框架|https://github.com/Mintplex-Labs/anything-llm|
 |PromptFlow：微软推出的大模型应用框架|https://github.com/microsoft/promptflow|
-|Anakin：和Coze类似的Agent定制应用，插件支持较少但workflow使用起来更简洁| https://app.anakin.ai/discover|
+|Anakin：和Coze类似的Agent定制应用，插件支持较少但workflow使用起来更简洁| r|
 |TaskingAI：API-Oriented的类似langchain的大模型应用框架|https://www.tasking.ai/|
 |TypeChat：微软推出的Schema Engineering风格的应用框架|https://github.com/microsoft/TypeChat|
+
+### Agent Bot [托拉拽中间层]
+|Dify|https://dify.ai/zh|
+|Coze|https://www.coze.com/|
+|Anakin|https://app.anakin.ai/discover|
+
+### RAG配套工具
+|Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
+|RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
+|PyTesseract：OCR解析服务|https://github.com/tesseract-ocr/tesseract|
+|EasyOCR：确实使用很友好的OCR服务|https://github.com/JaidedAI/EasyOCR|
+|Vary：旷视多模态大模型pdf直接转Markdown|https://github.com/tesseract-ocr/tesseract|
+|LLamaParse：LLamaIndex提供的PDF解析服务，每天免费1000篇|https://github.com/run-llama/llama_parse?tab=readme-ov-file|
+|[Jina-Cobert](https://link.zhihu.com/?target=https%3A//huggingface.co/jinaai/jina-embeddings-v2-base-zh)|Jian AI开源中英德，8192 Token长文本Embedding|
+|[BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/README.md)|智源开源多语言，稀疏+稠密表征，8192 Token长文本Embedding|
+|[BCE](https://github.com/netease-youdao/BCEmbedding/blob/master/README_zh.md)|网易开源更适配RAG任务的Embedding模型|
+
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
@@ -458,6 +465,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [glean](https://www.glean.com/): 企业知识搜索和项目管理类的搜索初创公司，帮助员工快速定位信息，帮助公司整合信息
 - [Mem](https://get.mem.ai/): 个人知识管理，例如知识图谱，已获openai融资
 - [GPT-Crawler](https://github.com/BuilderIO/gpt-crawler): 通过简单配置，即可自行提取网页的文本信息构建知识库，并进一步自定义GPTs
+- [ChatInsight](https://www.chatinsight.ai/?ref=aitoolnet.com): 企业级文档管理，和基于文档的对话
 ### ChatDoc
 - [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！
 - [ChatDoc](https://chatdoc.com/?viaurl=ainavpro.com):ChatPDF升级版，需要科学上网，增加了表格类解析，支持选择区域的问答，在PDF识别上做的很厉害
@@ -544,8 +552,6 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Magnific.ai](https://magnific.ai/): 两个人的团队做出的AI图片精修师
 - [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
 - [Gamma](https://gamma.app/create/generate): PPT制作神器，ProductHunt月度排名Number1
-
-### 爬虫
 
 ## Resources
 ### GPTs应用导航
@@ -724,6 +730,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - LLAMA PRO: Progressive LLaMA with Block Expansion
 - QWEN TECHNICAL REPORT
 
+
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
    - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
@@ -736,7 +743,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - ZeroPrompt: Scaling Prompt-Based Pretraining to 1,000 Tasks Improves Zero-shot Generalization
    - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
    - INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
-- 更少，质量更高、更多样的指令数据带来质变
+- SFT数据Scaling Law
     - LIMA: Less Is More for Alignment :star:
     - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
     - AlpaGasus: Training A Better Alpaca with Fewer Data
@@ -745,6 +752,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Visual Instruction Tuning with Polite Flamingo
     - Exploring the Impact of Instruction Data Scaling on Large Language Models:  An Empirical Study on Real-World Use Cases
     - Scaling Relationship on Learning Mathematical Reasoning with Large Language Models
+    - WHEN SCALING MEETS LLM FINETUNING: THE EFFECT OF DATA, MODEL AND FINETUNING METHOD
 - 新对齐/微调方案
    - WizardLM: Empowering Large Language Models to Follow Complex Instructions
    - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
@@ -979,6 +987,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - CarExpert: Leveraging Large Language Models for In-Car Conversational Question Answering
   - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist
   - DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning
+  - InsightLens: Discovering and Exploring Insights from Conversational Contexts in Large-Language-Model-Powered Data Analysis
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
@@ -1056,6 +1065,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - SYNERGISTIC INTERPLAY BETWEEN SEARCH AND LARGE LANGUAGE MODELS FOR INFORMATION RETRIEVAL
 - T-RAG: Lessons from the LLM Trenches
 - RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
+- ARAGOG: Advanced RAG Output Grading
 - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
 - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
 - Learning to Rewrite Queries [传统方案参考]
@@ -1063,6 +1073,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - 新向量模型用于Recall和Ranking
   - BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation
   - [网易为RAG设计的BCE Embedding技术报告](https://zhuanlan.zhihu.com/p/681370855)
+  - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
 
 ### LLM+KG
@@ -1098,6 +1109,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - WanJuan: A Comprehensive Multimodal Dataset for Advancing English and Chinese Large Models
 - CLUECorpus2020: A Large-scale Chinese Corpus for Pre-training Language Model
 - In-Context Pretraining: Language Modeling Beyond Document Boundaries
+- Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance 
 
 ### 领域模型 (domain_llms)
 - MedGPT: Medical Concept Prediction from Clinical Narratives
@@ -1270,7 +1282,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - FACTSCORE: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation
   - KoLA: Carefully Benchmarking World Knowledge of Large Language Models
   - When Not to Trust Language Models: Investigating Effectiveness of Parametric and Non-Parametric Memories
-  - FACTOOL: Factuality Detection in Generative AI A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios
+  - FACTOOL: Factuality Detection in Generative AI A Tool Augmented Framework for Multi-Task and Multi-Domain Scenarios 
+  - LONG-FORM FACTUALITY IN LARGE LANGUAGE MODELS
 - 检测任务
   - Detecting Pretraining Data from Large Language Models
   - Scalable Extraction of Training Data from (Production) Language Models
@@ -1300,6 +1313,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - TIES-Merging: Resolving Interference When Merging Models
 - LM-Cocktail: Resilient Tuning of Language Models via Model Merging
 - SLICEGPT: COMPRESS LARGE LANGUAGE MODELS BY DELETING ROWS AND COLUMNS
+- Checkpoint Merging via Bayesian Optimization in LLM Pretrainin
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
@@ -1312,22 +1326,26 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus
 - Causality-aware Concept Extraction based on Knowledge-guided Prompting
 - LARGE LANGUAGE MODELS AS OPTIMIZERS
+- Prompts As Programs: A Structure-Aware Approach to Efficient Compile-Time Prompt Optimization
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
-- PaLM-E: An Embodied Multimodal Language Model
 - LLava Visual Instruction Tuning
 - MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models
-- TabLLM: Few-shot Classification of Tabular Data with Large Language Models
 - BLIVA: A Simple Multimodal LLM for Better Handling of Text-Rich Visual Questions
 - mPLUG-Owl : Modularization Empowers Large Language Models with Multimodality
 - LVLM eHub: A Comprehensive Evaluation Benchmark for Large VisionLanguage Models
 - Mirasol3B: A Multimodal Autoregressive model for time-aligned and contextual modalities
-- Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
+- PaLM-E: An Embodied Multimodal Language Model
+- TabLLM: Few-shot Classification of Tabular Data with Large Language Models
 - AnyGPT: Unified Multimodal LLM with Discrete Sequence Modeling
 - [Sora tech report](https://openai.com/research/video-generation-models-as-world-simulators)
 - Towards General Computer Control: A Multimodal Agent for Red Dead Redemption II as a Case Study
+- OCR
+  - Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
+  - Large OCR Model:An Empirical Study of Scaling Law for OCR
+  - ON THE HIDDEN MYSTERY OF OCR IN LARGE MULTIMODAL MODELS
 
 ### Timeseries LLM
 - TimeGPT-1
