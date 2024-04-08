@@ -341,12 +341,12 @@
 ### RAG配套工具
 |工具|描述|
 | --- | --- | 
-|Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
-|RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
-|PyTesseract：OCR解析服务|https://github.com/tesseract-ocr/tesseract|
-|EasyOCR：确实使用很友好的OCR服务|https://github.com/JaidedAI/EasyOCR|
-|Vary：旷视多模态大模型pdf直接转Markdown|https://github.com/tesseract-ocr/tesseract|
-|LLamaParse：LLamaIndex提供的PDF解析服务，每天免费1000篇|https://github.com/run-llama/llama_parse?tab=readme-ov-file|
+|[Alexandria](https://alex.macrocosm.so/download)|从Arix论文开始把整个互联网变成向量索引，可以免费下载|
+|[RapidAPI](https://rapidapi.com/hub) |统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|
+|[PyTesseract](https://github.com/tesseract-ocr/tesseract)|OCR解析服务|
+|[EasyOCR](https://github.com/JaidedAI/EasyOCR)|确实使用很友好的OCR服务|
+|[Vary](https://github.com/tesseract-ocr/tesseract)|旷视多模态大模型pdf直接转Markdown|
+|[LLamaParse](https://github.com/run-llama/llama_parse?tab=readme-ov-file)|LLamaIndex提供的PDF解析服务，每天免费1000篇|
 |[Jina-Cobert](https://link.zhihu.com/?target=https%3A//huggingface.co/jinaai/jina-embeddings-v2-base-zh)|Jian AI开源中英德，8192 Token长文本Embedding|
 |[BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/README.md)|智源开源多语言，稀疏+稠密表征，8192 Token长文本Embedding|
 |[BCE](https://github.com/netease-youdao/BCEmbedding/blob/master/README_zh.md)|网易开源更适配RAG任务的Embedding模型|
