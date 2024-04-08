@@ -332,11 +332,15 @@
 |TypeChat：微软推出的Schema Engineering风格的应用框架|https://github.com/microsoft/TypeChat|
 
 ### Agent Bot [托拉拽中间层]
+|应用|链接|
+| --- | --- | 
 |Dify|https://dify.ai/zh|
 |Coze|https://www.coze.com/|
 |Anakin|https://app.anakin.ai/discover|
 
 ### RAG配套工具
+|工具|描述|
+| --- | --- | 
 |Alexandria: 从Arix论文开始把整个互联网变成向量索引，可以免费下载|https://alex.macrocosm.so/download|
 |RapidAPI: 统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|https://rapidapi.com/hub|
 |PyTesseract：OCR解析服务|https://github.com/tesseract-ocr/tesseract|
