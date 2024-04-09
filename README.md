@@ -770,6 +770,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Magicoder: Source Code Is All You Need
    - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
    - Generative Representational Instruction Tuning
+   - InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions
 - 指令数据生成
   - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
   - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
@@ -974,6 +975,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Pangu-Agent: A Fine-Tunable Generalist Agent with Structured Reasoning
   - REST MEETS REACT: SELF-IMPROVEMENT FOR MULTI-STEP REASONING LLM AGENT
   - Efficient Tool Use with Chain-of-Abstraction Reasoning
+  - Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models
+  - AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning
+  - Agent Lumos: Unified and Modular Training for Open-Source Language Agents
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -1017,6 +1021,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
   - LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error
   - Empowering Large Language Model Agents through Action Learning
+  - Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
