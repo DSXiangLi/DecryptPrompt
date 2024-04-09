@@ -982,20 +982,28 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
   - OpenAGI: When LLM Meets Domain Experts
-- 垂直领域
-  - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
-  - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
-  - ChemCrow Augmenting large language models with chemistry tools
-  - Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow
-  - Demonstration of InsightPilot: An LLM-Empowered Automated Data Exploration System
-  - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
-  - PointLLM: Empowering Large Language Models to Understand Point Clouds
-  - Interpretable Long-Form Legal Question Answering with Retrieval-Augmented Large Language Models
-  - Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
-  - CarExpert: Leveraging Large Language Models for In-Car Conversational Question Answering
-  - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist
-  - DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning
-  - InsightLens: Discovering and Exploring Insights from Conversational Contexts in Large-Language-Model-Powered Data Analysis
+- 垂直领域 
+  - 数据分析
+    - DS-Agent: Automated Data Science by Empowering Large Language Models with Case-Based Reasoning
+    - InsightLens: Discovering and Exploring Insights from Conversational Contexts in Large-Language-Model-Powered Data Analysis
+    - Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow
+    - Demonstration of InsightPilot: An LLM-Empowered Automated Data Exploration System
+  - 金融
+    - WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
+    - FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design
+    - AlphaFin：使用检索增强股票链框架对财务分析进行基准测试
+    - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist
+    - Can Large Language Models Beat Wall Street? Unveiling the Potential of AI in stock Selection 
+  - 生物医疗
+    - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
+    - ChemCrow Augmenting large language models with chemistry tools
+    - Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
+  - 其他
+    - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
+    - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
+    - PointLLM: Empowering Large Language Models to Understand Point Clouds
+    - Interpretable Long-Form Legal Question Answering with Retrieval-Augmented Large Language Models
+    - CarExpert: Leveraging Large Language Models for In-Car Conversational Question Answering
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Mind2Web: Towards a Generalist Agent for the Web
@@ -1120,7 +1128,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - In-Context Pretraining: Language Modeling Beyond Document Boundaries
 - Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance 
 
-### 领域模型 (domain_llms)
+### 领域模型SFT(domain_llms)
 - MedGPT: Medical Concept Prediction from Clinical Narratives
 - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
 - Galactia：A Large Language Model for Science
@@ -1143,11 +1151,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - LLEMMA: AN OPEN LANGUAGE MODEL FOR MATHEMATICS
 - CFBenchmark: Chinese Financial Assistant Benchmark for Large Language Model
 - InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning
-- WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
-- FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design
 - MEDITAB: SCALING MEDICAL TABULAR DATA PREDICTORS VIA DATA CONSOLIDATION, ENRICHMENT, AND REFINEMENT
 - PLLaMa: An Open-source Large Language Model for Plant Science
-- AlphaFin：使用检索增强股票链框架对财务分析进行基准测试
+
 
 ### LLM超长文本处理 (long_input)
 - 位置编码、注意力机制优化
