@@ -350,7 +350,7 @@
 |[Jina-Cobert](https://link.zhihu.com/?target=https%3A//huggingface.co/jinaai/jina-embeddings-v2-base-zh)|Jian AI开源中英德，8192 Token长文本Embedding|
 |[BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/README.md)|智源开源多语言，稀疏+稠密表征，8192 Token长文本Embedding|
 |[BCE](https://github.com/netease-youdao/BCEmbedding/blob/master/README_zh.md)|网易开源更适配RAG任务的Embedding模型|
-
+|[openparse](https://github.com/Filimoa/open-parse?tab=readme-ov-file)|文本解析分块开源服务，先分析文档的视觉布局再进行切分|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
