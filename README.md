@@ -34,9 +34,10 @@
 - [解密Prompt系列21. LLM Agent之再谈RAG的召回信息密度和质量](https://cloud.tencent.com/developer/article/2369977)
 - [​解密Prompt系列22. LLM Agent之RAG的反思：放弃了压缩还是智能么？](https://cloud.tencent.com/developer/article/2375066)
 - [解密Prompt系列23.大模型幻觉分类&归因&检测&缓解方案脑图全梳理](https://cloud.tencent.com/developer/article/2378383)
-- [解密prompt系列24.RLHF新方案之训练策略：SLiC-HF & DPO & RRHF & RSO](https://cloud.tencent.com/developer/article/2389619)
+- [解密prompt系列24. RLHF新方案之训练策略：SLiC-HF & DPO & RRHF & RSO](https://cloud.tencent.com/developer/article/2389619)
 - [解密prompt系列25. RLHF改良方案之样本标注：RLAIF & SALMON](https://cloud.tencent.com/developer/article/2398654)
 - [解密prompt系列26. 人类思考vs模型思考：抽象和发散思维](https://cloud.tencent.com/developer/article/2394120)
+- [解密prompt系列27. LLM对齐经验之如何降低通用能力损失](https://cloud.tencent.com/developer/article/2406888)
 
 ## LLMS
 ### 模型评测
@@ -353,6 +354,7 @@
 |[openparse](https://github.com/Filimoa/open-parse?tab=readme-ov-file)|文本解析分块开源服务，先分析文档的视觉布局再进行切分|
 |[layout-parser](https://github.com/Layout-Parser/layout-parser)|准确度较高的开源OCR文档布局识别|
 |[AdvancedLiterateMachinery](https://github.com/AlibabaResearch/AdvancedLiterateMachinery)|阿里OCR团队的文档解析和图片理解|
+|[ragflow-deepdoc](https://github.com/infiniflow/ragflow)|ragflow提供的文档识别和解析能力|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
