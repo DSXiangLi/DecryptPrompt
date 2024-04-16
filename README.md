@@ -198,27 +198,15 @@
 |法律|[LexiLaw](https://github.com/CSHaitao/LexiLaw)|法律指令微调数据集：问答+书籍概念解释，法条内容进行指令微调
 |法律|[ChatLaw](https://chatlaw.cloud/)|北大推出的法律大模型，应用形式很新颖类似频道内流一切功能皆融合在对话形式内|
 |法律|[录问模型](https://github.com/zhihaiLLM/wisdomInterrogatory)|在baichuan基础上40G二次预训练+100K指令微调，在知识库构建上采用了Emb+意图+关键词联想结合的方案|
-|金融|[FinChat.io](https://finchat.io/)|使用最新的财务数据，电话会议记录，季度和年度报告，投资书籍等进行训练|
 |金融|[OpenGPT](https://github.com/CogStack/OpenGPT)|领域LLM指令样本生成+微调框架|
 |金融|[乾元BigBang金融2亿模型](https://github.com/ssymmetry/BBT-FinCUGE-Applications/tree/main)|金融领域预训练+任务微调|
 |金融|[度小满千亿金融大模型](https://huggingface.co/xyz-nlp/XuanYuan2.0)|在Bloom-176B的基础上进行金融+中文预训练和微调|
-|金融|[bondGPT](https://www.ltxtrading.com/bondgpt)|GPT4在细分债券市场的应用开放申请中|
-|金融|[IndexGPT](https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html)|JPMorgan在研的生成式投资顾问|
-|金融|[恒生LightGPT](https://mp.weixin.qq.com/s/vLvxvi2nOywkjt7ppiFC2g)|金融领域继续预训练+插件化设计|
-|金融|[知彼阿尔法](https://finance.sina.com.cn/jjxw/2023-07-03/doc-imyzmaut2132017.shtml)|企查查商查大模型|
-|金融|[AlphaBox](https://www.alphabox.top)|熵简科技发布大模型金融应用，多文档问答+会议转录+文档编辑|
-|金融|[曹植](http://www.datagrand.com/products/aigc/)|达观发布金融大模型融合data2text等金融任务，赋能报告写作|
 |金融|[聚宝盆](https://github.com/jerry1993-tech/Cornucopia-LLaMA-Fin-Chinese)|基于 LLaMA 系基模型经过中文金融知识指令精调/指令微调(Instruct-tuning) 的微调模型|
 |金融|[PIXIU](https://github.com/chancefocus/PIXIU)|整理了多个金融任务数据集加入了时间序列数据进行指令微调|
-|金融|[ChatFund](https://chat.funddb.cn/)|韭圈儿发布的第一个基金大模型，看起来是做了多任务指令微调，和APP已有的数据功能进行了全方位的打通，从选基，到持仓分析等等|
 |金融|[FinGPT](https://github.com/AI4Finance-Foundation/FinGPT)|金融传统任务微调 or chatgpt生成金融工具调用|
 |金融|[CFGPT](https://github.com/TongjiFinLab/CFGPT)|金融预训练+指令微调+RAG等检索任务增强|
-|金融|[况客FOF智能投顾](https://pro.fofinvesting.com/workbench/home)|基金大模型应用，基金投顾，支持nl2sql类的数据查询，和基金信息对比查询等|
 |金融|[DISC-FinLLM](https://github.com/FudanDISC/DISC-FinLLM)|复旦发布多微调模型组合金融系统，包括金融知识问答,金融NLP任务，金融计算，金融检索问答|
 |金融|[InvestLM](https://github.com/AbaciNLP/InvestLM)|CFA考试，SEC， StackExchange投资问题等构建的金融指令微调LLaMA-65+|
-|金融|[HithinkGPT](https://news.10jqka.com.cn/20240102/c653710580.shtml)|同花顺发布金融大模型问财，覆盖查询，分析，对比，解读，预测等多个问题领域|
-|金融|[无涯Infinity](https://www.transwarp.cn/product/infinity)|星环科技发布的金融大模型|
-|金融|[妙想](https://ai.eastmoney.com/welcome)|东方财富自研金融大模型开放试用|
 |金融|[DeepMoney](https://sota.jiqizhixin.com/project/deepmoney)|基于yi-34b-200k使用金融研报进行微调|
 |编程|[Starcoder](https://github.com/bigcode-project/starcoder)|80种编程语言+Issue+Commit训练得到的编程大模型|
 |编程|[ChatSQL](https://github.com/cubenlp/ChatSQL)|基于ChatGLM实现NL2sql|
@@ -511,12 +499,25 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [mindShow](https://www.mindshow.fun/#/folder/slides)：免费+付费的PPT制作工具，自定义PPT模板还不够好
 
 ### 金融垂直领域
+- [Reportify](https://reportify.cc/): 金融领域公司公告，新闻，电话会的问答和摘要总结 
+- [Alpha派](https://alphalink-web.rabyte.cn/reading/home/my-focus): kimi加持会议纪要 + 投研问答 +各类金融资讯综合的一站式平台
+- [况客FOF智能投顾](https://pro.fofinvesting.com/workbench/home):基金大模型应用，基金投顾，支持nl2sql类的数据查询，和基金信息对比查询等
+- [HithinkGPT](https://news.10jqka.com.cn/20240102/c653710580.shtml):同花顺发布金融大模型问财，覆盖查询，分析，对比，解读，预测等多个问题领域
+- [FinChat.io](https://finchat.io/)：使用最新的财务数据，电话会议记录，季度和年度报告，投资书籍等进行训练
+- [TigerGPT](https://www.tigerbrokers.com.sg/market/gpt): 老虎证券，GPT4做个股分析，财报分析，投资知识问答
+- [ChatFund](https://chat.funddb.cn/)：韭圈儿发布的第一个基金大模型，看起来是做了多任务指令微调，和APP已有的数据功能进行了全方位的打通，从选基，到持仓分析等等
+- [ScopeChat](https://ai.0xscope.com/home):虚拟币应用，整个对话类似ChatLaw把工具组件嵌入了对话中
+- [AInvest](https://www.ainvest.com/chat?ref=producthunt)：个股投资，融合BI分析，广场讨论区（有演变成雪球热度指数的赶脚)
+- [无涯Infinity](https://www.transwarp.cn/product/infinity) :星环科技发布 的金融大模型
+- [曹植](http://www.datagrand.com/products/aigc/):达观发布金融大模型融合data2text等金融任务，赋能报告写作
+- [妙想](https://ai.eastmoney.com/welcome): 东方财富自研金融大模型开放试用,但似乎申请一直未通过
+- [恒生LightGPT](https://mp.weixin.qq.com/s/vLvxvi2nOywkjt7ppiFC2g):金融领域继续预训练+插件化设计
+- [bondGPT](https://www.ltxtrading.com/bondgpt): GPT4在细分债券市场的应用开放申请中
+- [IndexGPT](https://www.cnbc.com/2023/05/25/jpmorgan-develops-ai-investment-advisor.html):JPMorgan在研的生成式投资顾问
 - [Alpha](https://public.com/alpha?ref=supertools.therundown.ai): ChatGPT加持的金融app，支持个股信息查询，资产分析诊断，财报汇总etc 
 - [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
 - [Finalle.ai](https://finalle.ai/?ref=supertools.therundown.ai): 实时金融数据流接入大模型
-- [ScopeChat](https://ai.0xscope.com/home):虚拟币应用，整个对话类似ChatLaw把工具组件嵌入了对话中
-- [AInvest](https://www.ainvest.com/chat?ref=producthunt)：个股投资，融合BI分析，广场讨论区（有演变成雪球热度指数的赶脚)
-- [Reportify](https://reportify.cc/): 金融领域公司公告，新闻，电话会的问答和摘要总结 
+
 
 ### 私人助理&聊天
 - [Mr.-Ranedeer-](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor):  基于prompt和GPT-4的强大能力提供个性化学习环境，个性化出题+模型解答
@@ -994,6 +995,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Demonstration of InsightPilot: An LLM-Empowered Automated Data Exploration System
   - 金融
     - WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
+    - FinGPT: Open-Source Financial Large Language Models
     - FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design
     - AlphaFin：使用检索增强股票链框架对财务分析进行基准测试
     - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist
@@ -1133,30 +1135,35 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance 
 
 ### 领域模型SFT(domain_llms)
-- MedGPT: Medical Concept Prediction from Clinical Narratives
-- BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
-- Galactia：A Large Language Model for Science
-- PubMed GPT: A Domain-specific large language model for biomedical text :star:
-- BloombergGPT： A Large Language Model for Finance  
-- ChatDoctor：Medical Chat Model Fine-tuned on LLaMA Model using Medical Domain Knowledge
-- Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2] :star:
-- Augmented Large Language Models with Parametric Knowledge Guiding
-- XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
-- ChatLaw Open-Source Legal Large Language Model :star:
-- MediaGPT : A Large Language Model For Chinese Media
-- SMILE: Single-turn to Multi-turn Inclusive Language Expansion via ChatGPT for Mental Health Support
-- KITLM: Domain-Specific Knowledge InTegration into Language Models for Question Answering
-- FinVis-GPT: A Multimodal Large Language Model for Financial Chart Analysis
-- EcomGPT: Instruction-tuning Large Language Models with Chain-of-Task Tasks for E-commerce 
-- FinGPT: Open-Source Financial Large Language Models
-- TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT
-- CFGPT: Chinese Financial Assistant with Large Language Model
-- Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue
-- LLEMMA: AN OPEN LANGUAGE MODEL FOR MATHEMATICS
-- CFBenchmark: Chinese Financial Assistant Benchmark for Large Language Model
-- InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning
-- MEDITAB: SCALING MEDICAL TABULAR DATA PREDICTORS VIA DATA CONSOLIDATION, ENRICHMENT, AND REFINEMENT
-- PLLaMa: An Open-source Large Language Model for Plant Science
+- 金融
+  - BloombergGPT： A Large Language Model for Finance   
+  - FinVis-GPT: A Multimodal Large Language Model for Financial Chart Analysis
+  - CFGPT: Chinese Financial Assistant with Large Language Model
+  - CFBenchmark: Chinese Financial Assistant Benchmark for Large Language Model
+  - InvestLM: A Large Language Model for Investment using Financial Domain Instruction Tuning
+  - BBT-Fin: Comprehensive Construction of Chinese Financial Domain Pre-trained Language Model, Corpus and Benchmark
+  - PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance
+  - The FinBen: An Holistic Financial Benchmark for Large Language Models
+  - XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
+- 生物医疗
+  - MedGPT: Medical Concept Prediction from Clinical Narratives
+  - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
+  - PubMed GPT: A Domain-specific large language model for biomedical text :star:
+  - ChatDoctor：Medical Chat Model Fine-tuned on LLaMA Model using Medical Domain Knowledge
+  - Med-PaLM：Large Language Models Encode Clinical Knowledge[V1,V2] :star:
+  - SMILE: Single-turn to Multi-turn Inclusive Language Expansion via ChatGPT for Mental Health Support
+  - Zhongjing: Enhancing the Chinese Medical Capabilities of Large Language Model through Expert Feedback and Real-world Multi-turn Dialogue
+- 其他
+  - Galactia：A Large Language Model for Science
+  - Augmented Large Language Models with Parametric Knowledge Guiding
+  - ChatLaw Open-Source Legal Large Language Model :star:
+  - MediaGPT : A Large Language Model For Chinese Media
+  - KITLM: Domain-Specific Knowledge InTegration into Language Models for Question Answering
+  - EcomGPT: Instruction-tuning Large Language Models with Chain-of-Task Tasks for E-commerce 
+  - TableGPT: Towards Unifying Tables, Nature Language and Commands into One GPT
+  - LLEMMA: AN OPEN LANGUAGE MODEL FOR MATHEMATICS
+  - MEDITAB: SCALING MEDICAL TABULAR DATA PREDICTORS VIA DATA CONSOLIDATION, ENRICHMENT, AND REFINEMENT
+  - PLLaMa: An Open-source Large Language Model for Plant Science
 
 
 ### LLM超长文本处理 (long_input)
