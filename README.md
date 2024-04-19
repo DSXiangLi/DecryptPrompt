@@ -59,20 +59,21 @@
 |[CEVAL](https://cevalbenchmark.com/index.html#home)|中文知识评估，覆盖52个学科，机器评价主要为多项选择|
 |[CMMLU](https://github.com/haonan-li/CMMLU)|67个主题中文知识和推理能力评估，多项选择机器评估|
 |[LLMEval3](http://llmeval.com/)|复旦推出的知识问答榜单，涵盖大学作业和考题，题库尽可能来自非互联网避免模型作弊|
-|[QuantBench]()|AI驱动投资的量化榜单|
+|[FinancelQ](https://github.com/Duxiaoman-DI/XuanYuan/tree/main/FinanceIQ)|度小满开源的金融多项选择评估数据集|
+|[SWE-bench](https://www.swebench.com/)|基于真实github问题和PR的模型编程能力评估|
 
 ### 国外开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
+|[LLama3](https://llama.meta.com/llama3/)|Open Meta带着可商用开源的羊驼3模型来了，重回王座~|
+|[WizardLM-2-8x22B](https://github.com/tbressers/WizardLM-2-8x22B)|微软带着WizardLM-2也来了包括70B,7B 和8*22B|
 |[OpenSora](https://github.com/hpcaitech/Open-Sora)|没等来OpenAI却等来了OpenSora这个梗不错哦|
 |[GROK](https://x.ai/blog/grok-os)|马斯克开源Grok-1：3140亿参数迄今最大，权重架构全开放|
-|[Gemma](https://github.com/google/gemma_pytorch)|谷歌商场开源模型2B，7B免费商用，开源第一易主了|
-|[Mixtral](https://twitter.com/MistralAI/status/1733150512395038967)|法国“openai”开源基于MegaBlocks训练的MOE模型8*7B 32K|
+|[Gemma](https://github.com/google/gemma_pytorch)|谷歌商场开源模型2B，7B免费商用|
+|[Mixtral8*7B](https://twitter.com/MistralAI/status/1733150512395038967)|法国“openai”开源基于MegaBlocks训练的MOE模型8*7B 32K|
 |[Mistral7B](https://mistral.ai/news/announcing-mistral-7b/)|法国“openai”开源Mistral，超过llama2当前最好7B模型|
+|[Idefics2](https://github.com/huggingface/blog/blob/main/idefics2.md)|Hugging Face 推出 Idefics2 8B 多模态模型|
 |[Dolphin-2.2.1-Mistral-7B](https://opencompass.org.cn/model-detail/Dolphin-2.2.1-Mistral-7B)|基于Mistral7B使用dolphin数据集微调|
-|[LLama2](https://ai.meta.com/llama/)|Open Meta带着可商用开源的羊驼2模型来了~|
-|[LLaMA](https://github.com/facebookresearch/llama)    |  Meta开源指令微调LLM，规模70 亿到 650 亿不等  |
-|[WizardLM](https://github.com/nlpxucan/WizardLM)|微软新发布13B，登顶AlpacaEval开源模型Top3，使用ChatGPT对指令进行复杂度进化微调LLama2|
 |[Falcon](https://huggingface.co/tiiuae/falcon-40b)   |  Falcon由阿联酋技术研究所在超高质量1万亿Token上训练得到1B，7B，40B开源，免费商用！土豪们表示钱什么的格局小了 |
 |[Vicuna](https://github.com/lm-sys/FastChat)|Alpaca前成员等开源以LLama13B为基础使用ShareGPT指令微调的模型，提出了用GPT4来评测模型效果|
 |[OpenChat](https://github.com/imoneoi/openchat)|80k ShareGPT对话微调LLama-2 13B开源模型中的战斗机|
@@ -106,22 +107,15 @@
 |模型链接     | 模型描述    |
 | --- | --- |
 |[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代也出第二个版本了，提供了7B/13B Base和chat的版本|
-|[Baichuan](https://github.com/baichuan-inc/baichuan-7B)|百川智能开源7B大模型可商用免费|
 |[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
-|[ziya](https://huggingface.co/IDEA-CCNL/Ziya-LLaMA-7B-Reward)|IDEA研究院在7B/13B llama上继续预训练+SFT+RM+PPO+HFTT+COHFT+RBRS|
 |[Qwen1.5-MoE-A2.7B](https://modelscope.cn/models/qwen/Qwen1.5-MoE-A2.7B/summary)|Qwen推出MOE版本，推理更快|
 |[Qwen1.5](https://github.com/QwenLM/Qwen1.5)|通义千问升级1.5，支持32K上文|
-|[Qwen1-7B+14B+70B](https://github.com/QwenLM/Qwen-7B)|阿里开源，可商用，通义千问7B,14B,70B Base和chat模型|
 |[InternLM2 7B+20B](https://github.com/InternLM/InternLM)|商汤的书生模型2支持200K|
 |[Orion-14B-LongChat](https://github.com/OrionStarAI/Orion)|猎户星空多语言模型支持320K|
 |[ChatGLM3](https://github.com/THUDM/ChatGLM3)|ChatGLM3发布，支持工具调用等更多功能，不过泛化性有待评估|
-|[ChatGLM2](https://github.com/thudm/chatglm2-6b)|32K长文本，FlashAttention+Multi-Query Attenion的显存优化，更强推理能力，哈哈不过很多简单问题也硬要COT，中英平行能力似乎略有下降的ChatGLM2，但是免费商用！|
-|[ChatGLM](https://github.com/THUDM/ChatGLM-6B)   | 清华开源的、支持中英双语的对话语言模型，使用了代码训练，指令微调和RLHF。chatglm2支持超长文本，可免费商用啦！|
 |[Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)|浪潮发布Yuan2.0 2B，51B，102B|
 |[YI-200K](https://www.modelscope.cn/models/01ai/Yi-6B-200k/summary)|元一智能开源超长200K的6B，34B模型|
-|[YI](https://www.modelscope.cn/models/01ai/Yi-34B-Chat/summary)|元一智能开源34B，6B模型|
 |[XVERSE-256K](https://modelscope.cn/models/xverse/XVERSE-13B-256K/summary)|元象发布13B免费商用大模型，虽然很长但是|
-|[XVERSE](https://github.com/xverse-ai/XVERSE-65B)|元象发布13B免费商用大模型|
 |[DeepSeek-MOE](https://github.com/deepseek-ai/DeepSeek-MoE)|深度求索发布的DeepSeekMoE 16B Base和caht模型|
 |[DeepSeek](https://github.com/deepseek-ai/DeepSeek-LLM)|深度求索发布的7B，67B大模型|
 |[LLama2-chinese](https://github.com/FlagAlpha/Llama2-Chinese)|没等太久中文预训练微调后的llama2它来了~|
@@ -339,6 +333,7 @@
 |[Jina-Cobert](https://link.zhihu.com/?target=https%3A//huggingface.co/jinaai/jina-embeddings-v2-base-zh)|Jian AI开源中英德，8192 Token长文本Embedding|
 |[BGE-M3](https://github.com/FlagOpen/FlagEmbedding/blob/master/FlagEmbedding/BGE_M3/README.md)|智源开源多语言，稀疏+稠密表征，8192 Token长文本Embedding|
 |[BCE](https://github.com/netease-youdao/BCEmbedding/blob/master/README_zh.md)|网易开源更适配RAG任务的Embedding模型|
+|[PreFLMR-VIT-G](https://huggingface.co/LinWeizheDragon/PreFLMR_ViT-G)|剑桥开源多模态Retriever|
 |[openparse](https://github.com/Filimoa/open-parse?tab=readme-ov-file)|文本解析分块开源服务，先分析文档的视觉布局再进行切分|
 |[layout-parser](https://github.com/Layout-Parser/layout-parser)|准确度较高的开源OCR文档布局识别|
 |[AdvancedLiterateMachinery](https://github.com/AlibabaResearch/AdvancedLiterateMachinery)|阿里OCR团队的文档解析和图片理解|
@@ -358,6 +353,7 @@
 |HR-Agent: 类似HR和员工交互，支持多工具调用| https://github.com/stepanogil/autonomous-hr-chatbot|
 |BambooAI：数据分析Agent|https://github.com/pgalko/BambooAI|
 |AlphaCodium：通过Flow Engineering完成代码任务|https://github.com/Codium-ai/AlphaCodium|
+
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -536,8 +532,9 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档 
 
 ### 代码copilot & BI工具
-- [AutoDev](https://ide.unitmesh.cc/):  AI编程辅助工具
+- [OpenDevin](https://github.com/OpenDevin/OpenDevin):CognitionAI发布再SWE-Bench上编码能力有显著提升的智能体
 - [AlphaCodium](https://www.codium.ai/products/alpha-codium/): Flow Engineering提高代码整体通过率
+- [AutoDev](https://ide.unitmesh.cc/):  AI编程辅助工具
 - [Codium](https://www.codium.ai/): 开源的编程Copilot来啦
 - [Copilot](https://github.com/features/copilot): 要付费哟
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 
@@ -550,6 +547,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Kyligence Copilot](https://cn.kyligence.io/copilot/):Kyligence发布一站式指标平台的 AI 数智助理,支持对话式指标搜索，异动归因等等
 - [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 
 - [DataHerald](https://www.dataherald.com/): Text2SQL
+
 
 ### 多模态生成
 - [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota 
@@ -738,7 +736,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - In-Context Pretraining: Language Modeling Beyond Document Boundaries
 - LLAMA PRO: Progressive LLaMA with Block Expansion
 - QWEN TECHNICAL REPORT
-
+- Fewer Truncations Improve Language Modeling
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -799,6 +797,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
     - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
     - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
+    - Fine tuning LLMs for Enterprise: Practical Guidelines and Recommendations
 - Others
    - Crosslingual Generalization through Multitask Finetuning
    - Cross-Task Generalization via Natural Language Crowdsourcing Instructions
@@ -983,6 +982,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models
   - AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning
   - Agent Lumos: Unified and Modular Training for Open-Source Language Agents
+  - AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -1206,6 +1206,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LONGLORA: EFFICIENT FINE-TUNING OF LONGCONTEXT LARGE LANGUAGE MODELS
   - LongAlign: A Recipe for Long Context Alignment of Large Language Models
   - Data Engineering for Scaling Language Models to 128K Context
+  - MEGALODON: Efficient LLM Pretraining and Inference with Unlimited Context Length
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
@@ -1372,6 +1373,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
   - Large OCR Model:An Empirical Study of Scaling Law for OCR
   - ON THE HIDDEN MYSTERY OF OCR IN LARGE MULTIMODAL MODELS
+- PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers
 
 ### Timeseries LLM
 - TimeGPT-1
