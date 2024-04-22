@@ -338,6 +338,7 @@
 |[layout-parser](https://github.com/Layout-Parser/layout-parser)|准确度较高的开源OCR文档布局识别|
 |[AdvancedLiterateMachinery](https://github.com/AlibabaResearch/AdvancedLiterateMachinery)|阿里OCR团队的文档解析和图片理解|
 |[ragflow-deepdoc](https://github.com/infiniflow/ragflow)|ragflow提供的文档识别和解析能力|
+|[FireCrawl](https://rili.jin10.com/)|爬取url并生成markdown的神器|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
@@ -421,6 +422,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |英文预训练| RedPajama开源的复刻llama的预训练数据集，1.21万亿Token|https://github.com/togethercomputer/RedPajama-Data|
 |英文预训练| Cerebras基于RedPajama进行清洗去重后得到的高质量数据集, 6270亿Token|https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main/train|
 |英文预训练| Pile 22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
+|英文预训练|  Huggingface发布从CC清洗消重后的15T tokens 的英文web数据FineWeb|hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
 |通用预训练| UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
 |中文预训练| 智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
 |中文预训练| 里屋社区发起开源力量收集中文互联网语料集MNBVC目标是对标ChatGPT的40T|https://github.com/esbatmop/MNBVC|
@@ -439,6 +441,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |Tool-多工具| MOSS开源的知识搜索，文生图，计算器，解方程等4个插件的30万条多轮对话数据| https://github.com/OpenLMLab/MOSS#%E6%95%B0%E6%8D%AE|
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
 |长文本|清华开源的长文本对齐数据集LongAlign-10k|https://huggingface.co/datasets/THUDM/LongAlign-10k|
+|多模态-图表|MMC图表理解问答数据集|https://github.com/FuxiaoLiu/MMC|
 
 ## AIGC
 ### 搜索
@@ -513,7 +516,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Alpha](https://public.com/alpha?ref=supertools.therundown.ai): ChatGPT加持的金融app，支持个股信息查询，资产分析诊断，财报汇总etc 
 - [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
 - [Finalle.ai](https://finalle.ai/?ref=supertools.therundown.ai): 实时金融数据流接入大模型
-
+- [OpenBB](https://docs.openbb.co/terminal): 开源金融投资框架，[OpenBB+LLamaIndex](https://openbb.co/blog/breaking-barriers-with-openbb-and-llamaIndex?utm_source=talkingdev.uwl.me)主要是大模型+API的使用方案，通过自然语言进行金融数据查询，分析和可视化
 
 ### 私人助理&聊天
 - [Mr.-Ranedeer-](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor):  基于prompt和GPT-4的强大能力提供个性化学习环境，个性化出题+模型解答
@@ -1098,6 +1101,15 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - [网易为RAG设计的BCE Embedding技术报告](https://zhuanlan.zhihu.com/p/681370855)
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
+
+### 大模型图表理解和生成
+- MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning
+- ChartLlama: A Multimodal LLM for Chart Understanding and Generation
+- ChartAssisstant: A Universal Chart Multimodal Language Model via Chart-to-Table Pre-training and Multitask Instruction Tuning
+- ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning
+- ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning
+- MATCHA : Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering
+- UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning
 
 ### LLM+KG
 - 综述类
