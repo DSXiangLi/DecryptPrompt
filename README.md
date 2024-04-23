@@ -544,15 +544,18 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Copilot](https://github.com/features/copilot): 要付费哟
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 
 - [Codeium](https://codeium.com/): Copilot替代品，有免费版本支持各种plugin !
+- [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 
+
+### BI和DB工具
+- [TableAgent](https://tableagent.datacanvas.com/): 九章云极推出的数据分析，机器学习智能体
+- [SwiftAgent](https://digitforce.com/contact/)： 数势科技推出的数据分析智能体
+- [Kyligence Copilot](https://cn.kyligence.io/copilot/):Kyligence发布一站式指标平台的 AI 数智助理,支持对话式指标搜索，异动归因等等
 - [ai2sql](https://www.ai2sql.io/): text2sql老牌公司，相比sqltranslate功能更全面，支持SQL 语法检查、格式化和生成公式 
 - [chat2query](https://www.pingcap.com/chat2query-an-innovative-ai-powered-sql-generator-for-faster-insights/): text2sql  相比以上两位支持更自然的文本指令，以及更复杂的数据分析类的sql生成
 - [OuterBase](https://outerbase.com/): text2sql 设计风格很吸睛！电子表格结合mysql和dashboard，更适合数据分析宝宝
 - [Chat2DB](https://github.com/chat2db/Chat2DB):智能的通用数据库SQL客户端和报表工具
 - [ChatBI](https://sf.163.com/about#event):网易数帆发布ChatBI对话数据分析平台
-- [Kyligence Copilot](https://cn.kyligence.io/copilot/):Kyligence发布一站式指标平台的 AI 数智助理,支持对话式指标搜索，异动归因等等
-- [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 
 - [DataHerald](https://www.dataherald.com/): Text2SQL
-
 
 ### 多模态生成
 - [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota 
