@@ -453,6 +453,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [New Bing](https://www.bing.com/)：需要科学上网哦
 - [Perplexity.ai](https://www.perplexity.ai/): 同样需要科学上网，感觉比Bing做的更好的接入ChatGPT的神奇搜索引擎，在Bing之外还加入了相关推荐和追问 
 - [sider.ai](https://sider.ai/download): 支持多模型浏览器插件对话和多模态交互操作
+- [360AI搜索](https://so.360.com/): 360的AI搜索和秘塔有些像
+- [MyLens.AI](https://mylens.ai/): 支持时间轴，脑图等多种生成结果的检索增强
 #### 代码搜索
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
@@ -627,7 +629,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [The Complete Beginners Guide To Autonomous Agents](https://www.mattprd.com/p/the-complete-beginners-guide-to-autonomous-agents): Octane AI创始人 Matt Schlicht发表的关于人工智能代理的一些思考
 - [Large Language Models (in 2023)](https://mp.weixin.qq.com/s?__biz=MzA3MzI4MjgzMw==&mid=2650893355&idx=1&sn=5911ccc05abf5177bb71a47ea5a748c8&chksm=84e4a855b39321434a2a386c9f359979da99dd441e6cf8f88062f1e909ad8f5b9b24198d1edb&scene=0&xtrack=1) OpenAI科学家最新大模型演讲
 - [OpenAI闭门会议DevDay视频 - A survey of  Techniques for Maximizing LLM performance，无法翻墙可搜标题找笔记](https://www.youtube.com/watch?v=ahnGLM-RC1Y)
-- [月之暗面杨植麟专访,值得细读](https://mp.weixin.qq.com/s/KWMvsvI85QI-GIXeXizDsA)
+- [月之暗面杨植麟专访,值得细读](https://mp.weixin.qq.com/s/KWMvsvI85QI-GIXeXizDsA) :star:
+- [吴恩达最新演讲：AI Agent工作流的未来](https://www.36kr.com/p/2716201666246790)
 
 ## Papers
 ### paper List
@@ -764,7 +767,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Scaling Relationship on Learning Mathematical Reasoning with Large Language Models
     - WHEN SCALING MEETS LLM FINETUNING: THE EFFECT OF DATA, MODEL AND FINETUNING METHOD
 - 新对齐/微调方案
-   - WizardLM: Empowering Large Language Models to Follow Complex Instructions
+   - WizardLM: Empowering Large Language Models to Follow Complex Instructions :star:
    - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
    - Self-Alignment with Instruction Backtranslation :star:
    - Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
@@ -967,8 +970,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - AutoAgents: A Framework for Automatic Agent Generation
   - GitAgent: Facilitating Autonomous Agent with GitHub by Tool Extension
   - PreAct: Predicting Future in ReAct Enhances Agent's Planning Ability
-  - TOOLLLM: FACILITATING LARGE LANGUAGE MODELS TO MASTER 16000+ REAL-WORLD APIS
-   -AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls
+  - TOOLLLM: FACILITATING LARGE LANGUAGE MODELS TO MASTER 16000+ REAL-WORLD APIS :star:
+   -AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls 
   - AIOS: LLM Agent Operating System
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
@@ -985,7 +988,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models
   - AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning
   - Agent Lumos: Unified and Modular Training for Open-Source Language Agents
-  - AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -1001,12 +1003,18 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - FinGPT: Open-Source Financial Large Language Models
     - FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design
     - AlphaFin：使用检索增强股票链框架对财务分析进行基准测试
-    - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist
+    - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist :star:
     - Can Large Language Models Beat Wall Street? Unveiling the Potential of AI in stock Selection 
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
     - Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
+  - webagnet
+    - AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent
+    - A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis
+    - Mind2Web: Towards a Generalist Agent for the Web
+    - MiniWoB++ Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration
+    - WEBARENA: A REALISTIC WEB ENVIRONMENT FORBUILDING AUTONOMOUS AGENTS
   - 其他
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -1015,7 +1023,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - CarExpert: Leveraging Large Language Models for In-Car Conversational Question Answering
 - 评估
   - Evaluating Verifiability in Generative Search Engines
-  - Mind2Web: Towards a Generalist Agent for the Web
   - Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions
   - API-Bank: A Benchmark for Tool-Augmented LLMs
   - ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs
@@ -1039,6 +1046,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error
   - Empowering Large Language Model Agents through Action Learning
   - Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents
+  - OS-COPILOT: TOWARDS GENERALIST COMPUTER AGENTS WITH SELF-IMPROVEMENT
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -1092,6 +1100,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - T-RAG: Lessons from the LLM Trenches
 - RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
 - ARAGOG: Advanced RAG Output Grading
+- ActiveRAG: Revealing the Treasures of Knowledge via Active Learning
 - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
 - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
 - Learning to Rewrite Queries [传统方案参考]
