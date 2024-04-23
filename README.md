@@ -1018,6 +1018,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Mind2Web: Towards a Generalist Agent for the Web
     - MiniWoB++ Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration
     - WEBARENA: A REALISTIC WEB ENVIRONMENT FORBUILDING AUTONOMOUS AGENTS
+    - AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation
+    - WebLINX: Real-World Website Navigation with Multi-Turn Dialogue
+    - WebVoyager: Building an End-to-end Web Agent with Large Multimodal Models
   - 其他
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
