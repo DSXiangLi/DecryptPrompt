@@ -38,6 +38,7 @@
 - [解密prompt系列25. RLHF改良方案之样本标注：RLAIF & SALMON](https://cloud.tencent.com/developer/article/2398654)
 - [解密prompt系列26. 人类思考vs模型思考：抽象和发散思维](https://cloud.tencent.com/developer/article/2394120)
 - [解密prompt系列27. LLM对齐经验之如何降低通用能力损失](https://cloud.tencent.com/developer/article/2406888)
+- [解密Prompt系列28. LLM Agent之金融领域智能体：FinMem & FinAgent](https://cloud.tencent.com/developer/article/2411792)
 
 ## LLMS
 ### 模型评测
@@ -65,6 +66,7 @@
 ### 国外开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
+|[Phi-3-MINI-128K](https://huggingface.co/microsoft/Phi-3-mini-128k-instruct)|还是质量>数量的训练逻辑，微软的3B小模型|
 |[LLama3](https://llama.meta.com/llama3/)|Open Meta带着可商用开源的羊驼3模型来了，重回王座~|
 |[WizardLM-2-8x22B](https://github.com/tbressers/WizardLM-2-8x22B)|微软带着WizardLM-2也来了包括70B,7B 和8*22B|
 |[OpenSora](https://github.com/hpcaitech/Open-Sora)|没等来OpenAI却等来了OpenSora这个梗不错哦|
@@ -623,7 +625,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [奇绩创坛2023秋季路演日上创新LLM项目一览](https://zhuanlan.zhihu.com/p/669015906)
 - [The Power of Prompting微软首席科学家对prompt在垂直领域使用的观点](https://www.microsoft.com/en-us/research/blog/the-power-of-prompting/)
 - [The Bitter Lesson 强化学习之父总结的AI研究的经验教训](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
-
+- [LlamaIndex: Beyond RAG: Building Advanced Context-Augmented LLM Applications ](https://docs.google.com/presentation/d/1IWjo8bhoatWccCfGLYw_QhUI4zfF-MujN3ORIDCBIbc/edit?pli=1#slide=id.g2cbf00ff39c_0_173)
 
 ### 会议&访谈类
 - [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
@@ -634,6 +636,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [OpenAI闭门会议DevDay视频 - A survey of  Techniques for Maximizing LLM performance，无法翻墙可搜标题找笔记](https://www.youtube.com/watch?v=ahnGLM-RC1Y)
 - [月之暗面杨植麟专访,值得细读](https://mp.weixin.qq.com/s/KWMvsvI85QI-GIXeXizDsA) :star:
 - [吴恩达最新演讲：AI Agent工作流的未来](https://www.36kr.com/p/2716201666246790)
+- [LLM-Bootcamp 2023](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/)
 
 ## Papers
 ### paper List
@@ -741,6 +744,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - TUTEL: ADAPTIVE MIXTURE-OF-EXPERTS AT SCALE
 - Phi1- Textbooks Are All You Need  :star:
 - Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
+- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
 - Gemini: A Family of Highly Capable Multimodal Models
 - In-Context Pretraining: Language Modeling Beyond Document Boundaries
 - LLAMA PRO: Progressive LLaMA with Block Expansion
@@ -976,6 +980,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - TOOLLLM: FACILITATING LARGE LANGUAGE MODELS TO MASTER 16000+ REAL-WORLD APIS :star:
    -AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls 
   - AIOS: LLM Agent Operating System
+  - LLMCompiler An LLM Compiler for Parallel Function Calling
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
