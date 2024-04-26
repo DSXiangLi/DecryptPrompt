@@ -295,6 +295,7 @@
 | 工具描述   | 链接   | 
 | --- | --- | 
 |OpenAgents: 开源版ChatGPT-Plus搭建框架|https://github.com/xlang-ai/OpenAgents|
+|LangGraph：白盒话，可循环基于有向无环图的Agent工作流构建框架|https://langchain-ai.github.io/langgraph/|
 |langchain：LLM Agent框架|https://github.com/hwchase17/langchain|
 |llama index：LLM Agent框架|https://github.com/jerryjliu/llama_index|
 |Langroid: LLM Agent框架|https://github.com/langroid/langroid|
@@ -1051,13 +1052,14 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
   - War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars
   - More Agents Is All You Need
-- 自主学习和探索
+- 自主学习和探索进化
   - AppAgent: Multimodal Agents as Smartphone Users
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
   - LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error
   - Empowering Large Language Model Agents through Action Learning
   - Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents
   - OS-COPILOT: TOWARDS GENERALIST COMPUTER AGENTS WITH SELF-IMPROVEMENT
+  - 
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
