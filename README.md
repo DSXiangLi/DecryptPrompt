@@ -39,6 +39,7 @@
 - [解密prompt系列26. 人类思考vs模型思考：抽象和发散思维](https://cloud.tencent.com/developer/article/2394120)
 - [解密prompt系列27. LLM对齐经验之如何降低通用能力损失](https://cloud.tencent.com/developer/article/2406888)
 - [解密Prompt系列28. LLM Agent之金融领域智能体：FinMem & FinAgent](https://cloud.tencent.com/developer/article/2411792)
+- [解密Prompt系列29. LLM Agent之真实世界海量API解决方案：ToolLLM & AnyTool](https://cloud.tencent.com/developer/article/2415908)
 
 ## LLMS
 ### 模型评测
@@ -108,10 +109,11 @@
 ### 国内开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
-|[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代也出第二个版本了，提供了7B/13B Base和chat的版本|
-|[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
+|[DeepSeek-v2](https://modelscope.cn/models/deepseek-ai/DeepSeek-V2-Chat/summary)|深度求索最新发布的21B MOE超强大模型降低KV-cache推理更高效|
 |[Qwen1.5-MoE-A2.7B](https://modelscope.cn/models/qwen/Qwen1.5-MoE-A2.7B/summary)|Qwen推出MOE版本，推理更快|
 |[Qwen1.5](https://github.com/QwenLM/Qwen1.5)|通义千问升级1.5，支持32K上文|
+|[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代也出第二个版本了，提供了7B/13B Base和chat的版本|
+|[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
 |[InternLM2 7B+20B](https://github.com/InternLM/InternLM)|商汤的书生模型2支持200K|
 |[Intern-VL](https://github.com/OpenGVLab/InternVL)|最新多模态视觉大模型|
 |[Orion-14B-LongChat](https://github.com/OrionStarAI/Orion)|猎户星空多语言模型支持320K|
@@ -119,8 +121,6 @@
 |[Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)|浪潮发布Yuan2.0 2B，51B，102B|
 |[YI-200K](https://www.modelscope.cn/models/01ai/Yi-6B-200k/summary)|元一智能开源超长200K的6B，34B模型|
 |[XVERSE-256K](https://modelscope.cn/models/xverse/XVERSE-13B-256K/summary)|元象发布13B免费商用大模型，虽然很长但是|
-|[DeepSeek-MOE](https://github.com/deepseek-ai/DeepSeek-MoE)|深度求索发布的DeepSeekMoE 16B Base和caht模型|
-|[DeepSeek](https://github.com/deepseek-ai/DeepSeek-LLM)|深度求索发布的7B，67B大模型|
 |[LLama2-chinese](https://github.com/FlagAlpha/Llama2-Chinese)|没等太久中文预训练微调后的llama2它来了~|
 |[YuLan-chat2](https://github.com/RUC-GSAI/YuLan-Chat)|高瓴人工智能基于Llama-2中英双语继续预训练+指令微调/对话微调|
 |[BlueLM](https://github.com/vivo-ai-lab/BlueLM)|Vivo人工智能实验室开源大模型|
@@ -317,6 +317,7 @@
 |Anakin：和Coze类似的Agent定制应用，插件支持较少但workflow使用起来更简洁| r|
 |TaskingAI：API-Oriented的类似langchain的大模型应用框架|https://www.tasking.ai/|
 |TypeChat：微软推出的Schema Engineering风格的应用框架|https://github.com/microsoft/TypeChat|
+|DSPy：把稳定性低的prompt优化为参数化和模板化的提示技术|https://github.com/stanfordnlp/dspy|
 
 ### Agent Bot [托拉拽中间层]
 |应用|链接|
@@ -361,7 +362,9 @@
 |HR-Agent: 类似HR和员工交互，支持多工具调用| https://github.com/stepanogil/autonomous-hr-chatbot|
 |BambooAI：数据分析Agent|https://github.com/pgalko/BambooAI|
 |AlphaCodium：通过Flow Engineering完成代码任务|https://github.com/Codium-ai/AlphaCodium|
-
+|REOR: AI驱动的笔记软件|https://github.com/reorproject/reor|
+|Vanna.AI: chat with sql database|https://vanna.ai/|
+|融合了图逻辑和LLM的高效爬虫|https://scrapegraph-doc.onrender.com/|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
