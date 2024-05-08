@@ -113,6 +113,7 @@
 |[Qwen1.5-MoE-A2.7B](https://modelscope.cn/models/qwen/Qwen1.5-MoE-A2.7B/summary)|Qwen推出MOE版本，推理更快|
 |[Qwen1.5](https://github.com/QwenLM/Qwen1.5)|通义千问升级1.5，支持32K上文|
 |[InternLM2 7B+20B](https://github.com/InternLM/InternLM)|商汤的书生模型2支持200K|
+|[Intern-VL](https://github.com/OpenGVLab/InternVL)|最新多模态视觉大模型|
 |[Orion-14B-LongChat](https://github.com/OrionStarAI/Orion)|猎户星空多语言模型支持320K|
 |[ChatGLM3](https://github.com/THUDM/ChatGLM3)|ChatGLM3发布，支持工具调用等更多功能，不过泛化性有待评估|
 |[Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)|浪潮发布Yuan2.0 2B，51B，102B|
@@ -323,6 +324,7 @@
 |Dify|https://dify.ai/zh|
 |Coze|https://www.coze.com/|
 |Anakin|https://app.anakin.ai/discover|
+|FLowise|https://github.com/FlowiseAI/Flowise/blob/main/README-ZH.md|
 
 ### RAG配套工具
 |工具|描述|
@@ -342,10 +344,12 @@
 |[AdvancedLiterateMachinery](https://github.com/AlibabaResearch/AdvancedLiterateMachinery)|阿里OCR团队的文档解析和图片理解|
 |[ragflow-deepdoc](https://github.com/infiniflow/ragflow)|ragflow提供的文档识别和解析能力|
 |[FireCrawl](https://rili.jin10.com/)|爬取url并生成markdown的神器|
+|[spRAG](https://github.com/SuperpoweredAI/spRAG)|注入上下文表征，和自动组合上下文提高完整性|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
 | --- | --- | 
+|GPT4v-ACT：基于JS DOM识别网页元素，服务于各类多模态webagent|https://github.com/ddupont808/GPT-4V-Act?tab=readme-ov-file|
 |Deep-KE：基于LLM对数据进行智能解析实现知识抽取|https://github.com/zjunlp/DeepKE|
 |IncarnaMind：多文档RAG方案，动态chunking的方案可以借鉴|https://github.com/junruxiong/IncarnaMind|
 |Vectra：平台化的LLM Agent搭建方案，从索引构建，内容召回排序，到事实检查的LLM生成|https://vectara.com/tour-vectara/|
@@ -1280,6 +1284,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Codeforces as an Educational Platform for Learning Programming in Digitalization
 - Competition-Level Code Generation with AlphaCode
 - CODECHAIN: TOWARDS MODULAR CODE GENERATION THROUGH CHAIN OF SELF-REVISIONS WITH REPRESENTATIVE SUB-MODULES
+- AI Coders Are Among Us: Rethinking Programming Language Grammar Towards Efficient Code Generation
 
 ### 降低模型幻觉 (reliability)
 - Survey 
@@ -1388,6 +1393,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Causality-aware Concept Extraction based on Knowledge-guided Prompting
 - LARGE LANGUAGE MODELS AS OPTIMIZERS
 - Prompts As Programs: A Structure-Aware Approach to Efficient Compile-Time Prompt Optimization
+- Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
