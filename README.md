@@ -465,6 +465,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [sider.ai](https://sider.ai/download): 支持多模型浏览器插件对话和多模态交互操作
 - [360AI搜索](https://so.360.com/): 360的AI搜索和秘塔有些像
 - [MyLens.AI](https://mylens.ai/): 支持时间轴，脑图等多种生成结果的检索增强
+- [Globe Explorer](https://explorer.globe.engineer/):搜索query相关的知识并构建类似知识图谱的结构返回图片信息
+- [天工AI搜索](https://www.tiangong.cn/?channel=bing&msclkid=3f5eebf016751939acb98dcd75d4dc02)：和You相同的三种模式检索增强
 #### 代码搜索
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
@@ -1066,7 +1068,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Empowering Large Language Model Agents through Action Learning
   - Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents
   - OS-COPILOT: TOWARDS GENERALIST COMPUTER AGENTS WITH SELF-IMPROVEMENT
-  - 
+  - LLAMA RIDER: SPURRING LARGE LANGUAGE MODELS TO EXPLORE THE OPEN WORLD
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -1165,6 +1167,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [Shaping the future of advanced robotics](https://deepmind.google/discover/blog/shaping-the-future-of-advanced-robotics/)
 - AUTORT: EMBODIED FOUNDATION MODELS FOR LARGE SCALE ORCHESTRATION OF ROBOTIC AGENTS
 - ROBOTIC TASK GENERALIZATION VIA HINDSIGHT TRAJECTORY SKETCHES
+- ALFWORLD: ALIGNING TEXT AND EMBODIED ENVIRONMENTS FOR INTERACTIVE LEARNING
+- MINEDOJO: Building Open-Ended  Embodied Agents with Internet-Scale Knowledge
 
 ### 预训练数据(pretrain_data)
 - DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining
