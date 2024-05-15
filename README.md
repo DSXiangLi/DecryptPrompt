@@ -607,6 +607,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Large Language Models: Application through Production](https://github.com/databricks-academy/large-language-models): 大模型应用Edx出品的课程
 - [Minbpe](https://github.com/karpathy/minbpe): Karpathy大佬离职openai后整了个分词器的教学代码
 - [LLM-VIZ](https://github.com/bbycroft/llm-viz):  大模型结构可视化支持GPT系列
+- [我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译]](https://baoyu.io/translations/prompt-engineering/how-i-won-singapores-gpt-4-prompt-engineering-competition): 干活很多的prompt技巧
 
 ### 书籍和博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -1036,6 +1037,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation
     - WebLINX: Real-World Website Navigation with Multi-Turn Dialogue
     - WebVoyager: Building an End-to-end Web Agent with Large Multimodal Models
+    - CogAgent: A Visual Language Model for GUI Agents
   - 其他
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -1239,6 +1241,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Learning to Compress Prompts with Gist Tokens
   - Unlocking Context Constraints of LLMs: Enhancing Context Efficiency of LLMs with Self-Information-Based Content Filtering
   - LongAgent: Scaling Language Models to 128k Context through Multi-Agent Collaboration
+  - PCToolkit: A Unified Plug-and-Play Prompt Compression Toolkit of Large Language Models
 - 训练和模型架构方案
   - Never Train from Scratch: FAIR COMPARISON OF LONGSEQUENCE MODELS REQUIRES DATA-DRIVEN PRIORS
   - Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon
