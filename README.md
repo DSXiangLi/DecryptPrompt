@@ -115,7 +115,7 @@
 |[Baichuan2](https://github.com/baichuan-inc/Baichuan2)|百川第二代也出第二个版本了，提供了7B/13B Base和chat的版本|
 |[ziya2](https://huggingface.co/IDEA-CCNL/Ziya2-13B-Base)|基于Llama2训练的ziya2它终于训练完了|
 |[InternLM2 7B+20B](https://github.com/InternLM/InternLM)|商汤的书生模型2支持200K|
-|[Intern-VL](https://github.com/OpenGVLab/InternVL)|最新多模态视觉大模型|
+|[InternLM-XComposer](https://github.com/InternLM/InternLM-XComposer)|最新多模态视觉大模型|
 |[Orion-14B-LongChat](https://github.com/OrionStarAI/Orion)|猎户星空多语言模型支持320K|
 |[ChatGLM3](https://github.com/THUDM/ChatGLM3)|ChatGLM3发布，支持工具调用等更多功能，不过泛化性有待评估|
 |[Yuan-2.0](https://github.com/IEIT-Yuan/Yuan-2.0)|浪潮发布Yuan2.0 2B，51B，102B|
@@ -264,7 +264,7 @@
 |Megatron-LM：主流LLM预训练框架|https://github.com/NVIDIA/Megatron-LM|
 |TradingGym：参考openai gym的股票交易强化学习模拟器|https://github.com/astrologos/tradinggym|
 |TradeMaster: 量化交易RL训练框架|https://github.com/TradeMaster-NTU/TradeMaster|
-
+|REFT：大模型表征微调框架|https://github.com/stanfordnlp/pyreft|
 
 ### Auto/Multi Agent
 | 工具描述   | 链接   | 
@@ -318,6 +318,7 @@
 |TaskingAI：API-Oriented的类似langchain的大模型应用框架|https://www.tasking.ai/|
 |TypeChat：微软推出的Schema Engineering风格的应用框架|https://github.com/microsoft/TypeChat|
 |DSPy：把稳定性低的prompt优化为参数化和模板化的提示技术|https://github.com/stanfordnlp/dspy|
+|PipeCAT：加入语音的Agent框架|https://github.com/pipecat-ai/pipecat/tree/main|
 
 ### Agent Bot [托拉拽中间层]
 |应用|链接|
@@ -593,6 +594,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [AI-Bot各类工具导航](https://ai-bot.cn/#term-15)
 
 ### Prompt和其他教程类
+- [Prompt Guide 101](https://prompt-guide.netlify.app/guide/chapter-1.html): 分任务的prompt编写指南
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
 - [PromptPerfect](https://promptperfect.jinaai.cn/):用魔法打败魔法，输入原始提示词，模型进行定向优化，试用后我有点沉默了，可以定向支持不同使用prompt的模型如Difussion，ChatGPT， Dalle等
 - [ClickPrompt](https://www.clickprompt.org/zh-CN/): 为各种prompt加持的工具生成指令包括Difussion，chatgptdeng, 需要OpenAI Key 
@@ -637,6 +639,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [The Power of Prompting微软首席科学家对prompt在垂直领域使用的观点](https://www.microsoft.com/en-us/research/blog/the-power-of-prompting/)
 - [The Bitter Lesson 强化学习之父总结的AI研究的经验教训](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 - [LlamaIndex: Beyond RAG: Building Advanced Context-Augmented LLM Applications ](https://docs.google.com/presentation/d/1IWjo8bhoatWccCfGLYw_QhUI4zfF-MujN3ORIDCBIbc/edit?pli=1#slide=id.g2cbf00ff39c_0_173)
+- [OpenAi Model-Spec](https://cdn.openai.com/spec/model-spec-2024-05-08.html):OpenAI发布的第一版模型规范指南，提出了模型理想和现实约束之间的平衡
 
 ### 会议&访谈类
 - [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
@@ -738,6 +741,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning
   - Parameter-Efficient Transfer Learning for NLP
   - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
+-  Representation Tuning
+  - ReFT: Representation Finetuning for Language Models
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -955,6 +960,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Direct Preference Optimization: Your Language Model is Secretly a Reward Model
   - HIR The Wisdom of Hindsight Makes Language Models Better Instruction Followers
   - Aligner: Achieving Efficient Alignment through Weak-to-Strong Correction
+  - A Minimaximalist Approach to Reinforcement Learning from Human Feedback
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
