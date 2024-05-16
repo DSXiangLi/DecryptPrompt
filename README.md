@@ -345,7 +345,7 @@
 |[layout-parser](https://github.com/Layout-Parser/layout-parser)|准确度较高的开源OCR文档布局识别|
 |[AdvancedLiterateMachinery](https://github.com/AlibabaResearch/AdvancedLiterateMachinery)|阿里OCR团队的文档解析和图片理解|
 |[ragflow-deepdoc](https://github.com/infiniflow/ragflow)|ragflow提供的文档识别和解析能力|
-|[FireCrawl](https://rili.jin10.com/)|爬取url并生成markdown的神器|
+|[FireCrawl](https://www.firecrawl.dev/playground?url=https%3A%2F%2Frili.jin10.com%2F&mode=crawl)|爬取url并生成markdown的神器|
 |[spRAG](https://github.com/SuperpoweredAI/spRAG)|注入上下文表征，和自动组合上下文提高完整性|
 
 ### 其他垂直领域Agent
