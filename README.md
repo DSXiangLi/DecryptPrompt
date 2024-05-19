@@ -1,4 +1,4 @@
-# DecryptPrompt
+ # DecryptPrompt
 > 如果LLM的突然到来让你感到沮丧，不妨读下主目录的Choose Your Weapon Survival Strategies for Depressed AI Academics
 持续更新以下内容，Star to keep updated~
 
@@ -323,10 +323,13 @@
 ### Agent Bot [托拉拽中间层]
 |应用|链接|
 | --- | --- | 
+|Coze：免费|https://www.coze.com/|
 |Dify|https://dify.ai/zh|
-|Coze|https://www.coze.com/|
 |Anakin|https://app.anakin.ai/discover|
 |FLowise|https://github.com/FlowiseAI/Flowise/blob/main/README-ZH.md|
+|Microsoft Power Automate|https://www.microsoft.com/zh-cn/power-platform/products/power-automate|
+|Mind Studio：有限使用|https://youai.ai/|
+|QuestFlow：付费|https://www.questflow.ai/|
 
 ### RAG配套工具
 |工具|描述|
@@ -367,6 +370,7 @@
 |REOR: AI驱动的笔记软件|https://github.com/reorproject/reor|
 |Vanna.AI: chat with sql database|https://vanna.ai/|
 |融合了图逻辑和LLM的高效爬虫|https://scrapegraph-doc.onrender.com/|
+|OpenAct：Adapt-AI推出了的和桌面GUI交互的Agent框架|https://github.com/OpenAdaptAI/OpenAdapt|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -804,6 +808,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
    - Generative Representational Instruction Tuning
    - InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions
+   - The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions
 - 指令数据生成
   - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
   - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
@@ -866,6 +871,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - From Complex to Simple: Unraveling the Cognitive Tree for Reasoning with Small Language Models
     - Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models
     - LARGE LANGUAGE MODELS AS OPTIMIZERS
+    - Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -1035,6 +1041,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
     - Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
+    - Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents
+    - Integrating Chemistry Knowledge in Large Language Models via Prompt Engineering
   - webagnet
     - AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent
     - A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis
@@ -1046,6 +1054,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - WebVoyager: Building an End-to-end Web Agent with Large Multimodal Models
     - CogAgent: A Visual Language Model for GUI Agents
   - 其他
+    - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
     - PointLLM: Empowering Large Language Models to Understand Point Clouds
@@ -1080,6 +1089,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LLAMA RIDER: SPURRING LARGE LANGUAGE MODELS TO EXPLORE THE OPEN WORLD
   - PAST AS A GUIDE: LEVERAGING RETROSPECTIVE LEARNING FOR PYTHON CODE COMPLETION
   - AutoGuide: Automated Generation and Selection of State-Aware Guidelines for Large Language Model Agents
+  - A Survey on Self-Evolution of Large Language Models
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -1134,6 +1144,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
 - ARAGOG: Advanced RAG Output Grading
 - ActiveRAG: Revealing the Treasures of Knowledge via Active Learning
+- RAFT: Adapting Language Model to Domain Specific RAG
 - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
 - Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
 - Learning to Rewrite Queries [传统方案参考]
@@ -1180,6 +1191,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - ROBOTIC TASK GENERALIZATION VIA HINDSIGHT TRAJECTORY SKETCHES
 - ALFWORLD: ALIGNING TEXT AND EMBODIED ENVIRONMENTS FOR INTERACTIVE LEARNING
 - MINEDOJO: Building Open-Ended  Embodied Agents with Internet-Scale Knowledge
+- LEGENT: Open Platform for Embodied Agents
 
 ### 预训练数据(pretrain_data)
 - DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining
@@ -1399,6 +1411,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - LM-Cocktail: Resilient Tuning of Language Models via Model Merging
 - SLICEGPT: COMPRESS LARGE LANGUAGE MODELS BY DELETING ROWS AND COLUMNS
 - Checkpoint Merging via Bayesian Optimization in LLM Pretrainin
+- Arcee's MergeKit: A Toolkit for Merging Large Language Models
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
