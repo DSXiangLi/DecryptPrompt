@@ -351,6 +351,8 @@
 |[FireCrawl](https://www.firecrawl.dev/playground?url=https%3A%2F%2Frili.jin10.com%2F&mode=crawl)|爬取url并生成markdown的神器|
 |[Jina-Reader](https://github.com/jina-ai/reader)|把网页转换成模型可读的格式|
 |[spRAG](https://github.com/SuperpoweredAI/spRAG)|注入上下文表征，和自动组合上下文提高完整性|
+|[farfalle](https://github.com/rashadphz/farfalle/tree/main)|本地搭载的RAG引擎|
+|[Verba](https://github.com/weaviate/Verba)|本地搭载的RAG引擎|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
