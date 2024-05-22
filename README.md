@@ -319,6 +319,10 @@
 |TypeChat：微软推出的Schema Engineering风格的应用框架|https://github.com/microsoft/TypeChat|
 |DSPy：把稳定性低的prompt优化为参数化和模板化的提示技术|https://github.com/stanfordnlp/dspy|
 |PipeCAT：加入语音的Agent框架|https://github.com/pipecat-ai/pipecat/tree/main|
+|Khoj: 桌面Agent的个人助手可本地部署|https://docs.khoj.dev/|
+|farfalle：本地搭载的RAG引擎|https://github.com/rashadphz/farfalle/tree/main|
+|Verba：本地搭载的RAG引擎|https://github.com/weaviate/Verba|
+
 
 ### Agent Bot [托拉拽中间层]
 |应用|链接|
@@ -338,6 +342,7 @@
 |[RapidAPI](https://rapidapi.com/hub) |统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|
 |[PyTesseract](https://github.com/tesseract-ocr/tesseract)|OCR解析服务|
 |[EasyOCR](https://github.com/JaidedAI/EasyOCR)|确实使用很友好的OCR服务|
+|[surya](https://github.com/VikParuchuri/surya)|OCR服务|
 |[Vary](https://github.com/tesseract-ocr/tesseract)|旷视多模态大模型pdf直接转Markdown|
 |[LLamaParse](https://github.com/run-llama/llama_parse?tab=readme-ov-file)|LLamaIndex提供的PDF解析服务，每天免费1000篇|
 |[Jina-Cobert](https://link.zhihu.com/?target=https%3A//huggingface.co/jinaai/jina-embeddings-v2-base-zh)|Jian AI开源中英德，8192 Token长文本Embedding|
@@ -351,8 +356,7 @@
 |[FireCrawl](https://www.firecrawl.dev/playground?url=https%3A%2F%2Frili.jin10.com%2F&mode=crawl)|爬取url并生成markdown的神器|
 |[Jina-Reader](https://github.com/jina-ai/reader)|把网页转换成模型可读的格式|
 |[spRAG](https://github.com/SuperpoweredAI/spRAG)|注入上下文表征，和自动组合上下文提高完整性|
-|[farfalle](https://github.com/rashadphz/farfalle/tree/main)|本地搭载的RAG引擎|
-|[Verba](https://github.com/weaviate/Verba)|本地搭载的RAG引擎|
+|[knowledge-graph](https://github.com/rahulnyk/knowledge_graph)|自动知识图谱构建工具|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
