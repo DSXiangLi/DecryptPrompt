@@ -1096,6 +1096,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - PAST AS A GUIDE: LEVERAGING RETROSPECTIVE LEARNING FOR PYTHON CODE COMPLETION
   - AutoGuide: Automated Generation and Selection of State-Aware Guidelines for Large Language Model Agents
   - A Survey on Self-Evolution of Large Language Models
+  - ExpeL: LLM Agents Are Experiential Learners
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
