@@ -40,6 +40,7 @@
 - [解密prompt系列27. LLM对齐经验之如何降低通用能力损失](https://cloud.tencent.com/developer/article/2406888)
 - [解密Prompt系列28. LLM Agent之金融领域智能体：FinMem & FinAgent](https://cloud.tencent.com/developer/article/2411792)
 - [解密Prompt系列29. LLM Agent之真实世界海量API解决方案：ToolLLM & AnyTool](https://cloud.tencent.com/developer/article/2415908)
+- [解密Prompt系列30. LLM Agent之互联网冲浪智能体们](https://cloud.tencent.com/developer/article/2419768)
 
 ## LLMS
 ### 模型评测
@@ -569,6 +570,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Fauxpilot](https://github.com/fauxpilot/fauxpilot): copilot本地开源替代 
 - [Codeium](https://codeium.com/): Copilot替代品，有免费版本支持各种plugin !
 - [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 
+- [Screenshot-to-code](https://github.com/abi/screenshot-to-code): 从网页直接生成HTML代码
 
 ### BI和DB工具
 - [TableAgent](https://tableagent.datacanvas.com/): 九章云极推出的数据分析，机器学习智能体
@@ -591,6 +593,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Magnific.ai](https://magnific.ai/): 两个人的团队做出的AI图片精修师
 - [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
 - [Gamma](https://gamma.app/create/generate): PPT制作神器，ProductHunt月度排名Number1
+- [Civital.com](https://civitai.com/images): AI图片共享网站同时支持多模型的图片生成
+- [IdeoGram.ai](https://ideogram.ai/signup): Google Bran研究员创立的图片生成，Md平替
 
 ## Resources
 ### GPTs应用导航
