@@ -216,7 +216,7 @@
 |数学|[MammoTH](https://tiger-ai-lab.github.io/MAmmoTH/)|通过COT+POT构建了MathInstruct数据集微调llama在OOD数据集上超越了WizardLM|
 |数学|[MetaMath](https://github.com/meta-math/MetaMath)|模型逆向思维解决数学问题，构建了新的MetaMathQA微调llama2|
 |交通|[TransGPT](https://github.com/DUOMO/TransGPT)|LLama-7B+34.6万领域预训练+5.8万条领域指令对话微调（来自文档问答）|
-|交通|[TrafficGPT](https://github.com/lijlansg/TrafficGPT/tree/main)|ChatGPT+Prompt实现规划，调用交通流量领域专业TFM模型，TFM负责数据分析，任务执行，可视化等操作|
+|交通|[TrafficGPT](https://github.com/lijlansg/TrafficGPT/tree/main)|ChatGPT+Prompt实现规划，调用交通流量领域专业TFM模型，TFM负责数据分析，任务执行，可视化等操|
 |科技|[Mozi](https://github.com/gmftbyGMFTBY/science-llm)|红睡衣预训练+论文QA数据集 + ChatGPT扩充科研对话数据|
 |天文|[StarGLM](https://github.com/Yu-Yang-Li/StarGLM)|天文知识指令微调，项目进行中后期考虑天文二次预训练+KG|
 |写作|[阅文-网文大模型介绍](https://www.zhihu.com/question/613058630)|签约作者内测中，主打的内容为打斗场景，剧情切换，环境描写，人设，世界观等辅助片段的生成|
@@ -480,6 +480,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [MyLens.AI](https://mylens.ai/): 支持时间轴，脑图等多种生成结果的检索增强
 - [Globe Explorer](https://explorer.globe.engineer/):搜索query相关的知识并构建类似知识图谱的结构返回图片信息
 - [天工AI搜索](https://www.tiangong.cn/?channel=bing&msclkid=3f5eebf016751939acb98dcd75d4dc02)：和You相同的三种模式检索增强
+- [MiKU搜索](https://hellomiku.com/?ref=aihub.cn)：更多面向事件的搜索
 #### 代码搜索
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
@@ -496,6 +497,10 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [ChatPDF](https://chat2doc.cn/): 国内的ChatPDF, 上传pdf后，会给出文章的Top5可能问题，然后对话式从文档中进行问答和检索，10s读3万字
 - [AlphaBox](https://www.alphabox.top/): 从个人文件夹管理出发的文档问答工具
 
+### AI内容运营
+- [Miracleplus](https://news.miracleplus.com/feeds?tab=hot): 全AI Agent负责运营的AI内容网站
+- [goatstack](https://goatstack.ai/): 可以自定义的论文订阅网站，每天有AI筛选并总结相关论文并推送给用户
+
 ### 论文研究: 日度更新，观点总结，
 - [SCISPACE](https://typeset.io/): 论文研究的白月光，融合了全库搜索问答，以及个人上传PDF构建知识库问答。同样支持相关论文发现，和论文划词解读。并且解读内容可以保存到notebook中方便后续查找，可以说是产品和算法强强联合了。
 - [Consensus](https://consensus.app/search/): AI加持的论文搜素，多论文总结，观点对比工具。产品排名巨高，但个人感觉搜索做的有提升空间
@@ -510,7 +515,6 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 ### 写作效率工具类
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作 
 - [研墨AI](https://www.yanmoai.com/): 面向咨询领域的内容创作应用
-- [Miracleplus](https://news.miracleplus.com/feeds?tab=hot): 全AI Agent负责运营的Hacker News网站
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了
 - [范文喵写作](https://ai.wolian.chat/openmao/#/): 范文喵写作工具，选题，大纲，写作全流程 
 - [WriteSonic](https://app.writesonic.com/)：AI写作，支持对话和定向创作如广告文案，商品描述, 支持Web检索是亮点，支持中文 
@@ -544,6 +548,11 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
 - [Finalle.ai](https://finalle.ai/?ref=supertools.therundown.ai): 实时金融数据流接入大模型
 - [OpenBB](https://docs.openbb.co/terminal): 开源金融投资框架，[OpenBB+LLamaIndex](https://openbb.co/blog/breaking-barriers-with-openbb-and-llamaIndex?utm_source=talkingdev.uwl.me)主要是大模型+API的使用方案，通过自然语言进行金融数据查询，分析和可视化
+
+### 法律垂直场景
+- [chatlaw](https://chatlaw.cloud/): 法律咨询助手
+- [casetext](https://casetext.com/): 海外的chatLaw
+- [MeCheck](https://powerlaw.ai/mecheck): 幂律智能的合同审查
 
 ### 私人助理&聊天
 - [Mr.-Ranedeer-](https://github.com/JushBJJ/Mr.-Ranedeer-AI-Tutor):  基于prompt和GPT-4的强大能力提供个性化学习环境，个性化出题+模型解答
@@ -607,6 +616,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Awesome AI Agents：Agent应用收藏](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file)
 - [GPT Demo](https://gpt4demo.com/)
 - [AI-Bot各类工具导航](https://ai-bot.cn/#term-15)
+- [AI-Search: AI应用检索网站](https://ai-search.io/)
 
 ### Prompt和其他教程类
 - [Prompt Guide 101](https://prompt-guide.netlify.app/guide/chapter-1.html): 分任务的prompt编写指南
@@ -978,6 +988,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - HIR The Wisdom of Hindsight Makes Language Models Better Instruction Followers
   - Aligner: Achieving Efficient Alignment through Weak-to-Strong Correction
   - A Minimaximalist Approach to Reinforcement Learning from Human Feedback
+  - PANDA: Preference Adaptation for Enhancing Domain-Specific Abilities of LLMs
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -1047,6 +1058,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - AlphaFin：使用检索增强股票链框架对财务分析进行基准测试
     - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist :star:
     - Can Large Language Models Beat Wall Street? Unveiling the Potential of AI in stock Selection 
+    - ENHANCING ANOMALY DETECTION IN FINANCIAL MARKETS WITH AN LLM-BASED MULTI-AGENT FRAMEWORK
+    - TRADINGGPT: MULTI-AGENT SYSTEM WITH LAYERED MEMORY AND DISTINCT CHARACTERS FOR ENHANCED FINANCIAL TRADING PERFORMANCE
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -1101,6 +1114,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - AutoGuide: Automated Generation and Selection of State-Aware Guidelines for Large Language Model Agents
   - A Survey on Self-Evolution of Large Language Models
   - ExpeL: LLM Agents Are Experiential Learners
+  - ReAct Meets ActRe: When Language Agents Enjoy Training Data Autonomy
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
