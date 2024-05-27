@@ -159,6 +159,7 @@
 | --- | --- |
 |[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai的Playground支持他们自家的PPLX模型和众多SOTA大模型，Gemma也支持了|
 |[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot超长文本LLM 可输入20W上文, 文档总结无敌 |
+|[Wanzhi](https://www.wanzhi.com/)|YI模型基座的应用，支持OCR文档识别|
 |[跃问](https://stepchat.cn/chats/new)|阶跃星辰推出的同样擅长长文本的大模型|
 |[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
 |[文心一言](https://yiyan.baidu.com/welcome)|百度|
@@ -358,6 +359,7 @@
 |[Jina-Reader](https://github.com/jina-ai/reader)|把网页转换成模型可读的格式|
 |[spRAG](https://github.com/SuperpoweredAI/spRAG)|注入上下文表征，和自动组合上下文提高完整性|
 |[knowledge-graph](https://github.com/rahulnyk/knowledge_graph)|自动知识图谱构建工具|
+|[Marker-API](https://github.com/adithya-s-k/marker-api)|PDF转Markdwon服务|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
@@ -376,8 +378,12 @@
 |AlphaCodium：通过Flow Engineering完成代码任务|https://github.com/Codium-ai/AlphaCodium|
 |REOR: AI驱动的笔记软件|https://github.com/reorproject/reor|
 |Vanna.AI: chat with sql database|https://vanna.ai/|
-|融合了图逻辑和LLM的高效爬虫|https://scrapegraph-doc.onrender.com/|
+|ScrapeGraph：融合了图逻辑和LLM|https://scrapegraph-doc.onrender.com/|
 |OpenAct：Adapt-AI推出了的和桌面GUI交互的Agent框架|https://github.com/OpenAdaptAI/OpenAdapt|
+|LaVague：WebAgent框架，偏低层指令交互性把指令转换成Selenium代码去和网页交互|https://github.com/lavague-ai/LaVague/tree/main|
+|Tarsier: webagent的辅助工具把网站转换成可交互元素序号和描述|https://github.com/reworkd/tarsier?tab=readme-ov-file|
+|RecAI：微软推出的推荐领域LLM Agent|https://github.com/microsoft/RecAI|
+
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -1301,6 +1307,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LongAlign: A Recipe for Long Context Alignment of Large Language Models
   - Data Engineering for Scaling Language Models to 128K Context
   - MEGALODON: Efficient LLM Pretraining and Inference with Unlimited Context Length
+  - Make Your LLM Fully Utilize the Context
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
