@@ -908,8 +908,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - CodeRL: Mastering Code Generation through Pretrained Models and Deep Reinforcement Learning
     - T-SciQ: Teaching Multimodal Chain-of-Thought Reasoning via Large Language Model Signals for Science Question Answering
     - LEARNING PERFORMANCE-IMPROVING CODE EDITS
-    - Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning 
-    - Tab-CoT: Zero-shot Tabular Chain of Thought
     - Chain of Code: Reasoning with a Language Model-Augmented Code Emulator
 - 原理分析
     - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters  :star:
@@ -1191,13 +1189,25 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
 
 ### 大模型图表理解和生成
-- MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning
-- ChartLlama: A Multimodal LLM for Chart Understanding and Generation
-- ChartAssisstant: A Universal Chart Multimodal Language Model via Chart-to-Table Pre-training and Multitask Instruction Tuning
-- ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning
-- ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning
-- MATCHA : Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering
-- UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning
+- survey
+  - Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study
+  - Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding - A Survey
+  - Exploring the Numerical Reasoning Capabilities of Language Models: A Comprehensive Analysis on Tabular Data
+- prompt 
+  - Large Language Models are Versatile Decomposers: Decompose Evidence and Questions for Table-based Reasoning 
+  - Tab-CoT: Zero-shot Tabular Chain of Thought
+  - Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding
+- fintuning
+  - TableLlama: Towards Open Large Generalist Models for Tables
+  - TableLLM: Enabling Tabular Data Manipulation by LLMs in Real Office Usage Scenarios
+- multimodal
+  - MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning
+  - ChartLlama: A Multimodal LLM for Chart Understanding and Generation
+  - ChartAssisstant: A Universal Chart Multimodal Language Model via Chart-to-Table Pre-training and Multitask Instruction Tuning
+  - ChartInstruct: Instruction Tuning for Chart Comprehension and Reasoning
+  - ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning
+  - MATCHA : Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering
+  - UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning
 
 ### LLM+KG
 - 综述类
@@ -1482,13 +1492,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Large OCR Model:An Empirical Study of Scaling Law for OCR
   - ON THE HIDDEN MYSTERY OF OCR IN LARGE MULTIMODAL MODELS
 - PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers
-- Table LLM
-  - Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study
-  - Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding - A Survey
-  - TableLLM: Enabling Tabular Data Manipulation by LLMs in Real Office Usage Scenarios
-  - Exploring the Numerical Reasoning Capabilities of Language Models: A Comprehensive Analysis on Tabular Data
-  - Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding
-  - TableLlama: Towards Open Large Generalist Models for Tables
 
 ### Timeseries LLM
 - TimeGPT-1
