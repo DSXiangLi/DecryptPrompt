@@ -159,7 +159,7 @@
 | --- | --- |
 |[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai的Playground支持他们自家的PPLX模型和众多SOTA大模型，Gemma也支持了|
 |[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot超长文本LLM 可输入20W上文, 文档总结无敌 |
-|[Wanzhi](https://www.wanzhi.com/)|YI模型基座的应用，支持OCR文档识别|
+|[万知](https://www.wanzhi.com/)|YI模型基座的应用，支持OCR文档识别|
 |[跃问](https://stepchat.cn/chats/new)|阶跃星辰推出的同样擅长长文本的大模型|
 |[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
 |[文心一言](https://yiyan.baidu.com/welcome)|百度|
@@ -238,6 +238,7 @@
 |VLLM：超高速推理框架Vicuna，Arena背后的无名英雄，比HF快24倍，支持很多基座模型|https://github.com/vllm-project/vllm|
 |Streamingllm: 新注意力池Attention方案，无需微调拓展模型推理长度，同时为推理提速|https://github.com/mit-han-lab/streaming-llm|
 |llama2.c: llama2 纯C语言的推理框架|https://github.com/karpathy/llama2.c|
+|Guidance: 大模型推理控制框架，适配各类interleave生成|https://github.com/guidance-ai/guidance|
 
 ### 指令微调，预训练，rlhf框架
 | 工具描述   | 链接   | 
@@ -476,6 +477,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 ### 搜索
 #### 通用搜索
 - [秘塔搜索](https://metaso.cn/about-us): 融合了脑图，表格多模态问答的搜索应用
+- [iAsk](https://iask.ai/): 海外的通搜APP，支持source筛选过滤
 - [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式
 - [Walles.AI](https://walles.ai): 融合了图像聊天，文本聊天，chatpdf，web-copilot等多种功能的智能助手
 - [webpilot.ai](https://www.webpilot.ai/signin?return-path=/) 比ChatGPT 自带的 Web Browsing更好用的浏览器检索插件，更适用于复杂搜索场景，也开通api调用了
@@ -519,6 +521,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [BriefGPT](https://briefgpt.xyz/?viaurl=ainavpro.com): 日更Arxiv论文，并对论文进行摘要，关键词抽取，帮助研究者了解最新动态, UI不错哟
 
 ### 写作效率工具类
+- [AFFiNE AI](https://affine.pro/): 很有创意的写作平台，结合写作绘图为一体
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作 
 - [研墨AI](https://www.yanmoai.com/): 面向咨询领域的内容创作应用
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了
@@ -587,7 +590,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 
 - [Screenshot-to-code](https://github.com/abi/screenshot-to-code): 从网页直接生成HTML代码
 
-### BI和DB工具
+### DB工具
 - [TableAgent](https://tableagent.datacanvas.com/): 九章云极推出的数据分析，机器学习智能体
 - [SwiftAgent](https://digitforce.com/contact/)： 数势科技推出的数据分析智能体
 - [Kyligence Copilot](https://cn.kyligence.io/copilot/):Kyligence发布一站式指标平台的 AI 数智助理,支持对话式指标搜索，异动归因等等
@@ -1066,6 +1069,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Can Large Language Models Beat Wall Street? Unveiling the Potential of AI in stock Selection 
     - ENHANCING ANOMALY DETECTION IN FINANCIAL MARKETS WITH AN LLM-BASED MULTI-AGENT FRAMEWORK
     - TRADINGGPT: MULTI-AGENT SYSTEM WITH LAYERED MEMORY AND DISTINCT CHARACTERS FOR ENHANCED FINANCIAL TRADING PERFORMANCE
+    - FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -1478,6 +1482,13 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Large OCR Model:An Empirical Study of Scaling Law for OCR
   - ON THE HIDDEN MYSTERY OF OCR IN LARGE MULTIMODAL MODELS
 - PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers
+- Table LLM
+  - Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study
+  - Large Language Models(LLMs) on Tabular Data: Prediction, Generation, and Understanding - A Survey
+  - TableLLM: Enabling Tabular Data Manipulation by LLMs in Real Office Usage Scenarios
+  - Exploring the Numerical Reasoning Capabilities of Language Models: A Comprehensive Analysis on Tabular Data
+  - Chain-of-Table: Evolving Tables in the Reasoning Chain for Table Understanding
+  - TableLlama: Towards Open Large Generalist Models for Tables
 
 ### Timeseries LLM
 - TimeGPT-1
