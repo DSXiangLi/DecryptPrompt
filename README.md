@@ -110,6 +110,7 @@
 ### 国内开源模型
 |模型链接     | 模型描述    |
 | --- | --- |
+|[Yuan2.0-M32](https://github.com/IEIT-Yuan/Yuan2.0-M32/blob/main/README_CN.md)|原2.0 M32MOE 大模型|
 |[DeepSeek-v2](https://modelscope.cn/models/deepseek-ai/DeepSeek-V2-Chat/summary)|深度求索最新发布的21B MOE超强大模型降低KV-cache推理更高效|
 |[Qwen1.5-MoE-A2.7B](https://modelscope.cn/models/qwen/Qwen1.5-MoE-A2.7B/summary)|Qwen推出MOE版本，推理更快|
 |[Qwen1.5](https://github.com/QwenLM/Qwen1.5)|通义千问升级1.5，支持32K上文|
@@ -325,7 +326,7 @@
 |Khoj: 桌面Agent的个人助手可本地部署|https://docs.khoj.dev/|
 |farfalle：本地搭载的RAG引擎|https://github.com/rashadphz/farfalle/tree/main|
 |Verba：本地搭载的RAG引擎|https://github.com/weaviate/Verba|
-
+|Vanna：本地搭载提供了从已有数据库构建NL2SQL所需RAG数据库的方案|https://github.com/vanna-ai/vanna|
 
 ### Agent Bot [托拉拽中间层]
 |应用|链接|
@@ -384,7 +385,7 @@
 |LaVague：WebAgent框架，偏低层指令交互性把指令转换成Selenium代码去和网页交互|https://github.com/lavague-ai/LaVague/tree/main|
 |Tarsier: webagent的辅助工具把网站转换成可交互元素序号和描述|https://github.com/reworkd/tarsier?tab=readme-ov-file|
 |RecAI：微软推出的推荐领域LLM Agent|https://github.com/microsoft/RecAI|
-
+|Skyvern: WebAgent框架|https://www.skyvern.com/|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -600,6 +601,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Chat2DB](https://github.com/chat2db/Chat2DB):智能的通用数据库SQL客户端和报表工具
 - [ChatBI](https://sf.163.com/about#event):网易数帆发布ChatBI对话数据分析平台
 - [DataHerald](https://www.dataherald.com/): Text2SQL
+- [WrenAI](https://www.getwren.ai/):Text2SQL 
 
 ### 多模态生成
 - [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota 
@@ -996,6 +998,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Aligner: Achieving Efficient Alignment through Weak-to-Strong Correction
   - A Minimaximalist Approach to Reinforcement Learning from Human Feedback
   - PANDA: Preference Adaptation for Enhancing Domain-Specific Abilities of LLMs
+  - Weak-to-Strong Search: Align Large Language Models via Searching over Small Language Models
+  - Weak-to-Strong Extrapolation Expedites Alignment
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -1308,6 +1312,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Unlocking Context Constraints of LLMs: Enhancing Context Efficiency of LLMs with Self-Information-Based Content Filtering
   - LongAgent: Scaling Language Models to 128k Context through Multi-Agent Collaboration
   - PCToolkit: A Unified Plug-and-Play Prompt Compression Toolkit of Large Language Models
+  - Are Long-LLMs A Necessity For Long-Context Tasks?
 - 训练和模型架构方案
   - Never Train from Scratch: FAIR COMPARISON OF LONGSEQUENCE MODELS REQUIRES DATA-DRIVEN PRIORS
   - Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon
