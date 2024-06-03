@@ -676,6 +676,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [The Bitter Lesson 强化学习之父总结的AI研究的经验教训](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 - [LlamaIndex: Beyond RAG: Building Advanced Context-Augmented LLM Applications ](https://docs.google.com/presentation/d/1IWjo8bhoatWccCfGLYw_QhUI4zfF-MujN3ORIDCBIbc/edit?pli=1#slide=id.g2cbf00ff39c_0_173)
 - [OpenAi Model-Spec](https://cdn.openai.com/spec/model-spec-2024-05-08.html):OpenAI发布的第一版模型规范指南，提出了模型理想和现实约束之间的平衡
+- [Build a Large Language Model from Scratch](https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-6/)
 
 ### 会议&访谈类
 - [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
@@ -777,6 +778,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning
   - Parameter-Efficient Transfer Learning for NLP
   - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
+  - DoRA: Weight-Decomposed Low-Rank Adaptation
 -  Representation Tuning
   - ReFT: Representation Finetuning for Language Models
 
@@ -1000,6 +1002,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - PANDA: Preference Adaptation for Enhancing Domain-Specific Abilities of LLMs
   - Weak-to-Strong Search: Align Large Language Models via Searching over Small Language Models
   - Weak-to-Strong Extrapolation Expedites Alignment
+  - Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -1191,6 +1194,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - [网易为RAG设计的BCE Embedding技术报告](https://zhuanlan.zhihu.com/p/681370855)
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
+- When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively
 
 ### 大模型图表理解和生成
 - survey
