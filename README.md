@@ -498,6 +498,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Mem](https://get.mem.ai/): 个人知识管理，例如知识图谱，已获openai融资
 - [GPT-Crawler](https://github.com/BuilderIO/gpt-crawler): 通过简单配置，即可自行提取网页的文本信息构建知识库，并进一步自定义GPTs
 - [ChatInsight](https://www.chatinsight.ai/?ref=aitoolnet.com): 企业级文档管理，和基于文档的对话
+- [Afforai](https://afforai.com/app): 看到现在做的不错的个人知识管理和笔记文件，支持多文档对比，期待和zetro打通
 ### ChatDoc
 - [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！
 - [ChatDoc](https://chatdoc.com/?viaurl=ainavpro.com):ChatPDF升级版，需要科学上网，增加了表格类解析，支持选择区域的问答，在PDF识别上做的很厉害
@@ -603,7 +604,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [DataHerald](https://www.dataherald.com/): Text2SQL
 - [WrenAI](https://www.getwren.ai/):Text2SQL 
 
-### 多模态生成
+### 图片生成
 - [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota 
 - [midjourney](https://www.midjourney.com/home/?callbackUrl=%2Fapp%2F): 开创者，艺术风格为主
 - [Dall.E](https://openai.com/product/dall-e-2): 三巨头这就凑齐了 
@@ -611,10 +612,20 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [gemo.ai](https://www.genmo.ai/): 多模态聊天机器人，包括文本，图像，视频生成
 - [storybird](https://storybird.com/): 根据提示词生成故事绘本，还可以售卖
 - [Magnific.ai](https://magnific.ai/): 两个人的团队做出的AI图片精修师
-- [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
-- [Gamma](https://gamma.app/create/generate): PPT制作神器，ProductHunt月度排名Number1
 - [Civital.com](https://civitai.com/images): AI图片共享网站同时支持多模型的图片生成
 - [IdeoGram.ai](https://ideogram.ai/signup): Google Bran研究员创立的图片生成，Md平替
+
+### 视频生成
+- [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
+- [星火绘镜](https://typemovie.art/?utm_source=ai-bot.cn#/storyboard)：星火推出，给指令自动生成电影分镜脚本，并制作分镜视频，质量比较高，但需要借助第三方软件剪辑合成
+- [即创](https://aic.oceanengine.com/inspiration/v2?bpId=1800827192695836&from=ai-bot.cn)：抖音推出，电商短视频制作，支持给定商品描述生成对应营销视频
+- [度加](https://aigc.baidu.com/works)：支持直接text2video，但质量比星火差很多，应该说是动态PPT的视频style，但一键生成确实很像，也支持进一步编辑和素材替换
+- [一帧秒创](https://aigc.yizhentv.com/home/app/): 支持图文转视频和数字人播报，个人体验比度加略弱
+- [Elai](https://app.elai.io/): 支持大纲直接生成数字人播报视频，免费试用只能制作几分钟
+
+### PPT制作
+- [Gamma](https://gamma.app/create/generate): PPT制作神器，ProductHunt月度排名Number1
+- [MindShow](https://www.mindshow.fun/#/folder/slides): 体验还不错的基于markdown直接生成PPT的软件，自定义PPT模板要付费
 
 ## Resources
 ### GPTs应用导航
