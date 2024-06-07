@@ -693,7 +693,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [LlamaIndex: Beyond RAG: Building Advanced Context-Augmented LLM Applications ](https://docs.google.com/presentation/d/1IWjo8bhoatWccCfGLYw_QhUI4zfF-MujN3ORIDCBIbc/edit?pli=1#slide=id.g2cbf00ff39c_0_173)
 - [OpenAi Model-Spec](https://cdn.openai.com/spec/model-spec-2024-05-08.html):OpenAI发布的第一版模型规范指南，提出了模型理想和现实约束之间的平衡
 - [Build a Large Language Model from Scratch](https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-6/)
-- [genai-handbook](https://genai-handbook.github.io/):
+- [genai-handbook](https://genai-handbook.github.io/): 超级全的大模型各方面知识资源汇总成了handbook
 
 ### 会议&访谈类
 - [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
