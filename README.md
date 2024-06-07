@@ -41,6 +41,7 @@
 - [解密Prompt系列28. LLM Agent之金融领域智能体：FinMem & FinAgent](https://cloud.tencent.com/developer/article/2411792)
 - [解密Prompt系列29. LLM Agent之真实世界海量API解决方案：ToolLLM & AnyTool](https://cloud.tencent.com/developer/article/2415908)
 - [解密Prompt系列30. LLM Agent之互联网冲浪智能体们](https://cloud.tencent.com/developer/article/2419768)
+- [​解密Prompt系列31. LLM Agent之从经验中不断学习的智能体](https://cloud.tencent.com/developer/article/2425139)
 
 ## LLMS
 ### 模型评测
@@ -450,10 +451,11 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |评估集| Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
 |评估集| 2010-2022年全国高考卷的题目|https://github.com/OpenLMLab/GAOKAO-Bench|
 |评估集| 中文通用大模型综合性评测基准SuperCLUE|https://github.com/CLUEbenchmark/SuperCLUE|
-|英文预训练| RedPajama开源的复刻llama的预训练数据集，1.21万亿Token|https://github.com/togethercomputer/RedPajama-Data|
-|英文预训练| Cerebras基于RedPajama进行清洗去重后得到的高质量数据集, 6270亿Token|https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main/train|
-|英文预训练| Pile 22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
-|英文预训练|  Huggingface发布从CC清洗消重后的15T tokens 的英文web数据FineWeb|hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
+|英文预训练| RedPajama：开源的复刻llama的预训练数据集，1.21万亿Token|https://github.com/togethercomputer/RedPajama-Data|
+|英文预训练| SlimPajama：Cerebras基于RedPajama进行清洗去重后得到的高质量数据集, 6270亿Token|https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main/train|
+|英文预训练| The Pile：22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
+|英文预训练| Fineweb：Huggingface发布从CC清洗消重后的15T tokens web数据，超越C4，pile，pajama|hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
+|英文预训练|Finweb-EDU：从FineWeb中通过分类器筛选得到的高质量教育水平的数据集 5.4T Token|https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu|
 |通用预训练| UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
 |中文预训练| 智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
 |中文预训练| 里屋社区发起开源力量收集中文互联网语料集MNBVC目标是对标ChatGPT的40T|https://github.com/esbatmop/MNBVC|
@@ -473,6 +475,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |NL2SQL|DB-GPT-Hub梳理了多源text-to-sql数据集|https://github.com/eosphoros-ai/DB-GPT-Hub|
 |长文本|清华开源的长文本对齐数据集LongAlign-10k|https://huggingface.co/datasets/THUDM/LongAlign-10k|
 |多模态-图表|MMC图表理解问答数据集|https://github.com/FuxiaoLiu/MMC|
+|表格数据|汇总了各类表格数据|https://github.com/SpursGoZmy/Tabular-LLM|
 
 ## AIGC
 ### 搜索
@@ -576,6 +579,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道
 - [godmode](https://godmode.space/)：可以进行人为每一步交互的的AutoGPT
 - [agentgpt](https://agentgpt.reworkd.ai/): 基础版AutoGPT
+- [AgentQL](https://docs.agentql.com/):用Query的方式和网页进行交互，开放waitlist申请了
 
 ### 视频拆条总结
 - [Eightify](https://eightify.app/zh): chrome插件，节省观看长视频的时间，立即获取关键思想，分模块总结+时间戳摘要
@@ -603,6 +607,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [ChatBI](https://sf.163.com/about#event):网易数帆发布ChatBI对话数据分析平台
 - [DataHerald](https://www.dataherald.com/): Text2SQL
 - [WrenAI](https://www.getwren.ai/):Text2SQL 
+- [Vaana](https://vanna.ai/): 可以本地搭载的基于python的NL2SQL+Plotly绘图框架
 
 ### 图片生成
 - [dreamstudio.ai](https://beta.dreamstudio.ai/dream): 开创者，Stable Difussion， 有试用quota 
@@ -656,7 +661,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Large Language Models: Application through Production](https://github.com/databricks-academy/large-language-models): 大模型应用Edx出品的课程
 - [Minbpe](https://github.com/karpathy/minbpe): Karpathy大佬离职openai后整了个分词器的教学代码
 - [LLM-VIZ](https://github.com/bbycroft/llm-viz):  大模型结构可视化支持GPT系列
-- [我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译]](https://baoyu.io/translations/prompt-engineering/how-i-won-singapores-gpt-4-prompt-engineering-competition): 干活很多的prompt技巧
+- [我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译]](https://baoyu.io/translations/prompt-engineering/how-i-won-singapores-gpt-4-prompt-engineering-competition): 干货很多的prompt技巧
 
 ### 书籍和博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -688,6 +693,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [LlamaIndex: Beyond RAG: Building Advanced Context-Augmented LLM Applications ](https://docs.google.com/presentation/d/1IWjo8bhoatWccCfGLYw_QhUI4zfF-MujN3ORIDCBIbc/edit?pli=1#slide=id.g2cbf00ff39c_0_173)
 - [OpenAi Model-Spec](https://cdn.openai.com/spec/model-spec-2024-05-08.html):OpenAI发布的第一版模型规范指南，提出了模型理想和现实约束之间的平衡
 - [Build a Large Language Model from Scratch](https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-6/)
+- [genai-handbook](https://genai-handbook.github.io/):
 
 ### 会议&访谈类
 - [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
