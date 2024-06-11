@@ -328,6 +328,8 @@
 |farfalle：本地搭载的RAG引擎|https://github.com/rashadphz/farfalle/tree/main|
 |Verba：本地搭载的RAG引擎|https://github.com/weaviate/Verba|
 |Vanna：本地搭载提供了从已有数据库构建NL2SQL所需RAG数据库的方案|https://github.com/vanna-ai/vanna|
+|TaskWeaver: code-first 的Agent |https://github.com/microsoft/TaskWeaver|
+|QMedia：多模态检索框架|https://github.com/QmiAI/Qmedia?tab=readme-ov-file|
 
 ### Agent Bot [托拉拽中间层]
 |应用|链接|
@@ -454,8 +456,10 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |英文预训练| RedPajama：开源的复刻llama的预训练数据集，1.21万亿Token|https://github.com/togethercomputer/RedPajama-Data|
 |英文预训练| SlimPajama：Cerebras基于RedPajama进行清洗去重后得到的高质量数据集, 6270亿Token|https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main/train|
 |英文预训练| The Pile：22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
-|英文预训练| Fineweb：Huggingface发布从CC清洗消重后的15T tokens web数据，超越C4，pile，pajama|hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
+|英文预训练| Fineweb：Huggingface发布从CC清洗消重后的15T tokens web数据，超越C4，pile，pajama|
+hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
 |英文预训练|Finweb-EDU：从FineWeb中通过分类器筛选得到的高质量教育水平的数据集 5.4T Token|https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu|
+|英文预训练|1.3T高质量小规模混合预训练数据集|https://huggingface.co/datasets/Zyphra/Zyda|
 |通用预训练| UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
 |中文预训练| 智源人工智能开源的wudao 200G预训练数据|[https://github.com/BAAI-WuDao/WuDaoMM](https://openi.pcl.ac.cn/BAAI/WuDao-Data)|
 |中文预训练| 里屋社区发起开源力量收集中文互联网语料集MNBVC目标是对标ChatGPT的40T|https://github.com/esbatmop/MNBVC|
@@ -463,6 +467,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |中文预训练| 书生万卷数据集来自公开网页多模态数据集，包括文本，图文和视频，其中文本1T，图文150G|https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0|
 |中文预训练| 昆仑天工开源3.2TB中英语料|https://github.com/SkyworkAI/Skywork|
 |中文预训练| 浪潮开源的用于Yuan1.0训练的预训练中文语料|https://www.airyuan.cn/home|
+
 |领域预训练| 度小满开源60G金融预训练语料|https://github.com/Duxiaoman-DI/XuanYuan|
 |领域预训练| 首个中文科学文献数据集CSL,也有多种NLP任务数据 |https://github.com/ydli-ai/CSL|
 |平行语料| news-commentary中英平行语料，用于中英间知识迁移|https://data.statmt.org/news-commentary/v15/training/|
@@ -694,6 +699,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [OpenAi Model-Spec](https://cdn.openai.com/spec/model-spec-2024-05-08.html):OpenAI发布的第一版模型规范指南，提出了模型理想和现实约束之间的平衡
 - [Build a Large Language Model from Scratch](https://livebook.manning.com/book/build-a-large-language-model-from-scratch/chapter-6/)
 - [genai-handbook](https://genai-handbook.github.io/): 超级全的大模型各方面知识资源汇总成了handbook
+- [聊聊Agent，RAG主流开发技术和未来应用](https://miracleplus.feishu.cn/docx/KT9qd7XEyo7xu6x4kcSc3fyfnBd)
 
 ### 会议&访谈类
 - [麻省理工科技采访OpenAI工程师](https://www.technologyreview.com/2023/03/03/1069311/inside-story-oral-history-how-chatgpt-built-openai/)
@@ -822,6 +828,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - QWEN TECHNICAL REPORT
 - Fewer Truncations Improve Language Modeling
 
+
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
    - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
@@ -922,6 +929,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models
     - LARGE LANGUAGE MODELS AS OPTIMIZERS
     - Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs
+    - Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -1082,6 +1090,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - InsightLens: Discovering and Exploring Insights from Conversational Contexts in Large-Language-Model-Powered Data Analysis
     - Data-Copilot: Bridging Billions of Data and Humans with Autonomous Workflow
     - Demonstration of InsightPilot: An LLM-Empowered Automated Data Exploration System
+    - TaskWeaver: A Code-First Agent Framework
+    - Automated Social Science: Language Models as Scientist and Subjects
   - 金融
     - WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
     - FinGPT: Open-Source Financial Large Language Models
@@ -1134,6 +1144,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
   - War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars
   - More Agents Is All You Need
+  - Small LLMs Are Weak Tool Learners: A Multi-LLM Agent
 - 自主学习和探索进化
   - AppAgent: Multimodal Agents as Smartphone Users
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
@@ -1212,6 +1223,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
 - When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively
+- Ranking Manipulation for Conversational Search Engines
 
 ### 大模型图表理解和生成
 - survey
@@ -1271,6 +1283,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - CLUECorpus2020: A Large-scale Chinese Corpus for Pre-training Language Model
 - In-Context Pretraining: Language Modeling Beyond Document Boundaries
 - Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance 
+- Zyda: A 1.3T Dataset for Open Language Modeling
 
 ### 领域模型SFT(domain_llms)
 - 金融
