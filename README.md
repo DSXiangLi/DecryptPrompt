@@ -389,6 +389,7 @@
 |Tarsier: webagent的辅助工具把网站转换成可交互元素序号和描述|https://github.com/reworkd/tarsier?tab=readme-ov-file|
 |RecAI：微软推出的推荐领域LLM Agent|https://github.com/microsoft/RecAI|
 |Skyvern: WebAgent框架|https://www.skyvern.com/|
+|Translation Agent: 吴恩达开源的简单的翻译Agent，prompt也是用的XML格式|https://github.com/andrewyng/translation-agent/blob/main/src/translation_agent/utils.py|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -548,6 +549,8 @@ hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
 - [mindShow](https://www.mindshow.fun/#/folder/slides)：免费+付费的PPT制作工具，自定义PPT模板还不够好
 
 ### 金融垂直领域
+- [Linq](https://getlinq.com/):用AI简化金融分析师的研究工作
+- [BrightWave](https://www.brightwave.io/?ref=ai-bot.cn):AI金融研究助手
 - [Reportify](https://reportify.cc/): 金融领域公司公告，新闻，电话会的问答和摘要总结 
 - [Alpha派](https://alphalink-web.rabyte.cn/reading/home/my-focus): kimi加持会议纪要 + 投研问答 +各类金融资讯综合的一站式平台
 - [况客FOF智能投顾](https://pro.fofinvesting.com/workbench/home):基金大模型应用，基金投顾，支持nl2sql类的数据查询，和基金信息对比查询等
@@ -1108,7 +1111,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
     - Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents
     - Integrating Chemistry Knowledge in Large Language Models via Prompt Engineering
-  - webagnet
+  - web/mobile Agent
     - AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent
     - A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis
     - Mind2Web: Towards a Generalist Agent for the Web
@@ -1118,6 +1121,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - WebLINX: Real-World Website Navigation with Multi-Turn Dialogue
     - WebVoyager: Building an End-to-end Web Agent with Large Multimodal Models
     - CogAgent: A Visual Language Model for GUI Agents
+    - Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
   - 其他
     - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
@@ -1245,6 +1249,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ChartX & ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning
   - MATCHA : Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering
   - UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning
+  - TinyChart: Efficient Chart Understanding with Visual Token Merging and Program-of-Thoughts Learning
 
 ### LLM+KG
 - 综述类
