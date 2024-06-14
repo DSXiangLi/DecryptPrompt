@@ -1250,6 +1250,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - MATCHA : Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering
   - UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning
   - TinyChart: Efficient Chart Understanding with Visual Token Merging and Program-of-Thoughts Learning
+  - Tables as Texts or Images: Evaluating the Table Reasoning Ability of LLMs and MLLMs
+  - TableVQA-Bench: A Visual Question Answering Benchmark on Multiple Table Domains
 
 ### LLM+KG
 - 综述类
