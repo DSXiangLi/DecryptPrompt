@@ -522,6 +522,7 @@ hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
 
 ### 论文研究: 日度更新，观点总结，
 - [SCISPACE](https://typeset.io/): 论文研究的白月光，融合了全库搜索问答，以及个人上传PDF构建知识库问答。同样支持相关论文发现，和论文划词解读。并且解读内容可以保存到notebook中方便后续查找，可以说是产品和算法强强联合了。
+- [ELICIT](https://elicit.com/): 和SCISPACE相似，支持一键生成论文relatied work
 - [Consensus](https://consensus.app/search/): AI加持的论文搜素，多论文总结，观点对比工具。产品排名巨高，但个人感觉搜索做的有提升空间
 - [Aminer](https://www.aminer.cn/search/pub?q=Transformer&t=b): 论文搜索，摘要，问答，搜索关键词符号化改写；但论文知识库问答有些幻觉严重
 - [cool.paper](https://papers.cool/#): 苏神开发的基于kimi的论文阅读网站
@@ -533,6 +534,7 @@ hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
 
 ### 写作效率工具类
 - [AFFiNE AI](https://affine.pro/): 很有创意的写作平台，结合写作绘图为一体
+- [SudoWrite](https://editor.sudowrite.com/app): 很有创意的AI卡片写作应用，主要面向各种类型的长文写作
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作 
 - [研墨AI](https://www.yanmoai.com/): 面向咨询领域的内容创作应用
 - [ChatMind](https://www.chatmind.tech/): chatgpt生成思维导图，模板很丰富，泛化性也不错，已经被XMind收购了
@@ -652,6 +654,7 @@ hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
 - [GPT Demo](https://gpt4demo.com/)
 - [AI-Bot各类工具导航](https://ai-bot.cn/#term-15)
 - [AI-Search: AI应用检索网站](https://ai-search.io/)
+- [StackRadar:各类高科技应用导航](https://www.stackradar.co/)
 
 ### Prompt和其他教程类
 - [Prompt Guide 101](https://prompt-guide.netlify.app/guide/chapter-1.html): 分任务的prompt编写指南
@@ -869,6 +872,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    - Generative Representational Instruction Tuning
    - InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions
    - The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions
+   - Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
 - 指令数据生成
   - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
   - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
