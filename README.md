@@ -42,6 +42,7 @@
 - [解密Prompt系列29. LLM Agent之真实世界海量API解决方案：ToolLLM & AnyTool](https://cloud.tencent.com/developer/article/2415908)
 - [解密Prompt系列30. LLM Agent之互联网冲浪智能体们](https://cloud.tencent.com/developer/article/2419768)
 - [​解密Prompt系列31. LLM Agent之从经验中不断学习的智能体](https://cloud.tencent.com/developer/article/2425139)
+- [解密Prompt系列32. LLM之表格理解任务-文本模态](https://cloud.tencent.com/developer/article/2429900)
 
 ## LLMS
 ### 模型评测
@@ -833,7 +834,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - LLAMA PRO: Progressive LLaMA with Block Expansion
 - QWEN TECHNICAL REPORT
 - Fewer Truncations Improve Language Modeling
-
+- ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -937,6 +938,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - LARGE LANGUAGE MODELS AS OPTIMIZERS
     - Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs
     - Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models
+    - Abstraction-of-Thought Makes Language Models Better Reasoners
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -1126,6 +1128,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - WebVoyager: Building an End-to-end Web Agent with Large Multimodal Models
     - CogAgent: A Visual Language Model for GUI Agents
     - Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
+    - WebCanvas: Benchmarking Web Agents in Online Environments
   - 其他
     - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
@@ -1542,6 +1545,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Large OCR Model:An Empirical Study of Scaling Law for OCR
   - ON THE HIDDEN MYSTERY OF OCR IN LARGE MULTIMODAL MODELS
 - PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers
+- Many-Shot In-Context Learning in Multimodal Foundation Models
 
 ### Timeseries LLM
 - TimeGPT-1
