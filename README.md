@@ -66,6 +66,7 @@
 |[LLMEval3](http://llmeval.com/)|复旦推出的知识问答榜单，涵盖大学作业和考题，题库尽可能来自非互联网避免模型作弊|
 |[FinancelQ](https://github.com/Duxiaoman-DI/XuanYuan/tree/main/FinanceIQ)|度小满开源的金融多项选择评估数据集|
 |[SWE-bench](https://www.swebench.com/)|基于真实github问题和PR的模型编程能力评估|
+|[Awesome-MLLM](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation)|多模态大模型榜单|
 
 ### 国外开源模型
 |模型链接     | 模型描述    |
@@ -156,6 +157,16 @@
 |[CPM2.0](https://baai.ac.cn/)     |  智源发布CPM2.0|
 |[GLM](https://github.com/THUDM/GLM-130B) |   清华发布的中英双语130B预训练模型 |
 |[BayLing](https://github.com/ictnlp/BayLing)|基于LLama7B/13B，增强的语言对齐的英语/中文大语言模型|
+
+### 开源多模态模型
+|模型|描述|
+|-----|-------|
+|[Kosmos-2.5](https://github.com/microsoft/unilm/tree/master/kosmos-2.5)|微软推出的多模态擅长识别多文字、表格图片|
+|[LLAVA-1.5](https://github.com/haotian-liu/LLaVA)  |升级后的LLAVA 13B模型浙大出品    |
+| [MiniGPT-4](https://github.com/Vision-CAIR/MiniGPT-4)    | 认知类任务评分最高 |
+|[InternLM-XComposer](https://github.com/InternLM/InternLM-XComposer)|书生浦语·灵笔2，擅长自由图文理解|
+|[mPLUG-DocOwl](https://github.com/X-PLUG/mPLUG-DocOwl)|阿里出品面向文档理解的多模态模型|
+
 
 ### LLM免费应用
 |模型链接     | 模型描述    |
@@ -458,8 +469,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |英文预训练| RedPajama：开源的复刻llama的预训练数据集，1.21万亿Token|https://github.com/togethercomputer/RedPajama-Data|
 |英文预训练| SlimPajama：Cerebras基于RedPajama进行清洗去重后得到的高质量数据集, 6270亿Token|https://huggingface.co/datasets/cerebras/SlimPajama-627B/tree/main/train|
 |英文预训练| The Pile：22个高质量数据集混合的预训练数据集800G,全量开放下载|https://pile.eleuther.ai/|
-|英文预训练| Fineweb：Huggingface发布从CC清洗消重后的15T tokens web数据，超越C4，pile，pajama|
-hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
+|英文预训练| Fineweb：Huggingface发布从CC清洗消重后的15T tokens web数据，超越C4，pile，pajama|https://huggingface.co/datasets/HuggingFaceFW/fineweb|
 |英文预训练|Finweb-EDU：从FineWeb中通过分类器筛选得到的高质量教育水平的数据集 5.4T Token|https://huggingface.co/datasets/HuggingFaceFW/fineweb-edu|
 |英文预训练|1.3T高质量小规模混合预训练数据集|https://huggingface.co/datasets/Zyphra/Zyda|
 |通用预训练| UER整理CLUECorpusSmall+News Commentary中英|https://github.com/dbiir/UER-py/wiki/%E9%A2%84%E8%AE%AD%E7%BB%83%E6%95%B0%E6%8D%AE|
@@ -469,7 +479,6 @@ hhttps://huggingface.co/datasets/HuggingFaceFW/fineweb|
 |中文预训练| 书生万卷数据集来自公开网页多模态数据集，包括文本，图文和视频，其中文本1T，图文150G|https://opendatalab.org.cn/OpenDataLab/WanJuan1_dot_0|
 |中文预训练| 昆仑天工开源3.2TB中英语料|https://github.com/SkyworkAI/Skywork|
 |中文预训练| 浪潮开源的用于Yuan1.0训练的预训练中文语料|https://www.airyuan.cn/home|
-
 |领域预训练| 度小满开源60G金融预训练语料|https://github.com/Duxiaoman-DI/XuanYuan|
 |领域预训练| 首个中文科学文献数据集CSL,也有多种NLP任务数据 |https://github.com/ydli-ai/CSL|
 |平行语料| news-commentary中英平行语料，用于中英间知识迁移|https://data.statmt.org/news-commentary/v15/training/|
@@ -777,6 +786,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Can Explanations Be Useful for Calibrating Black Box Models
   - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective 
   - Language acquisition: do children and language models follow similar learning stages?
+  - Language is primarily a tool for communication rather than thought
 - 领域能力
   - Capabilities of GPT-4 on Medical Challenge Problems
   - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
@@ -939,6 +949,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs
     - Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models
     - Abstraction-of-Thought Makes Language Models Better Reasoners
+    - Faithful Logical Reasoning via Symbolic Chain-of-Thought
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -1037,6 +1048,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Weak-to-Strong Search: Align Large Language Models via Searching over Small Language Models
   - Weak-to-Strong Extrapolation Expedites Alignment
   - Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study
+  - Token-level Direct Preference Optimization
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -1044,6 +1056,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Open Problems and Fundamental Limitations of Reinforcement Learning from Human Feedback
   - HUMAN FEEDBACK IS NOT GOLD STANDARD
   - CONTRASTIVE POST-TRAINING LARGE LANGUAGE MODELS ON DATA CURRICULUM
+  - Language Models Resist Alignment
 
 
 ### LLM Agent 让模型使用工具 (llm_agent)
