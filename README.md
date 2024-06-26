@@ -402,6 +402,7 @@
 |RecAI：微软推出的推荐领域LLM Agent|https://github.com/microsoft/RecAI|
 |Skyvern: WebAgent框架|https://www.skyvern.com/|
 |Translation Agent: 吴恩达开源的简单的翻译Agent，prompt也是用的XML格式|https://github.com/andrewyng/translation-agent/blob/main/src/translation_agent/utils.py|
+|GPT-Computer-Assistant：和电脑直接进行交互的Agent基于Crewai|https://github.com/onuratakan/gpt-computer-assistant|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -496,6 +497,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 ## AIGC
 ### 搜索
 #### 通用搜索
+- [genspark.ai](https://www.genspark.ai/): 融合了旅行，购物的真生成式搜索引擎，内容也由模型直接生成，可以说是全新搜索形式了，而模型本身回到sidebar的位置只起到辅助的作用，整个网站的风格偏小红书风格
 - [秘塔搜索](https://metaso.cn/about-us): 融合了脑图，表格多模态问答的搜索应用
 - [iAsk](https://iask.ai/): 海外的通搜APP，支持source筛选过滤
 - [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式
@@ -509,6 +511,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Globe Explorer](https://explorer.globe.engineer/):搜索query相关的知识并构建类似知识图谱的结构返回图片信息
 - [天工AI搜索](https://www.tiangong.cn/?channel=bing&msclkid=3f5eebf016751939acb98dcd75d4dc02)：和You相同的三种模式检索增强
 - [MiKU搜索](https://hellomiku.com/?ref=aihub.cn)：更多面向事件的搜索
+- [开搜AI搜索搜索](https://kaisouai.com/): 免费无广告，直达结果
 #### 代码搜索
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
@@ -1524,6 +1527,17 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - SLICEGPT: COMPRESS LARGE LANGUAGE MODELS BY DELETING ROWS AND COLUMNS
 - Checkpoint Merging via Bayesian Optimization in LLM Pretrainin
 - Arcee's MergeKit: A Toolkit for Merging Large Language Models
+
+### MOE
+- Tricks for Training Sparse Translation Models
+- ST-MoE: Designing Stable and Transferable Sparse Expert Models
+- Switch Transformers: Scaling to Trillion Parameter Models with Simple and Efficient Sparsity 
+- GLaM: Efficient Scaling of Language Models with Mixture-of-Experts
+- GShard: Scaling Giant Models with Conditional Computation and Automatic Sharding
+- OUTRAGEOUSLY LARGE NEURAL NETWORKS: THE SPARSELY-GATED MIXTURE-OF-EXPERTS LAYER
+- DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale
+- Dense-to-Sparse Gate for Mixture-of-Experts
+- Efficient Large Scale Language Modeling with Mixtures of Experts
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
