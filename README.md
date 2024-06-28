@@ -824,6 +824,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - DoRA: Weight-Decomposed Low-Rank Adaptation
 -  Representation Tuning
   - ReFT: Representation Finetuning for Language Models
+- TextGrad: Automatic "Differentiation" via Text
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -1052,6 +1053,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Weak-to-Strong Extrapolation Expedites Alignment
   - Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study
   - Token-level Direct Preference Optimization
+  - SimPO: Simple Preference Optimization with a Reference-Free Reward
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -1275,6 +1277,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - TinyChart: Efficient Chart Understanding with Visual Token Merging and Program-of-Thoughts Learning
   - Tables as Texts or Images: Evaluating the Table Reasoning Ability of LLMs and MLLMs
   - TableVQA-Bench: A Visual Question Answering Benchmark on Multiple Table Domains
+  - TabPedia: Towards Comprehensive Visual Table Understanding with Concept Synergy
 
 ### LLM+KG
 - 综述类
@@ -1552,6 +1555,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - LARGE LANGUAGE MODELS AS OPTIMIZERS
 - Prompts As Programs: A Structure-Aware Approach to Efficient Compile-Time Prompt Optimization
 - Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V
+- RePrompt: Automatic Prompt Editing to Refine AI-Generative Art Towards Precise Expressions
+- MedPrompt: Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
