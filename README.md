@@ -354,11 +354,12 @@
 |Mind Studio：有限使用|https://youai.ai/|
 |QuestFlow：付费|https://www.questflow.ai/|
 
-### RAG配套工具
+### RAG，Agent配套工具
 |工具|描述|
 | --- | --- | 
 |[Alexandria](https://alex.macrocosm.so/download)|从Arix论文开始把整个互联网变成向量索引，可以免费下载|
 |[RapidAPI](https://rapidapi.com/hub) |统一这个世界的所有API，最大API Hub，有调用成功率，latency等，是真爱！|
+|[Composio](https://docs.composio.dev/apps/accelo)|可以和langchain，crewAI等进行集成的工具API|
 |[PyTesseract](https://github.com/tesseract-ocr/tesseract)|OCR解析服务|
 |[EasyOCR](https://github.com/JaidedAI/EasyOCR)|确实使用很友好的OCR服务|
 |[surya](https://github.com/VikParuchuri/surya)|OCR服务|
@@ -1010,6 +1011,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - PRM：Let's verify step by step
   - Training Verifiers to Solve Math Word Problems [PRM的前置依赖]
   - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
+  - LLM Critics Help Catch LLM Bugs
 - Anthropic
   - A General Language Assistant as a Laboratory for Alignmen 
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
@@ -1054,6 +1056,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Is DPO Superior to PPO for LLM Alignment? A Comprehensive Study
   - Token-level Direct Preference Optimization
   - SimPO: Simple Preference Optimization with a Reference-Free Reward
+  - AUTODETECT: Towards a Unified Framework for Automated Weakness Detection in Large Language Models
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -1129,6 +1132,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - ENHANCING ANOMALY DETECTION IN FINANCIAL MARKETS WITH AN LLM-BASED MULTI-AGENT FRAMEWORK
     - TRADINGGPT: MULTI-AGENT SYSTEM WITH LAYERED MEMORY AND DISTINCT CHARACTERS FOR ENHANCED FINANCIAL TRADING PERFORMANCE
     - FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models
+    - LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -1253,6 +1257,10 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
 - When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively
 - Ranking Manipulation for Conversational Search Engines
+- PlanRAG: A Plan-then-Retrieval Augmented Generation for Generative Large Language Models as Decision Makers
+- Self-Knowledge Guided Retrieval Augmentation for Large Language Models
+- Small Models, Big Insights: Leveraging Slim Proxy Models To Decide When and What to Retrieve for LLMs
+- Self-DC: When to retrieve and When to generate Self Divide-and-Conquer for Compositional Unknown Questions
 
 ### 大模型图表理解和生成
 - survey
@@ -1348,6 +1356,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - LLEMMA: AN OPEN LANGUAGE MODEL FOR MATHEMATICS
   - MEDITAB: SCALING MEDICAL TABULAR DATA PREDICTORS VIA DATA CONSOLIDATION, ENRICHMENT, AND REFINEMENT
   - PLLaMa: An Open-source Large Language Model for Plant Science
+  - ADAPTING LARGE LANGUAGE MODELS VIA READING COMPREHENSION
 
 
 ### LLM超长文本处理 (long_input)
@@ -1557,6 +1566,10 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V
 - RePrompt: Automatic Prompt Editing to Refine AI-Generative Art Towards Precise Expressions
 - MedPrompt: Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
+- DSPy Assertions: Computational Constraints for Self-Refining Language Model Pipelines
+- Prompts as Auto-Optimized Training Hyperparameters: Training Best-in-Class IR Models from Scratch with 10 Gold Labels
+- In-Context Learning for Extreme Multi-Label Classification
+- Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
