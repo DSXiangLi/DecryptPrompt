@@ -43,6 +43,7 @@
 - [解密Prompt系列30. LLM Agent之互联网冲浪智能体们](https://cloud.tencent.com/developer/article/2419768)
 - [​解密Prompt系列31. LLM Agent之从经验中不断学习的智能体](https://cloud.tencent.com/developer/article/2425139)
 - [解密Prompt系列32. LLM之表格理解任务-文本模态](https://cloud.tencent.com/developer/article/2429900)
+- [解密Prompt系列33. LLM之图表理解任务-多模态篇](https://cloud.tencent.com/developer/article/2433883)
 
 ## LLMS
 ### 模型评测
@@ -687,6 +688,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Minbpe](https://github.com/karpathy/minbpe): Karpathy大佬离职openai后整了个分词器的教学代码
 - [LLM-VIZ](https://github.com/bbycroft/llm-viz):  大模型结构可视化支持GPT系列
 - [我如何夺冠新加坡首届 GPT-4 提示工程大赛 [译]](https://baoyu.io/translations/prompt-engineering/how-i-won-singapores-gpt-4-prompt-engineering-competition): 干货很多的prompt技巧
+- [Prompt-with-Claude: Claude的prompt指南和说明书](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview)
 
 ### 书籍和博客类
 - [OpenAI ChatGPT Intro](https://openai.com/blog/chatgpt/)
@@ -731,6 +733,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - [月之暗面杨植麟专访,值得细读](https://mp.weixin.qq.com/s/KWMvsvI85QI-GIXeXizDsA) :star:
 - [吴恩达最新演讲：AI Agent工作流的未来](https://www.36kr.com/p/2716201666246790)
 - [LLM-Bootcamp 2023](https://fullstackdeeplearning.com/llm-bootcamp/spring-2023/)
+- [Extrinsic Hallucinations in LLMs](https://lilianweng.github.io/posts/2024-07-07-hallucination/)
 
 ## Papers
 ### paper List
@@ -1316,7 +1319,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - MINEDOJO: Building Open-Ended  Embodied Agents with Internet-Scale Knowledge
 - LEGENT: Open Platform for Embodied Agents
 
-### 预训练数据(pretrain_data)
+### pretrain_data & pretrain
 - DoReMi: Optimizing Data Mixtures Speeds Up Language Model Pretraining
 - The Pile: An 800GB Dataset of Diverse Text for Language Modeling
 - CCNet: Extracting High Quality Monolingual Datasets fromWeb Crawl Data
@@ -1325,6 +1328,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - In-Context Pretraining: Language Modeling Beyond Document Boundaries
 - Data Mixing Laws: Optimizing Data Mixtures by Predicting Language Modeling Performance 
 - Zyda: A 1.3T Dataset for Open Language Modeling
+- Entropy Law: The Story Behind Data Compression and LLM Performance
+- Data, Data Everywhere: A Guide for Pretraining Dataset Construction
+- Data curation via joint example selection further accelerates multimodal learning
 
 ### 领域模型SFT(domain_llms)
 - 金融
@@ -1570,6 +1576,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Prompts as Auto-Optimized Training Hyperparameters: Training Best-in-Class IR Models from Scratch with 10 Gold Labels
 - In-Context Learning for Extreme Multi-Label Classification
 - Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs
+- DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines
+- CONNECTING LARGE LANGUAGE MODELS WITH EVOLUTIONARY ALGORITHMS YIELDS POWERFUL PROMP OPTIMIZERS
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
