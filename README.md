@@ -906,6 +906,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - InstructEval: Systematic Evaluation of Instruction Selection Methods
   - Overwriting Pretrained Bias with Finetuning Data
   - Improving Text Embeddings with Large Language Models
+  - MAGPIE: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
 - 如何降低通用能力损失
   - How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition
   - TWO-STAGE LLM FINE-TUNING WITH LESS SPECIALIZATION AND MORE GENERALIZATION
@@ -1181,6 +1182,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars
   - More Agents Is All You Need
   - Small LLMs Are Weak Tool Learners: A Multi-LLM Agent
+  - Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models
 - 自主学习和探索进化
   - AppAgent: Multimodal Agents as Smartphone Users
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
@@ -1257,6 +1259,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation
   - [网易为RAG设计的BCE Embedding技术报告](https://zhuanlan.zhihu.com/p/681370855)
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
+  - D2LLM: Decomposed and Distilled Large Language Models for Semantic Search
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
 - When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively
 - Ranking Manipulation for Conversational Search Engines
@@ -1599,6 +1602,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - ON THE HIDDEN MYSTERY OF OCR IN LARGE MULTIMODAL MODELS
 - PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers
 - Many-Shot In-Context Learning in Multimodal Foundation Models
+- Adding Conditional Control to Text-to-Image Diffusion Models
 
 ### Timeseries LLM
 - TimeGPT-1
