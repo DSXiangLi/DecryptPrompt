@@ -557,6 +557,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [WriteSonic](https://app.writesonic.com/)：AI写作，支持对话和定向创作如广告文案，商品描述, 支持Web检索是亮点，支持中文 
 - [copy.ai](https://www.copy.ai/): WriteSonic竞品，亮点是像论文引用一样每句话都有对应网站链接，可以一键复制到右边的创作Markdown，超级好用！
 - [NotionAI](https://www.notion.so/product?fredir=1)：智能Markdown，适用真相！在创作中用command调用AI辅助润色，扩写，检索内容，给创意idea
+- [AIEditor](https://aieditor.dev/zh/demo.html): NotionAI开源平替，可以替换任意模型
+- [Eidos](https://github.com/mayneyao/eidos):NotionAI的离线平替，可以本地搭建笔记本并替换模型
 - [Hix-AI](https://hix.ai/app/ai-writer/dashboard): 同时提供copilot模式和综合写作模式
 - [AI-Write](https://ai-writer.com/?via=therundown)： 个人使用感较好的流程化写作工具
 - [Jasper](https://www.jasper.ai/): 同上，全是竞品哈哈 
