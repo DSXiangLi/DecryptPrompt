@@ -343,6 +343,7 @@
 |Vanna：本地搭载提供了从已有数据库构建NL2SQL所需RAG数据库的方案|https://github.com/vanna-ai/vanna|
 |TaskWeaver: code-first 的Agent |https://github.com/microsoft/TaskWeaver|
 |QMedia：多模态检索框架|https://github.com/QmiAI/Qmedia?tab=readme-ov-file|
+|Mem0： 支持长短期多层记忆的Agent框架|https://github.com/mem0ai/mem0|
 
 ### Agent Bot [托拉拽中间层]
 |应用|链接|
@@ -379,6 +380,7 @@
 |[spRAG](https://github.com/SuperpoweredAI/spRAG)|注入上下文表征，和自动组合上下文提高完整性|
 |[knowledge-graph](https://github.com/rahulnyk/knowledge_graph)|自动知识图谱构建工具|
 |[Marker-API](https://github.com/adithya-s-k/marker-api)|PDF转Markdwon服务|
+|[MinerU](https://github.com/opendatalab/MinerU)|文档识别，加入了Layout识别，Reading Order排序，公式识别，OCR文字识别的pipeline|
 
 ### 其他垂直领域Agent
 | 工具描述   | 链接   | 
@@ -405,6 +407,8 @@
 |Skyvern: WebAgent框架|https://www.skyvern.com/|
 |Translation Agent: 吴恩达开源的简单的翻译Agent，prompt也是用的XML格式|https://github.com/andrewyng/translation-agent/blob/main/src/translation_agent/utils.py|
 |GPT-Computer-Assistant：和电脑直接进行交互的Agent基于Crewai|https://github.com/onuratakan/gpt-computer-assistant|
+|WiseFlow：自动收集数据的爬虫任务|https://github.com/TeamWiseFlow/wiseflow/tree/master|
+|LaVague：WebAgent框架|https://github.com/lavague-ai/LaVague|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -568,6 +572,9 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [mindShow](https://www.mindshow.fun/#/folder/slides)：免费+付费的PPT制作工具，自定义PPT模板还不够好
 
 ### 金融垂直领域
+- [妙想金融](http://ai.eastmoney.com/chat): 东方财富推出的大模型应用
+- [支小助](https://zhu.alipay.com/fin-research/)：增加思维框架匹配的大模型思考问答
+- [通义点金](https://tongyi.aliyun.com/dianjin?spm=5176.28508143.J_XmGx2FZCDAeIy2ZCWL7sW.246.c9a8154aKQ0r96&scm=20140722.S_product@@%E4%BA%91%E4%BA%A7%E5%93%81@@999977._.RL_%E7%82%B9%E9%87%91-LOC_topbar~UND~product-OR_ser-V_3-RE_productNew-P0_0#/)：通义千文也推出了研报阅读和个股问答模块
 - [Linq](https://getlinq.com/):用AI简化金融分析师的研究工作
 - [BrightWave](https://www.brightwave.io/?ref=ai-bot.cn):AI金融研究助手
 - [Reportify](https://reportify.cc/): 金融领域公司公告，新闻，电话会的问答和摘要总结 
@@ -661,6 +668,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 
 ## Resources
 ### GPTs应用导航
+- [AIs for you ](https://theresanaiforthat.com/setup/): AI新闻，AI产品个人定制化订阅推送网站，实时追踪新产品
 - [SimilarGPTs：全网AI产品流量大全](https://similargpts.com/store-ranks/sorted-by-total-chats)： 
 - [GPTSeek: 大家投票得出的最有价值的GPT应用](https://www.gptseek.com/)
 - [ProductHunt: 技术产品网站，各类热门AI技术产品的集散地](https://www.producthunt.com/)
@@ -830,7 +838,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - DoRA: Weight-Decomposed Low-Rank Adaptation
 -  Representation Tuning
   - ReFT: Representation Finetuning for Language Models
-- TextGrad: Automatic "Differentiation" via Text
+
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -909,6 +917,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Overwriting Pretrained Bias with Finetuning Data
   - Improving Text Embeddings with Large Language Models
   - MAGPIE: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
+  - Scaling Synthetic Data Creation with 1,000,000,000 Personas
 - 如何降低通用能力损失
   - How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition
   - TWO-STAGE LLM FINE-TUNING WITH LESS SPECIALIZATION AND MORE GENERALIZATION
@@ -1185,6 +1194,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - More Agents Is All You Need
   - Small LLMs Are Weak Tool Learners: A Multi-LLM Agent
   - Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models
+  - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence
+  - RouteLLM: Learning to Route LLMs with Preference Data
 - 自主学习和探索进化
   - AppAgent: Multimodal Agents as Smartphone Users
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
@@ -1269,6 +1280,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Self-Knowledge Guided Retrieval Augmentation for Large Language Models
 - Small Models, Big Insights: Leveraging Slim Proxy Models To Decide When and What to Retrieve for LLMs
 - Self-DC: When to retrieve and When to generate Self Divide-and-Conquer for Compositional Unknown Questions
+- Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting
 
 ### 大模型图表理解和生成
 - survey
@@ -1348,6 +1360,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - PIXIU: A Large Language Model, Instruction Data and Evaluation Benchmark for Finance
   - The FinBen: An Holistic Financial Benchmark for Large Language Models
   - XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
+  - Towards Trustworthy Large Language Models in Industry Domains
 - 生物医疗
   - MedGPT: Medical Concept Prediction from Clinical Narratives
   - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
@@ -1583,6 +1596,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs
 - DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines
 - CONNECTING LARGE LANGUAGE MODELS WITH EVOLUTIONARY ALGORITHMS YIELDS POWERFUL PROMP OPTIMIZERS
+- TextGrad: Automatic "Differentiation" via Text
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
