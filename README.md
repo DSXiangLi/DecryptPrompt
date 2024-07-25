@@ -409,6 +409,7 @@
 |GPT-Computer-Assistant：和电脑直接进行交互的Agent基于Crewai|https://github.com/onuratakan/gpt-computer-assistant|
 |WiseFlow：自动收集数据的爬虫任务|https://github.com/TeamWiseFlow/wiseflow/tree/master|
 |LaVague：WebAgent框架|https://github.com/lavague-ai/LaVague|
+|TransAgent:腾讯推出的多智能体翻译，可以在线体验|https://www.transagents.ai/|
 
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
@@ -518,6 +519,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [天工AI搜索](https://www.tiangong.cn/?channel=bing&msclkid=3f5eebf016751939acb98dcd75d4dc02)：和You相同的三种模式检索增强
 - [MiKU搜索](https://hellomiku.com/?ref=aihub.cn)：更多面向事件的搜索
 - [开搜AI搜索搜索](https://kaisouai.com/): 免费无广告，直达结果
+- [EXA](https://exa.sh/search)
 #### 代码搜索
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
@@ -1027,6 +1029,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Training Verifiers to Solve Math Word Problems [PRM的前置依赖]
   - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
   - LLM Critics Help Catch LLM Bugs
+  - PROVER-VERIFIER GAMES IMPROVE LEGIBILITY OF LLM OUTPUTS
+  - Rule Based Rewards for Language Model Safety
 - Anthropic
   - A General Language Assistant as a Laboratory for Alignmen 
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
@@ -1196,6 +1200,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models
   - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence
   - RouteLLM: Learning to Route LLMs with Preference Data
+  - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
 - 自主学习和探索进化
   - AppAgent: Multimodal Agents as Smartphone Users
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
