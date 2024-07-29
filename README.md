@@ -344,7 +344,7 @@
 |TaskWeaver: code-first 的Agent |https://github.com/microsoft/TaskWeaver|
 |QMedia：多模态检索框架|https://github.com/QmiAI/Qmedia?tab=readme-ov-file|
 |Mem0： 支持长短期多层记忆的Agent框架|https://github.com/mem0ai/mem0|
-
+|Automa： Chrome浏览器自动化扩展，相同思路可以接入LLM来进行任务编辑|https://automa.wiki/|
 ### Agent Bot [托拉拽中间层]
 |应用|链接|
 | --- | --- | 
@@ -503,8 +503,10 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 
 ## AIGC
 ### 搜索
-#### 通用搜索
+#### 全新搜索形态之AGI或许是个产品问题
+- [Hebbia.aiMatrix](https://www.hebbia.ai/blog/introducing-matrix-the-interface-to-agi): 号称可以解决更多RAGfail 的分析类场景，多步推理类场景的任务流解决方案
 - [genspark.ai](https://www.genspark.ai/): 融合了旅行，购物的真生成式搜索引擎，内容也由模型直接生成，可以说是全新搜索形式了，而模型本身回到sidebar的位置只起到辅助的作用，整个网站的风格偏小红书风格
+#### 通用搜索
 - [秘塔搜索](https://metaso.cn/about-us): 融合了脑图，表格多模态问答的搜索应用
 - [iAsk](https://iask.ai/): 海外的通搜APP，支持source筛选过滤
 - [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式
@@ -540,6 +542,9 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 ### AI内容运营
 - [Miracleplus](https://news.miracleplus.com/feeds?tab=hot): 全AI Agent负责运营的AI内容网站
 - [goatstack](https://goatstack.ai/): 可以自定义的论文订阅网站，每天有AI筛选并总结相关论文并推送给用户
+
+### 销售场景
+- [Clay](https://www.clay.com/): 销售线索管理和扩展
 
 ### 论文研究: 日度更新，观点总结，
 - [SCISPACE](https://typeset.io/): 论文研究的白月光，融合了全库搜索问答，以及个人上传PDF构建知识库问答。同样支持相关论文发现，和论文划词解读。并且解读内容可以保存到notebook中方便后续查找，可以说是产品和算法强强联合了。
@@ -682,6 +687,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [AI-Bot各类工具导航](https://ai-bot.cn/#term-15)
 - [AI-Search: AI应用检索网站](https://ai-search.io/)
 - [StackRadar:各类高科技应用导航](https://www.stackradar.co/)
+- [askaitools: AI产品搜索引擎](https://askaitools.ai/)
 
 ### Prompt和其他教程类
 - [Prompt Guide 101](https://prompt-guide.netlify.app/guide/chapter-1.html): 分任务的prompt编写指南
@@ -1017,6 +1023,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Final-Answer RL Solving math word problems with processand outcome-based feedback
   - Solving math word problems with process- and outcome-based feedback
   - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
+  - BOND: Aligning LLMs with Best-of-N Distillation
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
@@ -1286,6 +1293,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - Small Models, Big Insights: Leveraging Slim Proxy Models To Decide When and What to Retrieve for LLMs
 - Self-DC: When to retrieve and When to generate Self Divide-and-Conquer for Compositional Unknown Questions
 - Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting
+- Memory3 : Language Modeling with Explicit Memory
 
 ### 大模型图表理解和生成
 - survey
