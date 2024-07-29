@@ -44,6 +44,7 @@
 - [​解密Prompt系列31. LLM Agent之从经验中不断学习的智能体](https://cloud.tencent.com/developer/article/2425139)
 - [解密Prompt系列32. LLM之表格理解任务-文本模态](https://cloud.tencent.com/developer/article/2429900)
 - [解密Prompt系列33. LLM之图表理解任务-多模态篇](https://cloud.tencent.com/developer/article/2433883)
+- [​解密prompt系列34. RLHF之训练另辟蹊径：循序渐进 & 青出于蓝](https://cloud.tencent.com/developer/article/2437031)
 
 ## LLMS
 ### 模型评测
