@@ -45,6 +45,7 @@
 - [解密Prompt系列32. LLM之表格理解任务-文本模态](https://cloud.tencent.com/developer/article/2429900)
 - [解密Prompt系列33. LLM之图表理解任务-多模态篇](https://cloud.tencent.com/developer/article/2433883)
 - [​解密prompt系列34. RLHF之训练另辟蹊径：循序渐进 & 青出于蓝](https://cloud.tencent.com/developer/article/2437031)
+- [解密prompt系列35. 标准化Prompt进行时！ DSPy论文串烧和代码示例](https://cloud.tencent.com/developer/article/2441201)
 
 ## LLMS
 ### 模型评测
@@ -1615,6 +1616,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - CONNECTING LARGE LANGUAGE MODELS WITH EVOLUTIONARY ALGORITHMS YIELDS POWERFUL PROMP OPTIMIZERS
 - TextGrad: Automatic "Differentiation" via Text
 - Task Facet Learning: A Structured Approach to Prompt Optimization
+- LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
