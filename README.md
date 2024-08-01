@@ -560,6 +560,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [BriefGPT](https://briefgpt.xyz/?viaurl=ainavpro.com): 日更Arxiv论文，并对论文进行摘要，关键词抽取，帮助研究者了解最新动态, UI不错哟
 
 ### 写作效率工具类
+- [ZeroGPT](https://www.zerogpt.com/): 提供GPT文本检测功能的
 - [AFFiNE AI](https://affine.pro/): 很有创意的写作平台，结合写作绘图为一体
 - [SudoWrite](https://editor.sudowrite.com/app): 很有创意的AI卡片写作应用，主要面向各种类型的长文写作
 - [赛博马良](https://saibomaliang.com/):题如其名，可定制AI员工24小时全网抓取关注的创作选题，推送给小编进行二次创作 
@@ -661,6 +662,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Magnific.ai](https://magnific.ai/): 两个人的团队做出的AI图片精修师
 - [Civital.com](https://civitai.com/images): AI图片共享网站同时支持多模型的图片生成
 - [IdeoGram.ai](https://ideogram.ai/signup): Google Bran研究员创立的图片生成，Md平替
+- [即梦](https://jimeng.jianying.com/ai-tool/login)：字节推出的文生图，文生视频平台
 
 ### 视频生成
 - [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
@@ -691,6 +693,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [askaitools: AI产品搜索引擎](https://askaitools.ai/)
 
 ### Prompt和其他教程类
+- [LangGPT](https://github.com/langgptai/LangGPT/tree/main): 结构化提示词手册
 - [Prompt Guide 101](https://prompt-guide.netlify.app/guide/chapter-1.html): 分任务的prompt编写指南
 - [OpenAI Cookbook](https://github.com/openai/openai-cookbook): 提供OpenAI模型使用示例  :star:
 - [PromptPerfect](https://promptperfect.jinaai.cn/):用魔法打败魔法，输入原始提示词，模型进行定向优化，试用后我有点沉默了，可以定向支持不同使用prompt的模型如Difussion，ChatGPT， Dalle等
@@ -1611,6 +1614,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines
 - CONNECTING LARGE LANGUAGE MODELS WITH EVOLUTIONARY ALGORITHMS YIELDS POWERFUL PROMP OPTIMIZERS
 - TextGrad: Automatic "Differentiation" via Text
+- Task Facet Learning: A Structured Approach to Prompt Optimization
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
