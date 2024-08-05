@@ -509,6 +509,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Hebbia.aiMatrix](https://www.hebbia.ai/blog/introducing-matrix-the-interface-to-agi): 号称可以解决更多RAGfail 的分析类场景，多步推理类场景的任务流解决方案
 - [genspark.ai](https://www.genspark.ai/): 融合了旅行，购物的真生成式搜索引擎，内容也由模型直接生成，可以说是全新搜索形式了，而模型本身回到sidebar的位置只起到辅助的作用，整个网站的风格偏小红书风格
 #### 通用搜索
+- [MindSearch](https://github.com/InternLM/MindSearch): 通过动态构建图节点，实现更深更广的RAG
 - [秘塔搜索](https://metaso.cn/about-us): 融合了脑图，表格多模态问答的搜索应用
 - [iAsk](https://iask.ai/): 海外的通搜APP，支持source筛选过滤
 - [You.COM](https://chrome.google.com/webstore/detail/youcom-ai-search-assistan/chamcglaoafmjphcfppikphgianmmbjf) : 支持多种检索增强问答模式
@@ -1003,6 +1004,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Large Language Models are Reasoning Teachers
     - Distilling Reasoning Capabilities into Smaller Language Models
     - The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning
+    - Distilling System 2 into System 1
 - COT样本自动构建/选择
     - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning  
     - AutoCOT：AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
@@ -1203,7 +1205,9 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society  :star:
   - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
   - Communicative Agents for Software Development  :star:
-  - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE GENERATIVE AGENTS
+  - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE 
+  - System-1.x: Learning to Balance Fast and Slow Planning with Language Models
+GENERATIVE AGENTS
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
   - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
   - War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars
@@ -1379,6 +1383,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - The FinBen: An Holistic Financial Benchmark for Large Language Models
   - XuanYuan 2.0: A Large Chinese Financial Chat Model with Hundreds of Billions Parameters
   - Towards Trustworthy Large Language Models in Industry Domains
+  - When AI Meets Finance (StockAgent): Large Language Model-based Stock Trading in Simulated Real-world Environments
+  - A Survey of Large Language Models for Financial Applications: Progress, Prospects and Challenges
 - 生物医疗
   - MedGPT: Medical Concept Prediction from Clinical Narratives
   - BioGPT：Generative Pre-trained Transformer for Biomedical Text Generation and Mining
@@ -1617,6 +1623,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
 - TextGrad: Automatic "Differentiation" via Text
 - Task Facet Learning: A Structured Approach to Prompt Optimization
 - LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language
+- PAS: Data-Efficient Plug-and-Play Prompt Augmentation System
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
