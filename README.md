@@ -524,7 +524,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [天工AI搜索](https://www.tiangong.cn/?channel=bing&msclkid=3f5eebf016751939acb98dcd75d4dc02)：和You相同的三种模式检索增强
 - [MiKU搜索](https://hellomiku.com/?ref=aihub.cn)：更多面向事件的搜索
 - [开搜AI搜索搜索](https://kaisouai.com/): 免费无广告，直达结果
-- [EXA](https://exa.sh/search)
+- [EXA](https://exa.sh/search)：新搜索引擎目标是替换google为AI提供内容检索
+- [PeopleAlsoAsk](https://peoplealsoask.ai/): 通过脑图对用户提问进行扩展
 #### 代码搜索
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
@@ -673,6 +674,10 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [度加](https://aigc.baidu.com/works)：支持直接text2video，但质量比星火差很多，应该说是动态PPT的视频style，但一键生成确实很像，也支持进一步编辑和素材替换
 - [一帧秒创](https://aigc.yizhentv.com/home/app/): 支持图文转视频和数字人播报，个人体验比度加略弱
 - [Elai](https://app.elai.io/): 支持大纲直接生成数字人播报视频，免费试用只能制作几分钟
+
+### 音频生成
+- [Suno](https://suno.cn/guide):不用翻墙的suno中文站点
+- [海绵音乐](https://www.haimian.com/featured):字节推出的音乐造梗神器
 
 ### PPT制作
 - [Gamma](https://gamma.app/create/generate): PPT制作神器，ProductHunt月度排名Number1
@@ -1090,6 +1095,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Token-level Direct Preference Optimization
   - SimPO: Simple Preference Optimization with a Reference-Free Reward
   - AUTODETECT: Towards a Unified Framework for Automated Weakness Detection in Large Language Models
+  - META-REWARDING LANGUAGE MODELS: Self-Improving Alignment with LLM-as-a-Meta-Judge
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -1155,6 +1161,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Demonstration of InsightPilot: An LLM-Empowered Automated Data Exploration System
     - TaskWeaver: A Code-First Agent Framework
     - Automated Social Science: Language Models as Scientist and Subjects
+    - Data Interpreter: An LLM Agent For Data Science
   - 金融
     - WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
     - FinGPT: Open-Source Financial Large Language Models
@@ -1303,6 +1310,8 @@ GENERATIVE AGENTS
 - Self-DC: When to retrieve and When to generate Self Divide-and-Conquer for Compositional Unknown Questions
 - Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting
 - Memory3 : Language Modeling with Explicit Memory
+- REAPER: Reasoning based Retrieval Planning for Complex RAG Systems
+- Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
 
 ### 大模型图表理解和生成
 - survey
@@ -1576,7 +1585,7 @@ GENERATIVE AGENTS
 - MEND：Fast Model Editing at Scale
 - Editing Large Language Models: Problems, Methods, and Opportunities
 - Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
-
+- Automata-based constraints for language model decoding
 
 ### 模型合并和剪枝(model_merge)
 - Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM
