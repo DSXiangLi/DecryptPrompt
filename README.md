@@ -311,6 +311,7 @@
 |webarena:网络拟真环境，可用于自主智能体的测试，支持在线购物，论坛，代码仓库etc |https://github.com/web-arena-x/webarena|
 |MiniWoB++：100+web交互操作的拟真环境 |https://github.com/Farama-Foundation/miniwob-plusplus|
 |VIRL:虚拟世界模拟器|https://github.com/VIRL-Platform/VIRL|
+|AgentK: 多智能体协作，自我进化，自主生成新智能体的框架|https://github.com/mikekelly/AgentK/tree/master|
 
 ### Agent工具框架类
 | 工具描述   | 链接   | 
@@ -347,6 +348,7 @@
 |QMedia：多模态检索框架|https://github.com/QmiAI/Qmedia?tab=readme-ov-file|
 |Mem0： 支持长短期多层记忆的Agent框架|https://github.com/mem0ai/mem0|
 |Automa： Chrome浏览器自动化扩展，相同思路可以接入LLM来进行任务编辑|https://automa.wiki/|
+
 ### Agent Bot [托拉拽中间层]
 |应用|链接|
 | --- | --- | 
@@ -357,6 +359,7 @@
 |Microsoft Power Automate|https://www.microsoft.com/zh-cn/power-platform/products/power-automate|
 |Mind Studio：有限使用|https://youai.ai/|
 |QuestFlow：付费|https://www.questflow.ai/|
+|WordWare.ai: |https://www.wordware.ai/?ref=aihub.cn|
 
 ### RAG，Agent配套工具
 |工具|描述|
@@ -666,6 +669,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [Civital.com](https://civitai.com/images): AI图片共享网站同时支持多模型的图片生成
 - [IdeoGram.ai](https://ideogram.ai/signup): Google Bran研究员创立的图片生成，Md平替
 - [即梦](https://jimeng.jianying.com/ai-tool/login)：字节推出的文生图，文生视频平台
+- [FLUX1.0](https://github.com/black-forest-labs/flux): 堪比MidJourney的开源AI绘画模型，中文支持不好用英文尝试
+- [Imagen 3](https://aitestkitchen.withgoogle.com/tools/image-fx?utm_source=gdm&utm_medium=site): 谷歌推出的最新的文生图模型
 
 ### 视频生成
 - [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
@@ -989,6 +994,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
     - Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models
     - Abstraction-of-Thought Makes Language Models Better Reasoners
     - Faithful Logical Reasoning via Symbolic Chain-of-Thought
+    - Inductive or Deductive? Rethinking the Fundamental Reasoning Abilities of LLMs
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -1312,6 +1318,7 @@ GENERATIVE AGENTS
 - Memory3 : Language Modeling with Explicit Memory
 - REAPER: Reasoning based Retrieval Planning for Complex RAG Systems
 - Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
+- RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs
 
 ### 大模型图表理解和生成
 - survey
