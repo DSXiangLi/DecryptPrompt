@@ -352,6 +352,7 @@
 ### Agent Bot [托拉拽中间层]
 |应用|链接|
 | --- | --- | 
+|Wordware.ai: 新的flow构建交互形式，像notion一样的magic命令行形式|https://www.wordware.ai/?utm_source=toolify|
 |Coze：免费|https://www.coze.com/|
 |Dify|https://dify.ai/zh|
 |Anakin|https://app.anakin.ai/discover|
@@ -533,6 +534,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
 #### 知识管理
+- [supermemory](https://supermemory.ai/home): 个人知识管理项目，创建note就可以搜索到，更多是作为浏览器插件使用
 - [glean](https://www.glean.com/): 企业知识搜索和项目管理类的搜索初创公司，帮助员工快速定位信息，帮助公司整合信息
 - [Mem](https://get.mem.ai/): 个人知识管理，例如知识图谱，已获openai融资
 - [GPT-Crawler](https://github.com/BuilderIO/gpt-crawler): 通过简单配置，即可自行提取网页的文本信息构建知识库，并进一步自定义GPTs
@@ -553,7 +555,8 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 ### 销售场景
 - [Clay](https://www.clay.com/): 销售线索管理和扩展
 
-### 论文研究: 日度更新，观点总结，
+### 论文研究: 日度更新，观点总结
+- [Lumina](https://lumina.sh/c5bbe32b-4fb7-476a-81aa-fe269f67f283):  据说搜索相关性比google好5倍的开源论文搜索+AI摘要总结
 - [SCISPACE](https://typeset.io/): 论文研究的白月光，融合了全库搜索问答，以及个人上传PDF构建知识库问答。同样支持相关论文发现，和论文划词解读。并且解读内容可以保存到notebook中方便后续查找，可以说是产品和算法强强联合了。
 - [ELICIT](https://elicit.com/): 和SCISPACE相似，支持一键生成论文relatied work
 - [Consensus](https://consensus.app/search/): AI加持的论文搜素，多论文总结，观点对比工具。产品排名巨高，但个人感觉搜索做的有提升空间
@@ -1140,6 +1143,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
    -AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls 
   - AIOS: LLM Agent Operating System
   - LLMCompiler An LLM Compiler for Parallel Function Calling
+  - Re-Invoke: Tool Invocation Rewriting for Zero-Shot Tool Retrieval
 - 基于微调通用方案
   - TALM: Tool Augmented Language Models
   - Toolformer: Language Models Can Teach Themselves to Use Tools  :star:
@@ -1220,6 +1224,8 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Communicative Agents for Software Development  :star:
   - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE 
   - System-1.x: Learning to Balance Fast and Slow Planning with Language Models
+  - One Agent To Rule Them All: Towards Multi-agent Conversational AI
+  - A Multi-Agent Conversational Recommender System
 GENERATIVE AGENTS
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
   - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
@@ -1230,6 +1236,7 @@ GENERATIVE AGENTS
   - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence
   - RouteLLM: Learning to Route LLMs with Preference Data
   - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
+  - METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK
 - 自主学习和探索进化
   - AppAgent: Multimodal Agents as Smartphone Users
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
@@ -1319,6 +1326,7 @@ GENERATIVE AGENTS
 - REAPER: Reasoning based Retrieval Planning for Complex RAG Systems
 - Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
 - RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs
+- Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity
 
 ### 大模型图表理解和生成
 - survey
@@ -1640,6 +1648,7 @@ GENERATIVE AGENTS
 - Task Facet Learning: A Structured Approach to Prompt Optimization
 - LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language
 - PAS: Data-Efficient Plug-and-Play Prompt Augmentation System
+- Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
