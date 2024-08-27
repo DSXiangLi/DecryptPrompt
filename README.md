@@ -1315,7 +1315,14 @@ GENERATIVE AGENTS
   - PROMPTAGATOR : FEW-SHOT DENSE RETRIEVAL FROM 8 EXAMPLES
   - Query Rewriting for Retrieval-Augmented Large Language Models
   - Query2doc: Query Expansion with Large Language Models  :star:
-
+- Ranking
+  - A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models
+  - RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models
+  - Improving Passage Retrieval with Zero-Shot Question Generation
+  - Large Language Models are Effective Text Rankers with Pairwise Ranking Prompting
+  - RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs
+  - Ranking Manipulation for Conversational Search Engines
+  - Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents
 - 传统搜索方案
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING
   - Query Expansion Techniques for Information Retrieval a Survey
@@ -1327,11 +1334,9 @@ GENERATIVE AGENTS
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
   - D2LLM: Decomposed and Distilled Large Language Models for Semantic Search
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
-- Ranking Manipulation for Conversational Search Engines
+
+- Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
 - Memory3 : Language Modeling with Explicit Memory
-- 优化上文
-  - Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
-  - RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs
 - 优化推理结果
   - Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting
 - 动态RAG（When to Search & Search Plan）
