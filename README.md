@@ -46,6 +46,7 @@
 - [解密Prompt系列33. LLM之图表理解任务-多模态篇](https://cloud.tencent.com/developer/article/2433883)
 - [​解密prompt系列34. RLHF之训练另辟蹊径：循序渐进 & 青出于蓝](https://cloud.tencent.com/developer/article/2437031)
 - [解密prompt系列35. 标准化Prompt进行时！ DSPy论文串烧和代码示例](https://cloud.tencent.com/developer/article/2441201)
+- [解密Prompt系列36. Prompt结构化编写和最优化算法UNIPROMPT](https://cloud.tencent.com/developer/article/2444167)
 
 ## LLMS
 ### 模型评测
@@ -417,6 +418,13 @@
 |LaVague：WebAgent框架|https://github.com/lavague-ai/LaVague|
 |TransAgent:腾讯推出的多智能体翻译，可以在线体验|https://www.transagents.ai/|
 
+
+### Prompt Engineer
+- [Weavel APE](https://weavel.ai/docs/ape)
+- [DSPY](https://github.com/stanfordnlp/dspy)：类比Pydantic的标准化prompt和针对few-shot选择的调优
+- [PromptPerfect](https://promptperfect.jina.ai/)：提供多种模态，多模型的prompt一键优化插件
+- [LangGPT](https://github.com/langgptai/LangGPT): 结构化Prompt编写模版
+
 ## Training Data
 | 数据类型    | 数据描述    | 数据链接    |
 | --- | --- | --- |
@@ -567,6 +575,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 - [researchgpt](https://github.com/mukulpatnaik/researchgpt): 和ChatPDF类似，支持arivx论文下载，加载后对话式获取论文重点 
 - [ChatGPT-academic](https://github.com/binary-husky/chatgpt_academic): 又是一个基于gradio实现的paper润色，摘要等功能打包的实现,不少功能可以借鉴
 - [BriefGPT](https://briefgpt.xyz/?viaurl=ainavpro.com): 日更Arxiv论文，并对论文进行摘要，关键词抽取，帮助研究者了解最新动态, UI不错哟
+- [OpenResearcher](https://github.com/GAIR-NLP/OpenResearcher)：针对Arxiv 论文的RAG方案还给出了评估benchmark
 
 ### 写作效率工具类
 - [ZeroGPT](https://www.zerogpt.com/): 提供GPT文本检测功能的
@@ -1263,20 +1272,17 @@ GENERATIVE AGENTS
 - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
 - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
 - REPLUG: Retrieval-Augmented Black-Box Language Models :star:
-- Query Rewriting for Retrieval-Augmented Large Language Models
 - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
 - Atlas: Few-shot Learning with Retrieval Augmented Language Models
 - RRAML: Reinforced Retrieval Augmented Machine Learning
 - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
 - PDFTriage: Question Answering over Long, Structured Documents
-- SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
 - Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
 - Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
 - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive  Tasks
 - Active Retrieval Augmented Generation
 - kNN-LM Does Not Improve Open-ended Text Generation
 - Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
-- Query2doc: Query Expansion with Large Language Models  :star:
 - RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
 - Augmented Embeddings for Custom Retrievals
 - DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
@@ -1297,36 +1303,52 @@ GENERATIVE AGENTS
 - ChatQA: Building GPT-4 Level Conversational QA Models
 - RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
 - Benchmarking Large Language Models in Retrieval-Augmented Generation
-- HyDE：Precise Zero-Shot Dense Retrieval without Relevance Labels
-- PROMPTAGATOR : FEW-SHOT DENSE RETRIEVAL FROM 8 EXAMPLES
 - SYNERGISTIC INTERPLAY BETWEEN SEARCH AND LARGE LANGUAGE MODELS FOR INFORMATION RETRIEVAL
 - T-RAG: Lessons from the LLM Trenches
 - RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
 - ARAGOG: Advanced RAG Output Grading
 - ActiveRAG: Revealing the Treasures of Knowledge via Active Learning
 - RAFT: Adapting Language Model to Domain Specific RAG
-- ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING [传统方案参考]
-- Query Expansion Techniques for Information Retrieval a Survey [传统方案参考]
-- Learning to Rewrite Queries [传统方案参考]
-- Managing Diversity in Airbnb Search[传统方案参考]
+- OpenResearcher: Unleashing AI for Accelerated Scientific Research
+- 优化检索
+  - HyDE：Precise Zero-Shot Dense Retrieval without Relevance Labels
+  - PROMPTAGATOR : FEW-SHOT DENSE RETRIEVAL FROM 8 EXAMPLES
+  - Query Rewriting for Retrieval-Augmented Large Language Models
+  - Query2doc: Query Expansion with Large Language Models  :star:
+
+- 传统搜索方案
+  - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING
+  - Query Expansion Techniques for Information Retrieval a Survey
+  - Learning to Rewrite Queries 
+  - Managing Diversity in Airbnb Search
 - 新向量模型用于Recall和Ranking
   - BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation
   - [网易为RAG设计的BCE Embedding技术报告](https://zhuanlan.zhihu.com/p/681370855)
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
   - D2LLM: Decomposed and Distilled Large Language Models for Semantic Search
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
-- When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively
 - Ranking Manipulation for Conversational Search Engines
-- PlanRAG: A Plan-then-Retrieval Augmented Generation for Generative Large Language Models as Decision Makers
-- Self-Knowledge Guided Retrieval Augmentation for Large Language Models
-- Small Models, Big Insights: Leveraging Slim Proxy Models To Decide When and What to Retrieve for LLMs
-- Self-DC: When to retrieve and When to generate Self Divide-and-Conquer for Compositional Unknown Questions
-- Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting
 - Memory3 : Language Modeling with Explicit Memory
-- REAPER: Reasoning based Retrieval Planning for Complex RAG Systems
-- Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
-- RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs
-- Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity
+- 优化上文
+  - Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
+  - RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs
+- 优化推理结果
+  - Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting
+- 动态RAG（When to Search & Search Plan）
+  - SELF-RAG: LEARNING TO RETRIEVE, GENERATE, AND CRITIQUE THROUGH SELF-REFLECTION  :star:
+  - Self-Knowledge Guided Retrieval Augmentation for Large Language Models
+  - Self-DC: When to retrieve and When to generate Self Divide-and-Conquer for Compositional Unknown Questions
+  - Small Models, Big Insights: Leveraging Slim Proxy Models To Decide When and What to Retrieve for LLMs
+  - Adaptive-RAG: Learning to Adapt Retrieval-Augmented Large Language Models through Question Complexity
+  - REAPER: Reasoning based Retrieval Planning for Complex RAG Systems
+  - When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively
+  - PlanRAG: A Plan-then-Retrieval Augmented Generation for Generative Large Language Models as Decision Makers
+- Graph RAG 
+  - GRAPH Retrieval-Augmented Generation: A Survey
+  - From Local to Global: A Graph RAG Approach to Query-Focused Summarization
+  - GRAG: Graph Retrieval-Augmented Generation
+  - GNN-RAG: Graph Neural Retrieval for Large Language Model Reasoning
+
 
 ### 大模型图表理解和生成
 - survey
