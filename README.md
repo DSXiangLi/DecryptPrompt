@@ -1226,26 +1226,32 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Benchmarking Large Language Models in Retrieval-Augmented Generation
   - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems
 - MultiAgent
-  - Generative Agents: Interactive Simulacra of Human Behavior  :star:
-  - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents
-  - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society  :star:
-  - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
-  - Communicative Agents for Software Development  :star:
-  - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE 
-  - System-1.x: Learning to Balance Fast and Slow Planning with Language Models
-  - One Agent To Rule Them All: Towards Multi-agent Conversational AI
-  - A Multi-Agent Conversational Recommender System
-GENERATIVE AGENTS
+   - GENERATIVE AGENTS
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
-  - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
   - War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars
-  - More Agents Is All You Need
   - Small LLMs Are Weak Tool Learners: A Multi-LLM Agent
   - Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models
-  - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence
-  - RouteLLM: Learning to Route LLMs with Preference Data
-  - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
-  - METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK
+  - Generative Agents: Interactive Simulacra of Human Behavior  :star:
+  - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents
+  - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE 
+  - System-1.x: Learning to Balance Fast and Slow Planning with Language Models
+  - 智能体协作
+    - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society  :star:
+    - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
+    - Communicative Agents for Software Development  :star:
+    - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
+    - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
+    - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
+    - METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK
+  - 智能体路由
+     - One Agent To Rule Them All: Towards Multi-agent Conversational AI
+     - A Multi-Agent Conversational Recommender System
+  - 基座模型路由&Ensemble
+     - Large Language Model Routing with Benchmark Datasets
+     - LLM-BL E N D E R: Ensembling Large Language Models with Pairwise Ranking and Generative Fusion
+     - RouteLLM: Learning to Route LLMs with Preference Data
+     - More Agents Is All You Need
+     - Routing to the Expert: Efficient Reward-guided Ensemble of Large Language Models
 - 自主学习和探索进化
   - AppAgent: Multimodal Agents as Smartphone Users
   - Investigate-Consolidate-Exploit: A General Strategy for Inter-Task Agent Self-Evolution
