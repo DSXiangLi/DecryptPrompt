@@ -47,6 +47,7 @@
 - [​解密prompt系列34. RLHF之训练另辟蹊径：循序渐进 & 青出于蓝](https://cloud.tencent.com/developer/article/2437031)
 - [解密prompt系列35. 标准化Prompt进行时！ DSPy论文串烧和代码示例](https://cloud.tencent.com/developer/article/2441201)
 - [解密Prompt系列36. Prompt结构化编写和最优化算法UNIPROMPT](https://cloud.tencent.com/developer/article/2444167)
+- [解密Prompt系列37.RAG之前置决策何时联网的多种策略](https://cloud.tencent.com/developer/article/2448156)
 
 ## LLMS
 ### 模型评测
@@ -1232,16 +1233,17 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - Small LLMs Are Weak Tool Learners: A Multi-LLM Agent
   - Merge, Ensemble, and Cooperate! A Survey on Collaborative Strategies in the Era of Large Language Models
   - Generative Agents: Interactive Simulacra of Human Behavior  :star:
-  - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents
-  - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE 
+  - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents 
   - System-1.x: Learning to Balance Fast and Slow Planning with Language Models
-  - 智能体协作
+  - 多智能体系统
+    - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
+    - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
+  - 任务型智能体协作
+    - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE
     - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society  :star:
     - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
     - Communicative Agents for Software Development  :star:
     - MedAgents: Large Language Models as Collaborators for Zero-shot Medical Reasoning
-    - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
-    - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
     - METAGPT: META PROGRAMMING FOR A MULTI-AGENT COLLABORATIVE FRAMEWORK
   - 智能体路由
      - One Agent To Rule Them All: Towards Multi-agent Conversational AI
