@@ -53,7 +53,8 @@
 ### 模型评测
 |榜单|结果|
 |----|-----|
-|[AlpacaEval：LLM-based automatic evaluation ](https://tatsu-lab.github.io/alpaca_eval/)| 开源模型王者vicuna,openchat, wizardlm|
+|[Arena Hard](https://github.com/lm-sys/arena-hard-auto)|Lmsys Org开源的大模型评估基准，与人类偏好排名有更高一致性|
+|[AlpacaEval 2.0：LLM-based automatic evaluation ](https://tatsu-lab.github.io/alpaca_eval/)| 开源模型王者vicuna,openchat, wizardlm|
 |[Huggingface Open LLM Leaderboard](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)|MMLU只评估开源模型，Falcon夺冠，在Eleuther AI4个评估集上评估的LLM模型榜单,vicuna夺冠| 
 |[https://opencompass.org.cn/](https://opencompass.org.cn/)|上海人工智能实验室推出的开源榜单|
 |[Berkley出品大模型排位赛榜有准中文榜单](https://lmsys.org/blog/2023-05-03-arena/)|Elo评分机制，GPT4自然是稳居第一，GPT4>Claude>GPT3.5>Vicuna>others|
@@ -453,8 +454,10 @@
 |指令微调| CSL包含 396,209 篇中文核心期刊论文元信息 （标题、摘要、关键词、学科、门类）可做预训练可构建NLP指令任务|https://github.com/ydli-ai/CSL|
 |指令微调| alpaca code 20K代码指令数据|https://github.com/sahil280114/codealpaca#data-release|
 |指令微调| GPT4Tools 71K GPT4指令样本|https://github.com/StevenGrove/GPT4Tools|
-|指令微调| GPT4指令+角色扮演+代码指令|https://github.com/teknium1/GPTeacher|
+|指令微调| GPT4指令+角色扮演+代码指令|https://huggingface.co/datasets/teknium/OpenHermes-2.5?row=0|
 |指令微调| Mol-Instructions 2043K 分子+蛋白质+生物分子文本指令，覆盖分子设计、蛋白质功能预测、蛋白质设计等任务| https://github.com/zjunlp/Mol-Instructions|
+|指令微调| Inifity-Instruct 智源千万级指令微调数据集|https://github.com/FlagOpen/Infinity-Instruct/tree/main|
+|指令微调|OpenHermes: GPT4生成数据做了过滤筛选|https://huggingface.co/teknium/OpenHermes-2.5-Mistral-7B|
 |数学| 腾讯人工智能实验室发布网上爬取的数学问题APE210k|https://github.com/Chenny0808/ape210k|
 |数学| 猿辅导 AI Lab开源小学应用题Math23K|https://github.com/SCNU203/Math23k/tree/main|
 |数学| grade school math把OpenAI的高中数学题有改造成指令样本有2-8步推理过程|https://huggingface.co/datasets/qwedsacf/grade-school-math-instructions|
@@ -475,6 +478,7 @@
 |对话| Awesome Open-domain Dialogue Models提供多个开放域对话数据|https://github.com/cingtiye/Awesome-Open-domain-Dialogue-Models#%E4%B8%AD%E6%96%87%E5%BC%80%E6%94%BE%E5%9F%9F%E5%AF%B9%E8%AF%9D%E6%95%B0%E6%8D%AE%E9%9B%86|
 |对话| Salesforce开源超全DialogStudio |https://github.com/salesforce/DialogStudio|
 |对话|基于事实Reference的多轮问答中文数据，已开源5万，之后会开源更多|https://github.com/sufengniu/RefGPT|
+|对话|lmsys-chat: Vicuna demo和Chatbot Arena上真实用户和模型的对话数据|https://huggingface.co/datasets/lmsys/lmsys-chat-1m|
 RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co/datasets/PKU-Alignment/PKU-SafeRLHF-10K|
 |RLHF| Anthropic hh-rlhf数据集   |   https://huggingface.co/datasets/Anthropic/hh-rlhf  |
 |RLHF| Stack-exchange上问题对应多个答案，每个答案有打分|https://huggingface.co/datasets/HuggingFaceH4/stack-exchange-preferences/tree/main|
@@ -484,6 +488,7 @@ RLFH| 北大河狸开源RLHF数据集10K，1M需要申请|https://huggingface.co
 |RLHF| 知乎问答偏好数据集|https://huggingface.co/datasets/liyucheng/zhihu_rlhf_3k|
 |RLHF| hh-rlhf中文翻译偏好数据|https://huggingface.co/datasets/liswei/rm-static-zhTW|
 |RLHF|面壁智能开源大规模偏好数据，基于64Kprompt使用不同模型生成4个回答使用GPT-4评估|https://github.com/OpenBMB/UltraFeedback|
+|RLHF|HelpSteer:英伟达推出的10K偏好数据 |https://huggingface.co/datasets/nvidia/HelpSteer|
 |评估集| BigBench(Beyond the Imitation Game Benchmark)    |  https://github.com/google/BIG-bench   |
 |评估集| Complex QA：用于ChatGPT的评测指令集  |    https://github.com/tan92hl/Complex-Question-Answering-Evaluation-of-ChatGPT |
 |评估集| Langchain开源评估数据集  |   https://huggingface.co/LangChainDatasets  |
@@ -1115,6 +1120,7 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - SimPO: Simple Preference Optimization with a Reference-Free Reward
   - AUTODETECT: Towards a Unified Framework for Automated Weakness Detection in Large Language Models
   - META-REWARDING LANGUAGE MODELS: Self-Improving Alignment with LLM-as-a-Meta-Judge
+  - HELPSTEER: Multi-attribute Helpfulness Dataset for STEERLM
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -1342,7 +1348,6 @@ Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
   - D2LLM: Decomposed and Distilled Large Language Models for Semantic Search
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
-
 - Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
 - Memory3 : Language Modeling with Explicit Memory
 - 优化推理结果
