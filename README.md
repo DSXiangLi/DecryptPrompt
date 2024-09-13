@@ -53,7 +53,7 @@
 - [开源模型和评测榜单](开源模型.MD)
 - [开源推理，微调，Agent，RAG，propmt 框架](开源框架.MD)
 - [开源SFT，RLHF，Pretrain 数据集](开源数据.MD)
-- [AIGC各领域应用汇总](AIGC.MD)
+- [AIGC各领域应用汇总](AIGC各领域应用.MD)
 - [Prompt教程，经典博客和AI会议访谈](教程博客会议.MD)
 
 
@@ -330,6 +330,7 @@
   - Solving math word problems with process- and outcome-based feedback
   - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
   - BOND: Aligning LLMs with Best-of-N Distillation
+  - Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
@@ -494,6 +495,7 @@
     - PointLLM: Empowering Large Language Models to Understand Point Clouds
     - Interpretable Long-Form Legal Question Answering with Retrieval-Augmented Large Language Models
     - CarExpert: Leveraging Large Language Models for In-Car Conversational Question Answering
+    - SCIAGENTS: AUTOMATING SCIENTIFIC DISCOVERY THROUGH MULTI-AGENT INTELLIGENT GRAPH REASONING 
 - 评估
   - Evaluating Verifiability in Generative Search Engines
   - Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions
@@ -607,6 +609,7 @@
   - RankRAG: Unifying Context Ranking with Retrieval-Augmented Generation in LLMs
   - Ranking Manipulation for Conversational Search Engines
   - Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents
+  - Opensource Large Language Models are Strong Zero-shot Query Likelihood Models for Document Ranking
 - 传统搜索方案
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING
   - Query Expansion Techniques for Information Retrieval a Survey
@@ -631,6 +634,7 @@
   - REAPER: Reasoning based Retrieval Planning for Complex RAG Systems
   - When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively
   - PlanRAG: A Plan-then-Retrieval Augmented Generation for Generative Large Language Models as Decision Makers
+  - ONEGEN: EFFICIENT ONE-PASS UNIFIED GENERATION AND RETRIEVAL FOR LLMS
 - Graph RAG 
   - GRAPH Retrieval-Augmented Generation: A Survey
   - From Local to Global: A Graph RAG Approach to Query-Focused Summarization
@@ -704,6 +708,7 @@
 - Entropy Law: The Story Behind Data Compression and LLM Performance
 - Data, Data Everywhere: A Guide for Pretraining Dataset Construction
 - Data curation via joint example selection further accelerates multimodal learning
+- IMPROVING PRETRAINING DATA USING PERPLEXITY CORRELATIONS
 
 ### 领域模型SFT(domain_llms)
 - 金融
@@ -785,6 +790,7 @@
   - Data Engineering for Scaling Language Models to 128K Context
   - MEGALODON: Efficient LLM Pretraining and Inference with Unlimited Context Length
   - Make Your LLM Fully Utilize the Context
+  - Untie the Knots: An Efficient Data Augmentation Strategy for Long-Context Pre-Training in Language Models
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
@@ -809,6 +815,7 @@
   - ChatDB: AUGMENTING LLMS WITH DATABASES AS THEIR SYMBOLIC MEMORY
   - A comprehensive evaluation of ChatGPT’s zero-shot Text-to-SQL capability
   - Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
+  - Tool-Assisted Agent on SQL Inspection and Refinement in Real-World Scenarios
 - Domain Knowledge Intensive
   - Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge
   - Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion
@@ -902,6 +909,7 @@
 - Skeleton-of-Thought: Large Language Models Can Do Parallel Decoding
 - SkipDecode: Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inference
 - BatchPrompt: Accomplish more with less
+- You Only Cache Once: Decoder-Decoder Architectures for Language Models
 
 ### 模型知识编辑黑科技(model_edit)
 - ROME：Locating and Editing Factual Associations in GPT
