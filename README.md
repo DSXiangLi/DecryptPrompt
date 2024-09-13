@@ -48,6 +48,7 @@
 - [解密prompt系列35. 标准化Prompt进行时！ DSPy论文串烧和代码示例](https://cloud.tencent.com/developer/article/2441201)
 - [解密Prompt系列36. Prompt结构化编写和最优化算法UNIPROMPT](https://cloud.tencent.com/developer/article/2444167)
 - [解密Prompt系列37.RAG之前置决策何时联网的多种策略](https://cloud.tencent.com/developer/article/2448156)
+- [解密Prompt系列38.多Agent路由策略](https://cloud.tencent.com/developer/article/2451000)
 
 ## LLM资源汇总
 - [开源模型和评测榜单](开源模型.MD)
