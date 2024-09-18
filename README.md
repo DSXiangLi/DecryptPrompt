@@ -306,11 +306,16 @@
     - The CoT Collection: Improving Zero-shot and Few-shot Learning of Language Models via Chain-of-Thought Fine-Tuning
     - Distilling System 2 into System 1
 - COT样本自动构建/选择
-    - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning  
     - AutoCOT：AUTOMATIC CHAIN OF THOUGHT PROMPTING IN LARGE LANGUAGE MODELS
-    - Large Language Models Can Self-Improve
     - Active Prompting with Chain-of-Thought for Large Language Models
     - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
+- COT能力学习
+   - Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking
+   - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning  
+   - Large Language Models Can Self-Improve
+   - Training Chain-of-Thought via Latent-Variable Inference
+   - V-STaR: Training Verifiers for Self-Taught Reasoners
+   - THINK BEFORE YOU SPEAK: TRAINING LANGUAGE MODELS WITH PAUSE TOKENS
 - others
     - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
     - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
@@ -340,12 +345,13 @@
   - InstructGPT: Training language models to follow instructions with human feedback :star:
   - Scaling Laws for Reward Model Over optimization :star:
   - WEAK-TO-STRONG GENERALIZATION: ELICITING STRONG CAPABILITIES WITH WEAK SUPERVISION  :star:
-  - PRM：Let's verify step by step
+  - PRM：Let's verify step by step  :star:
   - Training Verifiers to Solve Math Word Problems [PRM的前置依赖]
   - [OpenAI Super Alignment Blog](https://openai.com/blog/introducing-superalignment)
-  - LLM Critics Help Catch LLM Bugs
+  - LLM Critics Help Catch LLM Bugs :star:
   - PROVER-VERIFIER GAMES IMPROVE LEGIBILITY OF LLM OUTPUTS
   - Rule Based Rewards for Language Model Safety
+  - Self-critiquing models for assisting human evaluators
 - Anthropic
   - A General Language Assistant as a Laboratory for Alignmen 
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
@@ -471,6 +477,8 @@
     - TRADINGGPT: MULTI-AGENT SYSTEM WITH LAYERED MEMORY AND DISTINCT CHARACTERS FOR ENHANCED FINANCIAL TRADING PERFORMANCE
     - FinRobot: An Open-Source AI Agent Platform for Financial Applications using Large Language Models
     - LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction
+    - Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment
+    - Advancing Anomaly Detection: Non-Semantic Financial Data Encoding with LLMs
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -640,8 +648,8 @@
   - GRAPH Retrieval-Augmented Generation: A Survey
   - From Local to Global: A Graph RAG Approach to Query-Focused Summarization
   - GRAG: Graph Retrieval-Augmented Generation
-  - GNN-RAG: Graph Neural Retrieval for Large Language Model Reasoning
-
+  - GNN-RAG: Graph Neural Retrieval for Large Language Model Reasoning 
+  - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASONING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
 
 ### 大模型图表理解和生成
 - survey
@@ -920,6 +928,8 @@
 - Editing Large Language Models: Problems, Methods, and Opportunities
 - Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
 - Automata-based constraints for language model decoding
+- SGLang: Efficient Execution of Structured Language Model Programs
+- PROMPT CACHE: MODULAR ATTENTION REUSE FOR LOW-LATENCY INFERENCE
 
 ### 模型合并和剪枝(model_merge)
 - Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM
