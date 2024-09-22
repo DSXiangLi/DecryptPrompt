@@ -2,15 +2,14 @@
 > 如果LLM的突然到来让你感到沮丧，不妨读下主目录的Choose Your Weapon Survival Strategies for Depressed AI Academics
 持续更新以下内容，Star to keep updated~
 
-目录顺序如下
-1. 国内外，垂直领域大模型
-2. Agent和指令微调等训练框架
-3. 开源指令，预训练，rlhf，对话，agent训练数据梳理
-4. AIGC相关应用
-5. prompt写作指南和5星博客等资源梳理
-6. Prompt和LLM论文细分方向梳理
+## LLM资源汇总
+- [开源模型和评测榜单](开源模型.MD)
+- [开源推理，微调，Agent，RAG，propmt 框架](开源框架.MD)
+- [开源SFT，RLHF，Pretrain 数据集](开源数据.MD)
+- [AIGC各领域应用汇总](AIGC各领域应用.MD)
+- [Prompt教程，经典博客和AI会议访谈](教程博客会议.MD)
 
-## My blogs
+## 跟着博客读论文
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
 - [解密Prompt系列2. 冻结Prompt微调LM： T5 & PET & LM-BFF](https://cloud.tencent.com/developer/article/2223355?areaSource=&traceId=)
 - [解密Prompt系列3. 冻结LM微调Prompt: Prefix-tuning & Prompt-tuning & P-tuning](https://cloud.tencent.com/developer/article/2237259?areaSource=&traceId=)
@@ -49,13 +48,6 @@
 - [解密Prompt系列36. Prompt结构化编写和最优化算法UNIPROMPT](https://cloud.tencent.com/developer/article/2444167)
 - [解密Prompt系列37.RAG之前置决策何时联网的多种策略](https://cloud.tencent.com/developer/article/2448156)
 - [解密Prompt系列38.多Agent路由策略](https://cloud.tencent.com/developer/article/2451000)
-
-## LLM资源汇总
-- [开源模型和评测榜单](开源模型.MD)
-- [开源推理，微调，Agent，RAG，propmt 框架](开源框架.MD)
-- [开源SFT，RLHF，Pretrain 数据集](开源数据.MD)
-- [AIGC各领域应用汇总](AIGC各领域应用.MD)
-- [Prompt教程，经典博客和AI会议访谈](教程博客会议.MD)
 
 
 ## 论文汇总
@@ -293,6 +285,7 @@
     - LEARNING PERFORMANCE-IMPROVING CODE EDITS
     - Chain of Code: Reasoning with a Language Model-Augmented Code Emulator
 - 原理分析
+    - Chain of Thought Empowers Transformers to Solve Inherently Serial Problems :star:
     - Towards Understanding Chain-of-Thought Prompting: An Empirical Study of What Matters  :star:
     - TEXT AND PATTERNS: FOR EFFECTIVE CHAIN OF THOUGHT IT TAKES TWO TO TANGO
     - Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
@@ -310,12 +303,13 @@
     - Active Prompting with Chain-of-Thought for Large Language Models
     - COMPLEXITY-BASED PROMPTING FOR MULTI-STEP REASONING
 - COT能力学习
-   - Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking
-   - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning  
    - Large Language Models Can Self-Improve
    - Training Chain-of-Thought via Latent-Variable Inference
+   - Quiet-STaR: Language Models Can Teach Themselves to Think Before Speaking
+   - STaR: Self-Taught Reasoner Bootstrapping ReasoningWith Reasoning 
    - V-STaR: Training Verifiers for Self-Taught Reasoners
    - THINK BEFORE YOU SPEAK: TRAINING LANGUAGE MODELS WITH PAUSE TOKENS
+   - SELF-DIRECTED SYNTHETIC DIALOGUES AND REVISIONS TECHNICAL REPORT
 - others
     - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
     - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
@@ -336,7 +330,6 @@
   - Solving math word problems with process- and outcome-based feedback
   - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
   - BOND: Aligning LLMs with Best-of-N Distillation
-  - Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
@@ -407,7 +400,11 @@
   - HUMAN FEEDBACK IS NOT GOLD STANDARD
   - CONTRASTIVE POST-TRAINING LARGE LANGUAGE MODELS ON DATA CURRICULUM
   - Language Models Resist Alignment
-
+- Inference Scaling
+  - An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models
+  - Are More LM Calls All You Need? Towards the Scaling Properties of Compound AI Systems
+  - Large Language Monkeys: Scaling Inference Compute with Repeated Sampling
+  - Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters   :star:
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - A Survey on Large Language Model based Autonomous Agents
@@ -610,6 +607,7 @@
   - PROMPTAGATOR : FEW-SHOT DENSE RETRIEVAL FROM 8 EXAMPLES
   - Query Rewriting for Retrieval-Augmented Large Language Models
   - Query2doc: Query Expansion with Large Language Models  :star:
+  - [Anthropic Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
 - Ranking
   - A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models
   - RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models
@@ -629,6 +627,7 @@
   - [网易为RAG设计的BCE Embedding技术报告](https://zhuanlan.zhihu.com/p/681370855)
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
   - D2LLM: Decomposed and Distilled Large Language Models for Semantic Search
+  - Piccolo2: General Text Embedding with Multi-task Hybrid Loss Training
 - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
 - Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
 - Memory3 : Language Modeling with Explicit Memory
