@@ -330,6 +330,9 @@
   - Solving math word problems with process- and outcome-based feedback
   - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
   - BOND: Aligning LLMs with Best-of-N Distillation
+  - RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold
+  - Generative Verifiers: Reward Modeling as Next-Token Prediction
+  - RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
@@ -405,6 +408,9 @@
   - Are More LM Calls All You Need? Towards the Scaling Properties of Compound AI Systems
   - Large Language Monkeys: Scaling Inference Compute with Repeated Sampling
   - Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters   :star:
+  - Q*: Improving Multi-step Reasoning for LLMs with Deliberative Planning
+  - Planning In Natural Language Improves LLM Search For Code Generation
+  - ReST-MCTS∗ : LLM Self-Training via Process Reward Guided Tree Search
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - A Survey on Large Language Model based Autonomous Agents
