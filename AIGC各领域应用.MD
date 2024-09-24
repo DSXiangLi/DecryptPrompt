@@ -1,3 +1,6 @@
+### AI设备
+- [Rabbit r1](https://www.rabbit.tech/newsroom/introducing-r1): webagent智能体推出设备级产品了，延时问题还是最大问题，支持的app也有限
+
 ### GPTs应用导航
 - [AIs for you ](https://theresanaiforthat.com/setup/): AI新闻，AI产品个人定制化订阅推送网站，实时追踪新产品
 - [SimilarGPTs：全网AI产品流量大全](https://similargpts.com/store-ranks/sorted-by-total-chats)： 
@@ -195,6 +198,7 @@
 ### 音频生成
 - [Suno](https://suno.cn/guide):不用翻墙的suno中文站点
 - [海绵音乐](https://www.haimian.com/featured):字节推出的音乐造梗神器
+- [PDF2Audio](https://github.com/lamm-mit/PDF2Audio)：把上传PDF一键转化成博客，可以是总结，讲座
 
 ### PPT制作
 - [Gamma](https://gamma.app/create/generate): PPT制作神器，ProductHunt月度排名Number1
