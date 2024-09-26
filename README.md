@@ -251,31 +251,33 @@
 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
-    - [zero-shot-COT] Large Language Models are Zero-Shot Reasoners :star:
-    - [few-shot COT] Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
-    - SELF-CONSISTENCY IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
-    - LEAST-TO-MOST PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS :star:
-    - Tree of Thoughts: Deliberate Problem Solving with Large Language Models
-    - Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
+    - 【zero-shot-COT】 Large Language Models are Zero-Shot Reasoners :star:
+    - 【few-shot COT】 Chain of Thought Prompting Elicits Reasoning in Large Language Models  :star:
+    - 【SELF-CONSISTENCY 】IMPROVES CHAIN OF THOUGHT REASONING IN LANGUAGE MODELS
+    - 【LEAST-TO-MOST】 PROMPTING ENABLES COMPLEX REASONING IN LARGE LANGUAGE MODELS :star:
+    - 【TOT】Tree of Thoughts: Deliberate Problem Solving with Large Language Models :star:
+    - 【Plan-and-Solve】 Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models
+    - 【Verify-and-Edit】: A Knowledge-Enhanced Chain-of-Thought Framework
+    - 【GOT】Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models
+    - 【TOMT】Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning
+    - 【LAMBADA】: Backward Chaining for Automated Reasoning in Natural Language
+    - 【AOT】Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models :star:
+    - 【GOT】Graph of Thoughts: Solving Elaborate Problems with Large Language Models :star:
+    - 【PHP】Progressive-Hint Prompting Improves Reasoning in Large Language Models
+    - 【HtT】LARGE LANGUAGE MODELS CAN LEARN RULES :star:
+    - 【DIVSE】DIVERSITY OF THOUGHT IMPROVES REASONING ABILITIES OF LARGE LANGUAGE MODELS
+    - 【CogTree】From Complex to Simple: Unraveling the Cognitive Tree for Reasoning with Small Language Models
+    - 【Step-Back】Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models :star:
+    - 【OPRO】LARGE LANGUAGE MODELS AS OPTIMIZERS :star:
+    - 【BOT】Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models
+    - Abstraction-of-Thought Makes Language Models Better Reasoners
+    - 【SymbCoT】Faithful Logical Reasoning via Symbolic Chain-of-Thought
+    - 【XOT】EVERYTHING OF THOUGHTS : DEFYING THE LAW OF PENROSE TRIANGLE FOR THOUGHT GENERATION
+    - 【IoT】Iteration of Thought: Leveraging Inner Dialogue for Autonomous Large Language Model Reasoning
+    - 【DOT】On the Diagram of Thought
+- 非传统COT问题分解方向
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Successive Prompting for Decomposing Complex Questions
-    - Verify-and-Edit: A Knowledge-Enhanced Chain-of-Thought Framework
-    - Beyond Chain-of-Thought, Effective Graph-of-Thought Reasoning in Large Language Models
-    - Tree-of-Mixed-Thought: Combining Fast and Slow Thinking for Multi-hop Visual Reasoning
-    - LAMBADA: Backward Chaining for Automated Reasoning in Natural Language
-    - Algorithm of Thoughts: Enhancing Exploration of Ideas in Large Language Models
-    - Graph of Thoughts: Solving Elaborate Problems with Large Language Models
-    - Progressive-Hint Prompting Improves Reasoning in Large Language Models
-    - LARGE LANGUAGE MODELS CAN LEARN RULES
-    - DIVERSITY OF THOUGHT IMPROVES REASONING ABILITIES OF LARGE LANGUAGE MODELS
-    - From Complex to Simple: Unraveling the Cognitive Tree for Reasoning with Small Language Models
-    - Take a Step Back: Evoking Reasoning via Abstraction in Large Language Models
-    - LARGE LANGUAGE MODELS AS OPTIMIZERS
-    - Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs
-    - Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models
-    - Abstraction-of-Thought Makes Language Models Better Reasoners
-    - Faithful Logical Reasoning via Symbolic Chain-of-Thought
-    - Inductive or Deductive? Rethinking the Fundamental Reasoning Abilities of LLMs
 - 分领域COT [Math, Code, Tabular, QA]
     - Solving Quantitative Reasoning Problems with Language Models
     - SHOW YOUR WORK: SCRATCHPADS FOR INTERMEDIATE COMPUTATION WITH LANGUAGE MODELS
@@ -291,6 +293,9 @@
     - Towards Revealing the Mystery behind Chain of Thought: a Theoretical Perspective
     - Large Language Models Can Be Easily Distracted by Irrelevant Context
     - Chain-of-Thought Reasoning Without Prompting
+    - Inductive or Deductive? Rethinking the Fundamental Reasoning Abilities of LLMs
+    - Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs
+    - To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning :star:
 - 小模型COT蒸馏
     - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
     - Teaching Small Language Models to Reason 
@@ -395,6 +400,7 @@
   - AUTODETECT: Towards a Unified Framework for Automated Weakness Detection in Large Language Models
   - META-REWARDING LANGUAGE MODELS: Self-Improving Alignment with LLM-as-a-Meta-Judge
   - HELPSTEER: Multi-attribute Helpfulness Dataset for STEERLM
+  - Recursive Introspection: Teaching Language Model Agents How to Self-Improve
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -500,6 +506,9 @@
     - CogAgent: A Visual Language Model for GUI Agents
     - Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
     - WebCanvas: Benchmarking Web Agents in Online Environments
+  - software engineer
+   - Agents in Software Engineering: Survey, Landscape, and Vision
+   - ChatDev: Communicative Agents for Software Development
   - 其他
     - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
