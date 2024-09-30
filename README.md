@@ -417,6 +417,7 @@
   - Q*: Improving Multi-step Reasoning for LLMs with Deliberative Planning
   - Planning In Natural Language Improves LLM Search For Code Generation
   - ReST-MCTS∗ : LLM Self-Training via Process Reward Guided Tree Search
+  - AlphaZero-Like Tree-Search can Guide Large Language Model Decoding and Training
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - A Survey on Large Language Model based Autonomous Agents
