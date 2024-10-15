@@ -49,6 +49,7 @@
 - [解密Prompt系列37. RAG之前置决策何时联网的多种策略](https://cloud.tencent.com/developer/article/2448156)
 - [解密Prompt系列38. 多Agent路由策略](https://cloud.tencent.com/developer/article/2451000)
 - [解密prompt系列39. RAG之借助LLM优化精排环节](https://cloud.tencent.com/developer/article/2453693)
+- [解密prompt系列40. LLM推理scaling Law](https://cloud.tencent.com/developer/article/2456441)
 
 ## 论文汇总
 ### paper List
@@ -337,7 +338,6 @@
   - BOND: Aligning LLMs with Best-of-N Distillation
   - RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold
   - Generative Verifiers: Reward Modeling as Next-Token Prediction
-  - RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
@@ -418,6 +418,7 @@
   - Planning In Natural Language Improves LLM Search For Code Generation
   - ReST-MCTS∗ : LLM Self-Training via Process Reward Guided Tree Search
   - AlphaZero-Like Tree-Search can Guide Large Language Model Decoding and Training
+  - Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - A Survey on Large Language Model based Autonomous Agents
@@ -463,6 +464,7 @@
   - Agent-FLAN: Designing Data and Methods of Effective Agent Tuning for Large Language Models
   - AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning
   - Agent Lumos: Unified and Modular Training for Open-Source Language Agents
+  - ToolGen: Unified Tool Retrieval and Calling via Generation
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
@@ -665,6 +667,8 @@
   - GRAG: Graph Retrieval-Augmented Generation
   - GNN-RAG: Graph Neural Retrieval for Large Language Model Reasoning 
   - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASONING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
+  - MindSearch 思·索: Mimicking Human Minds Elicits Deep AI Searcher
+  - LightRAG: Simple and Fast Retrieval-Augmented Generation
 
 ### 大模型图表理解和生成
 - survey
@@ -733,6 +737,7 @@
 - Data, Data Everywhere: A Guide for Pretraining Dataset Construction
 - Data curation via joint example selection further accelerates multimodal learning
 - IMPROVING PRETRAINING DATA USING PERPLEXITY CORRELATIONS
+- AI models collapse when trained on recursively generated data
 
 ### 领域模型SFT(domain_llms)
 - 金融
