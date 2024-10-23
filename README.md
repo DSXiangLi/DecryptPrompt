@@ -91,6 +91,7 @@
   - Rethinking the Role of Demonstrations What Makes incontext learning work? :star:
   - Trained Transformers Learn Linear Models In-Context
   - In-Context Learning Creates Task Vectors
+  - FUNCTION VECTORS IN LARGE LANGUAGE MODELS
 - 涌现能力
   - Sparks of Artificial General Intelligence: Early experiments with GPT-4
   - Emerging Ability of Large Language Models :star:
@@ -401,6 +402,7 @@
   - META-REWARDING LANGUAGE MODELS: Self-Improving Alignment with LLM-as-a-Meta-Judge
   - HELPSTEER: Multi-attribute Helpfulness Dataset for STEERLM
   - Recursive Introspection: Teaching Language Model Agents How to Self-Improve
+  - Enhancing Multi-Step Reasoning Abilities of Language Models through Direct Q-Function Optimization
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
