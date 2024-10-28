@@ -196,6 +196,7 @@
 - [Elai](https://app.elai.io/): 支持大纲直接生成数字人播报视频，免费试用只能制作几分钟
 
 ### 音频生成
+- [PodLLM](https://podlm.ai/zh-CN/ai-podcast-generator): 商业版NotebookLLM，支持网页内容转音频
 - [Suno](https://suno.cn/guide):不用翻墙的suno中文站点
 - [海绵音乐](https://www.haimian.com/featured):字节推出的音乐造梗神器
 - [PDF2Audio](https://github.com/lamm-mit/PDF2Audio)：把上传PDF一键转化成博客，可以是总结，讲座

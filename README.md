@@ -50,6 +50,7 @@
 - [解密Prompt系列38. 多Agent路由策略](https://cloud.tencent.com/developer/article/2451000)
 - [解密prompt系列39. RAG之借助LLM优化精排环节](https://cloud.tencent.com/developer/article/2453693)
 - [解密prompt系列40. LLM推理scaling Law](https://cloud.tencent.com/developer/article/2456441)
+- [解密prompt系列41. GraphRAG真的是Silver Bullet？](https://cloud.tencent.com/developer/article/2461325)
 
 ## 论文汇总
 ### paper List
@@ -298,6 +299,7 @@
     - Inductive or Deductive? Rethinking the Fundamental Reasoning Abilities of LLMs
     - Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs
     - To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning :star:
+    - Why think step by step? Reasoning emerges from the locality of experience
 - 小模型COT蒸馏
     - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
     - Teaching Small Language Models to Reason 
@@ -339,6 +341,7 @@
   - BOND: Aligning LLMs with Best-of-N Distillation
   - RL on Incorrect Synthetic Data Scales the Efficiency of LLM Math Reasoning by Eight-Fold
   - Generative Verifiers: Reward Modeling as Next-Token Prediction
+  - Training Language Models to Self-Correct via Reinforcement Learning
 - openai
   - PPO: Proximal Policy Optimization Algorithms :star:
   - Deep Reinforcement Learning for Human Preference
