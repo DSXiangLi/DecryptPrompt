@@ -583,54 +583,52 @@
 
 
 ### RAG
-- WebGPT：Browser-assisted question-answering with human feedback 
-- WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
-- WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
-- REPLUG: Retrieval-Augmented Black-Box Language Models :star:
-- RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
-- Atlas: Few-shot Learning with Retrieval Augmented Language Models
-- RRAML: Reinforced Retrieval Augmented Machine Learning
-- Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
-- PDFTriage: Question Answering over Long, Structured Documents
-- Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
-- Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
-- Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive  Tasks
-- Active Retrieval Augmented Generation
-- kNN-LM Does Not Improve Open-ended Text Generation
-- Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
-- RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
-- Augmented Embeddings for Custom Retrievals
-- DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
-- Learning to Filter Context for Retrieval-Augmented Generation
-- THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASON- ING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
-- RA-DIT: RETRIEVAL-AUGMENTED DUAL INSTRUCTION TUNING
-- Query Expansion by Prompting Large Language Models  :star:
-- CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
-- IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions
-- T2Ranking: A large-scale Chinese Benchmark for Passage Ranking
-- Factuality Enhanced Language Models for Open-Ended Text Generation
-- FRESHLLMS: REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION
-- KwaiAgents: Generalized Information-seeking Agent System with Large Language Models
-- Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence
-- Complex Claim Verification with Evidence Retrieved in the Wild
-- Retrieval-Augmented Generation for Large Language Models: A Survey
-- Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy
-- ChatQA: Building GPT-4 Level Conversational QA Models
-- RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
-- Benchmarking Large Language Models in Retrieval-Augmented Generation
-- SYNERGISTIC INTERPLAY BETWEEN SEARCH AND LARGE LANGUAGE MODELS FOR INFORMATION RETRIEVAL
-- T-RAG: Lessons from the LLM Trenches
-- RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
-- ARAGOG: Advanced RAG Output Grading
-- ActiveRAG: Revealing the Treasures of Knowledge via Active Learning
-- RAFT: Adapting Language Model to Domain Specific RAG
-- OpenResearcher: Unleashing AI for Accelerated Scientific Research
+- 经典论文
+  - WebGPT：Browser-assisted question-answering with human feedback 
+  - WebGLM: Towards An Efficient Web-Enhanced Question Answering System with Human Preferences 
+  - WebCPM: Interactive Web Search for Chinese Long-form Question Answering :star:
+  - REPLUG: Retrieval-Augmented Black-Box Language Models :star:
+  - RETA-LLM: A Retrieval-Augmented Large Language Model Toolkit
+  - Atlas: Few-shot Learning with Retrieval Augmented Language Models
+  - RRAML: Reinforced Retrieval Augmented Machine Learning
+  - FRESHLLMS: REFRESHING LARGE LANGUAGE MODELS WITH SEARCH ENGINE AUGMENTATION
+- 微调
+  - RLCF：Aligning the Capabilities of Large Language Models with the Context of Information Retrieval via Contrastive Feedback
+  - RA-DIT: RETRIEVAL-AUGMENTED DUAL INSTRUCTION TUNING
+  - CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
+  - RAFT: Adapting Language Model to Domain Specific RAG
+  - Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence
+- 其他论文
+  - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
+  - PDFTriage: Question Answering over Long, Structured Documents
+  - Walking Down the Memory Maze: Beyond Context Limit through Interactive Reading  :star:
+  - Active Retrieval Augmented Generation
+  - kNN-LM Does Not Improve Open-ended Text Generation
+  - Can Retriever-Augmented Language Models Reason? The Blame Game Between the Retriever and the Language Model
+  - DORIS-MAE: Scientific Document Retrieval using Multi-level Aspect-based Queries
+  - Factuality Enhanced Language Models for Open-Ended Text Generation  
+  - KwaiAgents: Generalized Information-seeking Agent System with Large Language Models
+  - Complex Claim Verification with Evidence Retrieved in the Wild
+  - Retrieval-Augmented Generation for Large Language Models: A Survey
+  - ChatQA: Building GPT-4 Level Conversational QA Models
+  - RAG vs Fine-tuning: Pipelines, Tradeoffs, and a Case Study on Agriculture
+  - Benchmarking Large Language Models in Retrieval-Augmented Generation
+  - T-RAG: Lessons from the LLM Trenches
+  - ARAGOG: Advanced RAG Output Grading
+  - ActiveRAG: Revealing the Treasures of Knowledge via Active Learning
+  - OpenResearcher: Unleashing AI for Accelerated Scientific Research
+  - [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
+  - Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
+  - Memory3 : Language Modeling with Explicit Memory
 - 优化检索
+  - IAG: Induction-Augmented Generation Framework for Answering Reasoning Questions
   - HyDE：Precise Zero-Shot Dense Retrieval without Relevance Labels
   - PROMPTAGATOR : FEW-SHOT DENSE RETRIEVAL FROM 8 EXAMPLES
   - Query Rewriting for Retrieval-Augmented Large Language Models
   - Query2doc: Query Expansion with Large Language Models  :star:
+  - Query Expansion by Prompting Large Language Models  :star:
   - [Anthropic Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
+  - Multi-Level Querying using A Knowledge Pyramid
 - Ranking
   - A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models
   - RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models
@@ -640,20 +638,20 @@
   - Ranking Manipulation for Conversational Search Engines
   - Is ChatGPT Good at Search? Investigating Large Language Models as Re-Ranking Agents
   - Opensource Large Language Models are Strong Zero-shot Query Likelihood Models for Document Ranking
+  - T2Ranking: A large-scale Chinese Benchmark for Passage Ranking
+  - Learning to Filter Context for Retrieval-Augmented Generation
 - 传统搜索方案
   - ASK THE RIGHT QUESTIONS:ACTIVE QUESTION REFORMULATION WITH REINFORCEMENT LEARNING
   - Query Expansion Techniques for Information Retrieval a Survey
   - Learning to Rewrite Queries 
   - Managing Diversity in Airbnb Search
 - 新向量模型用于Recall和Ranking
+  - Augmented Embeddings for Custom Retrievals
   - BGE M3-Embedding: Multi-Lingual, Multi-Functionality, Multi-Granularity Text Embeddings Through Self-Knowledge Distillation
   - [网易为RAG设计的BCE Embedding技术报告](https://zhuanlan.zhihu.com/p/681370855)
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
   - D2LLM: Decomposed and Distilled Large Language Models for Semantic Search
   - Piccolo2: General Text Embedding with Multi-task Hybrid Loss Training
-- [Contextual.ai-RAG2.0](https://contextual.ai/introducing-rag2/)
-- Mindful-RAG: A Study of Points of Failure in Retrieval Augmented Generation
-- Memory3 : Language Modeling with Explicit Memory
 - 优化推理结果
   - Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting
 - 动态RAG（When to Search & Search Plan）
@@ -672,8 +670,17 @@
   - GRAG: Graph Retrieval-Augmented Generation
   - GNN-RAG: Graph Neural Retrieval for Large Language Model Reasoning 
   - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASONING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
-  - MindSearch 思·索: Mimicking Human Minds Elicits Deep AI Searcher
   - LightRAG: Simple and Fast Retrieval-Augmented Generation
+  - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASON- ING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
+- Multistep RAG
+  - SYNERGISTIC INTERPLAY BETWEEN SEARCH AND LARGE LANGUAGE MODELS FOR INFORMATION RETRIEVAL
+  - Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions
+  - Enhancing Retrieval-Augmented Large Language Models with Iterative Retrieval-Generation Synergy
+  - RAT: Retrieval Augmented Thoughts Elicit Context-Aware Reasoning in Long-Horizon Generation
+  - IM-RAG: Multi-Round Retrieval-Augmented Generation Through Learning Inner Monologues
+  - Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
+  - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive  Tasks
+  - MindSearch 思·索: Mimicking Human Minds Elicits Deep AI Searcher
 
 ### 大模型图表理解和生成
 - survey

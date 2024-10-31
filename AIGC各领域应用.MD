@@ -2,6 +2,7 @@
 - [Rabbit r1](https://www.rabbit.tech/newsroom/introducing-r1): webagent智能体推出设备级产品了，延时问题还是最大问题，支持的app也有限
 
 ### GPTs应用导航
+- [LatentBox](): 精品AI产品集，收录不多但都是精品
 - [AIs for you ](https://theresanaiforthat.com/setup/): AI新闻，AI产品个人定制化订阅推送网站，实时追踪新产品
 - [SimilarGPTs：全网AI产品流量大全](https://similargpts.com/store-ranks/sorted-by-total-chats)： 
 - [GPTSeek: 大家投票得出的最有价值的GPT应用](https://www.gptseek.com/)
@@ -43,6 +44,7 @@
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
 #### 知识管理
+- [Ima.Copilot](https://ima.qq.com/): 腾讯也入局做PC客户端了，AI搜索+个人知识库+NotionAI的集合体，当前只支持mac
 - [supermemory](https://supermemory.ai/home): 个人知识管理项目，创建note就可以搜索到，更多是作为浏览器插件使用
 - [glean](https://www.glean.com/): 企业知识搜索和项目管理类的搜索初创公司，帮助员工快速定位信息，帮助公司整合信息
 - [Mem](https://get.mem.ai/): 个人知识管理，例如知识图谱，已获openai融资
