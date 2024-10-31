@@ -21,6 +21,7 @@
 #### 全新搜索形态之AGI或许是个产品问题
 - [Hebbia.aiMatrix](https://www.hebbia.ai/blog/introducing-matrix-the-interface-to-agi): 号称可以解决更多RAGfail 的分析类场景，多步推理类场景的任务流解决方案
 - [genspark.ai](https://www.genspark.ai/): 融合了旅行，购物的真生成式搜索引擎，内容也由模型直接生成，可以说是全新搜索形式了，而模型本身回到sidebar的位置只起到辅助的作用，整个网站的风格偏小红书风格
+- [SmartTrip](https://smartrip.ai/flowStart/fullchat): 旅行界的perplexity，哈哈虽然chat感觉有点垮但是产品做的很有意思
 #### 通用搜索
 - [Felo.ai](https://felo.ai/search): 拆分搜索源，支持小红书，X，Reddit独立搜索的
 - [MindSearch](https://github.com/InternLM/MindSearch): 通过动态构建图节点，实现更深更广的RAG
