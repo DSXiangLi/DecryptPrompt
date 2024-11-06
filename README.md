@@ -359,6 +359,7 @@
   - Self-critiquing models for assisting human evaluators
 - Anthropic
   - A General Language Assistant as a Laboratory for Alignmen 
+  - Measuring Progress on Scalable Oversight or Large Language Models
   - Red Teaming Language Models to Reduce Harms Methods,Scaling Behaviors and Lessons Learned
   - Training a Helpful and Harmless Assistant with Reinforcement Learning from Human Feedback  :star:
   - Constitutional AI Harmlessness from AI Feedback :star:
@@ -533,6 +534,7 @@
   - Automatic Evaluation of Attribution by Large Language Models
   - Benchmarking Large Language Models in Retrieval-Augmented Generation
   - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems
+  - Agent-as-a-Judge: Evaluate Agents with Agents
 - MultiAgent
    - GENERATIVE AGENTS
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
@@ -542,6 +544,7 @@
   - Generative Agents: Interactive Simulacra of Human Behavior  :star:
   - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents 
   - System-1.x: Learning to Balance Fast and Slow Planning with Language Models
+  - Agents Thinking Fast and Slow:A Talker-Reasoner Architecture
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
@@ -672,6 +675,7 @@
   - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASONING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
   - LightRAG: Simple and Fast Retrieval-Augmented Generation
   - THINK-ON-GRAPH: DEEP AND RESPONSIBLE REASON- ING OF LARGE LANGUAGE MODEL ON KNOWLEDGE GRAPH
+  - StructRAG: Boosting Knowledge Intensive Reasoning of LLMs via Inference-time Hybrid Information Structurization
 - Multistep RAG
   - SYNERGISTIC INTERPLAY BETWEEN SEARCH AND LARGE LANGUAGE MODELS FOR INFORMATION RETRIEVAL
   - Interleaving Retrieval with Chain-of-Thought Reasoning for Knowledge-Intensive Multi-Step Questions
