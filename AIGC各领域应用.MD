@@ -1,21 +1,27 @@
 ### AI设备
+### AI 手机
 - [Rabbit r1](https://www.rabbit.tech/newsroom/introducing-r1): webagent智能体推出设备级产品了，延时问题还是最大问题，支持的app也有限
+####AI耳机
+- [Olafriend](https://www.woshipm.com/evaluating/6134764.html): 大力台灯之后字节再入局硬件
+- [IFLYBUDS](https://www.iflybuds.com/v2/#/portal): 讯飞智能录音耳机
 
-### GPTs应用导航
-- [LatentBox](): 精品AI产品集，收录不多但都是精品
-- [AIs for you ](https://theresanaiforthat.com/setup/): AI新闻，AI产品个人定制化订阅推送网站，实时追踪新产品
-- [SimilarGPTs：全网AI产品流量大全](https://similargpts.com/store-ranks/sorted-by-total-chats)： 
-- [GPTSeek: 大家投票得出的最有价值的GPT应用](https://www.gptseek.com/)
-- [ProductHunt: 技术产品网站，各类热门AI技术产品的集散地](https://www.producthunt.com/)
-- [AI-Product-Index](https://github.com/dair-ai/AI-Product-Index)
-- [AI-Products-All-In-One](https://github.com/TheExplainthis/AI-Products-All-In-One)
-- [TheRunDown: GPT应用分类](https://supertools.therundown.ai/)
-- [Awesome AI Agents：Agent应用收藏](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file)
-- [GPT Demo](https://gpt4demo.com/)
-- [AI-Bot各类工具导航](https://ai-bot.cn/#term-15)
-- [AI-Search: AI应用检索网站](https://ai-search.io/)
-- [StackRadar:各类高科技应用导航](https://www.stackradar.co/)
-- [askaitools: AI产品搜索引擎](https://askaitools.ai/)
+### LLM免费应用
+|模型链接     | 模型描述    |
+| --- | --- |
+|[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai的Playground支持他们自家的PPLX模型和众多SOTA大模型，Gemma也支持了|
+|[DeepSeek](https://chat.deepseek.com/sign_in)|深度求索（ 代码用它） |
+|[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot（搜索用它） |
+|[通义千问](https://tongyi.aliyun.com/qianwen/)|阿里(奇奇怪怪的问题问它） |
+|[万知](https://www.wanzhi.com/)|YI模型基座的应用，支持OCR文档识别|
+|[跃问](https://stepchat.cn/chats/new)|阶跃星辰推出的同样擅长长文本的大模型|
+|[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
+|[文心一言](https://yiyan.baidu.com/welcome)|百度|
+|[百川](https://www.baichuan-ai.com/chat)|百川|
+|[ChatGLM](https://chatglm.cn/main/detail)|智谱轻言|
+|[360智脑](https://chat.360.com/?src=ai_360_com)|360 |
+|[悟空](https://wukong.com/tool)|字节跳动|
+|[元宝](https://yuanbao.tencent.com/chat/naQivTmsDa)|腾讯|
+
 
 ### 搜索
 #### 全新搜索形态之AGI或许是个产品问题
@@ -65,6 +71,9 @@
 - [Miracleplus](https://news.miracleplus.com/feeds?tab=hot): 全AI Agent负责运营的AI内容网站
 - [goatstack](https://goatstack.ai/): 可以自定义的论文订阅网站，每天有AI筛选并总结相关论文并推送给用户
 
+### AI 教育
+- [Google Learn About](https://learning.google.com/experiments/learn-about/signup): 更像是AI检索的产品化改进
+
 ### 销售场景
 - [Clay](https://www.clay.com/): 销售线索管理和扩展
 
@@ -83,6 +92,7 @@
 - [OpenResearcher](https://github.com/GAIR-NLP/OpenResearcher)：针对Arxiv 论文的RAG方案还给出了评估benchmark
 
 ### 写作效率工具类
+- [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy):开源NotionAI
 - [ZeroGPT](https://www.zerogpt.com/): 提供GPT文本检测功能的
 - [AFFiNE AI](https://affine.pro/): 很有创意的写作平台，结合写作绘图为一体
 - [SudoWrite](https://editor.sudowrite.com/app): 很有创意的AI卡片写作应用，主要面向各种类型的长文写作
@@ -146,6 +156,7 @@
 - [godmode](https://godmode.space/)：可以进行人为每一步交互的的AutoGPT
 - [agentgpt](https://agentgpt.reworkd.ai/): 基础版AutoGPT
 - [AgentQL](https://docs.agentql.com/):用Query的方式和网页进行交互，开放waitlist申请了
+- [GPTme](https://github.com/ErikBjare/gptme?tab=readme-ov-file): 命令行agent小公举
 
 ### 视频拆条总结
 - [Eightify](https://eightify.app/zh): chrome插件，节省观看长视频的时间，立即获取关键思想，分模块总结+时间戳摘要
@@ -207,3 +218,20 @@
 ### PPT制作
 - [Gamma](https://gamma.app/create/generate): PPT制作神器，ProductHunt月度排名Number1
 - [MindShow](https://www.mindshow.fun/#/folder/slides): 体验还不错的基于markdown直接生成PPT的软件，自定义PPT模板要付费
+
+
+### GPTs应用导航
+- [LatentBox](): 精品AI产品集，收录不多但都是精品
+- [AIs for you ](https://theresanaiforthat.com/setup/): AI新闻，AI产品个人定制化订阅推送网站，实时追踪新产品
+- [SimilarGPTs：全网AI产品流量大全](https://similargpts.com/store-ranks/sorted-by-total-chats)： 
+- [GPTSeek: 大家投票得出的最有价值的GPT应用](https://www.gptseek.com/)
+- [ProductHunt: 技术产品网站，各类热门AI技术产品的集散地](https://www.producthunt.com/)
+- [AI-Product-Index](https://github.com/dair-ai/AI-Product-Index)
+- [AI-Products-All-In-One](https://github.com/TheExplainthis/AI-Products-All-In-One)
+- [TheRunDown: GPT应用分类](https://supertools.therundown.ai/)
+- [Awesome AI Agents：Agent应用收藏](https://github.com/e2b-dev/awesome-ai-agents?tab=readme-ov-file)
+- [GPT Demo](https://gpt4demo.com/)
+- [AI-Bot各类工具导航](https://ai-bot.cn/#term-15)
+- [AI-Search: AI应用检索网站](https://ai-search.io/)
+- [StackRadar:各类高科技应用导航](https://www.stackradar.co/)
+- [askaitools: AI产品搜索引擎](https://askaitools.ai/)
