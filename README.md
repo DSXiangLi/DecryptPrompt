@@ -278,6 +278,7 @@
     - 【XOT】EVERYTHING OF THOUGHTS : DEFYING THE LAW OF PENROSE TRIANGLE FOR THOUGHT GENERATION
     - 【IoT】Iteration of Thought: Leveraging Inner Dialogue for Autonomous Large Language Model Reasoning
     - 【DOT】On the Diagram of Thought
+    - 【ROT】Reversal of Thought: Enhancing Large Language Models with Preference-Guided Reverse Reasoning Warm-up.
 - 非传统COT问题分解方向
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Successive Prompting for Decomposing Complex Questions
