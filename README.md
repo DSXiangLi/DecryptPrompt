@@ -226,6 +226,7 @@
   - Improving Text Embeddings with Large Language Models
   - MAGPIE: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
   - Scaling Synthetic Data Creation with 1,000,000,000 Personas
+  - UNLEASHING REASONING CAPABILITY OF LLMS VIA SCALABLE QUESTION SYNTHESIS FROM SCRATCH
 - 如何降低通用能力损失
   - How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition
   - TWO-STAGE LLM FINE-TUNING WITH LESS SPECIALIZATION AND MORE GENERALIZATION
@@ -278,6 +279,7 @@
     - 【XOT】EVERYTHING OF THOUGHTS : DEFYING THE LAW OF PENROSE TRIANGLE FOR THOUGHT GENERATION
     - 【IoT】Iteration of Thought: Leveraging Inner Dialogue for Autonomous Large Language Model Reasoning
     - 【DOT】On the Diagram of Thought
+    - Thinking Forward and Backward: Effective Backward Planning with Large Language Models
 - 非传统COT问题分解方向
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Successive Prompting for Decomposing Complex Questions
@@ -415,6 +417,8 @@
   - HUMAN FEEDBACK IS NOT GOLD STANDARD
   - CONTRASTIVE POST-TRAINING LARGE LANGUAGE MODELS ON DATA CURRICULUM
   - Language Models Resist Alignment
+
+### Post Train
 - Inference Scaling
   - An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models
   - Are More LM Calls All You Need? Towards the Scaling Properties of Compound AI Systems
@@ -425,6 +429,7 @@
   - ReST-MCTS∗ : LLM Self-Training via Process Reward Guided Tree Search
   - AlphaZero-Like Tree-Search can Guide Large Language Model Decoding and Training
   - Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling
+  - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - A Survey on Large Language Model based Autonomous Agents
@@ -548,7 +553,8 @@
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
-  - 任务型智能体协作
+    - Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks 
+ - 任务型智能体协作
     - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE
     - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society  :star:
     - Exploring Large Language Models for Communication Games: An Empirical Study on Werewolf
@@ -1014,6 +1020,7 @@
 - LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language
 - PAS: Data-Efficient Plug-and-Play Prompt Augmentation System
 - Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models
+- From Pen to Prompt: How Creative Writers Integrate AI into their Writing Practice
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
@@ -1036,6 +1043,7 @@
 - PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers
 - Many-Shot In-Context Learning in Multimodal Foundation Models
 - Adding Conditional Control to Text-to-Image Diffusion Models
+- Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
 
 ### Timeseries LLM
 - TimeGPT-1
