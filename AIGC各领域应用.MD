@@ -173,6 +173,7 @@
 - [Wolverine](https://github.com/biobootloader/wolverine): 代码自我debug的python脚本 
 - [Screenshot-to-code](https://github.com/abi/screenshot-to-code): 从网页直接生成HTML代码
 - [websim](https://websim.ai/c/07KjhaYR9DlvRuq9q): 使用AI生成的web模拟器通过指令直接构建复杂程度比较高的网站，哈哈我决定来做个自己的博客网站啦
+- [Neo](https://heyneo.so/blog): AI算法工程师，又到了自己优化自己的一天
 
 ### DB工具
 - [TableAgent](https://tableagent.datacanvas.com/): 九章云极推出的数据分析，机器学习智能体
