@@ -51,6 +51,7 @@
 - [解密prompt系列39. RAG之借助LLM优化精排环节](https://cloud.tencent.com/developer/article/2453693)
 - [解密prompt系列40. LLM推理scaling Law](https://cloud.tencent.com/developer/article/2456441)
 - [解密prompt系列41. GraphRAG真的是Silver Bullet？](https://cloud.tencent.com/developer/article/2461325)
+- [解密prompt系列42. LLM通往动态复杂思维链之路](https://cloud.tencent.com/developer/article/2464011)
 
 ## 论文汇总
 ### paper List
@@ -227,6 +228,7 @@
   - MAGPIE: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
   - Scaling Synthetic Data Creation with 1,000,000,000 Personas
   - UNLEASHING REASONING CAPABILITY OF LLMS VIA SCALABLE QUESTION SYNTHESIS FROM SCRATCH
+  - A Survey on Data Synthesis and Augmentation for Large Language Models
 - 如何降低通用能力损失
   - How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition
   - TWO-STAGE LLM FINE-TUNING WITH LESS SPECIALIZATION AND MORE GENERALIZATION
@@ -431,6 +433,7 @@
   - AlphaZero-Like Tree-Search can Guide Large Language Model Decoding and Training
   - Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling
   - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning
+  - Inference Scaling for Long-Context Retrieval Augmented Generation
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - A Survey on Large Language Model based Autonomous Agents
@@ -503,6 +506,7 @@
     - LLMFactor: Extracting Profitable Factors through Prompts for Explainable Stock Movement Prediction
     - Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment
     - Advancing Anomaly Detection: Non-Semantic Financial Data Encoding with LLMs
+    - TradExpert: Revolutionizing Trading with Mixture of Expert LLMs
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -674,6 +678,7 @@
   - When to Retrieve: Teaching LLMs to Utilize Information Retrieval Effectively
   - PlanRAG: A Plan-then-Retrieval Augmented Generation for Generative Large Language Models as Decision Makers
   - ONEGEN: EFFICIENT ONE-PASS UNIFIED GENERATION AND RETRIEVAL FOR LLMS
+  - Probing-RAG: Self-Probing to Guide Language Models in Selective Document Retrieval
 - Graph RAG 
   - GRAPH Retrieval-Augmented Generation: A Survey
   - From Local to Global: A Graph RAG Approach to Query-Focused Summarization
