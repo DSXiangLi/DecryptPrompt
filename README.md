@@ -434,6 +434,7 @@
   - Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling
   - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning
   - Inference Scaling for Long-Context Retrieval Augmented Generation
+- Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - A Survey on Large Language Model based Autonomous Agents
@@ -525,6 +526,7 @@
     - CogAgent: A Visual Language Model for GUI Agents
     - Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
     - WebCanvas: Benchmarking Web Agents in Online Environments
+    - The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
   - software engineer
    - Agents in Software Engineering: Survey, Landscape, and Vision
    - ChatDev: Communicative Agents for Software Development
@@ -697,6 +699,8 @@
   - Demonstrate-Search-Predict: Composing retrieval and language models for knowledge-intensive NLP
   - Search-in-the-Chain: Towards Accurate, Credible and Traceable Large Language Models for Knowledge-intensive  Tasks
   - MindSearch 思·索: Mimicking Human Minds Elicits Deep AI Searcher
+  - RQ-RAG: LEARNING TO REFINE QUERIES FOR RETRIEVAL AUGMENTED GENERATION
+  - AutoPRM: Automating Procedural Supervision for Multi-Step Reasoning via Controllable Question Decomposition
 
 ### 大模型图表理解和生成
 - survey
@@ -967,6 +971,7 @@
 - SkipDecode: Autoregressive Skip Decoding with Batching and Caching for Efficient LLM Inference
 - BatchPrompt: Accomplish more with less
 - You Only Cache Once: Decoder-Decoder Architectures for Language Models
+- XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models
 
 ### 模型知识编辑黑科技(model_edit)
 - ROME：Locating and Editing Factual Associations in GPT
@@ -1027,6 +1032,7 @@
 - PAS: Data-Efficient Plug-and-Play Prompt Augmentation System
 - Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models
 - From Pen to Prompt: How Creative Writers Integrate AI into their Writing Practice
+- Does Prompt Formatting Have Any Impact on LLM Performance?
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
