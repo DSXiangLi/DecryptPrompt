@@ -165,6 +165,7 @@
 - [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档 
 
 ### 代码copilot & BI工具
+- [Cursor](https://www.cursor.com/): 虽然更喜欢嵌入式插件，但是cursor确实很好用
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin):CognitionAI发布再SWE-Bench上编码能力有显著提升的智能体
 - [AlphaCodium](https://www.codium.ai/products/alpha-codium/): Flow Engineering提高代码整体通过率
 - [AutoDev](https://ide.unitmesh.cc/):  AI编程辅助工具
@@ -213,6 +214,7 @@
 - [Elai](https://app.elai.io/): 支持大纲直接生成数字人播报视频，免费试用只能制作几分钟
 
 ### 音频生成
+- [GenFM](https://elevenlabs.io/blog/genfm-on-elevenreader)：商业化多语言AI播客
 - [PodLLM](https://podlm.ai/zh-CN/ai-podcast-generator): 商业版NotebookLLM，支持网页内容转音频
 - [Suno](https://suno.cn/guide):不用翻墙的suno中文站点
 - [海绵音乐](https://www.haimian.com/featured):字节推出的音乐造梗神器
