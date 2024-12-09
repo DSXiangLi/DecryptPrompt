@@ -52,6 +52,8 @@
 - [解密prompt系列40. LLM推理scaling Law](https://cloud.tencent.com/developer/article/2456441)
 - [解密prompt系列41. GraphRAG真的是Silver Bullet？](https://cloud.tencent.com/developer/article/2461325)
 - [解密prompt系列42. LLM通往动态复杂思维链之路](https://cloud.tencent.com/developer/article/2464011)
+- [解密prompt系列43. LLM Self Critics](https://cloud.tencent.com/developer/article/2468406)
+- [解密prompt系列44. RAG探索模式？深度思考模式？](https://cloud.tencent.com/developer/article/2474048)
 
 ## 论文汇总
 ### paper List
@@ -229,6 +231,7 @@
   - Scaling Synthetic Data Creation with 1,000,000,000 Personas
   - UNLEASHING REASONING CAPABILITY OF LLMS VIA SCALABLE QUESTION SYNTHESIS FROM SCRATCH
   - A Survey on Data Synthesis and Augmentation for Large Language Models
+  - AgentInstruct: Toward Generative Teaching with Agentic Flows
 - 如何降低通用能力损失
   - How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition
   - TWO-STAGE LLM FINE-TUNING WITH LESS SPECIALIZATION AND MORE GENERALIZATION
@@ -435,6 +438,7 @@
   - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning
   - Inference Scaling for Long-Context Retrieval Augmented Generation
 - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
+ -A Comparative Study on Reasoning Patterns of OpenAI's o1 Model
 
 ### LLM Agent 让模型使用工具 (llm_agent)
 - A Survey on Large Language Model based Autonomous Agents
@@ -508,6 +512,8 @@
     - Alpha-GPT: Human-AI Interactive Alpha Mining for Quantitative Investment
     - Advancing Anomaly Detection: Non-Semantic Financial Data Encoding with LLMs
     - TradExpert: Revolutionizing Trading with Mixture of Expert LLMs
+    - FinVision: A Multi-Agent Framework for Stock Market Prediction
+    - AI in Investment Analysis: LLMs for Equity Stock Ratings
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -557,6 +563,7 @@
   - AgentVerse: Facilitating Multi-Agent Collaboration and Exploring Emergent Behaviors in Agents 
   - System-1.x: Learning to Balance Fast and Slow Planning with Language Models
   - Agents Thinking Fast and Slow:A Talker-Reasoner Architecture
+  - Generative Agent Simulations of 1,000 People
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
@@ -590,6 +597,7 @@
   - A Survey on Self-Evolution of Large Language Models
   - ExpeL: LLM Agents Are Experiential Learners
   - ReAct Meets ActRe: When Language Agents Enjoy Training Data Autonomy
+  - PROACTIVE AGENT: SHIFTING LLM AGENTS FROM REACTIVE RESPONSES TO ACTIVE ASSISTANCE
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -1033,6 +1041,8 @@
 - Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models
 - From Pen to Prompt: How Creative Writers Integrate AI into their Writing Practice
 - Does Prompt Formatting Have Any Impact on LLM Performance?
+- AUTO-DEMO PROMPTING: LEVERAGING GENERATED OUTPUTS AS DEMONSTRATIONS FOR ENHANCED BATCH PROMPTING
+
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
@@ -1056,6 +1066,7 @@
 - Many-Shot In-Context Learning in Multimodal Foundation Models
 - Adding Conditional Control to Text-to-Image Diffusion Models
 - Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
+- ShowUI: One Vision-Language-Action Model for GUI Visual Agent
 
 ### Timeseries LLM
 - TimeGPT-1
