@@ -175,6 +175,7 @@
 - Fewer Truncations Improve Language Modeling
 - ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
 - Phi-4 Technical Report
+- Byte Latent Transformer: Patches Scale Better Than Tokens
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -422,8 +423,7 @@
   - Recursive Introspection: Teaching Language Model Agents How to Self-Improve
   - Enhancing Multi-Step Reasoning Abilities of Language Models through Direct Q-Function Optimization
   - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
-  - GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local
-Refinements
+  - GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -451,6 +451,7 @@ Refinements
   - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
   - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
   - A Comparative Study on Reasoning Patterns of OpenAI's o1 Model
+  - Imitate, Explore, and Self-Improve: A Reproduction Report on Slow-thinking Reasoning Systems
   
 ### LLM Agent 让模型使用工具 (llm_agent)
 - AGENT AI: SURVEYING THE HORIZONS OF MULTIMODAL INTERACTION
