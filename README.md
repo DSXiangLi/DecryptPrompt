@@ -174,6 +174,7 @@
 - QWEN TECHNICAL REPORT
 - Fewer Truncations Improve Language Modeling
 - ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
+- Phi-4 Technical Report
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -286,6 +287,8 @@
     - 【DOT】On the Diagram of Thought
     - 【ROT】Reversal of Thought: Enhancing Large Language Models with Preference-Guided Reverse Reasoning Warm-up.
     - Thinking Forward and Backward: Effective Backward Planning with Large Language Models
+    - 【KR】K-Level Reasoning: Establishing Higher Order Beliefs in Large Language Models for Strategic Reasoning
+    -  【Self-Discover】SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
 - 非传统COT问题分解方向
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Successive Prompting for Decomposing Complex Questions
@@ -308,6 +311,9 @@
     - Beyond Chain-of-Thought: A Survey of Chain-of-X Paradigms for LLMs
     - To CoT or not to CoT? Chain-of-thought helps mainly on math and symbolic reasoning :star:
     - Why think step by step? Reasoning emerges from the locality of experience
+   -  Internal Consistency and Self-Feedback in Large Language Models: A Survey :star:
+   - Iteration Head: A Mechanistic Study of Chain-of-Thought :star:
+   - The Impact of Reasoning Step Length on Large Language Models :star:
 - 小模型COT蒸馏
     - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
     - Teaching Small Language Models to Reason 
@@ -415,6 +421,9 @@
   - HELPSTEER: Multi-attribute Helpfulness Dataset for STEERLM
   - Recursive Introspection: Teaching Language Model Agents How to Self-Improve
   - Enhancing Multi-Step Reasoning Abilities of Language Models through Direct Q-Function Optimization
+  - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
+  - GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local
+Refinements
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -437,10 +446,14 @@
   - Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling
   - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning
   - Inference Scaling for Long-Context Retrieval Augmented Generation
-- Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
- -A Comparative Study on Reasoning Patterns of OpenAI's o1 Model
-
+  - Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing
+- O1 replication
+  - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
+  - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
+  - A Comparative Study on Reasoning Patterns of OpenAI's o1 Model
+  
 ### LLM Agent 让模型使用工具 (llm_agent)
+- AGENT AI: SURVEYING THE HORIZONS OF MULTIMODAL INTERACTION
 - A Survey on Large Language Model based Autonomous Agents
 - PERSONAL LLM AGENTS: INSIGHTS AND SURVEY ABOUT THE CAPABILITY, EFFICIENCY AND SECURITY
 - 基于prompt通用方案
@@ -514,6 +527,7 @@
     - TradExpert: Revolutionizing Trading with Mixture of Expert LLMs
     - FinVision: A Multi-Agent Framework for Stock Market Prediction
     - AI in Investment Analysis: LLMs for Equity Stock Ratings
+    - AAPM: Large Language Model Agent-based Asset Pricing Models
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -564,6 +578,7 @@
   - System-1.x: Learning to Balance Fast and Slow Planning with Language Models
   - Agents Thinking Fast and Slow:A Talker-Reasoner Architecture
   - Generative Agent Simulations of 1,000 People
+  - Advanced Reasoning and Learning for Autonomous AI Agents
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
@@ -955,6 +970,8 @@
   - Adaptive Chameleon or Stubborn Sloth: Unraveling the Behavior of Large Language Models in Knowledge Clashes
   - Woodpecker: Hallucination Correction for Multimodal Large Language Models 
   - Zero-shot Faithful Factual Error Correction
+  - LARGE LANGUAGE MODELS CANNOT SELF-CORRECT REASONING YET
+  - Training Language Models to Self-Correct via Reinforcement Learning
 
 ### 大模型评估（evaluation）
 - 事实性评估
