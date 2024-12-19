@@ -290,6 +290,7 @@
     - Thinking Forward and Backward: Effective Backward Planning with Large Language Models
     - 【KR】K-Level Reasoning: Establishing Higher Order Beliefs in Large Language Models for Strategic Reasoning
     -  【Self-Discover】SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
+    - 【Theory-of-Mind】HOW FAR ARE LARGE LANGUAGE MODELS FROMAGENTS WITH THEORY-OF-MIND?
 - 非传统COT问题分解方向
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Successive Prompting for Decomposing Complex Questions
@@ -726,6 +727,39 @@
   - RQ-RAG: LEARNING TO REFINE QUERIES FOR RETRIEVAL AUGMENTED GENERATION
   - AutoPRM: Automating Procedural Supervision for Multi-Step Reasoning via Controllable Question Decomposition
 
+
+### Other Prompt Engineer(prompt_engineer) 
+- Calibrate Before Use: Improving Few-Shot Performance of Language Models
+- In-Context Instruction Learning
+- LEARNING PERFORMANCE-IMPROVING CODE EDITS
+- Boosting Theory-of-Mind Performance in Large Language Models via Prompting
+- Generated Knowledge Prompting for Commonsense Reasoning
+- RECITATION-AUGMENTED LANGUAGE MODELS
+- kNN PROMPTING: BEYOND-CONTEXT LEARNING WITH CALIBRATION-FREE NEAREST NEIGHBOR INFERENCE
+- EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus
+- Causality-aware Concept Extraction based on Knowledge-guided Prompting
+- LARGE LANGUAGE MODELS AS OPTIMIZERS
+- Prompts As Programs: A Structure-Aware Approach to Efficient Compile-Time Prompt Optimization
+- Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V
+- RePrompt: Automatic Prompt Editing to Refine AI-Generative Art Towards Precise Expressions
+- MedPrompt: Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
+- DSPy Assertions: Computational Constraints for Self-Refining Language Model Pipelines
+- Prompts as Auto-Optimized Training Hyperparameters: Training Best-in-Class IR Models from Scratch with 10 Gold Labels
+- In-Context Learning for Extreme Multi-Label Classification
+- Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs
+- DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines
+- CONNECTING LARGE LANGUAGE MODELS WITH EVOLUTIONARY ALGORITHMS YIELDS POWERFUL PROMP OPTIMIZERS
+- TextGrad: Automatic "Differentiation" via Text
+- Task Facet Learning: A Structured Approach to Prompt Optimization
+- LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language
+- PAS: Data-Efficient Plug-and-Play Prompt Augmentation System
+- Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models
+- From Pen to Prompt: How Creative Writers Integrate AI into their Writing Practice
+- Does Prompt Formatting Have Any Impact on LLM Performance?
+- AUTO-DEMO PROMPTING: LEVERAGING GENERATED OUTPUTS AS DEMONSTRATIONS FOR ENHANCED BATCH PROMPTING
+- PROMPTBREEDER: SELF-REFERENTIAL SELF-IMPROVEMENT VIA PROMPT EVOLUTION
+
+
 ### 大模型图表理解和生成
 - survey
   - Table Meets LLM: Can Large Language Models Understand Structured Table Data? A Benchmark and Empirical Study
@@ -1030,37 +1064,6 @@
 - DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale
 - Dense-to-Sparse Gate for Mixture-of-Experts
 - Efficient Large Scale Language Modeling with Mixtures of Experts
-
-### Other Prompt Engineer(prompt_engineer) 
-- Calibrate Before Use: Improving Few-Shot Performance of Language Models
-- In-Context Instruction Learning
-- LEARNING PERFORMANCE-IMPROVING CODE EDITS
-- Boosting Theory-of-Mind Performance in Large Language Models via Prompting
-- Generated Knowledge Prompting for Commonsense Reasoning
-- RECITATION-AUGMENTED LANGUAGE MODELS
-- kNN PROMPTING: BEYOND-CONTEXT LEARNING WITH CALIBRATION-FREE NEAREST NEIGHBOR INFERENCE
-- EmotionPrompt: Leveraging Psychology for Large Language Models Enhancement via Emotional Stimulus
-- Causality-aware Concept Extraction based on Knowledge-guided Prompting
-- LARGE LANGUAGE MODELS AS OPTIMIZERS
-- Prompts As Programs: A Structure-Aware Approach to Efficient Compile-Time Prompt Optimization
-- Set-of-Mark Prompting Unleashes Extraordinary Visual Grounding in GPT-4V
-- RePrompt: Automatic Prompt Editing to Refine AI-Generative Art Towards Precise Expressions
-- MedPrompt: Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
-- DSPy Assertions: Computational Constraints for Self-Refining Language Model Pipelines
-- Prompts as Auto-Optimized Training Hyperparameters: Training Best-in-Class IR Models from Scratch with 10 Gold Labels
-- In-Context Learning for Extreme Multi-Label Classification
-- Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs
-- DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines
-- CONNECTING LARGE LANGUAGE MODELS WITH EVOLUTIONARY ALGORITHMS YIELDS POWERFUL PROMP OPTIMIZERS
-- TextGrad: Automatic "Differentiation" via Text
-- Task Facet Learning: A Structured Approach to Prompt Optimization
-- LangGPT: Rethinking Structured Reusable Prompt Design Framework for LLMs from the Programming Language
-- PAS: Data-Efficient Plug-and-Play Prompt Augmentation System
-- Let Me Speak Freely? A Study on the Impact of Format Restrictions on Performance of Large Language Models
-- From Pen to Prompt: How Creative Writers Integrate AI into their Writing Practice
-- Does Prompt Formatting Have Any Impact on LLM Performance?
-- AUTO-DEMO PROMPTING: LEVERAGING GENERATED OUTPUTS AS DEMONSTRATIONS FOR ENHANCED BATCH PROMPTING
-
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning

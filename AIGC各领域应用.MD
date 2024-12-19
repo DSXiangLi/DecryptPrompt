@@ -94,6 +94,7 @@
 - [OpenResearcher](https://github.com/GAIR-NLP/OpenResearcher)：针对Arxiv 论文的RAG方案还给出了评估benchmark
 
 ### 写作效率工具类
+- [ReadPo](https://readpo.com/en/dashboard): 支持markdown to Poster
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy):开源NotionAI
 - [ZeroGPT](https://www.zerogpt.com/): 提供GPT文本检测功能的
 - [AFFiNE AI](https://affine.pro/): 很有创意的写作平台，结合写作绘图为一体
@@ -204,6 +205,7 @@
 - [即梦](https://jimeng.jianying.com/ai-tool/login)：字节推出的文生图，文生视频平台
 - [FLUX1.0](https://github.com/black-forest-labs/flux): 堪比MidJourney的开源AI绘画模型，中文支持不好用英文尝试
 - [Imagen 3](https://aitestkitchen.withgoogle.com/tools/image-fx?utm_source=gdm&utm_medium=site): 谷歌推出的最新的文生图模型
+- []()
 
 ### 视频生成
 - [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
