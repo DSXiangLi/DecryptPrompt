@@ -54,6 +54,7 @@
 - [解密prompt系列42. LLM通往动态复杂思维链之路](https://cloud.tencent.com/developer/article/2464011)
 - [解密prompt系列43. LLM Self Critics](https://cloud.tencent.com/developer/article/2468406)
 - [解密prompt系列44. RAG探索模式？深度思考模式？](https://cloud.tencent.com/developer/article/2474048)
+- [解密Prompt45. 再探LLM Scalable Oversight -辩论、博弈哪家强](https://cloud.tencent.com/developer/article/2479401)
 
 ## 论文汇总
 ### paper List
@@ -118,6 +119,7 @@
 - 领域能力
   - Capabilities of GPT-4 on Medical Challenge Problems
   - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
+- Understanding LLM Embeddings for Regression
 
 ### Prompt Tunning范式
 - Tunning Free Prompt
@@ -234,6 +236,7 @@
   - UNLEASHING REASONING CAPABILITY OF LLMS VIA SCALABLE QUESTION SYNTHESIS FROM SCRATCH
   - A Survey on Data Synthesis and Augmentation for Large Language Models
   - AgentInstruct: Toward Generative Teaching with Agentic Flows
+  - Unveiling the Flaws: Exploring Imperfections in Synthetic Data and Mitigation Strategies for Large Language Models
 - 如何降低通用能力损失
   - How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition
   - TWO-STAGE LLM FINE-TUNING WITH LESS SPECIALIZATION AND MORE GENERALIZATION
@@ -316,6 +319,8 @@
    -  Internal Consistency and Self-Feedback in Large Language Models: A Survey :star:
    - Iteration Head: A Mechanistic Study of Chain-of-Thought :star:
    - The Impact of Reasoning Step Length on Large Language Models :star:
+   - Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?
+   - Compressed Chain of Thought: Efficient Reasoning Through Dense Representations
 - 小模型COT蒸馏
     - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
     - Teaching Small Language Models to Reason 
@@ -425,6 +430,7 @@
   - Enhancing Multi-Step Reasoning Abilities of Language Models through Direct Q-Function Optimization
   - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
   - GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements
+  - REFT: Reasoning with REinforced Fine-Tuning
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
