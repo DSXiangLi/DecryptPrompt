@@ -78,6 +78,7 @@
 - [Clay](https://www.clay.com/): 销售线索管理和扩展
 
 ### 论文研究: 日度更新，观点总结
+- [rFlow](https://rflow.ai/zh/dashboard): 以脑图为载体的新论文问答，搜索，整合工具。适合深度结构化思考用户
 - [Lumina](https://lumina.sh/c5bbe32b-4fb7-476a-81aa-fe269f67f283):  据说搜索相关性比google好5倍的开源论文搜索+AI摘要总结
 - [SCISPACE](https://typeset.io/): 论文研究的白月光，融合了全库搜索问答，以及个人上传PDF构建知识库问答。同样支持相关论文发现，和论文划词解读。并且解读内容可以保存到notebook中方便后续查找，可以说是产品和算法强强联合了。
 - [OpenAlex](https://openalex.org/works?page=1&filter=default.search%3ALLM%20long%20input%20): 提供更友好的API论文访问

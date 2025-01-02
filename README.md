@@ -66,203 +66,6 @@
 - https://github.com/thu-coai/PaperForONLG
 - https://github.com/khuangaf/Awesome-Chart-Understanding
 
-### 综述
-- A Survey of Large Language Models
-- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
-- Paradigm Shift in Natural Language Processing
-- Pre-Trained Models: Past, Present and Future
-- What Language Model Architecture and Pretraining objects work best for zero shot generalization  :star:
-- Towards Reasoning in Large Language Models: A Survey
-- Reasoning with Language Model Prompting: A Survey :star:
-- An Overview on Language Models: Recent Developments and Outlook  :star:
-- A Survey of Large Language Models[6.29更新版]
-- Unifying Large Language Models and Knowledge Graphs: A Roadmap
-- Augmented Language Models: a Survey :star:
-- Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
-- Challenges and Applications of Large Language Models
-- The Rise and Potential of Large Language Model Based Agents: A Survey
-- Large Language Models for Information Retrieval: A Survey
-- AI Alignment: A Comprehensive Survey
-- Trends in Integration of Knowledge and Large Language Models: A Survey and Taxonomy of Methods, Benchmarks, and Applications
-- Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook
-- A Survey on Language Models for Code
-- Model-as-a-Service (MaaS): A Survey
-
-### 大模型能力探究
-- In Context Learning 
-  - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
-  - How does in-context learning work? A framework for understanding the differences from traditional supervised learning
-  - Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers :star:
-  - Rethinking the Role of Demonstrations What Makes incontext learning work? :star:
-  - Trained Transformers Learn Linear Models In-Context
-  - In-Context Learning Creates Task Vectors
-  - FUNCTION VECTORS IN LARGE LANGUAGE MODELS
-- 涌现能力
-  - Sparks of Artificial General Intelligence: Early experiments with GPT-4
-  - Emerging Ability of Large Language Models :star:
-  - LANGUAGE MODELS REPRESENT SPACE AND TIME
-  - Are Emergent Abilities of Large Language Models a Mirage?
-- 能力评估
-  - IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
-  - Can Large Language Models Infer Causation from Correlation?
-  - Holistic Evaluation of Language Model
-  - Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond
-  - Theory of Mind May Have Spontaneously Emerged in Large Language Models
-  - Beyond The Imitation Game: Quantifying And Extrapolating The Capabilities Of Language Models
-  - Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations
-  - Demystifying GPT Self-Repair for Code Generation
-  - Evidence of Meaning in Language Models Trained on Programs
-  - Can Explanations Be Useful for Calibrating Black Box Models
-  - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective 
-  - Language acquisition: do children and language models follow similar learning stages?
-  - Language is primarily a tool for communication rather than thought
-- 领域能力
-  - Capabilities of GPT-4 on Medical Challenge Problems
-  - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
-- Understanding LLM Embeddings for Regression
-
-### Prompt Tunning范式
-- Tunning Free Prompt
-  - GPT2: Language Models are Unsupervised Multitask Learners
-  - GPT3: Language Models are Few-Shot Learners   :star:
-  - LAMA: Language Models as Knowledge Bases?
-  - AutoPrompt: Eliciting Knowledge from Language Models
-- Fix-Prompt LM Tunning
-  - T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
-  - PET-TC(a): Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference  :star:
-  - PET-TC(b): PETSGLUE It’s Not Just Size That Matters Small Language Models are also few-shot learners
-  - GenPET: Few-Shot Text Generation with Natural Language Instructions
-  - LM-BFF: Making Pre-trained Language Models Better Few-shot Learners  :star:
-  - ADEPT: Improving and Simplifying Pattern Exploiting Training
-- Fix-LM Prompt Tunning 
-  - Prefix-tuning: Optimizing continuous prompts for generation  
-  - Prompt-tunning: The power of scale for parameter-efficient prompt tuning :star:
-  - P-tunning: GPT Understands Too :star:
-  - WARP: Word-level Adversarial ReProgramming
-- LM + Prompt Tunning 
-  - P-tunning v2: Prompt Tuning Can Be Comparable to Fine-tunning Universally Across Scales and Tasks
-  - PTR: Prompt Tuning with Rules for Text Classification
-  - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
-- Fix-LM Adapter Tunning
-  - LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS :star:
-  - LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning
-  - Parameter-Efficient Transfer Learning for NLP
-  - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
-  - DoRA: Weight-Decomposed Low-Rank Adaptation
--  Representation Tuning
-  - ReFT: Representation Finetuning for Language Models
-
-
-### 主流LLMS和预训练
-- GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
-- PaLM: Scaling Language Modeling with Pathways
-- PaLM 2 Technical Report
-- GPT-4 Technical Report
-- Backpack Language Models
-- LLaMA: Open and Efficient Foundation Language Models
-- Llama 2: Open Foundation and Fine-Tuned Chat Models
-- Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
-- OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
-- Mistral 7B
-- Ziya2: Data-centric Learning is All LLMs Need
-- MEGABLOCKS: EFFICIENT SPARSE TRAINING WITH MIXTURE-OF-EXPERTS
-- TUTEL: ADAPTIVE MIXTURE-OF-EXPERTS AT SCALE
-- Phi1- Textbooks Are All You Need  :star:
-- Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
-- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
-- Gemini: A Family of Highly Capable Multimodal Models
-- In-Context Pretraining: Language Modeling Beyond Document Boundaries
-- LLAMA PRO: Progressive LLaMA with Block Expansion
-- QWEN TECHNICAL REPORT
-- Fewer Truncations Improve Language Modeling
-- ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
-- Phi-4 Technical Report
-- Byte Latent Transformer: Patches Scale Better Than Tokens
-
-###  指令微调&对齐 (instruction_tunning)
-- 经典方案
-   - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
-   - Flan-T5: Scaling Instruction-Finetuned Language Models
-   - ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning
-   - Instruct-GPT: Training language models to follow instructions with human feedback :star:
-   - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
-   - Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
-   - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
-   - ZeroPrompt: Scaling Prompt-Based Pretraining to 1,000 Tasks Improves Zero-shot Generalization
-   - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
-   - INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
-- SFT数据Scaling Law
-    - LIMA: Less Is More for Alignment :star:
-    - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
-    - AlpaGasus: Training A Better Alpaca with Fewer Data
-    - InstructionGPT-4: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4
-    - Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
-    - Visual Instruction Tuning with Polite Flamingo
-    - Exploring the Impact of Instruction Data Scaling on Large Language Models:  An Empirical Study on Real-World Use Cases
-    - Scaling Relationship on Learning Mathematical Reasoning with Large Language Models
-    - WHEN SCALING MEETS LLM FINETUNING: THE EFFECT OF DATA, MODEL AND FINETUNING METHOD
-- 新对齐/微调方案
-   - WizardLM: Empowering Large Language Models to Follow Complex Instructions :star:
-   - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
-   - Self-Alignment with Instruction Backtranslation :star:
-   - Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
-   - Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks
-   - PROMPT2MODEL: Generating Deployable Models from Natural Language Instructions
-   - OpinionGPT: Modelling Explicit Biases in Instruction-Tuned LLMs
-   - Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback
-   - Human-like systematic generalization through a meta-learning neural network
-   - Magicoder: Source Code Is All You Need
-   - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
-   - Generative Representational Instruction Tuning
-   - InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions
-   - The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions
-   - Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
-- 指令数据生成
-  - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
-  - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
-  - iPrompt: Explaining Data Patterns in Natural Language via Interpretable Autoprompting  
-  - Flipped Learning: Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners
-  - Fairness-guided Few-shot Prompting for Large Language Models  
-  - Instruction induction: From few examples to natural language task descriptions .
-  - SELF-QA Unsupervised Knowledge Guided alignment.
-  - GPT Self-Supervision for a Better Data Annotator  
-  - The Flan Collection Designing Data and Methods
-  - Self-Consuming Generative Models Go MAD
-  - InstructEval: Systematic Evaluation of Instruction Selection Methods
-  - Overwriting Pretrained Bias with Finetuning Data
-  - Improving Text Embeddings with Large Language Models
-  - MAGPIE: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
-  - Scaling Synthetic Data Creation with 1,000,000,000 Personas
-  - UNLEASHING REASONING CAPABILITY OF LLMS VIA SCALABLE QUESTION SYNTHESIS FROM SCRATCH
-  - A Survey on Data Synthesis and Augmentation for Large Language Models
-  - AgentInstruct: Toward Generative Teaching with Agentic Flows
-  - Unveiling the Flaws: Exploring Imperfections in Synthetic Data and Mitigation Strategies for Large Language Models
-- 如何降低通用能力损失
-  - How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition
-  - TWO-STAGE LLM FINE-TUNING WITH LESS SPECIALIZATION AND MORE GENERALIZATION
-- 微调经验/实验报告
-    - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
-    - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
-    - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
-    - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
-    - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
-    - Fine tuning LLMs for Enterprise: Practical Guidelines and Recommendations
-- Others
-   - Crosslingual Generalization through Multitask Finetuning
-   - Cross-Task Generalization via Natural Language Crowdsourcing Instructions
-   - UNIFIEDSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models
-   - PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts
-   - ROLELLM: BENCHMARKING, ELICITING, AND ENHANCING ROLE-PLAYING ABILITIES OF LARGE LANGUAGE MODELS
-
-### 对话模型
-- LaMDA: Language Models for Dialog Applications
-- Sparrow: Improving alignment of dialogue agents via targeted human judgements :star:
-- BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
-- How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
-- DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI
-- Enhancing Chat Language Models by Scaling High-quality Instructional Conversations
-- DiagGPT: An LLM-based Chatbot with Automatic Topic Management for Task-Oriented Dialogue
-
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
     - 【zero-shot-COT】 Large Language Models are Zero-Shot Reasoners :star:
@@ -440,7 +243,8 @@
   - CONTRASTIVE POST-TRAINING LARGE LANGUAGE MODELS ON DATA CURRICULUM
   - Language Models Resist Alignment
 
-### Post Train
+
+### Post Train（和COT，RL有交集）
 - Inference Scaling
   - An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models
   - Are More LM Calls All You Need? Towards the Scaling Properties of Compound AI Systems
@@ -454,11 +258,90 @@
   - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning
   - Inference Scaling for Long-Context Retrieval Augmented Generation
   - Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing
-- O1 replication
+- slow thinking COT
   - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
   - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
   - A Comparative Study on Reasoning Patterns of OpenAI's o1 Model
   - Imitate, Explore, and Self-Improve: A Reproduction Report on Slow-thinking Reasoning Systems
+  - Dualformer: Controllable Fast and Slow Thinking by Learning with Randomized Reasoning Traces
+  - Training Large Language Models to Reason in a Continuous Latent Space
+  - Beyond A∗ : Better Planning with Transformers via Search Dynamics Bootstrapping
+
+###  指令微调&对齐 (instruction_tunning)
+- 经典方案
+   - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
+   - Flan-T5: Scaling Instruction-Finetuned Language Models
+   - ExT5: Towards Extreme Multi-Task Scaling for Transfer Learning
+   - Instruct-GPT: Training language models to follow instructions with human feedback :star:
+   - T0: MULTITASK PROMPTED TRAINING ENABLES ZERO-SHOT TASK GENERALIZATION
+   - Natural Instructions: Cross-Task Generalization via Natural Language Crowdsourcing Instructions
+   - Tk-INSTRUCT: SUPER-NATURALINSTRUCTIONS: Generalization via Declarative Instructions on 1600+ NLP Tasks
+   - ZeroPrompt: Scaling Prompt-Based Pretraining to 1,000 Tasks Improves Zero-shot Generalization
+   - Unnatural Instructions: Tuning Language Models with (Almost) No Human Labor
+   - INSTRUCTEVAL Towards Holistic Evaluation of Instrucion-Tuned Large Language Models
+- SFT数据Scaling Law
+    - LIMA: Less Is More for Alignment :star:
+    - Maybe Only 0.5% Data is Needed: A Preliminary Exploration of Low Training Data Instruction Tuning
+    - AlpaGasus: Training A Better Alpaca with Fewer Data
+    - InstructionGPT-4: A 200-Instruction Paradigm for Fine-Tuning MiniGPT-4
+    - Instruction Mining: High-Quality Instruction Data Selection for Large Language Models
+    - Visual Instruction Tuning with Polite Flamingo
+    - Exploring the Impact of Instruction Data Scaling on Large Language Models:  An Empirical Study on Real-World Use Cases
+    - Scaling Relationship on Learning Mathematical Reasoning with Large Language Models
+    - WHEN SCALING MEETS LLM FINETUNING: THE EFFECT OF DATA, MODEL AND FINETUNING METHOD
+- 新对齐/微调方案
+   - WizardLM: Empowering Large Language Models to Follow Complex Instructions :star:
+   - Becoming self-instruct: introducing early stopping criteria for minimal instruct tuning
+   - Self-Alignment with Instruction Backtranslation :star:
+   - Mixture-of-Experts Meets Instruction Tuning:A Winning Combination for Large Language Models
+   - Goat: Fine-tuned LLaMA Outperforms GPT-4 on Arithmetic Tasks
+   - PROMPT2MODEL: Generating Deployable Models from Natural Language Instructions
+   - OpinionGPT: Modelling Explicit Biases in Instruction-Tuned LLMs
+   - Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback
+   - Human-like systematic generalization through a meta-learning neural network
+   - Magicoder: Source Code Is All You Need
+   - Beyond Human Data: Scaling Self-Training for Problem-Solving with Language Models
+   - Generative Representational Instruction Tuning
+   - InsCL: A Data-efficient Continual Learning Paradigm for Fine-tuning Large Language Models with Instructions
+   - The Instruction Hierarchy: Training LLMs to Prioritize Privileged Instructions
+   - Magpie: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
+- 指令数据生成
+  - APE: LARGE LANGUAGE MODELS ARE HUMAN-LEVEL PROMPT ENGINEERS  :star:
+  - SELF-INSTRUCT: Aligning Language Model with Self Generated Instructions :star:
+  - iPrompt: Explaining Data Patterns in Natural Language via Interpretable Autoprompting  
+  - Flipped Learning: Guess the Instruction! Flipped Learning Makes Language Models Stronger Zero-Shot Learners
+  - Fairness-guided Few-shot Prompting for Large Language Models  
+  - Instruction induction: From few examples to natural language task descriptions .
+  - SELF-QA Unsupervised Knowledge Guided alignment.
+  - GPT Self-Supervision for a Better Data Annotator  
+  - The Flan Collection Designing Data and Methods
+  - Self-Consuming Generative Models Go MAD
+  - InstructEval: Systematic Evaluation of Instruction Selection Methods
+  - Overwriting Pretrained Bias with Finetuning Data
+  - Improving Text Embeddings with Large Language Models
+  - MAGPIE: Alignment Data Synthesis from Scratch by Prompting Aligned LLMs with Nothing
+  - Scaling Synthetic Data Creation with 1,000,000,000 Personas
+  - UNLEASHING REASONING CAPABILITY OF LLMS VIA SCALABLE QUESTION SYNTHESIS FROM SCRATCH
+  - A Survey on Data Synthesis and Augmentation for Large Language Models
+  - AgentInstruct: Toward Generative Teaching with Agentic Flows
+  - Unveiling the Flaws: Exploring Imperfections in Synthetic Data and Mitigation Strategies for Large Language Models
+- 如何降低通用能力损失
+  - How Abilities in Large Language Models are Affected by Supervised Fine-tuning Data Composition
+  - TWO-STAGE LLM FINE-TUNING WITH LESS SPECIALIZATION AND MORE GENERALIZATION
+- 微调经验/实验报告
+    - BELLE: Exploring the Impact of Instruction Data Scaling on Large Language Models: An Empirical Study on Real-World Use Cases
+    - Baize: Baize: An Open-Source Chat Model with Parameter-Efficient Tuning on Self-Chat Data
+    - A Comparative Study between Full-Parameter and LoRA-based Fine-Tuning on Chinese Instruction Data for Large LM
+    - Exploring ChatGPT’s Ability to Rank Content: A Preliminary Study on Consistency with Human Preferences
+    - Towards Better Instruction Following Language Models for Chinese: Investigating the Impact of Training Data and Evaluation
+    - Fine tuning LLMs for Enterprise: Practical Guidelines and Recommendations
+- Others
+   - Crosslingual Generalization through Multitask Finetuning
+   - Cross-Task Generalization via Natural Language Crowdsourcing Instructions
+   - UNIFIEDSKG: Unifying and Multi-Tasking Structured Knowledge Grounding with Text-to-Text Language Models
+   - PromptSource: An Integrated Development Environment and Repository for Natural Language Prompts
+   - ROLELLM: BENCHMARKING, ELICITING, AND ENHANCING ROLE-PLAYING ABILITIES OF LARGE LANGUAGE MODELS
+
   
 ### LLM Agent 让模型使用工具 (llm_agent)
 - AGENT AI: SURVEYING THE HORIZONS OF MULTIMODAL INTERACTION
@@ -1095,6 +978,123 @@
 - Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
 - ShowUI: One Vision-Language-Action Model for GUI Visual Agent
 
+
+### 综述
+- A Survey of Large Language Models
+- Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
+- Paradigm Shift in Natural Language Processing
+- Pre-Trained Models: Past, Present and Future
+- What Language Model Architecture and Pretraining objects work best for zero shot generalization  :star:
+- Towards Reasoning in Large Language Models: A Survey
+- Reasoning with Language Model Prompting: A Survey :star:
+- An Overview on Language Models: Recent Developments and Outlook  :star:
+- A Survey of Large Language Models[6.29更新版]
+- Unifying Large Language Models and Knowledge Graphs: A Roadmap
+- Augmented Language Models: a Survey :star:
+- Domain Specialization as the Key to Make Large Language Models Disruptive: A Comprehensive Survey
+- Challenges and Applications of Large Language Models
+- The Rise and Potential of Large Language Model Based Agents: A Survey
+- Large Language Models for Information Retrieval: A Survey
+- AI Alignment: A Comprehensive Survey
+- Trends in Integration of Knowledge and Large Language Models: A Survey and Taxonomy of Methods, Benchmarks, and Applications
+- Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook
+- A Survey on Language Models for Code
+- Model-as-a-Service (MaaS): A Survey
+
+### 大模型能力探究
+- In Context Learning 
+  - LARGER LANGUAGE MODELS DO IN-CONTEXT LEARNING DIFFERENTLY
+  - How does in-context learning work? A framework for understanding the differences from traditional supervised learning
+  - Why can GPT learn in-context? Language Model Secretly Perform Gradient Descent as Meta-Optimizers :star:
+  - Rethinking the Role of Demonstrations What Makes incontext learning work? :star:
+  - Trained Transformers Learn Linear Models In-Context
+  - In-Context Learning Creates Task Vectors
+  - FUNCTION VECTORS IN LARGE LANGUAGE MODELS
+- 涌现能力
+  - Sparks of Artificial General Intelligence: Early experiments with GPT-4
+  - Emerging Ability of Large Language Models :star:
+  - LANGUAGE MODELS REPRESENT SPACE AND TIME
+  - Are Emergent Abilities of Large Language Models a Mirage?
+- 能力评估
+  - IS CHATGPT A GENERAL-PURPOSE NATURAL LANGUAGE PROCESSING TASK SOLVER?
+  - Can Large Language Models Infer Causation from Correlation?
+  - Holistic Evaluation of Language Model
+  - Harnessing the Power of LLMs in Practice: A Survey on ChatGPT and Beyond
+  - Theory of Mind May Have Spontaneously Emerged in Large Language Models
+  - Beyond The Imitation Game: Quantifying And Extrapolating The Capabilities Of Language Models
+  - Do Models Explain Themselves? Counterfactual Simulatability of Natural Language Explanations
+  - Demystifying GPT Self-Repair for Code Generation
+  - Evidence of Meaning in Language Models Trained on Programs
+  - Can Explanations Be Useful for Calibrating Black Box Models
+  - On the Robustness of ChatGPT: An Adversarial and Out-of-distribution Perspective 
+  - Language acquisition: do children and language models follow similar learning stages?
+  - Language is primarily a tool for communication rather than thought
+- 领域能力
+  - Capabilities of GPT-4 on Medical Challenge Problems
+  - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
+- Understanding LLM Embeddings for Regression
+
+
+### Prompt Tunning范式
+- Tunning Free Prompt
+  - GPT2: Language Models are Unsupervised Multitask Learners
+  - GPT3: Language Models are Few-Shot Learners   :star:
+  - LAMA: Language Models as Knowledge Bases?
+  - AutoPrompt: Eliciting Knowledge from Language Models
+- Fix-Prompt LM Tunning
+  - T5: Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer
+  - PET-TC(a): Exploiting Cloze Questions for Few Shot Text Classification and Natural Language Inference  :star:
+  - PET-TC(b): PETSGLUE It’s Not Just Size That Matters Small Language Models are also few-shot learners
+  - GenPET: Few-Shot Text Generation with Natural Language Instructions
+  - LM-BFF: Making Pre-trained Language Models Better Few-shot Learners  :star:
+  - ADEPT: Improving and Simplifying Pattern Exploiting Training
+- Fix-LM Prompt Tunning 
+  - Prefix-tuning: Optimizing continuous prompts for generation  
+  - Prompt-tunning: The power of scale for parameter-efficient prompt tuning :star:
+  - P-tunning: GPT Understands Too :star:
+  - WARP: Word-level Adversarial ReProgramming
+- LM + Prompt Tunning 
+  - P-tunning v2: Prompt Tuning Can Be Comparable to Fine-tunning Universally Across Scales and Tasks
+  - PTR: Prompt Tuning with Rules for Text Classification
+  - PADA: Example-based Prompt Learning for on-the-fly Adaptation to Unseen Domains
+- Fix-LM Adapter Tunning
+  - LORA: LOW-RANK ADAPTATION OF LARGE LANGUAGE MODELS :star:
+  - LST: Ladder Side-Tuning for Parameter and Memory Efficient Transfer Learning
+  - Parameter-Efficient Transfer Learning for NLP
+  - INTRINSIC DIMENSIONALITY EXPLAINS THE EFFECTIVENESS OF LANGUAGE MODEL FINE-TUNING
+  - DoRA: Weight-Decomposed Low-Rank Adaptation
+-  Representation Tuning
+  - ReFT: Representation Finetuning for Language Models
+
+
+### 主流LLMS和预训练
+- GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
+- PaLM: Scaling Language Modeling with Pathways
+- PaLM 2 Technical Report
+- GPT-4 Technical Report
+- Backpack Language Models
+- LLaMA: Open and Efficient Foundation Language Models
+- Llama 2: Open Foundation and Fine-Tuned Chat Models
+- Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
+- OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
+- Mistral 7B
+- Ziya2: Data-centric Learning is All LLMs Need
+- MEGABLOCKS: EFFICIENT SPARSE TRAINING WITH MIXTURE-OF-EXPERTS
+- TUTEL: ADAPTIVE MIXTURE-OF-EXPERTS AT SCALE
+- Phi1- Textbooks Are All You Need  :star:
+- Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
+- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
+- Gemini: A Family of Highly Capable Multimodal Models
+- In-Context Pretraining: Language Modeling Beyond Document Boundaries
+- LLAMA PRO: Progressive LLaMA with Block Expansion
+- QWEN TECHNICAL REPORT
+- Fewer Truncations Improve Language Modeling
+- ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
+- Phi-4 Technical Report
+- Byte Latent Transformer: Patches Scale Better Than Tokens
+- Qwen2.5 Technical Report
+- DeepSeek-V3 Technical Report
+
 ### Timeseries LLM
 - TimeGPT-1
 - Large Models for Time Series and Spatio-Temporal Data: A Survey and Outlook
@@ -1115,6 +1115,17 @@
 - Curiosity-driven Red-teaming for Large Language Models
 - Red Teaming Language Models with Language Models
 - EXPLORE, ESTABLISH, EXPLOIT: RED-TEAMING LANGUAGE MODELS FROM SCRATCH
+
+
+### 对话模型
+- LaMDA: Language Models for Dialog Applications
+- Sparrow: Improving alignment of dialogue agents via targeted human judgements :star:
+- BlenderBot 3: a deployed conversational agent that continually learns to responsibly engage
+- How NOT To Evaluate Your Dialogue System: An Empirical Study of Unsupervised Evaluation Metrics for Dialogue Response Generation
+- DialogStudio: Towards Richest and Most Diverse Unified Dataset Collection for Conversational AI
+- Enhancing Chat Language Models by Scaling High-quality Instructional Conversations
+- DiagGPT: An LLM-based Chatbot with Automatic Topic Management for Task-Oriented Dialogue
+
 
 ### Others
 - Pretraining on the Test Set Is All You Need 哈哈作者你是懂讽刺文学的
