@@ -54,7 +54,8 @@
 - [解密prompt系列42. LLM通往动态复杂思维链之路](https://cloud.tencent.com/developer/article/2464011)
 - [解密prompt系列43. LLM Self Critics](https://cloud.tencent.com/developer/article/2468406)
 - [解密prompt系列44. RAG探索模式？深度思考模式？](https://cloud.tencent.com/developer/article/2474048)
-- [解密Prompt45. 再探LLM Scalable Oversight -辩论、博弈哪家强](https://cloud.tencent.com/developer/article/2479401)
+- [解密Prompt系列45. 再探LLM Scalable Oversight -辩论、博弈哪家强](https://cloud.tencent.com/developer/article/2479401)
+- [解密prompt系列46. LLM结构化输出代码示例和原理分析](https://cloud.tencent.com/developer/article/2483500)
 
 ## 论文汇总
 ### paper List
