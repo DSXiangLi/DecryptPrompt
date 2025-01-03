@@ -267,6 +267,7 @@
   - Dualformer: Controllable Fast and Slow Thinking by Learning with Randomized Reasoning Traces
   - Training Large Language Models to Reason in a Continuous Latent Space
   - Beyond A∗ : Better Planning with Transformers via Search Dynamics Bootstrapping
+  - o1-Coder: an o1 Replication for Coding
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -1095,6 +1096,7 @@
 - Byte Latent Transformer: Patches Scale Better Than Tokens
 - Qwen2.5 Technical Report
 - DeepSeek-V3 Technical Report
+- Mixtral of Experts
 
 ### Timeseries LLM
 - TimeGPT-1
