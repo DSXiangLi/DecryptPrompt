@@ -26,7 +26,7 @@
 ### 搜索
 #### 全新搜索形态之AGI或许是个产品问题
 - [Hebbia.aiMatrix](https://www.hebbia.ai/blog/introducing-matrix-the-interface-to-agi): 号称可以解决更多RAGfail 的分析类场景，多步推理类场景的任务流解决方案
-- [genspark.ai](https://www.genspark.ai/): 融合了旅行，购物的真生成式搜索引擎，内容也由模型直接生成，可以说是全新搜索形式了，而模型本身回到sidebar的位置只起到辅助的作用，整个网站的风格偏小红书风格
+- [genspark.ai](https://www.genspark.ai/): 融合了旅行，购物的真生成式搜索引擎，内容也由模型直接生成，可以说是全新搜索形式了，而模型本身回到sidebar的位置只起到辅助的作用，整个网站的风格偏小红书风格。最近又新增了数据收集，事实核查，金融财报分析等多个复杂工作流任务。
 - [SmartTrip](https://smartrip.ai/flowStart/fullchat): 旅行界的perplexity，哈哈虽然chat感觉有点垮但是产品做的很有意思
 #### 通用搜索
 - [Felo.ai](https://felo.ai/search): 拆分搜索源，支持小红书，X，Reddit独立搜索的
@@ -51,6 +51,7 @@
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
 #### 知识管理
+- [Flowith.io](https://flowith.io/conv/c7941a85-2920-4907-b246-c271b9f5b525): 自由扩展卡片的内容生成方案
 - [Ima.Copilot](https://ima.qq.com/): 腾讯也入局做PC客户端了，AI搜索+个人知识库+NotionAI的集合体，当前只支持mac
 - [supermemory](https://supermemory.ai/home): 个人知识管理项目，创建note就可以搜索到，更多是作为浏览器插件使用
 - [glean](https://www.glean.com/): 企业知识搜索和项目管理类的搜索初创公司，帮助员工快速定位信息，帮助公司整合信息
