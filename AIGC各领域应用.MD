@@ -180,6 +180,7 @@
 - [Screenshot-to-code](https://github.com/abi/screenshot-to-code): 从网页直接生成HTML代码
 - [websim](https://websim.ai/c/07KjhaYR9DlvRuq9q): 使用AI生成的web模拟器通过指令直接构建复杂程度比较高的网站，哈哈我决定来做个自己的博客网站啦
 - [Neo](https://heyneo.so/blog): AI算法工程师，又到了自己优化自己的一天
+- [WeaveFox](http://weavefox.ai/)： 蚂蚁推出的设计图直接生成代码的框架，还没对外
 
 ### DB工具
 - [TableAgent](https://tableagent.datacanvas.com/): 九章云极推出的数据分析，机器学习智能体
@@ -207,7 +208,7 @@
 - [即梦](https://jimeng.jianying.com/ai-tool/login)：字节推出的文生图，文生视频平台
 - [FLUX1.0](https://github.com/black-forest-labs/flux): 堪比MidJourney的开源AI绘画模型，中文支持不好用英文尝试
 - [Imagen 3](https://aitestkitchen.withgoogle.com/tools/image-fx?utm_source=gdm&utm_medium=site): 谷歌推出的最新的文生图模型
-- []()
+
 
 ### 视频生成
 - [Morph Studio](https://app.morphstudio.com/waitlist): Stability AI入场视频制作
