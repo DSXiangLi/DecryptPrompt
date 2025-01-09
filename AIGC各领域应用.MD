@@ -96,6 +96,7 @@
 - [OpenResearcher](https://github.com/GAIR-NLP/OpenResearcher)：针对Arxiv 论文的RAG方案还给出了评估benchmark
 
 ### 写作效率工具类
+- [Napkin](https://app.napkin.ai/page/CgoiCHByb2Qtb25lEiwKBFBhZ2UaJGQ1NjAwMWM0LWZkNTAtNDdjNS1iYjkxLTM4NGMxYmY1YWJhMQ?tid=onboarding_gen_ai_1&ts=Prompt): 打工牛马们必备神器，直接把markdown汇报无痛转换PPT，fancy程度令人叹服
 - [ReadPo](https://readpo.com/en/dashboard): 支持markdown to Poster
 - [AppFlowy](https://github.com/AppFlowy-IO/AppFlowy):开源NotionAI
 - [ZeroGPT](https://www.zerogpt.com/): 提供GPT文本检测功能的

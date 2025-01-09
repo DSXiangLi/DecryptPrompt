@@ -98,6 +98,8 @@
     - 【KR】K-Level Reasoning: Establishing Higher Order Beliefs in Large Language Models for Strategic Reasoning
     -  【Self-Discover】SELF-DISCOVER: Large Language Models Self-Compose Reasoning Structures
     - 【Theory-of-Mind】HOW FAR ARE LARGE LANGUAGE MODELS FROMAGENTS WITH THEORY-OF-MIND?
+    - 【PC-SUBQ】Prompting Strategies for Enabling Large Language Models to Infer Causation from Correlation
+    - Reverse Thinking Makes LLMs Stronger Reasoners
 - 非传统COT问题分解方向
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Successive Prompting for Decomposing Complex Questions
@@ -235,6 +237,7 @@
   - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models
   - GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements
   - REFT: Reasoning with REinforced Fine-Tuning
+  - SCPO：SELF-CONSISTENCY PREFERENCE OPTIMIZATION
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -268,6 +271,7 @@
   - Training Large Language Models to Reason in a Continuous Latent Space
   - Beyond A∗ : Better Planning with Transformers via Search Dynamics Bootstrapping
   - o1-Coder: an o1 Replication for Coding
+  - Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -506,6 +510,7 @@
   - ExpeL: LLM Agents Are Experiential Learners
   - ReAct Meets ActRe: When Language Agents Enjoy Training Data Autonomy
   - PROACTIVE AGENT: SHIFTING LLM AGENTS FROM REACTIVE RESPONSES TO ACTIVE ASSISTANCE
+  - From Novice to Expert: LLM Agent Policy Optimization via Step-wise Reinforcement Learning
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -923,6 +928,9 @@
 - BatchPrompt: Accomplish more with less
 - You Only Cache Once: Decoder-Decoder Architectures for Language Models
 - XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models
+- Precise Length Control in Large Language Models
+- Top-nσ: Not All Logits Are You Need
+
 
 ### 模型知识编辑黑科技(model_edit)
 - ROME：Locating and Editing Factual Associations in GPT
