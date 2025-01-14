@@ -272,6 +272,7 @@
   - Beyond A∗ : Better Planning with Transformers via Search Dynamics Bootstrapping
   - o1-Coder: an o1 Replication for Coding
   - Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective
+  - Sky-T1: Train your own O1 preview model within $450
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -448,6 +449,7 @@
    - Agents in Software Engineering: Survey, Landscape, and Vision
    - ChatDev: Communicative Agents for Software Development
   - 其他
+    - Agent Laboratory: Using LLM Agents as Research Assistants
     - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -819,6 +821,7 @@
 - DOC: Improving Long Story Coherence With Detailed Outline Control
 - Weaver: Foundation Models for Creative Writing
 - Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models
+- Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations
 
 ### NL2SQL
 - 大模型方案
@@ -839,6 +842,36 @@
 - others
   - RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
   - MIGA: A Unified Multi-task Generation Framework for Conversational Text-to-SQL
+
+
+### 主流LLMS和预训练
+- GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
+- PaLM: Scaling Language Modeling with Pathways
+- PaLM 2 Technical Report
+- GPT-4 Technical Report
+- Backpack Language Models
+- LLaMA: Open and Efficient Foundation Language Models
+- Llama 2: Open Foundation and Fine-Tuned Chat Models
+- Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
+- OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
+- Mistral 7B
+- Ziya2: Data-centric Learning is All LLMs Need
+- MEGABLOCKS: EFFICIENT SPARSE TRAINING WITH MIXTURE-OF-EXPERTS
+- TUTEL: ADAPTIVE MIXTURE-OF-EXPERTS AT SCALE
+- Phi1- Textbooks Are All You Need  :star:
+- Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
+- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
+- Gemini: A Family of Highly Capable Multimodal Models
+- In-Context Pretraining: Language Modeling Beyond Document Boundaries
+- LLAMA PRO: Progressive LLaMA with Block Expansion
+- QWEN TECHNICAL REPORT
+- Fewer Truncations Improve Language Modeling
+- ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
+- Phi-4 Technical Report
+- Byte Latent Transformer: Patches Scale Better Than Tokens
+- Qwen2.5 Technical Report
+- DeepSeek-V3 Technical Report
+- Mixtral of Experts
 
 
 ### Code Generation
@@ -930,7 +963,7 @@
 - XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models
 - Precise Length Control in Large Language Models
 - Top-nσ: Not All Logits Are You Need
-
+- Prompt Cache: Modular Attention Reuse for Low-Latency Inference
 
 ### 模型知识编辑黑科技(model_edit)
 - ROME：Locating and Editing Factual Associations in GPT
@@ -941,7 +974,6 @@
 - Language Models are Super Mario: Absorbing Abilities from Homologous Models as a Free Lunch
 - Automata-based constraints for language model decoding
 - SGLang: Efficient Execution of Structured Language Model Programs
-- PROMPT CACHE: MODULAR ATTENTION REUSE FOR LOW-LATENCY INFERENCE
 
 ### 模型合并和剪枝(model_merge)
 - Blending Is All You Need: Cheaper, Better Alternative to Trillion-Parameters LLM
@@ -1076,35 +1108,6 @@
 -  Representation Tuning
   - ReFT: Representation Finetuning for Language Models
 
-
-### 主流LLMS和预训练
-- GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
-- PaLM: Scaling Language Modeling with Pathways
-- PaLM 2 Technical Report
-- GPT-4 Technical Report
-- Backpack Language Models
-- LLaMA: Open and Efficient Foundation Language Models
-- Llama 2: Open Foundation and Fine-Tuned Chat Models
-- Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
-- OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
-- Mistral 7B
-- Ziya2: Data-centric Learning is All LLMs Need
-- MEGABLOCKS: EFFICIENT SPARSE TRAINING WITH MIXTURE-OF-EXPERTS
-- TUTEL: ADAPTIVE MIXTURE-OF-EXPERTS AT SCALE
-- Phi1- Textbooks Are All You Need  :star:
-- Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
-- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
-- Gemini: A Family of Highly Capable Multimodal Models
-- In-Context Pretraining: Language Modeling Beyond Document Boundaries
-- LLAMA PRO: Progressive LLaMA with Block Expansion
-- QWEN TECHNICAL REPORT
-- Fewer Truncations Improve Language Modeling
-- ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
-- Phi-4 Technical Report
-- Byte Latent Transformer: Patches Scale Better Than Tokens
-- Qwen2.5 Technical Report
-- DeepSeek-V3 Technical Report
-- Mixtral of Experts
 
 ### Timeseries LLM
 - TimeGPT-1
