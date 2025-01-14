@@ -165,6 +165,8 @@
 - [GPTme](https://github.com/ErikBjare/gptme?tab=readme-ov-file): 命令行agent小公举
 
 ### 视频拆条总结
+- [Youtube Summarized](https://app.youtubesummarized.com/): Youtube视频一键总结，分段总结更好，更能直接产出访谈稿件
+- [NoteGPT](https://notegpt.io/): Youtube视频一键总结，支持更结构化的脑图和亮点总结
 - [Eightify](https://eightify.app/zh): chrome插件，节省观看长视频的时间，立即获取关键思想，分模块总结+时间戳摘要
 - [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档 
 
