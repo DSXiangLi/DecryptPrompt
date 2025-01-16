@@ -144,6 +144,7 @@
 - [Composer](https://www.composer.trade/?ref=supertools.therundown.ai)：量化策略和AI的结合，聊天式+拖拽式投资组合构建和回测
 - [Finalle.ai](https://finalle.ai/?ref=supertools.therundown.ai): 实时金融数据流接入大模型
 - [OpenBB](https://docs.openbb.co/terminal): 开源金融投资框架，[OpenBB+LLamaIndex](https://openbb.co/blog/breaking-barriers-with-openbb-and-llamaIndex?utm_source=talkingdev.uwl.me)主要是大模型+API的使用方案，通过自然语言进行金融数据查询，分析和可视化
+- [SageGood](https://invest.sagehood.ai/overview): 新上线的个股的金融AI应用，集合了AI雷达，各类Agent，当前看还有不少Agent没有上线
 
 ### 法律垂直场景
 - [chatlaw](https://chatlaw.cloud/): 法律咨询助手
