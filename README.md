@@ -127,6 +127,7 @@
    - The Impact of Reasoning Step Length on Large Language Models :star:
    - Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?
    - Compressed Chain of Thought: Efficient Reasoning Through Dense Representations
+   - Do LLMs Really Think Step-by-step In Implicit Reasoning?
 - 小模型COT蒸馏
     - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
     - Teaching Small Language Models to Reason 
@@ -273,6 +274,7 @@
   - o1-Coder: an o1 Replication for Coding
   - Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective
   - Sky-T1: Train your own O1 preview model within $450
+  - Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Thought
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -568,6 +570,7 @@
   - Query Expansion by Prompting Large Language Models  :star:
   - [Anthropic Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
   - Multi-Level Querying using A Knowledge Pyramid
+  - A Survey of Query Optimization in Large Language Models
 - Ranking
   - A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models
   - RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models
@@ -624,7 +627,8 @@
   - MindSearch 思·索: Mimicking Human Minds Elicits Deep AI Searcher
   - RQ-RAG: LEARNING TO REFINE QUERIES FOR RETRIEVAL AUGMENTED GENERATION
   - AutoPRM: Automating Procedural Supervision for Multi-Step Reasoning via Controllable Question Decomposition
-
+- Timeline RAG 
+  - Unfolding the Headline: Iterative Self-Questioning for News Retrieval and Timeline Summarization
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
