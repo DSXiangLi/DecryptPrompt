@@ -56,7 +56,7 @@
 - [解密prompt系列44. RAG探索模式？深度思考模式？](https://cloud.tencent.com/developer/article/2474048)
 - [解密Prompt系列45. 再探LLM Scalable Oversight -辩论、博弈哪家强](https://cloud.tencent.com/developer/article/2479401)
 - [解密prompt系列46. LLM结构化输出代码示例和原理分析](https://cloud.tencent.com/developer/article/2483500)
-
+- [解密prompt系列47. O1 Long Thought的一些特征分析](https://cloud.tencent.com/developer/article/2487221)
 ## 论文汇总
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
