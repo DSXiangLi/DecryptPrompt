@@ -57,6 +57,8 @@
 - [解密Prompt系列45. 再探LLM Scalable Oversight -辩论、博弈哪家强](https://cloud.tencent.com/developer/article/2479401)
 - [解密prompt系列46. LLM结构化输出代码示例和原理分析](https://cloud.tencent.com/developer/article/2483500)
 - [解密prompt系列47. O1 Long Thought的一些特征分析](https://cloud.tencent.com/developer/article/2487221)
+- [​解密prompt系列48. DeepSeek R1 & Kimi 1.5长思维链 - RL Scaling](https://cloud.tencent.com/developer/article/2493924)
+
 ## 论文汇总
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
@@ -66,6 +68,39 @@
 - https://github.com/MLGroupJLU/LLM-eval-survey
 - https://github.com/thu-coai/PaperForONLG
 - https://github.com/khuangaf/Awesome-Chart-Understanding
+
+
+### 主流LLMS和预训练
+- GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
+- PaLM: Scaling Language Modeling with Pathways
+- PaLM 2 Technical Report
+- GPT-4 Technical Report
+- Backpack Language Models
+- LLaMA: Open and Efficient Foundation Language Models
+- Llama 2: Open Foundation and Fine-Tuned Chat Models
+- Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
+- OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
+- Mistral 7B
+- Ziya2: Data-centric Learning is All LLMs Need
+- MEGABLOCKS: EFFICIENT SPARSE TRAINING WITH MIXTURE-OF-EXPERTS
+- TUTEL: ADAPTIVE MIXTURE-OF-EXPERTS AT SCALE
+- Phi1- Textbooks Are All You Need  :star:
+- Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
+- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
+- Gemini: A Family of Highly Capable Multimodal Models
+- In-Context Pretraining: Language Modeling Beyond Document Boundaries
+- LLAMA PRO: Progressive LLaMA with Block Expansion
+- QWEN TECHNICAL REPORT
+- Fewer Truncations Improve Language Modeling
+- ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
+- Phi-4 Technical Report
+- Byte Latent Transformer: Patches Scale Better Than Tokens
+- Qwen2.5 Technical Report
+- DeepSeek-V3 Technical Report
+- Mixtral of Experts
+- DeepSeek_R1  :star:
+- KIMI K1.5: SCALING REINFORCEMENT LEARNING WITH LLMS  :star:
+
 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
@@ -239,6 +274,7 @@
   - GLoRe: When, Where, and How to Improve LLM Reasoning via Global and Local Refinements
   - REFT: Reasoning with REinforced Fine-Tuning
   - SCPO：SELF-CONSISTENCY PREFERENCE OPTIMIZATION
+  - MONA: Myopic Optimization with Non-myopic Approval Can Mitigate Multi-step Reward Hacking
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -247,7 +283,7 @@
   - HUMAN FEEDBACK IS NOT GOLD STANDARD
   - CONTRASTIVE POST-TRAINING LARGE LANGUAGE MODELS ON DATA CURRICULUM
   - Language Models Resist Alignment
-
+  - Towards a Unified View of Preference Learning for Large Language Models: A Survey
 
 ### Post Train（和COT，RL有交集）
 - Inference Scaling
@@ -263,6 +299,7 @@
   - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning
   - Inference Scaling for Long-Context Retrieval Augmented Generation
   - Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing
+  - InfAlign: Inference-aware language model alignment
 - slow thinking COT
   - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
   - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
@@ -275,6 +312,7 @@
   - Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective
   - Sky-T1: Train your own O1 preview model within $450
   - Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Thought
+  - rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking :star:
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -428,6 +466,8 @@
     - FinVision: A Multi-Agent Framework for Stock Market Prediction
     - AI in Investment Analysis: LLMs for Equity Stock Ratings
     - AAPM: Large Language Model Agent-based Asset Pricing Models
+    - FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making
+    - TradingAgents: Multi-Agents LLM Financial Trading Framework
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -447,12 +487,16 @@
     - Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration
     - WebCanvas: Benchmarking Web Agents in Online Environments
     - The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
+    - UI-TARS: Pioneering Automated GUI Interaction with Native Agents
+    - Exposing Limitations of Language Model Agents in Sequential-Task Compositions on the Web
   - software engineer
    - Agents in Software Engineering: Survey, Landscape, and Vision
    - ChatDev: Communicative Agents for Software Development
-  - 其他
-    - Agent Laboratory: Using LLM Agents as Research Assistants
+  - Research Agent
+    - PaSa: An LLM Agent for Comprehensive Academic Paper Search
     - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models
+    - Agent Laboratory: Using LLM Agents as Research Assistants
+  - 其他
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
     - PointLLM: Empowering Large Language Models to Understand Point Clouds
@@ -515,6 +559,8 @@
   - ReAct Meets ActRe: When Language Agents Enjoy Training Data Autonomy
   - PROACTIVE AGENT: SHIFTING LLM AGENTS FROM REACTIVE RESPONSES TO ACTIVE ASSISTANCE
   - From Novice to Expert: LLM Agent Policy Optimization via Step-wise Reinforcement Learning
+  - AGILE: A Novel Reinforcement Learning Framework of LLM Agents
+  - Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -629,7 +675,9 @@
   - AutoPRM: Automating Procedural Supervision for Multi-Step Reasoning via Controllable Question Decomposition
 - Timeline RAG 
   - Unfolding the Headline: Iterative Self-Questioning for News Retrieval and Timeline Summarization
-
+- fast rag
+  - MINIRAG: TOWARDS EXTREMELY SIMPLE RETRIEVAL-AUGMENTED GENERATION
+  - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
 - In-Context Instruction Learning
@@ -846,36 +894,6 @@
 - others
   - RESDSQL: Decoupling Schema Linking and Skeleton Parsing for Text-to-SQL
   - MIGA: A Unified Multi-task Generation Framework for Conversational Text-to-SQL
-
-
-### 主流LLMS和预训练
-- GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
-- PaLM: Scaling Language Modeling with Pathways
-- PaLM 2 Technical Report
-- GPT-4 Technical Report
-- Backpack Language Models
-- LLaMA: Open and Efficient Foundation Language Models
-- Llama 2: Open Foundation and Fine-Tuned Chat Models
-- Sheared LLaMA: Accelerating Language Model Pre-training via Structured Pruning
-- OpenBA: An Open-sourced 15B Bilingual Asymmetric seq2seq Model Pre-trained from Scratch
-- Mistral 7B
-- Ziya2: Data-centric Learning is All LLMs Need
-- MEGABLOCKS: EFFICIENT SPARSE TRAINING WITH MIXTURE-OF-EXPERTS
-- TUTEL: ADAPTIVE MIXTURE-OF-EXPERTS AT SCALE
-- Phi1- Textbooks Are All You Need  :star:
-- Phi1.5- Textbooks Are All You Need II: phi-1.5 technical report
-- Phi-3 Technical Report: A Highly Capable Language Model Locally on Your Phone
-- Gemini: A Family of Highly Capable Multimodal Models
-- In-Context Pretraining: Language Modeling Beyond Document Boundaries
-- LLAMA PRO: Progressive LLaMA with Block Expansion
-- QWEN TECHNICAL REPORT
-- Fewer Truncations Improve Language Modeling
-- ChatGLM: A Family of Large Language Models from GLM-130B to GLM-4 All Tools
-- Phi-4 Technical Report
-- Byte Latent Transformer: Patches Scale Better Than Tokens
-- Qwen2.5 Technical Report
-- DeepSeek-V3 Technical Report
-- Mixtral of Experts
 
 
 ### Code Generation
