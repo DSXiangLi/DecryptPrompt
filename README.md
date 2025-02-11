@@ -313,7 +313,9 @@
   - Sky-T1: Train your own O1 preview model within $450
   - Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Thought
   - rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking :star:
-
+  - Demystifying Long Chain-of-Thought Reasoning in LLMs
+  - Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models
+   
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
    - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:

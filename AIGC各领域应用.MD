@@ -147,6 +147,8 @@
 - [SageGood](https://invest.sagehood.ai/overview): 新上线的个股的金融AI应用，集合了AI雷达，各类Agent，当前看还有不少Agent没有上线
 
 ### 法律垂直场景
+- [元典](https://www.ailaw.cn/dayq/view/index):支持问案例，法规，和综合问答，支持一些复杂案例的分析，和一键生成思维导图，个人使用感觉效果较好的一款
+- [得理AI](https://data.delilegal.com/):和上面的元典类似，但是复杂案例分析效果弱一些，多轮效果也要弱一些
 - [chatlaw](https://chatlaw.cloud/): 法律咨询助手
 - [casetext](https://casetext.com/): 海外的chatLaw
 - [MeCheck](https://powerlaw.ai/mecheck): 幂律智能的合同审查
@@ -172,6 +174,7 @@
 - [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档 
 
 ### 代码copilot & BI工具
+- [WindSurf](https://windsurfai.org/zh): 2.0版本支持动态记忆，可以记录你的使用习惯并进行持续优化
 - [Cursor](https://www.cursor.com/): 虽然更喜欢嵌入式插件，但是cursor确实很好用
 - [OpenDevin](https://github.com/OpenDevin/OpenDevin):CognitionAI发布再SWE-Bench上编码能力有显著提升的智能体
 - [AlphaCodium](https://www.codium.ai/products/alpha-codium/): Flow Engineering提高代码整体通过率
