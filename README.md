@@ -315,7 +315,8 @@
   - rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking :star:
   - Demystifying Long Chain-of-Thought Reasoning in LLMs
   - Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models
-   
+  - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
+
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
    - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
