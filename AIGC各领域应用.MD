@@ -28,6 +28,8 @@
 - [Hebbia.aiMatrix](https://www.hebbia.ai/blog/introducing-matrix-the-interface-to-agi): 号称可以解决更多RAGfail 的分析类场景，多步推理类场景的任务流解决方案
 - [genspark.ai](https://www.genspark.ai/): 融合了旅行，购物的真生成式搜索引擎，内容也由模型直接生成，可以说是全新搜索形式了，而模型本身回到sidebar的位置只起到辅助的作用，整个网站的风格偏小红书风格。最近又新增了数据收集，事实核查，金融财报分析等多个复杂工作流任务。
 - [SmartTrip](https://smartrip.ai/flowStart/fullchat): 旅行界的perplexity，哈哈虽然chat感觉有点垮但是产品做的很有意思
+- [Ottogrid](https://ottogrid.ai/):原来最早的Automous Agent现在转换来做智能表格了，非常适合信息收集、筛选、查找类任务。也可以和异步长工作流融合，个人感觉未来适合异步的产品形态的一种可能就是表格，模型自动收集信息并持续添加进表格，并根据用户需要对内容生成动态过滤，总结的column
+
 #### 通用搜索
 - [Felo.ai](https://felo.ai/search): 拆分搜索源，支持小红书，X，Reddit独立搜索的
 - [MindSearch](https://github.com/InternLM/MindSearch): 通过动态构建图节点，实现更深更广的RAG
