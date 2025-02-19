@@ -58,6 +58,7 @@
 - [解密prompt系列46. LLM结构化输出代码示例和原理分析](https://cloud.tencent.com/developer/article/2483500)
 - [解密prompt系列47. O1 Long Thought的一些特征分析](https://cloud.tencent.com/developer/article/2487221)
 - [​解密prompt系列48. DeepSeek R1 & Kimi 1.5长思维链 - RL Scaling](https://cloud.tencent.com/developer/article/2493924)
+- [​解密prompt系列49. 回顾R1之前的思维链发展](https://cloud.tencent.com/developer/article/2497501)
 
 ## 论文汇总
 ### paper List
@@ -300,6 +301,7 @@
   - Inference Scaling for Long-Context Retrieval Augmented Generation
   - Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing
   - InfAlign: Inference-aware language model alignment
+  - Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach
 - slow thinking COT
   - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
   - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
@@ -316,6 +318,7 @@
   - Demystifying Long Chain-of-Thought Reasoning in LLMs
   - Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models
   - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
+  - CODEI/O: Condensing Reasoning Patterns via Code Input-Output Prediction
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -471,6 +474,7 @@
     - AAPM: Large Language Model Agent-based Asset Pricing Models
     - FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making
     - TradingAgents: Multi-Agents LLM Financial Trading Framework
+    - Pretrained LLM Adapted with LoRA as a Decision Transformer for Offline RL in Quantitative Trading
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -839,6 +843,7 @@
   - YaRN: Efficient Context Window Extension of Large Language Models
   - LM-INFINITE: SIMPLE ON-THE-FLY LENGTH GENERALIZATION FOR LARGE LANGUAGE MODELS
   - EFFICIENT STREAMING LANGUAGE MODELS WITH ATTENTION SINKS
+  - Native Sparse Attention: Hardware-Aligned and Natively Trainable Sparse Attention
 - 上文压缩排序方案
   - Lost in the Middle: How Language Models Use Long Contexts :star:
   - LLMLingua: Compressing Prompts for Accelerated Inference of Large Language Models
