@@ -319,7 +319,8 @@
   - Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models
   - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
   - CODEI/O: Condensing Reasoning Patterns via Code Input-Output Prediction
-
+- O3 Related
+  - Competitive Programming with Large Reasoning Models
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
    - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
@@ -475,6 +476,8 @@
     - FinCon: A Synthesized LLM Multi-Agent System with Conceptual Verbal Reinforcement for Enhanced Financial Decision Making
     - TradingAgents: Multi-Agents LLM Financial Trading Framework
     - Pretrained LLM Adapted with LoRA as a Decision Transformer for Offline RL in Quantitative Trading
+    - FinRL-DeepSeek: LLM-Infused Risk-Sensitive Reinforcement Learning for Trading Agents
+    - FinSphere: A Conversational Stock Analysis Agent Equipped with Quantitative Tools based on Real-Time Database
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -568,6 +571,7 @@
   - From Novice to Expert: LLM Agent Policy Optimization via Step-wise Reinforcement Learning
   - AGILE: A Novel Reinforcement Learning Framework of LLM Agents
   - Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
+  - ARMAP: SCALING AUTONOMOUS AGENTS VIA AUTOMATIC REWARD MODELING AND PLANNING
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
