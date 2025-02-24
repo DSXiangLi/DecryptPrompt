@@ -8,6 +8,7 @@
 ### LLM免费应用
 |模型链接     | 模型描述    |
 | --- | --- |
+|[GROK3](https://x.com/i/grok)|Grok也升级支持Deep research了|
 |[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai的Playground支持他们自家的PPLX模型和众多SOTA大模型，Gemma也支持了|
 |[DeepSeek](https://chat.deepseek.com/sign_in)|深度求索（ 代码用它） |
 |[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot（搜索用它） |
@@ -53,6 +54,7 @@
 - [devv.ai](https://devv.ai/zh/search?threadId=d5kn5g4oz2m8): 基于微调llama2 + RAG搭建的属于程序员的搜索引擎  
 - [Phind](https://www.phind.com/?ref=allthingsai): 面向开发人员的AI搜索引擎
 #### 知识管理
+- [OpenNote](https://opennote.me/space): OpenNote推出的Deep Tutor用于深度研究
 - [Flowith.io](https://flowith.io/conv/c7941a85-2920-4907-b246-c271b9f5b525): 自由扩展卡片的内容生成方案
 - [Ima.Copilot](https://ima.qq.com/): 腾讯也入局做PC客户端了，AI搜索+个人知识库+NotionAI的集合体，当前只支持mac
 - [supermemory](https://supermemory.ai/home): 个人知识管理项目，创建note就可以搜索到，更多是作为浏览器插件使用
