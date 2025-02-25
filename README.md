@@ -302,6 +302,7 @@
   - Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing
   - InfAlign: Inference-aware language model alignment
   - Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach
+  - What type of inference is planning?
 - slow thinking COT
   - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
   - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
@@ -461,7 +462,7 @@
     - FinGPT: Open-Source Financial Large Language Models
     - FinMem: A Performance-Enhanced LLM Trading Agent with Layered Memory and Character Design
     - AlphaFin：使用检索增强股票链框架对财务分析进行基准测试
-    - A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist :star:
+    - FinAgent： A Multimodal Foundation Agent for Financial Trading: Tool-Augmented, Diversified, and Generalist :star:
     - Can Large Language Models Beat Wall Street? Unveiling the Potential of AI in stock Selection 
     - ENHANCING ANOMALY DETECTION IN FINANCIAL MARKETS WITH AN LLM-BASED MULTI-AGENT FRAMEWORK
     - TRADINGGPT: MULTI-AGENT SYSTEM WITH LAYERED MEMORY AND DISTINCT CHARACTERS FOR ENHANCED FINANCIAL TRADING PERFORMANCE
@@ -506,6 +507,7 @@
     - PaSa: An LLM Agent for Comprehensive Academic Paper Search
     - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models
     - Agent Laboratory: Using LLM Agents as Research Assistants
+    - Automated Hypothesis Validation with Agentic Sequential Falsifications
   - 其他
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
