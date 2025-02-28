@@ -286,6 +286,7 @@
   - Language Models Resist Alignment
   - Towards a Unified View of Preference Learning for Large Language Models: A Survey
 
+
 ### Post Train（和COT，RL有交集）
 - Inference Scaling
   - An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models
@@ -303,6 +304,7 @@
   - InfAlign: Inference-aware language model alignment
   - Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach
   - What type of inference is planning?
+  - Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving
 - slow thinking COT
   - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
   - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
@@ -320,8 +322,14 @@
   - Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models
   - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
   - CODEI/O: Condensing Reasoning Patterns via Code Input-Output Prediction
+  - Training Language Models to Reason Efficiently
+  - Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
 - O3 Related
   - Competitive Programming with Large Reasoning Models
+- Memorize at Test Time
+  - Titans: Learning to Memorize at Test Time
+- RL原理
+  - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
    - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
@@ -479,6 +487,8 @@
     - Pretrained LLM Adapted with LoRA as a Decision Transformer for Offline RL in Quantitative Trading
     - FinRL-DeepSeek: LLM-Infused Risk-Sensitive Reinforcement Learning for Trading Agents
     - FinSphere: A Conversational Stock Analysis Agent Equipped with Quantitative Tools based on Real-Time Database
+    - FLAG-Trader: Fusion LLM-Agent with Gradient-based Reinforcement Learning for Financial Trading
+    - Ploutos: Towards interpretable stock movement prediction with financial large language model
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
