@@ -23,6 +23,11 @@
 |[悟空](https://wukong.com/tool)|字节跳动|
 |[元宝](https://yuanbao.tencent.com/chat/naQivTmsDa)|腾讯|
 
+### 研究智能
+> 这个领域其实很多都不算是研究智能，只能算是RAG的Agent版本，Deep Search而非Deep Research，需要大家仔细鉴别，个人体验Grok和Perplexity当前的版本都够不上研究级别
+- [Co-Scientist](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/?utm_source=ai-bot.cn): Google推出的科研助手，多智能体编排给出周密假设检验
+- [DeepResearch](https://openai.com/index/introducing-deep-research/): OpenAi推出的Deep Research，以O1训练思维链的方式训练的Agent行为链，长异步工作流收集、鉴别信息
+
 
 ### 搜索
 #### 全新搜索形态之AGI或许是个产品问题
