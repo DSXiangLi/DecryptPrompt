@@ -323,13 +323,18 @@
   - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
   - CODEI/O: Condensing Reasoning Patterns via Code Input-Output Prediction
   - Training Language Models to Reason Efficiently
-  - Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
+  - s1: Simple test-time scaling
 - O3 Related
   - Competitive Programming with Large Reasoning Models
 - Memorize at Test Time
   - Titans: Learning to Memorize at Test Time
 - RL原理
   - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training
+- R1 Reprodce
+  - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
+  - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
+  - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
+
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
    - Flan: FINETUNED LANGUAGE MODELS ARE ZERO-SHOT LEARNERS :star:
@@ -518,6 +523,7 @@
     - ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models
     - Agent Laboratory: Using LLM Agents as Research Assistants
     - Automated Hypothesis Validation with Agentic Sequential Falsifications
+    - Towards an AI co-scientist
   - 其他
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
