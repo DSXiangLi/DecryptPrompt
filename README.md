@@ -69,7 +69,7 @@
 - https://github.com/MLGroupJLU/LLM-eval-survey
 - https://github.com/thu-coai/PaperForONLG
 - https://github.com/khuangaf/Awesome-Chart-Understanding
-
+- https://github.com/srush/awesome-o1/?tab=readme-ov-file
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
