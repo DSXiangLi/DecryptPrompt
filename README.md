@@ -328,8 +328,9 @@
   - Competitive Programming with Large Reasoning Models
 - Memorize at Test Time
   - Titans: Learning to Memorize at Test Time
-- RL原理
+- RL COT原理
   - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training
+  - Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs
 - R1 Reprodce
   - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
   - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
