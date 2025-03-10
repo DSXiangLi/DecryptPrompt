@@ -59,6 +59,8 @@
 - [解密prompt系列47. O1 Long Thought的一些特征分析](https://cloud.tencent.com/developer/article/2487221)
 - [​解密prompt系列48. DeepSeek R1 & Kimi 1.5长思维链 - RL Scaling](https://cloud.tencent.com/developer/article/2493924)
 - [​解密prompt系列49. 回顾R1之前的思维链发展](https://cloud.tencent.com/developer/article/2497501)
+- [解密prompt系列50. RL用于优化Agent行为路径的一些思路](https://cloud.tencent.com/developer/article/2502322)
+
 
 ## 论文汇总
 ### paper List
@@ -136,6 +138,7 @@
     - 【Theory-of-Mind】HOW FAR ARE LARGE LANGUAGE MODELS FROMAGENTS WITH THEORY-OF-MIND?
     - 【PC-SUBQ】Prompting Strategies for Enabling Large Language Models to Infer Causation from Correlation
     - Reverse Thinking Makes LLMs Stronger Reasoners
+    - Chain of Draft: Thinking Faster by Writing Less
 - 非传统COT问题分解方向
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Successive Prompting for Decomposing Complex Questions
@@ -324,13 +327,16 @@
   - CODEI/O: Condensing Reasoning Patterns via Code Input-Output Prediction
   - Training Language Models to Reason Efficiently
   - s1: Simple test-time scaling
+  - Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking
 - O3 Related
   - Competitive Programming with Large Reasoning Models
 - Memorize at Test Time
   - Titans: Learning to Memorize at Test Time
+  - Learning to Reason from Feedback at Test-Time
 - RL COT原理
   - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training
   - Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs
+  - Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs
 - R1 Reprodce
   - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
   - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
