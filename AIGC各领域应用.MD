@@ -170,6 +170,7 @@
 - [Vana](https://gptme.vana.com/login): virtual DNA, 通过聊天创建虚拟自己！概念很炫
 
 ### Agent
+- [HighlightAI](https://highlightai.com/post-download): 类似全场景的Cursor，可以识别任意选定内容做为Context，并且接入了众多MCP
 - [NexusGPT](https://nexus.snikpic.io/): AutoGPT可以出来工作了，第一个全AI Freelance平台 
 - [cognosys](https://www.cognosys.ai/create): 全网最火的web端AutoGPT，不过咋说呢试用了下感觉下巴要笑掉了，不剧透去试试你就知道
 - [godmode](https://godmode.space/)：可以进行人为每一步交互的的AutoGPT
