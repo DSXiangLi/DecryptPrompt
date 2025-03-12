@@ -337,6 +337,7 @@
   - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training
   - Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs
   - Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs
+  - All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
 - R1 Reprodce
   - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
   - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
@@ -507,6 +508,7 @@
     - Generating Explanations in Medical Question-Answering by Expectation Maximization Inference over Evidence
     - Agent Hospital: A Simulacrum of Hospital with Evolvable Medical Agents
     - Integrating Chemistry Knowledge in Large Language Models via Prompt Engineering
+    - CHEMAGENT: SELF-UPDATING LIBRARY IN LARGE LANGUAGE MODELS IMPROVES CHEMICAL REASONING
   - web/mobile Agent
     - AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent
     - A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis
@@ -714,6 +716,7 @@
 - fast rag
   - MINIRAG: TOWARDS EXTREMELY SIMPLE RETRIEVAL-AUGMENTED GENERATION
   - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
+
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
 - In-Context Instruction Learning
@@ -903,6 +906,8 @@
   - HyperAttention: Long-context Attention in Near-Linear Time
   - FlashAttention: Fast and Memory-Efficient Exact Attention with IO-Awareness
   - With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation
+- 评估
+  - NOLIMA: Long-Context Evaluation Beyond Literal Matching
 
 ### LLM长文本生成（long_output）
 - Re3 : Generating Longer Stories With Recursive Reprompting and Revision
