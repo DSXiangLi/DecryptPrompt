@@ -29,6 +29,7 @@
 - [DeepResearch](https://openai.com/index/introducing-deep-research/): OpenAi推出的Deep Research，以O1训练思维链的方式训练的Agent行为链，长异步工作流收集、鉴别信息
 - [MANUS](https://manus.im/): 胜在UI设计的Autonomous Agent
 - [Data Science Agent in Colab: The future of data analysis with Gemini](https://developers.googleblog.com/en/data-science-agent-in-colab-with-gemini/): Google Colab里面可以免费使用Datascientist Agent了，对数据分析比较初级的领域有一些挑战
+- [Harvey.ai](https://www.harvey.ai/products/assistant)
 
 ### 搜索
 #### 全新搜索形态之AGI或许是个产品问题
