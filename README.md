@@ -279,6 +279,7 @@
   - REFT: Reasoning with REinforced Fine-Tuning
   - SCPO：SELF-CONSISTENCY PREFERENCE OPTIMIZATION
   - MONA: Myopic Optimization with Non-myopic Approval Can Mitigate Multi-step Reward Hacking
+  - Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
