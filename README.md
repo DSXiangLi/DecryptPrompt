@@ -60,7 +60,7 @@
 - [​解密prompt系列48. DeepSeek R1 & Kimi 1.5长思维链 - RL Scaling](https://cloud.tencent.com/developer/article/2493924)
 - [​解密prompt系列49. 回顾R1之前的思维链发展](https://cloud.tencent.com/developer/article/2497501)
 - [解密prompt系列50. RL用于优化Agent行为路径的一些思路](https://cloud.tencent.com/developer/article/2502322)
-
+- [解密prompt系列51. R1实验的一些细节讨论](https://cloud.tencent.com/developer/article/2506684)
 
 ## 论文汇总
 ### paper List
@@ -503,6 +503,8 @@
     - FinSphere: A Conversational Stock Analysis Agent Equipped with Quantitative Tools based on Real-Time Database
     - FLAG-Trader: Fusion LLM-Agent with Gradient-based Reinforcement Learning for Financial Trading
     - Ploutos: Towards interpretable stock movement prediction with financial large language model
+    - HedgeAgents: A Balanced-aware Multi-agent Financial Trading System
+    - TIMERAG: BOOSTING LLM TIME SERIES FORECASTING VIA RETRIEVAL-AUGMENTED GENERATION
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -600,6 +602,7 @@
   - AGILE: A Novel Reinforcement Learning Framework of LLM Agents
   - Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
   - ARMAP: SCALING AUTONOMOUS AGENTS VIA AUTOMATIC REWARD MODELING AND PLANNING
+  - Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
@@ -901,6 +904,7 @@
   - MEGALODON: Efficient LLM Pretraining and Inference with Unlimited Context Length
   - Make Your LLM Fully Utilize the Context
   - Untie the Knots: An Efficient Data Augmentation Strategy for Long-Context Pre-Training in Language Models
+  - LIFT: Improving Long Context Understanding of Large Language Models through Long Input Fine-Tuning
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
