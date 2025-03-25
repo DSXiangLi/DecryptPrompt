@@ -71,6 +71,7 @@
 - [ChatInsight](https://www.chatinsight.ai/?ref=aitoolnet.com): 企业级文档管理，和基于文档的对话
 - [Afforai](https://afforai.com/app): 看到现在做的不错的个人知识管理和笔记文件，支持多文档对比，期待和zetro打通
 - [MAXKB](https://maxkb.cn/): 支持上传文件和爬取在线文件的RAG知识库本地安装
+- [Khoj](https://app.khoj.dev/agents):支持本地部署的知识管理问答工具
 ### ChatDoc
 - [Kimi-Chat](https://kimi.moonshot.cn/): 长长长长文档理解无敌的Kimi-Chat，单文档总结多文档结构化对比，无所不能，多长都行！
 - [ChatDoc](https://chatdoc.com/?viaurl=ainavpro.com):ChatPDF升级版，需要科学上网，增加了表格类解析，支持选择区域的问答，在PDF识别上做的很厉害
