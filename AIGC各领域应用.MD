@@ -39,6 +39,7 @@
 - [Ottogrid](https://ottogrid.ai/):原来最早的Automous Agent现在转换来做智能表格了，非常适合信息收集、筛选、查找类任务。也可以和异步长工作流融合，个人感觉未来适合异步的产品形态的一种可能就是表格，模型自动收集信息并持续添加进表格，并根据用户需要对内容生成动态过滤，总结的column
 
 #### 通用搜索
+- [问小白](https://www.wenxiaobai.com/chat/tourist)
 - [Felo.ai](https://felo.ai/search): 拆分搜索源，支持小红书，X，Reddit独立搜索的
 - [MindSearch](https://github.com/InternLM/MindSearch): 通过动态构建图节点，实现更深更广的RAG
 - [秘塔搜索](https://metaso.cn/about-us): 融合了脑图，表格多模态问答的搜索应用
