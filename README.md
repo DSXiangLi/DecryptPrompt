@@ -139,6 +139,7 @@
     - 【PC-SUBQ】Prompting Strategies for Enabling Large Language Models to Infer Causation from Correlation
     - Reverse Thinking Makes LLMs Stronger Reasoners
     - Chain of Draft: Thinking Faster by Writing Less
+    - Atom of Thoughts for Markov LLM Test-Time Scaling
 - 非传统COT问题分解方向
     - Decomposed Prompting A MODULAR APPROACH FOR Solving Complex Tasks
     - Successive Prompting for Decomposing Complex Questions
@@ -505,6 +506,7 @@
     - Ploutos: Towards interpretable stock movement prediction with financial large language model
     - HedgeAgents: A Balanced-aware Multi-agent Financial Trading System
     - TIMERAG: BOOSTING LLM TIME SERIES FORECASTING VIA RETRIEVAL-AUGMENTED GENERATION
+    - CausalStock: Deep End-to-end Causal Discovery for News-driven Stock Movement Prediction
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
