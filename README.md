@@ -722,7 +722,8 @@
 - fast rag
   - MINIRAG: TOWARDS EXTREMELY SIMPLE RETRIEVAL-AUGMENTED GENERATION
   - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
-
+- memory Rag
+  - KBLAM: KNOWLEDGE BASE AUGMENTED LANGUAGE MODEL
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
 - In-Context Instruction Learning
