@@ -1,3 +1,7 @@
+### 自主智能体的尝试
+- [How Claude 3.7 Plays Pokémon](https://www.latent.space/p/how-claude-plays-pokemon-was-made)
+
+###
 ### AI设备
 ### AI 手机
 - [Rabbit r1](https://www.rabbit.tech/newsroom/introducing-r1): webagent智能体推出设备级产品了，延时问题还是最大问题，支持的app也有限
@@ -32,6 +36,9 @@
 - [Harvey.ai](https://www.harvey.ai/products/assistant)
 
 ### 搜索
+#### 全新AI浏览器
+- [Fellou.ai](https://fellou.ai/):windows版本还没有得体验后再来补充了 
+
 #### 全新搜索形态之AGI或许是个产品问题
 - [Hebbia.aiMatrix](https://www.hebbia.ai/blog/introducing-matrix-the-interface-to-agi): 号称可以解决更多RAGfail 的分析类场景，多步推理类场景的任务流解决方案
 - [genspark.ai](https://www.genspark.ai/): 融合了旅行，购物的真生成式搜索引擎，内容也由模型直接生成，可以说是全新搜索形式了，而模型本身回到sidebar的位置只起到辅助的作用，整个网站的风格偏小红书风格。最近又新增了数据收集，事实核查，金融财报分析等多个复杂工作流任务。
@@ -131,6 +138,7 @@
 - [Weaver AI](https://www.aiwaves.cn/): 波形智能开发的内容创作app，支持多场景写作
 - [ChatExcel](https://chatexcel.com/convert): 指令控制excel计算，对熟悉excel的有些鸡肋，对不熟悉的有点用  
 - [mindShow](https://www.mindshow.fun/#/folder/slides)：免费+付费的PPT制作工具，自定义PPT模板还不够好
+- [STORM](https://storm.genie.stanford.edu/): 其实已经用了蛮久一直忘记放上来，对比千篇一律的大纲写作，整个流程更human的长文本写作方案
 
 ### 金融垂直领域
 - [妙想金融](http://ai.eastmoney.com/chat): 东方财富推出的大模型应用

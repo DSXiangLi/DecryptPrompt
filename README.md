@@ -1035,7 +1035,13 @@
 - XGrammar: Flexible and Efficient Structured Generation Engine for Large Language Models
 - Precise Length Control in Large Language Models
 - Top-nσ: Not All Logits Are You Need
-- Prompt Cache: Modular Attention Reuse for Low-Latency Inference
+-  context cache
+  - Prompt Cache: Modular Attention Reuse for Low-Latency Inference 
+  - SGLang: Efficient Execution of Structured Language Model Programs
+  - Efficient Prompt Caching via Embedding Similarity
+  - ChunkAttention: Efficient Self-Attention with Prefix-Aware KV Cache and Two-Phase Partition
+  - Hydragen: High-Throughput LLM Inference with Shared Prefixes
+  - Efficient Memory Management for Large Language Model Serving with PagedAttention
 
 ### 模型知识编辑黑科技(model_edit)
 - ROME：Locating and Editing Factual Associations in GPT
