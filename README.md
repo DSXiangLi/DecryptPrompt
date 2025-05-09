@@ -61,6 +61,8 @@
 - [​解密prompt系列49. 回顾R1之前的思维链发展](https://cloud.tencent.com/developer/article/2497501)
 - [解密prompt系列50. RL用于优化Agent行为路径的一些思路](https://cloud.tencent.com/developer/article/2502322)
 - [解密prompt系列51. R1实验的一些细节讨论](https://cloud.tencent.com/developer/article/2506684)
+- [解密prompt系列52. 闲聊大模型还有什么值得探索的领域](https://cloud.tencent.com/developer/article/2510004)
+- [解密prompt系列53. 再谈大模型Memory](https://cloud.tencent.com/developer/article/2514545)
 
 ## 论文汇总
 ### paper List
@@ -344,6 +346,18 @@
   - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
   - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
   - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
+  - DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models
+- RL Agent 
+  - RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning
+  - ToolRL: Reward is All Tool Learning Needs
+  - ReTool: Reinforcement Learning for Strategic Tool Use in LLMs
+  - ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning
+  - [Improving Multi-Turn Tool Use with Reinforcement Learning](https://www.bespokelabs.ai/blog/improving-multi-turn-tool-use-with-reinforcement-learning)
+
+### Memory
+> 脱离上文长度这个狭窄的视角重新看待模型记忆
+- A-MEM: Agentic Memory for LLM Agents
+- MemInsight: Autonomous Memory Augmentation for LLM Agents
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
