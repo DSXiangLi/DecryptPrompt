@@ -38,6 +38,7 @@
 ### 搜索
 #### 全新AI浏览器
 - [Fellou.ai](https://fellou.ai/):windows版本还没有得体验后再来补充了 
+- [Dia](https://www.diabrowser.com/): 全新设计基于AI的浏览器需要申请
 
 #### 全新搜索形态之AGI或许是个产品问题
 - [Hebbia.aiMatrix](https://www.hebbia.ai/blog/introducing-matrix-the-interface-to-agi): 号称可以解决更多RAGfail 的分析类场景，多步推理类场景的任务流解决方案
