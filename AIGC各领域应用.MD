@@ -1,31 +1,13 @@
 ### 自主智能体的尝试
 - [How Claude 3.7 Plays Pokémon](https://www.latent.space/p/how-claude-plays-pokemon-was-made)
 
-###
+
 ### AI设备
 ### AI 手机
 - [Rabbit r1](https://www.rabbit.tech/newsroom/introducing-r1): webagent智能体推出设备级产品了，延时问题还是最大问题，支持的app也有限
 ####AI耳机
 - [Olafriend](https://www.woshipm.com/evaluating/6134764.html): 大力台灯之后字节再入局硬件
 - [IFLYBUDS](https://www.iflybuds.com/v2/#/portal): 讯飞智能录音耳机
-
-### LLM免费应用
-|模型链接     | 模型描述    |
-| --- | --- |
-|[GROK3](https://x.com/i/grok)|Grok也升级支持Deep research了|
-|[PPLX-7B/70B](https://blog.perplexity.ai/blog/introducing-pplx-online-llms?utm_source=labs&utm_medium=labs&utm_campaign=online-llms)|Perplexity.ai的Playground支持他们自家的PPLX模型和众多SOTA大模型，Gemma也支持了|
-|[DeepSeek](https://chat.deepseek.com/sign_in)|深度求索（ 代码用它） |
-|[kimi Chat](https://www.moonshot.cn/?ref=aihub.cn)|Moonshot（搜索用它） |
-|[通义千问](https://tongyi.aliyun.com/qianwen/)|阿里(奇奇怪怪的问题问它） |
-|[万知](https://www.wanzhi.com/)|YI模型基座的应用，支持OCR文档识别|
-|[跃问](https://stepchat.cn/chats/new)|阶跃星辰推出的同样擅长长文本的大模型|
-|[讯飞星火](https://xinghuo.xfyun.cn/desk)|科大讯飞 |
-|[文心一言](https://yiyan.baidu.com/welcome)|百度|
-|[百川](https://www.baichuan-ai.com/chat)|百川|
-|[ChatGLM](https://chatglm.cn/main/detail)|智谱轻言|
-|[360智脑](https://chat.360.com/?src=ai_360_com)|360 |
-|[悟空](https://wukong.com/tool)|字节跳动|
-|[元宝](https://yuanbao.tencent.com/chat/naQivTmsDa)|腾讯|
 
 ### 研究智能
 > 这个领域其实很多都不算是研究智能，只能算是RAG的Agent版本，Deep Search而非Deep Research，需要大家仔细鉴别，个人体验Grok和Perplexity当前的版本都够不上研究级别

@@ -353,6 +353,8 @@
   - ReTool: Reinforcement Learning for Strategic Tool Use in LLMs
   - ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning
   - [Improving Multi-Turn Tool Use with Reinforcement Learning](https://www.bespokelabs.ai/blog/improving-multi-turn-tool-use-with-reinforcement-learning)
+- 经验学习
+  - Welcome to the Era of Experience
 
 ### Memory
 > 脱离上文长度这个狭窄的视角重新看待模型记忆
