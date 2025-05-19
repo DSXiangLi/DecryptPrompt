@@ -353,6 +353,7 @@
   - ReTool: Reinforcement Learning for Strategic Tool Use in LLMs
   - ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning
   - [Improving Multi-Turn Tool Use with Reinforcement Learning](https://www.bespokelabs.ai/blog/improving-multi-turn-tool-use-with-reinforcement-learning)
+  - WebThinker: Empowering Large Reasoning Models with Deep Research Capability
 - 经验学习
   - Welcome to the Era of Experience
 
@@ -360,6 +361,11 @@
 > 脱离上文长度这个狭窄的视角重新看待模型记忆
 - A-MEM: Agentic Memory for LLM Agents
 - MemInsight: Autonomous Memory Augmentation for LLM Agents
+
+
+### 多轮对话
+>- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
+- LLMS GET LOST IN MULTI-TURN CONVERSATION
 
 ###  指令微调&对齐 (instruction_tunning)
 - 经典方案
@@ -1039,7 +1045,9 @@
   - Detecting Pretraining Data from Large Language Models
   - Scalable Extraction of Training Data from (Production) Language Models
   - Rethinking Benchmark and Contamination for Language Models with Rephrased Samples
-	
+- 通用评估
+  - G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment
+
 ### 推理优化(inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
 - Fast Inference from Transformers via Speculative Decoding
