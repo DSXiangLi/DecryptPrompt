@@ -627,6 +627,8 @@
   - Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
   - ARMAP: SCALING AUTONOMOUS AGENTS VIA AUTOMATIC REWARD MODELING AND PLANNING
   - Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning
+- MCP
+  - SCALEMCP: DYNAMIC AND AUTO-SYNCHRONIZING MODEL CONTEXT PROTOCOL TOOLS FOR LLM AGENTS
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
