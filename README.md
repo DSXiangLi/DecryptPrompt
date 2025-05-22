@@ -347,6 +347,7 @@
   - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
   - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
   - DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models
+  - Think Only When You Need with Large Hybrid-Reasoning Models
 - RL Agent 
   - RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning
   - ToolRL: Reward is All Tool Learning Needs
@@ -748,6 +749,7 @@
   - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
 - memory Rag
   - KBLAM: KNOWLEDGE BASE AUGMENTED LANGUAGE MODEL
+
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
 - In-Context Instruction Learning
@@ -948,6 +950,7 @@
 - Weaver: Foundation Models for Creative Writing
 - Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models
 - Into the Unknown Unknowns: Engaged Human Learning through Participation in Language Model Agent Conversations
+- Beyond Outlining: Heterogeneous Recursive Planning for Adaptive Long-form Writing with Language Models
 
 ### NL2SQL
 - 大模型方案
