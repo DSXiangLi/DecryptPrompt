@@ -63,6 +63,8 @@
 - [解密prompt系列51. R1实验的一些细节讨论](https://cloud.tencent.com/developer/article/2506684)
 - [解密prompt系列52. 闲聊大模型还有什么值得探索的领域](https://cloud.tencent.com/developer/article/2510004)
 - [解密prompt系列53. 再谈大模型Memory](https://cloud.tencent.com/developer/article/2514545)
+- [解密prompt系列54.Context Cache代码示例和原理分析](https://cloud.tencent.com/developer/article/2522820)
+- [解密prompt系列55.Agent Memory的工程实现 - Mem0 & LlamaIndex](https://cloud.tencent.com/developer/article/2528447)
 
 ## 论文汇总
 ### paper List
@@ -195,6 +197,12 @@
     - Large Language Models are Better Reasoners with Self-Verification
     - ThoughtSource A central hub for large language model reasoning data
     - Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs
+
+### Self-Evolution
+- Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents
+- [Alpha Evolve](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
+- Can Large Reasoning Models Self-Train
+- Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO
 
 ### RLHF
 - Deepmind
@@ -357,6 +365,9 @@
   - WebThinker: Empowering Large Reasoning Models with Deep Research Capability
 - 经验学习
   - Welcome to the Era of Experience
+- RL 其他训练方式
+  - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
+  - REWARDBENCH 2: Advancing Reward Model Evaluation
 
 ### Memory
 > 脱离上文长度这个狭窄的视角重新看待模型记忆
