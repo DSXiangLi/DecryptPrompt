@@ -600,6 +600,7 @@
   - Agents Thinking Fast and Slow:A Talker-Reasoner Architecture
   - Generative Agent Simulations of 1,000 People
   - Advanced Reasoning and Learning for Autonomous AI Agents
+  - Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
@@ -647,7 +648,8 @@
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
   - LLaMA Rider: Spurring Large Language Models to Explore the Open World
   - LLMs Can’t Plan, But Can Help Planning in LLM-Modulo Frameworks
-
+- Custom Agent
+  - Creating General User Models from Computer Use
 
 ### RAG
 - 经典论文
