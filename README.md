@@ -650,6 +650,8 @@
   - LLMs Can’t Plan, But Can Help Planning in LLM-Modulo Frameworks
 - Custom Agent
   - Creating General User Models from Computer Use
+- Agent Memory
+  - G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems
 
 ### RAG
 - 经典论文
