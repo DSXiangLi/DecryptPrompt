@@ -373,6 +373,9 @@
 > 脱离上文长度这个狭窄的视角重新看待模型记忆
 - A-MEM: Agentic Memory for LLM Agents
 - MemInsight: Autonomous Memory Augmentation for LLM Agents
+- G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems
+- AGENT WORKFLOW MEMORY
+- KBLAM: KNOWLEDGE BASE AUGMENTED LANGUAGE MODEL
 
 
 ### 多轮对话
@@ -640,6 +643,7 @@
   - Agent Q: Advanced Reasoning and Learning for Autonomous AI Agents
   - ARMAP: SCALING AUTONOMOUS AGENTS VIA AUTOMATIC REWARD MODELING AND PLANNING
   - Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning
+  - Contextual Experience Replay for Continual Learning of Language Agents
 - MCP
   - SCALEMCP: DYNAMIC AND AUTO-SYNCHRONIZING MODEL CONTEXT PROTOCOL TOOLS FOR LLM AGENTS
 - 其他
@@ -650,8 +654,7 @@
   - LLMs Can’t Plan, But Can Help Planning in LLM-Modulo Frameworks
 - Custom Agent
   - Creating General User Models from Computer Use
-- Agent Memory
-  - G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems
+
 
 ### RAG
 - 经典论文
@@ -762,8 +765,6 @@
 - fast rag
   - MINIRAG: TOWARDS EXTREMELY SIMPLE RETRIEVAL-AUGMENTED GENERATION
   - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
-- memory Rag
-  - KBLAM: KNOWLEDGE BASE AUGMENTED LANGUAGE MODEL
 
 ### Other Prompt Engineer(prompt_engineer) 
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
@@ -933,6 +934,7 @@
   - LongAgent: Scaling Language Models to 128k Context through Multi-Agent Collaboration
   - PCToolkit: A Unified Plug-and-Play Prompt Compression Toolkit of Large Language Models
   - Are Long-LLMs A Necessity For Long-Context Tasks?
+  - QwenLong-CPRS: Towards \infty-LLMs with Dynamic Context Optimization
 - 训练和模型架构方案
   - Never Train from Scratch: FAIR COMPARISON OF LONGSEQUENCE MODELS REQUIRES DATA-DRIVEN PRIORS
   - Soaring from 4K to 400K: Extending LLM's Context with Activation Beacon
