@@ -1,4 +1,4 @@
- # DecryptPrompt
+# DecryptPrompt
 > 如果LLM的突然到来让你感到沮丧，不妨读下主目录的Choose Your Weapon Survival Strategies for Depressed AI Academics
 持续更新以下内容，Star to keep updated~
 
@@ -340,6 +340,7 @@
   - Training Language Models to Reason Efficiently
   - s1: Simple test-time scaling
   - Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking
+  - ALPHAONE: Reasoning Models Thinking Slow and Fast at Test Time
 - O3 Related
   - Competitive Programming with Large Reasoning Models
 - Memorize at Test Time
