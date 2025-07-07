@@ -65,7 +65,7 @@
 - [解密prompt系列53. 再谈大模型Memory](https://cloud.tencent.com/developer/article/2514545)
 - [解密prompt系列54.Context Cache代码示例和原理分析](https://cloud.tencent.com/developer/article/2522820)
 - [解密prompt系列55.Agent Memory的工程实现 - Mem0 & LlamaIndex](https://cloud.tencent.com/developer/article/2528447)
-- [解密prompt系列56. 智能体context管理 - 单智能体代码剖析](https://cloud.tencent.com/developer/article/2537040)
+- [解密prompt系列56. Agent context Engineering - 单智能体代码剖析](https://cloud.tencent.com/developer/article/2537040)
 
 ## 论文汇总
 ### paper List
@@ -77,6 +77,76 @@
 - https://github.com/thu-coai/PaperForONLG
 - https://github.com/khuangaf/Awesome-Chart-Understanding
 - https://github.com/srush/awesome-o1/?tab=readme-ov-file
+
+
+### Post Train（和COT，RL有交集）
+- Inference Scaling
+  - An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models
+  - Are More LM Calls All You Need? Towards the Scaling Properties of Compound AI Systems
+  - Large Language Monkeys: Scaling Inference Compute with Repeated Sampling
+  - Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters   :star:
+  - Q*: Improving Multi-step Reasoning for LLMs with Deliberative Planning
+  - Planning In Natural Language Improves LLM Search For Code Generation
+  - ReST-MCTS∗ : LLM Self-Training via Process Reward Guided Tree Search
+  - AlphaZero-Like Tree-Search can Guide Large Language Model Decoding and Training
+  - Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling
+  - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning
+  - Inference Scaling for Long-Context Retrieval Augmented Generation
+  - Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing
+  - InfAlign: Inference-aware language model alignment
+  - Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach
+  - What type of inference is planning?
+  - Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving
+- slow thinking COT
+  - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
+  - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
+  - A Comparative Study on Reasoning Patterns of OpenAI's o1 Model
+  - Imitate, Explore, and Self-Improve: A Reproduction Report on Slow-thinking Reasoning Systems
+  - Dualformer: Controllable Fast and Slow Thinking by Learning with Randomized Reasoning Traces
+  - Training Large Language Models to Reason in a Continuous Latent Space
+  - Beyond A∗ : Better Planning with Transformers via Search Dynamics Bootstrapping
+  - o1-Coder: an o1 Replication for Coding
+  - Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective
+  - Sky-T1: Train your own O1 preview model within $450
+  - Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Thought
+  - rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking :star:
+  - Demystifying Long Chain-of-Thought Reasoning in LLMs
+  - Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models
+  - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
+  - CODEI/O: Condensing Reasoning Patterns via Code Input-Output Prediction
+  - Training Language Models to Reason Efficiently
+  - s1: Simple test-time scaling
+  - Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking
+  - ALPHAONE: Reasoning Models Thinking Slow and Fast at Test Time
+- O3 Related
+  - Competitive Programming with Large Reasoning Models
+- Memorize at Test Time
+  - Titans: Learning to Memorize at Test Time
+  - Learning to Reason from Feedback at Test-Time
+- RL COT原理
+  - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training
+  - Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs
+  - Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs
+  - All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
+- R1 Reprodce
+  - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
+  - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
+  - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
+  - DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models
+  - Think Only When You Need with Large Hybrid-Reasoning Models
+  - Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties
+- RL Agent 
+  - RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning
+  - ToolRL: Reward is All Tool Learning Needs
+  - ReTool: Reinforcement Learning for Strategic Tool Use in LLMs
+  - ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning
+  - [Improving Multi-Turn Tool Use with Reinforcement Learning](https://www.bespokelabs.ai/blog/improving-multi-turn-tool-use-with-reinforcement-learning)
+  - WebThinker: Empowering Large Reasoning Models with Deep Research Capability
+- 经验学习
+  - Welcome to the Era of Experience
+- RL 其他训练方式
+  - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
+  - REWARDBENCH 2: Advancing Reward Model Evaluation
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -303,73 +373,6 @@
   - Towards a Unified View of Preference Learning for Large Language Models: A Survey
 
 
-### Post Train（和COT，RL有交集）
-- Inference Scaling
-  - An Empirical Analysis of Compute-Optimal Inference for Problem-Solving with Language Models
-  - Are More LM Calls All You Need? Towards the Scaling Properties of Compound AI Systems
-  - Large Language Monkeys: Scaling Inference Compute with Repeated Sampling
-  - Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters   :star:
-  - Q*: Improving Multi-step Reasoning for LLMs with Deliberative Planning
-  - Planning In Natural Language Improves LLM Search For Code Generation
-  - ReST-MCTS∗ : LLM Self-Training via Process Reward Guided Tree Search
-  - AlphaZero-Like Tree-Search can Guide Large Language Model Decoding and Training
-  - Smaller, Weaker, Yet Better: Training LLM Reasoners via Compute-Optimal Sampling
-  - The Surprising Effectiveness of Test-Time Training for Abstract Reasoning
-  - Inference Scaling for Long-Context Retrieval Augmented Generation
-  - Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing
-  - InfAlign: Inference-aware language model alignment
-  - Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach
-  - What type of inference is planning?
-  - Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving
-- slow thinking COT
-  - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
-  - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
-  - A Comparative Study on Reasoning Patterns of OpenAI's o1 Model
-  - Imitate, Explore, and Self-Improve: A Reproduction Report on Slow-thinking Reasoning Systems
-  - Dualformer: Controllable Fast and Slow Thinking by Learning with Randomized Reasoning Traces
-  - Training Large Language Models to Reason in a Continuous Latent Space
-  - Beyond A∗ : Better Planning with Transformers via Search Dynamics Bootstrapping
-  - o1-Coder: an o1 Replication for Coding
-  - Scaling of Search and Learning: A Roadmap to Reproduce o1 from Reinforcement Learning Perspective
-  - Sky-T1: Train your own O1 preview model within $450
-  - Towards System 2 Reasoning in LLMs: Learning How to Think With Meta Chain-of-Thought
-  - rStar-Math: Small LLMs Can Master Math Reasoning with Self-Evolved Deep Thinking :star:
-  - Demystifying Long Chain-of-Thought Reasoning in LLMs
-  - Towards Large Reasoning Models: A Survey of Reinforced Reasoning with Large Language Models
-  - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
-  - CODEI/O: Condensing Reasoning Patterns via Code Input-Output Prediction
-  - Training Language Models to Reason Efficiently
-  - s1: Simple test-time scaling
-  - Inner Thinking Transformer: Leveraging Dynamic Depth Scaling to Foster Adaptive Internal Thinking
-  - ALPHAONE: Reasoning Models Thinking Slow and Fast at Test Time
-- O3 Related
-  - Competitive Programming with Large Reasoning Models
-- Memorize at Test Time
-  - Titans: Learning to Memorize at Test Time
-  - Learning to Reason from Feedback at Test-Time
-- RL COT原理
-  - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training
-  - Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs
-  - Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs
-  - All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
-- R1 Reprodce
-  - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
-  - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
-  - [Huggingface Open R1](https://huggingface.co/blog/open-r1/update-1)
-  - DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models
-  - Think Only When You Need with Large Hybrid-Reasoning Models
-- RL Agent 
-  - RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning
-  - ToolRL: Reward is All Tool Learning Needs
-  - ReTool: Reinforcement Learning for Strategic Tool Use in LLMs
-  - ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning
-  - [Improving Multi-Turn Tool Use with Reinforcement Learning](https://www.bespokelabs.ai/blog/improving-multi-turn-tool-use-with-reinforcement-learning)
-  - WebThinker: Empowering Large Reasoning Models with Deep Research Capability
-- 经验学习
-  - Welcome to the Era of Experience
-- RL 其他训练方式
-  - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
-  - REWARDBENCH 2: Advancing Reward Model Evaluation
 
 ### Memory
 > 脱离上文长度这个狭窄的视角重新看待模型记忆
