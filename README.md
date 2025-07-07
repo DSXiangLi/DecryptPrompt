@@ -65,6 +65,7 @@
 - [解密prompt系列53. 再谈大模型Memory](https://cloud.tencent.com/developer/article/2514545)
 - [解密prompt系列54.Context Cache代码示例和原理分析](https://cloud.tencent.com/developer/article/2522820)
 - [解密prompt系列55.Agent Memory的工程实现 - Mem0 & LlamaIndex](https://cloud.tencent.com/developer/article/2528447)
+- [解密prompt系列56. 智能体context管理 - 单智能体代码剖析](https://cloud.tencent.com/developer/article/2537040)
 
 ## 论文汇总
 ### paper List
@@ -768,6 +769,7 @@
   - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
 
 ### Other Prompt Engineer(prompt_engineer) 
+- Prompting_as_Scientific_Inquiry
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
 - In-Context Instruction Learning
 - LEARNING PERFORMANCE-IMPROVING CODE EDITS
