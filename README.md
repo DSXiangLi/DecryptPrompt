@@ -179,7 +179,6 @@
 - DeepSeek_R1  :star:
 - KIMI K1.5: SCALING REINFORCEMENT LEARNING WITH LLMS  :star:
 
-
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
     - 【zero-shot-COT】 Large Language Models are Zero-Shot Reasoners :star:
@@ -772,6 +771,7 @@
   - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
 
 ### Other Prompt Engineer(prompt_engineer) 
+- Why Prompt Design Matters and Works: A Complexity Analysis of Prompt Search Space in LLMs
 - Prompting_as_Scientific_Inquiry
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
 - In-Context Instruction Learning
