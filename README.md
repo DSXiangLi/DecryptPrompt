@@ -66,6 +66,7 @@
 - [解密prompt系列54.Context Cache代码示例和原理分析](https://cloud.tencent.com/developer/article/2522820)
 - [解密prompt系列55.Agent Memory的工程实现 - Mem0 & LlamaIndex](https://cloud.tencent.com/developer/article/2528447)
 - [解密prompt系列56. Agent context Engineering - 单智能体代码剖析](https://cloud.tencent.com/developer/article/2537040)
+- [​解密prompt系列57. Agent Context Engineering - 多智能体代码剖析](https://cloud.tencent.com/developer/article/2541926)
 
 ## 论文汇总
 ### paper List
@@ -135,6 +136,7 @@
   - DianJin-R1: Evaluating and Enhancing Financial Reasoning in Large Language Models
   - Think Only When You Need with Large Hybrid-Reasoning Models
   - Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties
+  - Skywork Open Reasoner 1 Technical Report
 - RL Agent 
   - RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning
   - ToolRL: Reward is All Tool Learning Needs
@@ -361,6 +363,7 @@
   - SCPO：SELF-CONSISTENCY PREFERENCE OPTIMIZATION
   - MONA: Myopic Optimization with Non-myopic Approval Can Mitigate Multi-step Reward Hacking
   - Optimizing Test-Time Compute via Meta Reinforcement Fine-Tuning
+  - Pre-Trained Policy Discriminators are General Reward Models
 - RL探究
   - UNDERSTANDING THE EFFECTS OF RLHF ON LLM GENERALISATION AND DIVERSITY
   - A LONG WAY TO GO: INVESTIGATING LENGTH CORRELATIONS IN RLHF
@@ -380,7 +383,7 @@
 - G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems
 - AGENT WORKFLOW MEMORY
 - KBLAM: KNOWLEDGE BASE AUGMENTED LANGUAGE MODEL
-
+- MIRIX: Multi-Agent Memory System for LLM-Based Agents
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
@@ -548,6 +551,7 @@
     - HedgeAgents: A Balanced-aware Multi-agent Financial Trading System
     - TIMERAG: BOOSTING LLM TIME SERIES FORECASTING VIA RETRIEVAL-AUGMENTED GENERATION
     - CausalStock: Deep End-to-end Causal Discovery for News-driven Stock Movement Prediction
+    - Can LLM-based Financial Investing Strategies Outperform the Market in Long Run?
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -771,6 +775,7 @@
   - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
 
 ### Other Prompt Engineer(prompt_engineer) 
+- PDL: A Declarative Prompt Programming Language
 - Why Prompt Design Matters and Works: A Complexity Analysis of Prompt Search Space in LLMs
 - Prompting_as_Scientific_Inquiry
 - Calibrate Before Use: Improving Few-Shot Performance of Language Models
