@@ -124,6 +124,7 @@
 - [STORM](https://storm.genie.stanford.edu/): 其实已经用了蛮久一直忘记放上来，对比千篇一律的大纲写作，整个流程更human的长文本写作方案
 
 ### 金融垂直领域
+- [FinGenius](http://fingenius.cn/):多Agent金融博弈系统，模拟市场参与者，预测市场走势
 - [妙想金融](http://ai.eastmoney.com/chat): 东方财富推出的大模型应用
 - [支小助](https://zhu.alipay.com/fin-research/)：增加思维框架匹配的大模型思考问答
 - [通义点金](https://tongyi.aliyun.com/dianjin?spm=5176.28508143.J_XmGx2FZCDAeIy2ZCWL7sW.246.c9a8154aKQ0r96&scm=20140722.S_product@@%E4%BA%91%E4%BA%A7%E5%93%81@@999977._.RL_%E7%82%B9%E9%87%91-LOC_topbar~UND~product-OR_ser-V_3-RE_productNew-P0_0#/)：通义千文也推出了研报阅读和个股问答模块
