@@ -152,6 +152,10 @@
   - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
   - REWARDBENCH 2: Advancing Reward Model Evaluation
 
+### Context Engineer
+- A Survey of Context Engineering for Large Language Models
+
+
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
 - PaLM: Scaling Language Modeling with Pathways
