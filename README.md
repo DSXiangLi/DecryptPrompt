@@ -67,6 +67,7 @@
 - [解密prompt系列55.Agent Memory的工程实现 - Mem0 & LlamaIndex](https://cloud.tencent.com/developer/article/2528447)
 - [解密prompt系列56. Agent context Engineering - 单智能体代码剖析](https://cloud.tencent.com/developer/article/2537040)
 - [​解密prompt系列57. Agent Context Engineering - 多智能体代码剖析](https://cloud.tencent.com/developer/article/2541926)
+- [解密prompt系列58. MCP - 工具演变 & MCP基础](https://cloud.tencent.com/developer/article/2549927)
 
 ## 论文汇总
 ### paper List
@@ -124,6 +125,7 @@
 - Memorize at Test Time
   - Titans: Learning to Memorize at Test Time
   - Learning to Reason from Feedback at Test-Time
+  - Deep Researcher with Test-Time Diffusion
 - RL COT原理
   - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training
   - Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs
@@ -552,6 +554,7 @@
     - TIMERAG: BOOSTING LLM TIME SERIES FORECASTING VIA RETRIEVAL-AUGMENTED GENERATION
     - CausalStock: Deep End-to-end Causal Discovery for News-driven Stock Movement Prediction
     - Can LLM-based Financial Investing Strategies Outperform the Market in Long Run?
+    - Advancing Financial Engineering with Foundation Models: Progress, Applications, and Challenges
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -574,6 +577,7 @@
     - The Dawn of GUI Agent: A Preliminary Case Study with Claude 3.5 Computer Use
     - UI-TARS: Pioneering Automated GUI Interaction with Native Agents
     - Exposing Limitations of Language Model Agents in Sequential-Task Compositions on the Web
+    - WebSailor: Navigating Super-human Reasoning for Web Agent
   - software engineer
    - Agents in Software Engineering: Survey, Landscape, and Vision
    - ChatDev: Communicative Agents for Software Development
@@ -583,6 +587,7 @@
     - Agent Laboratory: Using LLM Agents as Research Assistants
     - Automated Hypothesis Validation with Agentic Sequential Falsifications
     - Towards an AI co-scientist
+    - AI4Research: A Survey of Artificial Intelligence for Scientific Research
   - 其他
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -652,6 +657,7 @@
   - ARMAP: SCALING AUTONOMOUS AGENTS VIA AUTOMATIC REWARD MODELING AND PLANNING
   - Search-R1: Training LLMs to Reason and Leverage Search Engines with Reinforcement Learning
   - Contextual Experience Replay for Continual Learning of Language Agents
+  - TaskCraft: Automated Generation of Agentic Tasks
 - MCP
   - SCALEMCP: DYNAMIC AND AUTO-SYNCHRONIZING MODEL CONTEXT PROTOCOL TOOLS FOR LLM AGENTS
 - 其他
