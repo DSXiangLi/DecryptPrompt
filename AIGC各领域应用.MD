@@ -1,6 +1,13 @@
 ### 自主智能体的尝试
 - [How Claude 3.7 Plays Pokémon](https://www.latent.space/p/how-claude-plays-pokemon-was-made)
 
+### 自主智能体
+- [Genspark](https://www.genspark.ai/)： 毫无疑问第一梯队，表格智能体很惊艳
+- [天工Skywork](https://www.tiangong.cn/): 也更上了word、excel、ppt的多模态智能体
+- [MANUS](https://manus.im/): 引领最新UI设计的Autonomous Agent
+- [context.ai](https://www.context.ai/):哈和天工很像的国外智能体
+- [coze space](https://space.coze.cn/): 和各领域公司开始联合发力做一些垂直领域智能体
+- [flowith](https://flowith.io/):原来是做流程图式工作流的现在也开始卷超长无休止的自主智能体
 
 ### AI设备
 ### AI 手机
@@ -9,11 +16,10 @@
 - [Olafriend](https://www.woshipm.com/evaluating/6134764.html): 大力台灯之后字节再入局硬件
 - [IFLYBUDS](https://www.iflybuds.com/v2/#/portal): 讯飞智能录音耳机
 
-### 研究智能
+### Deep Research
 > 这个领域其实很多都不算是研究智能，只能算是RAG的Agent版本，Deep Search而非Deep Research，需要大家仔细鉴别，个人体验Grok和Perplexity当前的版本都够不上研究级别
 - [Co-Scientist](https://research.google/blog/accelerating-scientific-breakthroughs-with-an-ai-co-scientist/?utm_source=ai-bot.cn): Google推出的科研助手，多智能体编排给出周密假设检验
 - [DeepResearch](https://openai.com/index/introducing-deep-research/): OpenAi推出的Deep Research，以O1训练思维链的方式训练的Agent行为链，长异步工作流收集、鉴别信息
-- [MANUS](https://manus.im/): 胜在UI设计的Autonomous Agent
 - [Data Science Agent in Colab: The future of data analysis with Gemini](https://developers.googleblog.com/en/data-science-agent-in-colab-with-gemini/): Google Colab里面可以免费使用Datascientist Agent了，对数据分析比较初级的领域有一些挑战
 - [Harvey.ai](https://www.harvey.ai/products/assistant)
 
