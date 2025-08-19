@@ -68,6 +68,7 @@
 - [解密prompt系列56. Agent context Engineering - 单智能体代码剖析](https://cloud.tencent.com/developer/article/2537040)
 - [​解密prompt系列57. Agent Context Engineering - 多智能体代码剖析](https://cloud.tencent.com/developer/article/2541926)
 - [解密prompt系列58. MCP - 工具演变 & MCP基础](https://cloud.tencent.com/developer/article/2549927)
+- [解密prompt系列59. MCP实战：从Low-Level到FastMCP的搭建演进](https://cloud.tencent.com/developer/article/2554794)
 
 ## 论文汇总
 ### paper List
@@ -269,6 +270,7 @@
    - V-STaR: Training Verifiers for Self-Taught Reasoners
    - THINK BEFORE YOU SPEAK: TRAINING LANGUAGE MODELS WITH PAUSE TOKENS
    - SELF-DIRECTED SYNTHETIC DIALOGUES AND REVISIONS TECHNICAL REPORT
+   - COT-SELF-INSTRUCT: BUILDING HIGH-QUALITY SYNTHETIC PROMPTS FOR REASONING AND NON-REASONING TASKS
 - others
     - OlaGPT Empowering LLMs With Human-like Problem-Solving abilities
     - Challenging BIG-Bench tasks and whether chain-of-thought can solve them 
@@ -582,6 +584,8 @@
     - UI-TARS: Pioneering Automated GUI Interaction with Native Agents
     - Exposing Limitations of Language Model Agents in Sequential-Task Compositions on the Web
     - WebSailor: Navigating Super-human Reasoning for Web Agent
+    - WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization
+    - WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent
   - software engineer
    - Agents in Software Engineering: Survey, Landscape, and Vision
    - ChatDev: Communicative Agents for Software Development
@@ -1220,7 +1224,7 @@
   - Capabilities of GPT-4 on Medical Challenge Problems
   - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 - Understanding LLM Embeddings for Regression
-
+- Persona Vectors: Monitoring and Controlling Character Traits in Language Models
 
 ### Prompt Tunning范式
 - Tunning Free Prompt
