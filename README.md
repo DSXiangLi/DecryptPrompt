@@ -669,6 +669,7 @@
   - TaskCraft: Automated Generation of Agentic Tasks
 - MCP
   - SCALEMCP: DYNAMIC AND AUTO-SYNCHRONIZING MODEL CONTEXT PROTOCOL TOOLS FOR LLM AGENTS
+  - LIVEMCP-101: STRESS TESTING AND DIAGNOSING MCP-ENABLED AGENTS ON CHALLENGING QUERIES
 - 其他
   - LLM+P: Empowering Large Language Models with Optimal Planning Proficiency
   - Inference with Reference: Lossless Acceleration of Large Language Models
