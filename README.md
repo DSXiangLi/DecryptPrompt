@@ -393,6 +393,8 @@
 - KBLAM: KNOWLEDGE BASE AUGMENTED LANGUAGE MODEL
 - MIRIX: Multi-Agent Memory System for LLM-Based Agents
 - M3-Agent: Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory
+- MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations
+- Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
