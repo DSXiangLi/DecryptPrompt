@@ -63,12 +63,13 @@
 - [解密prompt系列51. R1实验的一些细节讨论](https://cloud.tencent.com/developer/article/2506684)
 - [解密prompt系列52. 闲聊大模型还有什么值得探索的领域](https://cloud.tencent.com/developer/article/2510004)
 - [解密prompt系列53. 再谈大模型Memory](https://cloud.tencent.com/developer/article/2514545)
-- [解密prompt系列54.Context Cache代码示例和原理分析](https://cloud.tencent.com/developer/article/2522820)
-- [解密prompt系列55.Agent Memory的工程实现 - Mem0 & LlamaIndex](https://cloud.tencent.com/developer/article/2528447)
+- [解密prompt系列54. Context Cache代码示例和原理分析](https://cloud.tencent.com/developer/article/2522820)
+- [解密prompt系列55. Agent Memory的工程实现 - Mem0 & LlamaIndex](https://cloud.tencent.com/developer/article/2528447)
 - [解密prompt系列56. Agent context Engineering - 单智能体代码剖析](https://cloud.tencent.com/developer/article/2537040)
 - [​解密prompt系列57. Agent Context Engineering - 多智能体代码剖析](https://cloud.tencent.com/developer/article/2541926)
 - [解密prompt系列58. MCP - 工具演变 & MCP基础](https://cloud.tencent.com/developer/article/2549927)
 - [解密prompt系列59. MCP实战：从Low-Level到FastMCP的搭建演进](https://cloud.tencent.com/developer/article/2554794)
+- [​解密prompt系列60. Agent实战：从0搭建Jupter数据分析智能体](https://cloud.tencent.com/developer/article/2563549)
 
 ## 论文汇总
 ### paper List
