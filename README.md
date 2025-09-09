@@ -148,6 +148,7 @@
   - ReSearch: Learning to Reason with Search for LLMs via Reinforcement Learning
   - [Improving Multi-Turn Tool Use with Reinforcement Learning](https://www.bespokelabs.ai/blog/improving-multi-turn-tool-use-with-reinforcement-learning)
   - WebThinker: Empowering Large Reasoning Models with Deep Research Capability
+  - Reinforcement Learning for Machine Learning Engineering Agents
 - 经验学习
   - Welcome to the Era of Experience
 - RL 其他训练方式
@@ -536,6 +537,7 @@
     - TaskWeaver: A Code-First Agent Framework
     - Automated Social Science: Language Models as Scientist and Subjects
     - Data Interpreter: An LLM Agent For Data Science
+    - FDABench: A Benchmark for Data Agents on Analytical Queries over Heterogeneous Data
   - 金融
     - WeaverBird: Empowering Financial Decision-Making with Large Language Model, Knowledge Base, and Search Engine
     - FinGPT: Open-Source Financial Large Language Models
@@ -679,6 +681,7 @@
   - RecallM: An Architecture for Temporal Context Understanding and Question Answering
   - LLaMA Rider: Spurring Large Language Models to Explore the Open World
   - LLMs Can’t Plan, But Can Help Planning in LLM-Modulo Frameworks
+  - Routine: A Structural Planning Framework for LLM Agent System in Enterprise
 - Custom Agent
   - Creating General User Models from Computer Use
 
@@ -1036,6 +1039,7 @@
   - A Survey on Hallucination in Large Language Models: Principles, Taxonomy, Challenges, and Open Questions
   - Calibrated Language Models Must Hallucinate
   - Why Does ChatGPT Fall Short in Providing Truthful Answers?
+  - Why Language Models Hallucinate
 - Prompt or Tunning
   - R-Tuning: Teaching Large Language Models to Refuse Unknown Questions
   - PROMPTING GPT-3 TO BE RELIABLE
