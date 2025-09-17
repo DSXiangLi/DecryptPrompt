@@ -149,6 +149,9 @@
   - [Improving Multi-Turn Tool Use with Reinforcement Learning](https://www.bespokelabs.ai/blog/improving-multi-turn-tool-use-with-reinforcement-learning)
   - WebThinker: Empowering Large Reasoning Models with Deep Research Capability
   - Reinforcement Learning for Machine Learning Engineering Agents
+  - AgentGym-RL: Training LLM Agents for Long-Horizon Decision Making through Multi-Turn Reinforcement Learning
+  - rStar2-Agent: Agentic Reasoning Technical Report
+  - The Landscape of Agentic Reinforcement Learning for LLMs: A Survey
 - 经验学习
   - Welcome to the Era of Experience
 - RL 其他训练方式
@@ -397,6 +400,12 @@
 - M3-Agent: Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory
 - MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations
 - Memory-R1: Enhancing Large Language Model Agents to Manage and Utilize Memories via Reinforcement Learning
+- Multiple Memory Systems for Enhancing the Long-term Memory of Agent
+- PerPilot: Personalizing VLM-based Mobile Agents via Memory and Exploration
+- Coarse-to-Fine Grounded Memory for LLM Agent Planning
+- Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory
+- Memp: Exploring Agent Procedural Memory
+- RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
@@ -567,6 +576,7 @@
     - CausalStock: Deep End-to-end Causal Discovery for News-driven Stock Movement Prediction
     - Can LLM-based Financial Investing Strategies Outperform the Market in Long Run?
     - Advancing Financial Engineering with Foundation Models: Progress, Applications, and Challenges
+    - AlphaAgents: Large Language Model based Multi-Agents for Equity Portfolio Constructions
   - 生物医疗
     - GeneGPT: Augmenting Large Language Models with Domain Tools for Improved Access to Biomedical Information
     - ChemCrow Augmenting large language models with chemistry tools
@@ -829,7 +839,7 @@
 - Does Prompt Formatting Have Any Impact on LLM Performance?
 - AUTO-DEMO PROMPTING: LEVERAGING GENERATED OUTPUTS AS DEMONSTRATIONS FOR ENHANCED BATCH PROMPTING
 - PROMPTBREEDER: SELF-REFERENTIAL SELF-IMPROVEMENT VIA PROMPT EVOLUTION
-
+- Psychologically Enhanced AI Agents
 
 ### 大模型图表理解和生成
 - survey
@@ -992,6 +1002,7 @@
   - With Greater Text Comes Greater Necessity: Inference-Time Training Helps Long Text Generation
 - 评估
   - NOLIMA: Long-Context Evaluation Beyond Literal Matching
+  - The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs
 
 ### LLM长文本生成（long_output）
 - Re3 : Generating Longer Stories With Recursive Reprompting and Revision
