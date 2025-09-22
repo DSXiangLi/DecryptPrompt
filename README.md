@@ -157,6 +157,9 @@
 - RL 其他训练方式
   - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
   - REWARDBENCH 2: Advancing Reward Model Evaluation
+  - Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision
+- RL  Overview
+  - Reinforcement Learning: An Overview
 
 ### Context Engineer
 - A Survey of Context Engineering for Large Language Models
@@ -612,6 +615,9 @@
     - Automated Hypothesis Validation with Agentic Sequential Falsifications
     - Towards an AI co-scientist
     - AI4Research: A Survey of Artificial Intelligence for Scientific Research
+  - 设计
+    - PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs
+    - Paper2Poster: Towards Multimodal Poster Automation from Scientific Papers
   - 其他
     - WebShop: Towards Scalable Real-World Web Interaction with Grounded Language Agents
     - ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings
@@ -994,6 +1000,7 @@
   - Make Your LLM Fully Utilize the Context
   - Untie the Knots: An Efficient Data Augmentation Strategy for Long-Context Pre-Training in Language Models
   - LIFT: Improving Long Context Understanding of Large Language Models through Long Input Fine-Tuning
+  - REFRAG: Rethinking RAG based Decoding
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
@@ -1114,7 +1121,11 @@
   - Rethinking Benchmark and Contamination for Language Models with Rephrased Samples
 - 通用评估
   - G-EVAL: NLG Evaluation using GPT-4 with Better Human Alignment
-
+- 工具调用评估
+  - ToolRM: Outcome Reward Models for Tool-Calling Large Language Models
+- Agent 评估
+  - SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?
+  - ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering
 ### 推理优化(inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
 - Fast Inference from Transformers via Speculative Decoding
