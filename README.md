@@ -811,7 +811,8 @@
 - fast rag
   - MINIRAG: TOWARDS EXTREMELY SIMPLE RETRIEVAL-AUGMENTED GENERATION
   - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
-
+- Deep Research
+  - Deep Researcher with Test-Time Diffusion
 ### Other Prompt Engineer(prompt_engineer) 
 - PDL: A Declarative Prompt Programming Language
 - Why Prompt Design Matters and Works: A Complexity Analysis of Prompt Search Space in LLMs
