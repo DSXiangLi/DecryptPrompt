@@ -158,6 +158,7 @@
   - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
   - REWARDBENCH 2: Advancing Reward Model Evaluation
   - Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision
+
 - RL  Overview
   - Reinforcement Learning: An Overview
 
@@ -536,6 +537,7 @@
   - AgentOhana: Design Unified Data and Training Pipeline for Effective Agent Learning
   - Agent Lumos: Unified and Modular Training for Open-Source Language Agents
   - ToolGen: Unified Tool Retrieval and Calling via Generation
+  - Scaling Agents via Continual Pre-training
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
