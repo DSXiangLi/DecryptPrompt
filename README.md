@@ -410,6 +410,8 @@
 - Intrinsic Memory Agents: Heterogeneous Multi-Agent LLM Systems through Structured Contextual Memory
 - Memp: Exploring Agent Procedural Memory
 - RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory
+- A-MEM: Agentic Memory for LLM Agents
+- MemoryBank: Enhancing Large Language Models with Long-Term Memory
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
