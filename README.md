@@ -70,6 +70,7 @@
 - [解密prompt系列58. MCP - 工具演变 & MCP基础](https://cloud.tencent.com/developer/article/2549927)
 - [解密prompt系列59. MCP实战：从Low-Level到FastMCP的搭建演进](https://cloud.tencent.com/developer/article/2554794)
 - [​解密prompt系列60. Agent实战：从0搭建Jupter数据分析智能体](https://cloud.tencent.com/developer/article/2563549)
+- [​解密prompt系列61. 手搓代码沙箱与FastAPI-MCP实战](https://cloud.tencent.com/developer/article/2570796)
 
 ## 论文汇总
 ### paper List
@@ -196,6 +197,7 @@
 - Mixtral of Experts
 - DeepSeek_R1  :star:
 - KIMI K1.5: SCALING REINFORCEMENT LEARNING WITH LLMS  :star:
+- CWM: An Open-Weights LLM for Research on Code Generation with World Models
 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
@@ -540,6 +542,7 @@
   - Agent Lumos: Unified and Modular Training for Open-Source Language Agents
   - ToolGen: Unified Tool Retrieval and Calling via Generation
   - Scaling Agents via Continual Pre-training
+  - LIMI: Less is More for Agency
 - 调用模型方案
   - HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in HuggingFace
   - Gorilla：Large Language Model Connected with Massive APIs  :star:
