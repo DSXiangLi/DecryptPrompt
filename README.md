@@ -159,10 +159,9 @@
   - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
   - REWARDBENCH 2: Advancing Reward Model Evaluation
   - Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision
-
 - RL  Overview
   - Reinforcement Learning: An Overview
-
+  - Towards a Unified View of Large Language Model Post-Training
 ### Context Engineer
 - A Survey of Context Engineering for Large Language Models
 
@@ -414,6 +413,8 @@
 - RCR-Router: Efficient Role-Aware Context Routing for Multi-Agent LLM Systems with Structured Memory
 - A-MEM: Agentic Memory for LLM Agents
 - MemoryBank: Enhancing Large Language Models with Long-Term Memory
+- Metacognitive Reuse: Turning Recurring LLM Reasoning Into Concise Behaviors
+- Cognitive Architectures for Language Agents
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
@@ -1334,4 +1335,4 @@
 - Learnware: Small Models Do Big
 - The economic potential of generative AI
 - A PhD Student’s Perspective on Research in NLP in the Era of Very Large Language Models
-
+- How People Use ChatGPT
