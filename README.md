@@ -1141,6 +1141,9 @@
 - Agent 评估
   - SWE-Bench Pro: Can AI Agents Solve Long-Horizon Software Engineering Tasks?
   - ALE-Bench: A Benchmark for Long-Horizon Objective-Driven Algorithm Engineering
+  - FinSearchComp: Towards a Realistic, Expert-Level Evaluation of Financial Search and Reasoning
+  - Supporting Our AI Overlords: Redesigning Data Systems to be Agent-First
+
 ### 推理优化(inference)
 - Fast Transformer Decoding: One Write-Head is All You Need
 - Fast Inference from Transformers via Speculative Decoding
