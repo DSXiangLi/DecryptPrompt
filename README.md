@@ -102,6 +102,8 @@
   - Scaling up Test-Time Compute with Latent Reasoning: A Recurrent Depth Approach
   - What type of inference is planning?
   - Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving
+  - PROVABLE SCALING LAWS OF FEATURE EMERGENCE FROM LEARNING DYNAMICS OF GROKKING
+  - Do Machine Learning Models Memorize or Generalize?
 - slow thinking COT
   - O1 Replication Journey: A Strategic Progress Report – Part 1  :star:
   - Marco-o1: Towards Open Reasoning Models for Open-Ended Solutions
@@ -159,9 +161,12 @@
   - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
   - REWARDBENCH 2: Advancing Reward Model Evaluation
   - Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision
+  - DiffusionNFT: Online Diffusion Reinforcement with Forward Process
 - RL  Overview
   - Reinforcement Learning: An Overview
   - Towards a Unified View of Large Language Model Post-Training
+
+
 ### Context Engineer
 - A Survey of Context Engineering for Large Language Models
 
@@ -197,6 +202,7 @@
 - DeepSeek_R1  :star:
 - KIMI K1.5: SCALING REINFORCEMENT LEARNING WITH LLMS  :star:
 - CWM: An Open-Weights LLM for Research on Code Generation with World Models
+- DeepSeek V3.2 Tech Report
 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
