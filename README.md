@@ -155,6 +155,7 @@
   - AgentGym-RL: Training LLM Agents for Long-Horizon Decision Making through Multi-Turn Reinforcement Learning
   - rStar2-Agent: Agentic Reasoning Technical Report
   - The Landscape of Agentic Reinforcement Learning for LLMs: A Survey
+  - IN-THE-FLOW AGENTIC SYSTEM OPTIMIZATION FOR EFFECTIVE PLANNING AND TOOL USE
 - 经验学习
   - Welcome to the Era of Experience
 - RL 其他训练方式
@@ -162,6 +163,8 @@
   - REWARDBENCH 2: Advancing Reward Model Evaluation
   - Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision
   - DiffusionNFT: Online Diffusion Reinforcement with Forward Process
+  - EVOLUTION STRATEGIES AT SCALE: LLM FINETUNING BEYOND REINFORCEMENT LEARNING
+  - Learning to Reason Across Parallel Samples for LLM Reasoning
 - RL  Overview
   - Reinforcement Learning: An Overview
   - Towards a Unified View of Large Language Model Post-Training
@@ -203,6 +206,7 @@
 - KIMI K1.5: SCALING REINFORCEMENT LEARNING WITH LLMS  :star:
 - CWM: An Open-Weights LLM for Research on Code Generation with World Models
 - DeepSeek V3.2 Tech Report
+- Less is More: Recursive Reasoning with Tiny Networks
 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
