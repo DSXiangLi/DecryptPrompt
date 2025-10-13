@@ -156,8 +156,10 @@
   - rStar2-Agent: Agentic Reasoning Technical Report
   - The Landscape of Agentic Reinforcement Learning for LLMs: A Survey
   - IN-THE-FLOW AGENTIC SYSTEM OPTIMIZATION FOR EFFECTIVE PLANNING AND TOOL USE
+  - Watch and Learn: Learning to Use Computers from Online Videos
 - 经验学习
   - Welcome to the Era of Experience
+  - Agent Learning via Early Experience
 - RL 其他训练方式
   - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
   - REWARDBENCH 2: Advancing Reward Model Evaluation
@@ -165,6 +167,7 @@
   - DiffusionNFT: Online Diffusion Reinforcement with Forward Process
   - EVOLUTION STRATEGIES AT SCALE: LLM FINETUNING BEYOND REINFORCEMENT LEARNING
   - Learning to Reason Across Parallel Samples for LLM Reasoning
+  - PARAM∆ FOR DIRECT WEIGHT MIXING: POST-TRAIN LARGE LANGUAGE MODEL AT ZERO COST 
 - RL  Overview
   - Reinforcement Learning: An Overview
   - Towards a Unified View of Large Language Model Post-Training
@@ -172,7 +175,7 @@
 
 ### Context Engineer
 - A Survey of Context Engineering for Large Language Models
-
+- Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -402,8 +405,6 @@
   - Language Models Resist Alignment
   - Towards a Unified View of Preference Learning for Large Language Models: A Survey
 
-
-
 ### Memory
 > 脱离上文长度这个狭窄的视角重新看待模型记忆
 - A-MEM: Agentic Memory for LLM Agents
@@ -425,6 +426,7 @@
 - MemoryBank: Enhancing Large Language Models with Long-Term Memory
 - Metacognitive Reuse: Turning Recurring LLM Reasoning Into Concise Behaviors
 - Cognitive Architectures for Language Agents
+- Reason ingBank: Scaling Agent Self-Evolving with Reasoning Memory
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
@@ -665,6 +667,7 @@
   - Generative Agent Simulations of 1,000 People
   - Advanced Reasoning and Learning for Autonomous AI Agents
   - Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies
+  - Emergent Coordination in Multi-Agent Language Models
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
@@ -831,6 +834,8 @@
   - EasyRAG: Efficient Retrieval-Augmented Generation Framework for Automated Network Operations
 - Deep Research
   - Deep Researcher with Test-Time Diffusion
+
+
 ### Other Prompt Engineer(prompt_engineer) 
 - PDL: A Declarative Prompt Programming Language
 - Why Prompt Design Matters and Works: A Complexity Analysis of Prompt Search Space in LLMs
@@ -1254,6 +1259,7 @@
   - Trained Transformers Learn Linear Models In-Context
   - In-Context Learning Creates Task Vectors
   - FUNCTION VECTORS IN LARGE LANGUAGE MODELS
+  - Learning without training: The implicit dynamics of in-context learning
 - 涌现能力
   - Sparks of Artificial General Intelligence: Early experiments with GPT-4
   - Emerging Ability of Large Language Models :star:
