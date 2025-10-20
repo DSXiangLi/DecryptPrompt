@@ -71,6 +71,7 @@
 - [解密prompt系列59. MCP实战：从Low-Level到FastMCP的搭建演进](https://cloud.tencent.com/developer/article/2554794)
 - [​解密prompt系列60. Agent实战：从0搭建Jupter数据分析智能体](https://cloud.tencent.com/developer/article/2563549)
 - [​解密prompt系列61. 手搓代码沙箱与FastAPI-MCP实战](https://cloud.tencent.com/developer/article/2570796)
+- [​解密prompt系列62. Agent Memory新视角 - MATTS&CFGM&MIRIX](https://cloud.tencent.com/developer/article/2577365)
 
 ## 论文汇总
 ### paper List
@@ -157,6 +158,7 @@
   - The Landscape of Agentic Reinforcement Learning for LLMs: A Survey
   - IN-THE-FLOW AGENTIC SYSTEM OPTIMIZATION FOR EFFECTIVE PLANNING AND TOOL USE
   - Watch and Learn: Learning to Use Computers from Online Videos
+  - UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning
 - 经验学习
   - Welcome to the Era of Experience
   - Agent Learning via Early Experience
@@ -168,6 +170,7 @@
   - EVOLUTION STRATEGIES AT SCALE: LLM FINETUNING BEYOND REINFORCEMENT LEARNING
   - Learning to Reason Across Parallel Samples for LLM Reasoning
   - PARAM∆ FOR DIRECT WEIGHT MIXING: POST-TRAIN LARGE LANGUAGE MODEL AT ZERO COST 
+  - LaSeR: Reinforcement Learning with Last-Token Self-Rewarding
 - RL  Overview
   - Reinforcement Learning: An Overview
   - Towards a Unified View of Large Language Model Post-Training
@@ -668,6 +671,7 @@
   - Advanced Reasoning and Learning for Autonomous AI Agents
   - Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies
   - Emergent Coordination in Multi-Agent Language Models
+  - TUMIX: Multi-Agent Test-Time Scaling with Tool-Use Mixture
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
