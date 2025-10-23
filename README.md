@@ -159,6 +159,8 @@
   - IN-THE-FLOW AGENTIC SYSTEM OPTIMIZATION FOR EFFECTIVE PLANNING AND TOOL USE
   - Watch and Learn: Learning to Use Computers from Online Videos
   - UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning
+  - PokeeResearch: Effective Deep Research via Reinforcement Learning from AI Feedback and Robust Reasoning Scaffold
+  - DeepAnalyze: Agentic Large Language Models for Autonomous Data Science
 - 经验学习
   - Welcome to the Era of Experience
   - Agent Learning via Early Experience
@@ -874,6 +876,7 @@
 - AUTO-DEMO PROMPTING: LEVERAGING GENERATED OUTPUTS AS DEMONSTRATIONS FOR ENHANCED BATCH PROMPTING
 - PROMPTBREEDER: SELF-REFERENTIAL SELF-IMPROVEMENT VIA PROMPT EVOLUTION
 - Psychologically Enhanced AI Agents
+- Attentive Reasoning Queries: A Systematic Method for Optimizing Instruction-Following in Large Language Models
 
 ### 大模型图表理解和生成
 - survey
@@ -1225,6 +1228,7 @@
   - Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
   - Large OCR Model:An Empirical Study of Scaling Law for OCR
   - ON THE HIDDEN MYSTERY OF OCR IN LARGE MULTIMODAL MODELS
+  - DeepSeek-OCR: Contexts Optical Compression
 - PreFLMR: Scaling Up Fine-Grained Late-Interaction Multi-modal Retrievers
 - Many-Shot In-Context Learning in Multimodal Foundation Models
 - Adding Conditional Control to Text-to-Image Diffusion Models
@@ -1288,6 +1292,7 @@
   - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
 - Understanding LLM Embeddings for Regression
 - Persona Vectors: Monitoring and Controlling Character Traits in Language Models
+- [When Models Manipulate Manifolds: The Geometry of a Counting Task](https://transformer-circuits.pub/2025/linebreaks/index.html)
 
 ### Prompt Tunning范式
 - Tunning Free Prompt
