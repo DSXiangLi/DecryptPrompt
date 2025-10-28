@@ -432,6 +432,7 @@
 - Metacognitive Reuse: Turning Recurring LLM Reasoning Into Concise Behaviors
 - Cognitive Architectures for Language Agents
 - Reason ingBank: Scaling Agent Self-Evolving with Reasoning Memory
+- LIGHTMEM: LIGHTWEIGHT AND EFFICIENT MEMORY-AUGMENTED GENERATION
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
@@ -1268,6 +1269,8 @@
   - In-Context Learning Creates Task Vectors
   - FUNCTION VECTORS IN LARGE LANGUAGE MODELS
   - Learning without training: The implicit dynamics of in-context learning
+  - LANGUAGE MODELS ARE INJECTIVE AND HENCE INVERTIBLE
+
 - 涌现能力
   - Sparks of Artificial General Intelligence: Early experiments with GPT-4
   - Emerging Ability of Large Language Models :star:
