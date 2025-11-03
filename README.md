@@ -72,6 +72,7 @@
 - [​解密prompt系列60. Agent实战：从0搭建Jupter数据分析智能体](https://cloud.tencent.com/developer/article/2563549)
 - [​解密prompt系列61. 手搓代码沙箱与FastAPI-MCP实战](https://cloud.tencent.com/developer/article/2570796)
 - [​解密prompt系列62. Agent Memory新视角 - MATTS&CFGM&MIRIX](https://cloud.tencent.com/developer/article/2577365)
+- [解密prompt系列63. Agent训练方案: RStar2 & Early Experience etc](https://cloud.tencent.com/developer/article/2581959)
 
 ## 论文汇总
 ### paper List
@@ -878,6 +879,7 @@
 - PROMPTBREEDER: SELF-REFERENTIAL SELF-IMPROVEMENT VIA PROMPT EVOLUTION
 - Psychologically Enhanced AI Agents
 - Attentive Reasoning Queries: A Systematic Method for Optimizing Instruction-Following in Large Language Models
+- Deterministic AI Agent Personality Expression through Standard Psychological Diagnostics
 
 ### 大模型图表理解和生成
 - survey
