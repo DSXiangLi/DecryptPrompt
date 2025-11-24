@@ -73,6 +73,7 @@
 - [​解密prompt系列61. 手搓代码沙箱与FastAPI-MCP实战](https://cloud.tencent.com/developer/article/2570796)
 - [​解密prompt系列62. Agent Memory新视角 - MATTS&CFGM&MIRIX](https://cloud.tencent.com/developer/article/2577365)
 - [解密prompt系列63. Agent训练方案: RStar2 & Early Experience etc](https://cloud.tencent.com/developer/article/2581959)
+- [解密Prompt系列64. Anthropic Skils的延伸思考](https://cloud.tencent.com/developer/article/2586667)
 
 ## 论文汇总
 ### paper List
@@ -138,6 +139,7 @@
   - Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs
   - Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs
   - All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
+  - Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?
 - R1 Reprodce
   - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
   - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
@@ -158,7 +160,6 @@
   - rStar2-Agent: Agentic Reasoning Technical Report
   - The Landscape of Agentic Reinforcement Learning for LLMs: A Survey
   - IN-THE-FLOW AGENTIC SYSTEM OPTIMIZATION FOR EFFECTIVE PLANNING AND TOOL USE
-  - Watch and Learn: Learning to Use Computers from Online Videos
   - UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning
   - PokeeResearch: Effective Deep Research via Reinforcement Learning from AI Feedback and Robust Reasoning Scaffold
   - DeepAnalyze: Agentic Large Language Models for Autonomous Data Science
@@ -174,14 +175,18 @@
   - Learning to Reason Across Parallel Samples for LLM Reasoning
   - PARAM∆ FOR DIRECT WEIGHT MIXING: POST-TRAIN LARGE LANGUAGE MODEL AT ZERO COST 
   - LaSeR: Reinforcement Learning with Last-Token Self-Rewarding
+  - The Delta Learning Hypothesis: Preference Tuning on Weak Data can Yield Strong Gains
+  - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
 - RL  Overview
   - Reinforcement Learning: An Overview
   - Towards a Unified View of Large Language Model Post-Training
-
+- RL数据集
+  - ReasonMed: A 370K Multi-Agent Generated Dataset for Advancing Medical Reasoning
 
 ### Context Engineer
 - A Survey of Context Engineering for Large Language Models
 - Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models
+
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -434,6 +439,7 @@
 - Cognitive Architectures for Language Agents
 - Reason ingBank: Scaling Agent Self-Evolving with Reasoning Memory
 - LIGHTMEM: LIGHTWEIGHT AND EFFICIENT MEMORY-AUGMENTED GENERATION
+- Nested Learning: The Illusion of Deep Learning Architectures
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
@@ -632,6 +638,10 @@
     - WebSailor: Navigating Super-human Reasoning for Web Agent
     - WebShaper: Agentically Data Synthesizing via Information-Seeking Formalization
     - WebWatcher: Breaking New Frontiers of Vision-Language Deep Research Agent
+    - OS-Genesis: Automating GUI Agent Trajectory Construction via Reverse Task Synthesis
+    - Scalable Video-to-Dataset Generation for Cross-Platform Mobile Agents
+    - Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents
+    - Watch and Learn: Learning to Use Computers from Online Videos
   - software engineer
    - Agents in Software Engineering: Survey, Landscape, and Vision
    - ChatDev: Communicative Agents for Software Development
@@ -642,6 +652,7 @@
     - Automated Hypothesis Validation with Agentic Sequential Falsifications
     - Towards an AI co-scientist
     - AI4Research: A Survey of Artificial Intelligence for Scientific Research
+    - Kosmos: An AI Scientist for Autonomous Discovery
   - 设计
     - PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs
     - Paper2Poster: Towards Multimodal Poster Automation from Scientific Papers
@@ -676,10 +687,12 @@
   - Multi-Agent Design: Optimizing Agents with Better Prompts and Topologies
   - Emergent Coordination in Multi-Agent Language Models
   - TUMIX: Multi-Agent Test-Time Scaling with Tool-Use Mixture
+  - SOLVING A MILLION-STEP LLM TASK WITH ZERO ERRORS
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
     - Magentic-One: A Generalist Multi-Agent System for Solving Complex Tasks 
+    - Assemble Your Crew: Automatic Multi-agent Communication Topology Design via Autoregressive Graph Generation
  - 任务型智能体协作
     - METAAGENTS: SIMULATING INTERACTIONS OF HUMAN BEHAVIORS FOR LLM-BASED TASK-ORIENTED COORDINATION VIA COLLABORATIVE
     - CAMEL: Communicative Agents for "Mind" Exploration of Large Scale Language Model Society  :star:
@@ -802,6 +815,8 @@
   - BGE Landmark Embedding: A Chunking-Free Embedding Method For Retrieval Augmented Long-Context Large Language Models
   - D2LLM: Decomposed and Distilled Large Language Models for Semantic Search
   - Piccolo2: General Text Embedding with Multi-task Hybrid Loss Training
+  - UniSearch: Rethinking Search System with a Unified Generative Architecture
+  - UniDex: Rethinking Search Inverted Indexing with Unified Semantic Modeling
 - 优化推理结果
   - Speculative RAG: Enhancing Retrieval Augmented Generation through Drafting
 - 动态RAG（When to Search & Search Plan）
@@ -1272,7 +1287,6 @@
   - FUNCTION VECTORS IN LARGE LANGUAGE MODELS
   - Learning without training: The implicit dynamics of in-context learning
   - LANGUAGE MODELS ARE INJECTIVE AND HENCE INVERTIBLE
-
 - 涌现能力
   - Sparks of Artificial General Intelligence: Early experiments with GPT-4
   - Emerging Ability of Large Language Models :star:
@@ -1295,10 +1309,11 @@
 - 领域能力
   - Capabilities of GPT-4 on Medical Challenge Problems
   - Can Generalist Foundation Models Outcompete Special-Purpose Tuning? Case Study in Medicine
-- Understanding LLM Embeddings for Regression
-- Persona Vectors: Monitoring and Controlling Character Traits in Language Models
-- [When Models Manipulate Manifolds: The Geometry of a Counting Task](https://transformer-circuits.pub/2025/linebreaks/index.html)
-
+  - Persona Vectors: Monitoring and Controlling Character Traits in Language Models
+- 可解释性
+  - Understanding LLM Embeddings for Regression
+  - [When Models Manipulate Manifolds: The Geometry of a Counting Task](https://transformer-circuits.pub/2025/linebreaks/index.html)
+  - Weight-sparse transformers have interpretable circuits
 ### Prompt Tunning范式
 - Tunning Free Prompt
   - GPT2: Language Models are Unsupervised Multitask Learners
