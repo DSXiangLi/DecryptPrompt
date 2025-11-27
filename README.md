@@ -148,6 +148,7 @@
   - Think Only When You Need with Large Hybrid-Reasoning Models
   - Topology of Reasoning: Understanding Large Reasoning Models through Reasoning Graph Properties
   - Skywork Open Reasoner 1 Technical Report
+  - Learning to Reason: Training LLMs with GPT-OSS or DeepSeek R1 Reasoning Traces
 - RL Agent 
   - RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning
   - ToolRL: Reward is All Tool Learning Needs
@@ -176,7 +177,6 @@
   - PARAM∆ FOR DIRECT WEIGHT MIXING: POST-TRAIN LARGE LANGUAGE MODEL AT ZERO COST 
   - LaSeR: Reinforcement Learning with Last-Token Self-Rewarding
   - The Delta Learning Hypothesis: Preference Tuning on Weak Data can Yield Strong Gains
-  - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
 - RL  Overview
   - Reinforcement Learning: An Overview
   - Towards a Unified View of Large Language Model Post-Training
@@ -187,6 +187,11 @@
 - A Survey of Context Engineering for Large Language Models
 - Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models
 
+### New Model Architecture
+- SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
+- Less is More: Recursive Reasoning with Tiny Networks
+- Continuous Thought Machines
+- TiDAR: Think in Diffusion, Talk in Autoregression
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -220,7 +225,6 @@
 - KIMI K1.5: SCALING REINFORCEMENT LEARNING WITH LLMS  :star:
 - CWM: An Open-Weights LLM for Research on Code Generation with World Models
 - DeepSeek V3.2 Tech Report
-- Less is More: Recursive Reasoning with Tiny Networks
 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
@@ -285,6 +289,7 @@
    - Do Large Language Models Perform Latent Multi-Hop Reasoning without Exploiting Shortcuts?
    - Compressed Chain of Thought: Efficient Reasoning Through Dense Representations
    - Do LLMs Really Think Step-by-step In Implicit Reasoning?
+   - Cognitive Foundations for Reasoning and Their Manifestation in LLMs
 - 小模型COT蒸馏
     - Specializing Smaller Language Models towards Multi-Step Reasoning   :star:
     - Teaching Small Language Models to Reason 
@@ -642,6 +647,7 @@
     - Scalable Video-to-Dataset Generation for Cross-Platform Mobile Agents
     - Explorer: Scaling Exploration-driven Web Trajectory Synthesis for Multimodal Web Agents
     - Watch and Learn: Learning to Use Computers from Online Videos
+    - Fara-7B: An Efficient Agentic Model for Computer Use
   - software engineer
    - Agents in Software Engineering: Survey, Landscape, and Vision
    - ChatDev: Communicative Agents for Software Development
@@ -653,6 +659,7 @@
     - Towards an AI co-scientist
     - AI4Research: A Survey of Artificial Intelligence for Scientific Research
     - Kosmos: An AI Scientist for Autonomous Discovery
+    - Knowledge-Informed Automatic Feature Extraction via Collaborative Large Language Model Agents
   - 设计
     - PosterGen: Aesthetic-Aware Paper-to-Poster Generation via Multi-Agent LLMs
     - Paper2Poster: Towards Multimodal Poster Automation from Scientific Papers
@@ -688,6 +695,7 @@
   - Emergent Coordination in Multi-Agent Language Models
   - TUMIX: Multi-Agent Test-Time Scaling with Tool-Use Mixture
   - SOLVING A MILLION-STEP LLM TASK WITH ZERO ERRORS
+  - Latent Collaboration in Multi-Agent Systems
   - 多智能体系统
     - Internet of Agents: Weaving a Web of Heterogeneous Agents for Collaborative Intelligence 
     - MULTI-AGENT COLLABORATION: HARNESSING THE POWER OF INTELLIGENT LLM AGENTS
@@ -1314,6 +1322,7 @@
   - Understanding LLM Embeddings for Regression
   - [When Models Manipulate Manifolds: The Geometry of a Counting Task](https://transformer-circuits.pub/2025/linebreaks/index.html)
   - Weight-sparse transformers have interpretable circuits
+ 
 ### Prompt Tunning范式
 - Tunning Free Prompt
   - GPT2: Language Models are Unsupervised Multitask Learners
