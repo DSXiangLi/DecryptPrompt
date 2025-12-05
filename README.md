@@ -74,6 +74,7 @@
 - [​解密prompt系列62. Agent Memory新视角 - MATTS&CFGM&MIRIX](https://cloud.tencent.com/developer/article/2577365)
 - [解密prompt系列63. Agent训练方案: RStar2 & Early Experience etc](https://cloud.tencent.com/developer/article/2581959)
 - [解密Prompt系列64. Anthropic Skils的延伸思考](https://cloud.tencent.com/developer/article/2586667)
+- [解密Prompt系列65. 三巨头关于大模型内景的硬核论文](https://cloud.tencent.com/developer/article/2594738) 
 
 ## 论文汇总
 ### paper List
@@ -130,10 +131,6 @@
   - ALPHAONE: Reasoning Models Thinking Slow and Fast at Test Time
 - O3 Related
   - Competitive Programming with Large Reasoning Models
-- Memorize at Test Time
-  - Titans: Learning to Memorize at Test Time
-  - Learning to Reason from Feedback at Test-Time
-  - Deep Researcher with Test-Time Diffusion
 - RL COT原理
   - SFT Memorizes, RL Generalizes: A Comparative Study of Foundation Model Post-training
   - Cognitive Behaviors that Enable Self-Improving Reasoners, or, Four Habits of Highly Effective STaRs
@@ -164,10 +161,11 @@
   - UI-TARS-2 Technical Report: Advancing GUI Agent with Multi-Turn Reinforcement Learning
   - PokeeResearch: Effective Deep Research via Reinforcement Learning from AI Feedback and Robust Reasoning Scaffold
   - DeepAnalyze: Agentic Large Language Models for Autonomous Data Science
+  - Thinking with Programming Vision: Towards a Unified View for Thinking with Images
 - 经验学习
   - Welcome to the Era of Experience
   - Agent Learning via Early Experience
-- RL 其他训练方式
+- 其他训练方式
   - QWENLONG-L1: Towards Long-Context Large Reasoning Models with Reinforcement Learning
   - REWARDBENCH 2: Advancing Reward Model Evaluation
   - Compute as Teacher: Turning Inference Compute Into Reference-Free Supervision
@@ -186,12 +184,14 @@
 ### Context Engineer
 - A Survey of Context Engineering for Large Language Models
 - Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models
+- Scaling Long-Horizon LLM Agent via Context-Folding
 
 ### New Model Architecture
 - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
 - Less is More: Recursive Reasoning with Tiny Networks
 - Continuous Thought Machines
 - TiDAR: Think in Diffusion, Talk in Autoregression
+- Nested Learning: The Illusion of Deep Learning Architectures
 
 ### 主流LLMS和预训练
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
@@ -225,6 +225,7 @@
 - KIMI K1.5: SCALING REINFORCEMENT LEARNING WITH LLMS  :star:
 - CWM: An Open-Weights LLM for Research on Code Generation with World Models
 - DeepSeek V3.2 Tech Report
+- DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models
 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
@@ -322,6 +323,8 @@
 - [Alpha Evolve](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
 - Can Large Reasoning Models Self-Train
 - Unsupervised Post-Training for Multi-Modal LLM Reasoning via GRPO
+- Evolution Strategies at the Hyperscale
+- Guided Self-Evolving LLMs with Minimal Human Supervision
 
 ### RLHF
 - Deepmind
@@ -444,7 +447,10 @@
 - Cognitive Architectures for Language Agents
 - Reason ingBank: Scaling Agent Self-Evolving with Reasoning Memory
 - LIGHTMEM: LIGHTWEIGHT AND EFFICIENT MEMORY-AUGMENTED GENERATION
-- Nested Learning: The Illusion of Deep Learning Architectures
+- Titans: Learning to Memorize at Test Time
+- Learning to Reason from Feedback at Test-Time
+- Deep Researcher with Test-Time Diffusion
+- It’s All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
@@ -1067,7 +1073,8 @@
 - 评估
   - NOLIMA: Long-Context Evaluation Beyond Literal Matching
   - The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs
-
+- 原理分析
+  - Retrieval Head Mechanistically Explains Long-Context Factuality
 ### LLM长文本生成（long_output）
 - Re3 : Generating Longer Stories With Recursive Reprompting and Revision
 - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
@@ -1238,6 +1245,7 @@
 
 ### Multimodal
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
+- BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
 - LLava Visual Instruction Tuning
 - MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models
@@ -1260,8 +1268,14 @@
 - Adding Conditional Control to Text-to-Image Diffusion Models
 - Ferret-UI: Grounded Mobile UI Understanding with Multimodal LLMs
 - ShowUI: One Vision-Language-Action Model for GUI Visual Agent
-
-
+- Flamingo: a Visual Language Model for Few-Shot Learning
+- Segment Anything
+- Monkey : Image Resolution and Text Label Are Important Things for Large Multi-modal Models
+- Learning Transferable Visual Models From Natural Language Supervision
+- AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE
+- Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond
+- InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks
+- Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
 ### 综述
 - A Survey of Large Language Models
 - Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
