@@ -75,6 +75,7 @@
 - [解密prompt系列63. Agent训练方案: RStar2 & Early Experience etc](https://cloud.tencent.com/developer/article/2581959)
 - [解密Prompt系列64. Anthropic Skils的延伸思考](https://cloud.tencent.com/developer/article/2586667)
 - [解密Prompt系列65. 三巨头关于大模型内景的硬核论文](https://cloud.tencent.com/developer/article/2594738) 
+- [解密Prompt系列66. 视觉Token爆炸→DeepSeek-OCR光学压缩](https://cloud.tencent.com/developer/article/2600104)
 
 ## 论文汇总
 ### paper List
@@ -185,6 +186,7 @@
 - A Survey of Context Engineering for Large Language Models
 - Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models
 - Scaling Long-Horizon LLM Agent via Context-Folding
+- Towards a Science of Scaling Agent Systems
 
 ### New Model Architecture
 - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
@@ -934,6 +936,8 @@
   - Tables as Texts or Images: Evaluating the Table Reasoning Ability of LLMs and MLLMs
   - TableVQA-Bench: A Visual Question Answering Benchmark on Multiple Table Domains
   - TabPedia: Towards Comprehensive Visual Table Understanding with Concept Synergy
+- generative UI
+  - Generative UI: LLMs are Effective UI Generators
 
 ### LLM+KG
 - 综述类
@@ -1168,6 +1172,8 @@
   - Zero-shot Faithful Factual Error Correction
   - LARGE LANGUAGE MODELS CANNOT SELF-CORRECT REASONING YET
   - Training Language Models to Self-Correct via Reinforcement Learning
+- Training LLMs for Honesty via Confessions
+
 
 ### 大模型评估（evaluation）
 - 事实性评估
@@ -1273,9 +1279,12 @@
 - Monkey : Image Resolution and Text Label Are Important Things for Large Multi-modal Models
 - Learning Transferable Visual Models From Natural Language Supervision
 - AN IMAGE IS WORTH 16X16 WORDS: TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE
-- Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond
-- InternVL: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks
+- InternVL1: Scaling up Vision Foundation Models and Aligning for Generic Visual-Linguistic Tasks
 - Vary: Scaling up the Vision Vocabulary for Large Vision-Language Models
+- InternVL1.5： How Far Are We to GPT-4V? Closing the Gap to Commercial Multimodal Models with Open-Source Suites
+- Qwen-VL: A Versatile Vision-Language Model for Understanding, Localization, Text Reading, and Beyond
+- Qwen2-VL: Enhancing Vision-Language Model's Perception of the World at Any Resolution
+
 ### 综述
 - A Survey of Large Language Models
 - Pre-train, Prompt, and Predict: A Systematic Survey of Prompting Methods in Natural Language Processing :star:
