@@ -187,6 +187,7 @@
 - Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models
 - Scaling Long-Horizon LLM Agent via Context-Folding
 - Towards a Science of Scaling Agent Systems
+- Budget-Aware Tool-Use Enables Effective Agent Scaling
 
 ### New Model Architecture
 - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
