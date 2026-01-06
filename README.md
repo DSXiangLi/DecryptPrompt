@@ -76,6 +76,7 @@
 - [解密Prompt系列64. Anthropic Skils的延伸思考](https://cloud.tencent.com/developer/article/2586667)
 - [解密Prompt系列65. 三巨头关于大模型内景的硬核论文](https://cloud.tencent.com/developer/article/2594738) 
 - [解密Prompt系列66. 视觉Token爆炸→DeepSeek-OCR光学压缩](https://cloud.tencent.com/developer/article/2600104)
+- [解密Prompt系列67. 智能体的经济学：从架构选型到工具预算](https://cloud.tencent.com/developer/article/2610869)
 
 ## 论文汇总
 ### paper List
@@ -163,6 +164,7 @@
   - PokeeResearch: Effective Deep Research via Reinforcement Learning from AI Feedback and Robust Reasoning Scaffold
   - DeepAnalyze: Agentic Large Language Models for Autonomous Data Science
   - Thinking with Programming Vision: Towards a Unified View for Thinking with Images
+  - Scaling Agent Learning via Experience Synthesis
 - 经验学习
   - Welcome to the Era of Experience
   - Agent Learning via Early Experience
@@ -188,6 +190,7 @@
 - Scaling Long-Horizon LLM Agent via Context-Folding
 - Towards a Science of Scaling Agent Systems
 - Budget-Aware Tool-Use Enables Effective Agent Scaling
+- Context Engineering 2.0
 
 ### New Model Architecture
 - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
@@ -689,6 +692,7 @@
   - ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems
   - Agent-as-a-Judge: Evaluate Agents with Agents
 - MultiAgent
+  - An Empirical Study of Agent Developer Practices in AI Agent Frameworks
    - GENERATIVE AGENTS
   - LET MODELS SPEAK CIPHERS: MULTIAGENT DEBATE THROUGH EMBEDDINGS
   - War and Peace (WarAgent): Large Language Model-based Multi-Agent Simulation of World Wars
@@ -1080,6 +1084,7 @@
   - The Illusion of Diminishing Returns: Measuring Long Horizon Execution in LLMs
 - 原理分析
   - Retrieval Head Mechanistically Explains Long-Context Factuality
+
 ### LLM长文本生成（long_output）
 - Re3 : Generating Longer Stories With Recursive Reprompting and Revision
 - RECURRENTGPT: Interactive Generation of (Arbitrarily) Long Text 
@@ -1100,6 +1105,7 @@
   - A comprehensive evaluation of ChatGPT’s zero-shot Text-to-SQL capability
   - Few-shot Text-to-SQL Translation using Structure and Content Prompt Learning
   - Tool-Assisted Agent on SQL Inspection and Refinement in Real-World Scenarios
+  - Agentar-Scale-SQL: Advancing Text-to-SQL through Orchestrated Test-Time Scaling
 - Domain Knowledge Intensive
   - Towards Knowledge-Intensive Text-to-SQL Semantic Parsing with Formulaic Knowledge
   - Bridging the Generalization Gap in Text-to-SQL Parsing with Schema Expansion
