@@ -77,6 +77,7 @@
 - [解密Prompt系列65. 三巨头关于大模型内景的硬核论文](https://cloud.tencent.com/developer/article/2594738) 
 - [解密Prompt系列66. 视觉Token爆炸→DeepSeek-OCR光学压缩](https://cloud.tencent.com/developer/article/2600104)
 - [解密Prompt系列67. 智能体的经济学：从架构选型到工具预算](https://cloud.tencent.com/developer/article/2610869)
+- [解密Prompt系列68. 告别逐词蹦字 - Transformer 的新推理范式](https://cloud.tencent.com/developer/article/2616180)
 
 ## 论文汇总
 ### paper List
@@ -165,6 +166,7 @@
   - DeepAnalyze: Agentic Large Language Models for Autonomous Data Science
   - Thinking with Programming Vision: Towards a Unified View for Thinking with Images
   - Scaling Agent Learning via Experience Synthesis
+  - CaveAgent: Transforming LLMs into Stateful Runtime Operators
 - 经验学习
   - Welcome to the Era of Experience
   - Agent Learning via Early Experience
@@ -191,6 +193,7 @@
 - Towards a Science of Scaling Agent Systems
 - Budget-Aware Tool-Use Enables Effective Agent Scaling
 - Context Engineering 2.0
+- End-to-End Test-Time Training for Long Context
 
 ### New Model Architecture
 - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
@@ -457,6 +460,7 @@
 - Learning to Reason from Feedback at Test-Time
 - Deep Researcher with Test-Time Diffusion
 - It’s All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization
+- Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
