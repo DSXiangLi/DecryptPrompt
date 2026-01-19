@@ -461,6 +461,7 @@
 - Deep Researcher with Test-Time Diffusion
 - It’s All Connected: A Journey Through Test-Time Memorization, Attentional Bias, Retention, and Online Optimization
 - Agentic Memory: Learning Unified Long-Term and Short-Term Memory Management for Large Language Model Agents
+- MEMRL: SELF-EVOLVING AGENTS VIA RUNTIME REINFORCEMENT LEARNING ON EPISODIC MEMORY
 
 ### 多轮对话
 >- 近期我们也陷入多轮对话优化，发现了角色混乱、理解下降等很多问题 
