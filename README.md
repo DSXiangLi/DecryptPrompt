@@ -90,6 +90,12 @@
 - https://github.com/khuangaf/Awesome-Chart-Understanding
 - https://github.com/srush/awesome-o1/?tab=readme-ov-file
 
+### 图像生成
+- Neural Discrete Representation Learning
+- Denoising Diffusion Probabilistic Models
+- Scalable Diffusion Models with Transformers
+- Photorealistic Text-to-Image Diffusion Models with Deep Language Understanding
+- High-Resolution Image Synthesis with Latent Diffusion Models
 
 ### Post Train（和COT，RL有交集）
 - Inference Scaling
@@ -140,6 +146,7 @@
   - Thoughts Are All Over the Place: On the Underthinking of o1-Like LLMs
   - All Roads Lead to Likelihood: The Value of Reinforcement Learning in Fine-Tuning
   - Does Reinforcement Learning Really Incentivize Reasoning Capacity in LLMs Beyond the Base Model?
+  - Think Deep, Not Just Long:Measuring LLM Reasoning Effort via Deep-Thinking Tokens
 - R1 Reprodce
   - LogicRL: Logic-RL: Unleashing LLM Reasoning with Rule-Based Reinforcement Learning
   - [SimpleR1](https://hkust-nlp.notion.site/simplerl-reason)
