@@ -81,6 +81,8 @@
 
 ## 和AI一起搞事情
 - [和AI一起搞事情#1: opencode ×browser-use实战复盘](https://cloud.tencent.com/developer/user/6190096)
+- [和AI一起搞事情#2：边剥龙虾&边做个中医方剂技能](https://cloud.tencent.com/developer/article/2642702)
+- [和AI一起搞事情#3：Claude Teammate 开发中医游戏翻车了](https://cloud.tencent.com/developer/article/2650411)
 
 ## 论文汇总
 ### paper List
@@ -205,6 +207,9 @@
 - Context Engineering 2.0
 - End-to-End Test-Time Training for Long Context
 - Single-Agent LLMs Outperform Multi-Agent Systems on Multi-Hop Reasoning Under Equal Thinking Token Budgets
+- Building Effective AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned
+- Meta-Harness End-to-End Optimization of Model Harnesses
+- The-Complete-Guide-to-Building-Skill-for-Claude
 
 ### New Model Architecture
 - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
