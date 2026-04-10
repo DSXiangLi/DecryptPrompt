@@ -79,6 +79,9 @@
 - [解密Prompt系列67. 智能体的经济学：从架构选型到工具预算](https://cloud.tencent.com/developer/article/2610869)
 - [解密Prompt系列68. 告别逐词蹦字 - Transformer 的新推理范式](https://cloud.tencent.com/developer/article/2616180)
 
+## 和AI一起搞事情
+- [和AI一起搞事情#1: opencode ×browser-use实战复盘](https://cloud.tencent.com/developer/user/6190096)
+
 ## 论文汇总
 ### paper List
 - https://github.com/dongguanting/In-Context-Learning_PaperList
@@ -201,6 +204,7 @@
 - Budget-Aware Tool-Use Enables Effective Agent Scaling
 - Context Engineering 2.0
 - End-to-End Test-Time Training for Long Context
+- Single-Agent LLMs Outperform Multi-Agent Systems on Multi-Hop Reasoning Under Equal Thinking Token Budgets
 
 ### New Model Architecture
 - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
@@ -242,7 +246,7 @@
 - CWM: An Open-Weights LLM for Research on Code Generation with World Models
 - DeepSeek V3.2 Tech Report
 - DeepSeek-V3.2: Pushing the Frontier of Open Large Language Models
-
+- 
 ### 思维链 (prompt_chain_of_thought)
 - 基础&进阶用法
     - 【zero-shot-COT】 Large Language Models are Zero-Shot Reasoners :star:
