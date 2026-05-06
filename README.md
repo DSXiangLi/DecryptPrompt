@@ -1444,3 +1444,4 @@
 - The economic potential of generative AI
 - A PhD Student’s Perspective on Research in NLP in the Era of Very Large Language Models
 - How People Use ChatGPT
+- [BenchGecko](https://benchgecko.ai/zh/) - 全面的AI模型基准评测平台，覆盖128个评估基准，支持跨供应商价格对比和AI经济追踪。
