@@ -96,6 +96,7 @@
 - [Lumina](https://lumina.sh/c5bbe32b-4fb7-476a-81aa-fe269f67f283):  据说搜索相关性比google好5倍的开源论文搜索+AI摘要总结
 - [SCISPACE](https://typeset.io/): 论文研究的白月光，融合了全库搜索问答，以及个人上传PDF构建知识库问答。同样支持相关论文发现，和论文划词解读。并且解读内容可以保存到notebook中方便后续查找，可以说是产品和算法强强联合了。
 - [OpenAlex](https://openalex.org/works?page=1&filter=default.search%3ALLM%20long%20input%20): 提供更友好的API论文访问
+- [AImodels.fyi](https://aimodels.fyi)
 - [Emergent Mind](https://www.emergentmind.com/): 更好的提问式检索效果和RAG问答
 - [ELICIT](https://elicit.com/): 和SCISPACE相似，支持一键生成论文relatied work
 - [Consensus](https://consensus.app/search/): AI加持的论文搜素，多论文总结，观点对比工具。产品排名巨高，但个人感觉搜索做的有提升空间
