@@ -187,6 +187,7 @@
 - [Youtube Summarized](https://app.youtubesummarized.com/): Youtube视频一键总结，分段总结更好，更能直接产出访谈稿件
 - [NoteGPT](https://notegpt.io/): Youtube视频一键总结，支持更结构化的脑图和亮点总结
 - [Eightify](https://eightify.app/zh): chrome插件，节省观看长视频的时间，立即获取关键思想，分模块总结+时间戳摘要
+- [Summarizer.tube](https://summarizer.tube): Youtube视频一键总结，要点自带可点击时间戳，自动字幕也能读，覆盖50+种语言；另有免登录的字幕提取工具
 - [BibiGPT](https://github.com/JimmyLv/BibiGPT): Bilibli视频内容一键总结，多模态文档 
 
 ### 代码copilot & BI工具
