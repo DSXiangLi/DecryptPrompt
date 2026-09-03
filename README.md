@@ -199,6 +199,7 @@
   - ReasonMed: A 370K Multi-Agent Generated Dataset for Advancing Medical Reasoning
 
 ### Context Engineer
+- Lost in Compaction
 - A Survey of Context Engineering for Large Language Models
 - Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models
 - Scaling Long-Horizon LLM Agent via Context-Folding
@@ -211,7 +212,22 @@
 - Meta-Harness End-to-End Optimization of Model Harnesses
 - The-Complete-Guide-to-Building-Skill-for-Claude
 
+### Harness
+- LoopArena
+- SKILL.state: Scalable Long-Horizon Agent Skills
+- A Programming Paradigm for Spatiotemporal Composability
+- AutoSaddler: Automatic Harness Optimization
+- Meta Harness
+- Loop Engineering: The Anthropic Playbook
+
+### Skill Evolution
+- WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution
+- SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
+- SkillOS: Learning Skill Curation for Self-Evolving Agents
+- Evolution Strategies for Skill Learning
+
 ### New Model Architecture
+- Nemotron-Labs-Diffusion: A Tri-Mode Language Model
 - SPG: Sandwiched Policy Gradient for Masked Diffusion Language Models
 - Less is More: Recursive Reasoning with Tiny Networks
 - Continuous Thought Machines
@@ -219,6 +235,7 @@
 - Nested Learning: The Illusion of Deep Learning Architectures
 
 ### 主流LLMS和预训练
+- Kimi K2
 - GLM-130B: AN OPEN BILINGUAL PRE-TRAINED MODEL
 - PaLM: Scaling Language Modeling with Pathways
 - PaLM 2 Technical Report
@@ -1278,6 +1295,7 @@
 - Efficient Large Scale Language Modeling with Mixtures of Experts
 
 ### Multimodal
+- Image Generators are Generalist Vision Learners
 - InstructBLIP: Towards General-purpose Vision-Language Models with Instruction Tuning
 - BLIP-2: Bootstrapping Language-Image Pre-training with Frozen Image Encoders and Large Language Models
 - Visual ChatGPT: Talking, Drawing and Editing with Visual Foundation Models
