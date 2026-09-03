@@ -78,22 +78,35 @@
 - [解密Prompt系列66. 视觉Token爆炸→DeepSeek-OCR光学压缩](https://cloud.tencent.com/developer/article/2600104)
 - [解密Prompt系列67. 智能体的经济学：从架构选型到工具预算](https://cloud.tencent.com/developer/article/2610869)
 - [解密Prompt系列68. 告别逐词蹦字 - Transformer 的新推理范式](https://cloud.tencent.com/developer/article/2616180)
+- [解密Prompt系列69. 从上下文管理到Runtime操作系统](https://cloud.tencent.com/developer/article/2626232)
+- [解密Prompt系列70. 从 MLA 到 CSA，聊聊大模型 Attention 的“瘦身”与“闪送”](https://cloud.tencent.com/developer/article/2699614)
+- [解密Prompt系列71. 从DSpark聊聊大模型 Decoding 提速的技术演化](https://cloud.tencent.com/developer/article/2716046)
+- [解密Prompt系列72. 多模态大模型进化史：从"翻译官"到"原生双语大脑"](https://cloud.tencent.com/developer/article/2730799)
 
 ## 和AI一起搞事情
 - [和AI一起搞事情#1: opencode ×browser-use实战复盘](https://cloud.tencent.com/developer/user/6190096)
 - [和AI一起搞事情#2：边剥龙虾&边做个中医方剂技能](https://cloud.tencent.com/developer/article/2642702)
 - [和AI一起搞事情#3：Claude Teammate 开发中医游戏翻车了](https://cloud.tencent.com/developer/article/2650411)
+- [和AI一起搞事情#4. 小白用claude code做游戏究竟能踩多少坑](https://cloud.tencent.com/developer/article/2657050)
+- [和AI一起搞事情#5：技能进阶与Claude Design初体验](https://cloud.tencent.com/developer/article/2664349)
+- [和AI一起搞事情#6. 如何实现Lovart元素编辑？](https://cloud.tencent.com/developer/article/2673064)
+- [和AI一起搞事情#7. 给游戏NPC接入Hermes？](https://cloud.tencent.com/developer/article/2685619)
 
 ## 论文汇总
-### paper List
-- https://github.com/dongguanting/In-Context-Learning_PaperList
-- https://github.com/thunlp/PromptPapers
-- https://github.com/Timothyxxx/Chain-of-ThoughtsPapers
-- https://github.com/thunlp/ToolLearningPapers
-- https://github.com/MLGroupJLU/LLM-eval-survey
-- https://github.com/thu-coai/PaperForONLG
-- https://github.com/khuangaf/Awesome-Chart-Understanding
-- https://github.com/srush/awesome-o1/?tab=readme-ov-file
+
+### Harness
+- LoopArena
+- SKILL.state: Scalable Long-Horizon Agent Skills
+- A Programming Paradigm for Spatiotemporal Composability
+- AutoSaddler: Automatic Harness Optimization
+- Meta Harness
+- Loop Engineering: The Anthropic Playbook
+
+### Skill Evolution
+- WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution
+- SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
+- SkillOS: Learning Skill Curation for Self-Evolving Agents
+- Evolution Strategies for Skill Learning
 
 ### 图像生成
 - Neural Discrete Representation Learning
@@ -211,20 +224,6 @@
 - Building Effective AI Coding Agents for the Terminal: Scaffolding, Harness, Context Engineering, and Lessons Learned
 - Meta-Harness End-to-End Optimization of Model Harnesses
 - The-Complete-Guide-to-Building-Skill-for-Claude
-
-### Harness
-- LoopArena
-- SKILL.state: Scalable Long-Horizon Agent Skills
-- A Programming Paradigm for Spatiotemporal Composability
-- AutoSaddler: Automatic Harness Optimization
-- Meta Harness
-- Loop Engineering: The Anthropic Playbook
-
-### Skill Evolution
-- WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution
-- SKILL0: In-Context Agentic Reinforcement Learning for Skill Internalization
-- SkillOS: Learning Skill Curation for Self-Evolving Agents
-- Evolution Strategies for Skill Learning
 
 ### New Model Architecture
 - Nemotron-Labs-Diffusion: A Tri-Mode Language Model
