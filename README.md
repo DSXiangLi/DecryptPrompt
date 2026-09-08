@@ -91,6 +91,8 @@
 - [和AI一起搞事情#5：技能进阶与Claude Design初体验](https://cloud.tencent.com/developer/article/2664349)
 - [和AI一起搞事情#6. 如何实现Lovart元素编辑？](https://cloud.tencent.com/developer/article/2673064)
 - [和AI一起搞事情#7. 给游戏NPC接入Hermes？](https://cloud.tencent.com/developer/article/2685619)
+- [和AI一起搞事情#8. 分析1000+对话得到：技能炼金术](https://cloud.tencent.com/developer/article/2738789)
+
 
 ## 论文汇总
 
