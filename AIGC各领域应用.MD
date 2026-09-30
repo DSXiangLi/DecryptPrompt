@@ -133,6 +133,7 @@
 - [ChatExcel](https://chatexcel.com/convert): 指令控制excel计算，对熟悉excel的有些鸡肋，对不熟悉的有点用  
 - [mindShow](https://www.mindshow.fun/#/folder/slides)：免费+付费的PPT制作工具，自定义PPT模板还不够好
 - [STORM](https://storm.genie.stanford.edu/): 其实已经用了蛮久一直忘记放上来，对比千篇一律的大纲写作，整个流程更human的长文本写作方案
+- [kdpbook.io](https://kdpbook.io): 面向亚马逊KDP的AI图书工作室，在对话里描述一本书或导入自己的书稿，自动完成写作、插图和排版，导出KDP所需的内页PDF、全包封面PDF、Kindle EPUB和上架信息表，覆盖绘本、涂色书、小说、非虚构等36种图书类型
 
 ### 金融垂直领域
 - [FinGenius](http://fingenius.cn/):多Agent金融博弈系统，模拟市场参与者，预测市场走势
