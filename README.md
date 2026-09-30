@@ -8,6 +8,7 @@
 - [开源SFT，RLHF，Pretrain 数据集](开源数据.MD)
 - [AIGC各领域应用汇总](AIGC各领域应用.MD)
 - [Prompt教程，经典博客和AI会议访谈](教程博客会议.MD)
+- [推荐Skills工具合集](推荐SKILLS.MD)
 
 ## 跟着博客读论文
 - [解密Prompt系列1. Tunning-Free Prompt：GPT2 & GPT3 & LAMA & AutoPrompt](https://cloud.tencent.com/developer/article/2215545?areaSource=&traceId=)
@@ -97,6 +98,8 @@
 ## 论文汇总
 
 ### Harness
+- Agensh: Scaling Organizational Intelligence to 1,024 Agents
+- Procedural Graphs: Self-Evolving Execution Structures for LLM Agents
 - LoopArena
 - SKILL.state: Scalable Long-Horizon Agent Skills
 - A Programming Paradigm for Spatiotemporal Composability
@@ -362,6 +365,7 @@
     - Two Failures of Self-Consistency in the Multi-Step Reasoning of LLMs
 
 ### Self-Evolution
+- Recursive Self-Improvement via On-Policy Distillation for Reasoning
 - Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents
 - [Alpha Evolve](https://deepmind.google/discover/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/)
 - Can Large Reasoning Models Self-Train
@@ -469,6 +473,7 @@
 
 ### Memory
 > 脱离上文长度这个狭窄的视角重新看待模型记忆
+- Jev-Mem: System-One-Controlled Agentic Memory for Efficient AI Agents
 - A-MEM: Agentic Memory for LLM Agents
 - MemInsight: Autonomous Memory Augmentation for LLM Agents
 - G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems
@@ -1065,6 +1070,7 @@
 
 ### LLM超长文本处理 (long_input)
 - 位置编码、注意力机制优化
+  - Language Models Can Control Their Own Attention
   - Unlimiformer: Long-Range Transformers with Unlimited Length Input
   - Parallel Context Windows for Large Language Models
   - [苏剑林, NBCE：使用朴素贝叶斯扩展LLM的Context处理长度](https://spaces.ac.cn/archives/9617) :star:
