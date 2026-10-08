@@ -134,6 +134,7 @@
 - [mindShow](https://www.mindshow.fun/#/folder/slides)：免费+付费的PPT制作工具，自定义PPT模板还不够好
 - [STORM](https://storm.genie.stanford.edu/): 其实已经用了蛮久一直忘记放上来，对比千篇一律的大纲写作，整个流程更human的长文本写作方案
 - [kdpbook.io](https://kdpbook.io): 面向亚马逊KDP的AI图书工作室，在对话里描述一本书或导入自己的书稿，自动完成写作、插图和排版，导出KDP所需的内页PDF、全包封面PDF、Kindle EPUB和上架信息表，覆盖绘本、涂色书、小说、非虚构等36种图书类型
+- [ImagineYourBook](https://www.imagineyourbook.com/): 面向长篇小说和书籍的AI写作平台，规划并写出完整书稿，可按作者文风续写或改写已有草稿，为系列作品维护故事设定集保证前后连贯，支持导出EPUB、Word和Markdown
 
 ### 金融垂直领域
 - [FinGenius](http://fingenius.cn/):多Agent金融博弈系统，模拟市场参与者，预测市场走势
