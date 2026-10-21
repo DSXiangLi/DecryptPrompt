@@ -93,7 +93,7 @@
 - [和AI一起搞事情#6. 如何实现Lovart元素编辑？](https://cloud.tencent.com/developer/article/2673064)
 - [和AI一起搞事情#7. 给游戏NPC接入Hermes？](https://cloud.tencent.com/developer/article/2685619)
 - [和AI一起搞事情#8. 分析1000+对话得到：技能炼金术](https://cloud.tencent.com/developer/article/2738789)
-
+- [和AI一起搞事情#9. Jev不就是个 JSON 分类器？我劝你把这篇看完再说](https://cloud.tencent.com/developer/article/2760646)
 
 ## 论文汇总
 
@@ -106,6 +106,10 @@
 - AutoSaddler: Automatic Harness Optimization
 - Meta Harness
 - Loop Engineering: The Anthropic Playbook
+- Agora: Git as Shared Memory for Collective AutoResearch
+- Hybrid Reasoning Agent
+- JevAgentHarness
+- The Agentic Scientist: Orchestrating Coding
 
 ### Skill Evolution
 - WikiSkill: Compiling Agent Experience into Persistent Knowledge for Skill Evolution
