@@ -244,6 +244,7 @@
 - [度加](https://aigc.baidu.com/works)：支持直接text2video，但质量比星火差很多，应该说是动态PPT的视频style，但一键生成确实很像，也支持进一步编辑和素材替换
 - [一帧秒创](https://aigc.yizhentv.com/home/app/): 支持图文转视频和数字人播报，个人体验比度加略弱
 - [Elai](https://app.elai.io/): 支持大纲直接生成数字人播报视频，免费试用只能制作几分钟
+- [pitchboom.io](https://pitchboom.io): 粘贴产品网址或两行简介，生成动态图形（motion design）视频广告：自动写脚本，生成可编辑、确认后才渲染的分镜，配音（34种语言）和配乐，输出1080p MP4，16:9、9:16、1:1、4:5、3:4 各画幅重新排版而非裁剪；注册即送500积分（无需绑卡），付费订阅每月30欧元起
 
 ### 音频生成
 - [GenFM](https://elevenlabs.io/blog/genfm-on-elevenreader)：商业化多语言AI播客
