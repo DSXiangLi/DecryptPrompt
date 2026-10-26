@@ -829,6 +829,7 @@
   - CHAIN-OF-NOTE: ENHANCING ROBUSTNESS IN RETRIEVAL-AUGMENTED LANGUAGE MODELS
   - RAFT: Adapting Language Model to Domain Specific RAG
   - Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence
+  - ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
 - 其他论文
   - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
   - PDFTriage: Question Answering over Long, Structured Documents
