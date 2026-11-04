@@ -201,6 +201,7 @@
   - Thinking with Programming Vision: Towards a Unified View for Thinking with Images
   - Scaling Agent Learning via Experience Synthesis
   - CaveAgent: Transforming LLMs into Stateful Runtime Operators
+  - Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction
 - 经验学习
   - Welcome to the Era of Experience
   - Agent Learning via Early Experience
@@ -830,6 +831,7 @@
   - RAFT: Adapting Language Model to Domain Specific RAG
   - Rich Knowledge Sources Bring Complex Knowledge Conflicts: Recalibrating Models to Reflect Conflicting Evidence
   - ParamMute: Suppressing Knowledge-Critical FFNs for Faithful Retrieval-Augmented Generation
+  - SPARK: Adaptive Parametric Knowledge Participation for Faithful Retrieval-Augmented Generation
 - 其他论文
   - Investigating the Factual Knowledge Boundary of Large Language Models with Retrieval Augmentation
   - PDFTriage: Question Answering over Long, Structured Documents
@@ -862,6 +864,7 @@
   - [Anthropic Contextual Retrieval](https://www.anthropic.com/news/contextual-retrieval)
   - Multi-Level Querying using A Knowledge Pyramid
   - A Survey of Query Optimization in Large Language Models
+  - ExpandR: Teaching Dense Retrievers Beyond Queries with LLM Guidance
 - Ranking
   - A Setwise Approach for Effective and Highly Efficient Zero-shot Ranking with Large Language Models
   - RankVicuna: Zero-Shot Listwise Document Reranking with Open-Source Large Language Models
@@ -1123,6 +1126,7 @@
   - Untie the Knots: An Efficient Data Augmentation Strategy for Long-Context Pre-Training in Language Models
   - LIFT: Improving Long Context Understanding of Large Language Models through Long Input Fine-Tuning
   - REFRAG: Rethinking RAG based Decoding
+  - Chunks as Arms: Multi-Armed Bandit-Guided Sampling for Long-Context LLM Preference Optimization
 - 效率优化
   - Efficient Attention: Attention with Linear Complexities
   - Transformers are RNNs: Fast Autoregressive Transformers with Linear Attention
