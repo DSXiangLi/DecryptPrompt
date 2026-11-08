@@ -209,6 +209,7 @@
 - [websim](https://websim.ai/c/07KjhaYR9DlvRuq9q): 使用AI生成的web模拟器通过指令直接构建复杂程度比较高的网站，哈哈我决定来做个自己的博客网站啦
 - [Neo](https://heyneo.so/blog): AI算法工程师，又到了自己优化自己的一天
 - [WeaveFox](http://weavefox.ai/)： 蚂蚁推出的设计图直接生成代码的框架，还没对外
+- [Imagera Code](https://imagera.ai/code)：终端里的 AI 编程 Agent，读写代码、跑命令和测试，一个订阅可用 Claude、GPT、Gemini 等数百个模型，额度每 3 小时重置；付费，$20/月起
 
 ### DB工具
 - [TableAgent](https://tableagent.datacanvas.com/): 九章云极推出的数据分析，机器学习智能体
@@ -246,6 +247,7 @@
 - [一帧秒创](https://aigc.yizhentv.com/home/app/): 支持图文转视频和数字人播报，个人体验比度加略弱
 - [Elai](https://app.elai.io/): 支持大纲直接生成数字人播报视频，免费试用只能制作几分钟
 - [pitchboom.io](https://pitchboom.io): 粘贴产品网址或两行简介，生成动态图形（motion design）视频广告：自动写脚本，生成可编辑、确认后才渲染的分镜，配音（34种语言）和配乐，输出1080p MP4，16:9、9:16、1:1、4:5、3:4 各画幅重新排版而非裁剪；注册即送500积分（无需绑卡），付费订阅每月30欧元起
+- [Imagera](https://imagera.ai)：网页端 AI 图片、视频、配音和音乐创作工作室，Character ID 让同一角色或产品在多个镜头中保持一致，AI Smart Director 一句提示词生成带分镜、剪辑、配乐和旁白的多镜头短片；付费订阅（积分制）
 
 ### 音频生成
 - [GenFM](https://elevenlabs.io/blog/genfm-on-elevenreader)：商业化多语言AI播客
